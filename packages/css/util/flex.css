@@ -1,0 +1,129 @@
+/* ───────────────────────────────────
+ * flex
+ * flex-basis
+ * flex-direction
+ * flex-wrap
+ * flex-grow
+ * flex-shrink
+ * flex-flow
+ * ───────────────────────────────────    */
+
+/* flex */
+.flex\:fill    { flex: 1 1 auto !important; }
+.flex\:none    { flex: none !important; }
+.flex\:auto    { flex: auto !important; }
+.flex\:initial { flex: initial !important; }
+
+/* flex-basis */
+.flex-basis\:auto { flex-basis: auto !important; }
+
+/* flex-direction */
+.flex-direction\:row,               .flex-d\:row { flex-direction: row !important; }
+.flex-direction\:row-reverse,       .flex-d\:row-reverse { flex-direction: row-reverse !important; }
+.flex-direction\:column,            .flex-d\:column { flex-direction: column !important; }
+.flex-direction\:column-reverse,    .flex-d\:column-reverse { flex-direction: column-reverse !important; }
+
+/* flex-wrap */
+.flex-wrap\:nowrap,                 .flex-w\:nowrap { flex-wrap: nowrap !important; }
+.flex-wrap\:wrap,                   .flex-w\:wrap { flex-wrap: wrap !important; }
+.flex-wrap\:wrap-reverse,           .flex-w\:wrap-reverse { flex-wrap: wrap-reverse !important; }
+
+/* flex-grow */
+.flex-grow\:0,                      .flex-g\:0 { flex-grow: 0 !important; }
+.flex-grow\:1,                      .flex-g\:1 { flex-grow: 1 !important; }
+
+/* flex-shrink */
+.flex-shrink\:0,                    .flex-s\:0 { flex-shrink: 0 !important; }
+.flex-shrink\:1,                    .flex-s\:1 { flex-shrink: 1 !important; }
+
+/* flex-flow */
+.flex-flow\:row,                    .flex-f\:row { flex-flow: row !important; }
+.flex-flow\:row-reverse,            .flex-f\:row-reverse { flex-flow: row-reverse !important; }
+.flex-flow\:column,                 .flex-f\:column { flex-flow: column !important; }
+.flex-flow\:column-reverse,         .flex-f\:column-reverse { flex-flow: column-reverse !important; }
+.flex-flow\:nowrap,                 .flex-f\:nowrap { flex-flow: nowrap !important; }
+.flex-flow\:wrap,                   .flex-f\:wrap { flex-flow: wrap !important; }
+.flex-flow\:wrap-reverse,           .flex-f\:wrap-reverse { flex-flow: wrap-reverse !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+
+    /* flex */
+    .md\:flex\:fill {flex: 1 1 auto !important;}
+    .md\:flex\:none { flex: none !important; }
+    .md\:flex\:auto { flex: auto !important; }
+    .md\:flex\:initial { flex: initial !important; }
+
+    /* flex-basis */
+    .md\:flex-basis\:auto,          .md\.fb\:auto { flex-basis: auto !important; }
+
+    /* flex-direction */
+    .md\:flex-direction\:row,               .md\:flex-d\:row { flex-direction: row !important; }
+    .md\:flex-direction\:row-reverse,       .md\:flex-d\:row-reverse { flex-direction: row-reverse !important; }
+    .md\:flex-direction\:column,            .md\:flex-d\:column { flex-direction: column !important; }
+    .md\:flex-direction\:column-reverse,    .md\:flex-d\:column-reverse { flex-direction: column-reverse !important; }
+
+    /* flex-wrap */
+    .md\:flex-wrap\:nowrap,                 .md\:flex-w\:nowrap { flex-wrap: nowrap !important; }
+    .md\:flex-wrap\:wrap,                   .md\:flex-w\:wrap { flex-wrap: wrap !important; }
+    .md\:flex-wrap\:wrap-reverse,           .md\:flex-w\:wrap-reverse { flex-wrap: wrap-reverse !important; }
+
+    /* flex-grow */
+    .md\:flex-grow\:0,                      .md\:flex-g\:0 { flex-grow: 0 !important; }
+    .md\:flex-grow\:1,                      .md\:flex-g\:1 { flex-grow: 1 !important; }
+
+    /* flex-shrink */
+    .md\:flex-shrink\:0,                    .md\:flex-s\:0 { flex-shrink: 0 !important; }
+    .md\:flex-shrink\:1,                    .md\:flex-s\:1 { flex-shrink: 1 !important; }
+
+    /* flex-flow */
+    .md\:flex-flow\:row,                    .md\:flex-f\:row { flex-flow: row !important; }
+    .md\:flex-flow\:row-reverse,            .md\:flex-f\:row-reverse { flex-flow: row-reverse !important; }
+    .md\:flex-flow\:column,                 .md\:flex-f\:column { flex-flow: column !important; }
+    .md\:flex-flow\:column-reverse,         .md\:flex-f\:column-reverse { flex-flow: column-reverse !important; }
+    .md\:flex-flow\:nowrap,                 .md\:flex-f\:nowrap { flex-flow: nowrap !important; }
+    .md\:flex-flow\:wrap,                   .md\:flex-f\:wrap { flex-flow: wrap !important; }
+    .md\:flex-flow\:wrap-reverse,           .md\:flex-f\:wrap-reverse { flex-flow: wrap-reverse !important; }
+
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+
+    /* flex */
+    .lg\:flex\:fill {flex: 1 1 auto !important;}
+    .lg\:flex\:none { flex: none !important; }
+    .lg\:flex\:auto { flex: auto !important; }
+    .lg\:flex\:initial { flex: initial !important; }
+
+    /* flex-basis */
+    .lg\:flex-basis\:auto,          .lg\.fb\:auto { flex-basis: auto !important; }
+
+    /* flex-direction */
+    .lg\:flex-direction\:row,               .lg\:flex-d\:row { flex-direction: row !important; }
+    .lg\:flex-direction\:row-reverse,       .lg\:flex-d\:row-reverse { flex-direction: row-reverse !important; }
+    .lg\:flex-direction\:column,            .lg\:flex-d\:column { flex-direction: column !important; }
+    .lg\:flex-direction\:column-reverse,    .lg\:flex-d\:column-reverse { flex-direction: column-reverse !important; }
+
+    /* flex-wrap */
+    .lg\:flex-wrap\:nowrap,                 .lg\:flex-w\:nowrap { flex-wrap: nowrap !important; }
+    .lg\:flex-wrap\:wrap,                   .lg\:flex-w\:wrap { flex-wrap: wrap !important; }
+    .lg\:flex-wrap\:wrap-reverse,           .lg\:flex-w\:wrap-reverse { flex-wrap: wrap-reverse !important; }
+
+    /* flex-grow */
+    .lg\:flex-grow\:0,                      .lg\:flex-g\:0 { flex-grow: 0 !important; }
+    .lg\:flex-grow\:1,                      .lg\:flex-g\:1 { flex-grow: 1 !important; }
+
+    /* flex-shrink */
+    .lg\:flex-shrink\:0,                    .lg\:flex-s\:0 { flex-shrink: 0 !important; }
+    .lg\:flex-shrink\:1,                    .lg\:flex-s\:1 { flex-shrink: 1 !important; }
+
+    /* flex-flow */
+    .lg\:flex-flow\:row,                    .lg\:flex-f\:row { flex-flow: row !important; }
+    .lg\:flex-flow\:row-reverse,            .lg\:flex-f\:row-reverse { flex-flow: row-reverse !important; }
+    .lg\:flex-flow\:column,                 .lg\:flex-f\:column { flex-flow: column !important; }
+    .lg\:flex-flow\:column-reverse,         .lg\:flex-f\:column-reverse { flex-flow: column-reverse !important; }
+    .lg\:flex-flow\:nowrap,                 .lg\:flex-f\:nowrap { flex-flow: nowrap !important; }
+    .lg\:flex-flow\:wrap,                   .lg\:flex-f\:wrap { flex-flow: wrap !important; }
+    .lg\:flex-flow\:wrap-reverse,           .lg\:flex-f\:wrap-reverse { flex-flow: wrap-reverse !important; }
+}

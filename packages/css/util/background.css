@@ -1,0 +1,248 @@
+/* ───────────────────────────────────
+ * background-attachment
+ * background-clip
+ * background-color
+ * background-origin
+ * background-position
+ * background-repeat
+ * background-size
+ * ───────────────────────────────────    */
+
+/*--- background-attachment ------------------------------------------------------------------*/
+.background-attachment\:fixed,            .bg-attachment\:fixed           { background-attachment: fixed !important; }
+.background-attachment\:local,            .bg-attachment\:local           { background-attachment: local !important; }
+.background-attachment\:scroll,           .bg-attachment\:scroll          { background-attachment: scroll !important; }
+.background-attachment\:initial,          .bg-attachment\:initial         { background-attachment: initial !important; }
+.background-attachment\:inherit,          .bg-attachment\:inherit         { background-attachment: inherit !important; }
+
+@media (min-width: 768px) {
+    .md\:background-attachment\:fixed,    .md\:bg-attachment\:fixed       { background-attachment: fixed !important; }
+    .md\:background-attachment\:local,    .md\:bg-attachment\:local       { background-attachment: local !important; }
+    .md\:background-attachment\:scroll,   .md\:bg-attachment\:scroll      { background-attachment: scroll !important; }
+    .md\:background-attachment\:initial,  .md\:bg-attachment\:initial     { background-attachment: initial !important; }
+    .md\:background-attachment\:inherit,  .md\:bg-attachment\:inherit     { background-attachment: inherit !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-attachment\:fixed,              .lg\:bg-attachment\:fixed { background-attachment : fixed !important; }
+    .lg\:background-attachment\:local,              .lg\:bg-attachment\:local { background-attachment : local !important; }
+    .lg\:background-attachment\:scroll,             .lg\:bg-attachment\:scroll { background-attachment : scroll !important; }
+    .lg\:background-attachment\:initial,            .lg\:bg-attachment\:initial { background-attachment : initial !important; }
+    .lg\:background-attachment\:inherit,            .lg\:bg-attachment\:inherit { background-attachment : inherit !important; }
+}
+
+/*--- background-clip ------------------------------------------------------------------*/
+.background-clip\:border-box,           .bg-clip\:border-box      { background-clip: border-box !important; }
+.background-clip\:padding-box,          .bg-clip\:padding-box     { background-clip: padding-box !important; }
+.background-clip\:content-box,          .bg-clip\:content-box     { background-clip: content-box !important; }
+.background-clip\:text,                 .bg-clip\:text            { background-clip: text !important; }
+.background-clip\:initial,              .bg-clip\:initial         { background-clip: initial !important; }
+.background-clip\:inherit,              .bg-clip\:inherit         { background-clip: inherit !important; }
+
+@media (min-width: 768px) {
+    .md\:background-clip\:border-box,   .md\:bg-clip\:border-box  { background-clip: border-box !important; }
+    .md\:background-clip\:padding-box,  .md\:bg-clip\:padding-box { background-clip: padding-box !important; }
+    .md\:background-clip\:content-box,  .md\:bg-clip\:content-box { background-clip: content-box !important; }
+    .md\:background-clip\:text,         .md\:bg-clip\:text        { background-clip: text !important; }
+    .md\:background-clip\:initial,      .md\:bg-clip\:initial     { background-clip: initial !important; }
+    .md\:background-clip\:inherit,      .md\:bg-clip\:inherit     { background-clip: inherit !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-clip\:border-box,               .lg\:bg-clip\:border-box { background-clip : border-box !important; }
+    .lg\:background-clip\:padding-box,              .lg\:bg-clip\:padding-box { background-clip : padding-box !important; }
+    .lg\:background-clip\:content-box,              .lg\:bg-clip\:content-box { background-clip : content-box !important; }
+    .lg\:background-clip\:text,                     .lg\:bg-clip\:text { background-clip : text !important; }
+    .lg\:background-clip\:initial,                  .lg\:bg-clip\:initial { background-clip : initial !important; }
+    .lg\:background-clip\:inherit,                  .lg\:bg-clip\:inherit { background-clip : inherit !important; }
+}
+
+/*--- background-color ------------------------------------------------------------------*/
+.background-color\:transparent,                          .bg-color\:transparent { background-color: transparent !important; }
+
+.background-color\:main-1,                                     .bg-color\:main-1 { background-color : var(--color-main-1) !important; }
+.background-color\:main-2,                                     .bg-color\:main-2 { background-color : var(--color-main-2) !important; }
+.background-color\:main-3,                                     .bg-color\:main-3 { background-color : var(--color-main-3) !important; }
+
+.background-color\:sub-1,                                      .bg-color\:sub-1 { background-color : var(--color-sub-1) !important; }
+.background-color\:sub-2,                                      .bg-color\:sub-2 { background-color : var(--color-sub-2) !important; }
+.background-color\:sub-3,                                      .bg-color\:sub-3 { background-color : var(--color-sub-3) !important; }
+
+.background-color\:accent-1,                                   .bg-color\:accent-1 { background-color : var(--color-accent-1) !important; }
+.background-color\:accent-2,                                   .bg-color\:accent-2 { background-color : var(--color-accent-2) !important; }
+.background-color\:accent-3,                                   .bg-color\:accent-3 { background-color : var(--color-accent-3) !important; }
+
+.background-color\:base-1,                                     .bg-color\:base-1 { background-color : var(--color-base-1) !important; }
+.background-color\:base-2,                                     .bg-color\:base-2 { background-color : var(--color-base-2) !important; }
+.background-color\:base-3,                                     .bg-color\:base-3 { background-color : var(--color-base-3) !important; }
+.background-color\:base-4,                                     .bg-color\:base-4 { background-color : var(--color-base-4) !important; }
+.background-color\:base-5,                                     .bg-color\:base-5 { background-color : var(--color-base-5) !important; }
+.background-color\:base-6,                                     .bg-color\:base-6 { background-color : var(--color-base-6) !important; }
+.background-color\:base-7,                                     .bg-color\:base-7 { background-color : var(--color-base-7) !important; }
+.background-color\:base-8,                                     .bg-color\:base-8 { background-color : var(--color-base-8) !important; }
+.background-color\:base-9,                                     .bg-color\:base-9 { background-color : var(--color-base-9) !important; }
+.background-color\:base-10,                                    .bg-color\:base-10 { background-color : var(--color-base-10) !important; }
+
+@media (min-width: 768px) {
+    .md\:background-color\:transparent,                          .md\:bg-color\:transparent { background-color: transparent !important; }
+
+    .md\:background-color\:main-1,                                     .md\:bg-color\:main-1 { background-color : var(--color-main-1) !important; }
+    .md\:background-color\:main-2,                                     .md\:bg-color\:main-2 { background-color : var(--color-main-2) !important; }
+    .md\:background-color\:main-3,                                     .md\:bg-color\:main-3 { background-color : var(--color-main-3) !important; }
+
+    .md\:background-color\:sub-1,                                      .md\:bg-color\:sub-1 { background-color : var(--color-sub-1) !important; }
+    .md\:background-color\:sub-2,                                      .md\:bg-color\:sub-2 { background-color : var(--color-sub-2) !important; }
+    .md\:background-color\:sub-3,                                      .md\:bg-color\:sub-3 { background-color : var(--color-sub-3) !important; }
+
+    .md\:background-color\:accent-1,                                   .md\:bg-color\:accent-1 { background-color : var(--color-accent-1) !important; }
+    .md\:background-color\:accent-2,                                   .md\:bg-color\:accent-2 { background-color : var(--color-accent-2) !important; }
+    .md\:background-color\:accent-3,                                   .md\:bg-color\:accent-3 { background-color : var(--color-accent-3) !important; }
+
+    .md\:background-color\:base-1,                                     .md\:bg-color\:base-1 { background-color : var(--color-base-1) !important; }
+    .md\:background-color\:base-2,                                     .md\:bg-color\:base-2 { background-color : var(--color-base-2) !important; }
+    .md\:background-color\:base-3,                                     .md\:bg-color\:base-3 { background-color : var(--color-base-3) !important; }
+    .md\:background-color\:base-4,                                     .md\:bg-color\:base-4 { background-color : var(--color-base-4) !important; }
+    .md\:background-color\:base-5,                                     .md\:bg-color\:base-5 { background-color : var(--color-base-5) !important; }
+    .md\:background-color\:base-6,                                     .md\:bg-color\:base-6 { background-color : var(--color-base-6) !important; }
+    .md\:background-color\:base-7,                                     .md\:bg-color\:base-7 { background-color : var(--color-base-7) !important; }
+    .md\:background-color\:base-8,                                     .md\:bg-color\:base-8 { background-color : var(--color-base-8) !important; }
+    .md\:background-color\:base-9,                                     .md\:bg-color\:base-9 { background-color : var(--color-base-9) !important; }
+    .md\:background-color\:base-10,                                    .md\:bg-color\:base-10 { background-color : var(--color-base-10) !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-color\:transparent,                          .lg\:bg-color\:transparent { background-color: transparent !important; }
+
+    .lg\:background-color\:main-1,                                     .lg\:bg-color\:main-1 { background-color : var(--color-main-1) !important; }
+    .lg\:background-color\:main-2,                                     .lg\:bg-color\:main-2 { background-color : var(--color-main-2) !important; }
+    .lg\:background-color\:main-3,                                     .lg\:bg-color\:main-3 { background-color : var(--color-main-3) !important; }
+
+    .lg\:background-color\:sub-1,                                      .lg\:bg-color\:sub-1 { background-color : var(--color-sub-1) !important; }
+    .lg\:background-color\:sub-2,                                      .lg\:bg-color\:sub-2 { background-color : var(--color-sub-2) !important; }
+    .lg\:background-color\:sub-3,                                      .lg\:bg-color\:sub-3 { background-color : var(--color-sub-3) !important; }
+
+    .lg\:background-color\:accent-1,                                   .lg\:bg-color\:accent-1 { background-color : var(--color-accent-1) !important; }
+    .lg\:background-color\:accent-2,                                   .lg\:bg-color\:accent-2 { background-color : var(--color-accent-2) !important; }
+    .lg\:background-color\:accent-3,                                   .lg\:bg-color\:accent-3 { background-color : var(--color-accent-3) !important; }
+
+    .lg\:background-color\:base-1,                                     .lg\:bg-color\:base-1 { background-color : var(--color-base-1) !important; }
+    .lg\:background-color\:base-2,                                     .lg\:bg-color\:base-2 { background-color : var(--color-base-2) !important; }
+    .lg\:background-color\:base-3,                                     .lg\:bg-color\:base-3 { background-color : var(--color-base-3) !important; }
+    .lg\:background-color\:base-4,                                     .lg\:bg-color\:base-4 { background-color : var(--color-base-4) !important; }
+    .lg\:background-color\:base-5,                                     .lg\:bg-color\:base-5 { background-color : var(--color-base-5) !important; }
+    .lg\:background-color\:base-6,                                     .lg\:bg-color\:base-6 { background-color : var(--color-base-6) !important; }
+    .lg\:background-color\:base-7,                                     .lg\:bg-color\:base-7 { background-color : var(--color-base-7) !important; }
+    .lg\:background-color\:base-8,                                     .lg\:bg-color\:base-8 { background-color : var(--color-base-8) !important; }
+    .lg\:background-color\:base-9,                                     .lg\:bg-color\:base-9 { background-color : var(--color-base-9) !important; }
+    .lg\:background-color\:base-10,                                    .lg\:bg-color\:base-10 { background-color : var(--color-base-10) !important; }
+}
+
+/*--- background-origin ------------------------------------------------------------------*/
+.background-origin\:border-box,           .bg-origin\:border-box      { background-origin: border-box !important; }
+.background-origin\:padding-box,          .bg-origin\:padding-box     { background-origin: padding-box !important; }
+.background-origin\:content-box,          .bg-origin\:content-box     { background-origin: content-box !important; }
+
+@media (min-width: 768px) {
+    .md\:background-origin\:border-box,   .md\:bg-origin\:border-box  { background-origin: border-box !important; }
+    .md\:background-origin\:padding-box,  .md\:bg-origin\:padding-box { background-origin: padding-box !important; }
+    .md\:background-origin\:content-box,  .md\:bg-origin\:content-box { background-origin: content-box !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-origin\:border-box,             .lg\:bg-origin\:border-box { background-origin : border-box !important; }
+    .lg\:background-origin\:padding-box,            .lg\:bg-origin\:padding-box { background-origin : padding-box !important; }
+    .lg\:background-origin\:content-box,            .lg\:bg-origin\:content-box { background-origin : content-box !important; }
+}
+
+/*--- background-position ------------------------------------------------------------------*/
+.background-position\:top,                      .bg-position\:top                    .bg-pos\:top { background-position: top !important; }
+.background-position\:bottom,                   .bg-position\:bottom                 .bg-pos\:bottom { background-position: bottom !important; }
+.background-position\:left,                     .bg-position\:left                   .bg-pos\:left { background-position: left !important; }
+.background-position\:left-bottom,              .bg-position\:left-bottom            .bg-pos\:left-bottom { background-position: left bottom !important; }
+.background-position\:left-top,                 .bg-position\:left-top               .bg-pos\:left-top { background-position: left top !important; }
+.background-position\:right,                    .bg-position\:right                  .bg-pos\:right { background-position: right !important; }
+.background-position\:right-bottom,             .bg-position\:right-bottom           .bg-pos\:right-bottom { background-position: right bottom !important; }
+.background-position\:right-top,                .bg-position\:right-top              .bg-pos\:right-top { background-position: right top !important; }
+.background-position\:center,                   .bg-position\:center                 .bg-pos\:center { background-position: center !important; }
+.background-position\:inherit,                  .bg-position\:inherit                .bg-pos\:inherit { background-position: inherit !important; }
+.background-position\:initial,                  .bg-position\:initial                .bg-pos\:initial { background-position: initial !important; }
+.background-position\:unset,                    .bg-position\:unset                  .bg-pos\:unset { background-position: unset !important; }
+
+@media (min-width: 768px) {
+    .md\:background-position\:top,                  .md\:bg-position\:top,                  .md\:bg-pos\:top { background-position : top !important; }
+    .md\:background-position\:bottom,               .md\:bg-position\:bottom,               .md\:bg-pos\:bottom { background-position : bottom !important; }
+    .md\:background-position\:left,                 .md\:bg-position\:left,                 .md\:bg-pos\:left { background-position : left !important; }
+    .md\:background-position\:left-bottom,          .md\:bg-position\:left-bottom,          .md\:bg-pos\:left-bottom { background-position : left-bottom !important; }
+    .md\:background-position\:left-top,             .md\:bg-position\:left-top,             .md\:bg-pos\:left-top { background-position : left-top !important; }
+    .md\:background-position\:right,                .md\:bg-position\:right,                .md\:bg-pos\:right { background-position : right !important; }
+    .md\:background-position\:right-bottom,         .md\:bg-position\:right-bottom,         .md\:bg-pos\:right-bottom { background-position : right-bottom !important; }
+    .md\:background-position\:right-top,            .md\:bg-position\:right-top,            .md\:bg-pos\:right-top { background-position : right-top !important; }
+    .md\:background-position\:center,               .md\:bg-position\:center,               .md\:bg-pos\:center { background-position : center !important; }
+    .md\:background-position\:inherit,              .md\:bg-position\:inherit,              .md\:bg-pos\:inherit { background-position : inherit !important; }
+    .md\:background-position\:initial,              .md\:bg-position\:initial,              .md\:bg-pos\:initial { background-position : initial !important; }
+    .md\:background-position\:unset,                .md\:bg-position\:unset,                .md\:bg-pos\:unset { background-position : unset !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-position\:top,                  .lg\:bg-position\:top,                  .lg\:bg-pos\:top { background-position : top !important; }
+    .lg\:background-position\:bottom,               .lg\:bg-position\:bottom,               .lg\:bg-pos\:bottom { background-position : bottom !important; }
+    .lg\:background-position\:left,                 .lg\:bg-position\:left,                 .lg\:bg-pos\:left { background-position : left !important; }
+    .lg\:background-position\:left-bottom,          .lg\:bg-position\:left-bottom,          .lg\:bg-pos\:left-bottom { background-position : left-bottom !important; }
+    .lg\:background-position\:left-top,             .lg\:bg-position\:left-top,             .lg\:bg-pos\:left-top { background-position : left-top !important; }
+    .lg\:background-position\:right,                .lg\:bg-position\:right,                .lg\:bg-pos\:right { background-position : right !important; }
+    .lg\:background-position\:right-bottom,         .lg\:bg-position\:right-bottom,         .lg\:bg-pos\:right-bottom { background-position : right-bottom !important; }
+    .lg\:background-position\:right-top,            .lg\:bg-position\:right-top,            .lg\:bg-pos\:right-top { background-position : right-top !important; }
+    .lg\:background-position\:center,               .lg\:bg-position\:center,               .lg\:bg-pos\:center { background-position : center !important; }
+    .lg\:background-position\:inherit,              .lg\:bg-position\:inherit,              .lg\:bg-pos\:inherit { background-position : inherit !important; }
+    .lg\:background-position\:initial,              .lg\:bg-position\:initial,              .lg\:bg-pos\:initial { background-position : initial !important; }
+    .lg\:background-position\:unset,                .lg\:bg-position\:unset,                .lg\:bg-pos\:unset { background-position : unset !important; }
+}
+
+/*--- background-repeat ------------------------------------------------------------------*/
+.background-repeat\:repeat,             .bg-repeat\:repeat                  { background-repeat: repeat !important; }
+.background-repeat\:no-repeat,          .bg-repeat\:no-repeat               { background-repeat: no-repeat !important; }
+.background-repeat\:repeat-x,           .bg-repeat\:repeat-x                { background-repeat: repeat-x !important; }
+.background-repeat\:repeat-y,           .bg-repeat\:repeat-y                { background-repeat: repeat-y !important; }
+.background-repeat\:space,              .bg-repeat\:space                   { background-repeat: space !important; }
+.background-repeat\:round,              .bg-repeat\:round                   { background-repeat: round !important; }
+
+@media (min-width: 768px) {
+    .md\:background-repeat\:repeat,     .md\:bg-repeat\:repeat              { background-repeat: repeat !important; }
+    .md\:background-repeat\:no-repeat,  .md\:bg-repeat\:no-repeat           { background-repeat: no-repeat !important; }
+    .md\:background-repeat\:repeat-x,   .md\:bg-repeat\:repeat-x            { background-repeat: repeat-x !important; }
+    .md\:background-repeat\:repeat-y,   .md\:bg-repeat\:repeat-y            { background-repeat: repeat-y !important; }
+    .md\:background-repeat\:space,      .md\:bg-repeat\:space               { background-repeat: space !important; }
+    .md\:background-repeat\:round,      .md\:bg-repeat\:round               { background-repeat: round !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-repeat\:repeat,                 .lg\:bg-repeat\:repeat { background-repeat : repeat !important; }
+    .lg\:background-repeat\:no-repeat,              .lg\:bg-repeat\:no-repeat { background-repeat : no-repeat !important; }
+    .lg\:background-repeat\:repeat-x,               .lg\:bg-repeat\:repeat-x { background-repeat : repeat-x !important; }
+    .lg\:background-repeat\:repeat-y,               .lg\:bg-repeat\:repeat-y { background-repeat : repeat-y !important; }
+    .lg\:background-repeat\:space,                  .lg\:bg-repeat\:space { background-repeat : space !important; }
+    .lg\:background-repeat\:round,                  .lg\:bg-repeat\:round { background-repeat : round !important; }
+}
+
+/*--- background-size ------------------------------------------------------------------*/
+.background-size\:auto,           .bg-size\:auto          { background-size: auto !important; }
+.background-size\:cover,          .bg-size\:cover         { background-size: cover !important; }
+.background-size\:contain,        .bg-size\:contain       { background-size: contain !important; }
+.background-size\:initial,        .bg-size\:initial       { background-size: initial !important; }
+.background-size\:inherit,        .bg-size\:inherit       { background-size: inherit !important; }
+
+@media (min-width: 768px) {
+    .md\:background-size\:auto,           .md\:bg-size\:auto          { background-size: auto !important; }
+    .md\:background-size\:cover,          .md\:bg-size\:cover         { background-size: cover !important; }
+    .md\:background-size\:contain,        .md\:bg-size\:contain       { background-size: contain !important; }
+    .md\:background-size\:initial,        .md\:bg-size\:initial       { background-size: initial !important; }
+    .md\:background-size\:inherit,        .md\:bg-size\:inherit       { background-size: inherit !important; }
+}
+
+@media (min-width: 1200px) {
+    .lg\:background-size\:auto,             .lg\:bg-size\:auto { background-size : auto !important; }
+    .lg\:background-size\:cover,            .lg\:bg-size\:cover { background-size : cover !important; }
+    .lg\:background-size\:contain,          .lg\:bg-size\:contain { background-size : contain !important; }
+    .lg\:background-size\:initial,          .lg\:bg-size\:initial { background-size : initial !important; }
+    .lg\:background-size\:inherit,          .lg\:bg-size\:inherit { background-size : inherit !important; }
+}
