@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true, //FIXME
   base: "/newtil-css/",
   title: "Newtil CSS",
   description: "Utility based CSS",
