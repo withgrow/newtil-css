@@ -1,0 +1,114 @@
+
+/* justify-content */
+.justify-content\:start,                        .justify-c\:start,          .jc\:start { justify-content : start !important; }
+.justify-content\:center,                       .justify-c\:center,         .jc\:center { justify-content : center !important; }
+.justify-content\:end,                          .justify-c\:end,            .jc\:end { justify-content: end !important; }
+.justify-content\:flex-start,                   .justify-c\:flex-start,     .jc\:flex-start { justify-content: flex-start !important; }
+.justify-content\:flex-end,                     .justify-c\:flex-end,       .jc\:flex-end { justify-content: flex-end !important; }
+.justify-content\:left,                         .justify-c\:left,           .jc\:left { justify-content: left !important; }
+.justify-content\:right,                        .justify-c\:right,          .jc\:right { justify-content: right !important; }
+.justify-content\:space-between,                .justify-c\:space-between,  .jc\:space-between { justify-content : space-between !important; }
+.justify-content\:space-around,                 .justify-c\:space-around,   .jc\:space-around { justify-content : space-around !important; }
+.justify-content\:space-evenly,                 .justify-c\:space-evenly,   .jc\:space-evenly { justify-content : space-evenly !important; }
+
+/* justify-items */
+.justify-items\:stretch,                        .justify-i\:stretch,        .ji\:stretch { justify-items : stretch !important; }
+.justify-items\:center,                         .justify-i\:center,         .ji\:center { justify-items : center !important; }
+.justify-items\:start,                          .justify-i\:start,          .ji\:start { justify-items : start !important; }
+.justify-items\:end,                            .justify-i\:end,            .ji\:end { justify-items : end !important; }
+.justify-items\:flex-start,                     .justify-i\:flex-start,     .ji\:flex-start { justify-items: flex-start !important; }
+.justify-items\:flex-end,                       .justify-i\:flex-end,       .ji\:flex-end { justify-items: flex-end !important; }
+.justify-items\:self-start,                     .justify-i\:self-start,     .ji\:self-start { justify-items: self-start !important; }
+.justify-items\:self-end,                       .justify-i\:self-end,       .ji\:slef-end { justify-items: self-end !important; }
+.justify-items\:left,                           .justify-i\:left,           .ji\:left { justify-items: left !important; }
+.justify-items\:right,                          .justify-i\:right,          .ji\:right { justify-items: right !important; }
+
+/* justify-self */
+.justify-self\:stretch,                        .justify-s\:stretch,        .js\:stretch { justify-self : stretch !important; }
+.justify-self\:center,                         .justify-s\:center,         .js\:center { justify-self : center !important; }
+.justify-self\:start,                          .justify-s\:start,          .js\:start { justify-self : start !important; }
+.justify-self\:end,                            .justify-s\:end,            .js\:end { justify-self : end !important; }
+.justify-self\:flex-start,                     .justify-s\:flex-start,     .js\:flex-start { justify-self: flex-start !important; }
+.justify-self\:flex-end,                       .justify-s\:flex-end,       .js\:flex-end { justify-self: flex-end !important; }
+.justify-self\:self-start,                     .justify-s\:self-start,     .js\:self-start { justify-self: self-start !important; }
+.justify-self\:self-end,                       .justify-s\:self-end,       .js\:slef-end { justify-self: self-end !important; }
+.justify-self\:left,                           .justify-s\:left,           .js\:left { justify-self: left !important; }
+.justify-self\:right,                          .justify-s\:right,          .js\:right { justify-self: right !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+  /* justify-content */
+  .md\:justify-content\:start,                        .md\:justify-c\:start,          .md\:jc\:start { justify-content : start !important; }
+  .md\:justify-content\:center,                       .md\:justify-c\:center,         .md\:jc\:center { justify-content : center !important; }
+  .md\:justify-content\:end,                          .md\:justify-c\:end,            .md\:jc\:end { justify-content: end !important; }
+  .md\:justify-content\:flex-start,                   .md\:justify-c\:flex-start,     .md\:jc\:flex-start { justify-content: flex-start !important; }
+  .md\:justify-content\:flex-end,                     .md\:justify-c\:flex-end,       .md\:jc\:flex-end { justify-content: flex-end !important; }
+  .md\:justify-content\:left,                         .md\:justify-c\:left,           .md\:jc\:left { justify-content: left !important; }
+  .md\:justify-content\:right,                        .md\:justify-c\:right,          .md\:jc\:right { justify-content: right !important; }
+  .md\:justify-content\:space-between,                .md\:justify-c\:space-between,  .md\:jc\:space-between { justify-content : space-between !important; }
+  .md\:justify-content\:space-around,                 .md\:justify-c\:space-around,   .md\:jc\:space-around { justify-content : space-around !important; }
+  .md\:justify-content\:space-evenly,                 .md\:justify-c\:space-evenly,   .md\:jc\:space-evenly { justify-content : space-evenly !important; }
+
+  /* justify-items */
+  .md\:justify-items\:stretch,                        .md\:justify-i\:stretch,        .md\:ji\:stretch { justify-items : stretch !important; }
+  .md\:justify-items\:center,                         .md\:justify-i\:center,         .md\:ji\:center { justify-items : center !important; }
+  .md\:justify-items\:start,                          .md\:justify-i\:start,          .md\:ji\:start { justify-items : start !important; }
+  .md\:justify-items\:end,                            .md\:justify-i\:end,            .md\:ji\:end { justify-items : end !important; }
+  .md\:justify-items\:flex-start,                     .md\:justify-i\:flex-start,     .md\:ji\:flex-start { justify-items: flex-start !important; }
+  .md\:justify-items\:flex-end,                       .md\:justify-i\:flex-end,       .md\:ji\:flex-end { justify-items: flex-end !important; }
+  .md\:justify-items\:self-start,                     .md\:justify-i\:self-start,     .md\:ji\:self-start { justify-items: self-start !important; }
+  .md\:justify-items\:self-end,                       .md\:justify-i\:self-end,       .md\:ji\:slef-end { justify-items: self-end !important; }
+  .md\:justify-items\:left,                           .md\:justify-i\:left,           .md\:ji\:left { justify-items: left !important; }
+  .md\:justify-items\:right,                          .md\:justify-i\:right,          .md\:ji\:right { justify-items: right !important; }
+
+  /* justify-self */
+  .md\:justify-self\:stretch,                        .md\:justify-s\:stretch,        .md\:js\:stretch { justify-self : stretch !important; }
+  .md\:justify-self\:center,                         .md\:justify-s\:center,         .md\:js\:center { justify-self : center !important; }
+  .md\:justify-self\:start,                          .md\:justify-s\:start,          .md\:js\:start { justify-self : start !important; }
+  .md\:justify-self\:end,                            .md\:justify-s\:end,            .md\:js\:end { justify-self : end !important; }
+  .md\:justify-self\:flex-start,                     .md\:justify-s\:flex-start,     .md\:js\:flex-start { justify-self: flex-start !important; }
+  .md\:justify-self\:flex-end,                       .md\:justify-s\:flex-end,       .md\:js\:flex-end { justify-self: flex-end !important; }
+  .md\:justify-self\:self-start,                     .md\:justify-s\:self-start,     .md\:js\:self-start { justify-self: self-start !important; }
+  .md\:justify-self\:self-end,                       .md\:justify-s\:self-end,       .md\:js\:slef-end { justify-self: self-end !important; }
+  .md\:justify-self\:left,                           .md\:justify-s\:left,           .md\:js\:left { justify-self: left !important; }
+  .md\:justify-self\:right,                          .md\:justify-s\:right,          .md\:js\:right { justify-self: right !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+  /* justify-content */
+.lg\:justify-content\:start,                        .lg\:justify-c\:start,          .lg\:jc\:start { justify-content : start !important; }
+.lg\:justify-content\:center,                       .lg\:justify-c\:center,         .lg\:jc\:center { justify-content : center !important; }
+.lg\:justify-content\:end,                          .lg\:justify-c\:end,            .lg\:jc\:end { justify-content: end !important; }
+.lg\:justify-content\:flex-start,                   .lg\:justify-c\:flex-start,     .lg\:jc\:flex-start { justify-content: flex-start !important; }
+.lg\:justify-content\:flex-end,                     .lg\:justify-c\:flex-end,       .lg\:jc\:flex-end { justify-content: flex-end !important; }
+.lg\:justify-content\:left,                         .lg\:justify-c\:left,           .lg\:jc\:left { justify-content: left !important; }
+.lg\:justify-content\:right,                        .lg\:justify-c\:right,          .lg\:jc\:right { justify-content: right !important; }
+.lg\:justify-content\:space-between,                .lg\:justify-c\:space-between,  .lg\:jc\:space-between { justify-content : space-between !important; }
+.lg\:justify-content\:space-around,                 .lg\:justify-c\:space-around,   .lg\:jc\:space-around { justify-content : space-around !important; }
+.lg\:justify-content\:space-evenly,                 .lg\:justify-c\:space-evenly,   .lg\:jc\:space-evenly { justify-content : space-evenly !important; }
+
+/* justify-items */
+.lg\:justify-items\:stretch,                        .lg\:justify-i\:stretch,        .lg\:ji\:stretch { justify-items : stretch !important; }
+.lg\:justify-items\:center,                         .lg\:justify-i\:center,         .lg\:ji\:center { justify-items : center !important; }
+.lg\:justify-items\:start,                          .lg\:justify-i\:start,          .lg\:ji\:start { justify-items : start !important; }
+.lg\:justify-items\:end,                            .lg\:justify-i\:end,            .lg\:ji\:end { justify-items : end !important; }
+.lg\:justify-items\:flex-start,                     .lg\:justify-i\:flex-start,     .lg\:ji\:flex-start { justify-items: flex-start !important; }
+.lg\:justify-items\:flex-end,                       .lg\:justify-i\:flex-end,       .lg\:ji\:flex-end { justify-items: flex-end !important; }
+.lg\:justify-items\:self-start,                     .lg\:justify-i\:self-start,     .lg\:ji\:self-start { justify-items: self-start !important; }
+.lg\:justify-items\:self-end,                       .lg\:justify-i\:self-end,       .lg\:ji\:slef-end { justify-items: self-end !important; }
+.lg\:justify-items\:left,                           .lg\:justify-i\:left,           .lg\:ji\:left { justify-items: left !important; }
+.lg\:justify-items\:right,                          .lg\:justify-i\:right,          .lg\:ji\:right { justify-items: right !important; }
+
+/* justify-self */
+.lg\:justify-self\:stretch,                        .lg\:justify-s\:stretch,        .lg\:js\:stretch { justify-self : stretch !important; }
+.lg\:justify-self\:center,                         .lg\:justify-s\:center,         .lg\:js\:center { justify-self : center !important; }
+.lg\:justify-self\:start,                          .lg\:justify-s\:start,          .lg\:js\:start { justify-self : start !important; }
+.lg\:justify-self\:end,                            .lg\:justify-s\:end,            .lg\:js\:end { justify-self : end !important; }
+.lg\:justify-self\:flex-start,                     .lg\:justify-s\:flex-start,     .lg\:js\:flex-start { justify-self: flex-start !important; }
+.lg\:justify-self\:flex-end,                       .lg\:justify-s\:flex-end,       .lg\:js\:flex-end { justify-self: flex-end !important; }
+.lg\:justify-self\:self-start,                     .lg\:justify-s\:self-start,     .lg\:js\:self-start { justify-self: self-start !important; }
+.lg\:justify-self\:self-end,                       .lg\:justify-s\:self-end,       .lg\:js\:slef-end { justify-self: self-end !important; }
+.lg\:justify-self\:left,                           .lg\:justify-s\:left,           .lg\:js\:left { justify-self: left !important; }
+.lg\:justify-self\:right,                          .lg\:justify-s\:right,          .lg\:js\:right { justify-self: right !important; }
+}

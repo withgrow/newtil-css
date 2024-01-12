@@ -1,0 +1,155 @@
+/* ───────────────────────────────────
+ * font-color 
+ * font-style
+ * font-weight
+ * font-size
+ * ───────────────────────────────────    */
+
+/* font-color */
+.color\:main-1,                 .c\:main-1 { color : var(--color-main-1) !important; }
+.color\:main-2,                 .c\:main-2 { color : var(--color-main-2) !important; }
+.color\:main-3,                 .c\:main-3 { color : var(--color-main-3) !important; }
+
+.color\:sub-1,                  .c\:sub-1 { color : var(--color-sub-1) !important; }
+.color\:sub-2,                  .c\:sub-2 { color : var(--color-sub-2) !important; }
+.color\:sub-3,                  .c\:sub-3 { color : var(--color-sub-3) !important; }
+
+.color\:accent-1,               .c\:accent-1 { color : var(--color-accent-1) !important; }
+.color\:accent-2,               .c\:accent-2 { color : var(--color-accent-2) !important; }
+.color\:accent-3,               .c\:accent-3 { color : var(--color-accent-3) !important; }
+
+.color\:base-1,                 .c\:base-1 { color : var(--color-base-1) !important; }
+.color\:base-2,                 .c\:base-2 { color : var(--color-base-2) !important; }
+.color\:base-3,                 .c\:base-3 { color : var(--color-base-3) !important; }
+.color\:base-4,                 .c\:base-4 { color : var(--color-base-4) !important; }
+.color\:base-5,                 .c\:base-5 { color : var(--color-base-5) !important; }
+.color\:base-6,                 .c\:base-6 { color : var(--color-base-6) !important; }
+.color\:base-7,                 .c\:base-7 { color : var(--color-base-7) !important; }
+.color\:base-8,                 .c\:base-8 { color : var(--color-base-8) !important; }
+.color\:base-9,                 .c\:base-9 { color : var(--color-base-9) !important; }
+.color\:base-10,                .c\:base-10 { color : var(--color-base-10) !important; }
+
+/* font-style */
+.font-style\:normal             { font-style: normal !important; }
+.font-style\:italic             { font-style: italic !important; }
+.font-style\:inherit            { font-style: inherit !important; }
+.font-style\:initial            { font-style: initial !important; }
+.font-style\:unset              { font-style: unset !important; }
+
+/* font-weight */
+.font-weight\:1,                .font-w\:1 { font-weight: var(--font-weight-1) !important; }
+.font-weight\:2,                .font-w\:2 { font-weight: var(--font-weight-2) !important; }
+.font-weight\:3,                .font-w\:3 { font-weight: var(--font-weight-3) !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+
+  /* font-color */
+  .md\:color\:main-1,            .md\:c\:main-1 { color : var(--color-main-1) !important; }
+  .md\:color\:main-2,            .md\:c\:main-2 { color : var(--color-main-2) !important; }
+  .md\:color\:main-3,            .md\:c\:main-3 { color : var(--color-main-3) !important; }
+
+  .md\:color\:sub-1,             .md\:c\:sub-1 { color : var(--color-sub-1) !important; }
+  .md\:color\:sub-2,             .md\:c\:sub-2 { color : var(--color-sub-2) !important; }
+  .md\:color\:sub-3,             .md\:c\:sub-3 { color : var(--color-sub-3) !important; }
+
+  .md\:color\:accent-1,          .md\:c\:accent-1 { color : var(--color-accent-1) !important; }
+  .md\:color\:accent-2,          .md\:c\:accent-2 { color : var(--color-accent-2) !important; }
+  .md\:color\:accent-3,          .md\:c\:accent-3 { color : var(--color-accent-3) !important; }
+
+  .md\:color\:base-1,            .md\:c\:base-1 { color : var(--color-base-1) !important; }
+  .md\:color\:base-2,            .md\:c\:base-2 { color : var(--color-base-2) !important; }
+  .md\:color\:base-3,            .md\:c\:base-3 { color : var(--color-base-3) !important; }
+  .md\:color\:base-4,            .md\:c\:base-4 { color : var(--color-base-4) !important; }
+  .md\:color\:base-5,            .md\:c\:base-5 { color : var(--color-base-5) !important; }
+  .md\:color\:base-6,            .md\:c\:base-6 { color : var(--color-base-6) !important; }
+  .md\:color\:base-7,            .md\:c\:base-7 { color : var(--color-base-7) !important; }
+  .md\:color\:base-8,            .md\:c\:base-8 { color : var(--color-base-8) !important; }
+  .md\:color\:base-9,            .md\:c\:base-9 { color : var(--color-base-9) !important; }
+  .md\:color\:base-10,           .md\:c\:base-10 { color : var(--color-base-10) !important; }
+
+  /* font-style */
+  .md\:font-style\:normal             { font-style: normal !important; }
+  .md\:font-style\:italic             { font-style: italic !important; }
+  .md\:font-style\:inherit            { font-style: inherit !important; }
+  .md\:font-style\:initial            { font-style: initial !important; }
+  .md\:font-style\:unset              { font-style: unset !important; }
+
+  /* font-weight */
+  .md\:font-weight\:1,                .md\:font-w\:1 { font-weight: var(--font-weight-1); }
+  .md\:font-weight\:2,                .md\:font-w\:2 { font-weight: var(--font-weight-2); }
+  .md\:font-weight\:3,                .md\:font-w\:3 { font-weight: var(--font-weight-3); }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+  /* font-color */
+  .lg\:color\:main-1,            .lg\:c\:main-1 { color : var(--color-main-1) !important; }
+  .lg\:color\:main-2,            .lg\:c\:main-2 { color : var(--color-main-2) !important; }
+  .lg\:color\:main-3,            .lg\:c\:main-3 { color : var(--color-main-3) !important; }
+
+  .lg\:color\:sub-1,             .lg\:c\:sub-1 { color : var(--color-sub-1) !important; }
+  .lg\:color\:sub-2,             .lg\:c\:sub-2 { color : var(--color-sub-2) !important; }
+  .lg\:color\:sub-3,             .lg\:c\:sub-3 { color : var(--color-sub-3) !important; }
+
+  .lg\:color\:accent-1,          .lg\:c\:accent-1 { color : var(--color-accent-1) !important; }
+  .lg\:color\:accent-2,          .lg\:c\:accent-2 { color : var(--color-accent-2) !important; }
+  .lg\:color\:accent-3,          .lg\:c\:accent-3 { color : var(--color-accent-3) !important; }
+
+  .lg\:color\:base-1,            .lg\:c\:base-1 { color : var(--color-base-1) !important; }
+  .lg\:color\:base-2,            .lg\:c\:base-2 { color : var(--color-base-2) !important; }
+  .lg\:color\:base-3,            .lg\:c\:base-3 { color : var(--color-base-3) !important; }
+  .lg\:color\:base-4,            .lg\:c\:base-4 { color : var(--color-base-4) !important; }
+  .lg\:color\:base-5,            .lg\:c\:base-5 { color : var(--color-base-5) !important; }
+  .lg\:color\:base-6,            .lg\:c\:base-6 { color : var(--color-base-6) !important; }
+  .lg\:color\:base-7,            .lg\:c\:base-7 { color : var(--color-base-7) !important; }
+  .lg\:color\:base-8,            .lg\:c\:base-8 { color : var(--color-base-8) !important; }
+  .lg\:color\:base-9,            .lg\:c\:base-9 { color : var(--color-base-9) !important; }
+  .lg\:color\:base-10,           .lg\:c\:base-10 { color : var(--color-base-10) !important; }
+
+  /* font-style */
+  .lg\:font-style\:normal        { font-style: normal !important; }
+  .lg\:font-style\:italic        { font-style: italic !important; }
+  .lg\:font-style\:inherit       { font-style: inherit !important; }
+  .lg\:font-style\:initial       { font-style: initial !important; }
+  .lg\:font-style\:unset         { font-style: unset !important; }
+
+  /* font-weight */
+  .lg\:font-weight\:1,                .lg\:font-w\:1 { font-weight: var(--font-weight-1); }
+  .lg\:font-weight\:2,                .lg\:font-w\:2 { font-weight: var(--font-weight-2); }
+  .lg\:font-weight\:3,                .lg\:font-w\:3 { font-weight: var(--font-weight-3); }
+}
+
+.font-size\:1 { font-size: var(--font-size-1); }
+.font-size\:2 { font-size: var(--font-size-2); }
+.font-size\:3 { font-size: var(--font-size-3); }
+.font-size\:4 { font-size: var(--font-size-4); }
+.font-size\:5 { font-size: var(--font-size-5); }
+.font-size\:6 { font-size: var(--font-size-6); }
+.font-size\:7 { font-size: var(--font-size-7); }
+.font-size\:8 { font-size: var(--font-size-8); }
+.font-size\:9 { font-size: var(--font-size-9); }
+
+@media (min-width: 768px) {
+  .md\:font-size\:1 { font-size: var(--font-size-1); }
+  .md\:font-size\:2 { font-size: var(--font-size-2); }
+  .md\:font-size\:3 { font-size: var(--font-size-3); }
+  .md\:font-size\:4 { font-size: var(--font-size-4); }
+  .md\:font-size\:5 { font-size: var(--font-size-5); }
+  .md\:font-size\:6 { font-size: var(--font-size-6); }
+  .md\:font-size\:7 { font-size: var(--font-size-7); }
+  .md\:font-size\:8 { font-size: var(--font-size-8); }
+  .md\:font-size\:9 { font-size: var(--font-size-9); }
+}
+
+@media (min-width: 1200px) {
+  .lg\:font-size\:1 { font-size: var(--font-size-1); }
+  .lg\:font-size\:2 { font-size: var(--font-size-2); }
+  .lg\:font-size\:3 { font-size: var(--font-size-3); }
+  .lg\:font-size\:4 { font-size: var(--font-size-4); }
+  .lg\:font-size\:5 { font-size: var(--font-size-5); }
+  .lg\:font-size\:6 { font-size: var(--font-size-6); }
+  .lg\:font-size\:7 { font-size: var(--font-size-7); }
+  .lg\:font-size\:8 { font-size: var(--font-size-8); }
+  .lg\:font-size\:9 { font-size: var(--font-size-9); }
+}

@@ -1,0 +1,23 @@
+.box-sizing\:border-box,	     .box-s\:border-box  	  { box-sizing: border-box !important; }
+.box-sizing\:content-box,	     .box-s\:content-box     { box-sizing: content-box !important; }
+.box-sizing\:initial,	         .box-s\:initial 		  { box-sizing: initial !important; }
+.box-sizing\:inherit,		     .box-s\:inherit 	      { box-sizing: inherit !important; }
+.box-sizing\:unset,		         .box-s\:unset 		  { box-sizing: unset !important; }
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+    .md\:box-sizing\:border-box,  .md\:box-s\:border-box  { box-sizing: border-box !important; }
+    .md\:box-sizing\:content-box, .md\:box-s\:content-box { box-sizing: content-box !important; }
+    .md\:box-sizing\:initial,     .md\:box-s\:initial     { box-sizing: initial !important; }
+    .md\:box-sizing\:inherit,     .md\:box-s\:inherit     { box-sizing: inherit !important; }
+    .md\:box-sizing\:unset,       .md\:box-s\:unset       { box-sizing: unset !important; }
+}
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+    .lg\:box-sizing\:border-box,          .lg\:box-s\:border-box { box-sizing : border-box !important; }
+    .lg\:box-sizing\:content-box,         .lg\:box-s\:content-box { box-sizing : content-box !important; }
+    .lg\:box-sizing\:initial,             .lg\:box-s\:initial { box-sizing : initial !important; }
+    .lg\:box-sizing\:inherit,             .lg\:box-s\:inherit { box-sizing : inherit !important; }
+    .lg\:box-sizing\:unset,               .lg\:box-s\:unset { box-sizing : unset !important; }
+}
