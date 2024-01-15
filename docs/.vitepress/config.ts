@@ -41,14 +41,21 @@ export default defineConfig({
           { text: "스타일 재정의하기", link: "/customizing" },
         ],
       },
-      // {
-      //   text: "유틸리티",
-      //   base: "/utility",
-      //   items: [
-      //     { text: "유틸리티 시작하기", link: "/getting-started" },
-      //     { text: "display", link: "/display" },
-      //   ],
-      // },
+      {
+        text: "유틸리티",
+        base: "/utility",
+        items: [
+          { text: "display", link: "/display" },
+          {
+            text: "align-*",
+            items: [
+              { text: "align-content", link: "/align-style/align-content" },
+              { text: "align-items", link: "/align-style/align-items" },
+              { text: "align-self", link: "/align-style/align-self" },
+            ],
+          },
+        ],
+      },
     ],
 
     outline: {

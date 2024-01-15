@@ -1,0 +1,97 @@
+# align-self
+
+[align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self) 속성에 대한 유틸리티입니다.
+
+그리드나 플렉스 항목의 align-items 값을 덮어씁니다. 그리드에서는 그리드 영역 내에서 항목을 정렬하며, 플렉스박스에서는 교차 축을 기준으로 항목을 정렬합니다.
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">클래스</th>
+      <th scope="col">약어 클래스</th>
+      <th scope="col">속성</th>
+    </tr>
+  </thead>
+<tbody>
+  <!-- align-self:stretch -->
+  <tr>
+    <td><code>align-self:stretch</code></td>
+    <td>
+      <code>align-s:stretch</code><br>
+      <code>as:stretch</code>
+    </td>
+    <td><span class="code">align-self: stretch !important;</span></td>
+  </tr>
+
+  <!-- align-self:center -->
+  <tr>
+    <td><code>align-self:center</code></td>
+    <td>
+      <code>align-s:center</code><br>
+      <code>as:center</code>
+    </td>
+    <td><span class="code">align-self: center !important;</span></td>
+  </tr>
+
+  <!-- align-self:start -->
+  <tr>
+    <td><code>align-self:start</code></td>
+    <td>
+      <code>align-s:start</code><br>
+      <code>as:start</code>
+    </td>
+    <td><span class="code">align-self: start !important;</span></td>
+  </tr>
+
+  <!-- align-self:end -->
+  <tr>
+    <td><code>align-self:end</code></td>
+    <td>
+      <code>align-s:end</code><br>
+      <code>as:end</code>
+    </td>
+    <td><span class="code">align-self: end !important;</span></td>
+  </tr>
+
+  <!-- align-self:self-start -->
+  <tr>
+    <td><code>align-self:self-start</code></td>
+    <td>
+      <code>align-s:self-start</code><br>
+      <code>as:self-start</code>
+    </td>
+    <td><span class="code">align-self: self-start !important;</span></td>
+  </tr>
+
+  <!-- align-self:self-end -->
+  <tr>
+    <td><code>align-self:self-end</code></td>
+    <td>
+      <code>align-s:self-end</code><br>
+      <code>as:self-end</code>
+    </td>
+    <td><span class="code">align-self: self-end !important;</span></td>
+  </tr>
+
+  <!-- align-self:flex-start -->
+  <tr>
+    <td><code>align-self:flex-start</code></td>
+    <td>
+      <code>align-s:flex-start</code><br>
+      <code>as:flex-start</code>
+    </td>
+    <td><span class="code">align-self: flex-start !important;</span></td>
+  </tr>
+
+  <!-- align-self:flex-end -->
+  <tr>
+    <td><code>align-self:flex-end</code></td>
+    <td>
+      <code>align-s:flex-end</code><br>
+      <code>as:flex-end</code>
+    </td>
+    <td><span class="code">align-self: flex-end !important;</span></td>
+  </tr>
+</tbody>
+
+</table>
