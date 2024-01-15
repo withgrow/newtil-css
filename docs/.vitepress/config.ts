@@ -206,6 +206,39 @@ export default defineConfig({
                                 link: "/gap/row-gap"
                             }
                         ]
+                    },
+                    {
+                        text: "grid-*",
+                        items: [
+                            {
+                                text: "grid-auto-flow",
+                                link: "/grid/grid-auto-flow"
+                            },
+                            {
+                                text: "grid-auto-columns",
+                                link: "/grid/grid-auto-columns"
+                            },
+                            {
+                                text: "grid-auto-rows",
+                                link: "/grid/grid-auto-rows"
+                            },
+                            {
+                                text: "grid-template-columns",
+                                link: "/grid/grid-template-columns"
+                            },
+                            {
+                                text: "grid-template-rows",
+                                link: "/grid/grid-template-rows"
+                            },
+                            {
+                                text: "grid-column-span",
+                                link: "/grid/grid-column-span"
+                            },
+                            {
+                                text: "grid-row-span",
+                                link: "/grid/grid-row-span"
+                            }
+                        ]
                     }
                 ]
             }
