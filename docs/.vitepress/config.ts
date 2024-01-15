@@ -127,6 +127,10 @@ export default defineConfig({
                     {
                         text: "box-sizing",
                         link: "/box-sizing"
+                    },
+                    {
+                        text: "cursor",
+                        link: "/cursor"
                     }
                 ]
             }
