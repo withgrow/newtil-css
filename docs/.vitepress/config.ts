@@ -88,6 +88,14 @@ export default defineConfig({
                             {
                                 text: "background-position",
                                 link: "/background/background-position"
+                            },
+                            {
+                                text: "background-repeat",
+                                link: "/background/background-repeat"
+                            },
+                            {
+                                text: "background-size",
+                                link: "/background/background-size"
                             }
                         ]
                     }
