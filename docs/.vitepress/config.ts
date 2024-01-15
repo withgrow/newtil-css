@@ -123,6 +123,10 @@ export default defineConfig({
                                 link: "/border/border-radius"
                             }
                         ]
+                    },
+                    {
+                        text: "box-sizing",
+                        link: "/box-sizing"
                     }
                 ]
             }
