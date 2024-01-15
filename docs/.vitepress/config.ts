@@ -168,6 +168,27 @@ export default defineConfig({
                     {
                         text: "float",
                         link: "/float"
+                    },
+                    {
+                        text: "font-*",
+                        items: [
+                            {
+                                text: "font-color",
+                                link: "/font/font-color"
+                            },
+                            {
+                                text: "font-style",
+                                link: "/font/font-style"
+                            },
+                            {
+                                text: "font-weight",
+                                link: "/font/font-weight"
+                            },
+                            {
+                                text: "font-size",
+                                link: "/font/font-size"
+                            }
+                        ]
                     }
                 ]
             }
