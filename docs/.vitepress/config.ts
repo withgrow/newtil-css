@@ -131,6 +131,39 @@ export default defineConfig({
                     {
                         text: "cursor",
                         link: "/cursor"
+                    },
+                    {
+                        text: "flex-*",
+                        items: [
+                            {
+                                text: "flex",
+                                link: "/flex/flex"
+                            },
+                            {
+                                text: "flex-basis",
+                                link: "/flex/flex-basis"
+                            },
+                            {
+                                text: "flex-direction",
+                                link: "/flex/flex-direction"
+                            },
+                            {
+                                text: "flex-wrap",
+                                link: "/flex/flex-wrap"
+                            },
+                            {
+                                text: "flex-grow",
+                                link: "/flex/flex-grow"
+                            },
+                            {
+                                text: "flex-shrink",
+                                link: "/flex/flex-shrink"
+                            },
+                            {
+                                text: "flex-flow",
+                                link: "/flex/flex-flow"
+                            }
+                        ]
                     }
                 ]
             }
