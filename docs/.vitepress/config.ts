@@ -164,6 +164,10 @@ export default defineConfig({
                                 link: "/flex/flex-flow"
                             }
                         ]
+                    },
+                    {
+                        text: "float",
+                        link: "/float"
                     }
                 ]
             }
