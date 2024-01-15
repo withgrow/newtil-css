@@ -147,3 +147,29 @@
 .vp-doc tr:nth-child(2n) {
   background-color: var(--vp-c-bg);
 }
+
+.vp-doc td:last-child {
+  width: 100%;
+}
+
+/**
+ * 클래스 속성을 설명하는 표의 코드 스타일
+ *
+ * @example
+ * <td>
+ *   <span class="code">
+ *     { display: inline-block !important; }
+ *   </span>
+ * </td>
+ */
+.code {
+  color: #005cc5;
+  white-space: nowrap;
+}
+
+/**
+ * 코드 태그의 줄바꿈을 방지
+ */
+code {
+  white-space: nowrap;
+}
