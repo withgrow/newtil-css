@@ -51,6 +51,7 @@ export default defineConfig({
                     { text: "display", link: "/display" },
                     {
                         text: "align-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "align-content",
@@ -68,6 +69,7 @@ export default defineConfig({
                     },
                     {
                         text: "background-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "background-attachment",
@@ -101,6 +103,7 @@ export default defineConfig({
                     },
                     {
                         text: "border-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "border",
@@ -134,6 +137,7 @@ export default defineConfig({
                     },
                     {
                         text: "flex-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "flex",
@@ -171,6 +175,7 @@ export default defineConfig({
                     },
                     {
                         text: "font-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "font-color",
@@ -192,6 +197,7 @@ export default defineConfig({
                     },
                     {
                         text: "gap-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "gap",
@@ -209,6 +215,7 @@ export default defineConfig({
                     },
                     {
                         text: "grid-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "grid-auto-flow",
@@ -242,6 +249,7 @@ export default defineConfig({
                     },
                     {
                         text: "height-*",
+                        collapsed: true,
                         items: [
                             {
                                 text: "height",
