@@ -231,12 +231,12 @@ export default defineConfig({
                                 link: "/grid/grid-template-rows"
                             },
                             {
-                                text: "grid-column-span",
-                                link: "/grid/grid-column-span"
+                                text: "grid-column",
+                                link: "/grid/grid-column"
                             },
                             {
-                                text: "grid-row-span",
-                                link: "/grid/grid-row-span"
+                                text: "grid-row",
+                                link: "/grid/grid-row"
                             }
                         ]
                     }
