@@ -189,6 +189,23 @@ export default defineConfig({
                                 link: "/font/font-size"
                             }
                         ]
+                    },
+                    {
+                        text: "gap-*",
+                        items: [
+                            {
+                                text: "gap",
+                                link: "/gap/gap"
+                            },
+                            {
+                                text: "column-gap",
+                                link: "/gap/column-gap"
+                            },
+                            {
+                                text: "row-gap",
+                                link: "/gap/row-gap"
+                            }
+                        ]
                     }
                 ]
             }
