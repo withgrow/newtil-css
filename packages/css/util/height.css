@@ -80,8 +80,8 @@
 .min-height\:min,             .min-h\:min {
     min-height: min-content !important;
 }
-.min-height\:min-content,     .min-h\:min-content,
-.min-height\:min,             .min-h\:min{
+.min-height\:max-content,     .min-h\:max-content,
+.min-height\:max,             .min-h\:max {
     min-height: min-content !important;
 }
 .min-height\:fit-content,     .min-h\:fit-content,
@@ -108,9 +108,9 @@
     .md\:min-height\:min,             .md\:min-h\:min {
         min-height: min-content !important;
     }
-    .md\:min-height\:min-content,     .md\:min-h\:min-content,
-    .md\:min-height\:min,             .md\:min-h\:min{
-        min-height: min-content !important;
+    .md\:min-height\:max-content,     .md\:min-h\:max-content,
+    .md\:min-height\:max,             .md\:min-h\:max{
+        min-height: max-content !important;
     }
     .md\:min-height\:fit-content,     .md\:min-h\:fit-content,
     .md\:min-height\:fit,             .md\:min-h\:fit {
@@ -137,9 +137,9 @@
     .lg\:min-height\:min,             .lg\:min-h\:min {
         min-height: min-content !important;
     }
-    .lg\:min-height\:min-content,     .lg\:min-h\:min-content,
-    .lg\:min-height\:min,             .lg\:min-h\:min{
-        min-height: min-content !important;
+    .lg\:min-height\:max-content,     .lg\:min-h\:max-content,
+    .lg\:min-height\:max,             .lg\:min-h\:max{
+        min-height: max-content !important;
     }
     .lg\:min-height\:fit-content,     .lg\:min-h\:fit-content,
     .lg\:min-height\:fit,             .lg\:min-h\:fit {
