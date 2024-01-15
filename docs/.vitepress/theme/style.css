@@ -180,3 +180,10 @@ th {
 code {
     white-space: nowrap;
 }
+
+/**
+ * 약어 클래스가 없는 속성은 중앙정렬된 대시(-)로 표현
+ */
+.blank {
+    text-align: center;
+}
