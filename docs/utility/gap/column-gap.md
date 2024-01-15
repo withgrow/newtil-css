@@ -2,7 +2,7 @@
 
 [column-gap](https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap) 속성에 대한 유틸리티입니다.
 
-요소의 열 사이의 갭(거터) 크기를 설정합니다.
+요소의 열 사이의 간격(거터) 크기를 설정합니다.
 
 <table>
   <thead>
