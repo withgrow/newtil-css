@@ -239,6 +239,23 @@ export default defineConfig({
                                 link: "/grid/grid-row"
                             }
                         ]
+                    },
+                    {
+                        text: "height-*",
+                        items: [
+                            {
+                                text: "height",
+                                link: "/height/height"
+                            },
+                            {
+                                text: "min-height",
+                                link: "/height/min-height"
+                            },
+                            {
+                                text: "max-height",
+                                link: "/height/max-height"
+                            }
+                        ]
                     }
                 ]
             }
