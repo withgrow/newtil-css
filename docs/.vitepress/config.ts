@@ -76,6 +76,10 @@ export default defineConfig({
                             {
                                 text: "background-clip",
                                 link: "/background/background-clip"
+                            },
+                            {
+                                text: "background-color",
+                                link: "/background/background-color"
                             }
                         ]
                     }
