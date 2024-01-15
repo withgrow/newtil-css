@@ -72,6 +72,10 @@ export default defineConfig({
                             {
                                 text: "background-attachment",
                                 link: "/background/background-attachment"
+                            },
+                            {
+                                text: "background-clip",
+                                link: "/background/background-clip"
                             }
                         ]
                     }
