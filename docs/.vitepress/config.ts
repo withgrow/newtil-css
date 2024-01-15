@@ -84,6 +84,10 @@ export default defineConfig({
                             {
                                 text: "background-origin",
                                 link: "/background/background-origin"
+                            },
+                            {
+                                text: "background-position",
+                                link: "/background/background-position"
                             }
                         ]
                     }
