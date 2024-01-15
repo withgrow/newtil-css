@@ -80,6 +80,10 @@ export default defineConfig({
                             {
                                 text: "background-color",
                                 link: "/background/background-color"
+                            },
+                            {
+                                text: "background-origin",
+                                link: "/background/background-origin"
                             }
                         ]
                     }
