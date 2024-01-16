@@ -282,6 +282,10 @@ export default defineConfig({
                                 link: "/justify-style/justify-self"
                             }
                         ]
+                    },
+                    {
+                        text: "line-height",
+                        link: "/line-height"
                     }
                 ]
             }
