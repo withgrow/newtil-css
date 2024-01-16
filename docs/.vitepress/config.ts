@@ -342,6 +342,10 @@ export default defineConfig({
                                 link: "/margin/margin-y"
                             }
                         ]
+                    },
+                    {
+                        text: "object-fit",
+                        link: "/object-fit"
                     }
                 ]
             }
