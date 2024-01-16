@@ -410,6 +410,52 @@ export default defineConfig({
                                 link: "/padding/padding-y"
                             }
                         ]
+                    },
+                    {
+                        text: "text-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "text-align",
+                                link: "/text/text-align"
+                            },
+                            {
+                                text: "text-decoration",
+                                link: "/text/text-decoration"
+                            },
+                            {
+                                text: "text-decoration-style",
+                                link: "/text/text-decoration-style"
+                            },
+                            {
+                                text: "text-indent",
+                                link: "/text/text-indent"
+                            },
+                            {
+                                text: "text-transform",
+                                link: "/text/text-transform"
+                            },
+                            {
+                                text: "white-space",
+                                link: "/text/white-space"
+                            },
+                            {
+                                text: "word-break",
+                                link: "/text/word-break"
+                            },
+                            {
+                                text: "hyphens",
+                                link: "/text/hyphens"
+                            },
+                            {
+                                text: "overflow-wrap",
+                                link: "/text/overflow-wrap"
+                            },
+                            {
+                                text: "line-clamp",
+                                link: "/text/line-clamp"
+                            }
+                        ]
                     }
                 ]
             }
