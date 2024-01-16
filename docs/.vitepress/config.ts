@@ -350,6 +350,10 @@ export default defineConfig({
                     {
                         text: "opacity",
                         link: "/opacity"
+                    },
+                    {
+                        text: "order",
+                        link: "/order"
                     }
                 ]
             }
