@@ -13,87 +13,75 @@
     </tr>
   </thead>
   <tbody>
-  <!-- margin: auto -->
 <tr>
   <td><code>margin: auto</code></td>
-  <td><code>m: auto</code></td>
+  <td><code>m:auto</code></td>
   <td><span class="code">margin: auto !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-0) -->
 <tr>
-  <td><code>margin: var(--gap-0)</code></td>
-  <td><code>m: 0</code></td>
+  <td><code>margin\:0</code></td>
+  <td><code>m:0</code></td>
   <td><span class="code">margin: var(--gap-0) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-1) -->
 <tr>
-  <td><code>margin: var(--gap-1)</code></td>
-  <td><code>m: 1</code></td>
+  <td><code>margin\:1</code></td>
+  <td><code>m:1</code></td>
   <td><span class="code">margin: var(--gap-1) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-2) -->
 <tr>
-  <td><code>margin: var(--gap-2)</code></td>
-  <td><code>m: 2</code></td>
+  <td><code>margin\:2</code></td>
+  <td><code>m:2</code></td>
   <td><span class="code">margin: var(--gap-2) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-3) -->
 <tr>
-  <td><code>margin: var(--gap-3)</code></td>
-  <td><code>m: 3</code></td>
+  <td><code>margin\:3</code></td>
+  <td><code>m:3</code></td>
   <td><span class="code">margin: var(--gap-3) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-4) -->
 <tr>
-  <td><code>margin: var(--gap-4)</code></td>
-  <td><code>m: 4</code></td>
+  <td><code>margin\:4</code></td>
+  <td><code>m:4</code></td>
   <td><span class="code">margin: var(--gap-4) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-5) -->
 <tr>
-  <td><code>margin: var(--gap-5)</code></td>
-  <td><code>m: 5</code></td>
+  <td><code>margin\:5</code></td>
+  <td><code>m:5</code></td>
   <td><span class="code">margin: var(--gap-5) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-6) -->
 <tr>
-  <td><code>margin: var(--gap-6)</code></td>
-  <td><code>m: 6</code></td>
+  <td><code>margin\:6</code></td>
+  <td><code>m:6</code></td>
   <td><span class="code">margin: var(--gap-6) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-7) -->
 <tr>
-  <td><code>margin: var(--gap-7)</code></td>
-  <td><code>m: 7</code></td>
+  <td><code>margin\:7</code></td>
+  <td><code>m:7</code></td>
   <td><span class="code">margin: var(--gap-7) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-8) -->
 <tr>
-  <td><code>margin: var(--gap-8)</code></td>
-  <td><code>m: 8</code></td>
+  <td><code>margin\:8</code></td>
+  <td><code>m:8</code></td>
   <td><span class="code">margin: var(--gap-8) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-9) -->
 <tr>
-  <td><code>margin: var(--gap-9)</code></td>
-  <td><code>m: 9</code></td>
+  <td><code>margin\:9</code></td>
+  <td><code>m:9</code></td>
   <td><span class="code">margin: var(--gap-9) !important;</span></td>
 </tr>
 
-<!-- margin: var(--gap-10) -->
 <tr>
-  <td><code>margin: var(--gap-10)</code></td>
-  <td><code>m: 10</code></td>
+  <td><code>margin\:10</code></td>
+  <td><code>m:10</code></td>
   <td><span class="code">margin: var(--gap-10) !important;</span></td>
 </tr>
 
