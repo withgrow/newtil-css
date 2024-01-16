@@ -2,7 +2,7 @@
 
 [margin-right](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-right) 속성에 대한 유틸리티입니다.
 
-요소의 오른쪽 여백 영역을 설정합니다.
+요소의 오른쪽 여백 영역의 크기를 설정합니다.
 
 <table>
   <thead>

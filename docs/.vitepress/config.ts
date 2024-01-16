@@ -372,6 +372,40 @@ export default defineConfig({
                                 link: "/overflow/overflow-y"
                             }
                         ]
+                    },
+                    {
+                        text: "padding-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "padding",
+                                link: "/padding/padding"
+                            },
+                            {
+                                text: "padding-top",
+                                link: "/padding/padding-top"
+                            },
+                            {
+                                text: "padding-right",
+                                link: "/padding/padding-right"
+                            },
+                            {
+                                text: "padding-bottom",
+                                link: "/padding/padding-bottom"
+                            },
+                            {
+                                text: "padding-left",
+                                link: "/padding/padding-left"
+                            },
+                            {
+                                text: "padding-x",
+                                link: "/padding/padding-x"
+                            },
+                            {
+                                text: "padding-y",
+                                link: "/padding/padding-y"
+                            }
+                        ]
                     }
                 ]
             }

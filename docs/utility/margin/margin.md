@@ -2,7 +2,7 @@
 
 [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) 속성에 대한 유틸리티입니다.
 
-요소의 네 면에 대해 여백 영역을 설정합니다.
+요소의 네 면에 대해 여백 영역의 크기를 설정합니다.
 
 <table>
   <thead>
