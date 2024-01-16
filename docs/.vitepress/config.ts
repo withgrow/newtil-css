@@ -346,6 +346,10 @@ export default defineConfig({
                     {
                         text: "object-fit",
                         link: "/object-fit"
+                    },
+                    {
+                        text: "opacity",
+                        link: "/opacity"
                     }
                 ]
             }
