@@ -286,6 +286,28 @@ export default defineConfig({
                     {
                         text: "line-height",
                         link: "/line-height"
+                    },
+                    {
+                        text: "list-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "list-style",
+                                link: "/list-style/list-style"
+                            },
+                            {
+                                text: "list-style-position",
+                                link: "/list-style/list-style-position"
+                            },
+                            {
+                                text: "list-style-type",
+                                link: "/list-style/list-style-type"
+                            },
+                            {
+                                text: "list-style-image",
+                                link: "/list-style/list-style-image"
+                            }
+                        ]
                     }
                 ]
             }
