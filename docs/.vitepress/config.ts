@@ -308,6 +308,40 @@ export default defineConfig({
                                 link: "/list-style/list-style-image"
                             }
                         ]
+                    },
+                    {
+                        text: "margin-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "margin",
+                                link: "/margin/margin"
+                            },
+                            {
+                                text: "margin-top",
+                                link: "/margin/margin-top"
+                            },
+                            {
+                                text: "margin-right",
+                                link: "/margin/margin-right"
+                            },
+                            {
+                                text: "margin-bottom",
+                                link: "/margin/margin-bottom"
+                            },
+                            {
+                                text: "margin-left",
+                                link: "/margin/margin-left"
+                            },
+                            {
+                                text: "margin-x",
+                                link: "/margin/margin-x"
+                            },
+                            {
+                                text: "margin-y",
+                                link: "/margin/margin-y"
+                            }
+                        ]
                     }
                 ]
             }
