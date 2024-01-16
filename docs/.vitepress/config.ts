@@ -48,7 +48,6 @@ export default defineConfig({
                 text: "유틸리티",
                 base: "/utility",
                 items: [
-                    { text: "display", link: "/display" },
                     {
                         text: "align-*",
                         collapsed: true,
@@ -135,6 +134,7 @@ export default defineConfig({
                         text: "cursor",
                         link: "/cursor"
                     },
+                    { text: "display", link: "/display" },
                     {
                         text: "flex-*",
                         collapsed: true,
@@ -262,6 +262,24 @@ export default defineConfig({
                             {
                                 text: "max-height",
                                 link: "/height/max-height"
+                            }
+                        ]
+                    },
+                    {
+                        text: "justify-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "justify-content",
+                                link: "/justify-style/justify-content"
+                            },
+                            {
+                                text: "justify-items",
+                                link: "/justify-style/justify-items"
+                            },
+                            {
+                                text: "justify-self",
+                                link: "/justify-style/justify-self"
                             }
                         ]
                     }
