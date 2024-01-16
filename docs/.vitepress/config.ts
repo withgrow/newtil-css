@@ -127,6 +127,10 @@ export default defineConfig({
                         ]
                     },
                     {
+                        text: "box-shadow",
+                        link: "/box-shadow"
+                    },
+                    {
                         text: "box-sizing",
                         link: "/box-sizing"
                     },
