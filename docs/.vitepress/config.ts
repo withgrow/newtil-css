@@ -354,6 +354,24 @@ export default defineConfig({
                     {
                         text: "order",
                         link: "/order"
+                    },
+                    {
+                        text: "overflow-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "overflow",
+                                link: "/overflow/overflow"
+                            },
+                            {
+                                text: "overflow-x",
+                                link: "/overflow/overflow-x"
+                            },
+                            {
+                                text: "overflow-y",
+                                link: "/overflow/overflow-y"
+                            }
+                        ]
                     }
                 ]
             }
