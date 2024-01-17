@@ -2,7 +2,7 @@
 
 [background-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin) 속성에 대한 유틸리티입니다.
 
-설명
+배경이 <code>border box</code>, <code>padding box</code>, <code>content box</code> 중 어느 영역을 기준으로 배치될지를 설정합니다.
 
 <table>
   <thead>

@@ -2,7 +2,7 @@
 
 [background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) 속성에 대한 유틸리티입니다.
 
-배경 이미지의 초기 위치를 설정합니다. 이 위치는 background-origin에서 설정한 위치 레이어를 기준으로 상대적으로 정의됩니다.
+배경 이미지의 초기 위치를 설정합니다. 이 위치는 [<code>background-origin</code>](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin) 속성에 의해 결정된 기준점(<code>border box</code>, <code>padding box</code>, <code>content box</code>)에 상대적입니다.
 
 <table>
   <thead>

@@ -2,7 +2,7 @@
 
 [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size) 속성에 대한 유틸리티입니다.
 
-요소의 배경 이미지 크기를 설정합니다. 이미지는 자연 크기로 남겨둘 수 있거나, 늘려 늘어날 수 있으며, 사용 가능한 공간에 맞추어 제한될 수 있습니다.
+요소의 배경 이미지의 크기를 설정합니다. 이미지는 원본의 크기를 유지하거나, 늘리거나, 사용 가능한 공간에 맞게 제한될 수 있습니다.
 
 <table>
   <thead>

@@ -2,7 +2,7 @@
 
 [background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat) 속성에 대한 유틸리티입니다.
 
-배경 이미지가 어떻게 반복되는지를 설정합니다. 배경 이미지는 수평 및 수직 축을 따라 반복될 수 있거나, 전혀 반복되지 않을 수 있습니다.
+배경 이미지가 어떻게 반복되는지를 설정합니다. 설정을 통해 배경 이미지가 수평 및 수직 축을 따라 반복되게 하거나, 반복되지 않도록 조정할 수 있습니다.
 
 <table>
   <thead>

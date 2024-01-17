@@ -2,7 +2,7 @@
 
 [background-attachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment) 속성에 대한 유틸리티입니다.
 
-배경 이미지의 위치가 뷰포트 내에서 고정되어 있는지 아니면 포함 블록과 함께 스크롤되는지를 설정합니다.
+배경 이미지의 위치를 [viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport) 내에 고정할지, 블록과 함께 스크롤할지 설정합니다.
 
 <table>
   <thead>

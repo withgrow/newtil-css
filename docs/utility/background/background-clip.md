@@ -2,7 +2,7 @@
 
 [background-clip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip) 속성에 대한 유틸리티입니다.
 
-요소의 배경이 테두리 상자(border box), 안쪽 여백 상자(padding box), 또는 내용 상자(content box) 아래로 확장되는지를 설정합니다.
+요소의 배경이 <code>border box</code>, <code>padding box</code>, <code>content box</code> 등 박스의 어느 영역까지 확장될지를 설정합니다.
 
 <table>
   <thead>
