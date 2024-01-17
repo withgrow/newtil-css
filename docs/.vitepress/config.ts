@@ -412,6 +412,32 @@ export default defineConfig({
                         ]
                     },
                     {
+                        text: "position-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "position",
+                                link: "/position/position"
+                            },
+                            {
+                                text: "top",
+                                link: "/position/top"
+                            },
+                            {
+                                text: "right",
+                                link: "/position/right"
+                            },
+                            {
+                                text: "bottom",
+                                link: "/position/bottom"
+                            },
+                            {
+                                text: "left",
+                                link: "/position/left"
+                            }
+                        ]
+                    },
+                    {
                         text: "text-*",
                         collapsed: true,
                         items: [
