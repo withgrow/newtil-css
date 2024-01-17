@@ -460,6 +460,10 @@ export default defineConfig({
                     {
                         text: "vertical-align",
                         link: "/vertical-align"
+                    },
+                    {
+                        text: "visibility",
+                        link: "/visibility"
                     }
                 ]
             }
