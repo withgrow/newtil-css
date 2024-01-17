@@ -2,7 +2,7 @@
 
 [border-color](https://developer.mozilla.org/en-US/docs/Web/CSS/border-color) 속성에 대한 유틸리티입니다.
 
-요소의 테두리 색상을 설정합니다.
+미리 지정한 네 가지 테마 색상을 활용하여 요소의 테두리 색상을 설정합니다.
 
 <table>
   <thead>

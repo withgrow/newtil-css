@@ -2,7 +2,7 @@
 
 [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) 속성에 대한 유틸리티입니다.
 
-border 축약형 속성으로, 요소의 테두리를 설정합니다. <code>border-width</code>, <code>border-style</code>, <code>border-color</code>의 값을 설정합니다.
+요소의 테두리를 설정합니다. <code>border-width</code>, <code>border-style</code>, <code>border-color</code>의 값을 설정할 수 있습니다.
 
 <table>
   <thead>

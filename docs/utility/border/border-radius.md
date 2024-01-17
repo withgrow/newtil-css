@@ -1,8 +1,8 @@
-#border-radius
+# border-radius
 
 [border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) 속성에 대한 유틸리티입니다.
 
-요소의 외부 테두리 가장자리의 모서리를 둥글게 만듭니다. 원형 모서리를 만들려면 하나의 반지름을 설정하거나, 타원형 모서리를 만들려면 두 개의 반지름을 설정할 수 있습니다.
+요소의 테두리 모서리의 둥글기를 설정합니다.
 
 <table>
   <thead>

@@ -109,20 +109,20 @@ export default defineConfig({
                                 link: "/border/border"
                             },
                             {
-                                text: "border-width",
-                                link: "/border/border-width"
-                            },
-                            {
                                 text: "border-color",
                                 link: "/border/border-color"
+                            },
+                            {
+                                text: "border-radius",
+                                link: "/border/border-radius"
                             },
                             {
                                 text: "border-style",
                                 link: "/border/border-style"
                             },
                             {
-                                text: "border-radius",
-                                link: "/border/border-radius"
+                                text: "border-width",
+                                link: "/border/border-width"
                             }
                         ]
                     },

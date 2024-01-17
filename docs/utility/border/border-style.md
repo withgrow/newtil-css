@@ -2,7 +2,7 @@
 
 [border-style](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style) 속성에 대한 유틸리티입니다.
 
-요소의 네 가지 테두리 모두에 대한 선 스타일을 설정합니다.
+요소의 테두리 선 스타일을 설정합니다.
 
 <table>
   <thead>
