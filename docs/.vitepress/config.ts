@@ -456,6 +456,10 @@ export default defineConfig({
                                 link: "/text/line-clamp"
                             }
                         ]
+                    },
+                    {
+                        text: "vertical-align",
+                        link: "/vertical-align"
                     }
                 ]
             }
