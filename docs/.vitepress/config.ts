@@ -522,6 +522,10 @@ export default defineConfig({
                                 link: "/width/max-width"
                             }
                         ]
+                    },
+                    {
+                        text: "z-index",
+                        link: "/z-index"
                     }
                 ]
             }
