@@ -464,6 +464,24 @@ export default defineConfig({
                     {
                         text: "visibility",
                         link: "/visibility"
+                    },
+                    {
+                        text: "width-*",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "width",
+                                link: "/width/width"
+                            },
+                            {
+                                text: "min-width",
+                                link: "/width/min-width"
+                            },
+                            {
+                                text: "max-width",
+                                link: "/width/max-width"
+                            }
+                        ]
                     }
                 ]
             }
