@@ -2,7 +2,7 @@
 
 [align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) 속성에 대한 유틸리티입니다.
 
-직계 자식 요소들에 일괄적으로 align-self 값을 설정합니다. 플렉스박스에서는 이것이 교차 축에서 아이템들의 정렬을 제어하며, 그리드 레이아웃에서는 각 아이템이 속한 그리드 영역 내에서 블록 축 정렬을 조절합니다.
+직계 자식 요소들에 일괄적으로 <code>align-self</code> 값을 설정합니다. <code>flexbox</code>에서는 [cross-axis](https://developer.mozilla.org/en-US/docs/Glossary/Cross_Axis)에 따라, <code>grid</code> 레이아웃에서는 [column-axis](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Axis)에 따라 요소들의 정렬을 제어합니다.
 
 <table>
   <thead>

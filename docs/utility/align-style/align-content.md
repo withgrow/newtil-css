@@ -2,7 +2,7 @@
 
 [align-content](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content) 속성에 대한 유틸리티입니다.
 
-플렉스박스의 교차 축이나 그리드의 블록 축을 따라 콘텐츠 항목들 사이 및 주변의 공간 분포를 설정합니다.
+<code>flexbox</code>의 [cross-axis](https://developer.mozilla.org/en-US/docs/Glossary/Cross_Axis)나 <code>grid</code>의 [column-axis](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Axis) 을 따라 컨텐트 항목들 사이 및 주변의 공간 분배 방식을 설정합니다.
 
 <table>
   <thead>
