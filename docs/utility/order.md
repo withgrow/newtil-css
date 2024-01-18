@@ -15,37 +15,37 @@
   <tbody>
   <tr>
   <td><code>order\:1</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">order: var(--order-1) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>order\:2</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">order: var(--order-2) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>order\:3</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">order: var(--order-3) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>order\:4</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">order: var(--order-4) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>order\:5</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">order: var(--order-5) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>order\:none</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">order: none !important;</span></td>
 </tr>
 

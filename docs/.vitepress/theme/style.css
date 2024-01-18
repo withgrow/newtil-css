@@ -187,3 +187,22 @@ code {
 .blank {
     text-align: center;
 }
+ .blank::after {
+    content: '-';
+}
+
+/**
+ * 클래스 설명부의 참고용 텍스트, 주석 등에 사용되는 "회색" 폰트 색상
+ *
+ * @example
+ * 항목이 컨테이너의 축을 따라 어떻게 정렬되는지를 설정합니다. 
+ * <span class="c:weak">
+ *   (참고: [<code>justify-items</code>](./justify-items.md))
+ * </span>
+ * 
+ * 
+ */
+ .color\:weak,
+ .c\:weak {
+    color: #bbb;
+ }

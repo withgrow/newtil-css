@@ -15,7 +15,7 @@
   <tbody>
   <tr>
   <td><code>line-clamp:1</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td>
     <span class="code">
       overflow: hidden;<br>
@@ -27,7 +27,7 @@
 
 <tr>
   <td><code>line-clamp:2</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td>
     <span class="code">
       display: -webkit-box;<br>
@@ -41,7 +41,7 @@
 
 <tr>
   <td><code>line-clamp:3</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td>
     <span class="code">
       display: -webkit-box;<br>

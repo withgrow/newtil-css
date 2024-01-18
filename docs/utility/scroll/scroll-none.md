@@ -15,15 +15,15 @@ scroll 속성에 대한 유틸리티입니다.
   <tbody>
   <tr>
   <td><code>.scroll-none::-webkit-scrollbar</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">display: none;</span></td>
 </tr>
 <tr>
   <td><code>.scroll-none</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td>
-    <span class="code">-ms-overflow-style: none;</span> <span style="color:#bbb">/* IE and Edge */</span><br>
-    <span class="code">scrollbar-width: none;</span> <span style="color:#bbb">/* Firefox */</span>
+    <span class="code">-ms-overflow-style: none;</span> <span class="c:weak">/* IE and Edge */</span><br>
+    <span class="code">scrollbar-width: none;</span> <span class="c:weak">/* Firefox */</span>
   </td>
 </tr>
 

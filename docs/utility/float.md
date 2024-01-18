@@ -16,35 +16,35 @@
   <!-- float: left -->
 <tr>
   <td><code>float:left</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">float: left !important;</span></td>
 </tr>
 
 <!-- float: right -->
 <tr>
   <td><code>float:right</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">float: right !important;</span></td>
 </tr>
 
 <!-- float: inline-start -->
 <tr>
   <td><code>float:inline-start</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">float: inline-start !important;</span></td>
 </tr>
 
 <!-- float: inline-end -->
 <tr>
   <td><code>float:inline-end</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">float: inline-end !important;</span></td>
 </tr>
 
 <!-- float: none -->
 <tr>
   <td><code>float:none</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">float: none !important;</span></td>
 </tr>
 

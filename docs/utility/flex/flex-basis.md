@@ -16,7 +16,7 @@
   <!-- flex-basis: auto -->
     <tr>
     <td><code>flex-basis:auto</code></td>
-    <td class="blank">-</td>
+    <td class="blank"></td>
     <td><span class="code">flex-basis: auto !important;</span></td>
     </tr>
 

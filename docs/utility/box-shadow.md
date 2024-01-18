@@ -15,49 +15,49 @@
   <tbody>
   <tr>
   <td><code>box-shadow:0</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: none;</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:1</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-1);</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:2</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-2);</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:3</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-3);</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:4</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-4);</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:5</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-5);</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:6</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-6);</span></td>
 </tr>
 
 <tr>
   <td><code>box-shadow:7</code></td>
-  <td class="blank">-</td>
+  <td class="blank"></td>
   <td><span class="code">box-shadow: var(--box-shadow-7);</span></td>
 </tr>
 
