@@ -2,7 +2,7 @@
 
 [display](https://developer.mozilla.org/en-US/docs/Web/CSS/display) 속성에 대한 유틸리티입니다.
 
-요소가 웹 페이지에서 어떻게 표현될지 결정합니다. 요소가 [블록 레벨](https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content)로 처리될지, [인라인 레벨](https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content)로 처리될지를 지정할 수 있습니다. 또한, 자식 요소에 적용될 레이아웃의 유형을 결정합니다.
+요소가 웹 페이지에서 어떻게 표현될지 결정합니다. 요소가 [블록 레벨](https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content)로 처리될지, [인라인 레벨](https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content)로 처리될지를 지정할 수 있습니다. 또한, [<code>flow layout</code>](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout), [<code>flex</code>](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout), [<code>grid</code>](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) 등 자식 요소에 적용될 레이아웃의 유형을 결정합니다.
 
 <table>
   <thead>
