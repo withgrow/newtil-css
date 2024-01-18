@@ -186,16 +186,16 @@ export default defineConfig({
                                 link: "/font/font-color"
                             },
                             {
+                                text: "font-size",
+                                link: "/font/font-size"
+                            },
+                            {
                                 text: "font-style",
                                 link: "/font/font-style"
                             },
                             {
                                 text: "font-weight",
                                 link: "/font/font-weight"
-                            },
-                            {
-                                text: "font-size",
-                                link: "/font/font-size"
                             }
                         ]
                     },
