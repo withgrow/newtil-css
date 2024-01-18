@@ -156,8 +156,8 @@ export default defineConfig({
                                 link: "/flex/flex-direction"
                             },
                             {
-                                text: "flex-wrap",
-                                link: "/flex/flex-wrap"
+                                text: "flex-flow",
+                                link: "/flex/flex-flow"
                             },
                             {
                                 text: "flex-grow",
@@ -168,8 +168,8 @@ export default defineConfig({
                                 link: "/flex/flex-shrink"
                             },
                             {
-                                text: "flex-flow",
-                                link: "/flex/flex-flow"
+                                text: "flex-wrap",
+                                link: "/flex/flex-wrap"
                             }
                         ]
                     },

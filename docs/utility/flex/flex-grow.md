@@ -2,7 +2,7 @@
 
 [flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow) 속성에 대한 유틸리티입니다.
 
-플렉스 컨테이너의 나머지 공간 중 얼마나 많은 공간을 플렉스 항목의 크기에 할당할지를 지정합니다.
+[<code>flex item</code>](https://developer.mozilla.org/en-US/docs/Glossary/Flex_Item)이 [<code>flex container</code>](https://developer.mozilla.org/en-US/docs/Glossary/Flex_Container)의 남은 공간 중 어느 정도를 할당받을지를 지정합니다.
 
 <table>
   <thead>
@@ -15,14 +15,14 @@
   <tbody>
   <!-- flex-grow: 0 -->
 <tr>
-  <td><code>flex-grow: 0</code></td>
+  <td><code>flex-grow:0</code></td>
   <td><code>flex-g:0</code></td>
   <td><span class="code">flex-grow: 0 !important;</span></td>
 </tr>
 
 <!-- flex-grow: 1 -->
 <tr>
-  <td><code>flex-grow: 1</code></td>
+  <td><code>flex-grow:1</code></td>
   <td><code>flex-g:1</code></td>
   <td><span class="code">flex-grow: 1 !important;</span></td>
 </tr>
