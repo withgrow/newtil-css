@@ -20,14 +20,12 @@
 .grid-auto-columns\:auto,           .grid-ac\:auto { grid-auto-columns: auto !important; }
 .grid-auto-columns\:min-content,    .grid-ac\:min-content { grid-auto-columns: min-content !important; }
 .grid-auto-columns\:max-content,    .grid-ac\:max-content { grid-auto-columns: max-content !important; }
-.grid-auto-columns\:fr,             .grid-ac\:fr { grid-auto-columns: fr !important; }
 .grid-auto-columns\:minmax,         .grid-ac\:minmax { grid-auto-columns: minmax(0, 1fr) !important; }
 
 /* grid-auto-rows */
 .grid-auto-rows\:auto,              .grid-ar\:auto { grid-auto-rows: auto !important; }
 .grid-auto-rows\:min-content,       .grid-ar\:min-content { grid-auto-rows: min-content !important; }
 .grid-auto-rows\:max-content,       .grid-ar\:max-content { grid-auto-rows: max-content !important; }
-.grid-auto-rows\:fr,                .grid-ar\:fr { grid-auto-rows: fr !important; }
 .grid-auto-rows\:minmax,            .grid-ar\:minmax { grid-auto-rows: minmax(0, 1fr) !important; }
 
 /* ---- medium ------------------------------------------------- */
@@ -42,14 +40,12 @@
     .md\:grid-auto-columns\:auto,           .md\:grid-ac\:auto { grid-auto-columns: auto !important; }
     .md\:grid-auto-columns\:min-content,    .md\:grid-ac\:min-content { grid-auto-columns: min-content !important; }
     .md\:grid-auto-columns\:max-content,    .md\:grid-ac\:max-content { grid-auto-columns: max-content !important; }
-    .md\:grid-auto-columns\:fr,             .md\:grid-ac\:fr { grid-auto-columns: fr !important; }
     .md\:grid-auto-columns\:minmax,         .md\:grid-ac\:minmax { grid-auto-columns: minmax(0, 1fr) !important; }
 
     /* grid-auto-rows */
     .md\:grid-auto-rows\:auto,              .md\:grid-ar\:auto { grid-auto-rows: auto !important; }
     .md\:grid-auto-rows\:min-content,       .md\:grid-ar\:min-content { grid-auto-rows: min-content !important; }
     .md\:grid-auto-rows\:max-content,       .md\:grid-ar\:max-content { grid-auto-rows: max-content !important; }
-    .md\:grid-auto-rows\:fr,                .md\:grid-ar\:fr { grid-auto-rows: fr !important; }
     .md\:grid-auto-rows\:minmax,            .md\:grid-ar\:minmax { grid-auto-rows: minmax(0, 1fr) !important; }
 }
 
@@ -65,14 +61,12 @@
     .lg\:grid-auto-columns\:auto,           .lg\:grid-ac\:auto { grid-auto-columns: auto !important; }
     .lg\:grid-auto-columns\:min-content,    .lg\:grid-ac\:min-content { grid-auto-columns: min-content !important; }
     .lg\:grid-auto-columns\:max-content,    .lg\:grid-ac\:max-content { grid-auto-columns: max-content !important; }
-    .lg\:grid-auto-columns\:fr,             .lg\:grid-ac\:fr { grid-auto-columns: fr !important; }
     .lg\:grid-auto-columns\:minmax,         .lg\:grid-ac\:minmax { grid-auto-columns: minmax(0, 1fr) !important; }
 
     /* grid-auto-rows */
     .lg\:grid-auto-rows\:auto,              .lg\:grid-ar\:auto { grid-auto-rows: auto !important; }
     .lg\:grid-auto-rows\:min-content,       .lg\:grid-ar\:min-content { grid-auto-rows: min-content !important; }
     .lg\:grid-auto-rows\:max-content,       .lg\:grid-ar\:max-content { grid-auto-rows: max-content !important; }
-    .lg\:grid-auto-rows\:fr,                .lg\:grid-ar\:fr { grid-auto-rows: fr !important; }
     .lg\:grid-auto-rows\:minmax,            .lg\:grid-ar\:minmax { grid-auto-rows: minmax(0, 1fr) !important; }
 }
 
