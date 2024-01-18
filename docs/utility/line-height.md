@@ -13,38 +13,33 @@
     </tr>
   </thead>
   <tbody>
-  <!-- line-height: 1 -->
 <tr>
-  <td><code>line-height: 1</code></td>
-  <td><code>line-h: 1</code></td>
+  <td><code>line-height:1</code></td>
+  <td><code>line-h:1</code></td>
   <td><span class="code">line-height: 1 !important;</span></td>
 </tr>
 
-<!-- line-height: 1.25 -->
 <tr>
-  <td><code>line-height: 1.25</code></td>
-  <td><code>line-h: 1.25</code></td>
+  <td><code>line-height:1.25</code></td>
+  <td><code>line-h:1.25</code></td>
   <td><span class="code">line-height: 1.25 !important;</span></td>
 </tr>
 
-<!-- line-height: 1.5 -->
 <tr>
-  <td><code>line-height: 1.5</code></td>
-  <td><code>line-h: 1.5</code></td>
+  <td><code>line-height:1.5</code></td>
+  <td><code>line-h:1.5</code></td>
   <td><span class="code">line-height: 1.5 !important;</span></td>
 </tr>
 
-<!-- line-height: 1.75 -->
 <tr>
-  <td><code>line-height: 1.75</code></td>
-  <td><code>line-h: 1.75</code></td>
+  <td><code>line-height:1.75</code></td>
+  <td><code>line-h:1.75</code></td>
   <td><span class="code">line-height: 1.75 !important;</span></td>
 </tr>
 
-<!-- line-height: 2 -->
 <tr>
-  <td><code>line-height: 2</code></td>
-  <td><code>line-h: 2</code></td>
+  <td><code>line-height:2</code></td>
+  <td><code>line-h:2</code></td>
   <td><span class="code">line-height: 2 !important;</span></td>
 </tr>
 
