@@ -2,7 +2,7 @@
 
 [margin-bottom](https://developer.mozilla.org/en-US/docs/Web/CSS/margin-bottom) 속성에 대한 유틸리티입니다.
 
-요소의 아래쪽 여백 영역의 크기를 설정합니다.
+요소 아래쪽의 여백 영역([margin area](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model#margin_area))의 크기를 설정합니다.
 
 <table>
   <thead>
