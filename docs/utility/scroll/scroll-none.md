@@ -1,6 +1,6 @@
 # scroll-none
 
-scroll 속성에 대한 유틸리티입니다.
+scroll-none 속성에 대한 유틸리티입니다.
 
 <code>scroll-bar</code>가 문서 상에 보이지 않도록 설정합니다.
 
@@ -13,17 +13,15 @@ scroll 속성에 대한 유틸리티입니다.
     </tr>
   </thead>
   <tbody>
-  <tr>
-  <td><code>.scroll-none::-webkit-scrollbar</code></td>
-  <td class="blank"></td>
-  <td><span class="code">display: none;</span></td>
-</tr>
 <tr>
-  <td><code>.scroll-none</code></td>
+  <td><code>scroll-none</code></td>
   <td class="blank"></td>
   <td>
-    <span class="code">-ms-overflow-style: none;</span> <span class="c:weak">/* IE and Edge */</span><br>
-    <span class="code">scrollbar-width: none;</span> <span class="c:weak">/* Firefox */</span>
+    <span class="code">-ms-overflow-style: none;</span> <span class="c:weak">/* IE, Edge */</span><br>
+    <span class="code">scrollbar-width: none;</span> <span class="c:weak">/* Firefox */</span><br>
+    <br>
+    <span class="c:weak">/* .scroll-none::-webkit-scrollbar */</span><br>
+    <span class="code">display: none;</span> <span class="c:weak">/* Chrome, Safari, Opera */</span><br>
   </td>
 </tr>
 

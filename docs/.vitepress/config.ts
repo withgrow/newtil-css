@@ -442,12 +442,12 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {
-                                text: "scroll-none",
-                                link: "/scroll/scroll-none"
-                            },
-                            {
                                 text: "scroll-behavior",
                                 link: "/scroll/scroll-behavior"
+                            },
+                            {
+                                text: "scroll-none",
+                                link: "/scroll/scroll-none"
                             }
                         ]
                     },
