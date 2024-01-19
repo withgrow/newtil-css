@@ -2,7 +2,7 @@
 
 [padding-right](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right) 속성에 대한 유틸리티입니다.
 
-요소의 오른쪽 패딩 영역의 크기를 설정합니다.
+요소의 오른쪽 패딩 영역([padding area](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model#padding_area))의 크기를 설정합니다.
 
 <table>
   <thead>
