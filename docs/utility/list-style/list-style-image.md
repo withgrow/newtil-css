@@ -2,7 +2,7 @@
 
 [list-style-image](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image) 속성에 대한 유틸리티입니다.
 
-리스트 항목의 <code>[marker](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker)</code>로 사용할 이미지를 설정합니다.
+리스트의 마커로 사용되는 이미지를 설정합니다.
 
 <table>
   <thead>
@@ -13,10 +13,9 @@
     </tr>
   </thead>
   <tbody>
-  <!-- list-style-image: none -->
 <tr>
-  <td><code>list-style-image: none</code></td>
-  <td><code>list-si: none</code></td>
+  <td><code>list-style-image:none</code></td>
+  <td><code>list-si:none</code></td>
   <td><span class="code">list-style-image: none !important;</span></td>
 </tr>
 

@@ -300,16 +300,16 @@ export default defineConfig({
                                 link: "/list-style/list-style"
                             },
                             {
+                                text: "list-style-image",
+                                link: "/list-style/list-style-image"
+                            },
+                            {
                                 text: "list-style-position",
                                 link: "/list-style/list-style-position"
                             },
                             {
                                 text: "list-style-type",
                                 link: "/list-style/list-style-type"
-                            },
-                            {
-                                text: "list-style-image",
-                                link: "/list-style/list-style-image"
                             }
                         ]
                     },
