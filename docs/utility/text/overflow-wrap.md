@@ -2,7 +2,7 @@
 
 [overflow-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap) 속성에 대한 유틸리티입니다.
 
-인라인 요소에 적용되며, 라인 박스를 넘어가지 않도록 텍스트 내에서 줄 바꿈을 삽입해야 하는지 여부를 설정합니다.
+텍스트가 라인 박스를 넘어가지 않도록 줄 바꿈할지 여부를 설정합니다.
 
 <table>
   <thead>

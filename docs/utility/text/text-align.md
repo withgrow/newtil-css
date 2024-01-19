@@ -2,7 +2,7 @@
 
 [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align) 속성에 대한 유틸리티입니다.
 
-블록 요소 또는 테이블 셀 박스 내부의 인라인 수준 컨텐트의 가로 정렬을 설정합니다.
+블록 요소 또는 테이블 셀 박스 내부의 인라인 컨텐트([Inline-level content](https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content))의 수평 정렬을 설정합니다.
 
 <table>
   <thead>

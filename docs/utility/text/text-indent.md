@@ -2,7 +2,7 @@
 
 [text-indent](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent) 속성에 대한 유틸리티입니다.
 
-블록 안의 텍스트 줄 앞에 놓이는 빈 공간(들여쓰기)의 길이를 설정합니다.
+텍스트 라인 앞의 공간(들여쓰기)의 길이를 설정합니다.
 
 <table>
   <thead>

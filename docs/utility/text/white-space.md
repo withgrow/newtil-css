@@ -2,7 +2,7 @@
 
 [white-space](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) 속성에 대한 유틸리티입니다.
 
-요소 내부의 공백 처리 방법을 설정합니다.
+요소 내부의 공백([Whitespace](https://developer.mozilla.org/en-US/docs/Glossary/Whitespace)) 처리 방식을 설정합니다.
 
 <table>
   <thead>

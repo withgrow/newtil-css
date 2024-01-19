@@ -456,6 +456,18 @@ export default defineConfig({
                         collapsed: true,
                         items: [
                             {
+                                text: "hyphens",
+                                link: "/text/hyphens"
+                            },
+                            {
+                                text: "line-clamp",
+                                link: "/text/line-clamp"
+                            },
+                            {
+                                text: "overflow-wrap",
+                                link: "/text/overflow-wrap"
+                            },
+                            {
                                 text: "text-align",
                                 link: "/text/text-align"
                             },
@@ -482,18 +494,6 @@ export default defineConfig({
                             {
                                 text: "word-break",
                                 link: "/text/word-break"
-                            },
-                            {
-                                text: "hyphens",
-                                link: "/text/hyphens"
-                            },
-                            {
-                                text: "overflow-wrap",
-                                link: "/text/overflow-wrap"
-                            },
-                            {
-                                text: "line-clamp",
-                                link: "/text/line-clamp"
                             }
                         ]
                     },

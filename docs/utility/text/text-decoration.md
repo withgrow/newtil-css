@@ -1,8 +1,8 @@
-# text-decoration
+# text-decoration-line
 
-[text-decoration](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration) 속성에 대한 유틸리티입니다.
+[text-decoration-line](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line) 속성에 대한 유틸리티입니다.
 
-텍스트를 꾸미는 선의 모양을 설정합니다. 이는 text-decoration-line, text-decoration-color, text-decoration-style, text-decoration-thickness 등의 속성을 축약하여 설정할 수 있습니다.
+텍스트에 사용되는 장식의 종류를 설정합니다.
 
 <table>
   <thead>
@@ -14,27 +14,27 @@
   </thead>
   <tbody>
   <tr>
-  <td><code>text-decoration:underline</code></td>
-  <td><code>text-d:underline</code></td>
-  <td><span class="code">text-decoration: underline !important;</span></td>
+  <td><code>text-decoration-line:underline</code></td>
+  <td><code>text-dl:underline</code></td>
+  <td><span class="code">text-decoration-line: underline !important;</span></td>
 </tr>
 
 <tr>
-  <td><code>text-decoration:line-through</code></td>
-  <td><code>text-d:line-through</code></td>
-  <td><span class="code">text-decoration: line-through !important;</span></td>
+  <td><code>text-decoration-line:line-through</code></td>
+  <td><code>text-dl:line-through</code></td>
+  <td><span class="code">text-decoration-line: line-through !important;</span></td>
 </tr>
 
 <tr>
-  <td><code>text-decoration:overline</code></td>
-  <td><code>text-d:overline</code></td>
-  <td><span class="code">text-decoration: underline !important;</span></td>
+  <td><code>text-decoration-line:overline</code></td>
+  <td><code>text-dl:overline</code></td>
+  <td><span class="code">text-decoration-line: underline !important;</span></td>
 </tr>
 
 <tr>
-  <td><code>text-decoration:none</code></td>
-  <td><code>text-d:none</code></td>
-  <td><span class="code">text-decoration: none !important;</span></td>
+  <td><code>text-decoration-line:none</code></td>
+  <td><code>text-dl:none</code></td>
+  <td><span class="code">text-decoration-line: none !important;</span></td>
 </tr>
 
   </tbody>
