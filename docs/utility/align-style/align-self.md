@@ -2,7 +2,7 @@
 
 [align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self) 속성에 대한 유틸리티입니다.
 
-<code>flex</code>나 <code>grid</code> 항목의 <code>align-items</code> 값을 덮어씁니다. <code>grid</code>에서는 [grid area](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Areas) 내의 항목을 정렬하며, <code>flexbox</code>에서는 [cross-axis](https://developer.mozilla.org/en-US/docs/Glossary/Cross_Axis)를 기준으로 항목을 정렬합니다.
+<code>flex</code>나 <code>grid</code> 항목의 <code>align-items</code> 값을 덮어씁니다. <code>grid</code>에서는 [grid area](https://developer.mozilla.org/en-US/docs/Glossary/Grid_Areas) 내의 항목을 정렬하며, [<code>flexbox</code>](https://developer.mozilla.org/en-US/docs/Glossary/Flexbox)에서는 [cross-axis](https://developer.mozilla.org/en-US/docs/Glossary/Cross_Axis)를 기준으로 항목을 정렬합니다.
 
 <table>
   <thead>
