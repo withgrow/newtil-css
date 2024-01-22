@@ -13,38 +13,33 @@
     </tr>
   </thead>
   <tbody>
-  <!-- box-sizing: border-box -->
 <tr>
-  <td><code>box-sizing: border-box</code></td>
-  <td><code>box-s: border-box</code></td>
+  <td><code>box-sizing:border-box</code></td>
+  <td><code>box-s:border-box</code></td>
   <td><span class="code">box-sizing: border-box !important;</span></td>
 </tr>
 
-<!-- box-sizing: content-box -->
 <tr>
-  <td><code>box-sizing: content-box</code></td>
-  <td><code>box-s: content-box</code></td>
+  <td><code>box-sizing:content-box</code></td>
+  <td><code>box-s:content-box</code></td>
   <td><span class="code">box-sizing: content-box !important;</span></td>
 </tr>
 
-<!-- box-sizing: initial -->
 <tr>
-  <td><code>box-sizing: initial</code></td>
-  <td><code>box-s: initial</code></td>
+  <td><code>box-sizing:initial</code></td>
+  <td><code>box-s:initial</code></td>
   <td><span class="code">box-sizing: initial !important;</span></td>
 </tr>
 
-<!-- box-sizing: inherit -->
 <tr>
-  <td><code>box-sizing: inherit</code></td>
-  <td><code>box-s: inherit</code></td>
+  <td><code>box-sizing:inherit</code></td>
+  <td><code>box-s:inherit</code></td>
   <td><span class="code">box-sizing: inherit !important;</span></td>
 </tr>
 
-<!-- box-sizing: unset -->
 <tr>
-  <td><code>box-sizing: unset</code></td>
-  <td><code>box-s: unset</code></td>
+  <td><code>box-sizing:unset</code></td>
+  <td><code>box-s:unset</code></td>
   <td><span class="code">box-sizing: unset !important;</span></td>
 </tr>
 

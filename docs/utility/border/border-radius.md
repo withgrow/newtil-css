@@ -15,50 +15,50 @@
   <tbody>
     <!-- border-radius: 0 -->
 <tr>
-  <td><code>border-radius: 0</code></td>
-  <td><code>border-rd: 0</code></td>
+  <td><code>border-radius:0</code></td>
+  <td><code>border-rd:0</code></td>
   <td><span class="code">border-radius: var(--border-radius-0) !important;</span></td>
 </tr>
 
 <!-- border-radius: 1 -->
 <tr>
-  <td><code>border-radius: 1</code></td>
-  <td><code>border-rd: 1</code></td>
+  <td><code>border-radius:1</code></td>
+  <td><code>border-rd:1</code></td>
   <td><span class="code">border-radius: var(--border-radius-1) !important;</span></td>
 </tr>
 
 <!-- border-radius: 2 -->
 <tr>
-  <td><code>border-radius: 2</code></td>
-  <td><code>border-rd: 2</code></td>
+  <td><code>border-radius:2</code></td>
+  <td><code>border-rd:2</code></td>
   <td><span class="code">border-radius: var(--border-radius-2) !important;</span></td>
 </tr>
 
 <!-- border-radius: 3 -->
 <tr>
-  <td><code>border-radius: 3</code></td>
-  <td><code>border-rd: 3</code></td>
+  <td><code>border-radius:3</code></td>
+  <td><code>border-rd:3</code></td>
   <td><span class="code">border-radius: var(--border-radius-3) !important;</span></td>
 </tr>
 
 <!-- border-radius: 4 -->
 <tr>
-  <td><code>border-radius: 4</code></td>
-  <td><code>border-rd: 4</code></td>
+  <td><code>border-radius:4</code></td>
+  <td><code>border-rd:4</code></td>
   <td><span class="code">border-radius: var(--border-radius-4) !important;</span></td>
 </tr>
 
 <!-- border-radius: 5 -->
 <tr>
-  <td><code>border-radius: 5</code></td>
-  <td><code>border-rd: 5</code></td>
+  <td><code>border-radius:5</code></td>
+  <td><code>border-rd:5</code></td>
   <td><span class="code">border-radius: var(--border-radius-5) !important;</span></td>
 </tr>
 
 <!-- border-radius: full -->
 <tr>
-  <td><code>border-radius: full</code></td>
-  <td><code>border-rd: full</code></td>
+  <td><code>border-radius:full</code></td>
+  <td><code>border-rd:full</code></td>
   <td><span class="code">border-radius: var(--border-radius-full) !important;</span></td>
 </tr>
 
