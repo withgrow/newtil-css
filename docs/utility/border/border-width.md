@@ -24,21 +24,21 @@
 <tr>
   <td><code>border-width: 1</code></td>
   <td><code>border-w: 1</code></td>
-  <td><span class="code">border: var(--border-1) !important;</span></td>
+  <td><span class="code">border: var(--border-width-1) !important;</span></td>
 </tr>
 
 <!-- border-width: 2 -->
 <tr>
   <td><code>border-width: 2</code></td>
   <td><code>border-w: 2</code></td>
-  <td><span class="code">border: var(--border-2) !important;</span></td>
+  <td><span class="code">border: var(--border-width-2) !important;</span></td>
 </tr>
 
 <!-- border-width: 3 -->
 <tr>
   <td><code>border-width: 3</code></td>
   <td><code>border-w: 3</code></td>
-  <td><span class="code">border: var(--border-3) !important;</span></td>
+  <td><span class="code">border: var(--border-width-3) !important;</span></td>
 </tr>
 
 <!-- border-width: inherit -->
@@ -59,21 +59,21 @@
 <tr>
   <td><code>border-top-width: 1</code></td>
   <td><code>border-tw: 1</code></td>
-  <td><span class="code">border-top: var(--border-1) !important;</span></td>
+  <td><span class="code">border-top: var(--border-width-1) !important;</span></td>
 </tr>
 
 <!-- border-top-width: 2 -->
 <tr>
   <td><code>border-top-width: 2</code></td>
   <td><code>border-tw: 2</code></td>
-  <td><span class="code">border-top: var(--border-2) !important;</span></td>
+  <td><span class="code">border-top: var(--border-width-2) !important;</span></td>
 </tr>
 
 <!-- border-top-width: 3 -->
 <tr>
   <td><code>border-top-width: 3</code></td>
   <td><code>border-tw: 3</code></td>
-  <td><span class="code">border-top: var(--border-3) !important;</span></td>
+  <td><span class="code">border-top: var(--border-width-3) !important;</span></td>
 </tr>
 
 <!-- border-top-width: inherit -->
@@ -94,21 +94,21 @@
 <tr>
   <td><code>border-right-width: 1</code></td>
   <td><code>border-rw: 1</code></td>
-  <td><span class="code">border-right: var(--border-1) !important;</span></td>
+  <td><span class="code">border-right: var(--border-width-1) !important;</span></td>
 </tr>
 
 <!-- border-right-width: 2 -->
 <tr>
   <td><code>border-right-width: 2</code></td>
   <td><code>border-rw: 2</code></td>
-  <td><span class="code">border-right: var(--border-2) !important;</span></td>
+  <td><span class="code">border-right: var(--border-width-2) !important;</span></td>
 </tr>
 
 <!-- border-right-width: 3 -->
 <tr>
   <td><code>border-right-width: 3</code></td>
   <td><code>border-rw: 3</code></td>
-  <td><span class="code">border-right: var(--border-3) !important;</span></td>
+  <td><span class="code">border-right: var(--border-width-3) !important;</span></td>
 </tr>
 
 <!-- border-right-width: inherit -->
@@ -128,21 +128,21 @@
 <tr>
   <td><code>border-bottom-width: 1</code></td>
   <td><code>border-bw: 1</code></td>
-  <td><span class="code">border-bottom: var(--border-1) !important;</span></td>
+  <td><span class="code">border-bottom: var(--border-width-1) !important;</span></td>
 </tr>
 
 <!-- border-bottom-width: 2 -->
 <tr>
   <td><code>border-bottom-width: 2</code></td>
   <td><code>border-bw: 2</code></td>
-  <td><span class="code">border-bottom: var(--border-2) !important;</span></td>
+  <td><span class="code">border-bottom: var(--border-width-2) !important;</span></td>
 </tr>
 
 <!-- border-bottom-width: 3 -->
 <tr>
   <td><code>border-bottom-width: 3</code></td>
   <td><code>border-bw: 3</code></td>
-  <td><span class="code">border-bottom: var(--border-3) !important;</span></td>
+  <td><span class="code">border-bottom: var(--border-width-3) !important;</span></td>
 </tr>
 
 <!-- border-bottom-width: inherit -->
@@ -163,21 +163,21 @@
 <tr>
   <td><code>border-left-width: 1</code></td>
   <td><code>border-lw: 1</code></td>
-  <td><span class="code">border-left: var(--border-1) !important;</span></td>
+  <td><span class="code">border-left: var(--border-width-1) !important;</span></td>
 </tr>
 
 <!-- border-left-width: 2 -->
 <tr>
   <td><code>border-left-width: 2</code></td>
   <td><code>border-lw: 2</code></td>
-  <td><span class="code">border-left: var(--border-2) !important;</span></td>
+  <td><span class="code">border-left: var(--border-width-2) !important;</span></td>
 </tr>
 
 <!-- border-left-width: 3 -->
 <tr>
   <td><code>border-left-width: 3</code></td>
   <td><code>border-lw: 3</code></td>
-  <td><span class="code">border-left: var(--border-3) !important;</span></td>
+  <td><span class="code">border-left: var(--border-width-3) !important;</span></td>
 </tr>
 
 <!-- border-left-width: inherit -->
