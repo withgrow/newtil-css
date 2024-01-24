@@ -1,6 +1,6 @@
 # 테마 색상
 
-`newtil-css`는 ─ [`main`](#main), [`sub`](#sub), [`accent`](#accent), [`base`](#base) ─ 네 가지 테마 색상를 제공하며 다음의 속성에서 사용되고 있습니다:
+`newtil-css`는 ─ [`main`](#main), [`sub`](#sub), [`accent`](#accent), [`base`](#base) ─ 네 가지 테마 색상를 제공하며 다음의 속성에서 활용되고 있습니다:
 
 -   [`background-color`](../utility/background/background-color.md)
 -   [`border-color`](../utility/border/border-color.md)

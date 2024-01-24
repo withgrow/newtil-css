@@ -4,7 +4,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 # border-color
 
-변수 `var(--border-color)`는 테두리의 기본 색상을 정의하는 데 사용되며, 다음의 속성에서 사용되고 있습니다.
+변수 `var(--border-color)`는 테두리의 기본 색상을 정의하는 데 사용되며, 다음의 속성에서 활용되고 있습니다:
 
 -   [`border`](../utility/border/border.md)
 
@@ -15,11 +15,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <template #h>기본 스타일</template>
 
-  <div class="border padding:5 bg-color:base-1 color:base-10">Hello world</div>
+  <div class="border padding:5 bg-color:base-1">Hello world</div>
 </ExampleSection>
 
 ```html{1}
-<div class="border padding:5 bg-color:base-1 color:base-10">
+<div class="border padding:5 bg-color:base-1">
   Hello World
 </div>
 ```
@@ -36,17 +36,17 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
 <template #h>기본 스타일</template>
-  <div class="border border-c:main-1 padding:5 bg-color:base-1 color:base-10">Hello world</div>
+  <div class="border border-c:main-1 padding:5 bg-color:base-1">Hello world</div>
 </ExampleSection>
 
 ```html{1}
-<div class="border padding:5 bg-color:base-1 color:base-10">
+<div class="border padding:5 bg-color:base-1">
   Hello World
 </div>
 ```
 
 ```css
-/* custom.css */
+/* root.css */
 :root {
     --border-color: var(--color-main-1); /* 기본 색상을 main으로 재정의 */
 }
