@@ -149,3 +149,5 @@
   </tbody>
 
 </table>
+
+기본 테마 색상 `var(--color-main)`, `var(--color-sub)`, ... 설정과 관련된 내용은 [여기](../../variables/theme-colors.md)를 참고해주세요.
