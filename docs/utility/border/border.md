@@ -20,7 +20,7 @@
       <code>border</code>
     </td>
     <td>
-      <span class="code">border: 1px solid var(--border-color) !important;</span>
+      <span class="code">border: 1px solid var(--border-color) !important; </span> <span class="c:weak">/* #dee2e6 */</span>
     </td>
   </tr>
 
@@ -70,3 +70,5 @@
 </tbody>
 
 </table>
+
+기본 테두리 색상 `var(--border-color)` 설정과 관련된 내용은 [여기](../../variables/border-color.md)를 참고해주세요.

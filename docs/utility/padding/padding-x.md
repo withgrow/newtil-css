@@ -26,7 +26,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:0</code></td>
   <td><code>px:0</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-0) !important;</span><br>
+    <span class="code">padding-right: var(--gap-0) !important;</span> <span class="c:weak">/* 0rem (0px) */</span><br>
     <span class="code">padding-left: var(--gap-0) !important;</span>
   </td>
 </tr>
@@ -35,7 +35,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:1</code></td>
   <td><code>px:1</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-1) !important;</span><br>
+    <span class="code">padding-right: var(--gap-1) !important;</span> <span class="c:weak">/* 0.25rem (4px) */</span><br>
     <span class="code">padding-left: var(--gap-1) !important;</span>
   </td>
 </tr>
@@ -44,7 +44,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:2</code></td>
   <td><code>px:2</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-2) !important;</span><br>
+    <span class="code">padding-right: var(--gap-2) !important;</span> <span class="c:weak">/* 0.5rem (8px) */</span><br>
     <span class="code">padding-left: var(--gap-2) !important;</span>
   </td>
 </tr>
@@ -53,7 +53,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:3</code></td>
   <td><code>px:3</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-3) !important;</span><br>
+    <span class="code">padding-right: var(--gap-3) !important;</span> <span class="c:weak">/* 0.75rem (12px) */</span><br>
     <span class="code">padding-left: var(--gap-3) !important;</span>
   </td>
 </tr>
@@ -62,7 +62,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:4</code></td>
   <td><code>px:4</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-4) !important;</span><br>
+    <span class="code">padding-right: var(--gap-4) !important;</span> <span class="c:weak">/* 1rem (16px) */</span><br>
     <span class="code">padding-left: var(--gap-4) !important;</span>
   </td>
 </tr>
@@ -71,7 +71,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:5</code></td>
   <td><code>px:5</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-5) !important;</span><br>
+    <span class="code">padding-right: var(--gap-5) !important;</span> <span class="c:weak">/* 1.25rem (20px) */</span><br>
     <span class="code">padding-left: var(--gap-5) !important;</span>
   </td>
 </tr>
@@ -80,7 +80,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:6</code></td>
   <td><code>px:6</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-6) !important;</span><br>
+    <span class="code">padding-right: var(--gap-6) !important;</span> <span class="c:weak">/* 1.5rem (24px) */</span><br>
     <span class="code">padding-left: var(--gap-6) !important;</span>
   </td>
 </tr>
@@ -89,7 +89,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:7</code></td>
   <td><code>px:7</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-7) !important;</span><br>
+    <span class="code">padding-right: var(--gap-7) !important;</span> <span class="c:weak">/* 1.75rem (28px) */</span><br>
     <span class="code">padding-left: var(--gap-7) !important;</span>
   </td>
 </tr>
@@ -98,7 +98,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:8</code></td>
   <td><code>px:8</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-8) !important;</span><br>
+    <span class="code">padding-right: var(--gap-8) !important;</span> <span class="c:weak">/* 2rem (32px) */</span><br>
     <span class="code">padding-left: var(--gap-8) !important;</span>
   </td>
 </tr>
@@ -107,7 +107,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:9</code></td>
   <td><code>px:9</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-9) !important;</span><br>
+    <span class="code">padding-right: var(--gap-9) !important;</span> <span class="c:weak">/* 2.25rem (36px) */</span><br>
     <span class="code">padding-left: var(--gap-9) !important;</span>
   </td>
 </tr>
@@ -116,7 +116,7 @@ padding-x 속성에 대한 유틸리티입니다.
   <td><code>padding-x:10</code></td>
   <td><code>px:10</code></td>
   <td>
-    <span class="code">padding-right: var(--gap-10) !important;</span><br>
+    <span class="code">padding-right: var(--gap-10) !important;</span> <span class="c:weak">/* 2.5rem (40px) */</span><br>
     <span class="code">padding-left: var(--gap-10) !important;</span>
   </td>
 </tr>

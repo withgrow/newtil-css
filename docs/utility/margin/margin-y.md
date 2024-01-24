@@ -26,7 +26,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:0</code></td>
   <td><code>my:0</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-0) !important;</span><br>
+    <span class="code">margin-top: var(--gap-0) !important;</span> <span class="c:weak">/* 0rem (0px) */</span><br>
     <span class="code">margin-bottom: var(--gap-0) !important;</span>
   </td>
 </tr>
@@ -35,7 +35,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:1</code></td>
   <td><code>my:1</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-1) !important;</span><br>
+    <span class="code">margin-top: var(--gap-1) !important;</span> <span class="c:weak">/* 0.25rem (4px) */</span><br>
     <span class="code">margin-bottom: var(--gap-1) !important;</span>
   </td>
 </tr>
@@ -44,7 +44,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:2</code></td>
   <td><code>my:2</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-2) !important;</span><br>
+    <span class="code">margin-top: var(--gap-2) !important;</span> <span class="c:weak">/* 0.5rem (8px) */</span><br>
     <span class="code">margin-bottom: var(--gap-2) !important;</span>
   </td>
 </tr>
@@ -53,7 +53,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:3</code></td>
   <td><code>my:3</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-3) !important;</span><br>
+    <span class="code">margin-top: var(--gap-3) !important;</span> <span class="c:weak">/* 0.75rem (12px) */</span><br>
     <span class="code">margin-bottom: var(--gap-3) !important;</span>
   </td>
 </tr>
@@ -62,7 +62,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:4</code></td>
   <td><code>my:4</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-4) !important;</span><br>
+    <span class="code">margin-top: var(--gap-4) !important;</span> <span class="c:weak">/* 1rem (16px) */</span><br>
     <span class="code">margin-bottom: var(--gap-4) !important;</span>
   </td>
 </tr>
@@ -71,7 +71,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:5</code></td>
   <td><code>my:5</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-5) !important;</span><br>
+    <span class="code">margin-top: var(--gap-5) !important;</span> <span class="c:weak">/* 1.25rem (20px) */</span><br>
     <span class="code">margin-bottom: var(--gap-5) !important;</span>
   </td>
 </tr>
@@ -80,7 +80,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:6</code></td>
   <td><code>my:6</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-6) !important;</span><br>
+    <span class="code">margin-top: var(--gap-6) !important;</span> <span class="c:weak">/* 1.5rem (24px) */</span><br>
     <span class="code">margin-bottom: var(--gap-6) !important;</span>
   </td>
 </tr>
@@ -89,7 +89,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:7</code></td>
   <td><code>my:7</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-7) !important;</span><br>
+    <span class="code">margin-top: var(--gap-7) !important;</span> <span class="c:weak">/* 1.75rem (28px) */</span><br>
     <span class="code">margin-bottom: var(--gap-7) !important;</span>
   </td>
 </tr>
@@ -98,7 +98,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:8</code></td>
   <td><code>my:8</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-8) !important;</span><br>
+    <span class="code">margin-top: var(--gap-8) !important;</span> <span class="c:weak">/* 2rem (32px) */</span><br>
     <span class="code">margin-bottom: var(--gap-8) !important;</span>
   </td>
 </tr>
@@ -107,7 +107,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:9</code></td>
   <td><code>my:9</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-9) !important;</span><br>
+    <span class="code">margin-top: var(--gap-9) !important;</span> <span class="c:weak">/* 2.25rem (36px) */</span><br>
     <span class="code">margin-bottom: var(--gap-9) !important;</span>
   </td>
 </tr>
@@ -116,7 +116,7 @@ margin-y 속성에 대한 유틸리티입니다.
   <td><code>margin-y:10</code></td>
   <td><code>my:10</code></td>
   <td>
-    <span class="code">margin-top: var(--gap-10) !important;</span><br>
+    <span class="code">margin-top: var(--gap-10) !important;</span> <span class="c:weak">/* 2.5rem (40px) */</span><br>
     <span class="code">margin-bottom: var(--gap-10) !important;</span>
   </td>
 </tr>

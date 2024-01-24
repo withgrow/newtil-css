@@ -2,7 +2,7 @@
 
 [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) 속성에 대한 유틸리티입니다.
 
-요소의 프레임 주변에 그림자 효과를 추가합니다.
+요소의 주변에 그림자 효과를 추가합니다.
 
 <table>
   <thead>

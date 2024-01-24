@@ -14,40 +14,40 @@
   </thead>
   <tbody>
   <tr>
-  <td><code>order:1</code></td>
-  <td class="blank"></td>
-  <td><span class="code">order: var(--order-1) !important;</span></td>
-</tr>
+    <td><code>order:1</code></td>
+    <td class="blank"></td>
+    <td><span class="code">order: var(--order-1) !important;</span> <span class="c:weak">/* -1 */</span></td>
+  </tr>
 
-<tr>
-  <td><code>order:2</code></td>
-  <td class="blank"></td>
-  <td><span class="code">order: var(--order-2) !important;</span></td>
-</tr>
+  <tr>
+    <td><code>order:2</code></td>
+    <td class="blank"></td>
+    <td><span class="code">order: var(--order-2) !important;</span> <span class="c:weak">/* 2 */</span></td>
+  </tr>
 
-<tr>
-  <td><code>order:3</code></td>
-  <td class="blank"></td>
-  <td><span class="code">order: var(--order-3) !important;</span></td>
-</tr>
+  <tr>
+    <td><code>order:3</code></td>
+    <td class="blank"></td>
+    <td><span class="code">order: var(--order-3) !important;</span> <span class="c:weak">/* 3 */</span></td>
+  </tr>
 
-<tr>
-  <td><code>order:4</code></td>
-  <td class="blank"></td>
-  <td><span class="code">order: var(--order-4) !important;</span></td>
-</tr>
+  <tr>
+    <td><code>order:4</code></td>
+    <td class="blank"></td>
+    <td><span class="code">order: var(--order-4) !important;</span> <span class="c:weak">/* 4 */</span></td>
+  </tr>
 
-<tr>
-  <td><code>order:5</code></td>
-  <td class="blank"></td>
-  <td><span class="code">order: var(--order-5) !important;</span></td>
-</tr>
+  <tr>
+    <td><code>order:5</code></td>
+    <td class="blank"></td>
+    <td><span class="code">order: var(--order-5) !important;</span> <span class="c:weak">/* 5 */</span></td>
+  </tr>
 
-<tr>
-  <td><code>order:none</code></td>
-  <td class="blank"></td>
-  <td><span class="code">order: none !important;</span></td>
-</tr>
+  <tr>
+    <td><code>order:none</code></td>
+    <td class="blank"></td>
+    <td><span class="code">order: none !important;</span></td>
+  </tr>
 
   </tbody>
 

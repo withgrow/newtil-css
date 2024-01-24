@@ -16,19 +16,19 @@
 <tr>
   <td><code>font-weight:1</code></td>
   <td><code>font-w:1</code></td>
-  <td><span class="code">font-weight: var(--font-weight-1) !important;</span></td>
+  <td><span class="code">font-weight: var(--font-weight-1) !important;</span> <span class="c:weak">/* 400 */</span></td>
 </tr>
 
 <tr>
   <td><code>font-weight:2</code></td>
   <td><code>font-w:2</code></td>
-  <td><span class="code">font-weight: var(--font-weight-2) !important;</span></td>
+  <td><span class="code">font-weight: var(--font-weight-2) !important;</span> <span class="c:weak">/* 500 */</span></td>
 </tr>
 
 <tr>
   <td><code>font-weight:3</code></td>
   <td><code>font-w:3</code></td>
-  <td><span class="code">font-weight: var(--font-weight-3) !important;</span></td>
+  <td><span class="code">font-weight: var(--font-weight-3) !important;</span> <span class="c:weak">/* 700 */</span></td>
 </tr>
 
   </tbody>

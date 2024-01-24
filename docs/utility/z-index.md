@@ -14,30 +14,30 @@
   </thead>
   <tbody>
   <tr>
-  <td><code>z-index:1</code></td>
-  <td><code>zi:1</code></td>
-  <td><span class="code">z-index: var(--z-index-1) !important;</span></td>
-</tr>
-<tr>
-  <td><code>z-index:2</code></td>
-  <td><code>zi:2</code></td>
-  <td><span class="code">z-index: var(--z-index-2) !important;</span></td>
-</tr>
-<tr>
-  <td><code>z-index:3</code></td>
-  <td><code>zi:3</code></td>
-  <td><span class="code">z-index: var(--z-index-3) !important;</span></td>
-</tr>
-<tr>
-  <td><code>z-index:4</code></td>
-  <td><code>zi:4</code></td>
-  <td><span class="code">z-index: var(--z-index-4) !important;</span></td>
-</tr>
-<tr>
-  <td><code>z-index:5</code></td>
-  <td><code>zi:5</code></td>
-  <td><span class="code">z-index: var(--z-index-5) !important;</span></td>
-</tr>
+    <td><code>z-index:1</code></td>
+    <td><code>zi:1</code></td>
+    <td><span class="code">z-index: var(--z-index-1) !important;</span> <span class="c:weak">/* 1 */</span></td>
+  </tr>
+  <tr>
+    <td><code>z-index:2</code></td>
+    <td><code>zi:2</code></td>
+    <td><span class="code">z-index: var(--z-index-2) !important;</span> <span class="c:weak">/* 200 */</span></td>
+  </tr>
+  <tr>
+    <td><code>z-index:3</code></td>
+    <td><code>zi:3</code></td>
+    <td><span class="code">z-index: var(--z-index-3) !important;</span> <span class="c:weak">/* 500 */</span></td>
+  </tr>
+  <tr>
+    <td><code>z-index:4</code></td>
+    <td><code>zi:4</code></td>
+    <td><span class="code">z-index: var(--z-index-4) !important;</span> <span class="c:weak">/* 1000 */</span></td>
+  </tr>
+  <tr>
+    <td><code>z-index:5</code></td>
+    <td><code>zi:5</code></td>
+    <td><span class="code">z-index: var(--z-index-5) !important;</span> <span class="c:weak">/* 2000 */</span></td>
+  </tr>
 
   </tbody>
 

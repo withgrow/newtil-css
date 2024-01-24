@@ -177,7 +177,7 @@ th {
 /**
  * 코드 태그의 줄바꿈을 방지
  */
-code {
+code, td:last-child {
   white-space: nowrap;
 }
 
