@@ -70,3 +70,5 @@
   </tbody>
 
 </table>
+
+기본 폰트 크기 `var(--font-size)` 설정과 관련된 내용은 [여기](../../variables/font-size.md)를 참고해주세요.
