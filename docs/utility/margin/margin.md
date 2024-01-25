@@ -88,3 +88,5 @@
   </tbody>
 
 </table>
+
+기본 여백 크기 `var(--gap)` 설정과 관련된 내용은 [여기](../../variables/gap.md)를 참고해주세요.
