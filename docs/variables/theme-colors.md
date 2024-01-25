@@ -36,9 +36,9 @@
     --color-main-2: #85b132;
     --color-main-3: #759d2a;
 
-    --rgb-main-1: rgb(153, 200, 66);
-    --rgb-main-2: rgb(133, 177, 50);
-    --rgb-main-3: rgb(117, 157, 42);
+    --rgb-main-1: 153, 200, 66;
+    --rgb-main-2: 133, 177, 50;
+    --rgb-main-3: 117, 157, 42;
 }
 ```
 
@@ -148,12 +148,18 @@
 
 ```css
 :root {
-    --color-main-1: #ffdd54;
-    --color-main-2: #ffd322;
-    --color-main-3: #f0c000;
+    --color-main-1: #99c842; /* [!code --] */
+    --color-main-2: #85b132; /* [!code --] */
+    --color-main-3: #759d2a; /* [!code --] */
+    --color-main-1: #ffdd54; /* [!code ++] */
+    --color-main-2: #ffd322; /* [!code ++] */
+    --color-main-3: #f0c000; /* [!code ++] */
 
-    --rgb-main-1: rgb(255, 221, 84);
-    --rgb-main-2: rgb(255, 211, 34);
-    --rgb-main-3: rgb(240, 192, 0);
+    --rgb-main-1: 153, 200, 66; /* [!code --] */
+    --rgb-main-2: 133, 177, 50; /* [!code --] */
+    --rgb-main-3: 117, 157, 42; /* [!code --] */
+    --rgb-main-1: 255, 221, 84; /* [!code ++] */
+    --rgb-main-2: 255, 211, 34; /* [!code ++] */
+    --rgb-main-3: 240, 192, 0; /* [!code ++] */
 }
 ```

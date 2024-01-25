@@ -56,7 +56,8 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --font-weight-1: 300; /* 400 → 300 */
+    --font-weight-1: 400; /* [!code --] */
+    --font-weight-1: 300; /* [!code ++] */
     --font-weight-2: 500;
     --font-weight-3: 700;
 }

@@ -90,6 +90,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 ```css
 /* root.css */
 :root {
+    /* .. */
     --border-radius-6: 12px;
     --border-radius-7: 14px;
     --border-radius-8: 16px;
