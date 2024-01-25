@@ -82,3 +82,5 @@
   </tbody>
 
 </table>
+
+기본 불투명도 `var(--opacity)` 설정과 관련된 내용은 [여기](../variables/opacity)를 참고해주세요.
