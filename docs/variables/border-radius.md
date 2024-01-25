@@ -63,10 +63,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
     <div class="d:flex gap:3">
-        <div v-for="rad, key of Array.from({length: 5}, (v, i) => 2 * i + 12)" 
-        :key="key"
+        <div v-for="rad, index of Array.from({length: 5}, (v, i) => 2 * i + 12)" 
         class="h:10 w:10 d:flex ai:center jc:center bg-color:base-1 border border-c:main-3" 
-        :style="`border-radius:${rad}px`"> {{ key + 6 }} </div>
+        :style="`border-radius:${rad}px`"> {{ index + 6 }} </div>
     </div>
 </ExampleSection>
 

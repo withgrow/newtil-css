@@ -84,8 +84,8 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
     --font-size-4: 1.125rem; /* 18px */
     --font-size-5: 1.25rem; /* 20px */
     --font-size-6: 1.375rem; /* 22px */
-    --font-size-7: 1.5rem; /* 24px */
-    --font-size-8: 1.625rem; /* 26px */
-    --font-size-9: 1.75rem; /* 28px */
+    --font-size-7: 1.5rem; /* 26px → 24px */
+    --font-size-8: 1.625rem; /* 32px → 26px */
+    --font-size-9: 1.75rem; /* 56px → 28px */
 }
 ```

@@ -10,7 +10,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ## Default
 
-기본적으로 일곱 가지 그림자 스타일이 제공됩니다.
+일곱 가지 그림자 스타일이 기본 제공됩니다.
 
 <ExampleSection>
 	<div class="d:flex flex-wrap:wrap gap:10 w:fit-content">
