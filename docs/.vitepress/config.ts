@@ -74,6 +74,10 @@ export default defineConfig({
                         link: "/border-radius"
                     },
                     {
+                        text: "box-shadow",
+                        link: "/box-shadow"
+                    },
+                    {
                         text: "font-size",
                         link: "/font-size"
                     },
