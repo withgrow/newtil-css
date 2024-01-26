@@ -52,3 +52,5 @@
   </tbody>
 
 </table>
+
+기본 순서값 `var(--order)` 설정과 관련된 내용은 [여기](../variables/order)를 참고해주세요.
