@@ -512,6 +512,10 @@ export default defineConfig({
                         ]
                     },
                     {
+                        text: "table-layout",
+                        link: "/table-layout"
+                    },
+                    {
                         text: "text-*",
                         collapsed: true,
                         items: [
