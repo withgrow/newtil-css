@@ -44,35 +44,35 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-c-default-1: var(--vp-c-gray-1);
-    --vp-c-default-2: var(--vp-c-gray-2);
-    --vp-c-default-3: var(--vp-c-gray-3);
-    --vp-c-default-soft: var(--vp-c-gray-soft);
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
 
-    /* --vp-c-brand-1: var(--vp-c-indigo-1);
+  /* --vp-c-brand-1: var(--vp-c-indigo-1);
   --vp-c-brand-2: var(--vp-c-indigo-2);
   --vp-c-brand-3: var(--vp-c-indigo-3); */
-    --vp-c-brand-1: #8cba35;
-    --vp-c-brand-2: #7ba52b;
-    --vp-c-brand-3: #688f1f;
-    --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-1: #8cba35;
+  --vp-c-brand-2: #7ba52b;
+  --vp-c-brand-3: #688f1f;
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
-    --vp-c-tip-1: var(--vp-c-brand-1);
-    --vp-c-tip-2: var(--vp-c-brand-2);
-    --vp-c-tip-3: var(--vp-c-brand-3);
-    --vp-c-tip-soft: var(--vp-c-brand-soft);
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-    --vp-c-warning-1: var(--vp-c-yellow-1);
-    --vp-c-warning-2: var(--vp-c-yellow-2);
-    --vp-c-warning-3: var(--vp-c-yellow-3);
-    --vp-c-warning-soft: var(--vp-c-yellow-soft);
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
 
-    --vp-c-danger-1: var(--vp-c-red-1);
-    --vp-c-danger-2: var(--vp-c-red-2);
-    --vp-c-danger-3: var(--vp-c-red-3);
-    --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
 
-    --vp-code-color: var(--vp-c-brand-2);
+  --vp-code-color: var(--vp-c-brand-2);
 }
 
 /**
@@ -80,15 +80,15 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-button-brand-border: transparent;
-    --vp-button-brand-text: var(--vp-c-white);
-    --vp-button-brand-bg: var(--vp-c-brand-3);
-    --vp-button-brand-hover-border: transparent;
-    --vp-button-brand-hover-text: var(--vp-c-white);
-    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
-    --vp-button-brand-active-border: transparent;
-    --vp-button-brand-active-text: var(--vp-c-white);
-    --vp-button-brand-active-bg: var(--vp-c-brand-1);
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
 /**
@@ -96,30 +96,30 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(
-        60deg,
-        #8cba35 40%,
-        #ffb400
-    );
-    --vp-home-hero-image-background-image: linear-gradient(
-        -45deg,
-        #8cba35 50%,
-        #ffb400 50%
-    );
-    --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    60deg,
+    #8cba35 40%,
+    #ffb400
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #8cba35 50%,
+    #ffb400 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
 }
 
 @media (min-width: 640px) {
-    :root {
-        --vp-home-hero-image-filter: blur(56px);
-    }
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
 }
 
 @media (min-width: 960px) {
-    :root {
-        --vp-home-hero-image-filter: blur(68px);
-    }
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
 }
 
 /**
@@ -127,10 +127,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-custom-block-tip-border: transparent;
-    --vp-custom-block-tip-text: var(--vp-c-text-1);
-    --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
-    --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
 /**
@@ -138,25 +138,25 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-    --docsearch-primary-color: var(--vp-c-brand-1) !important;
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
 /**
  * Component: Table
  * -------------------------------------------------------------------------- */
 .vp-doc tr:nth-child(2n) {
-    background-color: var(--vp-c-bg);
+  background-color: var(--vp-c-bg);
 }
 
 .vp-doc td:last-child {
-    width: 100%;
+  width: 100%;
 }
 
 /**
  * 클래스 속성을 설명하는 표의 제목열의 줄바꿈을 방지
  */
 th {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 /**
@@ -170,25 +170,25 @@ th {
  * </td>
  */
 .code {
-    color: #005cc5;
-    white-space: nowrap;
+  color: #005cc5;
+  white-space: nowrap;
 }
 
 /**
  * 코드 태그의 줄바꿈을 방지
  */
-code {
-    white-space: nowrap;
+code, td:last-child {
+  white-space: nowrap;
 }
 
 /**
  * 약어 클래스가 없는 속성은 중앙정렬된 대시(-)로 표현
  */
 .blank {
-    text-align: center;
+  text-align: center;
 }
- .blank::after {
-    content: '-';
+.blank::after {
+  content: "-";
 }
 
 /**
@@ -202,7 +202,7 @@ code {
  * 
  * 
  */
- .color\:weak,
- .c\:weak {
-    color: #bbb;
- }
+.color\:weak,
+.c\:weak {
+  color: var(--color-base-5);
+}

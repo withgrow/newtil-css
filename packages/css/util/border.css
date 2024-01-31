@@ -242,7 +242,6 @@
 .border-radius\:2,                 .border-rd\:2 { border-radius: var(--border-radius-2) !important; }
 .border-radius\:3,                 .border-rd\:3 { border-radius: var(--border-radius-3) !important; }
 .border-radius\:4,                 .border-rd\:4 { border-radius: var(--border-radius-4) !important; }
-.border-radius\:5,                 .border-rd\:5 { border-radius: var(--border-radius-5) !important; }
 .border-radius\:full,              .border-rd\:full { border-radius: var(--border-radius-full) !important; }
 
 
@@ -252,7 +251,6 @@
   .md\:border-radius\:2,                 .md\:border-rd\:2 { border-radius: var(--border-radius-2) !important; }
   .md\:border-radius\:3,                 .md\:border-rd\:3 { border-radius: var(--border-radius-3) !important; }
   .md\:border-radius\:4,                 .md\:border-rd\:4 { border-radius: var(--border-radius-4) !important; }
-  .md\:border-radius\:5,                 .md\:border-rd\:5 { border-radius: var(--border-radius-5) !important; }
   .md\:border-radius\:full,              .md\:border-rd\:full { border-radius: var(--border-radius-full) !important; }
 }
 
@@ -262,6 +260,5 @@
   .lg\:border-radius\:2,                 .lg\:border-rd\:2 { border-radius: var(--border-radius-2) !important; }
   .lg\:border-radius\:3,                 .lg\:border-rd\:3 { border-radius: var(--border-radius-3) !important; }
   .lg\:border-radius\:4,                 .lg\:border-rd\:4 { border-radius: var(--border-radius-4) !important; }
-  .lg\:border-radius\:5,                 .lg\:border-rd\:5 { border-radius: var(--border-radius-5) !important; }
   .lg\:border-radius\:full,              .lg\:border-rd\:full { border-radius: var(--border-radius-full) !important; }
 }

@@ -16,57 +16,57 @@
   <tr>
   <td><code>width:0</code></td>
   <td><code>w:0</code></td>
-  <td><span class="code">width: var(--gap-0) !important;</span></td>
+  <td><span class="code">width: var(--gap-0) !important;</span> <span class="c:weak">/* 0rem (0px) */</span></td>
 </tr>
 <tr>
   <td><code>width:1</code></td>
   <td><code>w:1</code></td>
-  <td><span class="code">width: var(--gap-1) !important;</span></td>
+  <td><span class="code">width: var(--gap-1) !important;</span> <span class="c:weak">/* 0.25rem (4px) */</span></td>
 </tr>
 <tr>
   <td><code>width:2</code></td>
   <td><code>w:2</code></td>
-  <td><span class="code">width: var(--gap-2) !important;</span></td>
+  <td><span class="code">width: var(--gap-2) !important;</span> <span class="c:weak">/* 0.5rem (8px) */</span></td>
 </tr>
 <tr>
   <td><code>width:3</code></td>
   <td><code>w:3</code></td>
-  <td><span class="code">width: var(--gap-3) !important;</span></td>
+  <td><span class="code">width: var(--gap-3) !important;</span> <span class="c:weak">/* 0.75rem (12px) */</span></td>
 </tr>
 <tr>
   <td><code>width:4</code></td>
   <td><code>w:4</code></td>
-  <td><span class="code">width: var(--gap-4) !important;</span></td>
+  <td><span class="code">width: var(--gap-4) !important;</span> <span class="c:weak">/* 1rem (16px) */</span></td>
 </tr>
 <tr>
   <td><code>width:5</code></td>
   <td><code>w:5</code></td>
-  <td><span class="code">width: var(--gap-5) !important;</span></td>
+  <td><span class="code">width: var(--gap-5) !important;</span> <span class="c:weak">/* 1.25rem (20px) */</span></td>
 </tr>
 <tr>
   <td><code>width:6</code></td>
   <td><code>w:6</code></td>
-  <td><span class="code">width: var(--gap-6) !important;</span></td>
+  <td><span class="code">width: var(--gap-6) !important;</span> <span class="c:weak">/* 1.5rem (24px) */</span></td>
 </tr>
 <tr>
   <td><code>width:7</code></td>
   <td><code>w:7</code></td>
-  <td><span class="code">width: var(--gap-7) !important;</span></td>
+  <td><span class="code">width: var(--gap-7) !important;</span> <span class="c:weak">/* 1.75rem (28px) */</span></td>
 </tr>
 <tr>
   <td><code>width:8</code></td>
   <td><code>w:8</code></td>
-  <td><span class="code">width: var(--gap-8) !important;</span></td>
+  <td><span class="code">width: var(--gap-8) !important;</span> <span class="c:weak">/* 2rem (32px) */</span></td>
 </tr>
 <tr>
   <td><code>width:9</code></td>
   <td><code>w:9</code></td>
-  <td><span class="code">width: var(--gap-9) !important;</span></td>
+  <td><span class="code">width: var(--gap-9) !important;</span> <span class="c:weak">/* 2.25rem (36px) */</span></td>
 </tr>
 <tr>
   <td><code>width:10</code></td>
   <td><code>w:10</code></td>
-  <td><span class="code">width: var(--gap-10) !important;</span></td>
+  <td><span class="code">width: var(--gap-10) !important;</span> <span class="c:weak">/* 2.5rem (40px) */</span></td>
 </tr>
 <tr>
   <td><code>width:full</code></td>
@@ -97,3 +97,5 @@
   </tbody>
 
 </table>
+
+기본 너비값 `var(--gap)` 설정과 관련된 내용은 [여기](../../variables/gap.md)를 참고해주세요.

@@ -2,7 +2,7 @@
 
 [font-color](https://developer.mozilla.org/en-US/docs/Web/CSS/color) 속성에 대한 유틸리티입니다.
 
-네 가지 테마 색상 ─ <code>main</code>, <code>sub</code>, <code>accent</code>, <code>base</code> ─ 을 기반으로 폰트 색상을 설정합니다.
+미리 지정한 네 가지 테마 색상을 활용하여 폰트 색상을 설정합니다.
 
 <table>
   <thead>
@@ -149,3 +149,5 @@
   </tbody>
 
 </table>
+
+기본 테마 색상 `var(--color-main)`, `var(--color-sub)`, ... 설정과 관련된 내용은 [여기](../../variables/theme-colors.md)를 참고해주세요.

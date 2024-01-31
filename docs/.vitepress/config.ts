@@ -18,6 +18,14 @@ export default defineConfig({
         ],
         ["link", { rel: "icon", href: "/favicon.ico" }]
     ],
+
+    // https://vitepress.dev/guide/markdown#custom-title
+    markdown: {
+        container: {
+            warningLabel: "TIP"
+        }
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     themeConfig: {
         logo: { src: "/logo.png", width: 24, height: 24 },
@@ -41,9 +49,61 @@ export default defineConfig({
                 base: "/guide",
                 items: [
                     { text: "시작하기", link: "/getting-started" },
+                    { text: "newtil-css 맛보기", link: "/example" },
                     { text: "스타일 재정의하기", link: "/customizing" }
                 ]
             },
+            {
+                text: "변수",
+                base: "/variables",
+                items: [
+                    {
+                        text: "theme-colors",
+                        link: "/theme-colors"
+                    },
+                    {
+                        text: "border-color",
+                        link: "/border-color"
+                    },
+                    {
+                        text: "border-width",
+                        link: "/border-width"
+                    },
+                    {
+                        text: "border-radius",
+                        link: "/border-radius"
+                    },
+                    {
+                        text: "box-shadow",
+                        link: "/box-shadow"
+                    },
+                    {
+                        text: "font-size",
+                        link: "/font-size"
+                    },
+                    {
+                        text: "font-weight",
+                        link: "/font-weight"
+                    },
+                    {
+                        text: "gap",
+                        link: "/gap"
+                    },
+                    {
+                        text: "opacity",
+                        link: "/opacity"
+                    },
+                    {
+                        text: "order",
+                        link: "/order"
+                    },
+                    {
+                        text: "z-index",
+                        link: "/z-index"
+                    }
+                ]
+            },
+
             {
                 text: "유틸리티",
                 base: "/utility",
@@ -454,6 +514,10 @@ export default defineConfig({
                                 link: "/scroll/scroll-none"
                             }
                         ]
+                    },
+                    {
+                        text: "table-layout",
+                        link: "/table-layout"
                     },
                     {
                         text: "text-*",
