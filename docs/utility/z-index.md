@@ -2,7 +2,7 @@
 
 [z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index) 속성에 대한 유틸리티입니다.
 
-위치가 지정된([positioned](https://developer.mozilla.org/en-US/docs/Web/CSS/position)) 요소와 그 자손, 혹은 <code>flex</code> 및 <code>grid</code> 아이템의 순서를 지정합니다. 겹치는 요소가 있다면 <code>z-index</code> 값이 큰 요소가 <code>z-index</code> 값이 작은 요소를 덮습니다.
+위치가 지정된([positioned](https://developer.mozilla.org/en-US/docs/Web/CSS/position)) 요소와 그 자손, 혹은 <code>flex</code> 및 <code>grid</code> 아이템의 z축에서의 순서를 지정합니다. 겹치는 요소가 있다면 <code>z-index</code> 값이 큰 요소가 <code>z-index</code> 값이 작은 요소를 덮습니다.
 
 <table>
   <thead>
@@ -42,3 +42,5 @@
   </tbody>
 
 </table>
+
+기본 순서값 `var(--z-index)` 설정과 관련된 내용은 [여기](../variables/z-index)를 참고해주세요.
