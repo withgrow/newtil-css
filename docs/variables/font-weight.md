@@ -4,13 +4,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 # font-weight
 
-변수 `var(--font-weight)`는 폰트의 기본 두께를 정의하는 데 사용되며, 다음의 속성에서 활용되고 있습니다:
+변수 `var(--font-weight)`는 폰트의 기본 두께를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [`font-weight`](../utility/font/font-weight.md)
+-   [font-weight](../utility/font/font-weight.md)
 
 ## Default
 
-아홉 가지 폰트 크기가 기본 제공됩니다.
+세 단계의 폰트 두께가 기본 제공됩니다.
 
 <ExampleSection>
 <div class="w:full">

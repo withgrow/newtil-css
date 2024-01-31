@@ -6,13 +6,13 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 # font-size
 
-변수 `var(--font-size)`는 폰트의 기본 크기를 정의하는 데 사용되며, 다음의 속성에서 활용되고 있습니다:
+변수 `var(--font-size)`는 폰트의 기본 크기를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [`font-size`](../utility/font/font-size.md)
+-   [font-size](../utility/font/font-size.md)
 
 ## Default
 
-아홉 가지 폰트 크기가 기본 제공됩니다.
+아홉 단계의 폰트 크기가 기본 제공됩니다.
 
 <ExampleSection>
 <div class="w:full">
@@ -28,11 +28,7 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 <p class="font-size:1">Hello World!</p>
 <p class="font-size:2">Hello World!</p>
 <p class="font-size:3">Hello World!</p>
-<p class="font-size:4">Hello World!</p>
-<p class="font-size:5">Hello World!</p>
-<p class="font-size:6">Hello World!</p>
-<p class="font-size:7">Hello World!</p>
-<p class="font-size:8">Hello World!</p>
+<!-- ... -->
 <p class="font-size:9">Hello World!</p>
 ```
 
@@ -68,11 +64,7 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 <p class="font-size:1">Hello World!</p>
 <p class="font-size:2">Hello World!</p>
 <p class="font-size:3">Hello World!</p>
-<p class="font-size:4">Hello World!</p>
-<p class="font-size:5">Hello World!</p>
-<p class="font-size:6">Hello World!</p>
-<p class="font-size:7">Hello World!</p>
-<p class="font-size:8">Hello World!</p>
+<!-- ... -->
 <p class="font-size:9">Hello World!</p>
 ```
 

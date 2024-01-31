@@ -4,9 +4,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 # order
 
-변수 `var(--order)`는 폰트의 기본 크기를 정의하는 데 사용되며, 다음의 속성에서 활용되고 있습니다:
+변수 `var(--order)`는 요소의 배치 순서를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [`order`](../utility/order.md)
+-   [order](../utility/order.md)
 
 ## Default
 
@@ -15,7 +15,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="d:flex gap:2 of:auto" ref="container">
     <div v-for="o, index of [1,4,2,5,3]"
-        class="c:base-1 font-w:3 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center"
+        class="c:base-1 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center"
         :class="`order:${o}`">
         {{ index+1 }}
     </div>
@@ -47,7 +47,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="d:flex gap:2 of:auto" ref="container">
     <div v-for="o, index of [1, 5, 2, 6, 3, 7, 4, 8]"
-        class="c:base-1 font-w:3 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center"
+        class="c:base-1 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center"
         :style="`order:${o}`">
         {{ index+1 }}
     </div>
@@ -60,14 +60,14 @@ import ExampleSection from "../components/ExampleSection.vue"
 <div class="order:2 ...">3</div>
 <div class="order:6 ...">4</div>
 <div class="order:3 ...">5</div>
-<div class="order:7 ...">5</div>
-<div class="order:4 ...">5</div>
-<div class="order:8 ...">5</div>
+<div class="order:7 ...">6</div>
+<div class="order:4 ...">7</div>
+<div class="order:8 ...">8</div>
 ```
 
 ```css
 :root {
-    /* .. */
+    /* ... */
     --order-6: 6; /* [!code ++] */
     --order-7: 7; /* [!code ++] */
     --order-8: 8; /* [!code ++] */

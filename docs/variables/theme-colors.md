@@ -1,10 +1,10 @@
 # 테마 색상
 
-`newtil-css`는 ─ [`main`](#main), [`sub`](#sub), [`accent`](#accent), [`base`](#base) ─ 네 가지 테마 색상를 제공하며 다음의 속성에서 활용되고 있습니다:
+`newtil-css`는 ─ `main`, `sub`, `accent`, `base` ─ 네 가지 테마 색상를 제공하며 다음의 유틸리티에서 활용되고 있습니다:
 
--   [`background-color`](../utility/background/background-color.md)
--   [`border-color`](../utility/border/border-color.md)
--   [`font-color`](../utility/font/font-color.md)
+-   [background-color](../utility/background/background-color.md)
+-   [border-color](../utility/border/border-color.md)
+-   [font-color](../utility/font/font-color.md)
 
 ## Default
 
@@ -18,15 +18,9 @@
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:main-1 h:10 w:10 d:flex ai:center jc:center c:base-1 ">
-        1
-    </div>
-    <div class="bg-color:main-2 h:10 w:10 d:flex ai:center jc:center c:base-1 ">
-        2
-    </div>
-    <div class="bg-color:main-3 h:10 w:10 d:flex ai:center jc:center c:base-1 ">
-        3
-    </div>
+    <div class="bg-color:main-1 c:base-1 ...">1</div>
+    <div class="bg-color:main-2 c:base-1 ...">2</div>
+    <div class="bg-color:main-3 c:base-1 ...">3</div>
 </div>
 ```
 
@@ -50,6 +44,14 @@
   <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:sub-${item}`" > {{ item }} </div>
 </div>
 
+```html
+<div class="d:flex">
+    <div class="bg-color:sub-1 c:base-1 ...">1</div>
+    <div class="bg-color:sub-2 c:base-1 ...">2</div>
+    <div class="bg-color:sub-3 c:base-1 ...">3</div>
+</div>
+```
+
 ```css
 :root {
     --color-sub-1: #339af0;
@@ -64,11 +66,19 @@
 
 ### accent
 
-경고, 오류 등 강조를 나타냅니다.
+경고, 오류 등 강조하는 색을 나타냅니다.
 
 <div class="d:flex">
   <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:accent-${item}`" > {{ item }} </div>
 </div>
+
+```html
+<div class="d:flex">
+    <div class="bg-color:accent-1 c:base-1 ...">1</div>
+    <div class="bg-color:accent-2 c:base-1 ...">2</div>
+    <div class="bg-color:accent-3 c:base-1 ...">3</div>
+</div>
+```
 
 ```css
 :root {
@@ -89,6 +99,16 @@
 <div class="d:flex">
   <div v-for="item of Array.from({length: 10}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:base-${item}`" > {{ item }} </div>
 </div>
+
+```html
+<div class="d:flex">
+    <div class="bg-color:base-1 c:base-1 ...">1</div>
+    <div class="bg-color:base-2 c:base-1 ...">2</div>
+    <div class="bg-color:base-3 c:base-1 ...">3</div>
+    <!-- ... -->
+    <div class="bg-color:base-10 c:base-1 ...">10</div>
+</div>
+```
 
 ```css
 :root {
@@ -118,7 +138,7 @@
 
 ## Overriding
 
-테마 색상을 재정의할 수 있습니다. 다음은 `main` 색상을 녹색에서 노란색으로 재정의하는 예시입니다. 사용한 클래스에는 변화가 없지만 `--color-main`과 `--rgb-main`의 값을 수정함으로써 박스의 배경 색상이 변경되었습니다.
+다음과 같이 테마 색상을 재정의할 수 있습니다.
 
 <div class="d:flex">
   <div class="h:10 w:10 d:flex ai:center jc:center c:base-1" style="background-color: #FFDD54">
@@ -134,15 +154,9 @@
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:main-1 h:10 w:10 d:flex ai:center jc:center c:base-1 ">
-        1
-    </div>
-    <div class="bg-color:main-2 h:10 w:10 d:flex ai:center jc:center c:base-1 ">
-        2
-    </div>
-    <div class="bg-color:main-3 h:10 w:10 d:flex ai:center jc:center c:base-1 ">
-        3
-    </div>
+    <div class="bg-color:main-1 c:base-1 ...">1</div>
+    <div class="bg-color:main-2 c:base-1 ...">2</div>
+    <div class="bg-color:main-3 c:base-1 ...">3</div>
 </div>
 ```
 

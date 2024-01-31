@@ -6,7 +6,7 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 # gap
 
-변수 `var(--gap)`은 간격 및 크기를 정의하는 데 사용되며, 다음의 속성에서 활용되고 있습니다:
+변수 `var(--gap)`은 간격 및 크기를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
 | gap-\*                                                                      | width-\*                                                                    | height-\*                                                                      | margin-\*                                                                            | padding-\*                                                                              | position-\*                                                              | text-\*                                                                        |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
@@ -22,15 +22,15 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ## Default
 
-열 가지 간격이 기본 제공됩니다.
+열 단계의 간격이 기본 제공됩니다.
 
 <ExampleSection>
 <div class="w:full">
     <div v-for="i in 10" 
         class="d:flex mt:2">
         <div :class="`d:flex gap:${i} bg bg-color:base-1 border-rd:4 c:base-1`">
-            <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center">gap:</div>
-            <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center">{{i}}</div>
+            <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center">{{i}}</div>
+            <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
         </div>
     </div>
 </div>
@@ -38,23 +38,21 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```html{1,5,9,16}
 <div class="d:flex gap:1">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:2">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:3">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
-
-<!-- .. -->
-
+<!-- ... -->
 <div class="d:flex gap:10">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
 ```
 
@@ -77,7 +75,7 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ## Overriding
 
-다음과 같이 간격을 추가할 수 있습니다.
+다음과 같이 단계를 추가할 수 있습니다.
 
 <ExampleSection>
 <div class="w:full">
@@ -85,8 +83,8 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
         class="d:flex mt:2">
         <div class="c:base-1 bg bg-color:base-1 border-rd:4 d:flex"
             :style="`gap: ${4 * i + 40}px`">
-            <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center">gap:</div>
-            <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center">{{i + 10}}</div>
+            <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center">{{i + 10}}</div>
+            <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
         </div>
     </div>
 </div>
@@ -94,43 +92,41 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```html{1,5,9,16}
 <div class="d:flex gap:11">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:12">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:13">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
-
-<!-- .. -->
-
+<!-- ... -->
 <div class="d:flex gap:20">
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
-    <div class="font-w:3 bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-2 border-rd:4 w:10 h:10 p:7 d:flex ai:center jc:center"></div>
 </div>
 ```
 
 ```css
 :root {
-    /* .. */
-    --gap-11: 2.75rem; /* 44px */
-    --gap-12: 3rem; /* 48px */
-    --gap-13: 3.25rem; /* 52px */
-    --gap-14: 3.5rem; /* 56px */
-    --gap-15: 3.75rem; /* 60px */
-    --gap-16: 4rem; /* 64px */
-    --gap-17: 4.25rem; /* 68px */
-    --gap-18: 4.5rem; /* 72px */
-    --gap-19: 4.75rem; /* 76px */
-    --gap-20: 5rem; /* 80px */
+    /* ... */
+    --gap-11: 2.75rem; /* 44px */ /* [!code ++] */
+    --gap-12: 3rem; /* 48px */ /* [!code ++] */
+    --gap-13: 3.25rem; /* 52px */ /* [!code ++] */
+    --gap-14: 3.5rem; /* 56px */ /* [!code ++] */
+    --gap-15: 3.75rem; /* 60px */ /* [!code ++] */
+    --gap-16: 4rem; /* 64px */ /* [!code ++] */
+    --gap-17: 4.25rem; /* 68px */ /* [!code ++] */
+    --gap-18: 4.5rem; /* 72px */ /* [!code ++] */
+    --gap-19: 4.75rem; /* 76px */ /* [!code ++] */
+    --gap-20: 5rem; /* 80px */ /* [!code ++] */
 }
 ```
 
-<style>
+<style scoped>
     .bg {
         background: repeating-linear-gradient(135deg, var(--vp-c-brand-2) 0, var(--vp-c-brand-2) 10%, transparent 0, transparent 50%);
         background-size: 7.1px 7.1px;
