@@ -13,7 +13,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 `2px` 간격으로 여섯 단계의 둥글기와 원 모양의 둥글기가 기본 제공됩니다.
 
 <ExampleSection>
-    <div class="d:flex gap:3">
+    <div class="d:flex flex-wrap:wrap gap:3">
         <div 
             v-for="i in 5" 
             class="c:base-1 bg-color:main-2 h:10 w:10 p:10 d:flex ai:center jc:center " 
@@ -51,7 +51,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 다음과 같이 둥글기의 단계를 재정의할 수 있습니다.
 
 <ExampleSection>
-    <div class="d:flex gap:3">
+    <div class="d:flex flex-wrap:wrap gap:3">
         <div 
             v-for="i in 5" 
             class="c:base-1 bg-color:main-2 h:10 w:10 p:10 d:flex ai:center jc:center " 
