@@ -24,35 +24,28 @@
 <tr>
   <td><code>border-radius:1</code></td>
   <td><code>border-rd:1</code></td>
-  <td><span class="code">border-radius: var(--border-radius-1) !important; </span><span class="c:weak">/* 2px */</span></td>
+  <td><span class="code">border-radius: var(--border-radius-1) !important; </span><span class="c:weak">/* 4px */</span></td>
 </tr>
 
 <!-- border-radius: 2 -->
 <tr>
   <td><code>border-radius:2</code></td>
   <td><code>border-rd:2</code></td>
-  <td><span class="code">border-radius: var(--border-radius-2) !important; </span><span class="c:weak">/* 4px */</span></td>
+  <td><span class="code">border-radius: var(--border-radius-2) !important; </span><span class="c:weak">/* 8px */</span></td>
 </tr>
 
 <!-- border-radius: 3 -->
 <tr>
   <td><code>border-radius:3</code></td>
   <td><code>border-rd:3</code></td>
-  <td><span class="code">border-radius: var(--border-radius-3) !important; </span><span class="c:weak">/* 6px */</span></td>
+  <td><span class="code">border-radius: var(--border-radius-3) !important; </span><span class="c:weak">/* 12px */</span></td>
 </tr>
 
 <!-- border-radius: 4 -->
 <tr>
   <td><code>border-radius:4</code></td>
   <td><code>border-rd:4</code></td>
-  <td><span class="code">border-radius: var(--border-radius-4) !important; </span><span class="c:weak">/* 8px */</span></td>
-</tr>
-
-<!-- border-radius: 5 -->
-<tr>
-  <td><code>border-radius:5</code></td>
-  <td><code>border-rd:5</code></td>
-  <td><span class="code">border-radius: var(--border-radius-5) !important; </span><span class="c:weak">/* 10px */</span></td>
+  <td><span class="code">border-radius: var(--border-radius-4) !important; </span><span class="c:weak">/* 16px */</span></td>
 </tr>
 
 <!-- border-radius: full -->
