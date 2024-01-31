@@ -6,8 +6,6 @@
  * ───────────────────────────────────    */
 
 /* list-style */
-.list-style\:square,				.list-s\:square	{ list-style: square !important; }
-.list-style\:inside,				.list-s\:inside	{ list-style: inside !important; }
 .list-style\:none,          .list-s\:none { list-style: none !important; }
 
 /* list-style-position */

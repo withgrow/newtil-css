@@ -147,3 +147,62 @@
 .vp-doc tr:nth-child(2n) {
   background-color: var(--vp-c-bg);
 }
+
+.vp-doc td:last-child {
+  width: 100%;
+}
+
+/**
+ * 클래스 속성을 설명하는 표의 제목열의 줄바꿈을 방지
+ */
+th {
+  white-space: nowrap;
+}
+
+/**
+ * 클래스 속성을 설명하는 표의 코드 스타일
+ *
+ * @example
+ * <td>
+ *   <span class="code">
+ *     { display: inline-block !important; }
+ *   </span>
+ * </td>
+ */
+.code {
+  color: #005cc5;
+  white-space: nowrap;
+}
+
+/**
+ * 코드 태그의 줄바꿈을 방지
+ */
+code, td:last-child {
+  white-space: nowrap;
+}
+
+/**
+ * 약어 클래스가 없는 속성은 중앙정렬된 대시(-)로 표현
+ */
+.blank {
+  text-align: center;
+}
+.blank::after {
+  content: "-";
+}
+
+/**
+ * 클래스 설명부의 참고용 텍스트, 주석 등에 사용되는 "회색" 폰트 색상
+ *
+ * @example
+ * 항목이 컨테이너의 축을 따라 어떻게 정렬되는지를 설정합니다. 
+ * <span class="c:weak">
+ *   (참고: [<code>justify-items</code>](./justify-items.md))
+ * </span>
+ * 
+ * 
+ */
+.color\:weak,
+.c\:weak {
+  color: var(--color-base-5);
+}

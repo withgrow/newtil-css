@@ -1,7 +1,7 @@
 /*
  * text-indent
  * text-align
- * text-decoration
+ * text-decoration-line
  * text-decoration-style
  * text-transform
  * white-space
@@ -32,11 +32,11 @@
 .text-align\:start, 	.text-a\:start { text-align: start !important; }
 .text-align\:end, 	    .text-a\:end { text-align: end !important; }
 
-/* text-decoration  */
-.text-decoration\:underline, 	    .text-d\:underline { text-decoration: underline !important; }
-.text-decoration\:line-through, 	.text-d\:line-through { text-decoration: line-through !important; }
-.text-decoration\:overline, 	    .text-d\:overline { text-decoration: underline !important; }
-.text-decoration\:none, 	        .text-d\:none { text-decoration: none !important; }
+/* text-decoration-line  */
+.text-decoration-line\:underline, 	    .text-dl\:underline { text-decoration-line: underline !important; }
+.text-decoration-line\:line-through, 	.text-dl\:line-through { text-decoration-line: line-through !important; }
+.text-decoration-line\:overline, 	    .text-dl\:overline { text-decoration-line: underline !important; }
+.text-decoration-line\:none, 	        .text-dl\:none { text-decoration-line: none !important; }
 
 /* text-decoration-style  */
 .text-decoration-style\:solid,       .text-ds\:solid { text-decoration-style: solid !important; }
@@ -65,9 +65,9 @@
 .word-break\:break-word,     .word-b\:break-word {word-break: break-word !important; }
 
 /* hyphens */
-.hyphens\:manual,           .hyn\:manual { hyphens: manual !important; }
-.hyphens\:auto,             .hyn\:auto { hyphens: auto !important; }
-.hyphens\:none,             .hyn\:none { hyphens: none !important; }
+.hyphens\:manual,           .hypn\:manual { hyphens: manual !important; }
+.hyphens\:auto,             .hypn\:auto { hyphens: auto !important; }
+.hyphens\:none,             .hypn\:none { hyphens: none !important; }
 
 /* overflow-wrap  */
 .overflow-wrap\:normal,          .overflow-w\:normal { overflow-wrap: normal !important; }
