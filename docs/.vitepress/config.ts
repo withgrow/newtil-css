@@ -109,6 +109,10 @@ export default defineConfig({
                 base: "/utility",
                 items: [
                     {
+                        text: "유틸리티 시작하기",
+                        link:"/getting-started"
+                    },
+                    {
                         text: "align-*",
                         collapsed: true,
                         items: [
