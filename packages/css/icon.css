@@ -16,7 +16,7 @@
   height: var(--icon-size-5);
   background-size: var(--icon-size-5);
   -webkit-mask-size: var(--icon-size-5);
-  mask-size: var(--icon-size-5);
+  mask-size: cover;
   box-sizing: border-box;
   overflow: hidden;
   padding: 0;
