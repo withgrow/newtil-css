@@ -16,7 +16,7 @@ export default defineConfig({
                 href: "https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css"
             }
         ],
-        ["link", { rel: "icon", href: "/favicon.ico" }]
+        ["link", { rel: "icon", type: 'image/png', href: "/favicon.png" }]
     ],
 
     // https://vitepress.dev/guide/markdown#custom-title
@@ -49,7 +49,7 @@ export default defineConfig({
                 base: "/guide",
                 items: [
                     { text: "시작하기", link: "/getting-started" },
-                    { text: "newtil-css 맛보기", link: "/example" },
+                    // { text: "newtil-css 맛보기", link: "/example" },
                     { text: "스타일 재정의하기", link: "/customizing" }
                 ]
             },
