@@ -1,0 +1,47 @@
+/* font */
+/* 
+  - title : semi-bold
+  - subtitle : medium
+  - heading1 (h1) : medium
+  - heading2 (h2) : medium
+  - heading3 (h3) : medium
+ */
+
+.font\:title {
+  font-size: var(--font-size-8);
+  font-weight: var(--font-weight-3);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+.font\:subtitle {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+.font\:heading,
+.font\:heading-1,
+.font\:h1 {
+  font-size: var(--font-size-7);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+.font\:heading-2,
+.font\:h2 {
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+.font\:heading-3,
+.font\:h3 {
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-2);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
