@@ -1,0 +1,692 @@
+/* ───────────────────────────────────
+ * toggle
+ * toggle:slide
+ * size
+ * disabled
+
+ * toggle:check
+ * size
+ * disabled
+
+ * toggle:dot
+ * size
+ * disabled
+
+ * toggle:outline-box
+ * size
+ * disabled
+ * ───────────────────────────────────    */
+
+/* ---- toggle ------------------------------------------------- */
+
+.toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle::before {
+  content: "";
+}
+
+.toggle:checked,
+.toggle.toggle-status\:checked,
+.toggle.checked {
+  background-color: var(--color-main-2);
+}
+
+/* toggle:slide */
+.toggle,
+.toggle-type\:slide,
+.toggle\:slide {
+  --toggle-bg-color: rgba(var(--rgb-base-10), 0.12);
+
+  width: 44px;
+  height: 24px;
+
+  background-color: var(--toggle-bg-color);
+  border-radius: 9999px;
+  position: relative;
+
+  transition: background-color ease 0.3s;
+  border: transparent;
+}
+
+.toggle::before,
+.toggle-type\:slide::before,
+.toggle\:slide::before {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-base-1);
+  border-radius: 9999px;
+  box-shadow: 0px 0px 2px 0px rgba(var(--rgb-base-10), 0.12);
+
+  transition: all cubic-bezier(0.3, 1.3, 0.7, 1) 0.3s;
+}
+
+.toggle:checked::before,
+.toggle.toggle-status\:checked::before,
+.toggle.checked::before,
+.toggle-type\:slide:checked::before,
+.toggle-type\:slide.toggle-status\:checked::before,
+.toggle-type\:slide.checked::before,
+.toggle\:slide:checked::before,
+.toggle\:slide.toggle-status\:checked::before,
+.toggle\:slide.checked::before {
+  left: 22px;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+/* size */
+.toggle-size\:1,
+.toggle\:1,
+.toggle-size\:sm,
+.toggle\:sm {
+  width: 36px;
+  height: 20px;
+}
+
+.toggle-size\:1::before,
+.toggle\:1::before,
+.toggle-size\:sm::before,
+.toggle\:sm::before {
+  width: 16px;
+  height: 16px;
+}
+
+.toggle-size\:1:checked::before,
+.toggle\:1:checked::before,
+.toggle-size\:sm:checked::before,
+.toggle\:sm:checked::before,
+.toggle-size\:1.toggle-status\:checked::before,
+.toggle\:1.toggle-status\:checked::before,
+.toggle-size\:sm.toggle-status\:checked::before,
+.toggle\:sm.toggle-status\:checked::before,
+.toggle-size\:1.checked::before,
+.toggle\:1.checked::before,
+.toggle-size\:sm.checked::before,
+.toggle\:sm.checked::before {
+  left: 18px;
+}
+
+.toggle-size\:2,
+.toggle\:2,
+.toggle-size\:md,
+.toggle\:md {
+  width: 44px;
+  height: 24px;
+}
+
+.toggle-size\:2::before,
+.toggle\:2::before,
+.toggle-size\:md::before,
+.toggle\:md::before {
+  width: 20px;
+  height: 20px;
+}
+
+.toggle-size\:2:checked::before,
+.toggle\:2:checked::before,
+.toggle-size\:md:checked::before,
+.toggle\:md:checked::before,
+.toggle-size\:2.toggle-status\:checked::before,
+.toggle\:2.toggle-status\:checked::before,
+.toggle-size\:md.toggle-status\:checked::before,
+.toggle\:md.toggle-status\:checked::before,
+.toggle-size\:2.checked::before,
+.toggle\:2.checked::before,
+.toggle-size\:md.checked::before,
+.toggle\:md.checked::before {
+  left: 22px;
+}
+
+.toggle-size\:3,
+.toggle\:3,
+.toggle-size\:lg,
+.toggle\:lg {
+  width: 52px;
+  height: 28px;
+}
+
+.toggle-size\:3::before,
+.toggle\:3::before,
+.toggle-size\:lg::before,
+.toggle\:lg::before {
+  width: 24px;
+  height: 24px;
+}
+
+.toggle-size\:3:checked::before,
+.toggle\:3:checked::before,
+.toggle-size\:lg:checked::before,
+.toggle\:lg:checked::before,
+.toggle-size\:3.toggle-status\:checked::before,
+.toggle\:3.toggle-status\:checked::before,
+.toggle-size\:lg.toggle-status\:checked::before,
+.toggle\:lg.toggle-status\:checked::before,
+.toggle-size\:3.checked::before,
+.toggle\:3.checked::before,
+.toggle-size\:lg.checked::before,
+.toggle\:lg.checked::before {
+  left: 26px;
+}
+
+/* toggle:disabled */
+.toggle:disabled,
+.toggle.toggle-status\:disabled,
+.toggle.disabled,
+.toggle:checked:disabled,
+.toggle:checked.toggle-status\:disabled,
+.toggle:checked.disabled {
+  --toggle-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
+
+  background-color: var(--toggle-disabled-bg-color);
+  cursor: not-allowed;
+}
+
+/* ---- toggle:check ------------------------------------------------- */
+
+.toggle-type\:check,
+.toggle\:check {
+  --check-border-color: #dee2e6;
+
+  display: inline-block;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  border: solid 1px var(--check-border-color);
+  border-radius: 4px;
+  background-color: var(--color-base-1);
+
+  transition: initial;
+}
+
+.toggle-type\:check::before,
+.toggle\:check::before {
+  width: inherit;
+  height: inherit;
+  background-color: initial;
+  box-shadow: initial;
+  transition: initial;
+  position: initial;
+}
+
+.toggle-type\:check:checked,
+.toggle-type\:check.toggle-status\:checked,
+.toggle-type\:check.checked,
+.toggle\:check:checked,
+.toggle\:check.toggle-status\:checked,
+.toggle\:check.checked {
+  background-color: var(--color-main-2);
+  border: transparent;
+}
+
+.toggle-type\:check:checked::before,
+.toggle-type\:check.toggle-status\:checked::before,
+.toggle-type\:check.checked::before,
+.toggle\:check:checked::before,
+.toggle\:check.toggle-status\:checked::before,
+.toggle\:check.checked::before {
+  content: "";
+  width: inherit;
+  height: inherit;
+  border-radius: initial;
+  display: inline-block;
+  background-color: var(--color-base-1);
+
+  -webkit-mask-image: url(/image/icon/check_bold.svg);
+  mask-image: url(/image/icon/check_bold.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 20px 20px;
+  mask-size: 20px 20px;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+/* size */
+.toggle-type\:check.toggle-size\:1,
+.toggle-type\:check.toggle\:1,
+.toggle-type\:check.toggle-size\:sm,
+.toggle-type\:check.toggle\:sm,
+.toggle\:check.toggle-size\:1,
+.toggle\:check.toggle\:1,
+.toggle\:check.toggle-size\:sm,
+.toggle\:check.toggle\:sm {
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+}
+
+.toggle-type\:check.toggle-size\:1::before,
+.toggle-type\:check.toggle\:1::before,
+.toggle-type\:check.toggle-size\:sm::before,
+.toggle-type\:check.toggle\:sm::before,
+.toggle\:check.toggle-size\:1::before,
+.toggle\:check.toggle\:1::before,
+.toggle\:check.toggle-size\:sm::before,
+.toggle\:check.toggle\:sm::before {
+  -webkit-mask-size: 14px 14px;
+  mask-size: 14px 14px;
+}
+
+.toggle-type\:check.toggle-size\:2,
+.toggle-type\:check.toggle\:2,
+.toggle-type\:check.toggle-size\:md,
+.toggle-type\:check.toggle\:md,
+.toggle\:check.toggle-size\:2,
+.toggle\:check.toggle\:2,
+.toggle\:check.toggle-size\:md,
+.toggle\:check.toggle\:md {
+  width: 24px;
+  height: 24px;
+}
+
+.toggle-type\:check.toggle-size\:2::before,
+.toggle-type\:check.toggle\:2::before,
+.toggle-type\:check.toggle-size\:md::before,
+.toggle-type\:check.toggle\:md::before,
+.toggle\:check.toggle-size\:2::before,
+.toggle\:check.toggle\:2::before,
+.toggle\:check.toggle-size\:md::before,
+.toggle\:check.toggle\:md::before {
+  -webkit-mask-size: 20px 20px;
+  mask-size: 20px 20px;
+}
+
+.toggle-type\:check.toggle-size\:3,
+.toggle-type\:check.toggle\:3,
+.toggle-type\:check.toggle-size\:lg,
+.toggle-type\:check.toggle\:lg,
+.toggle\:check.toggle-size\:3,
+.toggle\:check.toggle\:3,
+.toggle\:check.toggle-size\:lg,
+.toggle\:check.toggle\:lg {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+}
+
+.toggle-type\:check.toggle-size\:3::before,
+.toggle-type\:check.toggle\:3::before,
+.toggle-type\:check.toggle-size\:lg::before,
+.toggle-type\:check.toggle\:lg::before,
+.toggle\:check.toggle-size\:3::before,
+.toggle\:check.toggle\:3::before,
+.toggle\:check.toggle-size\:lg::before,
+.toggle\:check.toggle\:lg::before {
+  -webkit-mask-size: 28px 28px;
+  mask-size: 28px 28px;
+}
+
+/* disabled */
+.toggle-type\:check:disabled,
+.toggle-type\:check:checked:disabled,
+.toggle-type\:check.toggle-status\:disabled,
+.toggle-type\:check.disabled,
+.toggle\:check:disabled,
+.toggle\:check:checked:disabled,
+.toggle\:check.toggle-status\:disabled,
+.toggle\:check.disabled {
+  --check-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
+  --check-disabled-border-color: rgba(var(--rgb-base-10), 0.27);
+
+  background-color: var(--check-disabled-bg-color);
+  border: solid 1px var(--check-disabled-border-color);
+  cursor: not-allowed;
+}
+
+.toggle-type\:check:checked:disabled::before,
+.toggle-type\:check:checked.disabled:before,
+.toggle-type\:check.checked:disabled::before,
+.toggle-type\:check.checked.disabled::before,
+.toggle-type\:check:checked.toggle-status\:disabled::before,
+.toggle-type\:check.toggle-status\:checked:disabled::before,
+.toggle-type\:check.toggle-status\:checked.toggle-status\:disabled::before,
+.toggle\:check:checked:disabled::before,
+.toggle\:check:checked.disabled:before,
+.toggle\:check.checked:disabled::before,
+.toggle\:check.checked.disabled::before,
+.toggle\:check:checked.toggle-status\:disabled::before,
+.toggle\:check.toggle-status\:checked:disabled::before,
+.toggle\:check.toggle-status\:checked.toggle-status\:disabled::before {
+  --check-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
+
+  background-color: var(--check-disabled-bg-color-before);
+  box-sizing: border-box;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+
+/* ---- toggle:dot ------------------------------------------------- */
+.toggle-type\:dot,
+.toggle\:dot {
+  --dot-border-color: #dee2e6;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+  background-color: var(--color-base-1);
+  border: solid 0.7px var(--dot-border-color);
+  border-radius: 9999px;
+  position: initial;
+
+  transition: initial;
+}
+
+.toggle-type\:dot::before,
+.toggle\:dot::before {
+  --dot-circle-size: 16px;
+  width: var(--dot-circle-size);
+  height: var(--dot-circle-size);
+  background-color: initial;
+  box-shadow: initial;
+  transition: initial;
+  position: initial;
+}
+
+.toggle-type\:dot:checked,
+.toggle-type\:dot:has(input:checked),
+.toggle-type\:dot.toggle-status\:checked,
+.toggle-type\:dot.checked,
+.toggle\:dot:checked,
+.toggle\:dot:has(input:checked),
+.toggle\:dot.toggle-status\:checked,
+.toggle\:dot.checked {
+  background-color: initial;
+  border-color: var(--color-main-2);
+}
+
+.toggle-type\:dot:checked::before,
+.toggle-type\:dot:has(input:checked)::before,
+.toggle-type\:dot.toggle-status\:checked::before,
+.toggle-type\:dot.checked::before,
+.toggle\:dot:checked::before,
+.toggle\:dot:has(input:checked)::before,
+.toggle\:dot.toggle-status\:checked::before,
+.toggle\:dot.checked::before {
+  content: "";
+  display: block;
+  width: var(--dot-circle-size);
+  height: var(--dot-circle-size);
+  background-color: var(--color-main-2);
+  box-shadow: none;
+  border-radius: 9999px;
+
+  position: initial;
+}
+
+/* size */
+.toggle-type\:dot.toggle-size\:1,
+.toggle-type\:dot.toggle\:1,
+.toggle-type\:dot.toggle-size\:sm,
+.toggle-type\:dot.toggle\:sm,
+.toggle\:dot.toggle-size\:1,
+.toggle\:dot.toggle\:1,
+.toggle\:dot.toggle-size\:sm,
+.toggle\:dot.toggle\:sm {
+  width: 20px;
+  height: 20px;
+}
+
+.toggle-type\:dot.toggle-size\:1::before,
+.toggle-type\:dot.toggle\:1::before,
+.toggle-type\:dot.toggle-size\:sm::before,
+.toggle-type\:dot.toggle\:sm::before,
+.toggle\:dot.toggle-size\:1::before,
+.toggle\:dot.toggle\:1::before,
+.toggle\:dot.toggle-size\:sm::before,
+.toggle\:dot.toggle\:sm::before {
+  width: 12px;
+  height: 12px;
+}
+
+.toggle-type\:dot.toggle-size\:2,
+.toggle-type\:dot.toggle\:2,
+.toggle-type\:dot.toggle-size\:md,
+.toggle-type\:dot.toggle\:md,
+.toggle\:dot.toggle-size\:2,
+.toggle\:dot.toggle\:2,
+.toggle\:dot.toggle-size\:md,
+.toggle\:dot.toggle\:md {
+  width: 24px;
+  height: 24px;
+}
+
+.toggle-type\:dot.toggle-size\:2::before,
+.toggle-type\:dot.toggle\:2::before,
+.toggle-type\:dot.toggle-size\:md::before,
+.toggle-type\:dot.toggle\:md::before,
+.toggle\:dot.toggle-size\:2::before,
+.toggle\:dot.toggle\:2::before,
+.toggle\:dot.toggle-size\:md::before,
+.toggle\:dot.toggle\:md::before {
+  width: var(--dot-circle-size);
+  height: var(--dot-circle-size);
+}
+
+.toggle-type\:dot.toggle-size\:3,
+.toggle-type\:dot.toggle\:3,
+.toggle-type\:dot.toggle-size\:lg,
+.toggle-type\:dot.toggle\:lg,
+.toggle\:dot.toggle-size\:3,
+.toggle\:dot.toggle\:3,
+.toggle\:dot.toggle-size\:lg,
+.toggle\:dot.toggle\:lg {
+  width: 28px;
+  height: 28px;
+}
+
+.toggle-type\:dot.toggle-size\:3::before,
+.toggle-type\:dot.toggle\:3::before,
+.toggle-type\:dot.toggle-size\:lg::before,
+.toggle-type\:dot.toggle\:lg::before,
+.toggle\:dot.toggle-size\:3::before,
+.toggle\:dot.toggle\:3::before,
+.toggle\:dot.toggle-size\:lg::before,
+.toggle\:dot.toggle\:lg::before {
+  width: 20px;
+  height: 20px;
+}
+
+/* disabled */
+.toggle-type\:dot:disabled,
+.toggle-type\:dot:checked:disabled,
+.toggle-type\:dot.toggle-status\:disabled,
+.toggle-type\:dot.disabled,
+.toggle\:dot:disabled,
+.toggle\:dot:checked:disabled,
+.toggle\:dot.toggle-status\:disabled,
+.toggle\:dot.disabled {
+  --dot-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
+  --dot-disabled-border-color: rgba(var(--rgb-base-10), 0.27);
+
+  background-color: var(--dot-disabled-bg-color);
+  border: solid 1px var(--dot-disabled-border-color);
+  cursor: not-allowed;
+}
+
+.toggle-type\:dot:disabled::before,
+.toggle-type\:dot:checked:disabled::before,
+.toggle-type\:dot.toggle-status\:disabled::before,
+.toggle-type\:dot.toggle-status\:disabled::before,
+.toggle-type\:dot.disabled::before,
+.toggle\:dot:disabled::before,
+.toggle\:dot:checked:disabled::before,
+.toggle\:dot.toggle-status\:disabled::before,
+.toggle\:dot.disabled::before {
+  --dot-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
+
+  background-color: var(--dot-disabled-bg-color-before);
+}
+
+/* ---- toggle:outline ------------------------------------------------- */
+
+.toggle-type\:outline-box,
+.toggle-type\:outline,
+.toggle\:outline-box,
+.toggle\:outline {
+  --outline-color: rgba(var(--rgb-base-10), 0.85);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 12px;
+  padding-right: 12px;
+  width: fit-content;
+  height: 32px;
+  background-color: var(--color-base-1);
+  border: 1px solid var(--color-base-3);
+  border-radius: 8px;
+
+  color: var(--outline-color);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+
+  transition: initial;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.toggle-type\:outline-box::before,
+.toggle-type\:outline::before,
+.toggle\:outline-box::before,
+.toggle\:outline::before {
+  width: inherit;
+  height: inherit;
+  background-color: initial;
+  box-shadow: initial;
+  transition: initial;
+  position: initial;
+}
+
+.toggle-type\:outline-box:checked,
+.toggle-type\:outline-box:has(input:checked),
+.toggle-type\:outline-box.toggle-status\:checked,
+.toggle-type\:outline-box.checked,
+.toggle-type\:outline:checked,
+.toggle-type\:outline:has(input:checked),
+.toggle-type\:outline.toggle-status\:checked,
+.toggle-type\:outline.checked,
+.toggle\:outline-box:checked,
+.toggle\:outline-box:has(input:checked),
+.toggle\:outline-box.toggle-status\:checked,
+.toggle\:outline-box.checked,
+.toggle\:outline:checked,
+.toggle\:outline:has(input:checked),
+.toggle\:outline.toggle-status\:checked,
+.toggle\:outline.checked {
+  background-color: var(--color-main-2);
+  border: transparent;
+  color: var(--color-base-1);
+}
+
+/* size */
+.toggle-type\:outline-box.toggle-size\:1,
+.toggle-type\:outline-box.toggle\:1,
+.toggle-type\:outline-box.toggle-size\:sm,
+.toggle-type\:outline-box.toggle\:sm,
+.toggle-type\:outline.toggle-size\:1,
+.toggle-type\:outline.toggle\:1,
+.toggle-type\:outline.toggle-size\:sm,
+.toggle-type\:outline.toggle\:sm,
+.toggle\:outline-box.toggle-size\:1,
+.toggle\:outline-box.toggle\:1,
+.toggle\:outline-box.toggle-size\:sm,
+.toggle\:outline-box.toggle\:sm,
+.toggle\:outline.toggle-size\:1,
+.toggle\:outline.toggle\:1,
+.toggle\:outline.toggle-size\:sm,
+.toggle\:outline.toggle\:sm {
+  height: 24px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.toggle-type\:outline-box.toggle-size\:2,
+.toggle-type\:outline-box.toggle\:2,
+.toggle-type\:outline-box.toggle-size\:md,
+.toggle-type\:outline-box.toggle\:md,
+.toggle-type\:outline.toggle-size\:2,
+.toggle-type\:outline.toggle\:2,
+.toggle-type\:outline.toggle-size\:md,
+.toggle-type\:outline.toggle\:md,
+.toggle\:outline-box.toggle-size\:2,
+.toggle\:outline-box.toggle\:2,
+.toggle\:outline-box.toggle-size\:md,
+.toggle\:outline-box.toggle\:md,
+.toggle\:outline.toggle-size\:2,
+.toggle\:outline.toggle\:2,
+.toggle\:outline.toggle-size\:md,
+.toggle\:outline.toggle\:md {
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 32px;
+}
+
+.toggle-type\:outline-box.toggle-size\:3,
+.toggle-type\:outline-box.toggle\:3,
+.toggle-type\:outline-box.toggle-size\:lg,
+.toggle-type\:outline-box.toggle\:lg,
+.toggle-type\:outline.toggle-size\:3,
+.toggle-type\:outline.toggle\:3,
+.toggle-type\:outline.toggle-size\:lg,
+.toggle-type\:outline.toggle\:lg,
+.toggle\:outline-box.toggle-size\:3,
+.toggle\:outline-box.toggle\:3,
+.toggle\:outline-box.toggle-size\:lg,
+.toggle\:outline-box.toggle\:lg,
+.toggle\:outline.toggle-size\:3,
+.toggle\:outline.toggle\:3,
+.toggle\:outline.toggle-size\:lg,
+.toggle\:outline.toggle\:lg {
+  height: 40px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* disabled */
+.toggle-type\:outline-box:has(input:disabled),
+.toggle-type\:outline-box.toggle-status\:disabled,
+.toggle-type\:outline-box:has(input:checked).toggle-status\:disabled,
+.toggle-type\:outline-box.disabled,
+.toggle-type\:outline-box:has(input:checked).disabled,
+.toggle-type\:outline:has(input:disabled),
+.toggle-type\:outline.toggle-status\:disabled,
+.toggle-type\:outline:has(input:checked).toggle-status\:disabled,
+.toggle-type\:outline.disabled,
+.toggle-type\:outline:has(input:checked).disabled,
+.toggle\:outline-box:has(input:disabled),
+.toggle\:outline-box.toggle-status\:disabled,
+.toggle\:outline-box:has(input:checked).toggle-status\:disabled,
+.toggle\:outline-box.disabled,
+.toggle\:outline-box:has(input:checked).disabled,
+.toggle\:outline:has(input:disabled),
+.toggle\:outline.toggle-status\:disabled,
+.toggle\:outline:has(input:checked).toggle-status\:disabled,
+.toggle\:outline.disabled,
+.toggle\:outline:has(input:checked).disabled {
+  --outline-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
+  --outline-disabled-color: rgba(var(--rgb-base-10), 0.27);
+
+  border: transparent;
+  background-color: var(--outline-disabled-bg-color);
+  color: var(--outline-disabled-color);
+  cursor: not-allowed;
+}
