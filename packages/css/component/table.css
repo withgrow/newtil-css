@@ -1,0 +1,241 @@
+/**
+ * table
+ * cell-height   : sm(1) / md(2) / lg(3)
+ * table-style   : normal / striped
+ * table-border
+ * table-border-bottom
+ * table-hover
+ * column-border
+ * 
+ * bbs-table
+ * cell-width    : sm(1) / md(2) / lg(3)
+ */
+/**
+
+* how to use
+
+<table class="table bbs-table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Tom</td>
+            <td>male</td>
+            <td>male</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>
+                JerryJerryJerryJerryJerryJerryJerryJerryJerryJerry
+            </td>
+            <td>femalefemalefemalefemalefemalefemale</td>
+            <td>femalefemalefemalefemalefemalefemale</td>
+            <td>femalefemalefemalefemalefemalefemale</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jerry</td>
+            <td>female</td>
+            <td>female</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jerry</td>
+            <td>female</td>
+            <td>female</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jerry</td>
+            <td>female</td>
+            <td>female</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jerry</td>
+            <td>female</td>
+            <td>female</td>
+            <td>female</td>
+        </tr>
+    </tbody>
+</table>
+*/
+
+/* ------------------------------- */
+/*              table              */
+/* ------------------------------- */
+.table {
+  --cell-height-sm: 32px;
+  --cell-height-md: 40px;
+  --cell-height-lg: 48px;
+  --cell-padding-x: 16px;
+
+  --border-color: var(--color-base-2);
+  --striped-color: rgba(var(--color-base-10), 0.02);
+  --hover-bg-color: rgba(var(--color-base-10), 0.05);
+
+  table-layout: fixed;
+
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+/* -------- [ default style ] -------- */
+
+/* cell style */
+.table > * > * > * {
+  height: var(--cell-height-md);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  padding-left: var(--cell-padding-x);
+  padding-right: var(--cell-padding-x);
+}
+
+/* thead row style */
+.table > thead > * {
+  border-bottom: 1px solid var(--color-base-4);
+}
+
+/* thead cell style */
+.table > thead > * > * {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+/* tbody row style */
+.table > tbody > * {
+  transition: background-color 0.12s;
+}
+.table > tbody > *:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* tbody cell style */
+.table > tbody > * > * {
+  font-weight: 400;
+}
+
+/* -------- [ default style ] end-------- */
+
+/* ----------- var [ cell-height ] ----------- */
+.table.cell-height\:1 > * > * > *,
+.table.cell-height\:sm > * > * > *,
+.table.cell-h\:1 > * > * > *,
+.table.cell-h\:sm > * > * > * {
+  height: var(--cell-height-sm);
+}
+
+.table.cell-height\:2 > * > * > *,
+.table.cell-height\:md > * > * > *,
+.table.cell-h\:2 > * > * > *,
+.table.cell-h\:md > * > * > * {
+  height: var(--cell-height-md);
+}
+.table.cell-height\:3 > * > * > *,
+.table.cell-height\:lg > * > * > *,
+.table.cell-h\:3 > * > * > *,
+.table.cell-h\:lg > * > * > * {
+  height: var(--cell-height-lg);
+}
+
+/* ----------- var [ table-style ] -----------  */
+.table.table-style\:striped > tbody > *:nth-child(odd),
+.table.table-s\:striped > tbody > *:nth-child(odd) {
+  background-color: var(--striped-color);
+}
+
+/* ----------- var [ table-border ] ----------- */
+.table.table-border,
+.table.table-b {
+  border-radius: 8px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px var(--border-color);
+}
+
+.table.table-border tr:last-child > :first-child,
+.table.table-b tr:last-child > :first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.table.table-border tr:last-child > :last-child,
+.table.table-b tr:last-child > :last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.table.table-border-bottom > tbody > tr:last-child,
+.table.table-border-b > tbody > tr:last-child,
+.table.table-b-b > tbody > tr:last-child {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* ----------- var [ table-hover ] -----------  */
+.table.table-hover > tbody > tr:hover {
+  background-color: var(--hover-bg-color);
+}
+
+/* ----------- var [ column-border ] ----------- */
+.table.column-border > * > * > *:not(:last-child),
+.table.column-b > * > * > *:not(:last-child) {
+  border-right: 1px solid var(--border-color);
+}
+
+/* ------------------------------- */
+/*             bbs-table           */
+/* ------------------------------- */
+
+.bbs-table {
+  --bbs-cell-width-first-col: 50px;
+  --bbs-cell-width-sm: 100px;
+  --bbs-cell-width-md: 120px;
+  --bbs-cell-width-lg: 140px;
+}
+
+/* -------- [ default style ] -------- */
+
+/* first-column */
+.bbs-table > * > * > :first-child {
+  width: var(--bbs-cell-width-first-col);
+}
+
+/* third~ column */
+.bbs-table > * > * > :nth-child(n + 3) {
+  width: var(--bbs-cell-width-md);
+}
+
+/* ------------ var [ cell-width ] ------------ */
+.bbs-table.cell-width\:1 > * > * > :nth-child(n + 3),
+.bbs-table.cell-width\:sm > * > * > :nth-child(n + 3),
+.bbs-table.cell-w\:1 > * > * > :nth-child(n + 3),
+.bbs-table.cell-w\:sm > * > * > :nth-child(n + 3) {
+  width: var(--bbs-cell-width-sm);
+}
+
+.bbs-table.cell-width\:2 > * > * > :nth-child(n + 3),
+.bbs-table.cell-width\:md > * > * > :nth-child(n + 3),
+.bbs-table.cell-w\:2 > * > * > :nth-child(n + 3),
+.bbs-table.cell-w\:md > * > * > :nth-child(n + 3) {
+  width: var(--bbs-cell-width-md);
+}
+
+.bbs-table.cell-width\:3 > * > * > :nth-child(n + 3),
+.bbs-table.cell-width\:lg > * > * > :nth-child(n + 3),
+.bbs-table.cell-w\:3 > * > * > :nth-child(n + 3),
+.bbs-table.cell-w\:lg > * > * > :nth-child(n + 3) {
+  width: var(--bbs-cell-width-lg);
+}
