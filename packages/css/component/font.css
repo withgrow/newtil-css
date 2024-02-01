@@ -1,3 +1,12 @@
+/* font */
+/* 
+  - title : semi-bold
+  - subtitle : medium
+  - heading1 (h1) : medium
+  - heading2 (h2) : medium
+  - heading3 (h3) : medium
+ */
+
 .font\:title {
   font-size: var(--font-size-8);
   font-weight: var(--font-weight-3);
