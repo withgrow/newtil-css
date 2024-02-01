@@ -32,3 +32,13 @@
 @import url("./util/visibility.css");
 @import url("./util/width.css");
 @import url("./util/z-index.css");
+
+@import url("./component/button.css");
+@import url("./component/container.css");
+@import url("./component/font.css");
+@import url("./component/item.css");
+@import url("./component/list.css");
+@import url("./component/modal.css");
+@import url("./component/panel.css");
+@import url("./component/table.css");
+@import url("./component/toggle.css");
