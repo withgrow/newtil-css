@@ -21,13 +21,6 @@ export default defineConfig({
     ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
   ],
 
-  // https://vitepress.dev/guide/markdown#custom-title
-  markdown: {
-    container: {
-      warningLabel: "TIP",
-    },
-  },
-
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     logo: { src: "/logo.png", width: 24, height: 24 },
