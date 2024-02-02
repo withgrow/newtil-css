@@ -1,5 +1,5 @@
 /**
-  <ul class="list">
+  <ul class="n-list">
     <li> </li>
     <li> </li>
     <li> </li>
@@ -10,13 +10,13 @@
  */
 
 /* ---- list ------------------------------------------------- */
-.list {
+.n-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.list > li {
+.n-list > li {
   padding: 16px;
   background-color: var(--color-base-1);
   border: 1px solid var(--color-base-3);
@@ -26,17 +26,17 @@
 }
 
 /* ---- list grid-list ------------------------------------------------- */
-.list.grid-list {
+.n-list.grid-list {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 @media (min-width: 768px) {
-  .list.grid-list {
+  .n-list.grid-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media (min-width: 1200px) {
-  .list.grid-list {
+  .n-list.grid-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
