@@ -123,7 +123,16 @@ export default defineConfig({
       {
         text: "아이콘",
         base: "/icons",
-        items: [],
+        items: [
+          {
+            text: "아이콘과 데코 시작하기",
+            link: "/getting-started"
+          },
+          {
+            text: "아이콘 목록",
+            link: "/list"
+          }
+        ],
       },
 
       {
