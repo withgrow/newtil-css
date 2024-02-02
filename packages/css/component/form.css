@@ -1,0 +1,124 @@
+/**
+
+how to use
+
+<form action="" class="form">
+    <div>
+        <label for="">label</label>
+        <input type="text" placeholder="placeholder" />
+    </div>
+    <div>
+        <label for="">label</label>
+        <input type="text" placeholder="placeholder" />
+    </div>
+    <div>
+        <label for="">label</label>
+        <input type="password" placeholder="placeholder" />
+    </div>
+</form>
+*/
+
+.n-form {
+  --border-focus-color: var(--color-sub-2);
+  --title-width-sm: 40px;
+  --title-width-md: 80px;
+  --title-width-lg: 120px;
+
+  padding: 16px;
+  background-color: var(--color-base-1);
+  border: 1px solid var(--color-base-3);
+  border-radius: var(--border-radius-4);
+  box-shadow: 0px 1px 3px -1px rgba(22, 26, 32, 0.05),
+    0px 2px 5px -1px rgba(50, 50, 93, 0.1);
+}
+
+/* item (title + contents) */
+.n-form > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-2);
+}
+
+/* gap between items */
+.n-form > div:not(:first-child) {
+  margin-top: var(--gap-4);
+}
+
+/* title */
+.n-form > * > :first-child:not(button, input) {
+  font-size: var(--font-size-2);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  width: var(--title-width-sm);
+}
+
+/* input */
+.n-form input[type="text"] {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: var(--font-size-2);
+  line-height: 150%;
+
+  border: 1px solid var(--color-base-3);
+  border-radius: var(--border-radius-2);
+  background-color: rgb(255, 255, 255);
+
+  padding: var(--gap-2) var(--gap-3);
+  flex-grow: 1;
+
+  transition: border 0.12s;
+}
+
+.n-form input[type="text"]::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.n-form input[type="text"]:focus {
+  border: 1px solid var(--border-focus-color);
+}
+
+/* --------- var [title box width] --------- */
+.n-form.n-title-width\:1 > div > :first-child,
+.n-form.n-title-width\:sm > div > :first-child,
+.n-form.n-title-w\:1 > div > :first-child,
+.n-form.n-title-w\:sm > div > :first-child {
+  width: var(--title-width-sm);
+}
+.n-form.n-title-width\:2 > div > :first-child,
+.n-form.n-title-width\:md > div > :first-child,
+.n-form.n-title-w\:2 > div > :first-child,
+.n-form.n-title-w\:md > div > :first-child {
+  width: var(--title-width-md);
+}
+.n-form.n-title-width\:3 > div > :first-child,
+.n-form.n-title-width\:lg > div > :first-child,
+.n-form.n-title-w\:3 > div > :first-child,
+.n-form.n-title-w\:lg > div > :first-child {
+  width: var(--title-width-lg);
+}
+
+/* remove autofill style */
+.n-form input[type="text"]:-webkit-autofill,
+.n-form input[type="text"]:-webkit-autofill:hover,
+.n-form input[type="text"]:-webkit-autofill:focus,
+.n-form input[type="text"]:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+}
+
+input[type="text"]:-webkit-autofill {
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* ---- medium ------------------------------------------------- */
+@media (min-width: 768px) {
+  .n-form > div {
+    flex-direction: row;
+    gap: var(--gap-1);
+  }
+
+  .n-form label {
+    align-self: center;
+  }
+}
