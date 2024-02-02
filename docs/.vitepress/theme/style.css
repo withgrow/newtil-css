@@ -100,12 +100,12 @@
   --vp-home-hero-name-background: -webkit-linear-gradient(
     60deg,
     #8cba35 40%,
-    #ffb400
+    #144EED
   );
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #8cba35 50%,
-    #ffb400 50%
+    #144eedc0 50%,
+    #8bba35c0 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
