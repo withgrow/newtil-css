@@ -15,7 +15,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="d:flex gap:2 of:auto" ref="container">
     <div v-for="o, index of [1,4,2,5,3]"
-        class="c:base-1 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center"
+        class="c:base-1 border-rd:2 bg-color:main-1 w:10 h:10 p:7 d:flex ai:center jc:center"
         :class="`order:${o}`">
         {{ index+1 }}
     </div>
@@ -47,7 +47,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="d:flex gap:2 of:auto" ref="container">
     <div v-for="o, index of [1, 5, 2, 6, 3, 7, 4, 8]"
-        class="c:base-1 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center"
+        class="c:base-1 border-rd:2 bg-color:main-1 w:10 h:10 p:7 d:flex ai:center jc:center"
         :style="`order:${o}`">
         {{ index+1 }}
     </div>

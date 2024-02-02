@@ -10,17 +10,17 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ## Default
 
-`2px` 간격으로 여섯 단계의 둥글기와 원 모양의 둥글기가 기본 제공됩니다.
+`4px` 간격으로 다섯 단계의 둥글기와 원 모양의 둥글기가 기본 제공됩니다.
 
 <ExampleSection>
     <div class="d:flex flex-wrap:wrap gap:3">
         <div 
             v-for="i in 5" 
-            class="c:base-1 bg-color:main-2 h:10 w:10 p:10 d:flex ai:center jc:center " 
+            class="c:base-1 bg-color:main-1 h:10 w:10 p:10 d:flex ai:center jc:center " 
             :class="`border-rd:${i-1}`" > 
                 {{ i-1 }} 
         </div>
-        <div class="c:base-1 bg-color:main-2 border-rd:full h:10 w:10 p:10 d:flex ai:center jc:center">
+        <div class="c:base-1 bg-color:main-1 border-rd:full h:10 w:10 p:10 d:flex ai:center jc:center">
             full
         </div>
     </div>
@@ -54,7 +54,7 @@ import ExampleSection from "../components/ExampleSection.vue"
     <div class="d:flex flex-wrap:wrap gap:3">
         <div 
             v-for="i in 5" 
-            class="c:base-1 bg-color:main-2 h:10 w:10 p:10 d:flex ai:center jc:center " 
+            class="c:base-1 bg-color:main-1 h:10 w:10 p:10 d:flex ai:center jc:center " 
             :style="`border-radius:${2 * i}px`" > 
                 {{ i-1 }} 
         </div>

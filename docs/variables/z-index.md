@@ -15,7 +15,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="w:full d:flex jc:center of:auto">
     <div v-for="i in 5"
-        class="c:base-1 border border-w:3 border-c:base-1 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center box"
+        class="c:base-1 border border-w:3 border-c:base-1 border-rd:2 bg-color:main-1 w:10 h:10 p:7 d:flex ai:center jc:center box"
         :class="`zi:${6-i}`">
         {{ 6-i }}
     </div>
@@ -47,7 +47,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="w:full d:flex jc:center of:auto">
     <div v-for="i in [1, 2, 3, 7, 6, 5, 4]"
-        class="c:base-1 border border-w:3 border-c:base-1 border-rd:4 bg-color:main-2 w:10 h:10 p:7 d:flex ai:center jc:center box"
+        class="c:base-1 border border-w:3 border-c:base-1 border-rd:2 bg-color:main-1 w:10 h:10 p:7 d:flex ai:center jc:center box"
         :style="`z-index:${i}`">
         {{ i }}
     </div>

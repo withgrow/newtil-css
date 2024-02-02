@@ -14,11 +14,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
 <template #h>기본 스타일</template>
-  <div class="border bg-color:base-1 border-rd:4 padding:5">Hello world</div>
+  <div class="border bg-color:base-1 border-rd:2 padding:5">Hello world</div>
 </ExampleSection>
 
 ```html{1}
-<div class="border border-rd:4 ...">
+<div class="border border-rd:2 ...">
   Hello World
 </div>
 ```
@@ -37,13 +37,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
 <template #h>기본 스타일</template>
-	<div class="border border-c:main-3 bg-color:base-1 border-rd:4 padding:5">
+	<div class="border border-c:main-1 bg-color:base-1 border-rd:2 padding:5">
 		Hello World
 	</div>
 </ExampleSection>
 
 ```html{1}
-<div class="border border-rd:4 ...">
+<div class="border border-rd:2 ...">
 	Hello World
 </div>
 ```
