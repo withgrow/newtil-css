@@ -42,12 +42,12 @@
 .n-toggle,
 .n-toggle-type\:slide,
 .n-toggle\:slide {
-  --n-toggle-bg-color: rgba(var(--rgb-base-10), 0.12);
+  --toggle-bg-color: rgba(var(--rgb-base-10), 0.12);
 
   width: 44px;
   height: 24px;
 
-  background-color: var(--n-toggle-bg-color);
+  background-color: var(--toggle-bg-color);
   border-radius: 9999px;
   position: relative;
 
@@ -185,9 +185,9 @@
 .n-toggle:checked:disabled,
 .n-toggle:checked.n-toggle-status\:disabled,
 .n-toggle:checked.disabled {
-  --n-toggle-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
+  --toggle-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
 
-  background-color: var(--n-toggle-disabled-bg-color);
+  background-color: var(--toggle-disabled-bg-color);
   cursor: not-allowed;
 }
 
