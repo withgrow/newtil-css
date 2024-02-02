@@ -1,9 +1,11 @@
 import { defineConfig } from "vitepress";
 
+const BASE_PATH = "/newtil-css/";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true, //FIXME
-  base: "/newtil-css/",
+  base: BASE_PATH,
   title: "Newtil CSS",
   description: "Utility based CSS",
   appearance: false, // darkmode
@@ -16,7 +18,7 @@ export default defineConfig({
         href: "https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css",
       },
     ],
-    ["link", { rel: "icon", type: "image/png", href: "/favicon.png" }],
+    ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
   ],
 
   // https://vitepress.dev/guide/markdown#custom-title
