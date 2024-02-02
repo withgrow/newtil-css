@@ -1,9 +1,9 @@
-.container {
+.n-container {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  .container {
+  .n-container {
     max-width: 1440px;
   }
 }
