@@ -11,21 +11,21 @@ import ExampleSection from "../components/ExampleSection.vue"
 아래 예시를 살펴보세요:
 
 ```html{1}
-<div class="padding:5 background-color:main-1 border-radius: color:base-1">
+<div class="padding:5 background-color:main-1 border-radius:2 color:base-1">
   Hello World
 </div>
 ```
 
 <ExampleSection>
   <template #h>스타일 재정의하기</template>
-  <div class="padding:5 bg-color:main-1 border-radius:5 color:base-1">Hello World</div>
+  <div class="padding:5 bg-color:main-1 border-radius:2 color:base-1">Hello World</div>
 </ExampleSection>
 
 이 Hello World 예시에는 다음과 같은 스타일이 적용되어 있습니다.
 
 -   5단계 패딩 : `padding:5`
 -   1단계 메인 배경 색 : `background-color:main-1`
--   5단계 모서리 둥글기 : `border-radius:5`
+-   2단계 모서리 둥글기 : `border-radius:2`
 
 `newtil-css`는 이런 단계를 미리 정의하고 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)와 [계단식 및 상속](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)을 통해 간편하게 디자인을 조절할 수 있습니다.
 
