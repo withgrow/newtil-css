@@ -4,7 +4,7 @@ const BASE_PATH = "/newtil-css/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  ignoreDeadLinks: true, //FIXME
+  // ignoreDeadLinks: true,
   base: BASE_PATH,
   title: "Newtil CSS",
   description: "Utility based CSS",
@@ -52,6 +52,14 @@ export default defineConfig({
         items: [
           { text: "시작하기", link: "/getting-started" },
           // { text: "newtil-css 맛보기", link: "/example" },
+          {
+            text: "컴포넌트 시작하기",
+            link: "/getting-started-component",
+          },
+          {
+            text: "유틸리티 시작하기",
+            link: "/getting-started-utility",
+          },
           { text: "스타일 재정의하기", link: "/customizing" },
         ],
       },
@@ -107,13 +115,21 @@ export default defineConfig({
       },
 
       {
+        text: "컴포넌트",
+        base: "/components",
+        items: [],
+      },
+
+      {
+        text: "아이콘",
+        base: "/icons",
+        items: [],
+      },
+
+      {
         text: "유틸리티",
         base: "/utility",
         items: [
-          {
-            text: "유틸리티 시작하기",
-            link: "/getting-started",
-          },
           {
             text: "align-*",
             collapsed: true,
