@@ -12,6 +12,10 @@ hero:
     - theme: alt
       text: 깃허브
       link: https://github.com/newlecture-corp/newtil-css
+  image:
+    src: /logo-large.webp
+    alt: NewtilCSS
+
 
 features:
   - title: 직관적인 클래스 이름
