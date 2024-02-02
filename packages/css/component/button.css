@@ -6,7 +6,7 @@
  * disabled
  * ───────────────────────────────────    */
 
-.btn {
+.n-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -32,130 +32,130 @@
 
   transition: border-color 0.13s, background-color 0.13s;
 }
-.btn:hover {
+.n-btn:hover {
   background-color: rgba(var(--rgb-base-10), 0.05);
 }
-.btn:active {
+.n-btn:active {
   transform: scale(0.98);
 }
 
-/* btn-size ---------------------------------------------------------------------------- */
+/* n-btn-size ---------------------------------------------------------------------------- */
 
 /* 1, sm */
-.btn-size\:1,
-.btn\:1,
-.btn-size\:sm,
-.btn\:sm {
+.n-btn-size\:1,
+.n-btn\:1,
+.n-btn-size\:sm,
+.n-btn\:sm {
   padding-left: 8px;
   padding-right: 8px;
   height: 24px;
 }
 
 /* 2, md */
-.btn-size\:2,
-.btn\:2,
-.btn-size\:md,
-.btn\:md {
+.n-btn-size\:2,
+.n-btn\:2,
+.n-btn-size\:md,
+.n-btn\:md {
   padding-left: 12px;
   padding-right: 12px;
   height: 32px;
 }
 
 /* 3, lg */
-.btn-size\:3,
-.btn\:3,
-.btn-size\:lg,
-.btn\:lg {
+.n-btn-size\:3,
+.n-btn\:3,
+.n-btn-size\:lg,
+.n-btn\:lg {
   padding-left: 16px;
   padding-right: 16px;
   height: 40px;
 }
 
-/* btn-type ---------------------------------------------------------------------------- */
+/* n-btn-type ---------------------------------------------------------------------------- */
 
 /* void(default) */
-.btn,
-.btn-type\:void,
-.btn\:void {
+.n-btn,
+.n-btn-type\:void,
+.n-btn\:void {
   background-color: transparent;
   border-color: transparent;
 }
 
 /* filled */
-.btn-type\:filled,
-.btn\:filled {
+.n-btn-type\:filled,
+.n-btn\:filled {
   background-color: var(--color-main-2);
 
   color: var(--color-base-1);
 }
-.btn-type\:filled:hover,
-.btn\:filled:hover {
+.n-btn-type\:filled:hover,
+.n-btn\:filled:hover {
   background-color: var(--color-main-1);
 }
 
 /* outline-box */
-.btn-type\:outline-box,
-.btn-type\:outline,
-.btn\:outline-box,
-.btn\:outline {
+.n-btn-type\:outline-box,
+.n-btn-type\:outline,
+.n-btn\:outline-box,
+.n-btn\:outline {
   background-color: var(--color-base-1);
   border-color: var(--color-base-3);
 }
-.btn-type\:outline-box:hover,
-.btn-type\:outline:hover,
-.btn\:outline-box:hover,
-.btn\:outline:hover {
+.n-btn-type\:outline-box:hover,
+.n-btn-type\:outline:hover,
+.n-btn\:outline-box:hover,
+.n-btn\:outline:hover {
   background-color: rgba(var(--rgb-base-10), 0.05);
 }
 
-/* btn-color ---------------------------------------------------------------------------- */
+/* n-btn-color ---------------------------------------------------------------------------- */
 
 /* base */
-.btn-color\:base,
-.btn\:base {
+.n-btn-color\:base,
+.n-btn\:base {
   background-color: var(--color-base-9);
   border-color: var(--color-base-9);
 
   color: var(--color-base-1);
 }
-.btn-color\:base:hover,
-.btn\:base:hover {
+.n-btn-color\:base:hover,
+.n-btn\:base:hover {
   background-color: var(--color-base-8);
   border-color: var(--color-base-8);
 }
 
 /* sub */
-.btn-color\:sub,
-.btn\:sub {
+.n-btn-color\:sub,
+.n-btn\:sub {
   background-color: var(--color-sub-2);
   border-color: var(--color-sub-2);
 
   color: var(--color-base-1);
 }
-.btn-color\:sub:hover,
-.btn\:sub:hover {
+.n-btn-color\:sub:hover,
+.n-btn\:sub:hover {
   background-color: var(--color-sub-1);
   border-color: var(--color-sub-1);
 }
 
 /* accent */
-.btn-color\:accent,
-.btn\:accent {
+.n-btn-color\:accent,
+.n-btn\:accent {
   background-color: var(--color-accent-2);
   border-color: var(--color-accent-2);
 
   color: var(--color-base-1);
 }
-.btn-color\:accent:hover,
-.btn\:accent:hover {
+.n-btn-color\:accent:hover,
+.n-btn\:accent:hover {
   background-color: var(--color-accent-1);
   border-color: var(--color-accent-1);
 }
 
 /* disabled ---------------------------------------------------------------------------- */
-.btn.disabled,
-.btn:disabled,
-fieldset:disabled .btn {
+.n-btn.disabled,
+.n-btn:disabled,
+fieldset:disabled .n-btn {
   background-color: rgba(var(--rgb-base-10), 0.05);
   border-color: transparent;
   color: rgba(var(--rgb-base-10), 0.27);
