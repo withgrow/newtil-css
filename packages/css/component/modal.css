@@ -1,6 +1,6 @@
 /**
 
-<div role="dialog" tabindex="-1" class="modal">
+<div role="dialog" tabindex="-1" class="n-modal">
   <h1 class="font:h3 font-w:3">Title</h1>
 
   <div class="mt:4">Hello World</div>
@@ -19,7 +19,7 @@
 
 */
 
-.modal {
+.n-modal {
   position: fixed;
   top: 50%;
   right: 50%;
@@ -35,23 +35,23 @@
 }
 
 /* size ---------------------------------------------------------------------------- */
-.modal-size\:1,
-.modal\:1,
-.modal-size\:sm,
-.modal\:sm {
+.n-modal-size\:1,
+.n-modal\:1,
+.n-modal-size\:sm,
+.n-modal\:sm {
   max-width: 264px;
 }
 
-.modal-size\:2,
-.modal\:2,
-.modal-size\:md,
-.modal\:md {
+.n-modal-size\:2,
+.n-modal\:2,
+.n-modal-size\:md,
+.n-modal\:md {
   max-width: 396px;
 }
 
-.modal-size\:3,
-.modal\:3,
-.modal-size\:lg,
-.modal\:lg {
+.n-modal-size\:3,
+.n-modal\:3,
+.n-modal-size\:lg,
+.n-modal\:lg {
   max-width: 528px;
 }
