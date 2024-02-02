@@ -17,7 +17,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <div class="padding:10">👋 안녕하세요!</div>
 ```
 
-`가칭`의 유틸리티 스타일 클래스는 기존 CSS 속성 이름을 해치지 않으면서도 원하는 스타일을 적용할 수 있도록 설계되었습니다.
+`newtil-css`의 유틸리티 스타일 클래스는 기존 CSS 속성 이름을 해치지 않으면서도 원하는 스타일을 적용할 수 있도록 설계되었습니다.
 
 <ExampleSection>
   <template #h>유틸리티 스타일 예제</template>
