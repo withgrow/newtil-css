@@ -25,7 +25,7 @@
     0px 2px 5px -1px rgba(50, 50, 93, 0.1);
 }
 
-/* ---- n-list grid-list ------------------------------------------------- */
+/* ---- list grid-list ------------------------------------------------- */
 .n-list.grid-list {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
