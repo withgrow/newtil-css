@@ -89,6 +89,7 @@
     table-layout: fixed;
 
     border-collapse: collapse;
+    background-color: var(--color-base-1);
 
     width: 100%;
 }
