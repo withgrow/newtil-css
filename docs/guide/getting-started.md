@@ -7,10 +7,7 @@
 HTML 파일의 `<head>` 태그 안에 아래의 CDN 링크를 추가하세요.
 
 ```html
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/newtil-css@0.0.9/dist/style.css" />
 ```
 
 이 방법은 별도의 설치 과정 없이 빠르게 `newtil-css` 사용할 수 있게 해줍니다.
@@ -24,12 +21,11 @@ HTML 파일의 `<head>` 태그 안에 아래의 CDN 링크를 추가하세요.
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/newtil-css@latest/dist/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/newtil-css@0.0.9/dist/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--  -->
+  </body>
 </html>
 ```
 
@@ -49,5 +45,5 @@ import "newtil-css";
 
 ## 이제 됐습니다!
 
-- [컴포넌트 듀토리얼](/guide/getting-started-component)를 참고하여 `newtil-css`의 컴포넌트를 사용해보세요.
+- [컴포넌트 시작하기](/guide/getting-started-component)부터 참고하여 `newtil-css`를 차근차근 익혀보세요.
 - 빠른 찾기를 원할 경우, 상단 헤더의 **검색바 또는 숏컷**(Window `control` + `K`, MAC `cmommand` + `K`)으로 컨텐츠를 빠르게 탐색할 수 있습니다.
