@@ -1,15 +1,20 @@
 /**
+ * n-list
+ * n-list-item-type
+ * n-list-item-border-radius
+ * n-list-item-padding
+
   <ul class="n-list">
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
   </ul>
  */
 
-/* ---- list ------------------------------------------------- */
+/* ---- n-list ------------------------------------------------- */
 .n-list {
   display: flex;
   flex-direction: column;
@@ -19,13 +24,95 @@
 .n-list > li {
   padding: 16px;
   background-color: var(--color-base-1);
+  border-radius: 0;
+}
+
+/* ---- n-list-item-type ------------------------------------------------- */
+
+/* outline-box (default) */
+.n-list > li,
+.n-list-item-type\:outline-box > li,
+.n-list-item-type\:outline > li,
+.n-list-item\:outline-box > li,
+.n-list-item\:outline > li {
   border: 1px solid var(--color-base-3);
-  border-radius: 16px;
+}
+
+/* shadow */
+.n-list-item-type\:shadow > li,
+.n-list-item\:shadow > li {
+  border: none;
   box-shadow: 0px 0px 3px -1px rgba(22, 26, 32, 0.05),
     0px 2px 5px -1px rgba(50, 50, 93, 0.1);
 }
 
-/* ---- list n-grid-list ------------------------------------------------- */
+/* underline */
+.n-list-item-type\:underline > li,
+.n-list-item\:underline > li {
+  border: none;
+  border-bottom: 1px solid var(--color-base-3);
+}
+
+/* none */
+.n-list-item-type\:none > li,
+.n-list-item\:none > li {
+  border: none;
+  border-bottom: none;
+}
+
+/* ---- n-list-item-border-radius ------------------------------------------------- */
+.n-list-item-border-radius\:0 > li,
+.n-list-item-border-rd\:0 > li {
+  border-radius: 0;
+}
+
+.n-list-item-border-radius\:1 > li,
+.n-list-item-border-rd\:1 > li {
+  border-radius: 4px;
+}
+
+.n-list-item-border-radius\:2 > li,
+.n-list-item-border-rd\:2 > li {
+  border-radius: 8px;
+}
+
+.n-list-item-border-radius\:3 > li,
+.n-list-item-border-rd\:3 > li {
+  border-radius: 12px;
+}
+
+.n-list-item-border-radius\:4 > li,
+.n-list-item-border-rd\:4 > li {
+  border-radius: 16px;
+}
+
+/* ---- n-list-item-padding ------------------------------------------------- */
+.n-list-item-padding\:0 > li,
+.n-list-item-p\:0 > li {
+  padding: 0;
+}
+
+.n-list-item-padding\:1 > li,
+.n-list-item-p\:1 > li {
+  padding: 8px;
+}
+
+.n-list-item-padding\:2 > li,
+.n-list-item-p\:2 > li {
+  padding: 16px;
+}
+
+.n-list-item-padding\:3 > li,
+.n-list-item-p\:3 > li {
+  padding: 24px;
+}
+
+.n-list-item-padding\:4 > li,
+.n-list-item-p\:4 > li {
+  padding: 32px;
+}
+
+/* ---- n-grid-list ------------------------------------------------- */
 .n-list.n-grid-list {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
