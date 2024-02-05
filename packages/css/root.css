@@ -73,9 +73,24 @@
   --width-5: 80px;
   --width-6: 96px;
   --width-7: 112px;
-  --width-8: 144px;
-  --width-9: 160px
-  --width-10: 176px;
+  --width-8: 128px;
+  --width-9: 144px
+  --width-10: 160px;
+}
+
+/* height */
+:root {
+  --height-0: 0px;
+  --height-1: 16px;
+  --height-2: 32px;
+  --height-3: 48px;
+  --height-4: 64px;
+  --height-5: 80px;
+  --height-6: 96px;
+  --height-7: 112px;
+  --height-8: 128px;
+  --height-9: 144px
+  --height-10: 160px;
 }
 
 /* border */
