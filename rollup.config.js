@@ -9,7 +9,7 @@ function generateIconListFromResource() {
     name: "generate-icons-list-from-resource",
     buildStart() {
       const iconListDirectory = "./packages/icon";
-      const outputPath = "./docs/data/icon-list.json";
+      const outputPath = "./docs/shared/icon-list.json";
 
       const fileList = fs.readdirSync(iconListDirectory);
 
