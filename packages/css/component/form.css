@@ -56,7 +56,13 @@ how to use
 }
 
 /* input */
-.n-form input[type="text"] {
+.n-form input[type="email"],
+.n-form input[type="number"],
+.n-form input[type="password"],
+.n-form input[type="search"],
+.n-form input[type="tel"],
+.n-form input[type="text"],
+.n-form input[type="url"] {
   color: rgba(0, 0, 0, 0.85);
   font-size: var(--font-size-2);
   line-height: 150%;
@@ -71,11 +77,23 @@ how to use
   transition: border 0.12s;
 }
 
-.n-form input[type="text"]::placeholder {
+.n-form input[type="email"]::placeholder,
+.n-form input[type="number"]::placeholder,
+.n-form input[type="password"]::placeholder,
+.n-form input[type="search"]::placeholder,
+.n-form input[type="tel"]::placeholder,
+.n-form input[type="text"]::placeholder,
+.n-form input[type="url"]::placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.n-form input[type="text"]:focus {
+.n-form input[type="email"]:focus,
+.n-form input[type="number"]:focus,
+.n-form input[type="password"]:focus,
+.n-form input[type="search"]:focus,
+.n-form input[type="tel"]:focus,
+.n-form input[type="text"]:focus,
+.n-form input[type="url"]:focus {
   border: 1px solid var(--border-focus-color);
 }
 
@@ -100,14 +118,44 @@ how to use
 }
 
 /* remove autofill style */
+.n-form input[type="email"]:-webkit-autofill,
+.n-form input[type="email"]:-webkit-autofill:hover,
+.n-form input[type="email"]:-webkit-autofill:focus,
+.n-form input[type="email"]:-webkit-autofill:active,
+.n-form input[type="number"]:-webkit-autofill,
+.n-form input[type="number"]:-webkit-autofill:hover,
+.n-form input[type="number"]:-webkit-autofill:focus,
+.n-form input[type="number"]:-webkit-autofill:active,
+.n-form input[type="password"]:-webkit-autofill,
+.n-form input[type="password"]:-webkit-autofill:hover,
+.n-form input[type="password"]:-webkit-autofill:focus,
+.n-form input[type="password"]:-webkit-autofill:active,
+.n-form input[type="search"]:-webkit-autofill,
+.n-form input[type="search"]:-webkit-autofill:hover,
+.n-form input[type="search"]:-webkit-autofill:focus,
+.n-form input[type="search"]:-webkit-autofill:active,
+.n-form input[type="tel"]:-webkit-autofill,
+.n-form input[type="tel"]:-webkit-autofill:hover,
+.n-form input[type="tel"]:-webkit-autofill:focus,
+.n-form input[type="tel"]:-webkit-autofill:active,
 .n-form input[type="text"]:-webkit-autofill,
 .n-form input[type="text"]:-webkit-autofill:hover,
 .n-form input[type="text"]:-webkit-autofill:focus,
-.n-form input[type="text"]:-webkit-autofill:active {
+.n-form input[type="text"]:-webkit-autofill:active,
+.n-form input[type="url"]:-webkit-autofill,
+.n-form input[type="url"]:-webkit-autofill:hover,
+.n-form input[type="url"]:-webkit-autofill:focus,
+.n-form input[type="url"]:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
 }
 
-input[type="text"]:-webkit-autofill {
+.n-form input[type="email"]:-webkit-autofill,
+.n-form input[type="number"]:-webkit-autofill,
+.n-form input[type="password"]:-webkit-autofill,
+.n-form input[type="search"]:-webkit-autofill,
+.n-form input[type="tel"]:-webkit-autofill,
+.n-form input[type="text"]:-webkit-autofill,
+.n-form input[type="url"]:-webkit-autofill {
   -webkit-text-fill-color: rgba(0, 0, 0, 0.85) !important;
 }
 
