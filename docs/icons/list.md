@@ -1,5 +1,5 @@
 <script setup>
-import iconNameList from "../data/icon-list.json";
+import iconNameList from "../shared/icon-list.json";
 </script>
 
 # 아이콘 목록
