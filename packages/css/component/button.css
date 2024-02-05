@@ -13,10 +13,10 @@
   position: relative;
 
   padding-top: 4px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-bottom: 4px;
-  height: 32px;
+  height: 36px;
   border: 1px solid transparent;
   border-radius: 8px;
   background-color: transparent;
@@ -32,9 +32,6 @@
 
   transition: border-color 0.13s, background-color 0.13s;
 }
-.n-btn:hover {
-  background-color: rgba(var(--rgb-base-10), 0.05);
-}
 .n-btn:active {
   transform: scale(0.98);
 }
@@ -46,9 +43,9 @@
 .n-btn\:1,
 .n-btn-size\:sm,
 .n-btn\:sm {
-  padding-left: 8px;
-  padding-right: 8px;
-  height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 28px;
 }
 
 /* 2, md */
@@ -56,9 +53,9 @@
 .n-btn\:2,
 .n-btn-size\:md,
 .n-btn\:md {
-  padding-left: 12px;
-  padding-right: 12px;
-  height: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 36px;
 }
 
 /* 3, lg */
@@ -66,28 +63,22 @@
 .n-btn\:3,
 .n-btn-size\:lg,
 .n-btn\:lg {
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 44px;
 }
 
 /* n-btn-type ---------------------------------------------------------------------------- */
 
-/* void(default) */
+/* filled (default) */
 .n-btn,
-.n-btn-type\:void,
-.n-btn\:void {
-  background-color: transparent;
-  border-color: transparent;
-}
-
-/* filled */
 .n-btn-type\:filled,
 .n-btn\:filled {
   background-color: var(--color-main-2);
 
   color: var(--color-base-1);
 }
+.n-btn:hover,
 .n-btn-type\:filled:hover,
 .n-btn\:filled:hover {
   background-color: var(--color-main-1);
@@ -100,11 +91,26 @@
 .n-btn\:outline {
   background-color: var(--color-base-1);
   border-color: var(--color-base-3);
+
+  color: inherit;
 }
 .n-btn-type\:outline-box:hover,
 .n-btn-type\:outline:hover,
 .n-btn\:outline-box:hover,
 .n-btn\:outline:hover {
+  background-color: rgba(var(--rgb-base-10), 0.05);
+}
+
+/* void */
+.n-btn-type\:void,
+.n-btn\:void {
+  background-color: transparent;
+  border-color: transparent;
+
+  color: inherit;
+}
+.n-btn-type\:void:hover,
+.n-btn\:void:hover {
   background-color: rgba(var(--rgb-base-10), 0.05);
 }
 
