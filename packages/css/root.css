@@ -63,6 +63,21 @@
   --gap-full: 9999px;
 }
 
+/* width */
+:root {
+  --width-0: 0px;
+  --width-1: 16px;
+  --width-2: 32px;
+  --width-3: 48px;
+  --width-4: 64px;
+  --width-5: 80px;
+  --width-6: 96px;
+  --width-7: 112px;
+  --width-8: 144px;
+  --width-9: 160px
+  --width-10: 176px;
+}
+
 /* border */
 :root {
   --border-color: var(--color-base-3);
