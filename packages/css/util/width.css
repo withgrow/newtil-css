@@ -4,17 +4,17 @@
  * max-width
  */
 
-.width\:0,               .w\:0 { width: var(--gap-0) !important; }
-.width\:1,               .w\:1 { width: var(--gap-1) !important; }
-.width\:2,               .w\:2 { width: var(--gap-2) !important; }
-.width\:3,               .w\:3 { width: var(--gap-3) !important; }
-.width\:4,               .w\:4 { width: var(--gap-4) !important; }
-.width\:5,               .w\:5 { width: var(--gap-5) !important; }
-.width\:6,               .w\:6 { width: var(--gap-6) !important; }
-.width\:7,               .w\:7 { width: var(--gap-7) !important; }
-.width\:8,               .w\:8 { width: var(--gap-8) !important; }
-.width\:9,               .w\:9 { width: var(--gap-9) !important; }
-.width\:10,              .w\:10 { width: var(--gap-10) !important; }
+.width\:0,               .w\:0 { width: var(--width-0) !important; }
+.width\:1,               .w\:1 { width: var(--width-1) !important; }
+.width\:2,               .w\:2 { width: var(--width-2) !important; }
+.width\:3,               .w\:3 { width: var(--width-3) !important; }
+.width\:4,               .w\:4 { width: var(--width-4) !important; }
+.width\:5,               .w\:5 { width: var(--width-5) !important; }
+.width\:6,               .w\:6 { width: var(--width-6) !important; }
+.width\:7,               .w\:7 { width: var(--width-7) !important; }
+.width\:8,               .w\:8 { width: var(--width-8) !important; }
+.width\:9,               .w\:9 { width: var(--width-9) !important; }
+.width\:10,              .w\:10 { width: var(--width-10) !important; }
 .width\:full,            .w\:full { width : 100% !important }
 .width\:min-content,     .w\:min-content { width : min-content !important }
 .width\:max-content,     .w\:max-content { width : max-content !important }
