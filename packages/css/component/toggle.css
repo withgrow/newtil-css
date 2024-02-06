@@ -243,8 +243,8 @@
   display: inline-block;
   background-color: var(--color-base-1);
 
-  -webkit-mask-image: url(/icon/check_bold.svg);
-  mask-image: url(/icon/check_bold.svg);
+  -webkit-mask-image: url(../icon/check_bold.svg);
+  mask-image: url(../icon/check_bold.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 20px 20px;
@@ -519,12 +519,12 @@
   cursor: not-allowed;
 }
 
-.toggle-type\:dot:checked:disabled::before,
-.toggle-type\:dot.checked:disabled::before,
-.toggle-type\:dot.checked.disabled::before,
-.toggle\:dot:checked:disabled::before,
-.toggle\:dot:checked.disabled::before,
-.toggle\:dot.checked.disabled::before {
+.n-toggle-type\:dot:checked:disabled::before,
+.n-toggle-type\:dot.checked:disabled::before,
+.n-toggle-type\:dot.checked.disabled::before,
+.n-toggle\:dot:checked:disabled::before,
+.n-toggle\:dot:checked.disabled::before,
+.n-toggle\:dot.checked.disabled::before {
   --dot-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
 
   background-color: var(--dot-disabled-bg-color-before);
