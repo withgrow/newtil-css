@@ -243,8 +243,8 @@
   display: inline-block;
   background-color: var(--color-base-1);
 
-  -webkit-mask-image: url(/icon/check_bold.svg);
-  mask-image: url(/icon/check_bold.svg);
+  -webkit-mask-image: url(../icon/check_bold.svg);
+  mask-image: url(../icon/check_bold.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 20px 20px;
@@ -519,18 +519,15 @@
   cursor: not-allowed;
 }
 
-.n-toggle-type\:dot:disabled::before,
 .n-toggle-type\:dot:checked:disabled::before,
-.n-toggle-type\:dot.n-toggle-status\:disabled::before,
-.n-toggle-type\:dot.n-toggle-status\:disabled::before,
-.n-toggle-type\:dot.disabled::before,
-.n-toggle\:dot:disabled::before,
+.n-toggle-type\:dot.checked:disabled::before,
+.n-toggle-type\:dot.checked.disabled::before,
 .n-toggle\:dot:checked:disabled::before,
-.n-toggle\:dot.n-toggle-status\:disabled::before,
-.n-toggle\:dot.disabled::before {
-  --n-dot-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
+.n-toggle\:dot:checked.disabled::before,
+.n-toggle\:dot.checked.disabled::before {
+  --dot-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
 
-  background-color: var(--n-dot-disabled-bg-color-before);
+  background-color: var(--dot-disabled-bg-color-before);
 }
 
 /* ---- n-toggle:outline ------------------------------------------------- */
@@ -592,7 +589,7 @@
 .n-toggle\:outline.n-toggle-status\:checked,
 .n-toggle\:outline.checked {
   background-color: var(--color-main-2);
-  border: transparent;
+  border-color: transparent;
   color: var(--color-base-1);
 }
 
@@ -687,7 +684,7 @@
   --n-outline-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
   --n-outline-disabled-color: rgba(var(--rgb-base-10), 0.27);
 
-  border: transparent;
+  border-color: transparent;
   background-color: var(--n-outline-disabled-bg-color);
   color: var(--n-outline-disabled-color);
   cursor: not-allowed;
