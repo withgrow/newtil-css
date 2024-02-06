@@ -15,6 +15,8 @@
  * n-toggle:outline-box
  * size
  * disabled
+
+ * n-toggle-label
  * ───────────────────────────────────    */
 
 /* ---- n-toggle ------------------------------------------------- */
@@ -241,8 +243,8 @@
   display: inline-block;
   background-color: var(--color-base-1);
 
-  -webkit-mask-image: url(/image/icon/check_bold.svg);
-  mask-image: url(/image/icon/check_bold.svg);
+  -webkit-mask-image: url(/icon/check_bold.svg);
+  mask-image: url(/icon/check_bold.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 20px 20px;
@@ -689,4 +691,32 @@
   background-color: var(--n-outline-disabled-bg-color);
   color: var(--n-outline-disabled-color);
   cursor: not-allowed;
+}
+
+/* ---- n-toggle:outline ------------------------------------------------- */
+
+label:has(.n-toggle),
+label:has(.n-toggle.n-toggle-label),
+label:has(.n-toggle.n-toggle-label\:right) {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: var(--gap-1);
+  width: fit-content;
+}
+
+label:has(.n-toggle.n-toggle-label\:left) {
+  flex-direction: row;
+}
+
+label:has(.n-toggle.n-toggle-label\:top) {
+  flex-direction: column;
+  align-items: start;
+  gap: var(--gap-0);
+}
+
+label:has(.n-toggle.n-toggle-label\:bottom) {
+  flex-direction: column-reverse;
+  align-items: start;
+  gap: var(--gap-0);
 }

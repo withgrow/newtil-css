@@ -17,3 +17,10 @@
     유틸리티 중심의 CSS 라이브러리
   </p>
 </div>
+
+## Third-Party Notices
+
+- [Phosphor Icons](https://github.com/phosphor-icons/homepage)
+ 
+## License
+MIT
