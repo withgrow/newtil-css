@@ -422,33 +422,19 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 ## 라벨
 
 슬라이드, 체크, 도트 토글은 라벨을 다양한 위치에 스타일링할 수 있는 옵션을 제공합니다.<br>
-라벨의 위치는 기본적으로 좌측에 위치하지만 `n-toggle-label:값`으로 위치를 변경할 수 있습니다.
+`.n-toggle-label` 또는 `.n-toggle-label:값`으로 위치를 변경할 수 있으며 `.n-toggle-label` 클래스 사용시 토글 위에 라벨이 적용됩니다.
 
 ### 슬라이드
 
 ::: raw
 
 <div class="vp-raw">
-    <div class="d:flex jc:space-around gap:6 my:9">
-        <ExampleSection style="min-width:140px">
-            <label class="font-weight:2">
-                Right
-                <input type="checkbox" class="n-toggle"/>
-            </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label class="font-weight:2">
-                Left
-                <input type="checkbox" class="n-toggle n-toggle-label:left"/>
-            </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
+    <div class="my:9">
+        <ExampleSection class="w:full d:flex jc:space-around">
             <label class="font-weight:2">
                 Top
-                <input type="checkbox" class="n-toggle n-toggle-label:top"/>
+                <input type="checkbox" class="n-toggle n-toggle-label"/>
             </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
             <label class="font-weight:2">
                 Bottom
                 <input type="checkbox" class="n-toggle n-toggle-label:bottom"/>
@@ -460,16 +446,8 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label>
-    Right
-    <input type="checkbox" class="n-toggle"/>
-</label>
-<label>
-    Left
-    <input type="checkbox" class="n-toggle n-toggle-label:left"/>
-</label>
-<label>
     Top
-    <input type="checkbox" class="n-toggle n-toggle-label:top"/>
+    <input type="checkbox" class="n-toggle n-toggle-label"/>
 </label>
 <label>
     Bottom
@@ -479,39 +457,22 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 |클래스|위치||
 |---|---|---|
-|`n-toggle`|right|default|
-|`n-toggle n-toggle-label`|right||
-|`n-toggle n-toggle-label:right`|right||
-|`n-toggle-label:left`|left||
-|`n-toggle-label:top`|top||
-|`n-toggle-label:bottom`|bottom||
+|`n-toggle n-toggle-label`|top|default|
+|`n-toggle n-toggle-label:top`|top||
+|`n-toggle n-toggle-label:bottom`|bottom||
 
 ### 체크
 
 ::: raw
 
 <div class="vp-raw">
-    <div class="d:flex jc:space-around gap:6 my:9">
-        <ExampleSection style="min-width:140px">
-            <label>
-                Right
-                <input type="checkbox" class="n-toggle n-toggle:check"/>
-            </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label>
-                Left
-                <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:left"/>
-            </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label>
+    <div class="my:9">
+        <ExampleSection class="w:full d:flex jc:space-around">
+            <label class="font-weight:2">
                 Top
-                <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:top"/>
+                <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label"/>
             </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label>
+             <label class="font-weight:2">
                 Bottom
                 <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:bottom"/>
             </label>
@@ -522,29 +483,18 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label>
-    Right
-    <input type="checkbox" class="n-toggle n-toggle:check"/>
-</label>
-<label>
-    Left
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-lable:left"/>
-</label>
-<label>
     Top
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-lable:top"/>
+    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label"/>
 </label>
-<label>
+    <label>
     Bottom
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-lable:bottom"/>
+    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:bottom"/>
 </label>
 ```
 
 |클래스|위치||
 |---|---|---|
-|`n-toggle n-toggle:check`|right|default|
-|`n-toggle n-toggle:check n-toggle-label`|right||
-|`n-toggle n-toggle:check n-toggle-label:right`|right||
-|`n-toggle n-toggle:check n-toggle-label:left`|left||
+|`n-toggle n-toggle:check n-toggle-label`|top|default|
 |`n-toggle n-toggle:check n-toggle-label:top`|top||
 |`n-toggle n-toggle:check n-toggle-label:bottom`|bottom||
 
@@ -553,27 +503,13 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 ::: raw
 
 <div class="vp-raw">
-    <div class="d:flex jc:space-around gap:6 my:9">
-        <ExampleSection style="min-width:140px">
-            <label>
-                Right
-                <input type="checkbox" class="n-toggle n-toggle:dot"/>
-            </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label>
-                Left
-                <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:left"/>
-            </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label>
+    <div class="my:9">
+        <ExampleSection class="w:full d:flex jc:space-around">
+            <label class="font-weight:2">
                 Top
-                <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:top"/>
+                <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label"/>
             </label>
-        </ExampleSection>
-        <ExampleSection style="min-width:140px">
-            <label>
+            <label class="font-weight:2">
                 Bottom
                 <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:bottom"/>
             </label>
@@ -584,29 +520,18 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label>
-    Right
-    <input type="checkbox" class="n-toggle n-toggle:dot"/>
-</label>
-<label>
-    Left
-    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-lable:left"/>
-</label>
-<label>
     Top
-    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-lable:top"/>
+    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label"/>
 </label>
 <label>
     Bottom
-    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-lable:bottom"/>
+    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:bottom"/>
 </label>
 ```
 
 |클래스|위치||
 |---|---|---|
-|`n-toggle n-toggle:dot`|right|default|
-|`n-toggle n-toggle:dot n-toggle-label`|right||
-|`n-toggle n-toggle:dot n-toggle-label:right`|right||
-|`n-toggle n-toggle:dot n-toggle-label:left`|left||
+|`n-toggle n-toggle:dot n-toggle-label`|top|default|
 |`n-toggle n-toggle:dot n-toggle-label:top`|top||
 |`n-toggle n-toggle:dot n-toggle-label:bottom`|bottom||
 
