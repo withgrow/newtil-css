@@ -1,0 +1,126 @@
+/* ───────────────────────────────────
+ * n-text-box
+ * n-text-box-status
+    * focus
+    * success
+    * warning
+    * disabled
+ * placehoder      
+ * n-text-box-label  
+ * ───────────────────────────────────    */
+
+/* ----n-text-box ------------------------------------------------- */
+
+.n-text-box {
+  width: 100%;
+  padding: 4px 12px;
+  color: rgba(var(--rgb-base-10), 0.85);
+  background-color: var(--color-base-1);
+  border: 1px solid var(--color-base-3);
+  border-radius: 6px;
+  box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
+}
+
+input.n-text-box {
+  height: 36px;
+}
+
+textarea.n-text-box {
+  height: 100%;
+  min-height: 58px;
+  resize: none;
+}
+
+/* ----n-text-box-status ------------------------------------------------- */
+
+.n-text-box:focus,
+.n-text-box:focus {
+  border-color: var(--color-sub-2);
+}
+
+.n-text-box.n-text-box-status\:success,
+.n-text-box.n-text-box-status\:success:focus,
+.n-text-box.success,
+.n-text-box.success:focus {
+  --n-text-box-success-border-color: #37b24d;
+  border-color: var(--n-text-box-success-border-color);
+}
+
+.n-text-box.n-text-box-status\:warning,
+.n-text-box.n-text-box-status\:warning:focus,
+.n-text-box.warning,
+.n-text-box.warning:focus {
+  color: var(--color-accent-1);
+  border-color: var(--color-accent-1);
+}
+
+.n-text-box:disabled,
+.n-text-box:disabled:focus,
+.n-text-box.n-text-box-status\:disabled,
+.n-text-box.n-text-box-status\:disabled:focus,
+.n-text-box.disabled,
+.n-text-box.disabled:focus {
+  color: rgba(var(--rgb-base-10), 0.27);
+  background-color: rgba(var(--rgb-base-2), 0.6);
+  border-color: var(--color-base-4);
+  cursor: not-allowed;
+}
+
+/* ----placeholder ------------------------------------------------- */
+
+.n-text-box::placeholder {
+  font-size: var(--font-size-1-5);
+  font-weight: var(--font-weight-4);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--color-base-5);
+}
+
+.n-text-box:disabled::placeholder,
+.n-text-box.n-text-box-status\:disabled::placeholder,
+.n-text-box.disabled::placeholder {
+  color: rgba(var(--rgb-base-10), 0.27);
+}
+
+/* ----n-text-box-label ------------------------------------------------- */
+
+label:has(.n-text-box),
+label:has(.n-text-box.n-text-box-label),
+label:has(.n-text-box.n-text-box-label\:right) {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: var(--gap-1);
+
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+label .n-text-box,
+label .n-text-box.n-text-box-label,
+label .n-text-box.n-text-box-label\:right,
+label .n-text-box.n-text-box-label\:left {
+  width: initial;
+  flex-grow: 1;
+}
+
+label .n-text-box.n-text-box-label\:top,
+label .n-text-box.n-text-box-label\:bottom {
+  width: 100%;
+}
+
+label:has(.n-text-box-label\:left) {
+  flex-direction: row;
+}
+
+label:has(.n-text-box-label\:top) {
+  flex-direction: column;
+  align-items: start;
+}
+
+label:has(.n-text-box-label\:bottom) {
+  flex-direction: column-reverse;
+  align-items: start;
+}
