@@ -693,14 +693,21 @@
 /* ---- n-toggle-label ------------------------------------------------- */
 
 label:has(.n-toggle.n-toggle-label),
-label:has(.n-toggle.n-toggle-label\:top) {
+label:has(.n-toggle.n-toggle-label.n-toggle-label\:top),
+label:has(.n-toggle.n-toggle-label.top) {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: var(--gap-2);
   width: fit-content;
+
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
+  line-height: 150%;
+  letter-spacing: -0.02em;
 }
 
-label:has(.n-toggle.n-toggle-label\:bottom) {
+label:has(.n-toggle.n-toggle-label.n-toggle-label\:bottom),
+label:has(.n-toggle.n-toggle-label.bottom) {
   flex-direction: column-reverse;
 }
