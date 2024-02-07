@@ -692,8 +692,8 @@
 
 /* ---- n-toggle-label ------------------------------------------------- */
 
-label:has(.n-toggle-label),
-label:has(.n-toggle-label\:top) {
+label:has(.n-toggle.n-toggle-label),
+label:has(.n-toggle.n-toggle-label\:top) {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -701,6 +701,6 @@ label:has(.n-toggle-label\:top) {
   width: fit-content;
 }
 
-label:has(.n-toggle-label\:bottom) {
+label:has(.n-toggle.n-toggle-label\:bottom) {
   flex-direction: column-reverse;
 }
