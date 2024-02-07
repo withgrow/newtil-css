@@ -22,17 +22,12 @@
   box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
 }
 
-input.n-text-box {
+/* ----n-text-box-type ------------------------------------------------- */
+
+input.n-text-box,
+input.n-text-box\:outline {
   height: 36px;
 }
-
-textarea.n-text-box {
-  height: 100%;
-  min-height: 58px;
-  resize: none;
-}
-
-/* ----n-text-box-type ------------------------------------------------- */
 
 input.n-text-box-type\:underline,
 input.n-text-box\:underline {
@@ -46,6 +41,12 @@ input.n-text-box\:underline {
 
   transition-property: border-color;
   transition-duration: 200ms;
+}
+
+textarea.n-text-box {
+  height: 100%;
+  min-height: 58px;
+  resize: none;
 }
 
 /* ----n-text-box-status ------------------------------------------------- */
