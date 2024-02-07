@@ -422,7 +422,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 ## 라벨
 
 슬라이드, 체크, 도트 토글은 라벨을 다양한 위치에 스타일링할 수 있는 옵션을 제공합니다.<br>
-`.n-toggle-label:값`으로 위치를 변경할 수 있습니다.
+`.n-toggle-label:값` 클래스를 적용하여 위치를 변경할 수 있습니다.
 
 ### 슬라이드
 
