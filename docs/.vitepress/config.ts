@@ -15,7 +15,7 @@ export default defineConfig({
       "link",
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.4/dist/style.css",
+        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.5/dist/style.css",
       },
     ],
     ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
@@ -113,7 +113,7 @@ export default defineConfig({
         items: [
           {
             text: "모아보기",
-            link: "/overview"
+            link: "/overview",
           },
           {
             text: "토글",
@@ -128,12 +128,12 @@ export default defineConfig({
         items: [
           {
             text: "아이콘과 데코 시작하기",
-            link: "/getting-started"
+            link: "/getting-started",
           },
           {
             text: "아이콘 목록",
-            link: "/list"
-          }
+            link: "/list",
+          },
         ],
       },
 
