@@ -58,7 +58,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-  gap: var(--gap-2);
+  gap: 8px;
 }
 
 .n-list.n-tag-list > li {
