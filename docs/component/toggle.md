@@ -430,7 +430,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 <div class="vp-raw">
     <div class="my:9">
-        <ExampleSection class="w:full d:flex jc:space-around">
+        <ExampleSection class="w:full d:flex ai:center jc:space-around">
             <label class="font-weight:2">
                 Top
                 <input type="checkbox" class="n-toggle n-toggle-label:top"/>
@@ -447,7 +447,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 ```html
 <label>
     Top
-    <input type="checkbox" class="n-toggle n-toggle-labe:top"/>
+    <input type="checkbox" class="n-toggle n-toggle-label:top"/>
 </label>
 <label>
     Bottom
@@ -466,7 +466,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 <div class="vp-raw">
     <div class="my:9">
-        <ExampleSection class="w:full d:flex jc:space-around">
+        <ExampleSection class="w:full d:flex ai:center jc:space-around">
             <label class="font-weight:2">
                 Top
                 <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:top"/>
@@ -502,7 +502,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 <div class="vp-raw">
     <div class="my:9">
-        <ExampleSection class="w:full d:flex jc:space-around">
+        <ExampleSection class="w:full d:flex ai:center jc:space-around">
             <label class="font-weight:2">
                 Top
                 <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:top"/>
