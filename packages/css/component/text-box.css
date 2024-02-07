@@ -1,5 +1,6 @@
 /* ───────────────────────────────────
  * n-text-box
+ * n-text-box-type
  * n-text-box-status
     * focus
     * success
@@ -29,6 +30,22 @@ textarea.n-text-box {
   height: 100%;
   min-height: 58px;
   resize: none;
+}
+
+/* ----n-text-box-type ------------------------------------------------- */
+
+input.n-text-box-type\:underline,
+input.n-text-box\:underline {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1.6px;
+  border-radius: 0px;
+  box-shadow: none;
+  padding: 0px;
+
+  transition-property: border-color;
+  transition-duration: 200ms;
 }
 
 /* ----n-text-box-status ------------------------------------------------- */
