@@ -15,18 +15,11 @@ export default defineConfig({
       "link",
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.0/dist/style.css",
+        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.4/dist/style.css",
       },
     ],
     ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
   ],
-
-  // https://vitepress.dev/guide/markdown#custom-title
-  markdown: {
-    container: {
-      warningLabel: "TIP",
-    },
-  },
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
@@ -116,8 +109,11 @@ export default defineConfig({
 
       {
         text: "컴포넌트",
-        base: "/components",
-        items: [],
+        base: "/component",
+        items: [{
+            text: "토글",
+            link: "/toggle",
+          },],
       },
 
       {

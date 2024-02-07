@@ -43,7 +43,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 ## CSS 사용자 정의하기
 
 프로젝트에 맞게 스타일을 맞춤 설정하려면, 다음과 같이 `root.css` 파일을 생성하고 추가합니다.
-:::warning
+:::warning TIP
 파일명은 사용자의 편의에 따라 자유롭게 변경할 수 있습니다.
 :::
 
