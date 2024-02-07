@@ -25,6 +25,7 @@
 /* ----n-text-box-type ------------------------------------------------- */
 
 input.n-text-box,
+input.n-text-box-type\:outline
 input.n-text-box\:outline {
   height: 36px;
 }
