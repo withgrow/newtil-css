@@ -80,9 +80,6 @@ how to use
 
 .n-form {
   --border-focus-color: var(--color-sub-2);
-  --title-width-sm: 40px;
-  --title-width-md: 80px;
-  --title-width-lg: 120px;
 
   padding: 24px;
   background-color: var(--color-base-1);
