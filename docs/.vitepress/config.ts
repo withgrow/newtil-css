@@ -110,10 +110,16 @@ export default defineConfig({
       {
         text: "컴포넌트",
         base: "/component",
-        items: [{
+        items: [
+          {
+            text: "모아보기",
+            link: "/overview"
+          },
+          {
             text: "토글",
             link: "/toggle",
-          },],
+          },
+        ],
       },
 
       {
