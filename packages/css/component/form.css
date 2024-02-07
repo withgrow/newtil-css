@@ -1,14 +1,13 @@
 /**
  * n-form
- * md:n-item-horizontal
- * lg:n-item-horizontal
+ * md:n-field-label\:left
+ * lg:n-field-label\:left
  */
 
 /**
-
 how to use
 
-<form class="n-form md:n-item-horizontal">
+<form class="n-form md:n-field-label\:left">
     <!-- input -->
     <div class="">
         <label class="mr:4">이건 label / input </label>
@@ -80,6 +79,9 @@ how to use
 
 .n-form {
   --border-focus-color: var(--color-sub-2);
+  --title-width-sm: 40px;
+  --title-width-md: 80px;
+  --title-width-lg: 120px;
 
   padding: 24px;
   background-color: var(--color-base-1);
@@ -213,43 +215,40 @@ how to use
   -webkit-text-fill-color: var(--color-base-9) !important;
 }
 
-/* var [ horizontal item ] */
+/* var [ field label position ] */
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
+  /* gap between items */
+  .n-form.md\:n-field-label-position\:left > div:not(:first-child),
+  .n-form.md\:n-field-label\:left > div:not(:first-child) {
+      margin-top: 24px;
+  }
+
   /* item-layout */
-  .n-form.md\:n-form-item-horizontal > div,
-  .n-form.md\:n-item-horizontal > div,
-  .n-form.md\:n-item-hrz > div,
-  .n-form.md\:n-form-item-horizontal > div > label:has(span),
-  .n-form.md\:n-item-horizontal > div > label:has(span),
-  .n-form.md\:n-item-hrz > div > label:has(span) {
+  .n-form.md\:n-field-label-position\:left > div,
+  .n-form.md\:n-field-label\:left > div,
+  .n-form.md\:n-field-label-position\:left > div > label:has(span),
+  .n-form.md\:n-field-label\:left > div > label:has(span) {
       align-items: center;
       flex-direction: row;
       gap: 12px;
   }
-  
+
   /* text-box item width */
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="email"]),
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="number"]),
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="password"]),
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="search"]),
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="tel"]),
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="text"]),
-  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="url"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="email"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="number"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="password"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="search"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="tel"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="text"]),
-  .n-form.md\:n-item-horizontal > div > label:has(input[type="url"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="email"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="number"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="password"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="search"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="tel"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="text"]),
-  .n-form.md\:n-item-hrz > div > label:has(input[type="url"]) {
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="email"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="number"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="password"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="search"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="tel"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="text"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="url"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="email"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="number"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="password"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="search"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="tel"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="text"]),
+  .n-form.md\:n-field-label\:left > div > label:has(input[type="url"]) {
       width: 100%;
   }
 
@@ -267,40 +266,37 @@ how to use
 
 /* ---- large ------------------------------------------------- */
 @media (min-width: 1200px) {
+  /* gap between items */
+  .n-form.lg\:n-field-label-position\:left > div:not(:first-child),
+  .n-form.lg\:n-field-label\:left > div:not(:first-child) {
+      margin-top: 24px;
+  }
+  
   /* item-layout */
-  .n-form.lg\:n-form-item-horizontal > div,
-  .n-form.lg\:n-item-horizontal > div,
-  .n-form.lg\:n-item-hrz > div,
-  .n-form.lg\:n-form-item-horizontal > div > label:has(span),
-  .n-form.lg\:n-item-horizontal > div > label:has(span),
-  .n-form.lg\:n-item-hrz > div > label:has(span) {
+  .n-form.lg\:n-field-label-position\:left > div,
+  .n-form.lg\:n-field-label\:left > div,
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span),
+  .n-form.lg\:n-field-label\:left > div > label:has(span) {
       align-items: center;
       flex-direction: row;
       gap: 4px;
   }
 
   /* text-box item width */
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="email"]),
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="number"]),
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="password"]),
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="search"]),
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="tel"]),
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="text"]),
-  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="url"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="email"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="number"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="password"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="search"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="tel"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="text"]),
-  .n-form.lg\:n-item-horizontal > div > label:has(input[type="url"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="email"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="number"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="password"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="search"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="tel"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="text"]),
-  .n-form.lg\:n-item-hrz > div > label:has(input[type="url"]) {
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="email"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="number"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="password"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="search"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="text"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="url"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="email"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="number"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="password"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="search"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="text"]),
+  .n-form.lg\:n-field-label\:left > div > label:has(input[type="url"]) {
       width: 100%;
   }
 
