@@ -1,61 +1,120 @@
 /**
+ * n-form
+ * md:n-item-horizontal
+ * lg:n-item-horizontal
+ */
+
+/**
 
 how to use
 
-<form action="" class="form">
-    <div>
-        <label for="">label</label>
-        <input type="text" placeholder="placeholder" />
+<form class="n-form md:n-item-horizontal">
+    <!-- input -->
+    <div class="">
+        <label class="mr:4">이건 label / input </label>
+
+        <input
+            v-model="fetchOption.title"
+            id="search"
+            placeholder="제목을 입력하세요"
+            autocomplete="off"
+            type="text"
+            class="grow:1"
+            :class="{ 'input:warning': searchFormError.title }" />
     </div>
-    <div>
-        <label for="">label</label>
-        <input type="text" placeholder="placeholder" />
+
+    <div class="">
+        <label
+            ><span>이건 텍스트 박스</span
+            ><input
+                type="text"
+                class="n-text-box"
+                placeholder="내용을 입력하세요"
+        /></label>
     </div>
+
+    <!-- checkbox -->
+    <div class="">
+        <div class="">이건 체크박스 세트</div>
+
+        <div class="d:flex gap:4">
+            <label class="d:flex ai:center gap:1">
+                <input
+                    v-model="fetchOption.categoryId"
+                    value="1"
+                    type="checkbox"
+                    class="check" />
+                공지사항
+            </label>
+            <label class="d:flex ai:center gap:1">
+                <input
+                    v-model="fetchOption.categoryId"
+                    value="2"
+                    type="checkbox"
+                    class="check" />
+                이벤트
+            </label>
+        </div>
+    </div>
+
+    <!-- toggle -->
+    <div class="">
+        <label>
+            <span>이건 토글</span>
+            <input type="checkbox" class="n-toggle" />
+        </label>
+    </div>
+    <div class="">
+        <label>
+            <input type="checkbox" class="n-toggle" />
+            <span>이것도 토글이지</span>
+        </label>
+    </div>
+
     <div>
-        <label for="">label</label>
-        <input type="password" placeholder="placeholder" />
+        <button class="n-btn">버튼</button>
+        <button class="n-btn">버튼</button>
     </div>
 </form>
 */
 
 .n-form {
   --border-focus-color: var(--color-sub-2);
-  --title-width-sm: 40px;
-  --title-width-md: 80px;
-  --title-width-lg: 120px;
 
-  padding: 16px;
+  padding: 24px;
   background-color: var(--color-base-1);
   border: 1px solid var(--color-base-3);
-  border-radius: var(--border-radius-4);
+  border-radius: 16px
   box-shadow: 0px 1px 3px -1px rgba(22, 26, 32, 0.05),
-    0px 2px 5px -1px rgba(50, 50, 93, 0.1);
+      0px 2px 5px -1px rgba(50, 50, 93, 0.1);
 }
 
 /* item (title + contents) */
-.n-form > div {
+.n-form > div,
+.n-form > div > label:has(span) {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-2);
+  gap: 8px;
 }
 
 /* gap between items */
 .n-form > div:not(:first-child) {
-  margin-top: var(--gap-4);
+  margin-top: 32px;
 }
 
 /* title */
-.n-form > * > :first-child:not(button, input) {
-  font-size: var(--font-size-2);
+.n-form > div > :first-child:not(button, input):not(label:has(input)),
+.n-form > div > label > span {
+  font-size: 14px;
   font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-  width: var(--title-width-sm);
 }
 
-/* input */
+.n-form > div > label:not(:has(input)),
+.n-form > div > label > span {
+  line-height: 1.1;
+}
+
+/* string input */
 .n-form input[type="email"],
 .n-form input[type="number"],
 .n-form input[type="password"],
@@ -63,15 +122,15 @@ how to use
 .n-form input[type="tel"],
 .n-form input[type="text"],
 .n-form input[type="url"] {
-  color: rgba(0, 0, 0, 0.85);
-  font-size: var(--font-size-2);
+  color: var(--color-base-9);
+  font-size: 14px;
   line-height: 150%;
 
   border: 1px solid var(--color-base-3);
-  border-radius: var(--border-radius-2);
-  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: var(--color-base-1);
 
-  padding: var(--gap-2) var(--gap-3);
+  padding: 8px 12px;
   flex-grow: 1;
 
   transition: border 0.12s;
@@ -84,7 +143,7 @@ how to use
 .n-form input[type="tel"]::placeholder,
 .n-form input[type="text"]::placeholder,
 .n-form input[type="url"]::placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--color-base-5);
 }
 
 .n-form input[type="email"]:focus,
@@ -97,24 +156,19 @@ how to use
   border: 1px solid var(--border-focus-color);
 }
 
-/* --------- var [title box width] --------- */
-.n-form.n-title-width\:1 > div > :first-child,
-.n-form.n-title-width\:sm > div > :first-child,
-.n-form.n-title-w\:1 > div > :first-child,
-.n-form.n-title-w\:sm > div > :first-child {
-  width: var(--title-width-sm);
+/* text-box */
+.n-form > div > label:has(span) {
+  align-items: start;
 }
-.n-form.n-title-width\:2 > div > :first-child,
-.n-form.n-title-width\:md > div > :first-child,
-.n-form.n-title-w\:2 > div > :first-child,
-.n-form.n-title-w\:md > div > :first-child {
-  width: var(--title-width-md);
-}
-.n-form.n-title-width\:3 > div > :first-child,
-.n-form.n-title-width\:lg > div > :first-child,
-.n-form.n-title-w\:3 > div > :first-child,
-.n-form.n-title-w\:lg > div > :first-child {
-  width: var(--title-width-lg);
+
+.n-form > div > label:has(span) > input[type="email"],
+.n-form > div > label:has(span) > input[type="number"],
+.n-form > div > label:has(span) > input[type="password"],
+.n-form > div > label:has(span) > input[type="search"],
+.n-form > div > label:has(span) > input[type="tel"],
+.n-form > div > label:has(span) > input[type="text"],
+.n-form > div > label:has(span) > input[type="url"] {
+  width: 100%;
 }
 
 /* remove autofill style */
@@ -146,7 +200,7 @@ how to use
 .n-form input[type="url"]:-webkit-autofill:hover,
 .n-form input[type="url"]:-webkit-autofill:focus,
 .n-form input[type="url"]:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+  -webkit-box-shadow: 0 0 0 30px var(--color-base-1) inset !important;
 }
 
 .n-form input[type="email"]:-webkit-autofill,
@@ -156,17 +210,109 @@ how to use
 .n-form input[type="tel"]:-webkit-autofill,
 .n-form input[type="text"]:-webkit-autofill,
 .n-form input[type="url"]:-webkit-autofill {
-  -webkit-text-fill-color: rgba(0, 0, 0, 0.85) !important;
+  -webkit-text-fill-color: var(--color-base-9) !important;
 }
 
+/* var [ horizontal item ] */
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
-  .n-form > div {
-    flex-direction: row;
-    gap: var(--gap-1);
+  /* item-layout */
+  .n-form.md\:n-form-item-horizontal > div,
+  .n-form.md\:n-item-horizontal > div,
+  .n-form.md\:n-item-hrz > div,
+  .n-form.md\:n-form-item-horizontal > div > label:has(span),
+  .n-form.md\:n-item-horizontal > div > label:has(span),
+  .n-form.md\:n-item-hrz > div > label:has(span) {
+      align-items: center;
+      flex-direction: row;
+      gap: 12px;
+  }
+  
+  /* text-box item width */
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="email"]),
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="number"]),
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="password"]),
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="search"]),
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="tel"]),
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="text"]),
+  .n-form.md\:n-form-item-horizontal > div > label:has(input[type="url"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="email"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="number"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="password"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="search"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="tel"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="text"]),
+  .n-form.md\:n-item-horizontal > div > label:has(input[type="url"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="email"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="number"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="password"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="search"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="tel"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="text"]),
+  .n-form.md\:n-item-hrz > div > label:has(input[type="url"]) {
+      width: 100%;
   }
 
-  .n-form label {
-    align-self: center;
+  /* text-box input width */
+  .n-form > div > label:has(span) > input[type="email"],
+  .n-form > div > label:has(span) > input[type="number"],
+  .n-form > div > label:has(span) > input[type="password"],
+  .n-form > div > label:has(span) > input[type="search"],
+  .n-form > div > label:has(span) > input[type="tel"],
+  .n-form > div > label:has(span) > input[type="text"],
+  .n-form > div > label:has(span) > input[type="url"] {
+      width: initial;
   }
 }
+
+/* ---- large ------------------------------------------------- */
+@media (min-width: 1200px) {
+  /* item-layout */
+  .n-form.lg\:n-form-item-horizontal > div,
+  .n-form.lg\:n-item-horizontal > div,
+  .n-form.lg\:n-item-hrz > div,
+  .n-form.lg\:n-form-item-horizontal > div > label:has(span),
+  .n-form.lg\:n-item-horizontal > div > label:has(span),
+  .n-form.lg\:n-item-hrz > div > label:has(span) {
+      align-items: center;
+      flex-direction: row;
+      gap: 4px;
+  }
+
+  /* text-box item width */
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="email"]),
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="number"]),
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="password"]),
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="search"]),
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="text"]),
+  .n-form.lg\:n-form-item-horizontal > div > label:has(input[type="url"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="email"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="number"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="password"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="search"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="text"]),
+  .n-form.lg\:n-item-horizontal > div > label:has(input[type="url"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="email"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="number"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="password"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="search"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="tel"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="text"]),
+  .n-form.lg\:n-item-hrz > div > label:has(input[type="url"]) {
+      width: 100%;
+  }
+
+  /* text-box input width */
+  .n-form > div > label:has(span) > input[type="email"],
+  .n-form > div > label:has(span) > input[type="number"],
+  .n-form > div > label:has(span) > input[type="password"],
+  .n-form > div > label:has(span) > input[type="search"],
+  .n-form > div > label:has(span) > input[type="tel"],
+  .n-form > div > label:has(span) > input[type="text"],
+  .n-form > div > label:has(span) > input[type="url"] {
+      width: initial;
+  }
+}
+
