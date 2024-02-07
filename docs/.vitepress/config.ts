@@ -109,8 +109,11 @@ export default defineConfig({
 
       {
         text: "컴포넌트",
-        base: "/components",
-        items: [],
+        base: "/component",
+        items: [{
+            text: "토글",
+            link: "/toggle",
+          },],
       },
 
       {
