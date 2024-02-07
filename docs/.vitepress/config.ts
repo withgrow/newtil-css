@@ -116,6 +116,10 @@ export default defineConfig({
             link: "/overview",
           },
           {
+            text: "버튼",
+            link: "/button",
+          },
+          {
             text: "토글",
             link: "/toggle",
           },
