@@ -103,22 +103,25 @@ textarea.n-text-box {
 
 /* ----n-text-box-label ------------------------------------------------- */
 
-label:has(.n-text-box.n-text-box-label),
-label:has(.n-text-box.n-text-box-label.n-text-box-label\:top),
-label:has(.n-text-box.n-text-box-label.top) {
+label:has(.n-text-box){
   display: flex;
-  gap: var(--gap-1);
-  flex-direction: column;
-  align-items: start;
+  align-items: center;
+  gap: var(--gap-2);
 
   font-size: var(--font-size-2);
   font-weight: var(--font-weight-1);
   line-height: 150%;
   letter-spacing: -0.02em;
-
 }
 
-label:has(.n-text-box.n-text-box-label.n-text-box-label\:top),
-label:has(.n-text-box.n-text-box-label.top) {
+label:has(.n-text-box.n-text-box-label\:top) {
+  gap: var(--gap-1);
+  flex-direction: column;
+  align-items: start;
+}
+
+label:has(.n-text-box.n-text-box-label\:bottom) {
+  gap: var(--gap-1);
   flex-direction: column-reverse;
+  align-items: start;
 }
