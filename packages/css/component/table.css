@@ -156,8 +156,8 @@
 }
 
 /* ----------- var [ table-style ] -----------  */
-.n-table.n-table-style\:striped > tbody > *:nth-child(odd),
-.n-table.n-table-s\:striped > tbody > *:nth-child(odd) {
+.n-table.n-table-style\:striped > tbody > :nth-child(odd),
+.n-table.n-table-s\:striped > tbody > :nth-child(odd) {
     background-color: var(--striped-color);
 }
 
@@ -203,7 +203,6 @@
 /* ------------------------------- */
 
 .n-bbs-table {
-    --bbs-cell-width-first-col: 50px;
     --bbs-cell-width-sm: 100px;
     --bbs-cell-width-md: 120px;
     --bbs-cell-width-lg: 140px;
@@ -213,7 +212,7 @@
 
 /* first-column */
 .n-bbs-table > * > * > :first-child {
-    width: var(--bbs-cell-width-first-col);
+    width: 50px;
 }
 
 /* third~ column */
@@ -241,4 +240,29 @@
 .n-bbs-table.n-cell-w\:3 > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:lg > * > * > :nth-child(n + 3) {
     width: var(--bbs-cell-width-lg);
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    /* id, 제목, 메뉴 칼럼 제외하고 가리기 */
+    .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+        display: none;
+    }
+
+    /* 메뉴 칼럼 너비 고정 */
+    .n-bbs-table > * > * > :last-child,
+    .n-bbs-table.n-cell-width\:1 > * > * > :last-child,
+    .n-bbs-table.n-cell-width\:sm > * > * > :last-child,
+    .n-bbs-table.n-cell-width\:2 > * > * > :last-child,
+    .n-bbs-table.n-cell-width\:md > * > * > :last-child,
+    .n-bbs-table.n-cell-width\:3 > * > * > :last-child,
+    .n-bbs-table.n-cell-width\:lg > * > * > :last-child,
+    .n-bbs-table.n-cell-w\:1 > * > * > :last-child,
+    .n-bbs-table.n-cell-w\:sm > * > * > :last-child,
+    .n-bbs-table.n-cell-w\:2 > * > * > :last-child,
+    .n-bbs-table.n-cell-w\:md > * > * > :last-child,
+    .n-bbs-table.n-cell-w\:3 > * > * > :last-child,
+    .n-bbs-table.n-cell-w\:lg > * > * > :last-child {
+        width: 50px;
+    }
 }
