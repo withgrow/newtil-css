@@ -692,12 +692,9 @@
 
 /* ---- n-toggle-label ------------------------------------------------- */
 
-label:has(.n-toggle.n-toggle-label),
-label:has(.n-toggle.n-toggle-label.n-toggle-label\:top),
-label:has(.n-toggle.n-toggle-label.top) {
+label:has(.n-toggle){
   display: flex;
-  flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: var(--gap-2);
   width: fit-content;
 
@@ -705,9 +702,16 @@ label:has(.n-toggle.n-toggle-label.top) {
   font-weight: var(--font-weight-1);
   line-height: 150%;
   letter-spacing: -0.02em;
+
 }
 
-label:has(.n-toggle.n-toggle-label.n-toggle-label\:bottom),
-label:has(.n-toggle.n-toggle-label.bottom) {
+label:has(.n-toggle.n-toggle-label\:top) {
+  flex-direction: column;
+  align-items: start;
+
+}
+
+label:has(.n-toggle.n-toggle-label\:bottom) {
   flex-direction: column-reverse;
+  align-items: start;
 }
