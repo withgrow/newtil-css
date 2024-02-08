@@ -13,27 +13,23 @@
     </tr>
   </thead>
   <tbody>
-<!-- flex-wrap: nowrap -->
-<tr>
-  <td><code>flex-wrap:nowrap</code></td>
-  <td><code>flex-w:nowrap</code></td>
-  <td><span class="code">flex-wrap: nowrap !important;</span></td>
-</tr>
-
-<!-- flex-wrap: wrap -->
-<tr>
-  <td><code>flex-wrap:wrap</code></td>
-  <td><code>flex-w:wrap</code></td>
-  <td><span class="code">flex-wrap: wrap !important;</span></td>
-</tr>
-
-<!-- flex-wrap: wrap-reverse -->
-<tr>
-  <td><code>flex-wrap:wrap-reverse</code></td>
-  <td><code>flex-w:wrap-reverse</code></td>
-  <td><span class="code">flex-wrap: wrap-reverse !important;</span></td>
-</tr>
-
-  </tbody>
-
+    <!-- flex-wrap: nowrap -->
+    <tr>
+      <td><code>flex-wrap:nowrap</code></td>
+      <td><code>fl-wrap:nowrap</code></td>
+      <td><span class="code">flex-wrap: nowrap !important;</span></td>
+    </tr>
+    <!-- flex-wrap: wrap -->
+    <tr>
+      <td><code>flex-wrap:wrap</code></td>
+      <td><code>fl-wrap:wrap</code></td>
+      <td><span class="code">flex-wrap: wrap !important;</span></td>
+    </tr>
+    <!-- flex-wrap: wrap-reverse -->
+    <tr>
+      <td><code>flex-wrap:wrap-reverse</code></td>
+      <td><code>fl-wrap:wrap-reverse</code></td>
+      <td><span class="code">flex-wrap: wrap-reverse !important;</span></td>
+    </tr>
+  </tbody> 
 </table>
