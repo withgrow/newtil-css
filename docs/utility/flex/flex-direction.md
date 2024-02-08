@@ -16,28 +16,44 @@
   <!-- flex-direction: row -->
 <tr>
   <td><code>flex-direction:row</code></td>
-  <td><code>flex-d:row</code></td>
+  <td>
+    <code>fl-direction:row</code>
+    <br />
+    <code>fl-dir:row</code>
+  </td>
   <td><span class="code">flex-direction: row !important;</span></td>
 </tr>
 
 <!-- flex-direction: row-reverse -->
 <tr>
   <td><code>flex-direction:row-reverse</code></td>
-  <td><code>flex-d:row-reverse</code></td>
+  <td>
+    <code>fl-direction:row-reverse</code>
+    <br />
+    <code>fl-dir:row-reverse</code>
+  </td>
   <td><span class="code">flex-direction: row-reverse !important;</span></td>
 </tr>
 
 <!-- flex-direction: column -->
 <tr>
   <td><code>flex-direction:column</code></td>
-  <td><code>flex-d:column</code></td>
+  <td>
+    <code>fl-direction:column</code>
+    <br />
+    <code>fl-dir:column</code>
+  </td>
   <td><span class="code">flex-direction: column !important;</span></td>
 </tr>
 
 <!-- flex-direction: column-reverse -->
 <tr>
   <td><code>flex-direction:column-reverse</code></td>
-  <td><code>flex-d:column-reverse</code></td>
+  <td>
+    <code>fl-direction:column-reverse</code>
+    <br />
+    <code>fl-dir:column-reverse</code>
+  </td>
   <td><span class="code">flex-direction: column-reverse !important;</span></td>
 </tr>
 

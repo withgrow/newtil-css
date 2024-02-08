@@ -16,14 +16,14 @@
   <!-- flex-grow: 0 -->
 <tr>
   <td><code>flex-grow:0</code></td>
-  <td><code>flex-g:0</code></td>
+  <td><code>fl-grow:0</code></td>
   <td><span class="code">flex-grow: 0 !important;</span></td>
 </tr>
 
 <!-- flex-grow: 1 -->
 <tr>
   <td><code>flex-grow:1</code></td>
-  <td><code>flex-g:1</code></td>
+  <td><code>fl-grow:1</code></td>
   <td><span class="code">flex-grow: 1 !important;</span></td>
 </tr>
 
