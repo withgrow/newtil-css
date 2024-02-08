@@ -16,49 +16,49 @@
   <!-- flex-flow: row -->
 <tr>
   <td><code>flex-flow:row</code></td>
-  <td><code>flex-f:row</code></td>
+  <td><code>fl-flow:row</code></td>
   <td><span class="code">flex-flow: row !important;</span></td>
 </tr>
 
 <!-- flex-flow: row-reverse -->
 <tr>
   <td><code>flex-flow:row-reverse</code></td>
-  <td><code>flex-f:row-reverse</code></td>
+  <td><code>fl-flow:row-reverse</code></td>
   <td><span class="code">flex-flow: row-reverse !important;</span></td>
 </tr>
 
 <!-- flex-flow: column -->
 <tr>
   <td><code>flex-flow:column</code></td>
-  <td><code>flex-f:column</code></td>
+  <td><code>fl-flow:column</code></td>
   <td><span class="code">flex-flow: column !important;</span></td>
 </tr>
 
 <!-- flex-flow: column-reverse -->
 <tr>
   <td><code>flex-flow:column-reverse</code></td>
-  <td><code>flex-f:column-reverse</code></td>
+  <td><code>fl-flow:column-reverse</code></td>
   <td><span class="code">flex-flow: column-reverse !important;</span></td>
 </tr>
 
 <!-- flex-flow: nowrap -->
 <tr>
   <td><code>flex-flow:nowrap</code></td>
-  <td><code>flex-f:nowrap</code></td>
+  <td><code>fl-flow:nowrap</code></td>
   <td><span class="code">flex-flow: nowrap !important;</span></td>
 </tr>
 
 <!-- flex-flow: wrap -->
 <tr>
   <td><code>flex-flow:wrap</code></td>
-  <td><code>flex-f:wrap</code></td>
+  <td><code>fl-flow:wrap</code></td>
   <td><span class="code">flex-flow: wrap !important;</span></td>
 </tr>
 
 <!-- flex-flow: wrap-reverse -->
 <tr>
   <td><code>flex-flow:wrap-reverse</code></td>
-  <td><code>flex-f:wrap-reverse</code></td>
+  <td><code>fl-flow:wrap-reverse</code></td>
   <td><span class="code">flex-flow: wrap-reverse !important;</span></td>
 </tr>
 
