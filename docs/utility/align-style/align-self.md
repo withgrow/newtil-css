@@ -17,7 +17,7 @@
   <tr>
     <td><code>align-self:stretch</code></td>
     <td>
-      <code>align-s:stretch</code><br>
+      <code>al-self:stretch</code><br>
       <code>as:stretch</code>
     </td>
     <td><span class="code">align-self: stretch !important;</span></td>
@@ -27,7 +27,7 @@
   <tr>
     <td><code>align-self:center</code></td>
     <td>
-      <code>align-s:center</code><br>
+      <code>al-self:center</code><br>
       <code>as:center</code>
     </td>
     <td><span class="code">align-self: center !important;</span></td>
@@ -37,7 +37,7 @@
   <tr>
     <td><code>align-self:start</code></td>
     <td>
-      <code>align-s:start</code><br>
+      <code>al-self:start</code><br>
       <code>as:start</code>
     </td>
     <td><span class="code">align-self: start !important;</span></td>
@@ -47,7 +47,7 @@
   <tr>
     <td><code>align-self:end</code></td>
     <td>
-      <code>align-s:end</code><br>
+      <code>al-self:end</code><br>
       <code>as:end</code>
     </td>
     <td><span class="code">align-self: end !important;</span></td>
@@ -57,7 +57,7 @@
   <tr>
     <td><code>align-self:self-start</code></td>
     <td>
-      <code>align-s:self-start</code><br>
+      <code>al-self:self-start</code><br>
       <code>as:self-start</code>
     </td>
     <td><span class="code">align-self: self-start !important;</span></td>
@@ -67,7 +67,7 @@
   <tr>
     <td><code>align-self:self-end</code></td>
     <td>
-      <code>align-s:self-end</code><br>
+      <code>al-self:self-end</code><br>
       <code>as:self-end</code>
     </td>
     <td><span class="code">align-self: self-end !important;</span></td>
@@ -77,7 +77,7 @@
   <tr>
     <td><code>align-self:flex-start</code></td>
     <td>
-      <code>align-s:flex-start</code><br>
+      <code>al-self:flex-start</code><br>
       <code>as:flex-start</code>
     </td>
     <td><span class="code">align-self: flex-start !important;</span></td>
@@ -87,7 +87,7 @@
   <tr>
     <td><code>align-self:flex-end</code></td>
     <td>
-      <code>align-s:flex-end</code><br>
+      <code>al-self:flex-end</code><br>
       <code>as:flex-end</code>
     </td>
     <td><span class="code">align-self: flex-end !important;</span></td>
