@@ -25,12 +25,12 @@
 .text-indent\:10,      .text-i\:10 { text-indent: var(--gap-10) !important; }
 
 /* text-align */
-.text-align\:left, 		.text-a\:left { text-align: left !important; }
-.text-align\:center, 	.text-a\:center { text-align: center !important; }
-.text-align\:right, 	.text-a\:right { text-align: right !important;}
-.text-align\:justify, 	.text-a\:justify { text-align: justify !important; }
-.text-align\:start, 	.text-a\:start { text-align: start !important; }
-.text-align\:end, 	    .text-a\:end { text-align: end !important; }
+.text-align\:left, 		.txt-align\:left,           .txt-al\:left { text-align: left !important; }
+.text-align\:center, 	.txt-align\:center,         .txt-al\:center { text-align: center !important; }
+.text-align\:right, 	.txt-align\:right,          .txt-al\:right { text-align: right !important;}
+.text-align\:justify, 	.txt-align\:justify,            .txt-al\:justify { text-align: justify !important; }
+.text-align\:start, 	.txt-align\:start,          .txt-al\:start { text-align: start !important; }
+.text-align\:end, 	    .txt-align\:end,            .txt-al\:end { text-align: end !important; }
 
 /* text-decoration-line  */
 .text-decoration-line\:underline, 	    .text-dl\:underline { text-decoration-line: underline !important; }
@@ -65,14 +65,14 @@
 .word-break\:break-word,     .word-b\:break-word {word-break: break-word !important; }
 
 /* hyphens */
-.hyphens\:manual,           .hypn\:manual { hyphens: manual !important; }
-.hyphens\:auto,             .hypn\:auto { hyphens: auto !important; }
-.hyphens\:none,             .hypn\:none { hyphens: none !important; }
+.hyphens\:manual,           .hyphen\:manual,           .hypn\:manual { hyphens: manual !important; }
+.hyphens\:auto,             .hyphen\:auto,         .hypn\:auto { hyphens: auto !important; }
+.hyphens\:none,             .hyphen\:none,         .hypn\:none { hyphens: none !important; }
 
 /* overflow-wrap  */
-.overflow-wrap\:normal,          .overflow-w\:normal { overflow-wrap: normal !important; }
-.overflow-wrap\:break-word,      .overflow-w\:break-word { overflow-wrap: break-word !important; }
-.overflow-wrap\:anywhere,        .overflow-w\:anywhere { overflow-wrap: anywhere !important; }
+.overflow-wrap\:normal,          .of-wrap\:normal { overflow-wrap: normal !important; }
+.overflow-wrap\:break-word,      .of-wrap\:break-word { overflow-wrap: break-word !important; }
+.overflow-wrap\:anywhere,        .of-wrap\:anywhere { overflow-wrap: anywhere !important; }
 
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
@@ -90,12 +90,12 @@
     .md\:text-indent\:10,      .md\:text-i\:10 { text-indent: var(--gap-10) !important; }
 
     /* text-align */
-    .md\:text-align\:left,      .md\:text-a\:left { text-align: left !important; }
-    .md\:text-align\:center,    .md\:text-a\:center { text-align: center !important; }
-    .md\:text-align\:right,     .md\:text-a\:right { text-align: right !important; }
-    .md\:text-align\:justify,   .md\:text-a\:justify { text-align: justify !important; }
-    .md\:text-align\:start,     .md\:text-a\:start { text-align: start !important; }
-    .md\:text-align\:end,       .md\:text-a\:end { text-align: end !important; }
+    .md\:text-align\:left,      .md\:txt-align\:left,           .md\:txt-al\:left { text-align: left !important; }
+    .md\:text-align\:center,    .md\:txt-align\:center,         .md\:txt-al\:center { text-align: center !important; }
+    .md\:text-align\:right,     .md\:txt-align\:right,          .md\:txt-al\:right { text-align: right !important; }
+    .md\:text-align\:justify,   .md\:txt-align\:justify,            .md\:txt-al\:justify { text-align: justify !important; }
+    .md\:text-align\:start,     .md\:txt-align\:start,          .md\:txt-al\:start { text-align: start !important; }
+    .md\:text-align\:end,       .md\:txt-align\:end,            .md\:txt-al\:end { text-align: end !important; }
 
     /* text-decoration */
     .md\:text-decoration\:underline,       .md\:text-d\:underline { text-decoration: underline !important; }
@@ -130,14 +130,14 @@
     .md\:word-break\:break-word,            .md\:word-b\:break-word { word-break: break-word !important; }
     
     /* hyphens */
-    .md\:hyphens\:manual,                  .md\:hyn\:manual { hyphens: manual !important; }
-    .md\:hyphens\:auto,                    .md\:hyn\:auto { hyphens: auto !important; }
-    .md\:hyphens\:none,                    .md\:hyn\:none { hyphens: none !important; }
+    .md\:hyphens\:manual,                  .md\:hyphen\:manual,                .md\:hypn\:manual { hyphens: manual !important; }
+    .md\:hyphens\:auto,                    .md\:hyphen\:auto,              .md\:hypn\:auto { hyphens: auto !important; }
+    .md\:hyphens\:none,                    .md\:hyphen\:none,              .md\:hypn\:none { hyphens: none !important; }
 
     /* overflow-wrap */
-    .md\:overflow-wrap\:normal,          .md\:overflow-w\:normal { overflow-wrap: normal !important; }
-    .md\:overflow-wrap\:break-word,      .md\:overflow-w\:break-word { overflow-wrap: break-word !important; }
-    .md\:overflow-wrap\:anywhere,        .md\:overflow-w\:anywhere { overflow-wrap: anywhere !important; }
+    .md\:overflow-wrap\:normal,          .md\:of-wrap\:normal { overflow-wrap: normal !important; }
+    .md\:overflow-wrap\:break-word,      .md\:of-wrap\:break-word { overflow-wrap: break-word !important; }
+    .md\:overflow-wrap\:anywhere,        .md\:of-wrap\:anywhere { overflow-wrap: anywhere !important; }
 
 }
 
@@ -158,12 +158,12 @@
     .lg\:text-indent\:10,      .lg\:text-i\:10 { text-indent: var(--gap-10) !important; }
 
     /* text-align */
-    .lg\:text-align\:left,      .lg\:text-a\:left { text-align: left !important; }
-    .lg\:text-align\:center,    .lg\:text-a\:center { text-align: center !important; }
-    .lg\:text-align\:right,     .lg\:text-a\:right { text-align: right !important; }
-    .lg\:text-align\:justify,   .lg\:text-a\:justify { text-align: justify !important; }
-    .lg\:text-align\:start,     .lg\:text-a\:start { text-align: start !important; }
-    .lg\:text-align\:end,       .lg\:text-a\:end { text-align: end !important; }
+    .lg\:text-align\:left,      .lg\:txt-align\:left,           .lg\:txt-al\:left { text-align: left !important; }
+    .lg\:text-align\:center,    .lg\:txt-align\:center,         .lg\:txt-al\:center { text-align: center !important; }
+    .lg\:text-align\:right,     .lg\:txt-align\:right,          .lg\:txt-al\:right { text-align: right !important; }
+    .lg\:text-align\:justify,   .lg\:txt-align\:justify,            .lg\:txt-al\:justify { text-align: justify !important; }
+    .lg\:text-align\:start,     .lg\:txt-align\:start,          .lg\:txt-al\:start { text-align: start !important; }
+    .lg\:text-align\:end,       .lg\:txt-align\:end,            .lg\:txt-al\:end { text-align: end !important; }
 
     /* text-decoration */
     .lg\:text-decoration\:underline,       .lg\:text-d\:underline { text-decoration: underline !important; }
@@ -198,26 +198,28 @@
     .lg\:word-break\:break-word,            .lg\:word-b\:break-word { word-break: break-word !important; }
     
     /* hyphens */
-    .lg\:hyphens\:manual,                  .lg\:hyn\:manual { hyphens: manual !important; }
-    .lg\:hyphens\:auto,                    .lg\:hyn\:auto { hyphens: auto !important; }
-    .lg\:hyphens\:none,                    .lg\:hyn\:none { hyphens: none !important; }
+    .lg\:hyphens\:manual,                  .lg\:hyphen\:manual,                .lg\:hypn\:manual { hyphens: manual !important; }
+    .lg\:hyphens\:auto,                    .lg\:hyphen\:auto,              .lg\:hypn\:auto { hyphens: auto !important; }
+    .lg\:hyphens\:none,                    .lg\:hyphen\:none,              .lg\:hypn\:none { hyphens: none !important; }
 
     /* overflow-wrap */
-    .lg\:overflow-wrap\:normal,          .lg\:overflow-w\:normal { overflow-wrap: normal !important; }
-    .lg\:overflow-wrap\:break-word,      .lg\:overflow-w\:break-word { overflow-wrap: break-word !important; }
-    .lg\:overflow-wrap\:anywhere,        .lg\:overflow-w\:anywhere { overflow-wrap: anywhere !important; }
+    .lg\:overflow-wrap\:normal,          .lg\:of-wrap\:normal { overflow-wrap: normal !important; }
+    .lg\:overflow-wrap\:break-word,      .lg\:of-wrap\:break-word { overflow-wrap: break-word !important; }
+    .lg\:overflow-wrap\:anywhere,        .lg\:of-wrap\:anywhere { overflow-wrap: anywhere !important; }
 }
 
 /* ───────────────────────────────────
  * line-clamp
  * ───────────────────────────────────    */     
-.line-clamp\:1 {
+.line-clamp\:1,
+.ln-clamp\:1 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.line-clamp\:2 {
+.line-clamp\:2,
+.ln-clamp\:2 {
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -225,7 +227,8 @@
     -webkit-box-orient: vertical;
 }
 
-.line-clamp\:3 {
+.line-clamp\:3,
+.ln-clamp\:3 {
     display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -235,7 +238,8 @@
     
 /* ---- medium ------------------------------------------------- */
 @media ( min-width: 768px ) {
-    .md\:line-clamp\:1 {
+    .md\:line-clamp\:1,
+    .md\:ln-clamp\:1 {
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -243,7 +247,8 @@
         -webkit-box-orient: vertical;
         }
 
-    .md\:line-clamp\:2 {
+    .md\:line-clamp\:2,
+    .md\:ln-clamp\:2 {
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -251,7 +256,8 @@
         -webkit-box-orient: vertical;
     }
 
-    .md\:line-clamp\:3 {
+    .md\:line-clamp\:3,
+    .md\:ln-clamp\:3 {
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -262,7 +268,8 @@
 
 /* ---- large ------------------------------------------------- */
 @media ( min-width: 1200px ) {
-    .lg\:line-clamp\:1 {
+    .lg\:line-clamp\:1,
+    .lg\:ln-clamp\:1 {
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -270,7 +277,8 @@
         -webkit-box-orient: vertical;
     }
 
-    .lg\:line-clamp\:2 {
+    .lg\:line-clamp\:2,
+    .lg\:ln-clamp\:2 {
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -278,7 +286,8 @@
         -webkit-box-orient: vertical;
     }
 
-    .lg\:line-clamp\:3 {
+    .lg\:line-clamp\:3,
+    .lg\:ln-clamp\:3 {
         display: -webkit-box;
         overflow: hidden;
         text-overflow: ellipsis;
