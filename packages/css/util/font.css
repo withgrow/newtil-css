@@ -37,9 +37,9 @@
 .font-style\:unset              { font-style: unset !important; }
 
 /* font-weight */
-.font-weight\:1,                .font-w\:1 { font-weight: var(--font-weight-1) !important; }
-.font-weight\:2,                .font-w\:2 { font-weight: var(--font-weight-2) !important; }
-.font-weight\:3,                .font-w\:3 { font-weight: var(--font-weight-3) !important; }
+.font-weight\:1                 { font-weight: var(--font-weight-1) !important; }
+.font-weight\:2                 { font-weight: var(--font-weight-2) !important; }
+.font-weight\:3                 { font-weight: var(--font-weight-3) !important; }
 
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
@@ -69,16 +69,16 @@
   .md\:color\:base-10,           .md\:c\:base-10 { color : var(--color-base-10) !important; }
 
   /* font-style */
-  .md\:font-style\:normal             { font-style: normal !important; }
-  .md\:font-style\:italic             { font-style: italic !important; }
-  .md\:font-style\:inherit            { font-style: inherit !important; }
-  .md\:font-style\:initial            { font-style: initial !important; }
-  .md\:font-style\:unset              { font-style: unset !important; }
+  .md\:font-style\:normal        { font-style: normal !important; }
+  .md\:font-style\:italic        { font-style: italic !important; }
+  .md\:font-style\:inherit       { font-style: inherit !important; }
+  .md\:font-style\:initial       { font-style: initial !important; }
+  .md\:font-style\:unset         { font-style: unset !important; }
 
   /* font-weight */
-  .md\:font-weight\:1,                .md\:font-w\:1 { font-weight: var(--font-weight-1); }
-  .md\:font-weight\:2,                .md\:font-w\:2 { font-weight: var(--font-weight-2); }
-  .md\:font-weight\:3,                .md\:font-w\:3 { font-weight: var(--font-weight-3); }
+  .md\:font-weight\:1            { font-weight: var(--font-weight-1); }
+  .md\:font-weight\:2            { font-weight: var(--font-weight-2); }
+  .md\:font-weight\:3            { font-weight: var(--font-weight-3); }
 }
 
 /* ---- large ------------------------------------------------- */
@@ -115,9 +115,9 @@
   .lg\:font-style\:unset         { font-style: unset !important; }
 
   /* font-weight */
-  .lg\:font-weight\:1,                .lg\:font-w\:1 { font-weight: var(--font-weight-1); }
-  .lg\:font-weight\:2,                .lg\:font-w\:2 { font-weight: var(--font-weight-2); }
-  .lg\:font-weight\:3,                .lg\:font-w\:3 { font-weight: var(--font-weight-3); }
+  .lg\:font-weight\:1            { font-weight: var(--font-weight-1); }
+  .lg\:font-weight\:2            { font-weight: var(--font-weight-2); }
+  .lg\:font-weight\:3            { font-weight: var(--font-weight-3); }
 }
 
 .font-size\:1 { font-size: var(--font-size-1); }
