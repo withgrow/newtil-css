@@ -10,28 +10,28 @@
 }
 
 /* scroll-behavior */
-.scroll-behavior\:auto,         .scroll-b\:auto { scroll-behavior: auto !important; }
-.scroll-behavior\:smooth,       .scroll-b\:smooth { scroll-behavior: smooth !important; }
-.scroll-behavior\:inherit,      .scroll-b\:inherit { scroll-behavior: inherit !important; }
-.scroll-behavior\:initial,      .scroll-b\:initial { scroll-behavior: initial !important; }
-.scroll-behavior\:unset,        .scroll-b\:unset { scroll-behavior: unset !important; }
+.scroll-behavior\:auto,                 .scrl-behavior\:auto,           .scrl-behva\:auto           { scroll-behavior: auto !important; }
+.scroll-behavior\:smooth,               .scrl-behavior\:smooth,         .scrl-behva\:smooth         { scroll-behavior: smooth !important; }
+.scroll-behavior\:inherit,              .scrl-behavior\:inherit,        .scrl-behva\:inherit        { scroll-behavior: inherit !important; }
+.scroll-behavior\:initial,              .scrl-behavior\:initial,        .scrl-behva\:initial        { scroll-behavior: initial !important; }
+.scroll-behavior\:unset,                .scrl-behavior\:unset,          .scrl-behva\:unset          { scroll-behavior: unset !important; }
 
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
     /* scroll-behavior */
-    .md\:scroll-behavior\:auto,         .md\:scroll-b\:auto { scroll-behavior: auto !important; }
-    .md\:scroll-behavior\:smooth,       .md\:scroll-b\:smooth { scroll-behavior: smooth !important; }
-    .md\:scroll-behavior\:inherit,      .md\:scroll-b\:inherit { scroll-behavior: inherit !important; }
-    .md\:scroll-behavior\:initial,      .md\:scroll-b\:initial { scroll-behavior: initial !important; }
-    .md\:scroll-behavior\:unset,        .md\:scroll-b\:unset { scroll-behavior: unset !important; }
+    .md\:scroll-behavior\:auto,         .md\:scrl-behavior\:auto,       .md\:scrl-behav\:auto       { scroll-behavior: auto !important; }
+    .md\:scroll-behavior\:smooth,       .md\:scrl-behavior\:smooth,     .md\:scrl-behav\:smooth     { scroll-behavior: smooth !important; }
+    .md\:scroll-behavior\:inherit,      .md\:scrl-behavior\:inherit,    .md\:scrl-behav\:inherit    { scroll-behavior: inherit !important; }
+    .md\:scroll-behavior\:initial,      .md\:scrl-behavior\:initial,    .md\:scrl-behav\:initial    { scroll-behavior: initial !important; }
+    .md\:scroll-behavior\:unset,        .md\:scrl-behavior\:unset,      .md\:scrl-behav\:unset      { scroll-behavior: unset !important; }
 }
 
 /* ---- large ------------------------------------------------- */
 @media (min-width: 1200px) {
     /* scroll-behavior */
-    .lg\:scroll-behavior\:auto,         .lg\:scroll-b\:auto { scroll-behavior: auto !important; }
-    .lg\:scroll-behavior\:smooth,       .lg\:scroll-b\:smooth { scroll-behavior: smooth !important; }
-    .lg\:scroll-behavior\:inherit,      .lg\:scroll-b\:inherit { scroll-behavior: inherit !important; }
-    .lg\:scroll-behavior\:initial,      .lg\:scroll-b\:initial { scroll-behavior: initial !important; }
-    .lg\:scroll-behavior\:unset,        .lg\:scroll-b\:unset { scroll-behavior: unset !important; }
+    .lg\:scroll-behavior\:auto,         .lg\:scrl-behavior\:auto,       .lg\:scrl-behav\:auto       { scroll-behavior: auto !important; }
+    .lg\:scroll-behavior\:smooth,       .lg\:scrl-behavior\:smooth,     .lg\:scrl-behav\:smooth     { scroll-behavior: smooth !important; }
+    .lg\:scroll-behavior\:inherit,      .lg\:scrl-behavior\:inherit,    .lg\:scrl-behav\:inherit    { scroll-behavior: inherit !important; }
+    .lg\:scroll-behavior\:initial,      .lg\:scrl-behavior\:initial,    .lg\:scrl-behav\:initial    { scroll-behavior: initial !important; }
+    .lg\:scroll-behavior\:unset,        .lg\:scrl-behavior\:unset,      .lg\:scrl-behav\:unset      { scroll-behavior: unset !important; }
 }
