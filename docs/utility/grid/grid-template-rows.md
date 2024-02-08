@@ -15,37 +15,61 @@
   <tbody>
  <tr>
   <td><code>grid-template-rows:0</code></td>
-  <td><code>grid-tr:0</code></td>
+  <td>
+    <code>grid-template-row:0</code>
+    <br />
+    <code>grid-templ-row:0</code>
+  </td>
   <td><span class="code">grid-template-rows: none !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-template-rows:1</code></td>
-  <td><code>grid-tr:1</code></td>
+  <td>
+    <code>grid-template-row:1</code>
+    <br />
+    <code>grid-templ-row:1</code>
+  </td>
   <td><span class="code">grid-template-rows: repeat(1, minmax(0, 1fr)) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-template-rows:2</code></td>
-  <td><code>grid-tr:2</code></td>
+  <td>
+    <code>grid-template-row:2</code>
+    <br />
+    <code>grid-templ-row:2</code>
+  </td>
   <td><span class="code">grid-template-rows: repeat(2, minmax(0, 1fr)) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-template-rows:3</code></td>
-  <td><code>grid-tr:3</code></td>
+  <td>
+    <code>grid-template-row:3</code>
+    <br />
+    <code>grid-templ-row:3</code>
+  </td>
   <td><span class="code">grid-template-rows: repeat(3, minmax(0, 1fr)) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-template-rows:4</code></td>
-  <td><code>grid-tr:4</code></td>
+  <td>
+    <code>grid-template-row:4</code>
+    <br />
+    <code>grid-templ-row:4</code>
+  </td>
   <td><span class="code">grid-template-rows: repeat(4, minmax(0, 1fr)) !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-template-rows:5</code></td>
-  <td><code>grid-tr:5</code></td>
+  <td>
+    <code>grid-template-row:5</code>
+    <br />
+    <code>grid-templ-row:5</code>
+  </td>
   <td><span class="code">grid-template-rows: repeat(5, minmax(0, 1fr)) !important;</span></td>
 </tr>
 

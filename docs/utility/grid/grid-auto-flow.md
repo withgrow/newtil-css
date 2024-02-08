@@ -15,25 +15,25 @@
   <tbody>
 <tr>
   <td><code>grid-auto-flow:row</code></td>
-  <td><code>grid-af:row</code></td>
+  <td class="blank"></td>
   <td><span class="code">grid-auto-flow: row !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-auto-flow:column</code></td>
-  <td><code>grid-af:column</code></td>
+  <td class="blank"></td>
   <td><span class="code">grid-auto-flow: column !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-auto-flow:row-dense</code></td>
-  <td><code>grid-af:row-dense</code></td>
+  <td class="blank"></td>
   <td><span class="code">grid-auto-flow: row dense !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-auto-flow:column-dense</code></td>
-  <td><code>grid-af:column-dense</code></td>
+  <td class="blank"></td>
   <td><span class="code">grid-auto-flow: column dense !important;</span></td>
 </tr>
 
