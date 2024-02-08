@@ -236,6 +236,10 @@ export default defineConfig({
             link: "/box-sizing",
           },
           {
+            text: "color",
+            link: "/color",
+          },
+          {
             text: "cursor",
             link: "/cursor",
           },
@@ -282,10 +286,6 @@ export default defineConfig({
             text: "font-*",
             collapsed: true,
             items: [
-              {
-                text: "font-color",
-                link: "/font/font-color",
-              },
               {
                 text: "font-size",
                 link: "/font/font-size",

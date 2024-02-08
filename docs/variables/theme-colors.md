@@ -4,7 +4,7 @@
 
 -   [background-color](../utility/background/background-color.md)
 -   [border-color](../utility/border/border-color.md)
--   [font-color](../utility/font/font-color.md)
+-   [font-color](../utility/color.md)
 
 ## Default
 
