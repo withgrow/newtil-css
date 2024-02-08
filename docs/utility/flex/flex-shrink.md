@@ -16,14 +16,14 @@
   <!-- flex-shrink: 0 -->
 <tr>
   <td><code>flex-shrink:0</code></td>
-  <td><code>flex-s:0</code></td>
+  <td><code>fl-shrink:0</code></td>
   <td><span class="code">flex-shrink: 0 !important;</span></td>
 </tr>
 
 <!-- flex-shrink: 1 -->
 <tr>
   <td><code>flex-shrink:1</code></td>
-  <td><code>flex-s:1</code></td>
+  <td><code>fl-shrink:1</code></td>
   <td><span class="code">flex-shrink: 1 !important;</span></td>
 </tr>
 
