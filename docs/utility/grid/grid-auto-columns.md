@@ -15,25 +15,25 @@
   <tbody>
 <tr>
   <td><code>grid-auto-columns:auto</code></td>
-  <td><code>grid-ac:auto</code></td>
+  <td><code>grid-auto-col:auto</code></td>
   <td><span class="code">grid-auto-columns: auto !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-auto-columns:min-content</code></td>
-  <td><code>grid-ac:min-content</code></td>
+  <td><code>grid-auto-col:min-content</code></td>
   <td><span class="code">grid-auto-columns: min-content !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-auto-columns:max-content</code></td>
-  <td><code>grid-ac:max-content</code></td>
+  <td><code>grid-auto-col:max-content</code></td>
   <td><span class="code">grid-auto-columns: max-content !important;</span></td>
 </tr>
 
 <tr>
   <td><code>grid-auto-columns:minmax</code></td>
-  <td><code>grid-ac:minmax</code></td>
+  <td><code>grid-auto-col:minmax</code></td>
   <td><span class="code">grid-auto-columns: minmax(0, 1fr) !important;</span></td>
 </tr>
 
