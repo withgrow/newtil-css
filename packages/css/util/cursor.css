@@ -1,114 +1,114 @@
-.cursor-pointer\:alias,         .cursor-p\:alias { cursor: alias !important; }
-.cursor-pointer\:all-scroll,    .cursor-p\:all-scroll { cursor: all-scroll !important; }
-.cursor-pointer\:auto,          .cursor-p\:auto { cursor: auto !important; }
-.cursor-pointer\:cell,          .cursor-p\:cell { cursor: cell !important; }
-.cursor-pointer\:col-resize,    .cursor-p\:col-resize { cursor: col-resize !important; }
-.cursor-pointer\:context-menu,  .cursor-p\:context-menu { cursor: context-menu !important; }
-.cursor-pointer\:copy,          .cursor-p\:copy { cursor: copy !important; }
-.cursor-pointer\:crosshair,     .cursor-p\:crosshair { cursor: crosshair !important; }
-.cursor-pointer\:default,       .cursor-p\:default { cursor: default !important; }
-.cursor-pointer\:e-resize,      .cursor-p\:e-resize { cursor: e-resize !important; }
-.cursor-pointer\:ew-resize,     .cursor-p\:ew-resize { cursor: ew-resize !important; }
-.cursor-pointer\:grab,          .cursor-p\:grab { cursor: grab !important; }
-.cursor-pointer\:grabbing,      .cursor-p\:grabbing { cursor: grabbing !important; }
-.cursor-pointer\:help,          .cursor-p\:help { cursor: help !important; }
-.cursor-pointer\:move,          .cursor-p\:move { cursor: move !important; }
-.cursor-pointer\:n-resize,      .cursor-p\:n-resize { cursor: n-resize !important; }
-.cursor-pointer\:ne-resize,     .cursor-p\:ne-resize { cursor: ne-resize !important; }
-.cursor-pointer\:ns-resize,     .cursor-p\:ns-resize { cursor: ns-resize !important; }
-.cursor-pointer\:nw-resize,     .cursor-p\:ns-resize { cursor: nw-resize !important; }
-.cursor-pointer\:nesw-resize,   .cursor-p\:nesw-resize { cursor: nesw-resize !important; }
-.cursor-pointer\:no-drop,       .cursor-p\:no-drop { cursor: no-drop !important; }
-.cursor-pointer\:not-allowed,   .cursor-p\:not-allowed { cursor: not-allowed !important; }
-.cursor-pointer\:pointer,       .cursor-p\:pointer { cursor: pointer !important; }
-.cursor-pointer\:progress,      .cursor-p\:progress { cursor: progress !important; }
-.cursor-pointer\:row-resize,    .cursor-p\:row-resize { cursor: row-resize !important; }
-.cursor-pointer\:s-resize,      .cursor-p\:s-resize { cursor: s-resize !important; }
-.cursor-pointer\:se-resize,     .cursor-p\:se-resize { cursor: se-resize !important; }
-.cursor-pointer\:sw-resize,     .cursor-p\:sw-resize { cursor: sw-resize !important; }
-.cursor-pointer\:text,          .cursor-p\:text { cursor: text !important; }
-.cursor-pointer\:vertical-text, .cursor-p\:vertical-text { cursor: vertical-text !important; }
-.cursor-pointer\:w-resize,      .cursor-p\:w-resize { cursor: w-resize !important; }
-.cursor-pointer\:wait,          .cursor-p\:wait { cursor: wait !important; }
-.cursor-pointer\:zoom-in,       .cursor-p\:zoom-in { cursor: zoom-in !important; }
-.cursor-pointer\:zoom-out,      .cursor-p\:zoom-out { cursor: zoom-out !important; }
-.cursor-pointer\:none,          .cursor-p\:none { cursor: none !important; }
+.cursor-pointer\:alias,                 .csr-pointer\:alias                 { cursor: alias !important; }
+.cursor-pointer\:all-scroll,            .csr-pointer\:all-scroll            { cursor: all-scroll !important; }
+.cursor-pointer\:auto,                  .csr-pointer\:auto                  { cursor: auto !important; }
+.cursor-pointer\:cell,                  .csr-pointer\:cell                  { cursor: cell !important; }
+.cursor-pointer\:col-resize,            .csr-pointer\:col-resize            { cursor: col-resize !important; }
+.cursor-pointer\:context-menu,          .csr-pointer\:context-menu          { cursor: context-menu !important; }
+.cursor-pointer\:copy,                  .csr-pointer\:copy                  { cursor: copy !important; }
+.cursor-pointer\:crosshair,             .csr-pointer\:crosshair             { cursor: crosshair !important; }
+.cursor-pointer\:default,               .csr-pointer\:default               { cursor: default !important; }
+.cursor-pointer\:e-resize,              .csr-pointer\:e-resize              { cursor: e-resize !important; }
+.cursor-pointer\:ew-resize,             .csr-pointer\:ew-resize             { cursor: ew-resize !important; }
+.cursor-pointer\:grab,                  .csr-pointer\:grab                  { cursor: grab !important; }
+.cursor-pointer\:grabbing,              .csr-pointer\:grabbing              { cursor: grabbing !important; }
+.cursor-pointer\:help,                  .csr-pointer\:help                  { cursor: help !important; }
+.cursor-pointer\:move,                  .csr-pointer\:move                  { cursor: move !important; }
+.cursor-pointer\:n-resize,              .csr-pointer\:n-resize              { cursor: n-resize !important; }
+.cursor-pointer\:ne-resize,             .csr-pointer\:ne-resize             { cursor: ne-resize !important; }
+.cursor-pointer\:ns-resize,             .csr-pointer\:ns-resize             { cursor: ns-resize !important; }
+.cursor-pointer\:nw-resize,             .csr-pointer\:ns-resize             { cursor: nw-resize !important; }
+.cursor-pointer\:nesw-resize,           .csr-pointer\:nesw-resize           { cursor: nesw-resize !important; }
+.cursor-pointer\:no-drop,               .csr-pointer\:no-drop               { cursor: no-drop !important; }
+.cursor-pointer\:not-allowed,           .csr-pointer\:not-allowed           { cursor: not-allowed !important; }
+.cursor-pointer\:pointer,               .csr-pointer\:pointer               { cursor: pointer !important; }
+.cursor-pointer\:progress,              .csr-pointer\:progress              { cursor: progress !important; }
+.cursor-pointer\:row-resize,            .csr-pointer\:row-resize            { cursor: row-resize !important; }
+.cursor-pointer\:s-resize,              .csr-pointer\:s-resize              { cursor: s-resize !important; }
+.cursor-pointer\:se-resize,             .csr-pointer\:se-resize             { cursor: se-resize !important; }
+.cursor-pointer\:sw-resize,             .csr-pointer\:sw-resize             { cursor: sw-resize !important; }
+.cursor-pointer\:text,                  .csr-pointer\:text                  { cursor: text !important; }
+.cursor-pointer\:vertical-text,         .csr-pointer\:vertical-text         { cursor: vertical-text !important; }
+.cursor-pointer\:w-resize,              .csr-pointer\:w-resize              { cursor: w-resize !important; }
+.cursor-pointer\:wait,                  .csr-pointer\:wait                  { cursor: wait !important; }
+.cursor-pointer\:zoom-in,               .csr-pointer\:zoom-in               { cursor: zoom-in !important; }
+.cursor-pointer\:zoom-out,              .csr-pointer\:zoom-out              { cursor: zoom-out !important; }
+.cursor-pointer\:none,                  .csr-pointer\:none                  { cursor: none !important; }
 
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
-  .md\:cursor-pointer\:alias,           .md\:cursor-p\:alias { cursor: alias !important; }
-  .md\:cursor-pointer\:all-scroll,      .md\:cursor-p\:all-scroll { cursor: all-scroll !important; }
-  .md\:cursor-pointer\:auto,            .md\:cursor-p\:auto { cursor: auto !important; }
-  .md\:cursor-pointer\:cell,            .md\:cursor-p\:cell { cursor: cell !important; }
-  .md\:cursor-pointer\:col-resize,      .md\:cursor-p\:col-resize { cursor: col-resize !important; }
-  .md\:cursor-pointer\:context-menu,    .md\:cursor-p\:context-menu { cursor: context-menu !important; }
-  .md\:cursor-pointer\:copy,            .md\:cursor-p\:copy { cursor: copy !important; }
-  .md\:cursor-pointer\:crosshair,       .md\:cursor-p\:crosshair { cursor: crosshair !important; }
-  .md\:cursor-pointer\:default,         .md\:cursor-p\:default { cursor: default !important; }
-  .md\:cursor-pointer\:e-resize,        .md\:cursor-p\:e-resize { cursor: e-resize !important; }
-  .md\:cursor-pointer\:ew-resize,       .md\:cursor-p\:ew-resize { cursor: ew-resize !important; }
-  .md\:cursor-pointer\:grab,            .md\:cursor-p\:grab { cursor: grab !important; }
-  .md\:cursor-pointer\:grabbing,        .md\:cursor-p\:grabbing { cursor: grabbing !important; }
-  .md\:cursor-pointer\:help,            .md\:cursor-p\:help { cursor: help !important; }
-  .md\:cursor-pointer\:move,            .md\:cursor-p\:move { cursor: move !important; }
-  .md\:cursor-pointer\:n-resize,        .md\:cursor-p\:n-resize { cursor: n-resize !important; }
-  .md\:cursor-pointer\:ne-resize,       .md\:cursor-p\:ne-resize { cursor: ne-resize !important; }
-  .md\:cursor-pointer\:ns-resize,       .md\:cursor-p\:ns-resize { cursor: ns-resize !important; }
-  .md\:cursor-pointer\:nw-resize,       .md\:cursor-p\:ns-resize { cursor: nw-resize !important; }
-  .md\:cursor-pointer\:nesw-resize,     .md\:cursor-p\:nesw-resize { cursor: nesw-resize !important; }
-  .md\:cursor-pointer\:no-drop,         .md\:cursor-p\:no-drop { cursor: no-drop !important; }
-  .md\:cursor-pointer\:not-allowed,     .md\:cursor-p\:not-allowed { cursor: not-allowed !important; }
-  .md\:cursor-pointer\:pointer,         .md\:cursor-p\:pointer { cursor: pointer !important; }
-  .md\:cursor-pointer\:progress,        .md\:cursor-p\:progress { cursor: progress !important; }
-  .md\:cursor-pointer\:row-resize,      .md\:cursor-p\:row-resize { cursor: row-resize !important; }
-  .md\:cursor-pointer\:s-resize,        .md\:cursor-p\:s-resize { cursor: s-resize !important; }
-  .md\:cursor-pointer\:se-resize,       .md\:cursor-p\:se-resize { cursor: se-resize !important; }
-  .md\:cursor-pointer\:sw-resize,       .md\:cursor-p\:sw-resize { cursor: sw-resize !important; }
-  .md\:cursor-pointer\:text,            .md\:cursor-p\:text { cursor: text !important; }
-  .md\:cursor-pointer\:vertical-text,   .md\:cursor-p\:vertical-text { cursor: vertical-text !important; }
-  .md\:cursor-pointer\:w-resize,        .md\:cursor-p\:w-resize { cursor: w-resize !important; }
-  .md\:cursor-pointer\:wait,            .md\:cursor-p\:wait { cursor: wait !important; }
-  .md\:cursor-pointer\:zoom-in,         .md\:cursor-p\:zoom-in { cursor: zoom-in !important; }
-  .md\:cursor-pointer\:zoom-out,        .md\:cursor-p\:zoom-out { cursor: zoom-out !important; }
-  .md\:cursor-pointer\:none,            .md\:cursor-p\:none { cursor: none !important; }
+  .md\:cursor-pointer\:alias,           .md\:csr-pointer\:alias             { cursor: alias !important; }
+  .md\:cursor-pointer\:all-scroll,      .md\:csr-pointer\:all-scroll        { cursor: all-scroll !important; }
+  .md\:cursor-pointer\:auto,            .md\:csr-pointer\:auto              { cursor: auto !important; }
+  .md\:cursor-pointer\:cell,            .md\:csr-pointer\:cell              { cursor: cell !important; }
+  .md\:cursor-pointer\:col-resize,      .md\:csr-pointer\:col-resize        { cursor: col-resize !important; }
+  .md\:cursor-pointer\:context-menu,    .md\:csr-pointer\:context-menu      { cursor: context-menu !important; }
+  .md\:cursor-pointer\:copy,            .md\:csr-pointer\:copy              { cursor: copy !important; }
+  .md\:cursor-pointer\:crosshair,       .md\:csr-pointer\:crosshair         { cursor: crosshair !important; }
+  .md\:cursor-pointer\:default,         .md\:csr-pointer\:default           { cursor: default !important; }
+  .md\:cursor-pointer\:e-resize,        .md\:csr-pointer\:e-resize          { cursor: e-resize !important; }
+  .md\:cursor-pointer\:ew-resize,       .md\:csr-pointer\:ew-resize         { cursor: ew-resize !important; }
+  .md\:cursor-pointer\:grab,            .md\:csr-pointer\:grab              { cursor: grab !important; }
+  .md\:cursor-pointer\:grabbing,        .md\:csr-pointer\:grabbing          { cursor: grabbing !important; }
+  .md\:cursor-pointer\:help,            .md\:csr-pointer\:help              { cursor: help !important; }
+  .md\:cursor-pointer\:move,            .md\:csr-pointer\:move              { cursor: move !important; }
+  .md\:cursor-pointer\:n-resize,        .md\:csr-pointer\:n-resize          { cursor: n-resize !important; }
+  .md\:cursor-pointer\:ne-resize,       .md\:csr-pointer\:ne-resize         { cursor: ne-resize !important; }
+  .md\:cursor-pointer\:ns-resize,       .md\:csr-pointer\:ns-resize         { cursor: ns-resize !important; }
+  .md\:cursor-pointer\:nw-resize,       .md\:csr-pointer\:ns-resize         { cursor: nw-resize !important; }
+  .md\:cursor-pointer\:nesw-resize,     .md\:csr-pointer\:nesw-resize       { cursor: nesw-resize !important; }
+  .md\:cursor-pointer\:no-drop,         .md\:csr-pointer\:no-drop           { cursor: no-drop !important; }
+  .md\:cursor-pointer\:not-allowed,     .md\:csr-pointer\:not-allowed       { cursor: not-allowed !important; }
+  .md\:cursor-pointer\:pointer,         .md\:csr-pointer\:pointer           { cursor: pointer !important; }
+  .md\:cursor-pointer\:progress,        .md\:csr-pointer\:progress          { cursor: progress !important; }
+  .md\:cursor-pointer\:row-resize,      .md\:csr-pointer\:row-resize        { cursor: row-resize !important; }
+  .md\:cursor-pointer\:s-resize,        .md\:csr-pointer\:s-resize          { cursor: s-resize !important; }
+  .md\:cursor-pointer\:se-resize,       .md\:csr-pointer\:se-resize         { cursor: se-resize !important; }
+  .md\:cursor-pointer\:sw-resize,       .md\:csr-pointer\:sw-resize         { cursor: sw-resize !important; }
+  .md\:cursor-pointer\:text,            .md\:csr-pointer\:text              { cursor: text !important; }
+  .md\:cursor-pointer\:vertical-text,   .md\:csr-pointer\:vertical-text     { cursor: vertical-text !important; }
+  .md\:cursor-pointer\:w-resize,        .md\:csr-pointer\:w-resize          { cursor: w-resize !important; }
+  .md\:cursor-pointer\:wait,            .md\:csr-pointer\:wait              { cursor: wait !important; }
+  .md\:cursor-pointer\:zoom-in,         .md\:csr-pointer\:zoom-in           { cursor: zoom-in !important; }
+  .md\:cursor-pointer\:zoom-out,        .md\:csr-pointer\:zoom-out          { cursor: zoom-out !important; }
+  .md\:cursor-pointer\:none,            .md\:csr-pointer\:none              { cursor: none !important; }
 
 }
 
 /* ---- large ------------------------------------------------- */
 @media (min-width: 1200px) {
-  .lg\:cursor-pointer\:alias,           .lg\:cursor-p\:alias { cursor: alias !important; }
-  .lg\:cursor-pointer\:all-scroll,      .lg\:cursor-p\:all-scroll { cursor: all-scroll !important; }
-  .lg\:cursor-pointer\:auto,            .lg\:cursor-p\:auto { cursor: auto !important; }
-  .lg\:cursor-pointer\:cell,            .lg\:cursor-p\:cell { cursor: cell !important; }
-  .lg\:cursor-pointer\:col-resize,      .lg\:cursor-p\:col-resize { cursor: col-resize !important; }
-  .lg\:cursor-pointer\:context-menu,    .lg\:cursor-p\:context-menu { cursor: context-menu !important; }
-  .lg\:cursor-pointer\:copy,            .lg\:cursor-p\:copy { cursor: copy !important; }
-  .lg\:cursor-pointer\:crosshair,       .lg\:cursor-p\:crosshair { cursor: crosshair !important; }
-  .lg\:cursor-pointer\:default,         .lg\:cursor-p\:default { cursor: default !important; }
-  .lg\:cursor-pointer\:e-resize,        .lg\:cursor-p\:e-resize { cursor: e-resize !important; }
-  .lg\:cursor-pointer\:ew-resize,       .lg\:cursor-p\:ew-resize { cursor: ew-resize !important; }
-  .lg\:cursor-pointer\:grab,            .lg\:cursor-p\:grab { cursor: grab !important; }
-  .lg\:cursor-pointer\:grabbing,        .lg\:cursor-p\:grabbing { cursor: grabbing !important; }
-  .lg\:cursor-pointer\:help,            .lg\:cursor-p\:help { cursor: help !important; }
-  .lg\:cursor-pointer\:move,            .lg\:cursor-p\:move { cursor: move !important; }
-  .lg\:cursor-pointer\:n-resize,        .lg\:cursor-p\:n-resize { cursor: n-resize !important; }
-  .lg\:cursor-pointer\:ne-resize,       .lg\:cursor-p\:ne-resize { cursor: ne-resize !important; }
-  .lg\:cursor-pointer\:ns-resize,       .lg\:cursor-p\:ns-resize { cursor: ns-resize !important; }
-  .lg\:cursor-pointer\:nw-resize,       .lg\:cursor-p\:ns-resize { cursor: nw-resize !important; }
-  .lg\:cursor-pointer\:nesw-resize,     .lg\:cursor-p\:nesw-resize { cursor: nesw-resize !important; }
-  .lg\:cursor-pointer\:no-drop,         .lg\:cursor-p\:no-drop { cursor: no-drop !important; }
-  .lg\:cursor-pointer\:not-allowed,     .lg\:cursor-p\:not-allowed { cursor: not-allowed !important; }
-  .lg\:cursor-pointer\:pointer,         .lg\:cursor-p\:pointer { cursor: pointer !important; }
-  .lg\:cursor-pointer\:progress,        .lg\:cursor-p\:progress { cursor: progress !important; }
-  .lg\:cursor-pointer\:row-resize,      .lg\:cursor-p\:row-resize { cursor: row-resize !important; }
-  .lg\:cursor-pointer\:s-resize,        .lg\:cursor-p\:s-resize { cursor: s-resize !important; }
-  .lg\:cursor-pointer\:se-resize,       .lg\:cursor-p\:se-resize { cursor: se-resize !important; }
-  .lg\:cursor-pointer\:sw-resize,       .lg\:cursor-p\:sw-resize { cursor: sw-resize !important; }
-  .lg\:cursor-pointer\:text,            .lg\:cursor-p\:text { cursor: text !important; }
-  .lg\:cursor-pointer\:vertical-text,   .lg\:cursor-p\:vertical-text { cursor: vertical-text !important; }
-  .lg\:cursor-pointer\:w-resize,        .lg\:cursor-p\:w-resize { cursor: w-resize !important; }
-  .lg\:cursor-pointer\:wait,            .lg\:cursor-p\:wait { cursor: wait !important; }
-  .lg\:cursor-pointer\:zoom-in,         .lg\:cursor-p\:zoom-in { cursor: zoom-in !important; }
-  .lg\:cursor-pointer\:zoom-out,        .lg\:cursor-p\:zoom-out { cursor: zoom-out !important; }
-  .lg\:cursor-pointer\:none,            .lg\:cursor-p\:none { cursor: none !important; }
+  .lg\:cursor-pointer\:alias,           .lg\:csr-pointer\:alias             { cursor: alias !important; }
+  .lg\:cursor-pointer\:all-scroll,      .lg\:csr-pointer\:all-scroll        { cursor: all-scroll !important; }
+  .lg\:cursor-pointer\:auto,            .lg\:csr-pointer\:auto              { cursor: auto !important; }
+  .lg\:cursor-pointer\:cell,            .lg\:csr-pointer\:cell              { cursor: cell !important; }
+  .lg\:cursor-pointer\:col-resize,      .lg\:csr-pointer\:col-resize        { cursor: col-resize !important; }
+  .lg\:cursor-pointer\:context-menu,    .lg\:csr-pointer\:context-menu      { cursor: context-menu !important; }
+  .lg\:cursor-pointer\:copy,            .lg\:csr-pointer\:copy              { cursor: copy !important; }
+  .lg\:cursor-pointer\:crosshair,       .lg\:csr-pointer\:crosshair         { cursor: crosshair !important; }
+  .lg\:cursor-pointer\:default,         .lg\:csr-pointer\:default           { cursor: default !important; }
+  .lg\:cursor-pointer\:e-resize,        .lg\:csr-pointer\:e-resize          { cursor: e-resize !important; }
+  .lg\:cursor-pointer\:ew-resize,       .lg\:csr-pointer\:ew-resize         { cursor: ew-resize !important; }
+  .lg\:cursor-pointer\:grab,            .lg\:csr-pointer\:grab              { cursor: grab !important; }
+  .lg\:cursor-pointer\:grabbing,        .lg\:csr-pointer\:grabbing          { cursor: grabbing !important; }
+  .lg\:cursor-pointer\:help,            .lg\:csr-pointer\:help              { cursor: help !important; }
+  .lg\:cursor-pointer\:move,            .lg\:csr-pointer\:move              { cursor: move !important; }
+  .lg\:cursor-pointer\:n-resize,        .lg\:csr-pointer\:n-resize          { cursor: n-resize !important; }
+  .lg\:cursor-pointer\:ne-resize,       .lg\:csr-pointer\:ne-resize         { cursor: ne-resize !important; }
+  .lg\:cursor-pointer\:ns-resize,       .lg\:csr-pointer\:ns-resize         { cursor: ns-resize !important; }
+  .lg\:cursor-pointer\:nw-resize,       .lg\:csr-pointer\:ns-resize         { cursor: nw-resize !important; }
+  .lg\:cursor-pointer\:nesw-resize,     .lg\:csr-pointer\:nesw-resize       { cursor: nesw-resize !important; }
+  .lg\:cursor-pointer\:no-drop,         .lg\:csr-pointer\:no-drop           { cursor: no-drop !important; }
+  .lg\:cursor-pointer\:not-allowed,     .lg\:csr-pointer\:not-allowed       { cursor: not-allowed !important; }
+  .lg\:cursor-pointer\:pointer,         .lg\:csr-pointer\:pointer           { cursor: pointer !important; }
+  .lg\:cursor-pointer\:progress,        .lg\:csr-pointer\:progress          { cursor: progress !important; }
+  .lg\:cursor-pointer\:row-resize,      .lg\:csr-pointer\:row-resize        { cursor: row-resize !important; }
+  .lg\:cursor-pointer\:s-resize,        .lg\:csr-pointer\:s-resize          { cursor: s-resize !important; }
+  .lg\:cursor-pointer\:se-resize,       .lg\:csr-pointer\:se-resize         { cursor: se-resize !important; }
+  .lg\:cursor-pointer\:sw-resize,       .lg\:csr-pointer\:sw-resize         { cursor: sw-resize !important; }
+  .lg\:cursor-pointer\:text,            .lg\:csr-pointer\:text              { cursor: text !important; }
+  .lg\:cursor-pointer\:vertical-text,   .lg\:csr-pointer\:vertical-text     { cursor: vertical-text !important; }
+  .lg\:cursor-pointer\:w-resize,        .lg\:csr-pointer\:w-resize          { cursor: w-resize !important; }
+  .lg\:cursor-pointer\:wait,            .lg\:csr-pointer\:wait              { cursor: wait !important; }
+  .lg\:cursor-pointer\:zoom-in,         .lg\:csr-pointer\:zoom-in           { cursor: zoom-in !important; }
+  .lg\:cursor-pointer\:zoom-out,        .lg\:csr-pointer\:zoom-out          { cursor: zoom-out !important; }
+  .lg\:cursor-pointer\:none,            .lg\:csr-pointer\:none              { cursor: none !important; }
 }
