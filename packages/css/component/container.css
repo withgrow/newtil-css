@@ -1,9 +1,8 @@
 .n-container {
-  width: 100%;
+  --container-max-width: 1440px;
 }
 
-@media (min-width: 768px) {
-  .n-container {
-    max-width: 1440px;
-  }
+.n-container {
+  width: 100%;
+  max-width: var(--container-max-width);
 }

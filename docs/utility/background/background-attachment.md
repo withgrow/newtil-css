@@ -18,6 +18,8 @@
     <td><code>background-attachment:fixed</code></td>
     <td>
       <code>bg-attachment:fixed</code>
+      <br/>
+      <code>bg-attch:fixed</code>
     </td>
     <td>
       <span class="code">background-attachment: fixed !important;</span>
@@ -29,6 +31,8 @@
     <td><code>background-attachment:local</code></td>
     <td>
       <code>bg-attachment:local</code>
+      <br/>
+      <code>bg-attch:local</code>
     </td>
     <td>
       <span class="code">background-attachment: local !important;</span>
@@ -40,6 +44,8 @@
     <td><code>background-attachment:scroll</code></td>
     <td>
       <code>bg-attachment:scroll</code>
+      <br/>
+      <code>bg-attch:scroll</code>
     </td>
     <td>
       <span class="code">background-attachment: scroll !important;</span>
@@ -51,6 +57,8 @@
     <td><code>background-attachment:initial</code></td>
     <td>
       <code>bg-attachment:initial</code>
+      <br/>
+      <code>bg-attch:initial</code>
     </td>
     <td>
       <span class="code">background-attachment: initial !important;</span>
@@ -62,6 +70,8 @@
     <td><code>background-attachment:inherit</code></td>
     <td>
       <code>bg-attachment:inherit</code>
+      <br/>
+      <code>bg-attch:inherit</code>
     </td>
     <td>
       <span class="code">background-attachment: inherit !important;</span>
