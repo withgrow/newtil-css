@@ -18,6 +18,8 @@
     <td><code>background-position:top</code></td>
     <td>
       <code>bg-position:top</code>
+      <br/>
+      <code>bg-pos:top</code>
     </td>
     <td>
       <span class="code">background-position: top !important;</span>
@@ -29,6 +31,8 @@
     <td><code>background-position:bottom</code></td>
     <td>
       <code>bg-position:bottom</code>
+      <br/>
+      <code>bg-pos:bottom</code>
     </td>
     <td>
       <span class="code">background-position: bottom !important;</span>
@@ -40,6 +44,8 @@
     <td><code>background-position:left</code></td>
     <td>
       <code>bg-position:left</code>
+      <br/>
+      <code>bg-pos:left</code>
     </td>
     <td>
       <span class="code">background-position: left !important;</span>
@@ -51,6 +57,8 @@
     <td><code>background-position:left-bottom</code></td>
     <td>
       <code>bg-position:left-bottom</code>
+      <br/>
+      <code>bg-pos:bottom</code>
     </td>
     <td>
       <span class="code">background-position: left bottom !important;</span>
@@ -62,6 +70,8 @@
     <td><code>background-position:left-top</code></td>
     <td>
       <code>bg-position:left-top</code>
+      <br/>
+      <code>bg-pos:left-top</code>
     </td>
     <td>
       <span class="code">background-position: left top !important;</span>
@@ -73,6 +83,8 @@
     <td><code>background-position:right</code></td>
     <td>
       <code>bg-position:right</code>
+      <br/>
+      <code>bg-pos:right</code>
     </td>
     <td>
       <span class="code">background-position: right !important;</span>
@@ -84,6 +96,8 @@
     <td><code>background-position:right-bottom</code></td>
     <td>
       <code>bg-position:right-bottom</code>
+      <br/>
+      <code>bg-pos:right-bottom</code>
     </td>
     <td>
       <span class="code">background-position: right bottom !important;</span>
@@ -95,6 +109,8 @@
     <td><code>background-position:right-top</code></td>
     <td>
       <code>bg-position:right-top</code>
+      <br/>
+      <code>bg-pos:right-top</code>
     </td>
     <td>
       <span class="code">background-position: right top !important;</span>
@@ -106,6 +122,8 @@
     <td><code>background-position:center</code></td>
     <td>
       <code>bg-position:center</code>
+      <br/>
+      <code>bg-pos:center</code>
     </td>
     <td>
       <span class="code">background-position: center !important;</span>
@@ -117,6 +135,8 @@
     <td><code>background-position:inherit</code></td>
     <td>
       <code>bg-position:inherit</code>
+      <br/>
+      <code>bg-pos:inherit</code>
     </td>
     <td>
       <span class="code">background-position: inherit !important;</span>
@@ -128,6 +148,8 @@
     <td><code>background-position:initial</code></td>
     <td>
       <code>bg-position:initial</code>
+      <br/>
+      <code>bg-pos:initial</code>
     </td>
     <td>
       <span class="code">background-position: initial !important;</span>
@@ -139,6 +161,8 @@
     <td><code>background-position:unset</code></td>
     <td>
       <code>bg-position:unset</code>
+      <br/>
+      <code>bg-pos:unset</code>
     </td>
     <td>
       <span class="code">background-position: unset !important;</span>
