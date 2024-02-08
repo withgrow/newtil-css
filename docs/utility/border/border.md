@@ -17,7 +17,7 @@
   <tr>
     <td><code>border</code></td>
     <td>
-      <code>border</code>
+      <code>bd</code>
     </td>
     <td>
       <span class="code">border: 1px solid var(--border-color) !important; </span> <span class="c:weak">/* #dee2e6 */</span>
@@ -25,10 +25,10 @@
   </tr>
 
   <!-- border-top -->
-  <tr>
+<tr>
     <td><code>border-top</code></td>
     <td>
-      <code>border-t</code>
+      <code>bd-top</code>
     </td>
     <td>
       <span class="code">border-top: 1px solid var(--border-color) !important;</span>
@@ -39,7 +39,7 @@
   <tr>
     <td><code>border-right</code></td>
     <td>
-      <code>border-r</code>
+      <code>bd-right</code>
     </td>
     <td>
       <span class="code">border-right: 1px solid var(--border-color) !important;</span>
@@ -50,7 +50,7 @@
   <tr>
     <td><code>border-bottom</code></td>
     <td>
-      <code>border-b</code>
+      <code>bd-bottom</code>
     </td>
     <td>
       <span class="code">border-bottom: 1px solid var(--border-color) !important;</span>
@@ -61,7 +61,7 @@
   <tr>
     <td><code>border-left</code></td>
     <td>
-      <code>border-l</code>
+      <code>bd-left</code>
     </td>
     <td>
       <span class="code">border-left: 1px solid var(--border-color) !important;</span>
