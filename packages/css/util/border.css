@@ -30,23 +30,23 @@
 }
 
 /*--- border width ------------------------------------------------------------*/
-.border-width\:0,                     .bd-width\:0                                                    { border-width: 0 !important; }
-.border-width\:1,                     .bd-width\:1                                                    { border-width: var(--border-width-1) !important; }
-.border-width\:2,                     .bd-width\:2                                                    { border-width: var(--border-width-2) !important; }
-.border-width\:3,                     .bd-width\:3                                                    { border-width: var(--border-width-3) !important; }
-.border-width\:inherit,               .bd-width\:inherit                                              { border-width: inherit !important; }
+.border-width\:0,                     .bd-width\:0                    .bd-w\:0                        { border-width: 0 !important; }
+.border-width\:1,                     .bd-width\:1                    .bd-w\:1                        { border-width: var(--border-width-1) !important; }
+.border-width\:2,                     .bd-width\:2                    .bd-w\:2                        { border-width: var(--border-width-2) !important; }
+.border-width\:3,                     .bd-width\:3                    .bd-w\:3                        { border-width: var(--border-width-3) !important; }
+.border-width\:inherit,               .bd-width\:inherit              .bd-w\:inherit                  { border-width: inherit !important; }
 
 .border-top-width\:0,                 .bd-top-width\:0                .bd-top-w\:0                    { border-top-width: 0 !important; }
 .border-top-width\:1,                 .bd-top-width\:1                .bd-top-w\:1                    { border-top-width: var(--border-width-1) !important; }
 .border-top-width\:2,                 .bd-top-width\:2                .bd-top-w\:2                    { border-top-width: var(--border-width-2) !important; }
 .border-top-width\:3,                 .bd-top-width\:3                .bd-top-w\:3                    { border-top-width: var(--border-width-3) !important; }
-.border-top-width\:inherit,           .bd-top-width\:inherit              .bd-top-w\:inherit          { border-top-width: inherit !important; }
+.border-top-width\:inherit,           .bd-top-width\:inherit          .bd-top-w\:inherit              { border-top-width: inherit !important; }
 
 .border-right-width\:0,               .bd-right-width\:0              .bd-right-w\:0                  { border-right-width: 0 !important; }
 .border-right-width\:1,               .bd-right-width\:1              .bd-right-w\:1                  { border-right-width: var(--border-width-1) !important; }
 .border-right-width\:2,               .bd-right-width\:2              .bd-right-w\:2                  { border-right-width: var(--border-width-2) !important; }
 .border-right-width\:3,               .bd-right-width\:3              .bd-right-w\:3                  { border-right-width: var(--border-width-3) !important; }
-.border-right-width\:inherit,         .bd-right-width\:inherit              .bd-right-w\:inherit      { border-right-width: inherit !important; }
+.border-right-width\:inherit,         .bd-right-width\:inherit        .bd-right-w\:inherit            { border-right-width: inherit !important; }
 
 .border-bottom-width\:0,              .bd-bottom-width\:0             .bd-bottom-w\:0                 { border-bottom-width: 0 !important; }
 .border-bottom-width\:1,              .bd-bottom-width\:1             .bd-bottom-w\:1                 { border-bottom-width: var(--border-width-1) !important; }
@@ -61,11 +61,11 @@
 .border-left-width\:inherit,          .bd-left-width\:inherit         .bd-left-w\:inherit             { border-left-width: inherit !important; }
 
 @media (min-width: 768px) {
-  .md\:border-width\:0,               .md\:bd-width\:0                                                { border-width: 0 !important; }
-  .md\:border-width\:1,               .md\:bd-width\:1                                                { border-width: var(--border-width-1) !important; }
-  .md\:border-width\:2,               .md\:bd-width\:2                                                { border-width: var(--border-width-2) !important; }
-  .md\:border-width\:3,               .md\:bd-width\:3                                                { border-width: var(--border-width-3) !important; }
-  .md\:border-width\:inherit,         .md\:bd-width\:inherit                                          { border-width: inherit !important; }
+  .md\:border-width\:0,               .md\:bd-width\:0                .md\:bd-w\:0                    { border-width: 0 !important; }
+  .md\:border-width\:1,               .md\:bd-width\:1                .md\:bd-w\:1                    { border-width: var(--border-width-1) !important; }
+  .md\:border-width\:2,               .md\:bd-width\:2                .md\:bd-w\:2                    { border-width: var(--border-width-2) !important; }
+  .md\:border-width\:3,               .md\:bd-width\:3                .md\:bd-w\:3                    { border-width: var(--border-width-3) !important; }
+  .md\:border-width\:inherit,         .md\:bd-width\:inherit          .md\:bd-w\:inherit              { border-width: inherit !important; }
 
   .md\:border-top-width\:0,           .md\:bd-top-width\:0            .md\:bd-top-w\:0                { border-top-width: 0 !important; }
   .md\:border-top-width\:1,           .md\:bd-top-width\:1            .md\:bd-top-w\:1                { border-top-width: var(--border-width-1) !important; }
@@ -93,11 +93,11 @@
 }
 
 @media (min-width: 1200px) {
-  .lg\:border-width\:0,               .lg\:bd-width\:0                                                { border-width: 0 !important; }
-  .lg\:border-width\:1,               .lg\:bd-width\:1                                                { border-width: var(--border-width-1) !important; }
-  .lg\:border-width\:2,               .lg\:bd-width\:2                                                { border-width: var(--border-width-2) !important; }
-  .lg\:border-width\:3,               .lg\:bd-width\:3                                                { border-width: var(--border-width-3) !important; }
-  .lg\:border-width\:inherit,         .lg\:bd-width\:inherit                                          { border-width: inherit !important; }
+  .lg\:border-width\:0,               .lg\:bd-width\:0                .lg\:bd-w\:0                    { border-width: 0 !important; }
+  .lg\:border-width\:1,               .lg\:bd-width\:1                .lg\:bd-w\:1                    { border-width: var(--border-width-1) !important; }
+  .lg\:border-width\:2,               .lg\:bd-width\:2                .lg\:bd-w\:2                    { border-width: var(--border-width-2) !important; }
+  .lg\:border-width\:3,               .lg\:bd-width\:3                .lg\:bd-w\:3                    { border-width: var(--border-width-3) !important; }
+  .lg\:border-width\:inherit,         .lg\:bd-width\:inherit          .lg\:bd-w\:inherit              { border-width: inherit !important; }
 
   .lg\:border-top-width\:0,           .lg\:bd-top-width\:0            .lg\:bd-top-w\:0                { border-top-width: 0 !important; }
   .lg\:border-top-width\:1,           .lg\:bd-top-width\:1            .lg\:bd-top-w\:1                { border-top-width: var(--border-width-1) !important; }
