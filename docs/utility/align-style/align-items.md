@@ -17,7 +17,7 @@
   <tr>
     <td><code>align-items:stretch</code></td>
     <td>
-      <code>align-i:stretch</code><br>
+      <code>al-items:stretch</code><br>
       <code>ai:stretch</code>
     </td>
     <td>
@@ -29,7 +29,7 @@
   <tr>
     <td><code>align-items:center</code></td>
     <td>
-      <code>align-i:center</code><br>
+      <code>al-items:center</code><br>
       <code>ai:center</code>
     </td>
     <td>
@@ -41,7 +41,7 @@
   <tr>
     <td><code>align-items:start</code></td>
     <td>
-      <code>align-i:start</code><br>
+      <code>al-items:start</code><br>
       <code>ai:start</code>
     </td>
     <td>
@@ -53,7 +53,7 @@
   <tr>
     <td><code>align-items:end</code></td>
     <td>
-      <code>align-i:end</code><br>
+      <code>al-items:end</code><br>
       <code>ai:end</code>
     </td>
     <td>
@@ -65,7 +65,7 @@
   <tr>
     <td><code>align-items:self-start</code></td>
     <td>
-      <code>align-i:self-start</code><br>
+      <code>al-items:self-start</code><br>
       <code>ai:self-start</code>
     </td>
     <td>
@@ -78,7 +78,7 @@
   <tr>
     <td><code>align-items:self-end</code></td>
     <td>
-      <code>align-i:self-end</code><br>
+      <code>al-items:self-end</code><br>
       <code>ai:self-end</code>
     </td>
     <td>
@@ -91,7 +91,7 @@
   <tr>
     <td><code>align-items:flex-start</code></td>
     <td>
-      <code>align-i:flex-start</code><br>
+      <code>al-items:flex-start</code><br>
       <code>ai:flex-start</code>
     </td>
     <td>
@@ -104,7 +104,7 @@
   <tr>
     <td><code>align-items:flex-end</code></td>
     <td>
-      <code>align-i:flex-end</code><br>
+      <code>al-items:flex-end</code><br>
       <code>ai:flex-end</code>
     </td>
     <td>

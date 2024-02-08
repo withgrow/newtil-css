@@ -17,7 +17,7 @@
   <tr>
     <td><code>align-content:start</code></td>
     <td>
-      <code>align-c:start</code><br>
+      <code>al-content:start</code><br>
       <code>ac:start</code>
     </td>
     <td>
@@ -29,7 +29,7 @@
   <tr>
     <td><code>align-content:center</code></td>
     <td>
-      <code>align-c:center</code><br>
+      <code>al-content:center</code><br>
       <code>ac:center</code>
     </td>
     <td>
@@ -41,7 +41,7 @@
   <tr>
     <td><code>align-content:end</code></td>
     <td>
-      <code>align-c:end</code><br>
+      <code>al-content:end</code><br>
       <code>ac:end</code>
     </td>
     <td>
@@ -53,7 +53,7 @@
   <tr>
     <td><code>align-content:flex-start</code></td>
     <td>
-      <code>align-c:flex-start</code><br>
+      <code>al-content:flex-start</code><br>
       <code>ac:flex-start</code>
     </td>
     <td>
@@ -65,7 +65,7 @@
   <tr>
     <td><code>align-content:flex-end</code></td>
     <td>
-      <code>align-c:flex-end</code><br>
+      <code>al-content:flex-end</code><br>
       <code>ac:flex-end</code>
     </td>
     <td>
