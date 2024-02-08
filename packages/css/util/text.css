@@ -12,132 +12,131 @@
  */
 
 /* text-indent */
-.text-indent\:0,      .text-i\:0 { text-indent: var(--gap-0) !important; }
-.text-indent\:1,      .text-i\:1 { text-indent: var(--gap-1) !important; }
-.text-indent\:2,      .text-i\:2 { text-indent: var(--gap-2) !important; }
-.text-indent\:3,      .text-i\:3 { text-indent: var(--gap-3) !important; }
-.text-indent\:4,      .text-i\:4 { text-indent: var(--gap-4) !important; }
-.text-indent\:5,      .text-i\:5 { text-indent: var(--gap-5) !important; }
-.text-indent\:6,      .text-i\:6 { text-indent: var(--gap-6) !important; }
-.text-indent\:7,      .text-i\:7 { text-indent: var(--gap-7) !important; }
-.text-indent\:8,      .text-i\:8 { text-indent: var(--gap-8) !important; }
-.text-indent\:9,      .text-i\:9 { text-indent: var(--gap-9) !important; }
-.text-indent\:10,      .text-i\:10 { text-indent: var(--gap-10) !important; }
+.text-indent\:0,      															.txt-indent\:0 { text-indent: var(--gap-0) !important; }
+.text-indent\:1,      															.txt-indent\:1 { text-indent: var(--gap-1) !important; }
+.text-indent\:2,      															.txt-indent\:2 { text-indent: var(--gap-2) !important; }
+.text-indent\:3,      															.txt-indent\:3 { text-indent: var(--gap-3) !important; }
+.text-indent\:4,      															.txt-indent\:4 { text-indent: var(--gap-4) !important; }
+.text-indent\:5,      															.txt-indent\:5 { text-indent: var(--gap-5) !important; }
+.text-indent\:6,      															.txt-indent\:6 { text-indent: var(--gap-6) !important; }
+.text-indent\:7,      															.txt-indent\:7 { text-indent: var(--gap-7) !important; }
+.text-indent\:8,      															.txt-indent\:8 { text-indent: var(--gap-8) !important; }
+.text-indent\:9,      															.txt-indent\:9 { text-indent: var(--gap-9) !important; }
+.text-indent\:10,     															.txt-indent\:10 { text-indent: var(--gap-10) !important; }
 
 /* text-align */
-.text-align\:left, 		.txt-align\:left,           .txt-al\:left { text-align: left !important; }
-.text-align\:center, 	.txt-align\:center,         .txt-al\:center { text-align: center !important; }
-.text-align\:right, 	.txt-align\:right,          .txt-al\:right { text-align: right !important;}
-.text-align\:justify, 	.txt-align\:justify,            .txt-al\:justify { text-align: justify !important; }
-.text-align\:start, 	.txt-align\:start,          .txt-al\:start { text-align: start !important; }
-.text-align\:end, 	    .txt-align\:end,            .txt-al\:end { text-align: end !important; }
+.text-align\:left, 																	.txt-align\:left,           							.txt-al\:left { text-align: left !important; }
+.text-align\:center, 																.txt-align\:center,         							.txt-al\:center { text-align: center !important; }
+.text-align\:right, 																.txt-align\:right,          							.txt-al\:right { text-align: right !important;}
+.text-align\:justify, 															.txt-align\:justify,        							.txt-al\:justify { text-align: justify !important; }
+.text-align\:start, 																.txt-align\:start,          							.txt-al\:start { text-align: start !important; }
+.text-align\:end, 	  															.txt-align\:end,            							.txt-al\:end { text-align: end !important; }
 
 /* text-decoration-line  */
-.text-decoration-line\:underline, 	    .text-dl\:underline { text-decoration-line: underline !important; }
-.text-decoration-line\:line-through, 	.text-dl\:line-through { text-decoration-line: line-through !important; }
-.text-decoration-line\:overline, 	    .text-dl\:overline { text-decoration-line: underline !important; }
-.text-decoration-line\:none, 	        .text-dl\:none { text-decoration-line: none !important; }
+.text-decoration-line\:underline, 	  							.text-deco-line\:underline,           		.txt-deco-line\:underline,					.txt-deco-ln\:underline { text-decoration-line: underline !important; }
+.text-decoration-line\:line-through, 								.text-deco-line\:line-through,        		.txt-deco-line\:line-through,				.txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
+.text-decoration-line\:overline, 	    							.text-deco-line\:overline,            		.txt-deco-line\:overline,						.txt-deco-ln\:overline { text-decoration-line: underline !important; }
+.text-decoration-line\:none, 	        							.text-deco-line\:none,               			.txt-deco-line\:none,								.txt-deco-ln\:none { text-decoration-line: none !important; }
 
 /* text-decoration-style  */
-.text-decoration-style\:solid,       .text-ds\:solid { text-decoration-style: solid !important; }
-.text-decoration-style\:double,      .text-ds\:double { text-decoration-style: double !important; }
-.text-decoration-style\:dotted,      .text-ds\:solid { text-decoration-style: dotted !important; }
-.text-decoration-style\:wavy,        .text-ds\:wavy { text-decoration-style: wavy !important; }
-
+.text-decoration-style\:solid,       								.text-deco-style\:solid,           				.txt-deco-style\:solid { text-decoration-style: solid !important; }
+.text-decoration-style\:double,      								.text-deco-style\:double,          				.txt-deco-style\:double { text-decoration-style: double !important; }
+.text-decoration-style\:dotted,      								.text-deco-style\:solid,           				.txt-deco-style\:solid { text-decoration-style: dotted !important; }
+.text-decoration-style\:wavy,        								.text-deco-style\:wavy,            				.txt-deco-style\:wavy { text-decoration-style: wavy !important; } 
 /* text-transform */
-.text-transform\:lowercase,      .text-t\:lowercase { text-transform: lowercase !important; }
-.text-transform\:uppercase,      .text-t\:uppercase { text-transform: uppercase !important; }
-.text-transform\:capitalize,     .text-t\:capitalize { text-transform: capitalize !important; }
-.text-transform\:none,           .text-t\:none { text-transform: none !important; }
+.text-transform\:lowercase,      										.txt-transform\:lowercase { text-transform: lowercase !important; }
+.text-transform\:uppercase,      										.txt-transform\:uppercase { text-transform: uppercase !important; }
+.text-transform\:capitalize,     										.txt-transform\:capitalize { text-transform: capitalize !important; }
+.text-transform\:none,           										.txt-transform\:none { text-transform: none !important; }
 
 /* white-space */
-.white-space\:normal,            .white-s\:normal { white-space: normal !important; }
-.white-space\:nowrap,            .white-s\:nowrap { white-space: nowrap !important; }
-.white-space\:pre,               .white-s\:pre { white-space: pre !important; }
-.white-space\:pre-line,          .white-s\:pre-line { white-space: pre-line !important; }
-.white-space\:pre-wrap,          .white-s\:pre-wrap { white-space: pre-wrap !important; }
-.white-space\:break-spaces,      .white-s\:break-space { white-space: break-spaces !important; }
+.white-space\:normal,            										.white-space\:normal { white-space: normal !important; }
+.white-space\:nowrap,            										.white-space\:nowrap { white-space: nowrap !important; }
+.white-space\:pre,               										.white-space\:pre { white-space: pre !important; }
+.white-space\:pre-line,          										.white-space\:pre-line { white-space: pre-line !important; }
+.white-space\:pre-wrap,          										.white-space\:pre-wrap { white-space: pre-wrap !important; }
+.white-space\:break-spaces,      										.white-space\:break-space { white-space: break-spaces !important; }
 
 /* word-break */
-.word-break\:normal,         .word-b\:normal {word-break: normal !important; }
-.word-break\:break-all,      .word-b\:break-all {word-break: break-all !important; }
-.word-break\:keep-all,       .word-b\:keep-all {word-break: keep-all !important; }
-.word-break\:break-word,     .word-b\:break-word {word-break: break-word !important; }
+.word-break\:normal,         												.word-break\:normal { word-break: normal !important; }
+.word-break\:break-all,      												.word-break\:break-all { word-break: break-all !important; }
+.word-break\:keep-all,       												.word-break\:keep-all { word-break: keep-all !important; }
+.word-break\:break-word,     												.word-break\:break-word { word-break: break-word !important; }
 
 /* hyphens */
-.hyphens\:manual,           .hyphen\:manual,           .hypn\:manual { hyphens: manual !important; }
-.hyphens\:auto,             .hyphen\:auto,         .hypn\:auto { hyphens: auto !important; }
-.hyphens\:none,             .hyphen\:none,         .hypn\:none { hyphens: none !important; }
+.hyphens\:manual,          													.hyphen\:manual,       										.hypn\:manual { hyphens: manual !important; }
+.hyphens\:auto,            													.hyphen\:auto,         										.hypn\:auto { hyphens: auto !important; }
+.hyphens\:none,            													.hyphen\:none,         										.hypn\:none { hyphens: none !important; }
 
 /* overflow-wrap  */
-.overflow-wrap\:normal,          .of-wrap\:normal { overflow-wrap: normal !important; }
-.overflow-wrap\:break-word,      .of-wrap\:break-word { overflow-wrap: break-word !important; }
-.overflow-wrap\:anywhere,        .of-wrap\:anywhere { overflow-wrap: anywhere !important; }
+.overflow-wrap\:normal,          										.of-wrap\:normal { overflow-wrap: normal !important; }
+.overflow-wrap\:break-word,      										.of-wrap\:break-word { overflow-wrap: break-word !important; }
+.overflow-wrap\:anywhere,        										.of-wrap\:anywhere { overflow-wrap: anywhere !important; }
 
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
     /* text-indent */
-    .md\:text-indent\:0,      .md\:text-i\:0 { text-indent: var(--gap-0) !important; }
-    .md\:text-indent\:1,      .md\:text-i\:1 { text-indent: var(--gap-1) !important; }
-    .md\:text-indent\:2,      .md\:text-i\:2 { text-indent: var(--gap-2) !important; }
-    .md\:text-indent\:3,      .md\:text-i\:3 { text-indent: var(--gap-3) !important; }
-    .md\:text-indent\:4,      .md\:text-i\:4 { text-indent: var(--gap-4) !important; }
-    .md\:text-indent\:5,      .md\:text-i\:5 { text-indent: var(--gap-5) !important; }
-    .md\:text-indent\:6,      .md\:text-i\:6 { text-indent: var(--gap-6) !important; }
-    .md\:text-indent\:7,      .md\:text-i\:7 { text-indent: var(--gap-7) !important; }
-    .md\:text-indent\:8,      .md\:text-i\:8 { text-indent: var(--gap-8) !important; }
-    .md\:text-indent\:9,      .md\:text-i\:9 { text-indent: var(--gap-9) !important; }
-    .md\:text-indent\:10,      .md\:text-i\:10 { text-indent: var(--gap-10) !important; }
+    .md\:text-indent\:0,      											.md\:txt-indent\:0 { text-indent: var(--gap-0) !important; }
+    .md\:text-indent\:1,      											.md\:txt-indent\:1 { text-indent: var(--gap-1) !important; }
+    .md\:text-indent\:2,      											.md\:txt-indent\:2 { text-indent: var(--gap-2) !important; }
+    .md\:text-indent\:3,      											.md\:txt-indent\:3 { text-indent: var(--gap-3) !important; }
+    .md\:text-indent\:4,      											.md\:txt-indent\:4 { text-indent: var(--gap-4) !important; }
+    .md\:text-indent\:5,      											.md\:txt-indent\:5 { text-indent: var(--gap-5) !important; }
+    .md\:text-indent\:6,      											.md\:txt-indent\:6 { text-indent: var(--gap-6) !important; }
+    .md\:text-indent\:7,      											.md\:txt-indent\:7 { text-indent: var(--gap-7) !important; }
+    .md\:text-indent\:8,      											.md\:txt-indent\:8 { text-indent: var(--gap-8) !important; }
+    .md\:text-indent\:9,      											.md\:txt-indent\:9 { text-indent: var(--gap-9) !important; }
+    .md\:text-indent\:10,     											.md\:txt-indent\:10 { text-indent: var(--gap-10) !important; }
 
     /* text-align */
-    .md\:text-align\:left,      .md\:txt-align\:left,           .md\:txt-al\:left { text-align: left !important; }
-    .md\:text-align\:center,    .md\:txt-align\:center,         .md\:txt-al\:center { text-align: center !important; }
-    .md\:text-align\:right,     .md\:txt-align\:right,          .md\:txt-al\:right { text-align: right !important; }
-    .md\:text-align\:justify,   .md\:txt-align\:justify,            .md\:txt-al\:justify { text-align: justify !important; }
-    .md\:text-align\:start,     .md\:txt-align\:start,          .md\:txt-al\:start { text-align: start !important; }
-    .md\:text-align\:end,       .md\:txt-align\:end,            .md\:txt-al\:end { text-align: end !important; }
+    .md\:text-align\:left,      										.md\:txt-align\:left,           					.md\:txt-al\:left { text-align: left !important; }
+    .md\:text-align\:center,    										.md\:txt-align\:center,         					.md\:txt-al\:center { text-align: center !important; }
+    .md\:text-align\:right,     										.md\:txt-align\:right,          					.md\:txt-al\:right { text-align: right !important; }
+    .md\:text-align\:justify,   										.md\:txt-align\:justify,        					.md\:txt-al\:justify { text-align: justify !important; }
+    .md\:text-align\:start,     										.md\:txt-align\:start,          					.md\:txt-al\:start { text-align: start !important; }
+    .md\:text-align\:end,       										.md\:txt-align\:end,            					.md\:txt-al\:end { text-align: end !important; }
 
-    /* text-decoration */
-    .md\:text-decoration\:underline,       .md\:text-d\:underline { text-decoration: underline !important; }
-    .md\:text-decoration\:line-through,    .md\:text-d\:line-through { text-decoration: line-through !important; }
-    .md\:text-decoration\:overline,        .md\:text-d\:overline { text-decoration: overline !important; }
-    .md\:text-decoration\:none,            .md\:text-d\:none { text-decoration: none !important; }
+    /* text-decoration-line */
+		.md\:text-decoration-line\:underline, 	  			.md\:text-deco-line\:underline,           .md\:txt-deco-line\:underline,					.md\:txt-deco-ln\:underline { text-decoration-line: underline !important; }
+		.md\:text-decoration-line\:line-through, 				.md\:text-deco-line\:line-through,        .md\:txt-deco-line\:line-through,				.md\:txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
+		.md\:text-decoration-line\:overline, 	    			.md\:text-deco-line\:overline,            .md\:txt-deco-line\:overline,						.md\:txt-deco-ln\:overline { text-decoration-line: underline !important; }
+		.md\:text-decoration-line\:none, 	        			.md\:text-deco-line\:none,               	.md\:txt-deco-line\:none,								.md\:txt-deco-ln\:none { text-decoration-line: none !important; }
 
     /* text-decoration-style */
-    .md\:text-decoration-style\:solid,     .md\:text-ds\:solid { text-decoration-style: solid !important; }
-    .md\:text-decoration-style\:double,    .md\:text-ds\:double { text-decoration-style: double !important; }
-    .md\:text-decoration-style\:dotted,    .md\:text-ds\:dotted { text-decoration-style: dotted !important; }
-    .md\:text-decoration-style\:wavy,      .md\:text-ds\:wavy { text-decoration-style: wavy !important; }
+    .md\:text-decoration-style\:solid,     					.md\:text-deco-style\:solid,        		  .md\:txt-deco-style\:solid { text-decoration-style: solid !important; }
+    .md\:text-decoration-style\:double,    					.md\:text-deco-style\:double,       		  .md\:txt-deco-style\:double { text-decoration-style: double !important; }
+    .md\:text-decoration-style\:dotted,    					.md\:text-deco-style\:dotted,       		  .md\:txt-deco-style\:dotted { text-decoration-style: dotted !important; }
+    .md\:text-decoration-style\:wavy,      					.md\:text-deco-style\:wavy,         		  .md\:txt-deco-style\:wavy { text-decoration-style: wavy !important; }
 
     /* text-transform */
-    .md\:text-transform\:lowercase,        .md\:text-t\:lowercase { text-transform: lowercase !important; }
-    .md\:text-transform\:uppercase,        .md\:text-t\:uppercase { text-transform: uppercase !important; }
-    .md\:text-transform\:capitalize,       .md\:text-t\:capitalize { text-transform: capitalize !important; }
-    .md\:text-transform\:none,             .md\:text-t\:none { text-transform: none !important; }
+    .md\:text-transform\:lowercase,        					.md\:txt-transform\:lowercase { text-transform: lowercase !important; }
+    .md\:text-transform\:uppercase,        					.md\:txt-transform\:uppercase { text-transform: uppercase !important; }
+    .md\:text-transform\:capitalize,       					.md\:txt-transform\:capitalize { text-transform: capitalize !important; }
+    .md\:text-transform\:none,             					.md\:txt-transform\:none { text-transform: none !important; }
 
     /* white-space */
-    .md\:white-space\:normal,              .md\:white-s\:normal { white-space: normal !important; }
-    .md\:white-space\:nowrap,              .md\:white-s\:nowrap { white-space: nowrap !important; }
-    .md\:white-space\:pre,                 .md\:white-s\:pre { white-space: pre !important; }
-    .md\:white-space\:pre-line,            .md\:white-s\:pre-line { white-space: pre-line !important; }
-    .md\:white-space\:pre-wrap,            .md\:white-s\:pre-wrap { white-space: pre-wrap !important; }
-    .md\:white-space\:break-spaces,        .md\:white-s\:break-space { white-space: break-spaces !important; }
+    .md\:white-space\:normal,              					.md\:white-space\:normal { white-space: normal !important; }
+    .md\:white-space\:nowrap,              					.md\:white-space\:nowrap { white-space: nowrap !important; }
+    .md\:white-space\:pre,                 					.md\:white-space\:pre { white-space: pre !important; }
+    .md\:white-space\:pre-line,            					.md\:white-space\:pre-line { white-space: pre-line !important; }
+    .md\:white-space\:pre-wrap,            					.md\:white-space\:pre-wrap { white-space: pre-wrap !important; }
+    .md\:white-space\:break-spaces,        					.md\:white-space\:break-space { white-space: break-spaces !important; }
 
     /* word-break */
-    .md\:word-break\:normal,               .md\:word-b\:normal { word-break: normal !important; }
-    .md\:word-break\:break-all,            .md\:word-b\:break-all { word-break: break-all !important}
-    .md\:word-break\:keep-all,              .md\:word-b\:keep-all { word-break: keep-all !important; }
-    .md\:word-break\:break-word,            .md\:word-b\:break-word { word-break: break-word !important; }
+    .md\:word-break\:normal,               					.md\:word-break\:normal { word-break: normal !important; }
+    .md\:word-break\:break-all,            					.md\:word-break\:break-all { word-break: break-all !important}
+    .md\:word-break\:keep-all,             					.md\:word-break\:keep-all { word-break: keep-all !important; }
+    .md\:word-break\:break-word,           					.md\:word-break\:break-word { word-break: break-word !important; }
     
     /* hyphens */
-    .md\:hyphens\:manual,                  .md\:hyphen\:manual,                .md\:hypn\:manual { hyphens: manual !important; }
-    .md\:hyphens\:auto,                    .md\:hyphen\:auto,              .md\:hypn\:auto { hyphens: auto !important; }
-    .md\:hyphens\:none,                    .md\:hyphen\:none,              .md\:hypn\:none { hyphens: none !important; }
+    .md\:hyphens\:manual,                  					.md\:hyphen\:manual,            					.md\:hypn\:manual { hyphens: manual !important; }
+    .md\:hyphens\:auto,                    					.md\:hyphen\:auto,              					.md\:hypn\:auto { hyphens: auto !important; }
+    .md\:hyphens\:none,                    					.md\:hyphen\:none,              					.md\:hypn\:none { hyphens: none !important; }
 
     /* overflow-wrap */
-    .md\:overflow-wrap\:normal,          .md\:of-wrap\:normal { overflow-wrap: normal !important; }
-    .md\:overflow-wrap\:break-word,      .md\:of-wrap\:break-word { overflow-wrap: break-word !important; }
-    .md\:overflow-wrap\:anywhere,        .md\:of-wrap\:anywhere { overflow-wrap: anywhere !important; }
+    .md\:overflow-wrap\:normal,          						.md\:of-wrap\:normal { overflow-wrap: normal !important; }
+    .md\:overflow-wrap\:break-word,      						.md\:of-wrap\:break-word { overflow-wrap: break-word !important; }
+    .md\:overflow-wrap\:anywhere,        						.md\:of-wrap\:anywhere { overflow-wrap: anywhere !important; }
 
 }
 
@@ -145,67 +144,67 @@
 @media (min-width: 1200px) {
     
     /* text-indent */
-    .lg\:text-indent\:0,      .lg\:text-i\:0 { text-indent: var(--gap-0) !important; }
-    .lg\:text-indent\:1,      .lg\:text-i\:1 { text-indent: var(--gap-1) !important; }
-    .lg\:text-indent\:2,      .lg\:text-i\:2 { text-indent: var(--gap-2) !important; }
-    .lg\:text-indent\:3,      .lg\:text-i\:3 { text-indent: var(--gap-3) !important; }
-    .lg\:text-indent\:4,      .lg\:text-i\:4 { text-indent: var(--gap-4) !important; }
-    .lg\:text-indent\:5,      .lg\:text-i\:5 { text-indent: var(--gap-5) !important; }
-    .lg\:text-indent\:6,      .lg\:text-i\:6 { text-indent: var(--gap-6) !important; }
-    .lg\:text-indent\:7,      .lg\:text-i\:7 { text-indent: var(--gap-7) !important; }
-    .lg\:text-indent\:8,      .lg\:text-i\:8 { text-indent: var(--gap-8) !important; }
-    .lg\:text-indent\:9,      .lg\:text-i\:9 { text-indent: var(--gap-9) !important; }
-    .lg\:text-indent\:10,      .lg\:text-i\:10 { text-indent: var(--gap-10) !important; }
+    .lg\:text-indent\:0,      											.lg\:txt-indent\:0 { text-indent: var(--gap-0) !important; }
+    .lg\:text-indent\:1,      											.lg\:txt-indent\:1 { text-indent: var(--gap-1) !important; }
+    .lg\:text-indent\:2,      											.lg\:txt-indent\:2 { text-indent: var(--gap-2) !important; }
+    .lg\:text-indent\:3,      											.lg\:txt-indent\:3 { text-indent: var(--gap-3) !important; }
+    .lg\:text-indent\:4,      											.lg\:txt-indent\:4 { text-indent: var(--gap-4) !important; }
+    .lg\:text-indent\:5,      											.lg\:txt-indent\:5 { text-indent: var(--gap-5) !important; }
+    .lg\:text-indent\:6,      											.lg\:txt-indent\:6 { text-indent: var(--gap-6) !important; }
+    .lg\:text-indent\:7,      											.lg\:txt-indent\:7 { text-indent: var(--gap-7) !important; }
+    .lg\:text-indent\:8,      											.lg\:txt-indent\:8 { text-indent: var(--gap-8) !important; }
+    .lg\:text-indent\:9,      											.lg\:txt-indent\:9 { text-indent: var(--gap-9) !important; }
+    .lg\:text-indent\:10,     											.lg\:txt-indent\:10 { text-indent: var(--gap-10) !important; }
 
     /* text-align */
-    .lg\:text-align\:left,      .lg\:txt-align\:left,           .lg\:txt-al\:left { text-align: left !important; }
-    .lg\:text-align\:center,    .lg\:txt-align\:center,         .lg\:txt-al\:center { text-align: center !important; }
-    .lg\:text-align\:right,     .lg\:txt-align\:right,          .lg\:txt-al\:right { text-align: right !important; }
-    .lg\:text-align\:justify,   .lg\:txt-align\:justify,            .lg\:txt-al\:justify { text-align: justify !important; }
-    .lg\:text-align\:start,     .lg\:txt-align\:start,          .lg\:txt-al\:start { text-align: start !important; }
-    .lg\:text-align\:end,       .lg\:txt-align\:end,            .lg\:txt-al\:end { text-align: end !important; }
-
-    /* text-decoration */
-    .lg\:text-decoration\:underline,       .lg\:text-d\:underline { text-decoration: underline !important; }
-    .lg\:text-decoration\:line-through,    .lg\:text-d\:line-through { text-decoration: line-through !important; }
-    .lg\:text-decoration\:overline,        .lg\:text-d\:overline { text-decoration: overline !important; }
-    .lg\:text-decoration\:none,            .lg\:text-d\:none { text-decoration: none !important; }
+    .lg\:text-align\:left,      										.lg\:txt-align\:left,           					.lg\:txt-al\:left { text-align: left !important; }
+    .lg\:text-align\:center,    										.lg\:txt-align\:center,         					.lg\:txt-al\:center { text-align: center !important; }
+    .lg\:text-align\:right,     										.lg\:txt-align\:right,          					.lg\:txt-al\:right { text-align: right !important; }
+    .lg\:text-align\:justify,   										.lg\:txt-align\:justify,        					.lg\:txt-al\:justify { text-align: justify !important; }
+    .lg\:text-align\:start,     										.lg\:txt-align\:start,          					.lg\:txt-al\:start { text-align: start !important; }
+    .lg\:text-align\:end,       										.lg\:txt-align\:end,            					.lg\:txt-al\:end { text-align: end !important; }
 
     /* text-decoration-style */
-    .lg\:text-decoration-style\:solid,     .lg\:text-ds\:solid { text-decoration-style: solid !important; }
-    .lg\:text-decoration-style\:double,    .lg\:text-ds\:double { text-decoration-style: double !important; }
-    .lg\:text-decoration-style\:dotted,    .lg\:text-ds\:dotted { text-decoration-style: dotted !important; }
-    .lg\:text-decoration-style\:wavy,      .lg\:text-ds\:wavy { text-decoration-style: wavy !important; }
+    .lg\:text-decoration-style\:solid,    					.lg\:text-deco-style\:solid,         			.lg\:txt-deco-style\:solid { text-decoration-style: solid !important; }
+    .lg\:text-decoration-style\:double,   					.lg\:text-deco-style\:double,        			.lg\:txt-deco-style\:double { text-decoration-style: double !important; }
+    .lg\:text-decoration-style\:dotted,   					.lg\:text-deco-style\:dotted,        			.lg\:txt-deco-style\:dotted { text-decoration-style: dotted !important; }
+    .lg\:text-decoration-style\:wavy,     					.lg\:text-deco-style\:wavy,          			.lg\:txt-deco-style\:wavy { text-decoration-style: wavy !important; }
+
+		/* text-decoration-line */
+		.lg\:text-decoration-line\:underline, 	  			.lg\:text-deco-line\:underline,           .lg\:txt-deco-line\:underline,					.lg\:txt-deco-ln\:underline { text-decoration-line: underline !important; }
+		.lg\:text-decoration-line\:line-through, 				.lg\:text-deco-line\:line-through,        .lg\:txt-deco-line\:line-through,				.lg\:txt-deco-ln\:line-through { text-decoration-line: line-through !important; }
+		.lg\:text-decoration-line\:overline, 	    			.lg\:text-deco-line\:overline,            .lg\:txt-deco-line\:overline,						.lg\:txt-deco-ln\:overline { text-decoration-line: underline !important; }
+		.lg\:text-decoration-line\:none, 	        			.lg\:text-deco-line\:none,               	.lg\:txt-deco-line\:none,								.lg\:txt-deco-ln\:none { text-decoration-line: none !important; }
 
     /* text-transform */
-    .lg\:text-transform\:lowercase,        .lg\:text-t\:lowercase { text-transform: lowercase !important; }
-    .lg\:text-transform\:uppercase,        .lg\:text-t\:uppercase { text-transform: uppercase !important; }
-    .lg\:text-transform\:capitalize,       .lg\:text-t\:capitalize { text-transform: capitalize !important; }
-    .lg\:text-transform\:none,             .lg\:text-t\:none { text-transform: none !important; }
+    .lg\:text-transform\:lowercase,        					.lg\:txt-transform\:lowercase { text-transform: lowercase !important; }
+    .lg\:text-transform\:uppercase,        					.lg\:txt-transform\:uppercase { text-transform: uppercase !important; }
+    .lg\:text-transform\:capitalize,       					.lg\:txt-transform\:capitalize { text-transform: capitalize !important; }
+    .lg\:text-transform\:none,             					.lg\:txt-transform\:none { text-transform: none !important; }
 
     /* white-space */
-    .lg\:white-space\:normal,              .lg\:white-s\:normal { white-space: normal !important; }
-    .lg\:white-space\:nowrap,              .lg\:white-s\:nowrap { white-space: nowrap !important; }
-    .lg\:white-space\:pre,                 .lg\:white-s\:pre { white-space: pre !important; }
-    .lg\:white-space\:pre-line,            .lg\:white-s\:pre-line { white-space: pre-line !important; }
-    .lg\:white-space\:pre-wrap,            .lg\:white-s\:pre-wrap { white-space: pre-wrap !important; }
-    .lg\:white-space\:break-spaces,        .lg\:white-s\:break-space { white-space: break-spaces !important; }
+    .lg\:white-space\:normal,              					.lg\:white-space\:normal { white-space: normal !important; }
+    .lg\:white-space\:nowrap,              					.lg\:white-space\:nowrap { white-space: nowrap !important; }
+    .lg\:white-space\:pre,                 					.lg\:white-space\:pre { white-space: pre !important; }
+    .lg\:white-space\:pre-line,            					.lg\:white-space\:pre-line { white-space: pre-line !important; }
+    .lg\:white-space\:pre-wrap,            					.lg\:white-space\:pre-wrap { white-space: pre-wrap !important; }
+    .lg\:white-space\:break-spaces,        					.lg\:white-space\:break-space { white-space: break-spaces !important; }
 
     /* word-break */
-    .lg\:word-break\:normal,               .lg\:word-b\:normal { word-break: normal !important; }
-    .lg\:word-break\:break-all,            .lg\:word-b\:break-all { word-break: break-all !important}
-    .lg\:word-break\:keep-all,              .lg\:word-b\:keep-all { word-break: keep-all !important; }
-    .lg\:word-break\:break-word,            .lg\:word-b\:break-word { word-break: break-word !important; }
+    .lg\:word-break\:normal,               					.lg\:word-break\:normal { word-break: normal !important; }
+    .lg\:word-break\:break-all,            					.lg\:word-break\:break-all { word-break: break-all !important}
+    .lg\:word-break\:keep-all,             					.lg\:word-break\:keep-all { word-break: keep-all !important; }
+    .lg\:word-break\:break-word,           					.lg\:word-break\:break-word { word-break: break-word !important; }
     
     /* hyphens */
-    .lg\:hyphens\:manual,                  .lg\:hyphen\:manual,                .lg\:hypn\:manual { hyphens: manual !important; }
-    .lg\:hyphens\:auto,                    .lg\:hyphen\:auto,              .lg\:hypn\:auto { hyphens: auto !important; }
-    .lg\:hyphens\:none,                    .lg\:hyphen\:none,              .lg\:hypn\:none { hyphens: none !important; }
+    .lg\:hyphens\:manual,                  					.lg\:hyphen\:manual,            					.lg\:hypn\:manual { hyphens: manual !important; }
+    .lg\:hyphens\:auto,                    					.lg\:hyphen\:auto,              					.lg\:hypn\:auto { hyphens: auto !important; }
+    .lg\:hyphens\:none,                    					.lg\:hyphen\:none,              					.lg\:hypn\:none { hyphens: none !important; }
 
     /* overflow-wrap */
-    .lg\:overflow-wrap\:normal,          .lg\:of-wrap\:normal { overflow-wrap: normal !important; }
-    .lg\:overflow-wrap\:break-word,      .lg\:of-wrap\:break-word { overflow-wrap: break-word !important; }
-    .lg\:overflow-wrap\:anywhere,        .lg\:of-wrap\:anywhere { overflow-wrap: anywhere !important; }
+    .lg\:overflow-wrap\:normal,          						.lg\:of-wrap\:normal { overflow-wrap: normal !important; }
+    .lg\:overflow-wrap\:break-word,      						.lg\:of-wrap\:break-word { overflow-wrap: break-word !important; }
+    .lg\:overflow-wrap\:anywhere,        						.lg\:of-wrap\:anywhere { overflow-wrap: anywhere !important; }
 }
 
 /* ───────────────────────────────────
