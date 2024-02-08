@@ -45,28 +45,28 @@
 @media (min-width: 768px) {
 
   /* font-color */
-  .md\:color\:main-1,            .md\:c\:main-1 { color : var(--color-main-1) !important; }
-  .md\:color\:main-2,            .md\:c\:main-2 { color : var(--color-main-2) !important; }
-  .md\:color\:main-3,            .md\:c\:main-3 { color : var(--color-main-3) !important; }
+  .md\:color\:main-1    { color : var(--color-main-1) !important; }
+  .md\:color\:main-2    { color : var(--color-main-2) !important; }
+  .md\:color\:main-3    { color : var(--color-main-3) !important; }
 
-  .md\:color\:sub-1,             .md\:c\:sub-1 { color : var(--color-sub-1) !important; }
-  .md\:color\:sub-2,             .md\:c\:sub-2 { color : var(--color-sub-2) !important; }
-  .md\:color\:sub-3,             .md\:c\:sub-3 { color : var(--color-sub-3) !important; }
+  .md\:color\:sub-1     { color : var(--color-sub-1) !important; }
+  .md\:color\:sub-2     { color : var(--color-sub-2) !important; }
+  .md\:color\:sub-3     { color : var(--color-sub-3) !important; }
 
-  .md\:color\:accent-1,          .md\:c\:accent-1 { color : var(--color-accent-1) !important; }
-  .md\:color\:accent-2,          .md\:c\:accent-2 { color : var(--color-accent-2) !important; }
-  .md\:color\:accent-3,          .md\:c\:accent-3 { color : var(--color-accent-3) !important; }
+  .md\:color\:accent-1  { color : var(--color-accent-1) !important; }
+  .md\:color\:accent-2  { color : var(--color-accent-2) !important; }
+  .md\:color\:accent-3  { color : var(--color-accent-3) !important; }
 
-  .md\:color\:base-1,            .md\:c\:base-1 { color : var(--color-base-1) !important; }
-  .md\:color\:base-2,            .md\:c\:base-2 { color : var(--color-base-2) !important; }
-  .md\:color\:base-3,            .md\:c\:base-3 { color : var(--color-base-3) !important; }
-  .md\:color\:base-4,            .md\:c\:base-4 { color : var(--color-base-4) !important; }
-  .md\:color\:base-5,            .md\:c\:base-5 { color : var(--color-base-5) !important; }
-  .md\:color\:base-6,            .md\:c\:base-6 { color : var(--color-base-6) !important; }
-  .md\:color\:base-7,            .md\:c\:base-7 { color : var(--color-base-7) !important; }
-  .md\:color\:base-8,            .md\:c\:base-8 { color : var(--color-base-8) !important; }
-  .md\:color\:base-9,            .md\:c\:base-9 { color : var(--color-base-9) !important; }
-  .md\:color\:base-10,           .md\:c\:base-10 { color : var(--color-base-10) !important; }
+  .md\:color\:base-1    { color : var(--color-base-1) !important; }
+  .md\:color\:base-2    { color : var(--color-base-2) !important; }
+  .md\:color\:base-3    { color : var(--color-base-3) !important; }
+  .md\:color\:base-4    { color : var(--color-base-4) !important; }
+  .md\:color\:base-5    { color : var(--color-base-5) !important; }
+  .md\:color\:base-6    { color : var(--color-base-6) !important; }
+  .md\:color\:base-7    { color : var(--color-base-7) !important; }
+  .md\:color\:base-8    { color : var(--color-base-8) !important; }
+  .md\:color\:base-9    { color : var(--color-base-9) !important; }
+  .md\:color\:base-10   { color : var(--color-base-10) !important; }
 
   /* font-style */
   .md\:font-style\:normal        { font-style: normal !important; }
@@ -84,28 +84,28 @@
 /* ---- large ------------------------------------------------- */
 @media (min-width: 1200px) {
   /* font-color */
-  .lg\:color\:main-1,            .lg\:c\:main-1 { color : var(--color-main-1) !important; }
-  .lg\:color\:main-2,            .lg\:c\:main-2 { color : var(--color-main-2) !important; }
-  .lg\:color\:main-3,            .lg\:c\:main-3 { color : var(--color-main-3) !important; }
+  .lg\:color\:main-1             { color : var(--color-main-1) !important; }
+  .lg\:color\:main-2             { color : var(--color-main-2) !important; }
+  .lg\:color\:main-3             { color : var(--color-main-3) !important; }
 
-  .lg\:color\:sub-1,             .lg\:c\:sub-1 { color : var(--color-sub-1) !important; }
-  .lg\:color\:sub-2,             .lg\:c\:sub-2 { color : var(--color-sub-2) !important; }
-  .lg\:color\:sub-3,             .lg\:c\:sub-3 { color : var(--color-sub-3) !important; }
+  .lg\:color\:sub-1              { color : var(--color-sub-1) !important; }
+  .lg\:color\:sub-2              { color : var(--color-sub-2) !important; }
+  .lg\:color\:sub-3              { color : var(--color-sub-3) !important; }
 
-  .lg\:color\:accent-1,          .lg\:c\:accent-1 { color : var(--color-accent-1) !important; }
-  .lg\:color\:accent-2,          .lg\:c\:accent-2 { color : var(--color-accent-2) !important; }
-  .lg\:color\:accent-3,          .lg\:c\:accent-3 { color : var(--color-accent-3) !important; }
+  .lg\:color\:accent-1           { color : var(--color-accent-1) !important; }
+  .lg\:color\:accent-2           { color : var(--color-accent-2) !important; }
+  .lg\:color\:accent-3           { color : var(--color-accent-3) !important; }
 
-  .lg\:color\:base-1,            .lg\:c\:base-1 { color : var(--color-base-1) !important; }
-  .lg\:color\:base-2,            .lg\:c\:base-2 { color : var(--color-base-2) !important; }
-  .lg\:color\:base-3,            .lg\:c\:base-3 { color : var(--color-base-3) !important; }
-  .lg\:color\:base-4,            .lg\:c\:base-4 { color : var(--color-base-4) !important; }
-  .lg\:color\:base-5,            .lg\:c\:base-5 { color : var(--color-base-5) !important; }
-  .lg\:color\:base-6,            .lg\:c\:base-6 { color : var(--color-base-6) !important; }
-  .lg\:color\:base-7,            .lg\:c\:base-7 { color : var(--color-base-7) !important; }
-  .lg\:color\:base-8,            .lg\:c\:base-8 { color : var(--color-base-8) !important; }
-  .lg\:color\:base-9,            .lg\:c\:base-9 { color : var(--color-base-9) !important; }
-  .lg\:color\:base-10,           .lg\:c\:base-10 { color : var(--color-base-10) !important; }
+  .lg\:color\:base-1             { color : var(--color-base-1) !important; }
+  .lg\:color\:base-2             { color : var(--color-base-2) !important; }
+  .lg\:color\:base-3             { color : var(--color-base-3) !important; }
+  .lg\:color\:base-4             { color : var(--color-base-4) !important; }
+  .lg\:color\:base-5             { color : var(--color-base-5) !important; }
+  .lg\:color\:base-6             { color : var(--color-base-6) !important; }
+  .lg\:color\:base-7             { color : var(--color-base-7) !important; }
+  .lg\:color\:base-8             { color : var(--color-base-8) !important; }
+  .lg\:color\:base-9             { color : var(--color-base-9) !important; }
+  .lg\:color\:base-10            { color : var(--color-base-10) !important; }
 
   /* font-style */
   .lg\:font-style\:normal        { font-style: normal !important; }
