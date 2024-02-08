@@ -123,6 +123,10 @@ export default defineConfig({
             text: "토글",
             link: "/toggle",
           },
+          {
+            text: "컨테이너",
+            link: "/container"
+          }
         ],
       },
 
