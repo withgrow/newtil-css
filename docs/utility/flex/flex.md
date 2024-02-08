@@ -15,22 +15,22 @@
   <tbody>
 <tr>
   <td><code>flex:fill</code></td>
-  <td class="blank"></td>
+  <td><code>fl:fill</code></td>
   <td><span class="code">flex: 1 1 auto !important;</span></td>
 </tr>
 <tr>
   <td><code>flex:none</code></td>
-  <td class="blank"></td>
+  <td><code>fl:none</code></td>
   <td><span class="code">flex: none !important;</span></td>
 </tr>
 <tr>
   <td><code>flex:auto</code></td>
-  <td class="blank"></td>
+  <td><code>fl:auto</code></td>
   <td><span class="code">flex: auto !important;</span></td>
 </tr>
 <tr>
   <td><code>flex:initial</code></td>
-  <td class="blank"></td>
+  <td><code>fl:initial</code></td>
   <td><span class="code">flex: initial !important;</span></td>
 </tr>
 
