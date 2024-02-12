@@ -22,67 +22,67 @@
 <tr>
   <td><code>padding:0</code></td>
   <td><code>p:0</code></td>
-  <td><span class="code">padding: var(--gap-0) !important;</span> <span class="c:weak">/* 0rem (0px) */</span></td>
+  <td><span class="code">padding: var(--gap-0) !important;</span> <span class="c:weak">/* 0px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:1</code></td>
   <td><code>p:1</code></td>
-  <td><span class="code">padding: var(--gap-1) !important;</span> <span class="c:weak">/* 0.25rem (4px) */</span></td>
+  <td><span class="code">padding: var(--gap-1) !important;</span> <span class="c:weak">/* 4px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:2</code></td>
   <td><code>p:2</code></td>
-  <td><span class="code">padding: var(--gap-2) !important;</span> <span class="c:weak">/* 0.5rem (8px) */</span></td>
+  <td><span class="code">padding: var(--gap-2) !important;</span> <span class="c:weak">/* 8px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:3</code></td>
   <td><code>p:3</code></td>
-  <td><span class="code">padding: var(--gap-3) !important;</span> <span class="c:weak">/* 0.75rem (12px) */</span></td>
+  <td><span class="code">padding: var(--gap-3) !important;</span> <span class="c:weak">/* 12px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:4</code></td>
   <td><code>p:4</code></td>
-  <td><span class="code">padding: var(--gap-4) !important;</span> <span class="c:weak">/* 1rem (16px) */</span></td>
+  <td><span class="code">padding: var(--gap-4) !important;</span> <span class="c:weak">/* 16px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:5</code></td>
   <td><code>p:5</code></td>
-  <td><span class="code">padding: var(--gap-5) !important;</span> <span class="c:weak">/* 1.25rem (20px) */</span></td>
+  <td><span class="code">padding: var(--gap-5) !important;</span> <span class="c:weak">/* 20px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:6</code></td>
   <td><code>p:6</code></td>
-  <td><span class="code">padding: var(--gap-6) !important;</span> <span class="c:weak">/* 1.5rem (24px) */</span></td>
+  <td><span class="code">padding: var(--gap-6) !important;</span> <span class="c:weak">/* 24px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:7</code></td>
   <td><code>p:7</code></td>
-  <td><span class="code">padding: var(--gap-7) !important;</span> <span class="c:weak">/* 1.75rem (28px) */</span></td>
+  <td><span class="code">padding: var(--gap-7) !important;</span> <span class="c:weak">/* 28px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:8</code></td>
   <td><code>p:8</code></td>
-  <td><span class="code">padding: var(--gap-8) !important;</span> <span class="c:weak">/* 2rem (32px) */</span></td>
+  <td><span class="code">padding: var(--gap-8) !important;</span> <span class="c:weak">/* 32px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:9</code></td>
   <td><code>p:9</code></td>
-  <td><span class="code">padding: var(--gap-9) !important;</span> <span class="c:weak">/* 2.25rem (36px) */</span></td>
+  <td><span class="code">padding: var(--gap-9) !important;</span> <span class="c:weak">/* 36px */</span></td>
 </tr>
 
 <tr>
   <td><code>padding:10</code></td>
   <td><code>p:10</code></td>
-  <td><span class="code">padding: var(--gap-10) !important;</span> <span class="c:weak">/* 2.5rem (40px) */</span></td>
+  <td><span class="code">padding: var(--gap-10) !important;</span> <span class="c:weak">/* 40px */</span></td>
 </tr>
 
   </tbody>
