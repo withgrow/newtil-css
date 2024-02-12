@@ -15,7 +15,11 @@
   <tbody>
 <tr>
   <td><code>list-style-image:none</code></td>
-  <td><code>list-si:none</code></td>
+  <td>
+    <code>ls-style-image:none</code>
+    <br/>
+    <code>ls-style-img:none</code>
+  </td>
   <td><span class="code">list-style-image: none !important;</span></td>
 </tr>
 
