@@ -15,13 +15,22 @@
   <tbody>
 <tr>
   <td><code>list-style-position:inside</code></td>
-  <td><code>list-sp:inside</code></td>
+  <td>
+    <code>ls-style-position:inside</code>
+    <br/>
+    <code>ls-style-pos:inside</code>
+  </td>
   <td><span class="code">list-style-position: inside !important;</span></td>
 </tr>
 
 <tr>
   <td><code>list-style-position:outside</code></td>
-  <td><code>list-sp:outside</code></td>
+  <td>
+    <code>ls-style-position:outside</code>
+    <br/>
+    <code>ls-style-pos:outside</code>
+    <code></code>
+  </td>
   <td><span class="code">list-style-position: outside !important;</span></td>
 </tr>
 

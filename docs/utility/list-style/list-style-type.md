@@ -15,25 +15,25 @@
   <tbody>
   <tr>
     <td><code>list-style-type:circle</code></td>
-    <td><code>list-st:circle</code></td>
+    <td><code>ls-style-type:circle</code></td>
     <td><span class="code">list-style-type: circle !important;</span></td>
   </tr>
 
   <tr>
     <td><code>list-style-type:decimal</code></td>
-    <td><code>list-st:decimal</code></td>
+    <td><code>ls-style-type:decimal</code></td>
     <td><span class="code">list-style-type: decimal !important;</span></td>
   </tr>
 
   <tr>
     <td><code>list-style-type:disc</code></td>
-    <td><code>list-st:disc</code></td>
+    <td><code>ls-style-type:disc</code></td>
     <td><span class="code">list-style-type: disc !important;</span></td>
   </tr>
 
   <tr>
     <td><code>list-style-type:square</code></td>
-    <td><code>list-st:square</code></td>
+    <td><code>ls-style-type:square</code></td>
     <td><span class="code">list-style-type: square !important;</span></td>
   </tr>
   </tbody>
