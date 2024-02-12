@@ -15,31 +15,31 @@
   <tbody>
   <tr>
   <td><code>object-fit:fill</code></td>
-  <td><code>object:fill</code></td>
+  <td><code>obj-fit:fill</code></td>
   <td><span class="code">object-fit: fill !important;</span></td>
 </tr>
 
 <tr>
   <td><code>object-fit:contain</code></td>
-  <td><code>object:contain</code></td>
+  <td><code>obj-fit:contain</code></td>
   <td><span class="code">object-fit: contain !important;</span></td>
 </tr>
 
 <tr>
   <td><code>object-fit:cover</code></td>
-  <td><code>object:cover</code></td>
+  <td><code>obj-fit:cover</code></td>
   <td><span class="code">object-fit: cover !important;</span></td>
 </tr>
 
 <tr>
   <td><code>object-fit:none</code></td>
-  <td><code>object:none</code></td>
+  <td><code>obj-fit:none</code></td>
   <td><span class="code">object-fit: none !important;</span></td>
 </tr>
 
 <tr>
   <td><code>object-fit:scale-down</code></td>
-  <td><code>object:scale-down</code></td>
+  <td><code>obj-fit:scale-down</code></td>
   <td><span class="code">object-fit: scale-down !important;</span></td>
 </tr>
 
