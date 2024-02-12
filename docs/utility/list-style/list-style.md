@@ -15,7 +15,7 @@
   <tbody>
 <tr>
   <td><code>list-style:none</code></td>
-  <td><code>list-s:none</code></td>
+  <td><code>ls-style:none</code></td>
   <td><span class="code">list-style: none !important;</span></td>
 </tr>
 
