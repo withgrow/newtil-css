@@ -58,10 +58,10 @@
 .white-space\:break-spaces,      										.white-space\:break-space { white-space: break-spaces !important; }
 
 /* word-break */
-.word-break\:normal,         							        { word-break: normal !important; }
-.word-break\:break-all,      							        { word-break: break-all !important; }
-.word-break\:keep-all,       							        { word-break: keep-all !important; }
-.word-break\:break-word,     							        { word-break: break-word !important; }
+.word-break\:normal         							        { word-break: normal !important; }
+.word-break\:break-all      							        { word-break: break-all !important; }
+.word-break\:keep-all       							        { word-break: keep-all !important; }
+.word-break\:break-word     							        { word-break: break-word !important; }
 
 /* hyphens */
 .hyphens\:manual,          													.hyphen\:manual,       										.hypn\:manual { hyphens: manual !important; }
