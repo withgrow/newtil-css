@@ -16,18 +16,18 @@ import ExampleSection from "../components/ExampleSection.vue"
 <div class="w:full d:flex jc:center of:auto">
     <div v-for="i in 5"
         class="color:base-10 border border-color:main-1 border-radius:2 bg-color:base-1 w:5 h:5 d:flex ai:center jc:center box"
-        :class="`zi:${6-i}`">
+        :class="`z-index:${6-i}`">
         {{ 6-i }}
     </div>
 </div>
 </ExampleSection>
 
 ```html
-<div class="zi:5 ...">5</div>
-<div class="zi:4 ...">4</div>
-<div class="zi:3 ...">3</div>
-<div class="zi:2 ...">2</div>
-<div class="zi:1 ...">1</div>
+<div class="z-index:5 ...">5</div>
+<div class="z-index:4 ...">4</div>
+<div class="z-index:3 ...">3</div>
+<div class="z-index:2 ...">2</div>
+<div class="z-index:1 ...">1</div>
 ```
 
 ```css
@@ -55,13 +55,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 </ExampleSection>
 
 ```html
-<div class="zi:1 ...">1</div>
-<div class="zi:2 ...">2</div>
-<div class="zi:3 ...">3</div>
-<div class="zi:7 ...">7</div>
-<div class="zi:6 ...">6</div>
-<div class="zi:5 ...">5</div>
-<div class="zi:4 ...">4</div>
+<div class="z-index:1 ...">1</div>
+<div class="z-index:2 ...">2</div>
+<div class="z-index:3 ...">3</div>
+<div class="z-index:7 ...">7</div>
+<div class="z-index:6 ...">6</div>
+<div class="z-index:5 ...">5</div>
+<div class="z-index:4 ...">4</div>
 ```
 
 ```css
