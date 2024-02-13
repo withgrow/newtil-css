@@ -38,6 +38,7 @@ input.n-text-box\:underline {
   border-width: 1.6px;
   border-radius: 0px;
   box-shadow: none;
+  background-color: transparent;
   padding: 0px;
 
   transition-property: border-color;
@@ -88,8 +89,8 @@ textarea.n-text-box {
 /* ----placeholder ------------------------------------------------- */
 
 .n-text-box::placeholder {
-  font-size: var(--font-size-1-5);
-  font-weight: var(--font-weight-4);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-1);
   line-height: 150%;
   letter-spacing: -0.02em;
   color: var(--color-base-5);
@@ -108,8 +109,10 @@ label:has(.n-text-box){
   align-items: center;
   gap: var(--gap-2);
 
+  width: 100%;
+
   font-size: var(--font-size-2);
-  font-weight: var(--font-weight-1);
+  font-weight: var(--font-weight-2);
   line-height: 150%;
   letter-spacing: -0.02em;
 }
