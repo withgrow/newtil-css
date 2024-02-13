@@ -16,7 +16,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 	<div class="d:flex flex-wrap:wrap gap:10">
 		<div 
 			v-for="i in 7"
-			class="h:10 w:10 p:10 border border-color:main-1 border-rd:2 bg-color:base-1 d:flex ai:center jc:center"
+			class="h:10 w:10 p:10 border border-color:main-1 border-radius:2 bg-color:base-1 d:flex ai:center jc:center"
 			:class="`box-shadow:${i}`">
 			{{ i }}
 		</div>
@@ -62,7 +62,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 	<div class="d:flex flex-wrap:wrap gap:10">
 		<div 
 			v-for="i in 7"
-			class="h:10 w:10 p:10 border border-color:main-1 border-rd:2 bg-color:base-1 d:flex ai:center jc:center"
+			class="h:10 w:10 p:10 border border-color:main-1 border-radius:2 bg-color:base-1 d:flex ai:center jc:center"
 			:style="`box-shadow:${i}px ${i + 1}px ${i + 2}px 0.1px rgba(0, 0, 0, ${i * 0.1})`">
 			{{ i }}
 		</div>

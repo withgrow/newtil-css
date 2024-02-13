@@ -11,7 +11,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 이 컴포넌트들을 사용하면 `button`, `list`, `form`, `table` 등 다양한 컨텐츠를 빠르고 간편하게 스타일링할 수 있습니다.
 
 ::: raw
-<ul class="component-list n-list n-card-list n-list-item-border-rd:4 jc:space-around">
+<ul class="component-list n-list n-card-list n-list-item-border-radius:4 jc:space-around">
     <li>
         <a href="../component/font">
             <section>
@@ -74,7 +74,7 @@ import ExampleSection from "../components/ExampleSection.vue"
         <a href="../component/list">
             <section>
                 <h1>List</h1>
-                <ul class="n-list n-list-item-border-rd:3 n-list-item-p:2 gap:2 my:auto">
+                <ul class="n-list n-list-item-border-radius:3 n-list-item-p:2 gap:2 my:auto">
                     <li class="text-align:center"></li>
                     <li class="text-align:center"></li>
                     <li class="text-align:center"></li>

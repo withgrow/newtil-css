@@ -5,7 +5,7 @@
 
 ::: raw
 
-<ul class="component-list n-list n-card-list n-list-item-border-rd:4 jc:space-around">
+<ul class="component-list n-list n-card-list n-list-item-border-radius:4 jc:space-around">
     <li>
         <a href="../component/font">
             <section>
@@ -68,7 +68,7 @@
         <a href="../component/list">
             <section>
                 <h1>List</h1>
-                <ul class="n-list n-list-item-border-rd:3 n-list-item-p:2 gap:2 my:auto">
+                <ul class="n-list n-list-item-border-radius:3 n-list-item-p:2 gap:2 my:auto">
                     <li class="text-align:center"></li>
                     <li class="text-align:center"></li>
                     <li class="text-align:center"></li>

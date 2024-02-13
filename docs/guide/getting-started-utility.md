@@ -34,7 +34,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <!-- 위 코드는 아래와 같이 간결하게 표현할 수 있습니다. -->
 <div
-  class="w:full p:4 border border-rd:3 bg-color:base-1 box-shadow:3">
+  class="w:full p:4 border border-radius:3 bg-color:base-1 box-shadow:3">
   👋 안녕하세요!
 </div>
 ```

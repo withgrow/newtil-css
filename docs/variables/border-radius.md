@@ -17,22 +17,22 @@ import ExampleSection from "../components/ExampleSection.vue"
         <div 
             v-for="i in 5" 
             class="color:base-1 bg-color:main-1 h:10 w:10 p:10 d:flex ai:center jc:center " 
-            :class="`border-rd:${i-1}`" > 
+            :class="`border-radius:${i-1}`" > 
                 {{ i-1 }} 
         </div>
-        <div class="color:base-1 bg-color:main-1 border-rd:full h:10 w:10 p:10 d:flex ai:center jc:center">
+        <div class="color:base-1 bg-color:main-1 border-radius:full h:10 w:10 p:10 d:flex ai:center jc:center">
             full
         </div>
     </div>
 </ExampleSection>
 
 ```html
-<div class="border-rd:0 ...">0</div>
-<div class="border-rd:1 ...">1</div>
-<div class="border-rd:2 ...">2</div>
-<div class="border-rd:3 ...">3</div>
-<div class="border-rd:4 ...">4</div>
-<div class="border-rd:full ...">full</div>
+<div class="border-radius:0 ...">0</div>
+<div class="border-radius:1 ...">1</div>
+<div class="border-radius:2 ...">2</div>
+<div class="border-radius:3 ...">3</div>
+<div class="border-radius:4 ...">4</div>
+<div class="border-radius:full ...">full</div>
 ```
 
 ```css
@@ -62,11 +62,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 </ExampleSection>
 
 ```html
-<div class="border-rd:0 ...">0</div>
-<div class="border-rd:1 ...">1</div>
-<div class="border-rd:2 ...">2</div>
-<div class="border-rd:3 ...">3</div>
-<div class="border-rd:4 ...">4</div>
+<div class="border-radius:0 ...">0</div>
+<div class="border-radius:1 ...">1</div>
+<div class="border-radius:2 ...">2</div>
+<div class="border-radius:3 ...">3</div>
+<div class="border-radius:4 ...">4</div>
 ```
 
 ```css
