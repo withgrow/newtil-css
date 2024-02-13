@@ -551,7 +551,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 <div class="vp-raw">
     <ExampleSection class="mt:4">
-        <ul class="d:flex flex-d:column gap:2">
+        <ul class="d:flex fl-dir:column gap:2">
             <li>
                 <label>
                     <input type="checkbox" class="n-toggle n-toggle:check"/>
@@ -577,7 +577,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 ### 도트
 
 <div class="vp-raw">
-    <ExampleSection class="d:flex flex-d:column ai:center gap:4 mt:4">
+    <ExampleSection class="d:flex fl-dir:column ai:center gap:4 mt:4">
         <p class="font-weight:2">가장 좋아하는 동물을 선택해주세요!</p>
         <ul class="w:full d:flex jc:center gap:4">
             <li>
@@ -605,7 +605,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 ### 아웃라인 박스
 
 <div class="vp-raw">
-    <ExampleSection class="d:flex flex-d:column ai:center gap:4 mt:4">
+    <ExampleSection class="d:flex fl-dir:column ai:center gap:4 mt:4">
         <p class="n-font:h2">✨ 베스트 강의</p>
         <ul class="w:full d:flex jc:center gap:2">
             <li>

@@ -10,7 +10,7 @@
             <section>
                 <h1>Font</h1>
                 <div class="d:flex jc:center">
-                    <div class="fonts d:flex flex-d:column">
+                    <div class="fonts d:flex fl-dir:column">
                         <h1 class="n-font:title text-a:left">This is Title.</h1>
                         <h2 class="n-font:subtitle text-a:left">This is Subtitle.</h2>
                         <h1 class="n-font:h1 text-a:left">This is h1.</h1>
@@ -25,7 +25,7 @@
         <a href="../component/panel">
             <section>
                 <h1>Panel</h1>
-                <div class="border h:full d:flex flex-d:column font-size:1">
+                <div class="border h:full d:flex fl-dir:column font-size:1">
                     <div class="top-panel text-a:center bg-color:base-4 "></div>
                     <div class="flex-g:1 d:flex">
                         <div class="side-panel bg-color:base-2"></div>
@@ -105,11 +105,11 @@
             <section>
                 <h1>Form</h1>
                 <form class="n-form">
-                    <div class="flex-d:column">
+                    <div class="fl-dir:column">
                         <label class="as:start">label</label>
                         <input type="text" class="w:full" autofocus="true" />
                     </div>
-                    <div class="flex-d:column mt:2">
+                    <div class="fl-dir:column mt:2">
                         <label class="as:start">label</label>
                         <input type="text" class="w:full" />
                     </div>
@@ -121,7 +121,7 @@
         <a href="../component/modal">
             <section>
                 <h1>Modal</h1>
-                <div class="n-modal d:flex flex-d:column border w:full h:fit-content pos:relative z-index:1">
+                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative z-index:1">
                     <h1 class="text-a:center mt:2 font-w:2">Title</h1>
                     <p class="word-b:break-all mt:2">Lorem ipsum dolor sit amet.</p>
                     <div class="mt:auto">
@@ -142,7 +142,7 @@
         <a href="../component/toggle">
             <section>
                 <h1>Toggle</h1>
-                <div class="d:flex flex-d:column ai:center jc:center">
+                <div class="d:flex fl-dir:column ai:center jc:center">
                     <label class=""><input class="n-toggle n-toggle-size:3" type="checkbox"/></label>
                     <label class=""><input class="n-toggle n-toggle-size:3 mt:2" type="checkbox" checked/></label>
                 </div>

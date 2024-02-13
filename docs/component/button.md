@@ -82,7 +82,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 |`n-btn n-btn-size:lg`| `n-btn n-btn:lg`| |
 :::raw
 <ExampleSection>
-  <ul class="d:flex flex-d:column gap:4">
+  <ul class="d:flex fl-dir:column gap:4">
     <ul class="d:flex ai:flex-end gap:4">
       <li> 
         <button type="button" class="n-btn n-btn-size:1">Label</button>
