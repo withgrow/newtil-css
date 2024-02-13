@@ -22,9 +22,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 </ExampleSection>
 
 ```html
-<div class="font-w:1">Hello World!</div>
-<div class="font-w:2">Hello World!</div>
-<div class="font-w:3">Hello World!</div>
+<div class="font-weight:1">Hello World!</div>
+<div class="font-weight:2">Hello World!</div>
+<div class="font-weight:3">Hello World!</div>
 ```
 
 ```css
@@ -49,9 +49,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 </ExampleSection>
 
 ```html
-<div class="font-w:1">Hello World!</div>
-<div class="font-w:2">Hello World!</div>
-<div class="font-w:3">Hello World!</div>
+<div class="font-weight:1">Hello World!</div>
+<div class="font-weight:2">Hello World!</div>
+<div class="font-weight:3">Hello World!</div>
 ```
 
 ```css
