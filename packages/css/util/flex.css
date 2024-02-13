@@ -73,8 +73,8 @@
     .md\:flex-grow\:1,                      		.md\:fl-grow\:1 									{ flex-grow: 1 !important; }
 
     /* flex-shrink */
-    .md\:flex-shrink\:0,                    		.md\:fl-shirink\:0 									{ flex-shrink: 0 !important; }
-    .md\:flex-shrink\:1,                    		.md\:fl-shirink\:1 									{ flex-shrink: 1 !important; }
+    .md\:flex-shrink\:0,                    		.md\:fl-shrink\:0 									{ flex-shrink: 0 !important; }
+    .md\:flex-shrink\:1,                    		.md\:fl-shrink\:1 									{ flex-shrink: 1 !important; }
 
     /* flex-flow */
     .md\:flex-flow\:row,                    		.md\:fl-flow\:row 									{ flex-flow: row !important; }
@@ -115,8 +115,8 @@
     .lg\:flex-grow\:1,                      		.lg\:fl-grow\:1 									{ flex-grow: 1 !important; }
 
     /* flex-shrink */
-    .lg\:flex-shrink\:0,                    		.lg\:fl-shirink\:0 									{ flex-shrink: 0 !important; }
-    .lg\:flex-shrink\:1,                    		.lg\:fl-shirink\:1 									{ flex-shrink: 1 !important; }
+    .lg\:flex-shrink\:0,                    		.lg\:fl-shrink\:0 									{ flex-shrink: 0 !important; }
+    .lg\:flex-shrink\:1,                    		.lg\:fl-shrink\:1 									{ flex-shrink: 1 !important; }
 
     /* flex-flow */
     .lg\:flex-flow\:row,                    		.lg\:fl-flow\:row 									{ flex-flow: row !important; }
