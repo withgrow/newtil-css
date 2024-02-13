@@ -15,7 +15,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="w:full d:flex flex-wrap:wrap gap:2">
     <div v-for="i in 10"
-        class="color:base-1 border-radius:2 bg-color:main-1 w:10 h:10 p:7 d:flex ai:center jc:center"
+        class="color:base-1 border-radius:2 bg-color:main-1 w:5 h:5 d:flex ai:center jc:center"
         :class="`opacity:${i}`">
         {{ i }}
     </div>
@@ -53,7 +53,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <div class="w:full d:flex flex-wrap:wrap gap:2">
     <div v-for="i in 10"
-        class="color:base-1 border-radius:2 bg-color:main-1 w:10 h:10 p:7 d:flex ai:center jc:center"
+        class="color:base-1 border-radius:2 bg-color:main-1 w:5 h:5 d:flex ai:center jc:center"
         :style="`opacity:${0.5 + i * 0.05}`">
         {{ i }}
     </div>
