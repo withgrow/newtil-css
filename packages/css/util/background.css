@@ -9,26 +9,26 @@
  * ───────────────────────────────────    */
 
 /*--- background-attachment ------------------------------------------------------------------*/
-.background-attachment\:fixed,                      .bg-attachment\:fixed               .bg-attch\:fixed                    { background-attachment: fixed !important; }
-.background-attachment\:local,                      .bg-attachment\:local               .bg-attch\:local                    { background-attachment: local !important; }
-.background-attachment\:scroll,                     .bg-attachment\:scroll              .bg-attch\:scroll                   { background-attachment: scroll !important; }
-.background-attachment\:initial,                    .bg-attachment\:initial             .bg-attch\:initial                  { background-attachment: initial !important; }
-.background-attachment\:inherit,                    .bg-attachment\:inherit             .bg-attch\:inherit                  { background-attachment: inherit !important; }
+.background-attachment\:fixed,                      .bg-attachment\:fixed,              .bg-attch\:fixed                    { background-attachment: fixed !important; }
+.background-attachment\:local,                      .bg-attachment\:local,              .bg-attch\:local                    { background-attachment: local !important; }
+.background-attachment\:scroll,                     .bg-attachment\:scroll,             .bg-attch\:scroll                   { background-attachment: scroll !important; }
+.background-attachment\:initial,                    .bg-attachment\:initial,            .bg-attch\:initial                  { background-attachment: initial !important; }
+.background-attachment\:inherit,                    .bg-attachment\:inherit,            .bg-attch\:inherit                  { background-attachment: inherit !important; }
 
 @media (min-width: 768px) {
-    .md\:background-attachment\:fixed,              .md\:bg-attachment\:fixed           .md\:bg-attch\:fixed                { background-attachment: fixed !important; }
-    .md\:background-attachment\:local,              .md\:bg-attachment\:local           .md\:bg-attch\:local                { background-attachment: local !important; }
-    .md\:background-attachment\:scroll,             .md\:bg-attachment\:scroll          .md\:bg-attch\:scroll               { background-attachment: scroll !important; }
-    .md\:background-attachment\:initial,            .md\:bg-attachment\:initial         .md\:bg-attch\:initial              { background-attachment: initial !important; }
-    .md\:background-attachment\:inherit,            .md\:bg-attachment\:inherit         .md\:bg-attch\:inherit              { background-attachment: inherit !important; }
+    .md\:background-attachment\:fixed,              .md\:bg-attachment\:fixed,          .md\:bg-attch\:fixed                { background-attachment: fixed !important; }
+    .md\:background-attachment\:local,              .md\:bg-attachment\:local,          .md\:bg-attch\:local                { background-attachment: local !important; }
+    .md\:background-attachment\:scroll,             .md\:bg-attachment\:scroll,         .md\:bg-attch\:scroll               { background-attachment: scroll !important; }
+    .md\:background-attachment\:initial,            .md\:bg-attachment\:initial,        .md\:bg-attch\:initial              { background-attachment: initial !important; }
+    .md\:background-attachment\:inherit,            .md\:bg-attachment\:inherit,        .md\:bg-attch\:inherit              { background-attachment: inherit !important; }
 }
 
 @media (min-width: 1200px) {
-    .lg\:background-attachment\:fixed,              .lg\:bg-attachment\:fixed           .lg\:bg-attch\:fixed                { background-attachment : fixed !important; }
-    .lg\:background-attachment\:local,              .lg\:bg-attachment\:local           .lg\:bg-attch\:local                { background-attachment : local !important; }
-    .lg\:background-attachment\:scroll,             .lg\:bg-attachment\:scroll          .lg\:bg-attch\:scroll               { background-attachment : scroll !important; }
-    .lg\:background-attachment\:initial,            .lg\:bg-attachment\:initial         .lg\:bg-attch\:initial              { background-attachment : initial !important; }
-    .lg\:background-attachment\:inherit,            .lg\:bg-attachment\:inherit         .lg\:bg-attch\:inherit              { background-attachment : inherit !important; }
+    .lg\:background-attachment\:fixed,              .lg\:bg-attachment\:fixed,          .lg\:bg-attch\:fixed                { background-attachment : fixed !important; }
+    .lg\:background-attachment\:local,              .lg\:bg-attachment\:local,          .lg\:bg-attch\:local                { background-attachment : local !important; }
+    .lg\:background-attachment\:scroll,             .lg\:bg-attachment\:scroll,         .lg\:bg-attch\:scroll               { background-attachment : scroll !important; }
+    .lg\:background-attachment\:initial,            .lg\:bg-attachment\:initial,        .lg\:bg-attch\:initial              { background-attachment : initial !important; }
+    .lg\:background-attachment\:inherit,            .lg\:bg-attachment\:inherit,        .lg\:bg-attch\:inherit              { background-attachment : inherit !important; }
 }
 
 /*--- background-clip ------------------------------------------------------------------*/
@@ -155,18 +155,18 @@
 }
 
 /*--- background-position ------------------------------------------------------------------*/
-.background-position\:top,                          .bg-position\:top                   .bg-pos\:top { background-position: top !important; }
-.background-position\:bottom,                       .bg-position\:bottom                .bg-pos\:bottom { background-position: bottom !important; }
-.background-position\:left,                         .bg-position\:left                  .bg-pos\:left { background-position: left !important; }
-.background-position\:left-bottom,                  .bg-position\:left-bottom           .bg-pos\:left-bottom { background-position: left bottom !important; }
-.background-position\:left-top,                     .bg-position\:left-top              .bg-pos\:left-top { background-position: left top !important; }
-.background-position\:right,                        .bg-position\:right                 .bg-pos\:right { background-position: right !important; }
-.background-position\:right-bottom,                 .bg-position\:right-bottom          .bg-pos\:right-bottom { background-position: right bottom !important; }
-.background-position\:right-top,                    .bg-position\:right-top             .bg-pos\:right-top { background-position: right top !important; }
-.background-position\:center,                       .bg-position\:center                .bg-pos\:center { background-position: center !important; }
-.background-position\:inherit,                      .bg-position\:inherit               .bg-pos\:inherit { background-position: inherit !important; }
-.background-position\:initial,                      .bg-position\:initial               .bg-pos\:initial { background-position: initial !important; }
-.background-position\:unset,                        .bg-position\:unset                 .bg-pos\:unset { background-position: unset !important; }
+.background-position\:top,                          .bg-position\:top,                  .bg-pos\:top { background-position: top !important; }
+.background-position\:bottom,                       .bg-position\:bottom,               .bg-pos\:bottom { background-position: bottom !important; }
+.background-position\:left,                         .bg-position\:left,                 .bg-pos\:left { background-position: left !important; }
+.background-position\:left-bottom,                  .bg-position\:left-bottom,          .bg-pos\:left-bottom { background-position: left bottom !important; }
+.background-position\:left-top,                     .bg-position\:left-top,             .bg-pos\:left-top { background-position: left top !important; }
+.background-position\:right,                        .bg-position\:right,                .bg-pos\:right { background-position: right !important; }
+.background-position\:right-bottom,                 .bg-position\:right-bottom,         .bg-pos\:right-bottom { background-position: right bottom !important; }
+.background-position\:right-top,                    .bg-position\:right-top,            .bg-pos\:right-top { background-position: right top !important; }
+.background-position\:center,                       .bg-position\:center,               .bg-pos\:center { background-position: center !important; }
+.background-position\:inherit,                      .bg-position\:inherit,              .bg-pos\:inherit { background-position: inherit !important; }
+.background-position\:initial,                      .bg-position\:initial,              .bg-pos\:initial { background-position: initial !important; }
+.background-position\:unset,                        .bg-position\:unset,                .bg-pos\:unset { background-position: unset !important; }
 
 @media (min-width: 768px) {
     .md\:background-position\:top,                  .md\:bg-position\:top,              .md\:bg-pos\:top { background-position : top !important; }
