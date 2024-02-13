@@ -1,6 +1,6 @@
 {
   "name": "newtil-css",
-  "version": "0.1.8",
+  "version": "0.1.10",
   "description": "Utility based CSS",
   "main": "dist/style.css",
   "type": "module",
@@ -25,5 +25,16 @@
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-postcss": "^4.0.2",
     "vitepress": "^1.0.0-rc.36"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newlecture-corp/newtil-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newlecture-corp/newtil-css/issues"
+  },
+  "homepage": "https://github.com/newlecture-corp/newtil-css#readme"
 }
