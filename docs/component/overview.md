@@ -4,6 +4,7 @@
 아래 컴포넌트를 클릭하여 자세한 사용법을 확인해보세요.
 
 ::: raw
+
 <ul class="component-list n-list n-card-list n-list-item-border-rd:4 jc:space-around">
     <li>
         <a href="../component/font">
@@ -121,7 +122,7 @@
         <a href="../component/modal">
             <section>
                 <h1>Modal</h1>
-                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative z-index:1">
+                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative">
                     <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
                     <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
                     <div class="mt:auto">
@@ -129,7 +130,7 @@
                             label
                         </button>
                     </div>
-                    <div class="pos:absolute top:2 right:4">
+                    <div class="pos:absolute" style="top: 4px; right: 8px">
                         <button type="button" class="btn p:0">
                             <span class="icon icon:x icon:2">Close</span>
                         </button>
