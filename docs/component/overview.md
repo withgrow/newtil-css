@@ -123,7 +123,7 @@
                 <h1>Modal</h1>
                 <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative z-index:1">
                     <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
-                    <p class="word-b:break-all mt:2">Lorem ipsum dolor sit amet.</p>
+                    <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
                     <div class="mt:auto">
                         <button class="n-btn n-btn-size:1 w:full">
                             label
