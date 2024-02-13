@@ -27,7 +27,7 @@
                 <h1>Panel</h1>
                 <div class="border h:full d:flex fl-dir:column font-size:1">
                     <div class="top-panel text-a:center bg-color:base-4 "></div>
-                    <div class="flex-g:1 d:flex">
+                    <div class="fl-grow:1 d:flex">
                         <div class="side-panel bg-color:base-2"></div>
                         <div></div>
                     </div>
