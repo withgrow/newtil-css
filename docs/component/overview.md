@@ -11,11 +11,11 @@
                 <h1>Font</h1>
                 <div class="d:flex jc:center">
                     <div class="fonts d:flex fl-dir:column">
-                        <h1 class="n-font:title text-a:left">This is Title.</h1>
-                        <h2 class="n-font:subtitle text-a:left">This is Subtitle.</h2>
-                        <h1 class="n-font:h1 text-a:left">This is h1.</h1>
-                        <h2 class="n-font:h2 text-a:left">This is h2.</h2>
-                        <h3 class="n-font:h3 text-a:left">This is h3.</h3>
+                        <h1 class="n-font:title text-align:left">This is Title.</h1>
+                        <h2 class="n-font:subtitle text-align:left">This is Subtitle.</h2>
+                        <h1 class="n-font:h1 text-align:left">This is h1.</h1>
+                        <h2 class="n-font:h2 text-align:left">This is h2.</h2>
+                        <h3 class="n-font:h3 text-align:left">This is h3.</h3>
                     </div>
                 </div>
             </section>
@@ -26,7 +26,7 @@
             <section>
                 <h1>Panel</h1>
                 <div class="border h:full d:flex fl-dir:column font-size:1">
-                    <div class="top-panel text-a:center bg-color:base-4 "></div>
+                    <div class="top-panel text-align:center bg-color:base-4 "></div>
                     <div class="fl-grow:1 d:flex">
                         <div class="side-panel bg-color:base-2"></div>
                         <div></div>
@@ -68,9 +68,9 @@
             <section>
                 <h1>List</h1>
                 <ul class="n-list n-list-item-border-rd:3 n-list-item-p:2 gap:2 my:auto">
-                    <li class="text-a:center"></li>
-                    <li class="text-a:center"></li>
-                    <li class="text-a:center"></li>
+                    <li class="text-align:center"></li>
+                    <li class="text-align:center"></li>
+                    <li class="text-align:center"></li>
                 </ul>
             </section>
         </a>
@@ -122,7 +122,7 @@
             <section>
                 <h1>Modal</h1>
                 <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative z-index:1">
-                    <h1 class="text-a:center mt:2 font-w:2">Title</h1>
+                    <h1 class="text-align:center mt:2 font-w:2">Title</h1>
                     <p class="word-b:break-all mt:2">Lorem ipsum dolor sit amet.</p>
                     <div class="mt:auto">
                         <button class="n-btn n-btn-size:1 w:full">

@@ -3,7 +3,7 @@
 <section class="n-modal example" tabindex="-1">
   <h1 class="n-font:h3 font-w:3">모달 예시</h1>
 
-  <div class="mt:8 text-a:center">Hello World</div>
+  <div class="mt:8 text-align:center">Hello World</div>
 
   <div class="d:flex fl-dir:column gap:2 mt:8 w:10">
     <button class="n-btn n-btn:3">확인</button>
