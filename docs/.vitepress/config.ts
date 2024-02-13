@@ -15,7 +15,7 @@ export default defineConfig({
       "link",
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.10/dist/style.css",
+        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.11/dist/style.css",
       },
     ],
     ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],

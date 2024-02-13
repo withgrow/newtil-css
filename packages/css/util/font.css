@@ -76,9 +76,9 @@
   .md\:font-style\:unset         { font-style: unset !important; }
 
   /* font-weight */
-  .md\:font-weight\:1            { font-weight: var(--font-weight-1); }
-  .md\:font-weight\:2            { font-weight: var(--font-weight-2); }
-  .md\:font-weight\:3            { font-weight: var(--font-weight-3); }
+  .md\:font-weight\:1            { font-weight: var(--font-weight-1) !important; }
+  .md\:font-weight\:2            { font-weight: var(--font-weight-2) !important; }
+  .md\:font-weight\:3            { font-weight: var(--font-weight-3) !important; }
 }
 
 /* ---- large ------------------------------------------------- */
@@ -115,41 +115,41 @@
   .lg\:font-style\:unset         { font-style: unset !important; }
 
   /* font-weight */
-  .lg\:font-weight\:1            { font-weight: var(--font-weight-1); }
-  .lg\:font-weight\:2            { font-weight: var(--font-weight-2); }
-  .lg\:font-weight\:3            { font-weight: var(--font-weight-3); }
+  .lg\:font-weight\:1            { font-weight: var(--font-weight-1) !important; }
+  .lg\:font-weight\:2            { font-weight: var(--font-weight-2) !important; }
+  .lg\:font-weight\:3            { font-weight: var(--font-weight-3) !important; }
 }
 
-.font-size\:1 { font-size: var(--font-size-1); }
-.font-size\:2 { font-size: var(--font-size-2); }
-.font-size\:3 { font-size: var(--font-size-3); }
-.font-size\:4 { font-size: var(--font-size-4); }
-.font-size\:5 { font-size: var(--font-size-5); }
-.font-size\:6 { font-size: var(--font-size-6); }
-.font-size\:7 { font-size: var(--font-size-7); }
-.font-size\:8 { font-size: var(--font-size-8); }
-.font-size\:9 { font-size: var(--font-size-9); }
+.font-size\:1 { font-size: var(--font-size-1) !important; }
+.font-size\:2 { font-size: var(--font-size-2) !important; }
+.font-size\:3 { font-size: var(--font-size-3) !important; }
+.font-size\:4 { font-size: var(--font-size-4) !important; }
+.font-size\:5 { font-size: var(--font-size-5) !important; }
+.font-size\:6 { font-size: var(--font-size-6) !important; }
+.font-size\:7 { font-size: var(--font-size-7) !important; }
+.font-size\:8 { font-size: var(--font-size-8) !important; }
+.font-size\:9 { font-size: var(--font-size-9) !important; }
 
 @media (min-width: 768px) {
-  .md\:font-size\:1 { font-size: var(--font-size-1); }
-  .md\:font-size\:2 { font-size: var(--font-size-2); }
-  .md\:font-size\:3 { font-size: var(--font-size-3); }
-  .md\:font-size\:4 { font-size: var(--font-size-4); }
-  .md\:font-size\:5 { font-size: var(--font-size-5); }
-  .md\:font-size\:6 { font-size: var(--font-size-6); }
-  .md\:font-size\:7 { font-size: var(--font-size-7); }
-  .md\:font-size\:8 { font-size: var(--font-size-8); }
-  .md\:font-size\:9 { font-size: var(--font-size-9); }
+  .md\:font-size\:1 { font-size: var(--font-size-1) !important; }
+  .md\:font-size\:2 { font-size: var(--font-size-2) !important; }
+  .md\:font-size\:3 { font-size: var(--font-size-3) !important; }
+  .md\:font-size\:4 { font-size: var(--font-size-4) !important; }
+  .md\:font-size\:5 { font-size: var(--font-size-5) !important; }
+  .md\:font-size\:6 { font-size: var(--font-size-6) !important; }
+  .md\:font-size\:7 { font-size: var(--font-size-7) !important; }
+  .md\:font-size\:8 { font-size: var(--font-size-8) !important; }
+  .md\:font-size\:9 { font-size: var(--font-size-9) !important; }
 }
 
 @media (min-width: 1200px) {
-  .lg\:font-size\:1 { font-size: var(--font-size-1); }
-  .lg\:font-size\:2 { font-size: var(--font-size-2); }
-  .lg\:font-size\:3 { font-size: var(--font-size-3); }
-  .lg\:font-size\:4 { font-size: var(--font-size-4); }
-  .lg\:font-size\:5 { font-size: var(--font-size-5); }
-  .lg\:font-size\:6 { font-size: var(--font-size-6); }
-  .lg\:font-size\:7 { font-size: var(--font-size-7); }
-  .lg\:font-size\:8 { font-size: var(--font-size-8); }
-  .lg\:font-size\:9 { font-size: var(--font-size-9); }
+  .lg\:font-size\:1 { font-size: var(--font-size-1) !important; }
+  .lg\:font-size\:2 { font-size: var(--font-size-2) !important; }
+  .lg\:font-size\:3 { font-size: var(--font-size-3) !important; }
+  .lg\:font-size\:4 { font-size: var(--font-size-4) !important; }
+  .lg\:font-size\:5 { font-size: var(--font-size-5) !important; }
+  .lg\:font-size\:6 { font-size: var(--font-size-6) !important; }
+  .lg\:font-size\:7 { font-size: var(--font-size-7) !important; }
+  .lg\:font-size\:8 { font-size: var(--font-size-8) !important; }
+  .lg\:font-size\:9 { font-size: var(--font-size-9) !important; }
 }
