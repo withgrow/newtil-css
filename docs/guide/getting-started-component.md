@@ -159,7 +159,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 </ul>
 :::
 
-<p class="c:base-5">▲ 위 컴포넌트를 클릭하여 자세한 사용법을 알아보세요!</p>
+<p class="color:base-5">▲ 위 컴포넌트를 클릭하여 자세한 사용법을 알아보세요!</p>
 
 ## 간단한 사용 예시
 

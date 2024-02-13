@@ -13,14 +13,14 @@
 주요 색을 나타냅니다.
 
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:main-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center color:base-1 bg-color:main-${item}`" > {{ item }} </div>
 </div>
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:main-1 c:base-1 ...">1</div>
-    <div class="bg-color:main-2 c:base-1 ...">2</div>
-    <div class="bg-color:main-3 c:base-1 ...">3</div>
+    <div class="bg-color:main-1 color:base-1 ...">1</div>
+    <div class="bg-color:main-2 color:base-1 ...">2</div>
+    <div class="bg-color:main-3 color:base-1 ...">3</div>
 </div>
 ```
 
@@ -41,14 +41,14 @@
 주요 색을 보조하는 색을 나타냅니다.
 
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:sub-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center color:base-1 bg-color:sub-${item}`" > {{ item }} </div>
 </div>
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:sub-1 c:base-1 ...">1</div>
-    <div class="bg-color:sub-2 c:base-1 ...">2</div>
-    <div class="bg-color:sub-3 c:base-1 ...">3</div>
+    <div class="bg-color:sub-1 color:base-1 ...">1</div>
+    <div class="bg-color:sub-2 color:base-1 ...">2</div>
+    <div class="bg-color:sub-3 color:base-1 ...">3</div>
 </div>
 ```
 
@@ -69,14 +69,14 @@
 경고, 오류 등 강조하는 색을 나타냅니다.
 
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:accent-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center color:base-1 bg-color:accent-${item}`" > {{ item }} </div>
 </div>
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:accent-1 c:base-1 ...">1</div>
-    <div class="bg-color:accent-2 c:base-1 ...">2</div>
-    <div class="bg-color:accent-3 c:base-1 ...">3</div>
+    <div class="bg-color:accent-1 color:base-1 ...">1</div>
+    <div class="bg-color:accent-2 color:base-1 ...">2</div>
+    <div class="bg-color:accent-3 color:base-1 ...">3</div>
 </div>
 ```
 
@@ -97,16 +97,16 @@
 중립적인 색입니다.
 
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 10}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center c:base-1 bg-color:base-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 10}, (v, i) => i + 1)" class="h:10 w:10" :class="`d:flex ai:center jc:center color:base-1 bg-color:base-${item}`" > {{ item }} </div>
 </div>
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:base-1 c:base-1 ...">1</div>
-    <div class="bg-color:base-2 c:base-1 ...">2</div>
-    <div class="bg-color:base-3 c:base-1 ...">3</div>
+    <div class="bg-color:base-1 color:base-1 ...">1</div>
+    <div class="bg-color:base-2 color:base-1 ...">2</div>
+    <div class="bg-color:base-3 color:base-1 ...">3</div>
     <!-- ... -->
-    <div class="bg-color:base-10 c:base-1 ...">10</div>
+    <div class="bg-color:base-10 color:base-1 ...">10</div>
 </div>
 ```
 
@@ -141,22 +141,22 @@
 다음과 같이 테마 색상을 재정의할 수 있습니다.
 
 <div class="d:flex">
-  <div class="h:10 w:10 d:flex ai:center jc:center c:base-1" style="background-color: #FFDD54">
+  <div class="h:10 w:10 d:flex ai:center jc:center color:base-1" style="background-color: #FFDD54">
     1
   </div>
-  <div class="h:10 w:10 d:flex ai:center jc:center c:base-1" style="background-color: #FFD322">
+  <div class="h:10 w:10 d:flex ai:center jc:center color:base-1" style="background-color: #FFD322">
     2
   </div>
-  <div class="h:10 w:10 d:flex ai:center jc:center c:base-1" style="background-color: #F0C000">
+  <div class="h:10 w:10 d:flex ai:center jc:center color:base-1" style="background-color: #F0C000">
     3
   </div>
 </div>
 
 ```html
 <div class="d:flex">
-    <div class="bg-color:main-1 c:base-1 ...">1</div>
-    <div class="bg-color:main-2 c:base-1 ...">2</div>
-    <div class="bg-color:main-3 c:base-1 ...">3</div>
+    <div class="bg-color:main-1 color:base-1 ...">1</div>
+    <div class="bg-color:main-2 color:base-1 ...">2</div>
+    <div class="bg-color:main-3 color:base-1 ...">3</div>
 </div>
 ```
 

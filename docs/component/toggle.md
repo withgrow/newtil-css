@@ -565,7 +565,7 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
                 <label>
                     <input type="checkbox" class="n-toggle n-toggle:check"/>
                     <span span class="font-size:2 font-weight:2 d:flex gap:1">
-                        <span class="c:base-5">(선택)</span>
+                        <span class="color:base-5">(선택)</span>
                         <span>마케팅 정보 수신에 동의합니다.</span>
                     </span>
                 </label>
