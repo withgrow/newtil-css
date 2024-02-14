@@ -18,7 +18,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <template #h>메인 색상</template>
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:4 w:4" :class="`d:flex ai:center jc:center color:base-1 bg-color:main-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:1 w:1" :class="`d:flex ai:center jc:center color:base-1 bg-color:main-${item}`" > {{ item }} </div>
 </div>
 </ExampleSection>
 
@@ -49,7 +49,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <template #h>보조 색상</template>
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:4 w:4" :class="`d:flex ai:center jc:center color:base-1 bg-color:sub-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:1 w:1" :class="`d:flex ai:center jc:center color:base-1 bg-color:sub-${item}`" > {{ item }} </div>
 </div>
 </ExampleSection>
 
@@ -80,7 +80,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <template #h>강조 색상</template>
 <div class="d:flex">
-  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:4 w:4" :class="`d:flex ai:center jc:center color:base-1 bg-color:accent-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 3}, (v, i) => i + 1)" class="h:1 w:1" :class="`d:flex ai:center jc:center color:base-1 bg-color:accent-${item}`" > {{ item }} </div>
 </div>
 </ExampleSection>
 
@@ -111,7 +111,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <template #h>중립 색상</template>
 <div class="d:flex of-x:auto">
-  <div v-for="item of Array.from({length: 10}, (v, i) => i + 1)" class="h:4 w:4" :class="`d:flex ai:center jc:center color:base-1 bg-color:base-${item}`" > {{ item }} </div>
+  <div v-for="item of Array.from({length: 10}, (v, i) => i + 1)" class="h:1 w:1" :class="`d:flex ai:center jc:center color:base-1 bg-color:base-${item}`" > {{ item }} </div>
 </div>
 </ExampleSection>
 
@@ -158,13 +158,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 <ExampleSection>
 <template #h>색상 재정의</template>
 <div class="d:flex">
-  <div class="h:4 w:4 d:flex ai:center jc:center color:base-1" style="background-color: #FFDD54">
+  <div class="h:1 w:1 d:flex ai:center jc:center color:base-1" style="background-color: #FFDD54">
     1
   </div>
-  <div class="h:4 w:4 d:flex ai:center jc:center color:base-1" style="background-color: #FFD322">
+  <div class="h:1 w:1 d:flex ai:center jc:center color:base-1" style="background-color: #FFD322">
     2
   </div>
-  <div class="h:4 w:4 d:flex ai:center jc:center color:base-1" style="background-color: #F0C000">
+  <div class="h:1 w:1 d:flex ai:center jc:center color:base-1" style="background-color: #F0C000">
     3
   </div>
 </div>

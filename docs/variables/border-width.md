@@ -14,7 +14,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
     <div class="d:flex gap:3">
-        <div v-for="i in 3" class="h:5 w:5 d:flex ai:center jc:center color:base-10 bg-color:base-1 border border-radius:2 border-color:main-1" :class="`border-width:${i}`" > {{ i }} </div>
+        <div v-for="i in 3" class="h:2 w:2 d:flex ai:center jc:center color:base-10 bg-color:base-1 border border-radius:2 border-color:main-1" :class="`border-width:${i}`" > {{ i }} </div>
     </div>
 </ExampleSection>
 
@@ -48,7 +48,7 @@ import ExampleSection from "../components/ExampleSection.vue"
     <div class="d:flex gap:3">
         <div 
             v-for="i in 3" 
-            class="h:5 w:5 d:flex ai:center jc:center color:base-10 border-radius:2 bg-color:base-1" 
+            class="h:2 w:2 d:flex ai:center jc:center color:base-10 border-radius:2 bg-color:base-1" 
             :style="`border:solid ${i+3}px #99c842`" >
             {{ i + 3 }} 
         </div>

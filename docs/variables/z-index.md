@@ -13,9 +13,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 다섯 단계의 순서값이 기본 제공됩니다.
 
 <ExampleSection>
-<div class="w:full d:flex jc:center of:auto">
+<div class="w:100p d:flex jc:center of:auto">
     <div v-for="i in 5"
-        class="color:base-10 border border-color:main-1 border-radius:2 bg-color:base-1 w:5 h:5 d:flex ai:center jc:center box"
+        class="color:base-10 border border-color:main-1 border-radius:2 bg-color:base-1 w:1 h:1 d:flex ai:center jc:center box"
         :class="`z-index:${6-i}`">
         {{ 6-i }}
     </div>
@@ -45,9 +45,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 다음과 같이 단계를 재정의하거나 추가할 수 있습니다.
 
 <ExampleSection>
-<div class="w:full d:flex jc:center of:auto">
+<div class="w:100p d:flex jc:center of:auto">
     <div v-for="i in [1, 2, 3, 7, 6, 5, 4]"
-        class="color:base-10 border border-color:main-1 border-radius:2 bg-color:base-1 w:5 h:5 d:flex ai:center jc:center box"
+        class="color:base-10 border border-color:main-1 border-radius:2 bg-color:base-1 w:1 h:1 d:flex ai:center jc:center box"
         :style="`z-index:${i}`">
         {{ i }}
     </div>
