@@ -32,7 +32,7 @@ import ExampleSection from "../components/ExampleSection.vue"
         <a href="../component/panel">
             <section>
                 <h1>Panel</h1>
-                <div class="border h:full d:flex fl-dir:column font-size:1">
+                <div class="border h:100p d:flex fl-dir:column font-size:1">
                     <div class="top-panel text-align:center bg-color:base-4 "></div>
                     <div class="fl-grow:1 d:flex">
                         <div class="side-panel bg-color:base-2"></div>
@@ -47,7 +47,7 @@ import ExampleSection from "../components/ExampleSection.vue"
             <section>
                 <h1>Container</h1>
                 <div class="bg-color:base-2 border">
-                    <div class="container bg-color:base-1 h:full mx:auto"></div>
+                    <div class="container bg-color:base-1 h:100p mx:auto"></div>
                 </div>
             </section>
         </a>
@@ -128,11 +128,11 @@ import ExampleSection from "../components/ExampleSection.vue"
         <a href="../component/modal">
             <section>
                 <h1>Modal</h1>
-                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative">
+                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1">
                     <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
                     <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
                     <div class="mt:auto">
-                        <button class="n-btn n-btn-size:1 w:full">
+                        <button class="n-btn n-btn-size:1 w:100p">
                             label
                         </button>
                     </div>
@@ -171,8 +171,8 @@ import ExampleSection from "../components/ExampleSection.vue"
 ```
 
 <ExampleSection>
-    <template #h>버튼 사용하기</template>
-    <button class="n-btn">Button</button>
+  <template #h>버튼 사용하기</template>
+  <button class="n-btn">Button</button>
 </ExampleSection>
 
 또한, `newtil-css`의 컴포넌트는 다양한 레이아웃과 스타일을 유연하게 적용할 수 있는 클래스 목록을 함께 제공합니다. 다음은 `List` 컴포넌트의 사용 예시입니다.
@@ -181,49 +181,47 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html{1}
 <ul class="n-list">
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>consectetur adipiscing elit</li>
-    <li>Morbi sed facilisis augue</li>
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>consectetur adipiscing elit</li>
+  <li>Morbi sed facilisis augue</li>
 </ul>
 ```
 
 ::: raw
 <ExampleSection>
-<template #h>리스트 사용하기</template>
-
-<ul class="n-list">
-<li>Lorem ipsum dolor sit amet</li>
-<li>consectetur adipiscing elit</li>
-<li>Morbi sed facilisis augue</li>
-</ul>
+  <template #h>리스트 사용하기</template>
+  <ul class="n-list">
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>consectetur adipiscing elit</li>
+    <li>Morbi sed facilisis augue</li>
+  </ul>
 </ExampleSection>
 :::
 
 ### List 변형
 
 ```html{1}
-    <ul class="n-list n-tile-list">
-        <li>Lorem</li>
-        <li>Ipsum</li>
-        <li>Dolor</li>
-        <!-- ... -->
-    </ul>
+<ul class="n-list n-tile-list">
+  <li>Lorem</li>
+  <li>Ipsum</li>
+  <li>Dolor</li>
+  <!-- ... -->
+</ul>
 ```
 
 ::: raw
 <ExampleSection>
-<template #h>타일 리스트 사용하기</template>
-
-<ul class="n-list n-tile-list">
-<li>Lorem</li>
-<li>Ipsum</li>
-<li>Dolor</li>
-<li>Sit</li>
-<li>Amet</li>
-<li>Consecte</li>
-<li>Elit</li>
-<li>Morbi</li>
-</ul>
+  <template #h>타일 리스트 사용하기</template>
+  <ul class="n-list n-tile-list">
+    <li>Lorem</li>
+    <li>Ipsum</li>
+    <li>Dolor</li>
+    <li>Sit</li>
+    <li>Amet</li>
+    <li>Consecte</li>
+    <li>Elit</li>
+    <li>Morbi</li>
+  </ul>
 </ExampleSection>
 :::
 
@@ -233,71 +231,79 @@ import ExampleSection from "../components/ExampleSection.vue"
 추가 제안을 희망하는 경우, [깃허브를 통해 이슈로 제출](https://github.com/newlecture-corp/newtil-css/issues)해 주시기 바랍니다.
 :::
 
-## 컴포넌트 커스터마이징하기
-
-`newtil-css`에서 제공하는 유틸리티 클래스를 활용하여 컴포넌트를 나만의 스타일로 커스터마이징할 수 있습니다.
+**컴포넌트 목록**
+- [Font](../component/font)
+- [Panel](../component/panel)
+- [Container](../component/container)
+- [Item](../component/item)
+- [Button](../component/button)
+- [List](../component/list)
+- [Table](../component/table)
+- [Form](../component/form)
+- [Modal](../component/modal)
+- [Toggle](../component/toggle)
 
 <style scoped>
-    .component-list > li {
-        width:218px;
-        height: 250px;
-        cursor: pointer;
-        transition: box-shadow 0.2s
-    }
+  .component-list > li {
+      width:218px;
+      height: 250px;
+      cursor: pointer;
+      transition: box-shadow 0.2s
+  }
 
-    .component-list > li:hover {
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
+  .component-list > li:hover {
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
-    /* section */
-    .component-list section {
-        width: 100%;
-        height: 100%;
+  /* section */
+  .component-list section {
+      width: 100%;
+      height: 100%;
 
-        display: flex;
-        flex-direction: column;
-    }
+      display: flex;
+      flex-direction: column;
+  }
 
-    .component-list section > h1 {
-        text-align: center;
-        font-size: 18px;
-        font-weight: 700;
-    }
+  .component-list section > h1 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+  }
 
-    .component-list section > :nth-child(2) {
-        margin-top: 16px;
-    } 
+  .component-list section > :nth-child(2) {
+      margin-top: 16px;
+  } 
 
-    .component-list section > :nth-child(2):is(div) {
-        flex-grow: 1;
-    }
+  .component-list section > :nth-child(2):is(div) {
+      flex-grow: 1;
+  }
 
-    /* font */
-    .fonts {
-        transform: scale(0.8);
-        /* transform-origin: left; */
-    }
+  /* font */
+  .fonts {
+      transform: scale(0.8);
+      /* transform-origin: left; */
+  }
 
-    /* container */
-    .container {
-        width: 80%;
-    }
+  /* container */
+  .container {
+      width: 80%;
+  }
 
-    /* modal */
-    .n-modal {
-        position: relative;
-        top: 0;
-        right: 0;
-        transform: translate(0, 0);
-    }
+  /* modal */
+  .n-modal {
+      position: relative;
+      top: 0;
+      right: 0;
+      transform: translate(0, 0);
+  }
 
-    /* panel */
-    .top-panel {
-        height: 20%;
-    }
+  /* panel */
+  .top-panel {
+      height: 20%;
+  }
 
-    .side-panel {
-        width: 25%;
-        height: 100%;
-    }
+  .side-panel {
+      width: 25%;
+      height: 100%;
+  }
 </style>
