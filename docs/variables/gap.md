@@ -29,8 +29,8 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
     <div v-for="i in 10" 
         class="d:flex mt:2">
         <div :class="`d:flex gap:${i} bg bg-color:base-1 border-radius:2 color:base-1`">
-            <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center">{{i}}</div>
-            <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+            <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center">{{i}}</div>
+            <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
         </div>
     </div>
 </div>
@@ -38,21 +38,21 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```html{1,5,9,14}
 <div class="d:flex gap:1">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:2">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:3">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 <!-- ... -->
 <div class="d:flex gap:10">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 ```
 
@@ -83,8 +83,8 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
         class="d:flex mt:2">
         <div class="color:base-1 bg bg-color:base-1 border-radius:2 d:flex"
             :style="`gap: ${4 * i + 40}px`">
-            <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center">{{i + 10}}</div>
-            <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+            <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center">{{i + 10}}</div>
+            <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
         </div>
     </div>
 </div>
@@ -92,37 +92,37 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```html{1,5,9,14}
 <div class="d:flex gap:11">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:12">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 <div class="d:flex gap:13">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 <!-- ... -->
 <div class="d:flex gap:20">
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
-    <div class="bg-color:main-1 border-radius:2 w:5 h:5 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
+    <div class="bg-color:main-1 border-radius:2 w:1 h:1 d:flex ai:center jc:center"></div>
 </div>
 ```
 
 ```css
 :root {
     /* ... */
-    --gap-11: 2.75rem; /* 44px */ /* [!code ++] */
-    --gap-12: 3rem; /* 48px */ /* [!code ++] */
-    --gap-13: 3.25rem; /* 52px */ /* [!code ++] */
-    --gap-14: 3.5rem; /* 56px */ /* [!code ++] */
-    --gap-15: 3.75rem; /* 60px */ /* [!code ++] */
-    --gap-16: 4rem; /* 64px */ /* [!code ++] */
-    --gap-17: 4.25rem; /* 68px */ /* [!code ++] */
-    --gap-18: 4.5rem; /* 72px */ /* [!code ++] */
-    --gap-19: 4.75rem; /* 76px */ /* [!code ++] */
-    --gap-20: 5rem; /* 80px */ /* [!code ++] */
+    --gap-11: 44px; /* [!code ++] */
+    --gap-12: 48px; /* [!code ++] */
+    --gap-13: 52px; /* [!code ++] */
+    --gap-14: 56px; /* [!code ++] */
+    --gap-15: 60px; /* [!code ++] */
+    --gap-16: 64px; /* [!code ++] */
+    --gap-17: 68px; /* [!code ++] */
+    --gap-18: 72px; /* [!code ++] */
+    --gap-19: 76px; /* [!code ++] */
+    --gap-20: 80px; /* [!code ++] */
 }
 ```
 
