@@ -13,7 +13,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 세 단계의 폰트 두께가 기본 제공됩니다.
 
 <ExampleSection>
-<div class="w:full">
+<div class="w:100p">
     <div v-for="weight, index of [400, 500, 700]"
         :class="`font-weight:${index+1}`">
         {{ index+1 }} - Hello World! ({{ weight }})
@@ -40,7 +40,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 다음과 같이 기본 폰트 두께를 재정의할 수 있습니다.
 
 <ExampleSection>
-<div class="w:full">
+<div class="w:100p">
     <div v-for="weight, index of [300, 500, 700]"
         :style="`font-weight:${weight}`">
         {{ index+1 }} - Hello World! ({{ weight }})
