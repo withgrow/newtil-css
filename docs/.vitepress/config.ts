@@ -577,8 +577,8 @@ export default defineConfig({
                 link: "/text/text-align",
               },
               {
-                text: "text-decoration",
-                link: "/text/text-decoration",
+                text: "text-decoration-line",
+                link: "/text/text-decoration-line",
               },
               {
                 text: "text-decoration-style",

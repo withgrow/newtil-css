@@ -15,25 +15,41 @@
   <tbody>
   <tr>
   <td><code>text-decoration-line:underline</code></td>
-  <td><code>text-dl:underline</code></td>
+  <td>
+    <code>text-deco-line:underline</code><br>
+    <code>txt-deco-line:underline</code><br>
+    <code>txt-deco-ln:underline</code>
+  </td>
   <td><span class="code">text-decoration-line: underline !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-decoration-line:line-through</code></td>
-  <td><code>text-dl:line-through</code></td>
+  <td>
+    <code>text-deco-line:line-through</code><br>
+    <code>txt-deco-line:line-through</code><br>
+    <code>txt-deco-ln:line-through</code>
+  </td>
   <td><span class="code">text-decoration-line: line-through !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-decoration-line:overline</code></td>
-  <td><code>text-dl:overline</code></td>
+  <td>
+    <code>text-deco-line:overline</code><br>
+    <code>txt-deco-line:overline</code><br>
+    <code>txt-deco-ln:overline</code>
+  </td>
   <td><span class="code">text-decoration-line: underline !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-decoration-line:none</code></td>
-  <td><code>text-dl:none</code></td>
+  <td>
+    <code>text-deco-line:none</code><br>
+    <code>txt-deco-line:none</code><br>
+    <code>txt-deco-ln:none</code>
+  </td>
   <td><span class="code">text-decoration-line: none !important;</span></td>
 </tr>
 
