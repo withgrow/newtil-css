@@ -15,31 +15,46 @@
   <tbody>
 <tr>
   <td><code>line-height:1</code></td>
-  <td><code>line-h:1 ln-h:1</code></td>
+  <td>
+    <code>line-h:1</code><br>
+    <code>ln-h:1</code>
+  </td>
   <td><span class="code">line-height: 1 !important;</span></td>
 </tr>
 
 <tr>
   <td><code>line-height:1.25</code></td>
-  <td><code>line-h:1.25 ln-h:1.25</code></td>
+  <td>
+    <code>line-h:1.25</code><br>
+    <code>ln-h:1.25</code>
+  </td>
   <td><span class="code">line-height: 1.25 !important;</span></td>
 </tr>
 
 <tr>
   <td><code>line-height:1.5</code></td>
-  <td><code>line-h:1.5 ln-h:1.5</code></td>
+  <td>
+    <code>line-h:1.5</code><br>
+    <code>ln-h:1.5</code>
+  </td>
   <td><span class="code">line-height: 1.5 !important;</span></td>
 </tr>
 
 <tr>
   <td><code>line-height:1.75</code></td>
-  <td><code>line-h:1.75 ln-h:1.75</code></td>
+  <td>
+    <code>line-h:1.75</code><br>
+    <code>ln-h:1.75</code>
+  </td>
   <td><span class="code">line-height: 1.75 !important;</span></td>
 </tr>
 
 <tr>
   <td><code>line-height:2</code></td>
-  <td><code>line-h:2 ln-h:2</code></td>
+  <td>
+    <code>line-h:2</code><br>
+    <code>ln-h:2</code>
+  </td>
   <td><span class="code">line-height: 2 !important;</span></td>
 </tr>
 
