@@ -15,25 +15,37 @@
   <tbody>
   <tr>
   <td><code>text-decoration-style:solid</code></td>
-  <td><code>text-ds:solid</code></td>
+  <td>
+    <code>text-deco-style:solid</code><br>
+    <code>txt-deco-style:solid</code>
+  </td>
   <td><span class="code">text-decoration-style: solid !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-decoration-style:double</code></td>
-  <td><code>text-ds:double</code></td>
+  <td>
+    <code>text-deco-style:double</code><br>
+    <code>txt-deco-style:double</code>
+  </td>
   <td><span class="code">text-decoration-style: double !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-decoration-style:dotted</code></td>
-  <td><code>text-ds:solid</code></td>
+  <td>
+    <code>text-deco-style:dotted</code><br>
+    <code>txt-deco-style:dotted</code>
+  </td>
   <td><span class="code">text-decoration-style: dotted !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-decoration-style:wavy</code></td>
-  <td><code>text-ds:wavy</code></td>
+  <td>
+    <code>text-deco-style:wavy</code><br>
+    <code>txt-deco-style:wavy</code>
+  </td>
   <td><span class="code">text-decoration-style: wavy !important;</span></td>
 </tr>
 
