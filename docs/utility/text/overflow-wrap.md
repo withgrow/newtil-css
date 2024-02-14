@@ -15,19 +15,19 @@
   <tbody>
     <tr>
     <td><code>overflow-wrap:normal</code></td>
-    <td><code>overflow-w:normal</code></td>
+    <td><code>of-wrap:normal</code></td>
     <td><span class="code">overflow-wrap: normal !important;</span></td>
   </tr>
 
   <tr>
     <td><code>overflow-wrap:break-word</code></td>
-    <td><code>overflow-w:break-word</code></td>
+    <td><code>of-wrap:break-word</code></td>
     <td><span class="code">overflow-wrap: break-word !important;</span></td>
   </tr>
 
   <tr>
     <td><code>overflow-wrap:anywhere</code></td>
-    <td><code>overflow-w:anywhere</code></td>
+    <td><code>of-wrap:anywhere</code></td>
     <td><span class="code">overflow-wrap: anywhere !important;</span></td>
   </tr>
 
