@@ -15,25 +15,25 @@
   <tbody>
   <tr>
   <td><code>text-transform:lowercase</code></td>
-  <td><code>text-t:lowercase</code></td>
+  <td><code>txt-transform:lowercase</code></td>
   <td><span class="code">text-transform: lowercase !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-transform:uppercase</code></td>
-  <td><code>text-t:uppercase</code></td>
+  <td><code>txt-transform:uppercase</code></td>
   <td><span class="code">text-transform: uppercase !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-transform:capitalize</code></td>
-  <td><code>text-t:capitalize</code></td>
+  <td><code>txt-transform:capitalize</code></td>
   <td><span class="code">text-transform: capitalize !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-transform:none</code></td>
-  <td><code>text-t:none</code></td>
+  <td><code>txt-transform:none</code></td>
   <td><span class="code">text-transform: none !important;</span></td>
 </tr>
 
