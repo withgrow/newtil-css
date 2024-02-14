@@ -270,16 +270,6 @@
     .md\:bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
     .md\:bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
     .md\:bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
-    .md\:bottom\:-11                  { bottom: calc(var(--bottom-11) * -1 )!important; }
-    .md\:bottom\:-12                  { bottom: calc(var(--bottom-12) * -1 )!important; }
-    .md\:bottom\:-13                  { bottom: calc(var(--bottom-13) * -1 )!important; }
-    .md\:bottom\:-14                  { bottom: calc(var(--bottom-14) * -1 )!important; }
-    .md\:bottom\:-15                  { bottom: calc(var(--bottom-15) * -1 )!important; }
-    .md\:bottom\:-16                  { bottom: calc(var(--bottom-16) * -1 )!important; }
-    .md\:bottom\:-17                  { bottom: calc(var(--bottom-17) * -1 )!important; }
-    .md\:bottom\:-18                  { bottom: calc(var(--bottom-18) * -1 )!important; }
-    .md\:bottom\:-19                  { bottom: calc(var(--bottom-19) * -1 )!important; }
-    .md\:bottom\:-20                  { bottom: calc(var(--bottom-20) * -1 )!important; }
 }
 
 /* ---- lg ------------------------------------------------- */
