@@ -140,47 +140,47 @@
 }
 
 /* ---- padding-bottom ------------------------------------------------- */
-.padding-bottop\:auto,           .p-bottom\:auto,   .pb\:auto { padding-bottom: auto !important; }
-.padding-bottop\:0,              .p-bottom\:0,      .pb\:0 { padding-bottom: var(--gap-0) !important; }
-.padding-bottop\:1,              .p-bottom\:1,      .pb\:1 { padding-bottom: var(--gap-1) !important; }
-.padding-bottop\:2,              .p-bottom\:2,      .pb\:2 { padding-bottom: var(--gap-2) !important; }
-.padding-bottop\:3,              .p-bottom\:3,      .pb\:3 { padding-bottom: var(--gap-3) !important; }
-.padding-bottop\:4,              .p-bottom\:4,      .pb\:4 { padding-bottom: var(--gap-4) !important; }
-.padding-bottop\:5,              .p-bottom\:5,      .pb\:5 { padding-bottom: var(--gap-5) !important; }
-.padding-bottop\:6,              .p-bottom\:6,      .pb\:6 { padding-bottom: var(--gap-6) !important; }
-.padding-bottop\:7,              .p-bottom\:7,      .pb\:7 { padding-bottom: var(--gap-7) !important; }
-.padding-bottop\:8,              .p-bottom\:8,      .pb\:8 { padding-bottom: var(--gap-8) !important; }
-.padding-bottop\:9,              .p-bottom\:9,      .pb\:9 { padding-bottom: var(--gap-9) !important; }
-.padding-bottop\:10,             .p-bottom\:10,     .pb\:10 { padding-bottom: var(--gap-10) !important; }
+.padding-bottom\:auto,           .p-bottom\:auto,   .pb\:auto { padding-bottom: auto !important; }
+.padding-bottom\:0,              .p-bottom\:0,      .pb\:0 { padding-bottom: var(--gap-0) !important; }
+.padding-bottom\:1,              .p-bottom\:1,      .pb\:1 { padding-bottom: var(--gap-1) !important; }
+.padding-bottom\:2,              .p-bottom\:2,      .pb\:2 { padding-bottom: var(--gap-2) !important; }
+.padding-bottom\:3,              .p-bottom\:3,      .pb\:3 { padding-bottom: var(--gap-3) !important; }
+.padding-bottom\:4,              .p-bottom\:4,      .pb\:4 { padding-bottom: var(--gap-4) !important; }
+.padding-bottom\:5,              .p-bottom\:5,      .pb\:5 { padding-bottom: var(--gap-5) !important; }
+.padding-bottom\:6,              .p-bottom\:6,      .pb\:6 { padding-bottom: var(--gap-6) !important; }
+.padding-bottom\:7,              .p-bottom\:7,      .pb\:7 { padding-bottom: var(--gap-7) !important; }
+.padding-bottom\:8,              .p-bottom\:8,      .pb\:8 { padding-bottom: var(--gap-8) !important; }
+.padding-bottom\:9,              .p-bottom\:9,      .pb\:9 { padding-bottom: var(--gap-9) !important; }
+.padding-bottom\:10,             .p-bottom\:10,     .pb\:10 { padding-bottom: var(--gap-10) !important; }
 
 @media (min-width: 768px) {
-    .md\:padding-bottop\:auto,           .md\:p-bottom\:auto,   .md\:pb\:auto { padding-bottom: auto !important; }
-    .md\:padding-bottop\:0,              .md\:p-bottom\:0,      .md\:pb\:0 { padding-bottom: var(--gap-0) !important; }
-    .md\:padding-bottop\:1,              .md\:p-bottom\:1,      .md\:pb\:1 { padding-bottom: var(--gap-1) !important; }
-    .md\:padding-bottop\:2,              .md\:p-bottom\:2,      .md\:pb\:2 { padding-bottom: var(--gap-2) !important; }
-    .md\:padding-bottop\:3,              .md\:p-bottom\:3,      .md\:pb\:3 { padding-bottom: var(--gap-3) !important; }
-    .md\:padding-bottop\:4,              .md\:p-bottom\:4,      .md\:pb\:4 { padding-bottom: var(--gap-4) !important; }
-    .md\:padding-bottop\:5,              .md\:p-bottom\:5,      .md\:pb\:5 { padding-bottom: var(--gap-5) !important; }
-    .md\:padding-bottop\:6,              .md\:p-bottom\:6,      .md\:pb\:6 { padding-bottom: var(--gap-6) !important; }
-    .md\:padding-bottop\:7,              .md\:p-bottom\:7,      .md\:pb\:7 { padding-bottom: var(--gap-7) !important; }
-    .md\:padding-bottop\:8,              .md\:p-bottom\:8,      .md\:pb\:8 { padding-bottom: var(--gap-8) !important; }
-    .md\:padding-bottop\:9,              .md\:p-bottom\:9,      .md\:pb\:9 { padding-bottom: var(--gap-9) !important; }
-    .md\:padding-bottop\:10,             .md\:p-bottom\:10,     .md\:pb\:10 { padding-bottom: var(--gap-10) !important; }
+    .md\:padding-bottom\:auto,           .md\:p-bottom\:auto,   .md\:pb\:auto { padding-bottom: auto !important; }
+    .md\:padding-bottom\:0,              .md\:p-bottom\:0,      .md\:pb\:0 { padding-bottom: var(--gap-0) !important; }
+    .md\:padding-bottom\:1,              .md\:p-bottom\:1,      .md\:pb\:1 { padding-bottom: var(--gap-1) !important; }
+    .md\:padding-bottom\:2,              .md\:p-bottom\:2,      .md\:pb\:2 { padding-bottom: var(--gap-2) !important; }
+    .md\:padding-bottom\:3,              .md\:p-bottom\:3,      .md\:pb\:3 { padding-bottom: var(--gap-3) !important; }
+    .md\:padding-bottom\:4,              .md\:p-bottom\:4,      .md\:pb\:4 { padding-bottom: var(--gap-4) !important; }
+    .md\:padding-bottom\:5,              .md\:p-bottom\:5,      .md\:pb\:5 { padding-bottom: var(--gap-5) !important; }
+    .md\:padding-bottom\:6,              .md\:p-bottom\:6,      .md\:pb\:6 { padding-bottom: var(--gap-6) !important; }
+    .md\:padding-bottom\:7,              .md\:p-bottom\:7,      .md\:pb\:7 { padding-bottom: var(--gap-7) !important; }
+    .md\:padding-bottom\:8,              .md\:p-bottom\:8,      .md\:pb\:8 { padding-bottom: var(--gap-8) !important; }
+    .md\:padding-bottom\:9,              .md\:p-bottom\:9,      .md\:pb\:9 { padding-bottom: var(--gap-9) !important; }
+    .md\:padding-bottom\:10,             .md\:p-bottom\:10,     .md\:pb\:10 { padding-bottom: var(--gap-10) !important; }
 }
 
 @media (min-width: 1200px) {
-    .lg\:padding-bottop\:auto,           .lg\:p-bottom\:auto,   .lg\:pb\:auto { padding-bottom: auto !important; }
-    .lg\:padding-bottop\:0,              .lg\:p-bottom\:0,      .lg\:pb\:0 { padding-bottom: var(--gap-0) !important; }
-    .lg\:padding-bottop\:1,              .lg\:p-bottom\:1,      .lg\:pb\:1 { padding-bottom: var(--gap-1) !important; }
-    .lg\:padding-bottop\:2,              .lg\:p-bottom\:2,      .lg\:pb\:2 { padding-bottom: var(--gap-2) !important; }
-    .lg\:padding-bottop\:3,              .lg\:p-bottom\:3,      .lg\:pb\:3 { padding-bottom: var(--gap-3) !important; }
-    .lg\:padding-bottop\:4,              .lg\:p-bottom\:4,      .lg\:pb\:4 { padding-bottom: var(--gap-4) !important; }
-    .lg\:padding-bottop\:5,              .lg\:p-bottom\:5,      .lg\:pb\:5 { padding-bottom: var(--gap-5) !important; }
-    .lg\:padding-bottop\:6,              .lg\:p-bottom\:6,      .lg\:pb\:6 { padding-bottom: var(--gap-6) !important; }
-    .lg\:padding-bottop\:7,              .lg\:p-bottom\:7,      .lg\:pb\:7 { padding-bottom: var(--gap-7) !important; }
-    .lg\:padding-bottop\:8,              .lg\:p-bottom\:8,      .lg\:pb\:8 { padding-bottom: var(--gap-8) !important; }
-    .lg\:padding-bottop\:9,              .lg\:p-bottom\:9,      .lg\:pb\:9 { padding-bottom: var(--gap-9) !important; }
-    .lg\:padding-bottop\:10,             .lg\:p-bottom\:10,     .lg\:pb\:10 { padding-bottom: var(--gap-10) !important; }
+    .lg\:padding-bottom\:auto,           .lg\:p-bottom\:auto,   .lg\:pb\:auto { padding-bottom: auto !important; }
+    .lg\:padding-bottom\:0,              .lg\:p-bottom\:0,      .lg\:pb\:0 { padding-bottom: var(--gap-0) !important; }
+    .lg\:padding-bottom\:1,              .lg\:p-bottom\:1,      .lg\:pb\:1 { padding-bottom: var(--gap-1) !important; }
+    .lg\:padding-bottom\:2,              .lg\:p-bottom\:2,      .lg\:pb\:2 { padding-bottom: var(--gap-2) !important; }
+    .lg\:padding-bottom\:3,              .lg\:p-bottom\:3,      .lg\:pb\:3 { padding-bottom: var(--gap-3) !important; }
+    .lg\:padding-bottom\:4,              .lg\:p-bottom\:4,      .lg\:pb\:4 { padding-bottom: var(--gap-4) !important; }
+    .lg\:padding-bottom\:5,              .lg\:p-bottom\:5,      .lg\:pb\:5 { padding-bottom: var(--gap-5) !important; }
+    .lg\:padding-bottom\:6,              .lg\:p-bottom\:6,      .lg\:pb\:6 { padding-bottom: var(--gap-6) !important; }
+    .lg\:padding-bottom\:7,              .lg\:p-bottom\:7,      .lg\:pb\:7 { padding-bottom: var(--gap-7) !important; }
+    .lg\:padding-bottom\:8,              .lg\:p-bottom\:8,      .lg\:pb\:8 { padding-bottom: var(--gap-8) !important; }
+    .lg\:padding-bottom\:9,              .lg\:p-bottom\:9,      .lg\:pb\:9 { padding-bottom: var(--gap-9) !important; }
+    .lg\:padding-bottom\:10,             .lg\:p-bottom\:10,     .lg\:pb\:10 { padding-bottom: var(--gap-10) !important; }
 }
 
 /* ---- padding-left ------------------------------------------------- */
