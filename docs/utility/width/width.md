@@ -16,57 +16,57 @@
     <tr>
       <td><code>width:0</code></td>
       <td><code>w:0</code></td>
-      <td><span class="code">width: var(--gap-0) !important;</span> <span class="c:weak">/* 0px */</span></td>
+      <td><span class="code">width: var(--width-0) !important;</span> <span class="c:weak">/* 0px */</span></td>
     </tr>
     <tr>
       <td><code>width:1</code></td>
       <td><code>w:1</code></td>
-      <td><span class="code">width: var(--gap-1) !important;</span> <span class="c:weak">/* 50px */</span></td>
+      <td><span class="code">width: var(--width-1) !important;</span> <span class="c:weak">/* 50px */</span></td>
     </tr>
     <tr>
       <td><code>width:2</code></td>
       <td><code>w:2</code></td>
-      <td><span class="code">width: var(--gap-2) !important;</span> <span class="c:weak">/* 100px */</span></td>
+      <td><span class="code">width: var(--width-2) !important;</span> <span class="c:weak">/* 100px */</span></td>
     </tr>
     <tr>
       <td><code>width:3</code></td>
       <td><code>w:3</code></td>
-      <td><span class="code">width: var(--gap-3) !important;</span> <span class="c:weak">/* 150px */</span></td>
+      <td><span class="code">width: var(--width-3) !important;</span> <span class="c:weak">/* 150px */</span></td>
     </tr>
     <tr>
       <td><code>width:4</code></td>
       <td><code>w:4</code></td>
-      <td><span class="code">width: var(--gap-4) !important;</span> <span class="c:weak">/* 200px */</span></td>
+      <td><span class="code">width: var(--width-4) !important;</span> <span class="c:weak">/* 200px */</span></td>
     </tr>
     <tr>
       <td><code>width:5</code></td>
       <td><code>w:5</code></td>
-      <td><span class="code">width: var(--gap-5) !important;</span> <span class="c:weak">/* 250px */</span></td>
+      <td><span class="code">width: var(--width-5) !important;</span> <span class="c:weak">/* 250px */</span></td>
     </tr>
     <tr>
       <td><code>width:6</code></td>
       <td><code>w:6</code></td>
-      <td><span class="code">width: var(--gap-6) !important;</span> <span class="c:weak">/* 300px */</span></td>
+      <td><span class="code">width: var(--width-6) !important;</span> <span class="c:weak">/* 300px */</span></td>
     </tr>
     <tr>
       <td><code>width:7</code></td>
       <td><code>w:7</code></td>
-      <td><span class="code">width: var(--gap-7) !important;</span> <span class="c:weak">/* 350px */</span></td>
+      <td><span class="code">width: var(--width-7) !important;</span> <span class="c:weak">/* 350px */</span></td>
     </tr>
     <tr>
       <td><code>width:8</code></td>
       <td><code>w:8</code></td>
-      <td><span class="code">width: var(--gap-8) !important;</span> <span class="c:weak">/* 400px */</span></td>
+      <td><span class="code">width: var(--width-8) !important;</span> <span class="c:weak">/* 400px */</span></td>
     </tr>
     <tr>
       <td><code>width:9</code></td>
       <td><code>w:9</code></td>
-      <td><span class="code">width: var(--gap-9) !important;</span> <span class="c:weak">/* 450px */</span></td>
+      <td><span class="code">width: var(--width-9) !important;</span> <span class="c:weak">/* 450px */</span></td>
     </tr>
     <tr>
       <td><code>width:10</code></td>
       <td><code>w:10</code></td>
-      <td><span class="code">width: var(--gap-10) !important;</span> <span class="c:weak">/* 500px */</span></td>
+      <td><span class="code">width: var(--width-10) !important;</span> <span class="c:weak">/* 500px */</span></td>
     </tr>
     <tr>
       <td><code>width:1p</code></td>
@@ -216,4 +216,4 @@
   </tbody>
 </table>
 
-기본 너비값 `var(--gap)` 설정과 관련된 내용은 [여기](../../variables/gap.md)를 참고해주세요.
+기본 너비값 `var(--width)` 설정과 관련된 내용은 [여기](../../variables/width.md)를 참고해주세요.
