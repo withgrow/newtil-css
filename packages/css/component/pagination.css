@@ -1,0 +1,59 @@
+/** 
+
+<ul class="n-pagination">
+  <li>
+    <a>1</a>
+  </li>
+  <li class="active">
+    <a>2</a>
+  </li>
+  <li class="disabled">
+    <a>3</a>
+  </li>
+</ul>
+*/
+
+.n-pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.n-pagination > li > * {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 36px;
+  height: 36px;
+  padding: 4px 12px;
+  border: 1px solid var(--color-base-3);;
+  background-color: var(--color-base-1);
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.13s cubic-bezier(0.12, 0, 0.3, 0),
+    background-color 0.13s cubic-bezier(0.12, 0, 0.3, 0);
+}
+
+.n-pagination > li:not(.active) > *:hover {
+  color: inherit;
+  background-color: rgba(var(--rgb-base-10), 0.1);
+}
+
+.n-pagination .active > * {
+  border: 0 none transparent;
+  color: var(--color-base-1);
+  background-color: var(--color-main-2);
+}
+
+.n-pagination .disabled > * {
+  border: transparent;
+  color: var(--color-base-5);
+  background-color: rgba(var(--rgb-base-2), 0.6);
+  pointer-events: none;
+}
