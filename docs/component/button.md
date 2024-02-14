@@ -10,7 +10,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 ## 모아보기
 
 ### 타입
-`filled`, `outline-box`, `void` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8)를 클릭하세요.
+`filled`, `outline-box`, `void` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 <div class="n-item d:flex jc:center gap:2 mt:4">
   <button class="n-btn">Button</button>
   <button class="n-btn n-btn:outline-box">Button</button>
@@ -18,7 +18,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 </div>
 
 ### 사이즈
-`small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3)를 클릭하세요.
+`small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
 <div class="n-item d:flex jc:center gap:2 ai:end mt:4">
   <button type="button" class="n-btn n-btn-size:1">Button</button>
   <button type="button" class="n-btn n-btn-size:2">Button</button>
@@ -26,7 +26,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 </div>
 
 ### 색상
-`main`, `sub`, `accent`, `base` 색상이 제공됩니다. 자세한 내용을 보려면 [여기](#%E1%84%89%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A1%E1%86%BC)를 클릭하세요.
+`main`, `sub`, `accent`, `base` 색상이 제공됩니다. 자세한 내용을 보려면 [여기](#color)를 클릭하세요.
 <div class="n-item d:flex jc:center gap:2 mt:4">
   <button type="button" class="n-btn n-btn-color:main">Button</button>
   <button type="button" class="n-btn n-btn-color:sub">Button</button>
@@ -35,18 +35,18 @@ import ExampleSection from "../components/ExampleSection.vue";
 </div>
 
 ### 상태
-`disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#%E1%84%87%E1%85%B5%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA)를 클릭하세요.
+`disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#disabled)를 클릭하세요.
 <div class="n-item d:flex jc:center gap:2 mt:4">
   <button type="button" class="n-btn" disabled>Button</button>
 </div>
 
 <br>
 
-- [타입 변경하기](#%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8)
-- [크기 변경하기](#%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3)
-- [색상 변경하기](#%E1%84%89%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A1%E1%86%BC)
-- [상태 변경하기](#%E1%84%87%E1%85%B5%E1%84%92%E1%85%AA%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC%E1%84%92%E1%85%AA)
-- [버튼 활용하기](#%E1%84%92%E1%85%AA%E1%86%AF%E1%84%8B%E1%85%AD%E1%86%BC-%E1%84%8B%E1%85%A8%E1%84%89%E1%85%B5)
+- [타입 변경하기](#type)
+- [크기 변경하기](#size)
+- [색상 변경하기](#color)
+- [상태 변경하기](#disabled)
+- [버튼 활용하기](#examples)
 
 ## 사용법
 버튼 컴포넌트는 요소에 `n-btn` 클래스를 적용하여 사용할 수 있습니다.
@@ -77,7 +77,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 ```
 :::
 
-## 타입
+## 타입 {#type}
 `n-btn-type:타입` 또는 `n-btn:타입` 약어 클래스를 통해 다양한 버튼 타입을 적용할 수 있습니다.
 
 <ExampleSection>
@@ -101,7 +101,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 |<span class="white-space:nowrap">outline-box</span>|`n-btn-type:outline-box`<br>`n-btn-type:outline`| `n-btn:outline-box`<br>`n-btn:outline`||
 |void|`n-btn-type:void`| `n-btn:void`||
 
-## 사이즈
+## 사이즈 {#size}
 `n-btn-size:사이즈` 또는 `n-btn:사이즈` 약어 클래스를 통해 버튼 사이즈를 변경할 수 있습니다.
 
 <ExampleSection>
@@ -125,7 +125,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 |medium|`n-btn-size:2`<br>`n-btn-size:md`| `n-btn:2`<br>`n-btn:md`|default|
 |large|`n-btn-size:3`<br>`n-btn-size:lg`| `n-btn:3`<br>`n-btn:lg`| |
 
-## 색상
+## 색상 {#color}
 `n-btn-color:색상` 또는 `n-btn:색상` 약어 클래스를 통해 버튼의 색을 변경할 수 있습니다.
 
 :::raw
@@ -169,7 +169,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 |accent|`n-btn-color:accent`| `n-btn:accent`||
 |base|`n-btn-color:base`| `n-btn:base`||
 
-## 비활성화
+## 비활성화 {#disabled}
 `disabled` 속성을 추가하거나 클래스에 `disabled`를 추가하여 버튼 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
 
 :::raw
@@ -194,7 +194,7 @@ import ExampleSection from "../components/ExampleSection.vue";
   <button type="button" class="n-btn n-btn:void" disabled>void</button>
 ```
 
-## 활용 예시
+## 활용 예시 {#examples}
 
 <ExampleSection class="mb:4">
   <div class="d:flex gap:2">
