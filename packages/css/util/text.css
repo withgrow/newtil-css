@@ -50,12 +50,12 @@
 .text-transform\:none,           										.txt-transform\:none { text-transform: none !important; }
 
 /* white-space */
-.white-space\:normal,            										 { white-space: normal !important; }
-.white-space\:nowrap,            										 { white-space: nowrap !important; }
-.white-space\:pre,               										 { white-space: pre !important; }
-.white-space\:pre-line,          										 { white-space: pre-line !important; }
-.white-space\:pre-wrap,          										 { white-space: pre-wrap !important; }
-.white-space\:break-spaces,      										 { white-space: break-spaces !important; }
+.white-space\:normal            										 { white-space: normal !important; }
+.white-space\:nowrap            										 { white-space: nowrap !important; }
+.white-space\:pre               										 { white-space: pre !important; }
+.white-space\:pre-line          										 { white-space: pre-line !important; }
+.white-space\:pre-wrap          										 { white-space: pre-wrap !important; }
+.white-space\:break-spaces      										 { white-space: break-spaces !important; }
 
 /* word-break */
 .word-break\:normal         							        { word-break: normal !important; }
