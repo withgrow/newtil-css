@@ -83,8 +83,8 @@
     --cell-padding-x: 16px;
 
     --border-color: var(--color-base-2);
-    --striped-color: rgba(var(--color-base-10), 0.02);
-    --hover-bg-color: rgba(var(--color-base-10), 0.05);
+    --striped-color: rgba(var(--rgb-base-10), 0.02);
+    --hover-bg-color: rgba(var(--rgb-base-10), 0.05);
 
     table-layout: fixed;
 
