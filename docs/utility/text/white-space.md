@@ -15,37 +15,37 @@
   <tbody>
   <tr>
   <td><code>white-space:normal</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">white-space: normal !important;</span></td>
 </tr>
 
 <tr>
   <td><code>white-space:nowrap</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">white-space: nowrap !important;</span></td>
 </tr>
 
 <tr>
   <td><code>white-space:pre</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">white-space: pre !important;</span></td>
 </tr>
 
 <tr>
   <td><code>white-space:pre-line</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">white-space: pre-line !important;</span></td>
 </tr>
 
 <tr>
   <td><code>white-space:pre-wrap</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">white-space: pre-wrap !important;</span></td>
 </tr>
 
 <tr>
   <td><code>white-space:break-spaces</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">white-space: break-spaces !important;</span></td>
 </tr>
 
