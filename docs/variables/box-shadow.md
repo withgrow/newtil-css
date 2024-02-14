@@ -13,10 +13,10 @@ import ExampleSection from "../components/ExampleSection.vue"
 일곱 종류의 그림자 스타일이 기본 제공됩니다.
 
 <ExampleSection>
-	<div class="d:flex flex-wrap:wrap gap:10">
+	<div class="d:flex jc:center flex-wrap:wrap gap:10">
 		<div 
 			v-for="i in 7"
-			class="h:7 w:7 border border-color:main-1 border-radius:2 bg-color:base-1 d:flex ai:center jc:center"
+			class="h:2 w:2 border border-color:main-1 border-radius:2 bg-color:base-1 d:flex ai:center jc:center"
 			:class="`box-shadow:${i}`">
 			{{ i }}
 		</div>
@@ -59,10 +59,10 @@ import ExampleSection from "../components/ExampleSection.vue"
 다음과 같이 기본 그림자 스타일을 재정의할 수 있습니다.
 
 <ExampleSection>
-	<div class="d:flex flex-wrap:wrap gap:10">
+	<div class="d:flex jc:center flex-wrap:wrap gap:10">
 		<div 
 			v-for="i in 7"
-			class="h:7 w:7 border border-color:main-1 border-radius:2 bg-color:base-1 d:flex ai:center jc:center"
+			class="h:2 w:2 border border-color:main-1 border-radius:2 bg-color:base-1 d:flex ai:center jc:center"
 			:style="`box-shadow:${i}px ${i + 1}px ${i + 2}px 0.1px rgba(0, 0, 0, ${i * 0.1})`">
 			{{ i }}
 		</div>
