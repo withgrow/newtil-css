@@ -15,37 +15,55 @@
   <tbody>
  <tr>
   <td><code>text-align:left</code></td>
-  <td><code>text-a:left</code></td>
+  <td>
+    <code>txt-align:left</code><br>
+    <code>txt-al:left</code>
+  </td>
   <td><span class="code">text-align: left !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-align:center</code></td>
-  <td><code>text-a:center</code></td>
+  <td>
+    <code>txt-align:center</code><br>
+    <code>txt-al:center</code>
+  </td>
   <td><span class="code">text-align: center !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-align:right</code></td>
-  <td><code>text-a:right</code></td>
+  <td>
+    <code>txt-align:right</code><br>
+    <code>txt-al:right</code>
+  </td>
   <td><span class="code">text-align: right !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-align:justify</code></td>
-  <td><code>text-a:justify</code></td>
+  <td>
+    <code>txt-align:justify</code><br>
+    <code>txt-al:justify</code>
+  </td>
   <td><span class="code">text-align: justify !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-align:start</code></td>
-  <td><code>text-a:start</code></td>
+  <td>
+    <code>txt-align:start</code><br>
+    <code>txt-al:start</code>
+  </td>
   <td><span class="code">text-align: start !important;</span></td>
 </tr>
 
 <tr>
   <td><code>text-align:end</code></td>
-  <td><code>text-a:end</code></td>
+  <td>
+    <code>txt-align:end</code><br>
+    <code>txt-al:end</code>
+  </td>
   <td><span class="code">text-align: end !important;</span></td>
 </tr>
 
