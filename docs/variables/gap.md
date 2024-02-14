@@ -58,17 +58,17 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```css
 :root {
-    --gap-0: 0rem; /* 0px */
-    --gap-1: 0.25rem; /* 4px */
-    --gap-2: 0.5rem; /* 8px */
-    --gap-3: 0.75rem; /* 12px */
-    --gap-4: 1rem; /* 16px */
-    --gap-5: 1.25rem; /* 20px */
-    --gap-6: 1.5rem; /* 24px */
-    --gap-7: 1.75rem; /* 28px */
-    --gap-8: 2rem; /* 32px */
-    --gap-9: 2.25rem; /* 36px */
-    --gap-10: 2.5rem; /* 40px */
+    --gap-0: 0px;
+    --gap-1: 4px;
+    --gap-2: 8px;
+    --gap-3: 12px;
+    --gap-4: 16px;
+    --gap-5: 20px;
+    --gap-6: 24px;
+    --gap-7: 28px;
+    --gap-8: 32px;
+    --gap-9: 36px;
+    --gap-10: 40px;
     --gap-full: 9999px;
 }
 ```
