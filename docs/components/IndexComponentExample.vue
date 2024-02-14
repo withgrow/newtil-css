@@ -3,13 +3,13 @@
 <template>
   <!-- https://vitepress.dev/reference/runtime-api#clientonly -->
   <ClientOnly>
-    <section class="n-item box-shadow:5">
+    <section class="example-section n-item box-shadow:5">
       <h1 class="n-font:title text-align:center">미리보기</h1>
       <div class="n-container mt:8">
-        <ul
+        <div
           class="n-list n-card-list n-list-item:outline n-list-item-border-rd:4"
         >
-          <li class="p:6 box-shadow:5">
+          <section class="n-item p:6 box-shadow:5">
             <div>
               <img
                 src="/schoolbag.jpg"
@@ -19,8 +19,8 @@
                 class="h:auto w:100p"
               />
             </div>
-            <h2 class="mt:6 n-font:h3">가방</h2>
-            <h3 class="mt:1 n-font:h2 font-weight:3">₩8,9000</h3>
+            <h1 class="mt:6 n-font:h3">가방</h1>
+            <div class="mt:1 n-font:h2 font-weight:3">₩8,9000</div>
             <div class="mt:6">
               <button class="n-btn n-btn:lg w:100p">
                 <span
@@ -30,13 +30,14 @@
                 </span>
               </button>
             </div>
-          </li>
+          </section>
 
-          <li class="n-form p:6 h:fit-content box-shadow:5">
-            <h2 class="n-font:h1 font-weight:3">회원가입</h2>
-            <h3 class="mt:1 font-size:2">
+          <section class="n-form p:6 h:fit-content box-shadow:5">
+            <h1 class="n-font:h1 font-weight:3">회원가입</h1>
+            <div class="mt:1 font-size:2">
               회원가입을 위해 이메일과 비밀번호를 입력해주세요
-            </h3>
+            </div>
+
             <div>
               <label>
                 <span>이메일</span>
@@ -52,13 +53,13 @@
             <div class="pb:0">
               <button class="n-btn n-btn:base">회원가입</button>
             </div>
-          </li>
+          </section>
 
-          <li class="n-item p:6 h:fit-content box-shadow:5">
-            <h2 class="n-font:h2 font-weight:3">알림 설정</h2>
-            <h3 class="mt:1 font-size:2">
+          <section class="n-item p:6 h:fit-content box-shadow:5">
+            <h1 class="n-font:h2 font-weight:3">알림 설정</h1>
+            <div class="mt:1 font-size:2">
               서비스에서 제공하는 이벤트 정보를 빠르게 알려드려요
-            </h3>
+            </div>
             <div class="mt:8 d:flex fl-dir:column gap:4">
               <label class="w:100p jc:space-between">
                 이메일
@@ -79,9 +80,9 @@
             <div class="mt:6">
               <button class="n-btn n-btn:outline w:100p">저장</button>
             </div>
-          </li>
+          </section>
 
-          <li class="d:flex h:fit-content">
+          <section class="n-item box-shadow:5 d:flex h:fit-content">
             <div class="d:flex ai:center mr:4">
               <span
                 class="w:1 h:1 bg-color:base-2 bd-radius:full icon icon:5 icon:download_simple"
@@ -90,8 +91,8 @@
               </span>
             </div>
             <div class="fl-grow:1">
-              <h2 class="n-font:h3">다운로드 중</h2>
-              <div>1,524kb</div>
+              <h1 class="font-size:3">다운로드 중</h1>
+              <div class="font-size:2 mt:1 color:base-7">1,524kb</div>
               <div class="n-progress mt:4" role="progressbar">
                 <div style="width: 50%"></div>
               </div>
@@ -99,16 +100,16 @@
                 <button class="n-btn n-btn:outline">취소</button>
               </div>
             </div>
-          </li>
+          </section>
 
-          <li class="p:6 pos:relative">
-            <aside class="pos:absolute font-size:2" style="right: 16px">
+          <section class="n-item box-shadow:5 p:6 pos:relative">
+            <div class="pos:absolute font-size:2" style="right: 16px">
               3시간 전
-            </aside>
-            <h2 class="font-weight:3">새 메일</h2>
-            <h3 class="font-size:1 font-weight:3 mt:1">
+            </div>
+            <h1 class="font-weight:3">새 메일</h1>
+            <h2 class="font-size:1 font-weight:3 mt:1">
               Re: 문의에 답변 보내드립니다
-            </h3>
+            </h2>
             <p class="font-size:2 line-clamp:2 mt:2">
               보내주신 의견 정말 감사드립니다. 긍정적으로 검토하여 빠른 시일
               내에 다시 답변드리도록 하겠습니다.
@@ -123,8 +124,8 @@
                 <span class="icon icon:trash icon:3 icon:base-7">삭제</span>
               </button>
             </div>
-          </li>
-        </ul>
+          </section>
+        </div>
 
         <div class="mt:6">
           <table class="n-table n-bbs-table n-table-hover">
@@ -191,7 +192,7 @@
 </template>
 
 <style scoped>
-section {
+.example-section {
   max-width: 1152px;
   padding: 24px 48px;
   margin-left: auto;
@@ -200,13 +201,13 @@ section {
 }
 
 @media (min-width: 640px) {
-  section {
+  .example-section {
     padding: 24px 64px;
   }
 }
 
 @media (min-width: 960px) {
-  section {
+  .example-section {
     padding: 24px 82px;
   }
 }
