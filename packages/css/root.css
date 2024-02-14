@@ -101,6 +101,16 @@
   --height-8: 128px;
   --height-9: 144px;
   --height-10: 160px;
+  --height-percent-1: 10%;
+  --height-percent-2: 20%;
+  --height-percent-3: 30%;
+  --height-percent-4: 40%;
+  --height-percent-5: 50%;
+  --height-percent-6: 60%;
+  --height-percent-7: 70%;
+  --height-percent-8: 80%;
+  --height-percent-9: 90%;
+  --height-percent-10: 100%;
 }
 
 /* border */
