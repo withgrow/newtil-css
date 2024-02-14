@@ -15,19 +15,28 @@
   <tbody>
   <tr>
   <td><code>hyphens:manual</code></td>
-  <td><code>hypn:manual</code></td>
+  <td>
+    <code>hyphen:manual</code><br>
+    <code>hypn:manual</code>
+  </td>
   <td><span class="code">hyphens: manual !important;</span></td>
 </tr>
 
 <tr>
   <td><code>hyphens:auto</code></td>
-  <td><code>hypn:auto</code></td>
+  <td>
+    <code>hyphen:auto</code><br>
+    <code>hypn:auto</code>
+  </td>
   <td><span class="code">hyphens: auto !important;</span></td>
 </tr>
 
 <tr>
   <td><code>hyphens:none</code></td>
-  <td><code>hypn:none</code></td>
+  <td>
+    <code>hyphen:none</code><br>
+    <code>hypn:none</code>
+  </td>
   <td><span class="code">hyphens: none !important;</span></td>
 </tr>
 
