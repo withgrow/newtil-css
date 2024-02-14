@@ -16,11 +16,11 @@ import ExampleSection from "../components/ExampleSection.vue"
     <div class="d:flex flex-wrap:wrap gap:3">
         <div 
             v-for="i in 5" 
-            class="color:base-10 border border-color:main-1 bg-color:base-1 h:5 w:5 d:flex ai:center jc:center " 
+            class="color:base-10 border border-color:main-1 bg-color:base-1 h:2 w:2 d:flex ai:center jc:center " 
             :class="`border-radius:${i-1}`" > 
                 {{ i-1 }} 
         </div>
-        <div class="color:base-10 border border-color:main-1 border-radius:full bg-color:base-1 h:5 w:5 d:flex ai:center jc:center">
+        <div class="color:base-10 border border-color:main-1 border-radius:full bg-color:base-1 h:2 w:2 d:flex ai:center jc:center">
             full
         </div>
     </div>
@@ -54,7 +54,7 @@ import ExampleSection from "../components/ExampleSection.vue"
     <div class="d:flex flex-wrap:wrap gap:3">
         <div 
             v-for="i in 5" 
-            class="color:base-10 border border-color:main-1 bg-color:base-1 h:5 w:5 d:flex ai:center jc:center " 
+            class="color:base-10 border border-color:main-1 bg-color:base-1 h:2 w:2 d:flex ai:center jc:center " 
             :style="`border-radius:${2 * i}px`" > 
                 {{ i-1 }} 
         </div>
