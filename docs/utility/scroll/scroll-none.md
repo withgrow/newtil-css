@@ -15,7 +15,7 @@ scroll-none 속성에 대한 유틸리티입니다.
   <tbody>
 <tr>
   <td><code>scroll-none</code></td>
-  <td class="blank"></td>
+  <td><code>scrl-none</code></td>
   <td>
     <span class="code">-ms-overflow-style: none;</span> <span class="c:weak">/* IE, Edge */</span><br>
     <span class="code">scrollbar-width: none;</span> <span class="c:weak">/* Firefox */</span><br>
