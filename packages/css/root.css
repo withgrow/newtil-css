@@ -66,16 +66,16 @@
 /* width */
 :root {
   --width-0: 0px;
-  --width-1: 16px;
-  --width-2: 32px;
-  --width-3: 48px;
-  --width-4: 64px;
-  --width-5: 80px;
-  --width-6: 96px;
-  --width-7: 112px;
-  --width-8: 128px;
-  --width-9: 144px;
-  --width-10: 160px;
+  --width-1: 50px;
+  --width-2: 100px;
+  --width-3: 150px;
+  --width-4: 200px;
+  --width-5: 250px;
+  --width-6: 300px;
+  --width-7: 350px;
+  --width-8: 400px;
+  --width-9: 450px;
+  --width-10: 500px;
   --width-percent-1: 10%;
   --width-percent-2: 20%;
   --width-percent-3: 30%;
