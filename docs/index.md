@@ -16,7 +16,6 @@ hero:
     src: /logo-large.webp
     alt: NewtilCSS
 
-
 features:
   - title: 직관적인 클래스 이름
     details: "CSS 속성명을 그대로 반영한 클래스 이름으로 빠르고 쉽게 스타일을 적용할 수 있습니다"
@@ -25,3 +24,9 @@ features:
   - title: 효율적인 스타일링
     details: "복잡한 CSS 작성 없이도, 원하는 스타일을 빠르게 구현할 수 있어 개발 시간을 단축시킵니다."
 ---
+
+<script setup>
+import IndexComponentExample from "./components/IndexComponentExample.vue";
+</script>
+
+<IndexComponentExample/>

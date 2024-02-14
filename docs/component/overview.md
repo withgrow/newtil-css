@@ -26,7 +26,7 @@
         <a href="../component/panel">
             <section>
                 <h1>Panel</h1>
-                <div class="border h:full d:flex fl-dir:column font-size:1">
+                <div class="border h:100p d:flex fl-dir:column font-size:1">
                     <div class="top-panel text-align:center bg-color:base-4 "></div>
                     <div class="fl-grow:1 d:flex">
                         <div class="side-panel bg-color:base-2"></div>
@@ -41,7 +41,7 @@
             <section>
                 <h1>Container</h1>
                 <div class="bg-color:base-2 border">
-                    <div class="container bg-color:base-1 h:full mx:auto"></div>
+                    <div class="container bg-color:base-1 h:100p mx:auto"></div>
                 </div>
             </section>
         </a>
@@ -122,11 +122,11 @@
         <a href="../component/modal">
             <section>
                 <h1>Modal</h1>
-                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative">
+                <div class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1">
                     <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
                     <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
                     <div class="mt:auto">
-                        <button class="n-btn n-btn-size:1 w:full">
+                        <button class="n-btn n-btn-size:1 w:100p">
                             label
                         </button>
                     </div>
