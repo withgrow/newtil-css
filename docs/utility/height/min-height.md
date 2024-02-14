@@ -109,7 +109,6 @@
   <td><code>min-h:100dvh</code></td>
   <td><span class="code">min-height: 100dvh !important;</span></td>
 </tr>
-</tr>
 
 <tr>
     <td>
