@@ -15,25 +15,25 @@
   <tbody>
   <tr>
   <td><code>word-break:normal</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">word-break: normal !important;</span></td>
 </tr>
 
 <tr>
   <td><code>word-break:break-all</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">word-break: break-all !important;</span></td>
 </tr>
 
 <tr>
   <td><code>word-break:keep-all</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">word-break: keep-all !important;</span></td>
 </tr>
 
 <tr>
   <td><code>word-break:break-word</code></td>
-  <td><code class="blank"></code></td>
+  <td class="blank"></td>
   <td><span class="code">word-break: break-word !important;</span></td>
 </tr>
 
