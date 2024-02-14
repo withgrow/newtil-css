@@ -1,0 +1,66 @@
+/**
+
+<div class="n-dropdown">
+  <button aria-expanded="true">open</button>
+  <ul class="active">
+    <li>
+      item-1
+    </li>
+    <li>item-2</li>
+    <li>item-3</li>
+  </ul>
+</div>
+
+*/
+
+.n-dropdown {
+  --dropdown-offset: 6px;
+}
+
+.n-dropdown {
+  position: relative;
+}
+
+.n-dropdown > ul {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  margin-top: var(--dropdown-offset);
+  padding: 4px;
+  background-color: var(--color-base-1);
+  border: 1px solid var(--color-base-3);
+  border-radius: 8px;
+  box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.08),
+    0px 1px 2px -2px rgba(0, 0, 0, 0.01);
+
+  z-index: var(--z-index-sticky);
+}
+
+.n-dropdown > ul > li {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  overflow: hidden;
+  transition: background-color 0.13s;
+  user-select: none;
+
+  cursor: pointer;
+}
+
+.n-dropdown > ul > li:hover {
+  background-color: rgba(var(--rgb-base-6), 0.12);
+}
+
+/* active ---------------------------------------------------------------------------- */
+.n-dropdown > ul {
+  display: none;
+}
+
+.n-dropdown > ul.active {
+  display: block;
+}
