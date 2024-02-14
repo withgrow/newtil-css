@@ -43,6 +43,7 @@
 .text-decoration-style\:double,      								.text-deco-style\:double,          				.txt-deco-style\:double { text-decoration-style: double !important; }
 .text-decoration-style\:dotted,      								.text-deco-style\:solid,           				.txt-deco-style\:solid { text-decoration-style: dotted !important; }
 .text-decoration-style\:wavy,        								.text-deco-style\:wavy,            				.txt-deco-style\:wavy { text-decoration-style: wavy !important; } 
+
 /* text-transform */
 .text-transform\:lowercase,      										.txt-transform\:lowercase { text-transform: lowercase !important; }
 .text-transform\:uppercase,      										.txt-transform\:uppercase { text-transform: uppercase !important; }
@@ -123,10 +124,10 @@
     .md\:white-space\:break-spaces,        					.md\:white-space\:break-space { white-space: break-spaces !important; }
 
     /* word-break */
-    .md\:word-break\:normal,               					.md\:word-break\:normal { word-break: normal !important; }
-    .md\:word-break\:break-all,            					.md\:word-break\:break-all { word-break: break-all !important}
-    .md\:word-break\:keep-all,             					.md\:word-break\:keep-all { word-break: keep-all !important; }
-    .md\:word-break\:break-word,           					.md\:word-break\:break-word { word-break: break-word !important; }
+    .md\:word-break\:normal { word-break: normal !important; }
+    .md\:word-break\:break-all { word-break: break-all !important}
+    .md\:word-break\:keep-all { word-break: keep-all !important; }
+    .md\:word-break\:break-word { word-break: break-word !important; }
     
     /* hyphens */
     .md\:hyphens\:manual,                  					.md\:hyphen\:manual,            					.md\:hypn\:manual { hyphens: manual !important; }
@@ -191,10 +192,9 @@
     .lg\:white-space\:break-spaces,        					.lg\:white-space\:break-space { white-space: break-spaces !important; }
 
     /* word-break */
-    .lg\:word-break\:normal,               					.lg\:word-break\:normal { word-break: normal !important; }
-    .lg\:word-break\:break-all,            					.lg\:word-break\:break-all { word-break: break-all !important}
-    .lg\:word-break\:keep-all,             					.lg\:word-break\:keep-all { word-break: keep-all !important; }
-    .lg\:word-break\:break-word,           					.lg\:word-break\:break-word { word-break: break-word !important; }
+    .lg\:word-break\:normal { word-break: normal !important; }
+    .lg\:word-break\:keep-all { word-break: keep-all !important; }
+    .lg\:word-break\:break-word { word-break: break-word !important; }
     
     /* hyphens */
     .lg\:hyphens\:manual,                  					.lg\:hyphen\:manual,            					.lg\:hypn\:manual { hyphens: manual !important; }

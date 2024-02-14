@@ -76,6 +76,16 @@
   --width-8: 128px;
   --width-9: 144px;
   --width-10: 160px;
+  --width-percent-1: 10%;
+  --width-percent-2: 20%;
+  --width-percent-3: 30%;
+  --width-percent-4: 40%;
+  --width-percent-5: 50%;
+  --width-percent-6: 60%;
+  --width-percent-7: 70%;
+  --width-percent-8: 80%;
+  --width-percent-9: 90%;
+  --width-percent-10: 100%;
 }
 
 /* height */
