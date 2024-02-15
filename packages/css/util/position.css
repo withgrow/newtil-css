@@ -129,7 +129,17 @@
     .lg\:top\:7p                  { top: var(--top-percent-7) !important; }
     .lg\:top\:8p                  { top: var(--top-percent-8) !important; }
     .lg\:top\:9p                  { top: var(--top-percent-9) !important; }
-    .lg\:top\:10p                  { top: var(--top-percent-10) !important; }
+    .lg\:top\:10p                 { top: var(--top-percent-10) !important; }
+    .lg\:top\:1\/2                { top: 50% !important; }
+    .lg\:top\:1\/3                { top: 33% !important; }
+    .lg\:top\:2\/3                { top: 66% !important; }
+    .lg\:top\:1\/4                { top: 25% !important; }
+    .lg\:top\:2\/4                { top: 50% !important; }
+    .lg\:top\:3\/4                { top: 75% !important; }
+    .lg\:top\:1\/5                { top: 20% !important; }
+    .lg\:top\:2\/5                { top: 40% !important; }
+    .lg\:top\:3\/5                { top: 60% !important; }
+    .lg\:top\:4\/5                { top: 80% !important; }
 }
 
 .top\:-1                   { top: calc(var(--top-1) * -1 )!important; }
@@ -165,6 +175,16 @@
     .md\:top\:-8                   { top: calc(var(--top-8) * -1 )!important; }
     .md\:top\:-9                   { top: calc(var(--top-9) * -1 )!important; }
     .md\:top\:-10                  { top: calc(var(--top-10) * -1 )!important; }
+    .md\:top\:-1p                  { top: calc(var(--top-percent-1) * -1) !important; }
+    .md\:top\:-2p                  { top: calc(var(--top-percent-2) * -1) !important; }
+    .md\:top\:-3p                  { top: calc(var(--top-percent-3) * -1) !important; }
+    .md\:top\:-4p                  { top: calc(var(--top-percent-4) * -1) !important; }
+    .md\:top\:-5p                  { top: calc(var(--top-percent-5) * -1) !important; }
+    .md\:top\:-6p                  { top: calc(var(--top-percent-6) * -1) !important; }
+    .md\:top\:-7p                  { top: calc(var(--top-percent-7) * -1) !important; }
+    .md\:top\:-8p                  { top: calc(var(--top-percent-8) * -1) !important; }
+    .md\:top\:-9p                  { top: calc(var(--top-percent-9) * -1) !important; }
+    .md\:top\:-10p                 { top: calc(var(--top-percent-10) * -1) !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -179,6 +199,16 @@
     .lg\:top\:-8                   { top: calc(var(--top-8) * -1 )!important; }
     .lg\:top\:-9                   { top: calc(var(--top-9) * -1 )!important; }
     .lg\:top\:-10                  { top: calc(var(--top-10) * -1 )!important; }
+    .lg\:top\:-1p                  { top: calc(var(--top-percent-1) * -1) !important; }
+    .lg\:top\:-2p                  { top: calc(var(--top-percent-2) * -1) !important; }
+    .lg\:top\:-3p                  { top: calc(var(--top-percent-3) * -1) !important; }
+    .lg\:top\:-4p                  { top: calc(var(--top-percent-4) * -1) !important; }
+    .lg\:top\:-5p                  { top: calc(var(--top-percent-5) * -1) !important; }
+    .lg\:top\:-6p                  { top: calc(var(--top-percent-6) * -1) !important; }
+    .lg\:top\:-7p                  { top: calc(var(--top-percent-7) * -1) !important; }
+    .lg\:top\:-8p                  { top: calc(var(--top-percent-8) * -1) !important; }
+    .lg\:top\:-9p                  { top: calc(var(--top-percent-9) * -1) !important; }
+    .lg\:top\:-10p                 { top: calc(var(--top-percent-10) * -1) !important; }
 }
 
 /* ---- right ------------------------------------------------- */
@@ -193,6 +223,27 @@
 .right\:8                   { right: var(--right-8) !important; }
 .right\:9                   { right: var(--right-9) !important; }
 .right\:10                  { right: var(--right-10) !important; }
+.right\:1p                  { right: var(--right-percent-1) !important; }
+.right\:2p                  { right: var(--right-percent-2) !important; }
+.right\:3p                  { right: var(--right-percent-3) !important; }
+.right\:4p                  { right: var(--right-percent-4) !important; }
+.right\:5p                  { right: var(--right-percent-5) !important; }
+.right\:6p                  { right: var(--right-percent-6) !important; }
+.right\:7p                  { right: var(--right-percent-7) !important; }
+.right\:8p                  { right: var(--right-percent-8) !important; }
+.right\:9p                  { right: var(--right-percent-9) !important; }
+.right\:10p                 { right: var(--right-percent-10) !important; }
+.right\:1\/2                { right: 50% !important; }
+.right\:1\/3                { right: 33% !important; }
+.right\:2\/3                { right: 66% !important; }
+.right\:1\/4                { right: 25% !important; }
+.right\:2\/4                { right: 50% !important; }
+.right\:3\/4                { right: 75% !important; }
+.right\:1\/5                { right: 20% !important; }
+.right\:2\/5                { right: 40% !important; }
+.right\:3\/5                { right: 60% !important; }
+.right\:4\/5                { right: 80% !important; }
+
 
 /* ---- md ------------------------------------------------- */
 @media (min-top: 768px) {
@@ -207,6 +258,26 @@
     .md\:right\:8                   { right: var(--right-8) !important; }
     .md\:right\:9                   { right: var(--right-9) !important; }
     .md\:right\:10                  { right: var(--right-10) !important; }
+    .md\:right\:1p                  { right: var(--right-percent-1) !important; }
+    .md\:right\:2p                  { right: var(--right-percent-2) !important; }
+    .md\:right\:3p                  { right: var(--right-percent-3) !important; }
+    .md\:right\:4p                  { right: var(--right-percent-4) !important; }
+    .md\:right\:5p                  { right: var(--right-percent-5) !important; }
+    .md\:right\:6p                  { right: var(--right-percent-6) !important; }
+    .md\:right\:7p                  { right: var(--right-percent-7) !important; }
+    .md\:right\:8p                  { right: var(--right-percent-8) !important; }
+    .md\:right\:9p                  { right: var(--right-percent-9) !important; }
+    .md\:right\:10p                 { right: var(--right-percent-10) !important; }
+    .md\:right\:1\/2                { right: 50% !important; }
+    .md\:right\:1\/3                { right: 33% !important; }
+    .md\:right\:2\/3                { right: 66% !important; }
+    .md\:right\:1\/4                { right: 25% !important; }
+    .md\:right\:2\/4                { right: 50% !important; }
+    .md\:right\:3\/4                { right: 75% !important; }
+    .md\:right\:1\/5                { right: 20% !important; }
+    .md\:right\:2\/5                { right: 40% !important; }
+    .md\:right\:3\/5                { right: 60% !important; }
+    .md\:right\:4\/5                { right: 80% !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -222,6 +293,26 @@
     .lg\:right\:8                   { right: var(--right-8) !important; }
     .lg\:right\:9                   { right: var(--right-9) !important; }
     .lg\:right\:10                  { right: var(--right-10) !important; }
+    .lg\:right\:1p                  { right: var(--right-percent-1) !important; }
+    .lg\:right\:2p                  { right: var(--right-percent-2) !important; }
+    .lg\:right\:3p                  { right: var(--right-percent-3) !important; }
+    .lg\:right\:4p                  { right: var(--right-percent-4) !important; }
+    .lg\:right\:5p                  { right: var(--right-percent-5) !important; }
+    .lg\:right\:6p                  { right: var(--right-percent-6) !important; }
+    .lg\:right\:7p                  { right: var(--right-percent-7) !important; }
+    .lg\:right\:8p                  { right: var(--right-percent-8) !important; }
+    .lg\:right\:9p                  { right: var(--right-percent-9) !important; }
+    .lg\:right\:10p                 { right: var(--right-percent-10) !important; }
+    .lg\:right\:1\/2                { right: 50% !important; }
+    .lg\:right\:1\/3                { right: 33% !important; }
+    .lg\:right\:2\/3                { right: 66% !important; }
+    .lg\:right\:1\/4                { right: 25% !important; }
+    .lg\:right\:2\/4                { right: 50% !important; }
+    .lg\:right\:3\/4                { right: 75% !important; }
+    .lg\:right\:1\/5                { right: 20% !important; }
+    .lg\:right\:2\/5                { right: 40% !important; }
+    .lg\:right\:3\/5                { right: 60% !important; }
+    .lg\:right\:4\/5                { right: 80% !important; }
 }
 
 .right\:-1                   { right: calc(var(--right-1) * -1 )!important; }
@@ -234,6 +325,16 @@
 .right\:-8                   { right: calc(var(--right-8) * -1 )!important; }
 .right\:-9                   { right: calc(var(--right-9) * -1 )!important; }
 .right\:-10                  { right: calc(var(--right-10) * -1 )!important; }
+.right\:-1p                  { right: calc(var(--top-percent-1) * -1) !important; }
+.right\:-2p                  { right: calc(var(--top-percent-2) * -1) !important; }
+.right\:-3p                  { right: calc(var(--top-percent-3) * -1) !important; }
+.right\:-4p                  { right: calc(var(--top-percent-4) * -1) !important; }
+.right\:-5p                  { right: calc(var(--top-percent-5) * -1) !important; }
+.right\:-6p                  { right: calc(var(--top-percent-6) * -1) !important; }
+.right\:-7p                  { right: calc(var(--top-percent-7) * -1) !important; }
+.right\:-8p                  { right: calc(var(--top-percent-8) * -1) !important; }
+.right\:-9p                  { right: calc(var(--top-percent-9) * -1) !important; }
+.right\:-10p                 ㄴ{ right: calc(var(--top-percent-10) * -1) !important; }
 
 
 /* ---- md ------------------------------------------------- */
@@ -248,6 +349,16 @@
     .md\:right\:-8                   { right: calc(var(--right-8) * -1 )!important; }
     .md\:right\:-9                   { right: calc(var(--right-9) * -1 )!important; }
     .md\:right\:-10                  { right: calc(var(--right-10) * -1 )!important; }
+    .md\:right\:-1p                  { right: calc(var(--top-percent-1) * -1) !important; }
+    .md\:right\:-2p                  { right: calc(var(--top-percent-2) * -1) !important; }
+    .md\:right\:-3p                  { right: calc(var(--top-percent-3) * -1) !important; }
+    .md\:right\:-4p                  { right: calc(var(--top-percent-4) * -1) !important; }
+    .md\:right\:-5p                  { right: calc(var(--top-percent-5) * -1) !important; }
+    .md\:right\:-6p                  { right: calc(var(--top-percent-6) * -1) !important; }
+    .md\:right\:-7p                  { right: calc(var(--top-percent-7) * -1) !important; }
+    .md\:right\:-8p                  { right: calc(var(--top-percent-8) * -1) !important; }
+    .md\:right\:-9p                  { right: calc(var(--top-percent-9) * -1) !important; }
+    .md\:right\:-10p                 { right: calc(var(--top-percent-10) * -1) !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -262,6 +373,16 @@
     .lg\:right\:-8                   { right: calc(var(--right-8) * -1 )!important; }
     .lg\:right\:-9                   { right: calc(var(--right-9) * -1 )!important; }
     .lg\:right\:-10                  { right: calc(var(--right-10) * -1 )!important; }
+    .lg\:right\:-1p                  { right: calc(var(--top-percent-1) * -1) !important; }
+    .lg\:right\:-2p                  { right: calc(var(--top-percent-2) * -1) !important; }
+    .lg\:right\:-3p                  { right: calc(var(--top-percent-3) * -1) !important; }
+    .lg\:right\:-4p                  { right: calc(var(--top-percent-4) * -1) !important; }
+    .lg\:right\:-5p                  { right: calc(var(--top-percent-5) * -1) !important; }
+    .lg\:right\:-6p                  { right: calc(var(--top-percent-6) * -1) !important; }
+    .lg\:right\:-7p                  { right: calc(var(--top-percent-7) * -1) !important; }
+    .lg\:right\:-8p                  { right: calc(var(--top-percent-8) * -1) !important; }
+    .lg\:right\:-9p                  { right: calc(var(--top-percent-9) * -1) !important; }
+    .lg\:right\:-10p                 { right: calc(var(--top-percent-10) * -1) !important; }
 }
 
 /* ---- bottom ------------------------------------------------- */
