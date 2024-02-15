@@ -27,7 +27,16 @@
 */
 
 .n-dropdown {
-  --dropdown-offset: 6px;
+  --dropdown-min-width: 160px;
+  --dropdown-padding: 4px;
+  --dropdown-border-radius: 8px;
+  --dropdown-border: 1px solid var(--color-base-3);
+  --dropdown-z-index: 1000;
+
+  --dropdown-offset: 6px; /* 드롭다운과 드롭다운 버튼(트리거)의 떨어진 정도 */
+
+  --dropdown-item-padding: 6px 8px;
+  --dropdown-item-border-radius: 4px;
 }
 
 .n-dropdown {
@@ -39,23 +48,23 @@
   display: none;
   position: absolute;
 
-  min-width: 160px;
+  min-width: var(--dropdown-min-width);
   margin-top: var(--dropdown-offset);
-  padding: 4px;
+  padding: var(--dropdown-padding);
   background-color: var(--color-base-1);
   border: 1px solid var(--color-base-3);
-  border-radius: 8px;
+  border-radius: var(--dropdown-border);
   box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.08),
     0px 1px 2px -2px rgba(0, 0, 0, 0.01);
 
-  z-index: var(--z-index-sticky);
+  z-index: var(--dropdown-z-index);
 }
 
 .n-dropdown > ul > li,
 .n-dropdown .n-dropdown-item {
   width: 100%;
-  padding: 6px 8px;
-  border-radius: 4px;
+  padding: var(--dropdown-item-padding);
+  border-radius: var(--dropdown-item-border-radius);
 
   font-size: 14px;
   font-weight: 500;
