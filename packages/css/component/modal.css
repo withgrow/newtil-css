@@ -18,6 +18,12 @@
 </section>
 
 */
+.n-modal {
+  --modal-border-radius: 16px;
+  --modal-border: none;
+  --modal-box-shadow: rgba(0, 0, 0, 0.08) 0 16px 20px -4px, rgba(0, 0, 0, 0.03) 0 8px 8px -4px;
+  --modal-z-index: 1200;
+}
 
 .n-modal {
   position: fixed;
@@ -30,8 +36,10 @@
   padding-left: 24px;
   padding-bottom: 16px;
   max-width: 90vw;
+  border: var(--modal-border);
+  border-radius: var(--modal-border-radius);
   background-color: var(--color-base-1);
-  border-radius: 16px;
+  box-shadow: var(--modal-box-shadow);
 
-  z-index: 1200;
+  z-index: var(--modal-z-index);
 }
