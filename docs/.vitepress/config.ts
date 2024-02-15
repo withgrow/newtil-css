@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import path from "path";
 
 const BASE_PATH = "/newtil-css/";
 
@@ -11,15 +12,16 @@ export default defineConfig({
   appearance: false, // darkmode
   lang: "ko",
   head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.13/dist/style.css",
-      },
-    ],
     ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
   ],
+
+  vite: {
+    resolve: {
+      alias: {
+        "newtil-css": path.resolve(__dirname, "../../packages/css/style.css")
+      },
+    }
+  },
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
