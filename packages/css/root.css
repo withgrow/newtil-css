@@ -231,6 +231,16 @@
   --left-8:700px;
   --left-9:800px;
   --left-10:900px;
+  --left-percent-1: 10%;
+  --left-percent-2: 20%;
+  --left-percent-3: 30%;
+  --left-percent-4: 40%;
+  --left-percent-5: 50%;
+  --left-percent-6: 60%;
+  --left-percent-7: 70%;
+  --left-percent-8: 80%;
+  --left-percent-9: 90%;
+  --left-percent-10: 100%;
 
   --top-1:0;
   --top-2:100px;
@@ -242,6 +252,16 @@
   --top-8:700px;
   --top-9:800px;
   --top-10:900px;
+  --top-percent-1: 10%;
+  --top-percent-2: 20%;
+  --top-percent-3: 30%;
+  --top-percent-4: 40%;
+  --top-percent-5: 50%;
+  --top-percent-6: 60%;
+  --top-percent-7: 70%;
+  --top-percent-8: 80%;
+  --top-percent-9: 90%;
+  --top-percent-10: 100%;
 
   --right-1:0;
   --right-2:100px;
@@ -253,6 +273,16 @@
   --right-8:700px;
   --right-9:800px;
   --right-10:900px;
+  --right-percent-1: 10%;
+  --right-percent-2: 20%;
+  --right-percent-3: 30%;
+  --right-percent-4: 40%;
+  --right-percent-5: 50%;
+  --right-percent-6: 60%;
+  --right-percent-7: 70%;
+  --right-percent-8: 80%;
+  --right-percent-9: 90%;
+  --right-percent-10: 100%;
 
   --bottom-1:0;
   --bottom-2:100px;
@@ -264,4 +294,14 @@
   --bottom-8:700px;
   --bottom-9:800px;
   --bottom-10:900px;
+  --bottom-percent-1: 10%;
+  --bottom-percent-2: 20%;
+  --bottom-percent-3: 30%;
+  --bottom-percent-4: 40%;
+  --bottom-percent-5: 50%;
+  --bottom-percent-6: 60%;
+  --bottom-percent-7: 70%;
+  --bottom-percent-8: 80%;
+  --bottom-percent-9: 90%;
+  --bottom-percent-10: 100%;
 }

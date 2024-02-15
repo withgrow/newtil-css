@@ -229,14 +229,14 @@ import ExampleSection from "../components/ExampleSection.vue";
 :::
 
 <ExampleSection class="mb:4">
-  <button type="button" class="n-btn n-btn:outline w:2 h:2 p:0">
+  <button type="button" class="n-btn n-btn:outline px:2">
     <span class="icon icon:share_fat_fill icon:base-7 icon:3">공유</span>
   </button>
 </ExampleSection>
 
 ::: details codes
 ```html
-<button type="button" class="n-btn n-btn:outline w:2 h:2 p:0">
+<button type="button" class="n-btn n-btn:outline px:2">
   <span class="icon icon:share_fat_fill icon:base-7 icon:3">공유</span>
 </button>
 ```
