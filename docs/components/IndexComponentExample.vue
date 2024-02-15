@@ -22,7 +22,7 @@
             <h1 class="mt:6 n-font:h3">가방</h1>
             <div class="mt:1 n-font:h2 font-weight:3">₩8,9000</div>
             <div class="mt:6">
-              <button class="n-btn n-btn:lg w:100p">
+              <button class="n-btn n-btn-size:3 w:100p">
                 <span
                   class="deco deco:right deco-size:3 deco-color:base-1 icon:shopping_cart_simple_fill"
                 >
@@ -51,7 +51,7 @@
               </label>
             </div>
             <div class="pb:0">
-              <button class="n-btn n-btn:base">회원가입</button>
+              <button class="n-btn n-btn-color:base">회원가입</button>
             </div>
           </section>
 
@@ -115,12 +115,12 @@
               내에 다시 답변드리도록 하겠습니다.
             </p>
             <div class="mt:3">
-              <button class="n-btn n-btn:outline n-btn:1 px:2">
+              <button class="n-btn n-btn:outline n-btn-size:1 px:2">
                 <span class="icon icon:bookmark_simple icon:3 icon:base-7">
                   북마크
                 </span>
               </button>
-              <button class="ml:2 n-btn n-btn:outline n-btn:1 px:2">
+              <button class="ml:2 n-btn n-btn:outline n-btn-size:1 px:2">
                 <span class="icon icon:trash icon:3 icon:base-7">삭제</span>
               </button>
             </div>
@@ -182,7 +182,7 @@
       <div class="d:flex jc:center mt:4">
         <a
           href="/newtil-css/guide/getting-started"
-          class="n-btn n-btn:3 bd-radius:full"
+          class="n-btn n-btn-size:3 bd-radius:full"
         >
           시작하기
         </a>
