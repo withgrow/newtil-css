@@ -60,30 +60,21 @@
 /* n-btn-size ---------------------------------------------------------------------------- */
 
 /* 1, sm */
-.n-btn-size\:1,
-.n-btn\:1,
-.n-btn-size\:sm,
-.n-btn\:sm {
+.n-btn-size\:1 {
   padding: var(--btn-padding-1);
   height: var(--btn-height-1);
   font-size: var(--btn-font-size-1);
 }
 
 /* 2, md (default) */
-.n-btn-size\:2,
-.n-btn\:2,
-.n-btn-size\:md,
-.n-btn\:md {
+.n-btn-size\:2 {
   padding: var(--btn-padding-2);
   height: var(--btn-height-2);
   font-size: var(--btn-font-size-2);
 }
 
 /* 3, lg */
-.n-btn-size\:3,
-.n-btn\:3,
-.n-btn-size\:lg,
-.n-btn\:lg {
+.n-btn-size\:3 {
   padding: var(--btn-padding-3);
   height: var(--btn-height-3);
   font-size: var(--btn-font-size-3);
@@ -138,43 +129,37 @@
 /* n-btn-color ---------------------------------------------------------------------------- */
 
 /* base */
-.n-btn-color\:base,
-.n-btn\:base {
+.n-btn-color\:base {
   background-color: var(--color-base-9);
   border-color: var(--color-base-9);
 
   color: var(--color-base-1);
 }
-.n-btn-color\:base:hover,
-.n-btn\:base:hover {
+.n-btn-color\:base:hover {
   background-color: var(--color-base-8);
   border-color: var(--color-base-8);
 }
 
 /* sub */
-.n-btn-color\:sub,
-.n-btn\:sub {
+.n-btn-color\:sub {
   background-color: var(--color-sub-2);
   border-color: var(--color-sub-2);
 
   color: var(--color-base-1);
 }
-.n-btn-color\:sub:hover,
-.n-btn\:sub:hover {
+.n-btn-color\:sub:hover {
   background-color: var(--color-sub-1);
   border-color: var(--color-sub-1);
 }
 
 /* accent */
-.n-btn-color\:accent,
-.n-btn\:accent {
+.n-btn-color\:accent {
   background-color: var(--color-accent-2);
   border-color: var(--color-accent-2);
 
   color: var(--color-base-1);
 }
-.n-btn-color\:accent:hover,
-.n-btn\:accent:hover {
+.n-btn-color\:accent:hover {
   background-color: var(--color-accent-1);
   border-color: var(--color-accent-1);
 }
