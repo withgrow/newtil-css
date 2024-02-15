@@ -5,6 +5,30 @@
  * btn-color
  * disabled
  * ───────────────────────────────────    */
+.n-btn {
+  /* btn-size:1 */
+  --btn-height-1: 28px;
+  --btn-padding-1: 4px 12px;
+  --btn-font-size-1: 14px;
+
+  /* btn-size:2 */
+  --btn-height-2: 36px;
+  --btn-padding-2: 4px 16px;
+  --btn-font-size-2: 14px;
+
+  /* btn-size:3 */
+  --btn-height-3: 44px;
+  --btn-padding-3: 4px 20px;
+  --btn-font-size-3: 16px;
+
+  /* btn-type:filled */
+  --btn-filled-background-color: var(--color-main-2);
+  --btn-filled-color: var(--color-base-1);
+
+  /* btn-type:outline */
+  --btn-outline-border-color: var(--color-base-3);
+  --btn-outline-color: inherit;
+}
 
 .n-btn {
   display: inline-flex;
@@ -12,17 +36,14 @@
   justify-content: center;
   position: relative;
 
-  padding-top: 4px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 4px;
-  height: 36px;
+  padding: var(--btn-padding-2);
+  height: var(--btn-height-2);
   border: 1px solid transparent;
   border-radius: 8px;
   background-color: transparent;
 
   color: inherit;
-  font-size: 14px;
+  font-size: var(--btn-font-size-2);
   font-weight: 500;
   font-family: inherit;
 
@@ -43,19 +64,19 @@
 .n-btn\:1,
 .n-btn-size\:sm,
 .n-btn\:sm {
-  padding-left: 12px;
-  padding-right: 12px;
-  height: 28px;
+  padding: var(--btn-padding-1);
+  height: var(--btn-height-1);
+  font-size: var(--btn-font-size-1);
 }
 
-/* 2, md */
+/* 2, md (default) */
 .n-btn-size\:2,
 .n-btn\:2,
 .n-btn-size\:md,
 .n-btn\:md {
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 36px;
+  padding: var(--btn-padding-2);
+  height: var(--btn-height-2);
+  font-size: var(--btn-font-size-2);
 }
 
 /* 3, lg */
@@ -63,11 +84,9 @@
 .n-btn\:3,
 .n-btn-size\:lg,
 .n-btn\:lg {
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 44px;
-
-  font-size: 16px;
+  padding: var(--btn-padding-3);
+  height: var(--btn-height-3);
+  font-size: var(--btn-font-size-3);
 }
 
 /* n-btn-type ---------------------------------------------------------------------------- */
@@ -76,9 +95,9 @@
 .n-btn,
 .n-btn-type\:filled,
 .n-btn\:filled {
-  background-color: var(--color-main-2);
+  background-color: var(--btn-filled-background-color);
 
-  color: var(--color-base-1);
+  color: var(--btn-filled-color);
 }
 .n-btn:hover,
 .n-btn-type\:filled:hover,
@@ -92,9 +111,9 @@
 .n-btn\:outline-box,
 .n-btn\:outline {
   background-color: var(--color-base-1);
-  border-color: var(--color-base-3);
+  border-color: var(--btn-outline-border-color);
 
-  color: inherit;
+  color: var(--btn-outline-color);
 }
 .n-btn-type\:outline-box:hover,
 .n-btn-type\:outline:hover,
