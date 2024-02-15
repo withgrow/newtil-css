@@ -6,6 +6,7 @@
 
 .n-progress {
   --progress-height: 6px;
+  --progress-border-radius: 999px;
 }
 
 .n-progress {
@@ -13,7 +14,7 @@
   width: 100%;
   height: var(--progress-height);
   background-color: rgba(var(--rgb-base-6), 0.2);
-  border-radius: 999px;
+  border-radius: var(--progress-border-radius);
   overflow: hidden;
 }
 
