@@ -14,122 +14,117 @@
 
 * how to use
 
-<table class="table bbs-table">
-    <thead>
-        <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Gender</th>
-            <th scope="col">Gender</th>
-            <th scope="col">Gender</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">1</th>
-            <td>Tom</td>
-            <td>male</td>
-            <td>male</td>
-            <td>male</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>
-                JerryJerryJerryJerryJerryJerryJerryJerryJerryJerry
-            </td>
-            <td>femalefemalefemalefemalefemalefemale</td>
-            <td>femalefemalefemalefemalefemalefemale</td>
-            <td>femalefemalefemalefemalefemalefemale</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jerry</td>
-            <td>female</td>
-            <td>female</td>
-            <td>female</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jerry</td>
-            <td>female</td>
-            <td>female</td>
-            <td>female</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jerry</td>
-            <td>female</td>
-            <td>female</td>
-            <td>female</td>
-        </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Jerry</td>
-            <td>female</td>
-            <td>female</td>
-            <td>female</td>
-        </tr>
-    </tbody>
+<table class="n-table n-bbs-table n-table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Last Login</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Tom</td>
+      <td>male</td>
+      <td>2020-11-01</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Olivia</td>
+      <td>female</td>
+      <td>2021-03-01</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Jerry</td>
+      <td>male</td>
+      <td>2021-03-01</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Kenneth</td>
+      <td>female</td>
+      <td>2021-03-02</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Robert</td>
+      <td>male</td>
+      <td>2021-02-04</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Anthony</td>
+      <td>female</td>
+      <td>2020-12-30</td>
+    </tr>
+  </tbody>
 </table>
+
 */
 
 /* ------------------------------- */
 /*              table              */
 /* ------------------------------- */
 .n-table {
-    --cell-height-sm: 32px;
-    --cell-height-md: 40px;
-    --cell-height-lg: 48px;
-    --cell-padding-x: 16px;
+  --table-cell-height-1: 32px;
+  --table-cell-height-2: 40px;
+  --table-cell-height-3: 48px;
+  --table-cell-padding-x: 16px;
 
-    --border-color: var(--color-base-2);
-    --striped-color: rgba(var(--rgb-base-10), 0.02);
-    --hover-bg-color: rgba(var(--rgb-base-10), 0.05);
+  --table-border-radius: 16px;
+  --table-border-radius-1: 0;
+  --table-border-radius-2: 4px;
+  --table-border-radius-3: 8px;
+  --table-border-radius-4: 12px;
+  --table-border-radius-5: 16px;
 
-    table-layout: fixed;
+  table-layout: fixed;
 
-    border-collapse: collapse;
-    background-color: var(--color-base-1);
+  border-collapse: collapse;
+  background-color: var(--color-base-1);
 
-    width: 100%;
+  width: 100%;
 }
 
 /* -------- [ default style ] -------- */
 
 /* cell style */
 .n-table > * > * > * {
-    height: var(--cell-height-md);
+  height: var(--table-cell-height-2);
 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 
-    padding-left: var(--cell-padding-x);
-    padding-right: var(--cell-padding-x);
+  padding-left: var(--table-cell-padding-x);
+  padding-right: var(--table-cell-padding-x);
 }
 
 /* thead row style */
 .n-table > thead > * {
-    border-bottom: 1px solid var(--color-base-4);
+  border-bottom: 1px solid var(--color-base-4);
 }
 
 /* thead cell style */
 .n-table > thead > * > * {
-    color: rgba(0, 0, 0, 0.3);
-    font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
 }
 
 /* tbody row style */
 .n-table > tbody > * {
-    transition: background-color 0.12s;
+  transition: background-color 0.12s;
 }
 .n-table > tbody > *:not(:last-child) {
-    border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--color-base-2);
 }
 
 /* tbody cell style */
 .n-table > tbody > * > * {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 /* -------- [ default style ] end-------- */
@@ -139,63 +134,94 @@
 .n-table.n-cell-height\:sm > * > * > *,
 .n-table.n-cell-h\:1 > * > * > *,
 .n-table.n-cell-h\:sm > * > * > * {
-    height: var(--cell-height-sm);
+  height: var(--table-cell-height-1);
 }
 
 .n-table.n-cell-height\:2 > * > * > *,
 .n-table.n-cell-height\:md > * > * > *,
 .n-table.n-cell-h\:2 > * > * > *,
 .n-table.n-cell-h\:md > * > * > * {
-    height: var(--cell-height-md);
+  height: var(--table-cell-height-2);
 }
 .n-table.n-cell-height\:3 > * > * > *,
 .n-table.n-cell-height\:lg > * > * > *,
 .n-table.n-cell-h\:3 > * > * > *,
 .n-table.n-cell-h\:lg > * > * > * {
-    height: var(--cell-height-lg);
+  height: var(--table-cell-height-3);
 }
 
 /* ----------- var [ table-style ] -----------  */
 .n-table.n-table-style\:striped > tbody > :nth-child(odd),
-.n-table.n-table-s\:striped > tbody > :nth-child(odd) {
-    background-color: var(--striped-color);
+.n-table.n-table\:striped > tbody > :nth-child(odd) {
+  background-color: rgba(var(--rgb-base-10), 0.02);
 }
 
 /* ----------- var [ table-border ] ----------- */
+/* border (all) */
 .n-table.n-table-border,
-.n-table.n-table-b {
-    border-radius: 8px;
-    border-style: hidden;
-    box-shadow: 0 0 0 1px var(--border-color);
+.n-table.n-table-bd {
+  border-radius: var(--table-border-radius);
+  border-style: hidden;
+  box-shadow: 0 0 0 1px var(--color-base-2);
 }
 
 .n-table.n-table-border tr:last-child > :first-child,
-.n-table.n-table-b tr:last-child > :first-child {
-    border-bottom-left-radius: 8px;
+.n-table.n-table-bd tr:last-child > :first-child {
+  border-bottom-left-radius: 8px;
 }
 
 .n-table.n-table-border tr:last-child > :last-child,
-.n-table.n-table-b tr:last-child > :last-child {
-    border-bottom-right-radius: 8px;
+.n-table.n-table-bd tr:last-child > :last-child {
+  border-bottom-right-radius: 8px;
 }
 
-.n-table.n-table-border-bottom > tbody > tr:last-child,
-.n-table.n-table-border-b > tbody > tr:last-child,
-.n-table.n-table-b-b > tbody > tr:last-child {
-    border-bottom: 1px solid var(--border-color);
+/* border-bottom */
+.n-table.n-table-border\:bottom > tbody > tr:last-child,
+.n-table.n-table-bd\:bottom > tbody > tr:last-child {
+  border-bottom: 1px solid var(--color-base-2);
+}
+
+/* border-radius */
+/* 1 */
+.n-table.n-table-border-radius\:1,
+.n-table.n-table-bd-radius\:1 {
+  border-radius: var(--table-border-radius-1);
+}
+
+/* 2 */
+.n-table.n-table-border-radius\:2,
+.n-table.n-table-bd-radius\:2 {
+  border-radius: var(--table-border-radius-2);
+}
+
+/* 3 */
+.n-table.n-table-border-radius\:3,
+.n-table.n-table-bd-radius\:3 {
+  border-radius: var(--table-border-radius-3);
+}
+
+/* 4 */
+.n-table.n-table-border-radius\:4,
+.n-table.n-table-bd-radius\:4 {
+  border-radius: var(--table-border-radius-4);
+}
+
+/* 5 */
+.n-table.n-table-border-radius\:5,
+.n-table.n-table-bd-radius\:5 {
+  border-radius: var(--table-border-radius-5);
 }
 
 /* ----------- var [ n-table-hover ] -----------  */
-.n-table.n-table-hover > tbody > tr:hover,
-.n-table.n-table-hv > tbody > tr:hover {
-    background-color: var(--hover-bg-color);
+.n-table.n-table-hover > tbody > tr:hover {
+  background-color: rgba(var(--rgb-base-10), 0.05);
 }
 
 /* ----------- var [ column-border ] ----------- */
 .n-table.n-column-border > * > * > *:not(:last-child),
-.n-table.n-column-b > * > * > *:not(:last-child),
-.n-table.n-col-b > * > * > *:not(:last-child) {
-    border-right: 1px solid var(--border-color);
+.n-table.n-column-bd > * > * > *:not(:last-child),
+.n-table.n-col-bd > * > * > *:not(:last-child) {
+  border-right: 1px solid var(--color-base-2);
 }
 
 /* ------------------------------- */
@@ -203,21 +229,21 @@
 /* ------------------------------- */
 
 .n-bbs-table {
-    --bbs-cell-width-sm: 100px;
-    --bbs-cell-width-md: 120px;
-    --bbs-cell-width-lg: 140px;
+  --table-cell-width-1: 100px;
+  --table-cell-width-2: 120px;
+  --table-cell-width-3: 140px;
 }
 
 /* -------- [ default style ] -------- */
 
 /* first-column */
 .n-bbs-table > * > * > :first-child {
-    width: 50px;
+  width: 50px;
 }
 
 /* third~ column */
 .n-bbs-table > * > * > :nth-child(n + 3) {
-    width: var(--bbs-cell-width-md);
+  width: var(--table-cell-width-2);
 }
 
 /* ------------ var [ cell-width ] ------------ */
@@ -225,44 +251,44 @@
 .n-bbs-table.n-cell-width\:sm > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:1 > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:sm > * > * > :nth-child(n + 3) {
-    width: var(--bbs-cell-width-sm);
+  width: var(--table-cell-width-1);
 }
 
 .n-bbs-table.n-cell-width\:2 > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-width\:md > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:2 > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:md > * > * > :nth-child(n + 3) {
-    width: var(--bbs-cell-width-md);
+  width: var(--table-cell-width-2);
 }
 
 .n-bbs-table.n-cell-width\:3 > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-width\:lg > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:3 > * > * > :nth-child(n + 3),
 .n-bbs-table.n-cell-w\:lg > * > * > :nth-child(n + 3) {
-    width: var(--bbs-cell-width-lg);
+  width: var(--table-cell-width-3);
 }
 
 /* mobile */
 @media (max-width: 768px) {
-    /* id, 제목, 메뉴 칼럼 제외하고 가리기 */
-    .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
-        display: none;
-    }
+  /* id, 제목, 메뉴 칼럼 제외하고 가리기 */
+  .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+    display: none;
+  }
 
-    /* 메뉴 칼럼 너비 고정 */
-    .n-bbs-table > * > * > :last-child,
-    .n-bbs-table.n-cell-width\:1 > * > * > :last-child,
-    .n-bbs-table.n-cell-width\:sm > * > * > :last-child,
-    .n-bbs-table.n-cell-width\:2 > * > * > :last-child,
-    .n-bbs-table.n-cell-width\:md > * > * > :last-child,
-    .n-bbs-table.n-cell-width\:3 > * > * > :last-child,
-    .n-bbs-table.n-cell-width\:lg > * > * > :last-child,
-    .n-bbs-table.n-cell-w\:1 > * > * > :last-child,
-    .n-bbs-table.n-cell-w\:sm > * > * > :last-child,
-    .n-bbs-table.n-cell-w\:2 > * > * > :last-child,
-    .n-bbs-table.n-cell-w\:md > * > * > :last-child,
-    .n-bbs-table.n-cell-w\:3 > * > * > :last-child,
-    .n-bbs-table.n-cell-w\:lg > * > * > :last-child {
-        width: 50px;
-    }
+  /* 메뉴 칼럼 너비 고정 */
+  .n-bbs-table > * > * > :last-child,
+  .n-bbs-table.n-cell-width\:1 > * > * > :last-child,
+  .n-bbs-table.n-cell-width\:sm > * > * > :last-child,
+  .n-bbs-table.n-cell-width\:2 > * > * > :last-child,
+  .n-bbs-table.n-cell-width\:md > * > * > :last-child,
+  .n-bbs-table.n-cell-width\:3 > * > * > :last-child,
+  .n-bbs-table.n-cell-width\:lg > * > * > :last-child,
+  .n-bbs-table.n-cell-w\:1 > * > * > :last-child,
+  .n-bbs-table.n-cell-w\:sm > * > * > :last-child,
+  .n-bbs-table.n-cell-w\:2 > * > * > :last-child,
+  .n-bbs-table.n-cell-w\:md > * > * > :last-child,
+  .n-bbs-table.n-cell-w\:3 > * > * > :last-child,
+  .n-bbs-table.n-cell-w\:lg > * > * > :last-child {
+    width: 50px;
+  }
 }
