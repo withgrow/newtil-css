@@ -16,7 +16,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 <div class="w:100p d:flex jc:center of:auto">
     <div v-for="i in 5"
         class="color:base-10 border border-color:main-1 border-radius:2 bg-color:base-1 w:1 h:1 d:flex ai:center jc:center box"
-        :class="`z-index:${6-i}`">
+        :style="`z-index:${6-i}`">
         {{ 6-i }}
     </div>
 </div>
