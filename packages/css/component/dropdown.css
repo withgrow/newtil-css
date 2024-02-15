@@ -3,12 +3,25 @@
 <div class="n-dropdown">
   <button aria-expanded="true">open</button>
   <ul class="active">
-    <li>
-      item-1
-    </li>
+    <li>item-1</li>
     <li>item-2</li>
     <li>item-3</li>
   </ul>
+</div>
+
+<div class="n-dropdown">
+  <button aria-expanded="true">open</button>
+  <div class="n-dropdown-list active">
+    <div class="n-dropdown-item">
+      item-1
+    </div>
+    <div class="n-dropdown-item">
+      item-2
+    </div>
+    <div class="n-dropdown-item">
+      item-3
+    </div>
+  </div>
 </div>
 
 */
@@ -21,7 +34,8 @@
   position: relative;
 }
 
-.n-dropdown > ul {
+.n-dropdown > ul,
+.n-dropdown .n-dropdown-list {
   display: none;
   position: absolute;
 
@@ -37,7 +51,8 @@
   z-index: var(--z-index-sticky);
 }
 
-.n-dropdown > ul > li {
+.n-dropdown > ul > li,
+.n-dropdown .n-dropdown-item {
   width: 100%;
   padding: 6px 8px;
   border-radius: 4px;
@@ -52,15 +67,18 @@
   cursor: pointer;
 }
 
-.n-dropdown > ul > li:hover {
+.n-dropdown > ul > li:hover,
+.n-dropdown .n-dropdown-item:hover {
   background-color: rgba(var(--rgb-base-6), 0.12);
 }
 
 /* active ---------------------------------------------------------------------------- */
-.n-dropdown > ul {
+.n-dropdown > ul,
+.n-dropdown .n-dropdown-list {
   display: none;
 }
 
-.n-dropdown > ul.active {
+.n-dropdown  ul.active,
+.n-dropdown  .n-dropdown-list.active {
   display: block;
 }
