@@ -334,7 +334,7 @@
 .right\:-7p                  { right: calc(var(--top-percent-7) * -1) !important; }
 .right\:-8p                  { right: calc(var(--top-percent-8) * -1) !important; }
 .right\:-9p                  { right: calc(var(--top-percent-9) * -1) !important; }
-.right\:-10p                 ㄴ{ right: calc(var(--top-percent-10) * -1) !important; }
+.right\:-10p                 { right: calc(var(--top-percent-10) * -1) !important; }
 
 
 /* ---- md ------------------------------------------------- */
@@ -397,6 +397,26 @@
 .bottom\:8                   { bottom: var(--bottom-8) !important; }
 .bottom\:9                   { bottom: var(--bottom-9) !important; }
 .bottom\:10                  { bottom: var(--bottom-10) !important; }
+.bottom\:1p                 { bottom: var(--right-percent-1) !important; }
+.bottom\:2p                 { bottom: var(--right-percent-2) !important; }
+.bottom\:3p                 { bottom: var(--right-percent-3) !important; }
+.bottom\:4p                 { bottom: var(--right-percent-4) !important; }
+.bottom\:5p                 { bottom: var(--right-percent-5) !important; }
+.bottom\:6p                 { bottom: var(--right-percent-6) !important; }
+.bottom\:7p                 { bottom: var(--right-percent-7) !important; }
+.bottom\:8p                 { bottom: var(--right-percent-8) !important; }
+.bottom\:9p                 { bottom: var(--right-percent-9) !important; }
+.bottom\:10p                { bottom: var(--right-percent-10) !important; }
+.bottom\:1\/2               { bottom: 50% !important; }
+.bottom\:1\/3               { bottom: 33% !important; }
+.bottom\:2\/3               { bottom: 66% !important; }
+.bottom\:1\/4               { bottom: 25% !important; }
+.bottom\:2\/4               { bottom: 50% !important; }
+.bottom\:3\/4               { bottom: 75% !important; }
+.bottom\:1\/5               { bottom: 20% !important; }
+.bottom\:2\/5               { bottom: 40% !important; }
+.bottom\:3\/5               { bottom: 60% !important; }
+.bottom\:4\/5               { bottom: 80% !important; }
 
 /* ---- md ------------------------------------------------- */
 @media (min-top: 768px) {
@@ -411,6 +431,26 @@
     .md\:bottom\:8                   { bottom: var(--bottom-8) !important; }
     .md\:bottom\:9                   { bottom: var(--bottom-9) !important; }
     .md\:bottom\:10                  { bottom: var(--bottom-10) !important; }
+    .md\:bottom\:1p                  { bottom: var(--right-percent-1) !important; }
+    .md\:bottom\:2p                  { bottom: var(--right-percent-2) !important; }
+    .md\:bottom\:3p                  { bottom: var(--right-percent-3) !important; }
+    .md\:bottom\:4p                  { bottom: var(--right-percent-4) !important; }
+    .md\:bottom\:5p                  { bottom: var(--right-percent-5) !important; }
+    .md\:bottom\:6p                  { bottom: var(--right-percent-6) !important; }
+    .md\:bottom\:7p                  { bottom: var(--right-percent-7) !important; }
+    .md\:bottom\:8p                  { bottom: var(--right-percent-8) !important; }
+    .md\:bottom\:9p                  { bottom: var(--right-percent-9) !important; }
+    .md\:bottom\:10p                 { bottom: var(--right-percent-10) !important; }
+    .md\:bottom\:1\/2                { bottom: 50% !important; }
+    .md\:bottom\:1\/3                { bottom: 33% !important; }
+    .md\:bottom\:2\/3                { bottom: 66% !important; }
+    .md\:bottom\:1\/4                { bottom: 25% !important; }
+    .md\:bottom\:2\/4                { bottom: 50% !important; }
+    .md\:bottom\:3\/4                { bottom: 75% !important; }
+    .md\:bottom\:1\/5                { bottom: 20% !important; }
+    .md\:bottom\:2\/5                { bottom: 40% !important; }
+    .md\:bottom\:3\/5                { bottom: 60% !important; }
+    .md\:bottom\:4\/5                { bottom: 80% !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -426,6 +466,26 @@
     .lg\:bottom\:8                   { bottom: var(--bottom-8) !important; }
     .lg\:bottom\:9                   { bottom: var(--bottom-9) !important; }
     .lg\:bottom\:10                  { bottom: var(--bottom-10) !important; }
+    .lg\:bottom\:1p                  { bottom: var(--right-percent-1) !important; }
+    .lg\:bottom\:2p                  { bottom: var(--right-percent-2) !important; }
+    .lg\:bottom\:3p                  { bottom: var(--right-percent-3) !important; }
+    .lg\:bottom\:4p                  { bottom: var(--right-percent-4) !important; }
+    .lg\:bottom\:5p                  { bottom: var(--right-percent-5) !important; }
+    .lg\:bottom\:6p                  { bottom: var(--right-percent-6) !important; }
+    .lg\:bottom\:7p                  { bottom: var(--right-percent-7) !important; }
+    .lg\:bottom\:8p                  { bottom: var(--right-percent-8) !important; }
+    .lg\:bottom\:9p                  { bottom: var(--right-percent-9) !important; }
+    .lg\:bottom\:10p                 { bottom: var(--right-percent-10) !important; }
+    .lg\:bottom\:1\/2                { bottom: 50% !important; }
+    .lg\:bottom\:1\/3                { bottom: 33% !important; }
+    .lg\:bottom\:2\/3                { bottom: 66% !important; }
+    .lg\:bottom\:1\/4                { bottom: 25% !important; }
+    .lg\:bottom\:2\/4                { bottom: 50% !important; }
+    .lg\:bottom\:3\/4                { bottom: 75% !important; }
+    .lg\:bottom\:1\/5                { bottom: 20% !important; }
+    .lg\:bottom\:2\/5                { bottom: 40% !important; }
+    .lg\:bottom\:3\/5                { bottom: 60% !important; }
+    .lg\:bottom\:4\/5                { bottom: 80% !important; }
 }
 
 .bottom\:-1                   { bottom: calc(var(--bottom-1) * -1 )!important; }
@@ -438,6 +498,15 @@
 .bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
 .bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
 .bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
+.bottom\:-2p                  { bottom: calc(var(--top-percent-2) * -1) !important; }
+.bottom\:-3p                  { bottom: calc(var(--top-percent-3) * -1) !important; }
+.bottom\:-4p                  { bottom: calc(var(--top-percent-4) * -1) !important; }
+.bottom\:-5p                  { bottom: calc(var(--top-percent-5) * -1) !important; }
+.bottom\:-6p                  { bottom: calc(var(--top-percent-6) * -1) !important; }
+.bottom\:-7p                  { bottom: calc(var(--top-percent-7) * -1) !important; }
+.bottom\:-8p                  { bottom: calc(var(--top-percent-8) * -1) !important; }
+.bottom\:-9p                  { bottom: calc(var(--top-percent-9) * -1) !important; }
+.bottom\:-10p                 { bottom: calc(var(--top-percent-10) * -1) !important; }
 
 /* ---- md ------------------------------------------------- */
 @media (min-top: 768px) {
@@ -451,6 +520,16 @@
     .md\:bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
     .md\:bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
     .md\:bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
+    .md\:bottom\:-1p                 { bottom: calc(var(--top-percent-1) * -1) !important; }
+    .md\:bottom\:-2p                 { bottom: calc(var(--top-percent-2) * -1) !important; }
+    .md\:bottom\:-3p                 { bottom: calc(var(--top-percent-3) * -1) !important; }
+    .md\:bottom\:-4p                 { bottom: calc(var(--top-percent-4) * -1) !important; }
+    .md\:bottom\:-5p                 { bottom: calc(var(--top-percent-5) * -1) !important; }
+    .md\:bottom\:-6p                 { bottom: calc(var(--top-percent-6) * -1) !important; }
+    .md\:bottom\:-7p                 { bottom: calc(var(--top-percent-7) * -1) !important; }
+    .md\:bottom\:-8p                 { bottom: calc(var(--top-percent-8) * -1) !important; }
+    .md\:bottom\:-9p                 { bottom: calc(var(--top-percent-9) * -1) !important; }
+    .md\:bottom\:-10p                { bottom: calc(var(--top-percent-10) * -1) !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -465,6 +544,16 @@
     .lg\:bottom\:-8                   { bottom: calc(var(--bottom-8) * -1 )!important; }
     .lg\:bottom\:-9                   { bottom: calc(var(--bottom-9) * -1 )!important; }
     .lg\:bottom\:-10                  { bottom: calc(var(--bottom-10) * -1 )!important; }
+    .lg\:bottom\:-1p                  { bottom: calc(var(--top-percent-1) * -1) !important; }
+    .lg\:bottom\:-2p                  { bottom: calc(var(--top-percent-2) * -1) !important; }
+    .lg\:bottom\:-3p                  { bottom: calc(var(--top-percent-3) * -1) !important; }
+    .lg\:bottom\:-4p                  { bottom: calc(var(--top-percent-4) * -1) !important; }
+    .lg\:bottom\:-5p                  { bottom: calc(var(--top-percent-5) * -1) !important; }
+    .lg\:bottom\:-6p                  { bottom: calc(var(--top-percent-6) * -1) !important; }
+    .lg\:bottom\:-7p                  { bottom: calc(var(--top-percent-7) * -1) !important; }
+    .lg\:bottom\:-8p                  { bottom: calc(var(--top-percent-8) * -1) !important; }
+    .lg\:bottom\:-9p                  { bottom: calc(var(--top-percent-9) * -1) !important; }
+    .lg\:bottom\:-10p                 { bottom: calc(var(--top-percent-10) * -1) !important; }
 }
 
 
@@ -480,6 +569,26 @@
 .left\:8                   { left: var(--left-8) !important; }
 .left\:9                   { left: var(--left-9) !important; }
 .left\:10                  { left: var(--left-10) !important; }
+.left\:1p                  { left: var(--right-percent-1) !important; }
+.left\:2p                  { left: var(--right-percent-2) !important; }
+.left\:3p                  { left: var(--right-percent-3) !important; }
+.left\:4p                  { left: var(--right-percent-4) !important; }
+.left\:5p                  { left: var(--right-percent-5) !important; }
+.left\:6p                  { left: var(--right-percent-6) !important; }
+.left\:7p                  { left: var(--right-percent-7) !important; }
+.left\:8p                  { left: var(--right-percent-8) !important; }
+.left\:9p                  { left: var(--right-percent-9) !important; }
+.left\:10p                 { left: var(--right-percent-10) !important; }
+.left\:1\/2                { left: 50% !important; }
+.left\:1\/3                { left: 33.333333% !important; }
+.left\:2\/3                { left: 66.666667% !important; }
+.left\:1\/4                { left: 25% !important; }
+.left\:2\/4                { left: 50% !important; }
+.left\:3\/4                { left: 75% !important; }
+.left\:1\/5                { left: 20% !important; }
+.left\:2\/5                { left: 40% !important; }
+.left\:3\/5                { left: 60% !important; }
+.left\:4\/5                { left: 80% !important; }
 
 /* ---- md ------------------------------------------------- */
 @media (min-top: 768px) {
@@ -494,6 +603,26 @@
     .md\:left\:8                   { left: var(--left-8) !important; }
     .md\:left\:9                   { left: var(--left-9) !important; }
     .md\:left\:10                  { left: var(--left-10) !important; }
+    .md\:left\:1p                  { left: var(--right-percent-1) !important; }
+    .md\:left\:2p                  { left: var(--right-percent-2) !important; }
+    .md\:left\:3p                  { left: var(--right-percent-3) !important; }
+    .md\:left\:4p                  { left: var(--right-percent-4) !important; }
+    .md\:left\:5p                  { left: var(--right-percent-5) !important; }
+    .md\:left\:6p                  { left: var(--right-percent-6) !important; }
+    .md\:left\:7p                  { left: var(--right-percent-7) !important; }
+    .md\:left\:8p                  { left: var(--right-percent-8) !important; }
+    .md\:left\:9p                  { left: var(--right-percent-9) !important; }
+    .md\:left\:10p                 { left: var(--right-percent-10) !important; }
+    .md\:left\:1\/2                { left: 50% !important; }
+    .md\:left\:1\/3                { left: 33.333333% !important; }
+    .md\:left\:2\/3                { left: 66.666667% !important; }
+    .md\:left\:1\/4                { left: 25% !important; }
+    .md\:left\:2\/4                { left: 50% !important; }
+    .md\:left\:3\/4                { left: 75% !important; }
+    .md\:left\:1\/5                { left: 20% !important; }
+    .md\:left\:2\/5                { left: 40% !important; }
+    .md\:left\:3\/5                { left: 60% !important; }
+    .md\:left\:4\/5                { left: 80% !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -509,6 +638,26 @@
     .lg\:left\:8                   { left: var(--left-8) !important; }
     .lg\:left\:9                   { left: var(--left-9) !important; }
     .lg\:left\:10                  { left: var(--left-10) !important; }
+    .lg\:left\:1p                  { left: var(--right-percent-1) !important; }
+    .lg\:left\:2p                  { left: var(--right-percent-2) !important; }
+    .lg\:left\:3p                  { left: var(--right-percent-3) !important; }
+    .lg\:left\:4p                  { left: var(--right-percent-4) !important; }
+    .lg\:left\:5p                  { left: var(--right-percent-5) !important; }
+    .lg\:left\:6p                  { left: var(--right-percent-6) !important; }
+    .lg\:left\:7p                  { left: var(--right-percent-7) !important; }
+    .lg\:left\:8p                  { left: var(--right-percent-8) !important; }
+    .lg\:left\:9p                  { left: var(--right-percent-9) !important; }
+    .lg\:left\:10p                 { left: var(--right-percent-10) !important; }
+    .lg\:left\:1\/2                { left: 50% !important; }
+    .lg\:left\:1\/3                { left: 33.333333% !important; }
+    .lg\:left\:2\/3                { left: 66.666667% !important; }
+    .lg\:left\:1\/4                { left: 25% !important; }
+    .lg\:left\:2\/4                { left: 50% !important; }
+    .lg\:left\:3\/4                { left: 75% !important; }
+    .lg\:left\:1\/5                { left: 20% !important; }
+    .lg\:left\:2\/5                { left: 40% !important; }
+    .lg\:left\:3\/5                { left: 60% !important; }
+    .lg\:left\:4\/5                { left: 80% !important; }
 }
 
 .left\:-1                   { left: calc(var(--left-1) * -1 )!important; }
@@ -521,6 +670,16 @@
 .left\:-8                   { left: calc(var(--left-8) * -1 )!important; }
 .left\:-9                   { left: calc(var(--left-9) * -1 )!important; }
 .left\:-10                  { left: calc(var(--left-10) * -1 )!important; }
+.left\:-1p                  { left: calc(var(--top-percent-1) * -1) !important; }
+.left\:-2p                  { left: calc(var(--top-percent-2) * -1) !important; }
+.left\:-3p                  { left: calc(var(--top-percent-3) * -1) !important; }
+.left\:-4p                  { left: calc(var(--top-percent-4) * -1) !important; }
+.left\:-5p                  { left: calc(var(--top-percent-5) * -1) !important; }
+.left\:-6p                  { left: calc(var(--top-percent-6) * -1) !important; }
+.left\:-7p                  { left: calc(var(--top-percent-7) * -1) !important; }
+.left\:-8p                  { left: calc(var(--top-percent-8) * -1) !important; }
+.left\:-9p                  { left: calc(var(--top-percent-9) * -1) !important; }
+.left\:-10p                 { left: calc(var(--top-percent-10) * -1) !important; }
 
 /* ---- md ------------------------------------------------- */
 @media (min-top: 768px) {
@@ -534,6 +693,16 @@
     .md\:left\:-8                   { left: calc(var(--left-8) * -1 )!important; }
     .md\:left\:-9                   { left: calc(var(--left-9) * -1 )!important; }
     .md\:left\:-10                  { left: calc(var(--left-10) * -1 )!important; }
+    .md\:left\:-1p                  { left: calc(var(--top-percent-1) * -1) !important; }
+    .md\:left\:-2p                  { left: calc(var(--top-percent-2) * -1) !important; }
+    .md\:left\:-3p                  { left: calc(var(--top-percent-3) * -1) !important; }
+    .md\:left\:-4p                  { left: calc(var(--top-percent-4) * -1) !important; }
+    .md\:left\:-5p                  { left: calc(var(--top-percent-5) * -1) !important; }
+    .md\:left\:-6p                  { left: calc(var(--top-percent-6) * -1) !important; }
+    .md\:left\:-7p                  { left: calc(var(--top-percent-7) * -1) !important; }
+    .md\:left\:-8p                  { left: calc(var(--top-percent-8) * -1) !important; }
+    .md\:left\:-9p                  { left: calc(var(--top-percent-9) * -1) !important; }
+    .md\:left\:-10p                 { left: calc(var(--top-percent-10) * -1) !important; }
 }
 
 /* ---- lg ------------------------------------------------- */
@@ -548,4 +717,14 @@
     .lg\:left\:-8                   { left: calc(var(--left-8) * -1 )!important; }
     .lg\:left\:-9                   { left: calc(var(--left-9) * -1 )!important; }
     .lg\:left\:-10                  { left: calc(var(--left-10) * -1 )!important; }
+    .lg\:left\:-1p                  { left: calc(var(--top-percent-1) * -1) !important; }
+    .lg\:left\:-2p                  { left: calc(var(--top-percent-2) * -1) !important; }
+    .lg\:left\:-3p                  { left: calc(var(--top-percent-3) * -1) !important; }
+    .lg\:left\:-4p                  { left: calc(var(--top-percent-4) * -1) !important; }
+    .lg\:left\:-5p                  { left: calc(var(--top-percent-5) * -1) !important; }
+    .lg\:left\:-6p                  { left: calc(var(--top-percent-6) * -1) !important; }
+    .lg\:left\:-7p                  { left: calc(var(--top-percent-7) * -1) !important; }
+    .lg\:left\:-8p                  { left: calc(var(--top-percent-8) * -1) !important; }
+    .lg\:left\:-9p                  { left: calc(var(--top-percent-9) * -1) !important; }
+    .lg\:left\:-10p                 { left: calc(var(--top-percent-10) * -1) !important; }
 }
