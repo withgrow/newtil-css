@@ -149,20 +149,20 @@ window.addEventListener("load", function () {
 
 :::raw
 <ExampleSection>
-<section class="n-modal w:1/2 example" tabindex="-1">
+<section class="n-modal example" tabindex="-1">
   <h1 class="n-font:h3 font-weight:3">신청 안내</h1>
 
-  <form>
+  <form >
     <div class="my:5">
       <label>
         이름
-        <input type="text" class="n-textbox n-textbox-label:top" />
+        <input type="text" class="n-textbox n-textbox-label:top w:5" />
       </label>
     </div>
     <div class="my:5">
       <label>
         이메일
-        <input type="text" class="n-textbox n-textbox-label:top" />
+        <input type="text" class="n-textbox n-textbox-label:top w:5" />
       </label>
     </div>
     <div class="d:flex jc:flex-end gap:2 mt:8">
@@ -176,19 +176,19 @@ window.addEventListener("load", function () {
 
 ::: details codes
 ```html
-<section class="n-modal w:1/2" tabindex="-1">
+<section class="n-modal" tabindex="-1">
   <h1 class="n-font:h3 font-weight:3">신청 안내</h1>
   <form>
     <div class="my:5">
       <label>
         이름
-        <input type="text" class="n-textbox n-textbox-label:top" />
+        <input type="text" class="n-textbox n-textbox-label:top w:5" />
       </label>
     </div>
     <div class="my:5">
       <label>
         이메일
-        <input type="text" class="n-textbox n-textbox-label:top" />
+        <input type="text" class="n-textbox n-textbox-label:top w:5" />
       </label>
     </div>
     <div class="d:flex jc:flex-end gap:2 mt:8">
