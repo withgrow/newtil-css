@@ -35,8 +35,7 @@
 }
 
 .n-toggle:checked,
-.n-toggle.n-toggle-status\:checked,
-.n-toggle.checked {
+.n-toggle.n-toggle-status\:checked {
   background-color: var(--color-main-2);
 }
 
@@ -74,119 +73,66 @@
 
 .n-toggle:checked::before,
 .n-toggle.n-toggle-status\:checked::before,
-.n-toggle.checked::before,
 .n-toggle-type\:slide:checked::before,
 .n-toggle-type\:slide.n-toggle-status\:checked::before,
-.n-toggle-type\:slide.checked::before,
 .n-toggle\:slide:checked::before,
-.n-toggle\:slide.n-toggle-status\:checked::before,
-.n-toggle\:slide.checked::before {
+.n-toggle\:slide.n-toggle-status\:checked::before {
   left: 22px;
   -webkit-mask-image: none;
   mask-image: none;
 }
 
 /* size */
-.n-toggle-size\:1,
-.n-toggle\:1,
-.n-toggle-size\:sm,
-.n-toggle\:sm {
+.n-toggle-size\:1 {
   width: 36px;
   height: 20px;
 }
 
-.n-toggle-size\:1::before,
-.n-toggle\:1::before,
-.n-toggle-size\:sm::before,
-.n-toggle\:sm::before {
+.n-toggle-size\:1::before {
   width: 16px;
   height: 16px;
 }
 
 .n-toggle-size\:1:checked::before,
-.n-toggle\:1:checked::before,
-.n-toggle-size\:sm:checked::before,
-.n-toggle\:sm:checked::before,
-.n-toggle-size\:1.n-toggle-status\:checked::before,
-.n-toggle\:1.n-toggle-status\:checked::before,
-.n-toggle-size\:sm.n-toggle-status\:checked::before,
-.n-toggle\:sm.n-toggle-status\:checked::before,
-.n-toggle-size\:1.checked::before,
-.n-toggle\:1.checked::before,
-.n-toggle-size\:sm.checked::before,
-.n-toggle\:sm.checked::before {
+.n-toggle-size\:1.n-toggle-status\:checked::before {
   left: 18px;
 }
 
-.n-toggle-size\:2,
-.n-toggle\:2,
-.n-toggle-size\:md,
-.n-toggle\:md {
+.n-toggle-size\:2 {
   width: 44px;
   height: 24px;
 }
 
-.n-toggle-size\:2::before,
-.n-toggle\:2::before,
-.n-toggle-size\:md::before,
-.n-toggle\:md::before {
+.n-toggle-size\:2::before {
   width: 20px;
   height: 20px;
 }
 
 .n-toggle-size\:2:checked::before,
-.n-toggle\:2:checked::before,
-.n-toggle-size\:md:checked::before,
-.n-toggle\:md:checked::before,
-.n-toggle-size\:2.n-toggle-status\:checked::before,
-.n-toggle\:2.n-toggle-status\:checked::before,
-.n-toggle-size\:md.n-toggle-status\:checked::before,
-.n-toggle\:md.n-toggle-status\:checked::before,
-.n-toggle-size\:2.checked::before,
-.n-toggle\:2.checked::before,
-.n-toggle-size\:md.checked::before,
-.n-toggle\:md.checked::before {
+.n-toggle-size\:2.n-toggle-status\:checked::before {
   left: 22px;
 }
 
-.n-toggle-size\:3,
-.n-toggle\:3,
-.n-toggle-size\:lg,
-.n-toggle\:lg {
+.n-toggle-size\:3 {
   width: 52px;
   height: 28px;
 }
 
-.n-toggle-size\:3::before,
-.n-toggle\:3::before,
-.n-toggle-size\:lg::before,
-.n-toggle\:lg::before {
+.n-toggle-size\:3::before {
   width: 24px;
   height: 24px;
 }
 
 .n-toggle-size\:3:checked::before,
-.n-toggle\:3:checked::before,
-.n-toggle-size\:lg:checked::before,
-.n-toggle\:lg:checked::before,
-.n-toggle-size\:3.n-toggle-status\:checked::before,
-.n-toggle\:3.n-toggle-status\:checked::before,
-.n-toggle-size\:lg.n-toggle-status\:checked::before,
-.n-toggle\:lg.n-toggle-status\:checked::before,
-.n-toggle-size\:3.checked::before,
-.n-toggle\:3.checked::before,
-.n-toggle-size\:lg.checked::before,
-.n-toggle\:lg.checked::before {
+.n-toggle-size\:3.n-toggle-status\:checked::before {
   left: 26px;
 }
 
 /* n-toggle:disabled */
 .n-toggle:disabled,
 .n-toggle.n-toggle-status\:disabled,
-.n-toggle.disabled,
 .n-toggle:checked:disabled,
-.n-toggle:checked.n-toggle-status\:disabled,
-.n-toggle:checked.disabled {
+.n-toggle:checked.n-toggle-status\:disabled {
   --n-toggle-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
 
   background-color: var(--n-toggle-disabled-bg-color);
@@ -222,20 +168,16 @@
 
 .n-toggle-type\:check:checked,
 .n-toggle-type\:check.n-toggle-status\:checked,
-.n-toggle-type\:check.checked,
 .n-toggle\:check:checked,
-.n-toggle\:check.n-toggle-status\:checked,
-.n-toggle\:check.checked {
+.n-toggle\:check.n-toggle-status\:checked {
   background-color: var(--color-main-2);
   border: transparent;
 }
 
 .n-toggle-type\:check:checked::before,
 .n-toggle-type\:check.n-toggle-status\:checked::before,
-.n-toggle-type\:check.checked::before,
 .n-toggle\:check:checked::before,
-.n-toggle\:check.n-toggle-status\:checked::before,
-.n-toggle\:check.checked::before {
+.n-toggle\:check.n-toggle-status\:checked::before {
   content: "";
   width: inherit;
   height: inherit;
@@ -255,75 +197,39 @@
 
 /* size */
 .n-toggle-type\:check.n-toggle-size\:1,
-.n-toggle-type\:check.n-toggle\:1,
-.n-toggle-type\:check.n-toggle-size\:sm,
-.n-toggle-type\:check.n-toggle\:sm,
-.n-toggle\:check.n-toggle-size\:1,
-.n-toggle\:check.n-toggle\:1,
-.n-toggle\:check.n-toggle-size\:sm,
-.n-toggle\:check.n-toggle\:sm {
+.n-toggle\:check.n-toggle-size\:1 {
   width: 16px;
   min-width: 16px;
   height: 16px;
 }
 
 .n-toggle-type\:check.n-toggle-size\:1::before,
-.n-toggle-type\:check.n-toggle\:1::before,
-.n-toggle-type\:check.n-toggle-size\:sm::before,
-.n-toggle-type\:check.n-toggle\:sm::before,
-.n-toggle\:check.n-toggle-size\:1::before,
-.n-toggle\:check.n-toggle\:1::before,
-.n-toggle\:check.n-toggle-size\:sm::before,
-.n-toggle\:check.n-toggle\:sm::before {
+.n-toggle\:check.n-toggle-size\:1::before {
   -webkit-mask-size: 14px 14px;
   mask-size: 14px 14px;
 }
 
 .n-toggle-type\:check.n-toggle-size\:2,
-.n-toggle-type\:check.n-toggle\:2,
-.n-toggle-type\:check.n-toggle-size\:md,
-.n-toggle-type\:check.n-toggle\:md,
-.n-toggle\:check.n-toggle-size\:2,
-.n-toggle\:check.n-toggle\:2,
-.n-toggle\:check.n-toggle-size\:md,
-.n-toggle\:check.n-toggle\:md {
+.n-toggle\:check.n-toggle-size\:2 {
   width: 24px;
   height: 24px;
 }
 
 .n-toggle-type\:check.n-toggle-size\:2::before,
-.n-toggle-type\:check.n-toggle\:2::before,
-.n-toggle-type\:check.n-toggle-size\:md::before,
-.n-toggle-type\:check.n-toggle\:md::before,
-.n-toggle\:check.n-toggle-size\:2::before,
-.n-toggle\:check.n-toggle\:2::before,
-.n-toggle\:check.n-toggle-size\:md::before,
-.n-toggle\:check.n-toggle\:md::before {
+.n-toggle\:check.n-toggle-size\:2::before {
   -webkit-mask-size: 20px 20px;
   mask-size: 20px 20px;
 }
 
 .n-toggle-type\:check.n-toggle-size\:3,
-.n-toggle-type\:check.n-toggle\:3,
-.n-toggle-type\:check.n-toggle-size\:lg,
-.n-toggle-type\:check.n-toggle\:lg,
-.n-toggle\:check.n-toggle-size\:3,
-.n-toggle\:check.n-toggle\:3,
-.n-toggle\:check.n-toggle-size\:lg,
-.n-toggle\:check.n-toggle\:lg {
+.n-toggle\:check.n-toggle-size\:3 {
   width: 32px;
   min-width: 32px;
   height: 32px;
 }
 
 .n-toggle-type\:check.n-toggle-size\:3::before,
-.n-toggle-type\:check.n-toggle\:3::before,
-.n-toggle-type\:check.n-toggle-size\:lg::before,
-.n-toggle-type\:check.n-toggle\:lg::before,
-.n-toggle\:check.n-toggle-size\:3::before,
-.n-toggle\:check.n-toggle\:3::before,
-.n-toggle\:check.n-toggle-size\:lg::before,
-.n-toggle\:check.n-toggle\:lg::before {
+.n-toggle\:check.n-toggle-size\:3::before {
   -webkit-mask-size: 28px 28px;
   mask-size: 28px 28px;
 }
@@ -332,11 +238,9 @@
 .n-toggle-type\:check:disabled,
 .n-toggle-type\:check:checked:disabled,
 .n-toggle-type\:check.n-toggle-status\:disabled,
-.n-toggle-type\:check.disabled,
 .n-toggle\:check:disabled,
 .n-toggle\:check:checked:disabled,
-.n-toggle\:check.n-toggle-status\:disabled,
-.n-toggle\:check.disabled {
+.n-toggle\:check.n-toggle-status\:disabled {
   --n-check-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
   --n-check-disabled-border-color: rgba(var(--rgb-base-10), 0.27);
 
@@ -346,16 +250,10 @@
 }
 
 .n-toggle-type\:check:checked:disabled::before,
-.n-toggle-type\:check:checked.disabled:before,
-.n-toggle-type\:check.checked:disabled::before,
-.n-toggle-type\:check.checked.disabled::before,
 .n-toggle-type\:check:checked.n-toggle-status\:disabled::before,
 .n-toggle-type\:check.n-toggle-status\:checked:disabled::before,
 .n-toggle-type\:check.n-toggle-status\:checked.n-toggle-status\:disabled::before,
 .n-toggle\:check:checked:disabled::before,
-.n-toggle\:check:checked.disabled:before,
-.n-toggle\:check.checked:disabled::before,
-.n-toggle\:check.checked.disabled::before,
 .n-toggle\:check:checked.n-toggle-status\:disabled::before,
 .n-toggle\:check.n-toggle-status\:checked:disabled::before,
 .n-toggle\:check.n-toggle-status\:checked.n-toggle-status\:disabled::before {
@@ -401,11 +299,9 @@
 .n-toggle-type\:dot:checked,
 .n-toggle-type\:dot:has(input:checked),
 .n-toggle-type\:dot.n-toggle-status\:checked,
-.n-toggle-type\:dot.checked,
 .n-toggle\:dot:checked,
 .n-toggle\:dot:has(input:checked),
-.n-toggle\:dot.n-toggle-status\:checked,
-.n-toggle\:dot.checked {
+.n-toggle\:dot.n-toggle-status\:checked {
   background-color: initial;
   border-color: var(--color-main-2);
 }
@@ -413,11 +309,9 @@
 .n-toggle-type\:dot:checked::before,
 .n-toggle-type\:dot:has(input:checked)::before,
 .n-toggle-type\:dot.n-toggle-status\:checked::before,
-.n-toggle-type\:dot.checked::before,
 .n-toggle\:dot:checked::before,
 .n-toggle\:dot:has(input:checked)::before,
-.n-toggle\:dot.n-toggle-status\:checked::before,
-.n-toggle\:dot.checked::before {
+.n-toggle\:dot.n-toggle-status\:checked::before {
   content: "";
   display: block;
   width: var(--n-dot-circle-size);
@@ -431,73 +325,37 @@
 
 /* size */
 .n-toggle-type\:dot.n-toggle-size\:1,
-.n-toggle-type\:dot.n-toggle\:1,
-.n-toggle-type\:dot.n-toggle-size\:sm,
-.n-toggle-type\:dot.n-toggle\:sm,
-.n-toggle\:dot.n-toggle-size\:1,
-.n-toggle\:dot.n-toggle\:1,
-.n-toggle\:dot.n-toggle-size\:sm,
-.n-toggle\:dot.n-toggle\:sm {
+.n-toggle\:dot.n-toggle-size\:1 {
   width: 20px;
   height: 20px;
 }
 
 .n-toggle-type\:dot.n-toggle-size\:1::before,
-.n-toggle-type\:dot.n-toggle\:1::before,
-.n-toggle-type\:dot.n-toggle-size\:sm::before,
-.n-toggle-type\:dot.n-toggle\:sm::before,
-.n-toggle\:dot.n-toggle-size\:1::before,
-.n-toggle\:dot.n-toggle\:1::before,
-.n-toggle\:dot.n-toggle-size\:sm::before,
-.n-toggle\:dot.n-toggle\:sm::before {
+.n-toggle\:dot.n-toggle-size\:1::before {
   width: 12px;
   height: 12px;
 }
 
 .n-toggle-type\:dot.n-toggle-size\:2,
-.n-toggle-type\:dot.n-toggle\:2,
-.n-toggle-type\:dot.n-toggle-size\:md,
-.n-toggle-type\:dot.n-toggle\:md,
-.n-toggle\:dot.n-toggle-size\:2,
-.n-toggle\:dot.n-toggle\:2,
-.n-toggle\:dot.n-toggle-size\:md,
-.n-toggle\:dot.n-toggle\:md {
+.n-toggle\:dot.n-toggle-size\:2 {
   width: 24px;
   height: 24px;
 }
 
 .n-toggle-type\:dot.n-toggle-size\:2::before,
-.n-toggle-type\:dot.n-toggle\:2::before,
-.n-toggle-type\:dot.n-toggle-size\:md::before,
-.n-toggle-type\:dot.n-toggle\:md::before,
-.n-toggle\:dot.n-toggle-size\:2::before,
-.n-toggle\:dot.n-toggle\:2::before,
-.n-toggle\:dot.n-toggle-size\:md::before,
-.n-toggle\:dot.n-toggle\:md::before {
+.n-toggle\:dot.n-toggle-size\:2::before {
   width: var(--n-dot-circle-size);
   height: var(--n-dot-circle-size);
 }
 
 .n-toggle-type\:dot.n-toggle-size\:3,
-.n-toggle-type\:dot.n-toggle\:3,
-.n-toggle-type\:dot.n-toggle-size\:lg,
-.n-toggle-type\:dot.n-toggle\:lg,
-.n-toggle\:dot.n-toggle-size\:3,
-.n-toggle\:dot.n-toggle\:3,
-.n-toggle\:dot.n-toggle-size\:lg,
-.n-toggle\:dot.n-toggle\:lg {
+.n-toggle\:dot.n-toggle-size\:3 {
   width: 28px;
   height: 28px;
 }
 
 .n-toggle-type\:dot.n-toggle-size\:3::before,
-.n-toggle-type\:dot.n-toggle\:3::before,
-.n-toggle-type\:dot.n-toggle-size\:lg::before,
-.n-toggle-type\:dot.n-toggle\:lg::before,
-.n-toggle\:dot.n-toggle-size\:3::before,
-.n-toggle\:dot.n-toggle\:3::before,
-.n-toggle\:dot.n-toggle-size\:lg::before,
-.n-toggle\:dot.n-toggle\:lg::before {
+.n-toggle\:dot.n-toggle-size\:3::before {
   width: 20px;
   height: 20px;
 }
@@ -506,11 +364,9 @@
 .n-toggle-type\:dot:disabled,
 .n-toggle-type\:dot:checked:disabled,
 .n-toggle-type\:dot.n-toggle-status\:disabled,
-.n-toggle-type\:dot.disabled,
 .n-toggle\:dot:disabled,
 .n-toggle\:dot:checked:disabled,
-.n-toggle\:dot.n-toggle-status\:disabled,
-.n-toggle\:dot.disabled {
+.n-toggle\:dot.n-toggle-status\:disabled {
   --n-dot-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
   --n-dot-disabled-border-color: rgba(var(--rgb-base-10), 0.27);
 
@@ -520,11 +376,13 @@
 }
 
 .n-toggle-type\:dot:checked:disabled::before,
-.n-toggle-type\:dot.checked:disabled::before,
-.n-toggle-type\:dot.checked.disabled::before,
 .n-toggle\:dot:checked:disabled::before,
-.n-toggle\:dot:checked.disabled::before,
-.n-toggle\:dot.checked.disabled::before {
+.n-toggle-type\:dot.n-toggle-status\:checked:disabled::before,
+.n-toggle\:dot.n-toggle-status\:checked:disabled::before,
+.n-toggle-type\:dot:checked.n-toggle-status\:disabled::before,
+.n-toggle\:dot:checked.n-toggle-status\:disabled::before,
+.n-toggle-type\:dot.n-toggle-status\:checked.n-toggle-status\:disabled::before,
+.n-toggle\:dot.n-toggle-status\:checked.n-toggle-status\:disabled::before {
   --dot-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
 
   background-color: var(--dot-disabled-bg-color-before);
@@ -575,19 +433,15 @@
 .n-toggle-type\:outline-box:checked,
 .n-toggle-type\:outline-box:has(input:checked),
 .n-toggle-type\:outline-box.n-toggle-status\:checked,
-.n-toggle-type\:outline-box.checked,
 .n-toggle-type\:outline:checked,
 .n-toggle-type\:outline:has(input:checked),
 .n-toggle-type\:outline.n-toggle-status\:checked,
-.n-toggle-type\:outline.checked,
 .n-toggle\:outline-box:checked,
 .n-toggle\:outline-box:has(input:checked),
 .n-toggle\:outline-box.n-toggle-status\:checked,
-.n-toggle\:outline-box.checked,
 .n-toggle\:outline:checked,
 .n-toggle\:outline:has(input:checked),
-.n-toggle\:outline.n-toggle-status\:checked,
-.n-toggle\:outline.checked {
+.n-toggle\:outline.n-toggle-status\:checked {
   background-color: var(--color-main-2);
   border-color: transparent;
   color: var(--color-base-1);
@@ -595,63 +449,27 @@
 
 /* size */
 .n-toggle-type\:outline-box.n-toggle-size\:1,
-.n-toggle-type\:outline-box.n-toggle\:1,
-.n-toggle-type\:outline-box.n-toggle-size\:sm,
-.n-toggle-type\:outline-box.n-toggle\:sm,
 .n-toggle-type\:outline.n-toggle-size\:1,
-.n-toggle-type\:outline.n-toggle\:1,
-.n-toggle-type\:outline.n-toggle-size\:sm,
-.n-toggle-type\:outline.n-toggle\:sm,
 .n-toggle\:outline-box.n-toggle-size\:1,
-.n-toggle\:outline-box.n-toggle\:1,
-.n-toggle\:outline-box.n-toggle-size\:sm,
-.n-toggle\:outline-box.n-toggle\:sm,
-.n-toggle\:outline.n-toggle-size\:1,
-.n-toggle\:outline.n-toggle\:1,
-.n-toggle\:outline.n-toggle-size\:sm,
-.n-toggle\:outline.n-toggle\:sm {
+.n-toggle\:outline.n-toggle-size\:1 {
   height: 24px;
   padding-right: 8px;
   padding-left: 8px;
 }
 
 .n-toggle-type\:outline-box.n-toggle-size\:2,
-.n-toggle-type\:outline-box.n-toggle\:2,
-.n-toggle-type\:outline-box.n-toggle-size\:md,
-.n-toggle-type\:outline-box.n-toggle\:md,
 .n-toggle-type\:outline.n-toggle-size\:2,
-.n-toggle-type\:outline.n-toggle\:2,
-.n-toggle-type\:outline.n-toggle-size\:md,
-.n-toggle-type\:outline.n-toggle\:md,
 .n-toggle\:outline-box.n-toggle-size\:2,
-.n-toggle\:outline-box.n-toggle\:2,
-.n-toggle\:outline-box.n-toggle-size\:md,
-.n-toggle\:outline-box.n-toggle\:md,
-.n-toggle\:outline.n-toggle-size\:2,
-.n-toggle\:outline.n-toggle\:2,
-.n-toggle\:outline.n-toggle-size\:md,
-.n-toggle\:outline.n-toggle\:md {
+.n-toggle\:outline.n-toggle-size\:2 {
   padding-left: 12px;
   padding-right: 12px;
   height: 32px;
 }
 
 .n-toggle-type\:outline-box.n-toggle-size\:3,
-.n-toggle-type\:outline-box.n-toggle\:3,
-.n-toggle-type\:outline-box.n-toggle-size\:lg,
-.n-toggle-type\:outline-box.n-toggle\:lg,
 .n-toggle-type\:outline.n-toggle-size\:3,
-.n-toggle-type\:outline.n-toggle\:3,
-.n-toggle-type\:outline.n-toggle-size\:lg,
-.n-toggle-type\:outline.n-toggle\:lg,
 .n-toggle\:outline-box.n-toggle-size\:3,
-.n-toggle\:outline-box.n-toggle\:3,
-.n-toggle\:outline-box.n-toggle-size\:lg,
-.n-toggle\:outline-box.n-toggle\:lg,
-.n-toggle\:outline.n-toggle-size\:3,
-.n-toggle\:outline.n-toggle\:3,
-.n-toggle\:outline.n-toggle-size\:lg,
-.n-toggle\:outline.n-toggle\:lg {
+.n-toggle\:outline.n-toggle-size\:3 {
   height: 40px;
   padding-right: 16px;
   padding-left: 16px;
@@ -664,23 +482,15 @@
 .n-toggle-type\:outline-box:has(input:disabled),
 .n-toggle-type\:outline-box.n-toggle-status\:disabled,
 .n-toggle-type\:outline-box:has(input:checked).n-toggle-status\:disabled,
-.n-toggle-type\:outline-box.disabled,
-.n-toggle-type\:outline-box:has(input:checked).disabled,
 .n-toggle-type\:outline:has(input:disabled),
 .n-toggle-type\:outline.n-toggle-status\:disabled,
 .n-toggle-type\:outline:has(input:checked).n-toggle-status\:disabled,
-.n-toggle-type\:outline.disabled,
-.n-toggle-type\:outline:has(input:checked).disabled,
 .n-toggle\:outline-box:has(input:disabled),
 .n-toggle\:outline-box.n-toggle-status\:disabled,
 .n-toggle\:outline-box:has(input:checked).n-toggle-status\:disabled,
-.n-toggle\:outline-box.disabled,
-.n-toggle\:outline-box:has(input:checked).disabled,
 .n-toggle\:outline:has(input:disabled),
 .n-toggle\:outline.n-toggle-status\:disabled,
-.n-toggle\:outline:has(input:checked).n-toggle-status\:disabled,
-.n-toggle\:outline.disabled,
-.n-toggle\:outline:has(input:checked).disabled {
+.n-toggle\:outline:has(input:checked).n-toggle-status\:disabled {
   --n-outline-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
   --n-outline-disabled-color: rgba(var(--rgb-base-10), 0.27);
 
