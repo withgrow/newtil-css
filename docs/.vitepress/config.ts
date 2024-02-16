@@ -94,6 +94,10 @@ export default defineConfig({
             link: "/gap",
           },
           {
+            text: "height",
+            link: "/height",
+          },
+          {
             text: "opacity",
             link: "/opacity",
           },
