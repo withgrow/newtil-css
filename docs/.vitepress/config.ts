@@ -137,6 +137,10 @@ export default defineConfig({
             link: "/container",
           },
           {
+            text: "패널",
+            link: "/panel",
+          },
+          {
             text: "모달",
             link: "/modal",
           },
