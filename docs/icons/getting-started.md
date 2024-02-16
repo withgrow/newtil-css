@@ -65,11 +65,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-  --icon-size-1: 0.75rem; /* 12px */
-  --icon-size-2: 1rem; /* 16px */
-  --icon-size-3: 1.125rem; /* 18px */
-  --icon-size-4: 1.25rem; /* 20px */
-  --icon-size-5: 1.5rem; /* 24px */
+  --icon-size-1: 12px;
+  --icon-size-2: 16px;
+  --icon-size-3: 18px;
+  --icon-size-4: 20px;
+  --icon-size-5: 24px;
 }
 ```
 
@@ -114,7 +114,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 |`icon icon-color:base-10`|
 
 
-아이콘 사이즈에 사용되는 변수는 다음과 같습니다:
+아이콘 색에 사용되는 변수는 다음과 같습니다:
 ```css
 :root {
   --icon-color: var(--color-base-9);
@@ -181,6 +181,18 @@ import ExampleSection from "../components/ExampleSection.vue"
 |`deco deco-size:4`|
 |`deco deco-size:5`|
 
+데코레이션 사이즈에 사용되는 변수는 다음과 같습니다:
+
+```css
+:root {
+  --deco-size-1: 12px;
+  --deco-size-2: 16px;
+  --deco-size-3: 18px;
+  --deco-size-4: 20px;
+  --deco-size-5: 24px;
+}
+```
+
 ## 데코레이션 색
 데코레이션의 색을 변경하려면 `deco-color:값`을 사용하면 됩니다. 기본 색은 `deco-color:base-9`입니다.
 
@@ -218,6 +230,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 |`deco deco-color:base-8`|
 |`deco deco-color:base-9`|
 |`deco deco-color:base-10`|
+
+데코레이션 색에 사용되는 변수는 다음과 같습니다:
+```css
+:root {
+  --deco-color: var(--color-base-9);
+}
+```
 
 ## 데코레이션 간격
 
