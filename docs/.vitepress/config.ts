@@ -46,7 +46,6 @@ export default defineConfig({
         base: "/guide",
         items: [
           { text: "시작하기", link: "/getting-started" },
-          // { text: "newtil-css 맛보기", link: "/example" },
           {
             text: "컴포넌트 시작하기",
             link: "/getting-started-component",
@@ -128,6 +127,10 @@ export default defineConfig({
           {
             text: "컨테이너",
             link: "/container",
+          },
+          {
+            text: "모달",
+            link: "/modal",
           },
         ],
       },
