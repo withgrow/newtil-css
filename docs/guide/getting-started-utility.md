@@ -21,20 +21,20 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
   <template #h>유틸리티 스타일 예제</template>
-  <div class="width:full padding:4 border border-radius:3 background-color:base-1 box-shadow:3">
+  <div class="width:100p padding:4 border border-radius:3 background-color:base-1 box-shadow:3">
     👋 안녕하세요!
   </div>
 </ExampleSection>
 
 ```html
 <div
-  class="width:full padding:4 border border-radius:3 background-color:base-1 box-shadow:3">
+  class="width:100p padding:4 border border-radius:3 background-color:base-1 box-shadow:3">
   👋 안녕하세요!
 </div>
 
 <!-- 위 코드는 아래와 같이 간결하게 표현할 수 있습니다. -->
 <div
-  class="w:full p:4 border border-radius:3 bg-color:base-1 box-shadow:3">
+  class="w:100p p:4 border border-radius:3 bg-color:base-1 box-shadow:3">
   👋 안녕하세요!
 </div>
 ```

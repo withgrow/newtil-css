@@ -94,12 +94,20 @@ export default defineConfig({
             link: "/gap",
           },
           {
+            text: "height",
+            link: "/height",
+          },
+          {
             text: "opacity",
             link: "/opacity",
           },
           {
             text: "order",
             link: "/order",
+          },
+          {
+            text: "width",
+            link: "/width",
           },
           {
             text: "z-index",
