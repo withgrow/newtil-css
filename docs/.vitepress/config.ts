@@ -102,6 +102,10 @@ export default defineConfig({
             link: "/order",
           },
           {
+            text: "width",
+            link: "/width",
+          },
+          {
             text: "z-index",
             link: "/z-index",
           },
