@@ -292,6 +292,89 @@ import ExampleSection from "../components/ExampleSection.vue";
   <button type="button" class="n-btn n-btn:void" disabled>void</button>
 ```
 
+## 스타일 재정의 {#overriding}
+버튼 컴포넌트는 버튼의 크기 및 모서리의 둥글기 정도를 조절할 수 있는 변수를 제공합니다. 해당 변수를 오버라이딩하여 버튼의 크기와 모서리 둥글기를 자유롭게 재정의 할 수 있습니다.
+또한, 버튼 스타일 중 `filled`, `outline` 타입의 변수를 오버라이딩하여 스타일을 재정의 할 수 있습니다.
+
+```css
+.n-btn {
+    /* btn-size:1 */
+    --btn-height-1: 28px;
+    --btn-padding-1: 4px 12px;
+    --btn-font-size-1: 14px;
+
+    /* btn-size:2 */
+    --btn-height-2: 36px;
+    --btn-padding-2: 4px 16px;
+    --btn-font-size-2: 14px;
+
+    /* btn-size:3 */
+    --btn-height-3: 44px;
+    --btn-padding-3: 4px 20px;
+    --btn-font-size-3: 16px;
+  
+    /* btn-type:filled */
+    --btn-filled-background-color: var(--color-main-2);
+    --btn-filled-color: var(--color-base-1);
+
+    /* btn-type:outline */
+    --btn-outline-border-color: var(--color-base-3);
+    --btn-outline-color: inherit;
+}
+```
+
+### 스타일 재정의 예시
+
+<ExampleSection class="my:4">
+  <div class="d:flex ai:center gap:2">
+    <button type="button" class="n-btn n-btn:void" style="height:24px; padding: 0 8px; font-size:12px; border-radius:6px;">Button</button>
+    <button type="button" class="n-btn" style="height:32px; padding: 0 12px; font-size:14px; border-radius:6px; background-color:#3182ce; color:#1E293B;">Button</button>
+    <button type="button" class="n-btn n-btn:outline" style="height:40px; padding: 0 16px; font-size:16px; border-radius:6px; border-color:#3182ce; color:#3182ce;">Button</button>
+  </div>
+</ExampleSection>
+
+```html
+<button type="button" class="n-btn n-btn:void n-btn-size:1">Button</button>
+<button type="button" class="n-btn n-btn:filled n-btn-size:2">Button</button>
+<button type="button" class="n-btn n-btn:outline n-btn-size:3">Button</button>
+```
+
+```css
+.n-btn {
+
+    /* btn-size:1 */
+    --btn-height-1: 24px;
+    --btn-padding-1: 0px 8px;
+    --btn-font-size-1: 12px;
+
+    /* btn-size:2 */
+    --btn-height-2: 32px;
+    --btn-padding-2: 0px 12px;
+    --btn-font-size-2: 14px;
+
+    /* btn-size:2 */
+    --btn-height-3: 40px;
+    --btn-padding-3: 0px 16px;
+    --btn-font-size-3: 16px;
+
+    /* btn-border-radius */
+    --btn-border-radius: 6px;
+
+    /* btn-type:filled */
+    --btn-filled-background-color: #3182ce;
+    --btn-filled-color: #1E293B;
+
+    /* btn-type:outline */
+    --btn-outline-border-color: #3182ce;
+    --btn-outline-color: #3182ce;
+  
+}
+```
+
+:::tip
+컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
+:::
+
 ## 활용 예시 {#examples}
 
 <ExampleSection class="mb:4">
