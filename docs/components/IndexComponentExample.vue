@@ -22,9 +22,9 @@
             <h1 class="mt:6 n-font:h3">가방</h1>
             <div class="mt:1 n-font:h2 font-weight:3">₩8,9000</div>
             <div class="mt:6">
-              <button class="n-btn n-btn:lg w:100p">
+              <button class="n-btn n-btn-size:3 w:100p">
                 <span
-                  class="deco deco:right deco-size:3 deco-color:base-1 icon:shopping_cart_simple_fill"
+                  class="deco deco-pos:right deco-size:3 deco-color:base-1 icon:shopping_cart_simple_fill"
                 >
                   장바구니에 담기
                 </span>
@@ -51,7 +51,7 @@
               </label>
             </div>
             <div class="pb:0">
-              <button class="n-btn n-btn:base">회원가입</button>
+              <button class="n-btn n-btn-color:base">회원가입</button>
             </div>
           </section>
 
@@ -85,7 +85,7 @@
           <section class="n-item box-shadow:5 d:flex h:fit-content">
             <div class="d:flex ai:center mr:4">
               <span
-                class="w:1 h:1 bg-color:base-2 bd-radius:full icon icon:5 icon:download_simple"
+                class="w:1 h:1 bg-color:base-2 bd-radius:full icon icon-size:5 icon:download_simple"
               >
                 이미지
               </span>
@@ -115,13 +115,13 @@
               내에 다시 답변드리도록 하겠습니다.
             </p>
             <div class="mt:3">
-              <button class="n-btn n-btn:outline n-btn:1 px:2">
-                <span class="icon icon:bookmark_simple icon:3 icon:base-7">
+              <button class="n-btn n-btn:outline n-btn-size:1 px:2">
+                <span class="icon icon:bookmark_simple icon-size:3 icon-color:base-7">
                   북마크
                 </span>
               </button>
-              <button class="ml:2 n-btn n-btn:outline n-btn:1 px:2">
-                <span class="icon icon:trash icon:3 icon:base-7">삭제</span>
+              <button class="ml:2 n-btn n-btn:outline n-btn-size:1 px:2">
+                <span class="icon icon:trash icon-size:3 icon-color:base-7">삭제</span>
               </button>
             </div>
           </section>
@@ -182,7 +182,7 @@
       <div class="d:flex jc:center mt:4">
         <a
           href="/newtil-css/guide/getting-started"
-          class="n-btn n-btn:3 bd-radius:full"
+          class="n-btn n-btn-size:3 bd-radius:full"
         >
           시작하기
         </a>

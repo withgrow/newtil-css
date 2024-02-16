@@ -94,15 +94,68 @@ import ExampleSection from "../components/ExampleSection.vue";
   <button type="button" class="n-btn n-btn-type:outline">outline</button>
   <button type="button" class="n-btn n-btn-type:void">void</button>
 ```
-
-|타입|클래스|약어클래스||
-|---|---|---|---|
-|filled|`n-btn-type:filled`|`n-btn:filled`|default|
-|<span class="white-space:nowrap">outline-box</span>|`n-btn-type:outline-box`<br>`n-btn-type:outline`| `n-btn:outline-box`<br>`n-btn:outline`||
-|void|`n-btn-type:void`| `n-btn:void`||
+<table>
+  <thead>
+    <tr>
+      <th scope="col">타입</th>
+      <th scope="col">클래스</th>
+      <th scope="col">약어 클래스</th>
+      <th scope="col">변수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>filled</td>
+      <td>
+        <code>n-btn-type:filled</code>
+      </td>
+      <td>
+        <code>n-btn:filled</code>
+      </td>
+      <td>
+        <span class="code">
+          .n-btn { <br/> 
+            --btn-filled-background-color: var(--color-main-2); <br/>
+            --btn-filled-color: var(--color-base-1); <br/>
+          }
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>outline-box</td>
+      <td>
+        <code>n-btn-type:outline-box</code> <br/>
+        <code>n-btn-type:outline</code>
+      </td>
+      <td>
+        <code>n-btn:outline-box</code> <br/>
+        <code>n-btn:outline</code> <br/>
+      </td>
+      <td>
+        <span class="code">
+          .n-btn { <br/> 
+            --btn-outline-border-color: var(--color-base-3); <br/>
+            --btn-outline-color: inherit; <br/>
+          }
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>void</td>
+      <td>
+        <code>n-btn-type:void</code>
+      </td>
+      <td>
+        <code>n-btn:void</code>
+      </td>
+      <td>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 사이즈 {#size}
-`n-btn-size:사이즈` 또는 `n-btn:사이즈` 약어 클래스를 통해 버튼 사이즈를 변경할 수 있습니다.
+`n-btn-size:사이즈` 클래스를 통해 버튼 사이즈를 변경할 수 있습니다.
 
 <ExampleSection>
   <template #h>버튼 사이즈</template>
@@ -119,14 +172,59 @@ import ExampleSection from "../components/ExampleSection.vue";
   <button type="button" class="n-btn n-btn-size:3">Button</button>
 ```
 
-|사이즈|클래스|약어클래스||
-|---|---|---|---|
-|small|`n-btn-size:1`<br>`n-btn-size:sm`| `n-btn:1`<br>`n-btn:sm`| |
-|medium|`n-btn-size:2`<br>`n-btn-size:md`| `n-btn:2`<br>`n-btn:md`|default|
-|large|`n-btn-size:3`<br>`n-btn-size:lg`| `n-btn:3`<br>`n-btn:lg`| |
+<table>
+  <thead>
+    <tr>
+      <th scope="col">사이즈</th>
+      <th scope="col">클래스</th>
+      <th scope="col">변수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td><code>n-btn-size:1</code></td>
+      <td>
+        <span class="code">
+          .n-btn { <br/> 
+            --btn-height-1: 28px; <br/>
+            --btn-padding-1: 4px 12px; <br/>
+            --btn-font-size-1: 14px; <br/>
+          }
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><code>n-btn-size:2</code></td>
+      <td>
+        <span class="code">
+          .n-btn { <br/> 
+            --btn-height-2: 36px; <br/>
+            --btn-padding-2: 4px 16px; <br/>
+            --btn-font-size-2: 14px; <br/>
+          }
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><code>n-btn-size:3</code></td>
+      <td>
+        <span class="code">
+          .n-btn { <br/> 
+            --btn-height-3: 44px; <br/>
+            --btn-padding-3: 4px 20px; <br/>
+            --btn-font-size-3: 16px; <br/>
+          }
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 색상 {#color}
-`n-btn-color:색상` 또는 `n-btn:색상` 약어 클래스를 통해 버튼의 색을 변경할 수 있습니다.
+`n-btn-color:색상` 클래스를 통해 버튼의 색을 변경할 수 있습니다.
 
 :::raw
 <ExampleSection>
@@ -162,12 +260,12 @@ import ExampleSection from "../components/ExampleSection.vue";
 <button type="button" class="n-btn n-btn-color:base">base</button>
 ```
 
-|색상|클래스|약어클래스||
-|---|---|---|---|
-|main|`n-btn-color:main`| `n-btn:main`|default|
-|sub|`n-btn-color:sub`| `n-btn:sub`||
-|accent|`n-btn-color:accent`| `n-btn:accent`||
-|base|`n-btn-color:base`| `n-btn:base`||
+|색상|클래스|
+|---|---|
+|main|`n-btn-color:main`|
+|sub|`n-btn-color:sub`|
+|accent|`n-btn-color:accent`|
+|base|`n-btn-color:base`|
 
 ## 비활성화 {#disabled}
 `disabled` 속성을 추가하거나 클래스에 `disabled`를 추가하여 버튼 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
@@ -215,7 +313,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 <ExampleSection class="mb:4">
   <div class="d:flex gap:2">
     <button type="button" class="n-btn n-btn:outline">닫기</button>
-    <button type="button" class="n-btn n-btn:accent">삭제</button>
+    <button type="button" class="n-btn n-btn-color:accent">삭제</button>
   </div>
 </ExampleSection class="mb:4">
 
@@ -223,35 +321,35 @@ import ExampleSection from "../components/ExampleSection.vue";
 ```html
 <div class="d:flex gap:2">
   <button type="button" class="n-btn n-btn:outline">닫기</button>
-  <button type="button" class="n-btn n-btn:accent">삭제</button>
+  <button type="button" class="n-btn n-btn-color:accent">삭제</button>
 </div>
 ```
 :::
 
 <ExampleSection class="mb:4">
   <button type="button" class="n-btn n-btn:outline px:2">
-    <span class="icon icon:share_fat_fill icon:base-7 icon:3">공유</span>
+    <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3">공유</span>
   </button>
 </ExampleSection>
 
 ::: details codes
 ```html
 <button type="button" class="n-btn n-btn:outline px:2">
-  <span class="icon icon:share_fat_fill icon:base-7 icon:3">공유</span>
+  <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3">공유</span>
 </button>
 ```
 :::
 
 <ExampleSection>
   <button type="button" class="n-btn n-btn:outline ">
-    <span class="deco deco:right deco:3 icon:trash icon:base-7">삭제</span>
+    <span class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7">삭제</span>
   </button>
 </ExampleSection>
 
 ::: details codes
 ```html
 <button type="button" class="n-btn n-btn:outline ">
-  <span class="deco deco:right deco:3 icon:trash icon:base-7">삭제</span>
+  <span class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7">삭제</span>
 </button>
 ```
 :::

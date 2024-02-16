@@ -34,47 +34,47 @@ import ExampleSection from "../components/ExampleSection.vue"
 ```
 
 ## 아이콘 사이즈
-아이콘 사이즈를 변경하려면 아이콘 사이즈 유틸리티 클래스 `icon-size:값` 또는 `icon:값`을 사용하면됩니다.
+아이콘 사이즈를 변경하려면 아이콘 사이즈 유틸리티 클래스 `icon-size:값`을 사용하면 됩니다. 기본 크기는 `icon-size:5`입니다.
 
 <ExampleSection>
 <template #h>아이콘 사이즈 예시</template>
   <span class="icon icon:star icon-size:1">즐겨찾기</span>
   <span class="icon icon:star icon-size:2">즐겨찾기</span>
   <span class="icon icon:star icon-size:3">즐겨찾기</span>
-  <span class="icon icon:star icon:4">즐겨찾기</span>
-  <span class="icon icon:star icon:5">즐겨찾기</span>
+  <span class="icon icon:star icon-size:4">즐겨찾기</span>
+  <span class="icon icon:star icon-size:5">즐겨찾기</span>
 </ExampleSection>
 
 ```html
 <span class="icon icon:star icon-size:1">즐겨찾기</span>
 <span class="icon icon:star icon-size:2">즐겨찾기</span>
 <span class="icon icon:star icon-size:3">즐겨찾기</span>
-<span class="icon icon:star icon:4">즐겨찾기</span>
-<span class="icon icon:star icon:5">즐겨찾기</span>
+<span class="icon icon:star icon-size:4">즐겨찾기</span>
+<span class="icon icon:star icon-size:5">즐겨찾기</span>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`icon icon-size:1`|`icon icon:1`||
-|`icon icon-size:2`|`icon icon:2`||
-|`icon icon-size:3`|`icon icon:3`||
-|`icon icon-size:4`|`icon icon:4`||
-|`icon icon-size:5`|`icon icon:5`|default|
+|클래스|
+|---|
+|`icon icon-size:1`|
+|`icon icon-size:2`|
+|`icon icon-size:3`|
+|`icon icon-size:4`|
+|`icon icon-size:5`|
 
 아이콘 사이즈에 사용되는 변수는 다음과 같습니다:
 
 ```css
 :root {
-  --icon-size-1: 0.75rem; /* 12px */
-  --icon-size-2: 1rem; /* 16px */
-  --icon-size-3: 1.125rem; /* 18px */
-  --icon-size-4: 1.25rem; /* 20px */
-  --icon-size-5: 1.5rem; /* 24px */
+  --icon-size-1: 12px;
+  --icon-size-2: 16px;
+  --icon-size-3: 18px;
+  --icon-size-4: 20px;
+  --icon-size-5: 24px;
 }
 ```
 
 ## 아이콘 색
-아이콘 색을 변경하려면 `icon-color:값` 또는 `icon:값`을 사용하면 됩니다.
+아이콘 색을 변경하려면 `icon-color:값`을 사용하면 됩니다. 기본 색은 `icon-color:base-9`입니다.
 
 <ExampleSection>
 <template #h>아이콘 색 예시</template>
@@ -91,30 +91,30 @@ import ExampleSection from "../components/ExampleSection.vue"
 <span class="icon icon:star icon-color:base-2">즐겨찾기</span>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`icon icon-color:main-1`|`icon icon:main-1`||
-|`icon icon-color:main-2`|`icon icon:main-2`||
-|`icon icon-color:main-3`|`icon icon:main-3`||
-|`icon icon-color:sub-1`|`icon icon:sub-1`||
-|`icon icon-color:sub-2`|`icon icon:sub-2`||
-|`icon icon-color:sub-3`|`icon icon:sub-3`||
-|`icon icon-color:accent-1`|`icon icon:accent-1`||
-|`icon icon-color:accent-2`|`icon icon:accent-2`||
-|`icon icon-color:accent-3`|`icon icon:accent-3`||
-|`icon icon-color:base-1`|`icon icon:base-1`||
-|`icon icon-color:base-2`|`icon icon:base-2`||
-|`icon icon-color:base-3`|`icon icon:base-3`||
-|`icon icon-color:base-4`|`icon icon:base-4`||
-|`icon icon-color:base-5`|`icon icon:base-5`||
-|`icon icon-color:base-6`|`icon icon:base-6`||
-|`icon icon-color:base-7`|`icon icon:base-7`||
-|`icon icon-color:base-8`|`icon icon:base-8`||
-|`icon icon-color:base-9`|`icon icon:base-9`|default|
-|`icon icon-color:base-10`|`icon icon:base-10`||
+|클래스|
+|---|
+|`icon icon-color:main-1`|
+|`icon icon-color:main-2`|
+|`icon icon-color:main-3`|
+|`icon icon-color:sub-1`|
+|`icon icon-color:sub-2`|
+|`icon icon-color:sub-3`|
+|`icon icon-color:accent-1`|
+|`icon icon-color:accent-2`|
+|`icon icon-color:accent-3`|
+|`icon icon-color:base-1`|
+|`icon icon-color:base-2`|
+|`icon icon-color:base-3`|
+|`icon icon-color:base-4`|
+|`icon icon-color:base-5`|
+|`icon icon-color:base-6`|
+|`icon icon-color:base-7`|
+|`icon icon-color:base-8`|
+|`icon icon-color:base-9`|
+|`icon icon-color:base-10`|
 
 
-아이콘 사이즈에 사용되는 변수는 다음과 같습니다:
+아이콘 색에 사용되는 변수는 다음과 같습니다:
 ```css
 :root {
   --icon-color: var(--color-base-9);
@@ -136,7 +136,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 ```
 
 ## 데코레이션 위치
-데코레이션은 기본적으로 좌측에 위치하지만, `deco-position:값` 또는 `deco:값` 클래스로 데코레이션의 위치를 간편하게 옮길 수 있습니다.
+데코레이션은 기본적으로 좌측에 위치하지만, `deco-position:값` 또는 `deco-pos:값` 클래스로 데코레이션의 위치를 간편하게 옮길 수 있습니다.
 
 <ExampleSection>
 <template #h>데코레이션 위치</template>
@@ -150,11 +150,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 |클래스|약어클래스||
 |---|---|---|
-|`deco deco-position:left`|`deco deco:left`|default|
-|`deco deco-position:right`|`deco deco:right`||
+|`deco deco-position:left`|`deco deco-pos:left`|default|
+|`deco deco-position:right`|`deco deco-pos:right`||
 
 ## 데코레이션 사이즈
-데코 사이즈를 변경하려면 데코 사이즈 유틸리티 클래스 `deco-size:값` 또는 `deco:값`을 사용하면됩니다.
+데코 사이즈를 변경하려면 데코 사이즈 유틸리티 클래스 `deco-size:값`을 사용하면됩니다. 기본 크기는 `deco-size:5`입니다.
 
 <ExampleSection>
 <template #h>데코레이션 사이즈 예시</template>
@@ -173,51 +173,70 @@ import ExampleSection from "../components/ExampleSection.vue"
 <button class="deco deco-size:5 icon:check">확인</button>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`deco deco-size:1`|`deco deco:1`||
-|`deco deco-size:2`|`deco deco:2`||
-|`deco deco-size:3`|`deco deco:3`||
-|`deco deco-size:4`|`deco deco:4`||
-|`deco deco-size:5`|`deco deco:5`|default|
+|클래스|
+|---|
+|`deco deco-size:1`|
+|`deco deco-size:2`|
+|`deco deco-size:3`|
+|`deco deco-size:4`|
+|`deco deco-size:5`|
+
+데코레이션 사이즈에 사용되는 변수는 다음과 같습니다:
+
+```css
+:root {
+  --deco-size-1: 12px;
+  --deco-size-2: 16px;
+  --deco-size-3: 18px;
+  --deco-size-4: 20px;
+  --deco-size-5: 24px;
+}
+```
 
 ## 데코레이션 색
-데코레이션의 색을 변경하려면 `deco-color:값` 또는 `deco:값`을 사용하면 됩니다.
+데코레이션의 색을 변경하려면 `deco-color:값`을 사용하면 됩니다. 기본 색은 `deco-color:base-9`입니다.
 
 <ExampleSection>
 <template #h>데코레이션 색 예시</template>
   <button class="deco deco-color:main-1 icon:check">확인</button>
   <button class="deco deco-color:accent-1 icon:check">확인</button>
-  <button class="deco deco:base-5 icon:check">확인</button>
+  <button class="deco deco-color:base-5 icon:check">확인</button>
 </ExampleSection>
 
 ```html
 <button class="deco deco-color:main-1 icon:check">확인</button>
 <button class="deco deco-color:accent-1 icon:check">확인</button>
-<button class="deco deco:base-5 icon:check">확인</button>
+<button class="deco deco-color:base-5 icon:check">확인</button>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`deco deco-color:main-1`|`deco deco:main-1`||
-|`deco deco-color:main-2`|`deco deco:main-2`||
-|`deco deco-color:main-3`|`deco deco:main-3`||
-|`deco deco-color:sub-1`|`deco deco:sub-1`||
-|`deco deco-color:sub-2`|`deco deco:sub-2`||
-|`deco deco-color:sub-3`|`deco deco:sub-3`||
-|`deco deco-color:accent-1`|`deco deco:accent-1`||
-|`deco deco-color:accent-2`|`deco deco:accent-2`||
-|`deco deco-color:accent-3`|`deco deco:accent-3`||
-|`deco deco-color:base-1`|`deco deco:base-1`||
-|`deco deco-color:base-2`|`deco deco:base-2`||
-|`deco deco-color:base-3`|`deco deco:base-3`||
-|`deco deco-color:base-4`|`deco deco:base-4`||
-|`deco deco-color:base-5`|`deco deco:base-5`||
-|`deco deco-color:base-6`|`deco deco:base-6`||
-|`deco deco-color:base-7`|`deco deco:base-7`||
-|`deco deco-color:base-8`|`deco deco:base-8`||
-|`deco deco-color:base-9`|`deco deco:base-9`|default|
-|`deco deco-color:base-10`|`deco deco:base-10`||
+|클래스|
+|---|
+|`deco deco-color:main-1`|
+|`deco deco-color:main-2`|
+|`deco deco-color:main-3`|
+|`deco deco-color:sub-1`|
+|`deco deco-color:sub-2`|
+|`deco deco-color:sub-3`|
+|`deco deco-color:accent-1`|
+|`deco deco-color:accent-2`|
+|`deco deco-color:accent-3`|
+|`deco deco-color:base-1`|
+|`deco deco-color:base-2`|
+|`deco deco-color:base-3`|
+|`deco deco-color:base-4`|
+|`deco deco-color:base-5`|
+|`deco deco-color:base-6`|
+|`deco deco-color:base-7`|
+|`deco deco-color:base-8`|
+|`deco deco-color:base-9`|
+|`deco deco-color:base-10`|
+
+데코레이션 색에 사용되는 변수는 다음과 같습니다:
+```css
+:root {
+  --deco-color: var(--color-base-9);
+}
+```
 
 ## 데코레이션 간격
 
@@ -225,12 +244,12 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 <ExampleSection>
 <template #h>데코레이션 간격 예시</template>
-    <button class="deco deco-margin-left:5 deco:right icon:chats">채팅</button>
+    <button class="deco deco-margin-left:5 deco-pos:right icon:chats">채팅</button>
 </ExampleSection>
 
 
 ```html
-<button class="deco deco-margin-left:5 deco:right icon:chats">채팅</button>
+<button class="deco deco-margin-left:5 deco-pos:right icon:chats">채팅</button>
 ```
 
 |클래스|약어클래스||

@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import path from "path";
 
 const BASE_PATH = "/newtil-css/";
 
@@ -11,15 +12,16 @@ export default defineConfig({
   appearance: false, // darkmode
   lang: "ko",
   head: [
-    [
-      "link",
-      {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/newtil-css@0.1.13/dist/style.css",
-      },
-    ],
     ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
   ],
+
+  vite: {
+    resolve: {
+      alias: {
+        "newtil-css": path.resolve(__dirname, "../../packages/css/style.css")
+      },
+    }
+  },
 
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
@@ -44,7 +46,6 @@ export default defineConfig({
         base: "/guide",
         items: [
           { text: "시작하기", link: "/getting-started" },
-          // { text: "newtil-css 맛보기", link: "/example" },
           {
             text: "컴포넌트 시작하기",
             link: "/getting-started-component",
@@ -126,6 +127,10 @@ export default defineConfig({
           {
             text: "컨테이너",
             link: "/container",
+          },
+          {
+            text: "모달",
+            link: "/modal",
           },
         ],
       },

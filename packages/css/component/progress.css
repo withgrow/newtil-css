@@ -6,6 +6,7 @@
 
 .n-progress {
   --progress-height: 6px;
+  --progress-border-radius: 999px;
 }
 
 .n-progress {
@@ -13,22 +14,22 @@
   width: 100%;
   height: var(--progress-height);
   background-color: rgba(var(--rgb-base-6), 0.2);
-  border-radius: 999px;
+  border-radius: var(--progress-border-radius);
   overflow: hidden;
 }
 
-.n-progress > div:first-child {
+.n-progress-color\:main > div:first-child {
   background-color:  var(--color-main-1);
 }
 
-.n-progress\:sub > div:first-child {
+.n-progress-color\:sub > div:first-child {
   background-color: var(--color-sub-1);
 }
 
-.n-progress\:accent > div:first-child {
+.n-progress-color\:accent > div:first-child {
   background-color: var(--color-accent-1);
 }
 
-.n-progress\:base > div:first-child {
+.n-progress-color\:base > div:first-child {
   background-color: var(--color-base-6);
 }
