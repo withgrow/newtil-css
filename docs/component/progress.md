@@ -88,14 +88,54 @@ import ExampleSection from "../components/ExampleSection.vue";
 
 ## 스타일 재정의
 
-프로그레스 컴포넌트는 높이 및 모서리의 둥글기 정도를 조절할 수 있는 변수를 제공합니다.
+프로그레스 컴포넌트의 변수는 다음과 같습니다:
 
 ```css
 .n-progress {
   --progress-height: 6px;
   --progress-border-radius: 999px;
+  --progress-background-color: rgba(var(--rgb-base-6), 0.2);
+
+  --progressbar-color-main: var(--color-main-1);
+  --progressbar-color-sub: var(--color-sub-1);
+  --progressbar-color-accent: var(--color-accent-1);
+  --progressbar-color-base: var(--color-base-6);
 }
 ```
+
+### 스타일 재정의 예시
+
+<ExampleSection>
+<div class="n-item w:100p">
+  <div class="n-progress" role="progressbar">
+    <div style="width: 33%"></div>
+  </div>
+</div>
+</ExampleSection>
+
+```html
+<div class="n-item">
+  <div class="n-progress" role="progressbar">
+    <div style="width: 33%"></div>
+  </div>
+</div>
+```
+
+```css
+.n-item .n-progress {
+  --progress-height: 10px;
+  --progress-background-color: #f1f3f5;
+  --progressbar-color-main: #a5d8ff;
+}
+```
+
+<style>
+.n-item .n-progress {
+  --progress-height: 10px;
+  --progress-background-color: #f1f3f5;
+  --progressbar-color-main: #a5d8ff;
+}
+</style>
 
 :::tip
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
