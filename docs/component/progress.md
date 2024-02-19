@@ -106,7 +106,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 ### 스타일 재정의 예시
 
 <ExampleSection>
-<div class="n-item w:100p">
+<div class="n-item example w:100p">
   <div class="n-progress" role="progressbar">
     <div style="width: 33%"></div>
   </div>
@@ -130,7 +130,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 ```
 
 <style>
-.n-item .n-progress {
+.n-item.example .n-progress {
   --progress-height: 10px;
   --progress-background-color: #f1f3f5;
   --progressbar-color-main: #a5d8ff;
