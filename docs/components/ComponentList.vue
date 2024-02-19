@@ -158,6 +158,18 @@
         </section>
       </a>
     </li>
+    <li>
+      <a href="../component/progress">
+        <section>
+          <h1>Progress</h1>
+          <div class="d:flex fl-dir:column ai:center jc:center">
+            <div class="n-progress" role="progressbar">
+              <div style="width: 25%"></div>
+            </div>
+          </div>
+        </section>
+      </a>
+    </li>
   </ul>
 </template>
 

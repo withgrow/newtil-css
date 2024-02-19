@@ -139,12 +139,16 @@ export default defineConfig({
             link: "/font",
           },
           {
-            text: "패널",
-            link: "/panel",
-          },
-          {
             text: "모달",
             link: "/modal",
+          },
+          {
+            text: "프로그레스",
+            link: "/progress",
+          },
+          {
+            text: "패널",
+            link: "/panel",
           },
         ],
       },
