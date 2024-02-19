@@ -16,8 +16,8 @@ import ExampleSection from "../components/ExampleSection.vue";
 </section>
 ```
 
-## Overriding
-컨테이너 컴포넌트의 최대 넓이는 `1440px`입니다.
+## 스타일 재정의
+컨테이너 컴포넌트의 기본 최대 넓이를 조절할 수 있는 변수를 제공합니다. 해당 변수를 오버라이딩하여 컨테이너 컴포넌트의 최대 넓이를 자유롭게 재정의 할 수 있습니다.
 ```css
 /* container.css */
 .n-container {
