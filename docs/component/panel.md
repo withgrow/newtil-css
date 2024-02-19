@@ -4,7 +4,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 
 # 패널
 
-패널 컴포넌트는 구조를 정의하는데 사용되는 레이아웃 요소입니다. `top` `side` `main` `menu`와 같은 패널을 포함합니다.
+패널 컴포넌트는 구조를 정의하는데 사용되는 레이아웃 요소입니다. `top`, `side`, `main`, `menu`와 같은 패널을 포함합니다.
 
 ## 예시
 
