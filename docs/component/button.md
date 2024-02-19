@@ -40,14 +40,6 @@ import ExampleSection from "../components/ExampleSection.vue";
   <button type="button" class="n-btn" disabled>Button</button>
 </div>
 
-<br>
-
-- [타입 변경하기](#type)
-- [크기 변경하기](#size)
-- [색상 변경하기](#color)
-- [상태 변경하기](#disabled)
-- [버튼 활용하기](#examples)
-
 ## 사용법
 버튼 컴포넌트는 요소에 `n-btn` 클래스를 적용하여 사용할 수 있습니다.
 
