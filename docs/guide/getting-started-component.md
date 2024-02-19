@@ -231,18 +231,6 @@ import ExampleSection from "../components/ExampleSection.vue"
 추가 제안을 희망하는 경우, [깃허브를 통해 이슈로 제출](https://github.com/newlecture-corp/newtil-css/issues)해 주시기 바랍니다.
 :::
 
-**컴포넌트 목록**
-- [Font](../component/font)
-- [Panel](../component/panel)
-- [Container](../component/container)
-- [Item](../component/item)
-- [Button](../component/button)
-- [List](../component/list)
-- [Table](../component/table)
-- [Form](../component/form)
-- [Modal](../component/modal)
-- [Toggle](../component/toggle)
-
 <style scoped>
   .component-list > li {
       width:218px;
