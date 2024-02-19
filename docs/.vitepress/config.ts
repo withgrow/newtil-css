@@ -132,7 +132,11 @@ export default defineConfig({
           },
           {
             text: "컨테이너",
-            link: "/container",
+            link: "/container"
+          },
+          {
+            text: "텍스트박스",
+            link: "/textbox",
           },
           {
             text: "폰트",
