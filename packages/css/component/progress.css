@@ -18,8 +18,9 @@
   overflow: hidden;
 }
 
+.n-progress > div:first-child, /* default */
 .n-progress-color\:main > div:first-child {
-  background-color:  var(--color-main-1);
+  background-color: var(--color-main-1);
 }
 
 .n-progress-color\:sub > div:first-child {
