@@ -728,7 +728,7 @@ import ExampleSection from "../components/ExampleSection.vue"
             <h1 class="d:none">회원가입</h1>
             <div>
                 <a href="/" class="d:flex fl-dir:column ai:center">
-                    <img src="/newtil-css/logo.png" width="50px" height="50px">
+                    <img src="/logo.png" width="50px" height="50px">
                     <span class="n-font:h3">Newtil CSS</span>
                 </a>
             </div>
@@ -747,7 +747,7 @@ import ExampleSection from "../components/ExampleSection.vue"
                 <textarea class="n-textbox n-textbox-label:top" placeholder="newtilCSS를 알게 된 경로를 자세히 작성해주세요!"></textarea>
             </label>
             <span>
-                <button class="n-btn">제출하기</button>
+                <button type="button" class="n-btn">제출하기</button>
             </span>
         </form>
     </ExampleSection>
