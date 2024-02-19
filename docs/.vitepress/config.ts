@@ -11,16 +11,14 @@ export default defineConfig({
   description: "Utility based CSS",
   appearance: false, // darkmode
   lang: "ko",
-  head: [
-    ["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }],
-  ],
+  head: [["link", { rel: "icon", href: `${BASE_PATH}favicon.ico` }]],
 
   vite: {
     resolve: {
       alias: {
-        "newtil-css": path.resolve(__dirname, "../../packages/css/style.css")
+        "newtil-css": path.resolve(__dirname, "../../packages/css/style.css"),
       },
-    }
+    },
   },
 
   // https://vitepress.dev/reference/default-theme-config
@@ -135,6 +133,10 @@ export default defineConfig({
           {
             text: "컨테이너",
             link: "/container",
+          },
+          {
+            text: "폰트",
+            link: "/font",
           },
           {
             text: "패널",
