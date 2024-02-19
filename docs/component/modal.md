@@ -32,8 +32,8 @@ import ModalDomExample from "../components/ModalDomExample.vue";
   <div class="mt:8 text-a:center">Hello World</div>
 
   <div class="d:flex fl-direction:column gap:2 mt:8">
-    <button type="button" class="n-btn n-btn-size:3">Add</button>
-    <button type="button" class="n-btn n-btn:void n-btn-size:3">Cancel</button>
+    <button type="button" class="n-btn n-btn-size:3">확인</button>
+    <button type="button" class="n-btn n-btn:void n-btn-size:3">닫기</button>
   </div>
 </section>
 ```
