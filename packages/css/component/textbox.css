@@ -126,6 +126,14 @@ input[type="tel"].n-textbox:focus,
 input[type="text"].n-textbox:focus,
 input[type="url"].n-textbox:focus,
 textarea.n-textbox:focus,
+input[type="email"].n-textbox.n-textbox-status\:focus,
+input[type="number"].n-textbox.n-textbox-status\:focus,
+input[type="password"].n-textbox.n-textbox-status\:focus,
+input[type="search"].n-textbox.n-textbox-status\:focus,
+input[type="tel"].n-textbox.n-textbox-status\:focus,
+input[type="text"].n-textbox.n-textbox-status\:focus,
+input[type="url"].n-textbox.n-textbox-status\:focus,
+textarea.n-textbox.n-textbox-status\:focus,
 .n-textbox.n-textbox-status\:focus {
   border-color: var(--textbox-focus-border-color);
 }
