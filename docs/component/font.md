@@ -22,7 +22,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 
 <ExampleSection class="fl-dir:column">
   <div class="n-font:title">Title</div>
-  <div class="n-font:subtitle">Title</div>
+  <div class="n-font:subtitle">Sub title</div>
   <div class="n-font:h1">Heading 1</div>
   <div class="n-font:h2">Heading 2</div>
   <div class="n-font:h3">Heading 3</div>
