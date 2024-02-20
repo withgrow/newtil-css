@@ -26,7 +26,7 @@ features:
 ---
 
 <script setup>
-import IndexComponentExample from "./components/IndexComponentExample.vue";
+import IndexComponentExample from "./components/demo/NewtilPreview.vue";
 </script>
 
 <IndexComponentExample/>
