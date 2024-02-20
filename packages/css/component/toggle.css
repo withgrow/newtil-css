@@ -24,7 +24,6 @@
 .n-toggle{
 
   /* n-toggle:slide */
-  --n-toggle-slide-border-color: transparent;
   --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
   --n-toggle-slide-checked-background-color: var(--color-main-2);
   --n-toggle-slide-circle-color: var(--color-base-1);
