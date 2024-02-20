@@ -1,12 +1,12 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # order
 
 변수 `var(--order)`는 요소의 배치 순서를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [order](../utility/order.md)
+- [order](../utility/order.md)
 
 ## Default
 
@@ -32,11 +32,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --order-1: -1;
-    --order-2: 2;
-    --order-3: 3;
-    --order-4: 4;
-    --order-5: 5;
+  --order-1: -1;
+  --order-2: 2;
+  --order-3: 3;
+  --order-4: 4;
+  --order-5: 5;
 }
 ```
 
@@ -67,9 +67,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    /* ... */
-    --order-6: 6; /* [!code ++] */
-    --order-7: 7; /* [!code ++] */
-    --order-8: 8; /* [!code ++] */
+  /* ... */
+  --order-6: 6; /* [!code ++] */
+  --order-7: 7; /* [!code ++] */
+  --order-8: 8; /* [!code ++] */
 }
 ```

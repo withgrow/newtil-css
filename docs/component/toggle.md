@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # 토글
@@ -22,12 +22,12 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ```html
-<input type="checkbox" class="n-toggle"/>
+<input type="checkbox" class="n-toggle" />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle`||
+| 클래스     | 약어클래스 |
+| ---------- | ---------- |
+| `n-toggle` |            |
 
 ## 타입
 
@@ -47,14 +47,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle:slide"/>
+<input type="checkbox" class="n-toggle n-toggle:slide" />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle`||
-|`n-toggle n-toggle-type:slide`|`n-toggle n-toggle:slide`||
-
+| 클래스                         | 약어클래스                |
+| ------------------------------ | ------------------------- | --- |
+| `n-toggle`                     |                           |
+| `n-toggle n-toggle-type:slide` | `n-toggle n-toggle:slide` |     |
 
 ### 체크
 
@@ -70,14 +69,15 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle:check"/>
+<input type="checkbox" class="n-toggle n-toggle:check" />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-type:check`|`n-toggle n-toggle:check`||
+| 클래스                         | 약어클래스                |
+| ------------------------------ | ------------------------- | --- |
+| `n-toggle n-toggle-type:check` | `n-toggle n-toggle:check` |     |
 
 ### 도트
+
 <div class="vp-raw">
     <ExampleSection class="mt:4">
         <div class="w:full d:flex jc:center gap:4">
@@ -87,12 +87,12 @@ import ExampleSection from "../components/ExampleSection.vue"
 </div>
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle:dot"/>
+<input type="checkbox" class="n-toggle n-toggle:dot" />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-type:dot`|`n-toggle n-toggle:dot`||
+| 클래스                       | 약어클래스              |
+| ---------------------------- | ----------------------- | --- |
+| `n-toggle n-toggle-type:dot` | `n-toggle n-toggle:dot` |     |
 
 ### 아웃라인 박스
 
@@ -112,20 +112,21 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <label class="n-toggle n-toggle:outline">
-    Outline
-    <input type="radio" class="d:none"/>
+  Outline
+  <input type="radio" class="d:none" />
 </label>
 ```
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-type:outline-box`|`n-toggle n-toggle:outline-box`||
-|`n-toggle n-toggle-type:outline`|`n-toggle n-toggle:outline`||
+
+| 클래스                               | 약어클래스                      |
+| ------------------------------------ | ------------------------------- | --- |
+| `n-toggle n-toggle-type:outline-box` | `n-toggle n-toggle:outline-box` |     |
+| `n-toggle n-toggle-type:outline`     | `n-toggle n-toggle:outline`     |     |
 
 ## 사이즈
 
 `toggle-size:값` 또는 `toggle:값` 약어 클래스를 통해 토글 사이즈를 변경할 수 있습니다.
 
-### 슬라이드 
+### 슬라이드
 
 ::: raw
 
@@ -153,27 +154,27 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <label>
-    Small
-    <input type="checkbox" class="n-toggle n-toggle:sm"/>
+  Small
+  <input type="checkbox" class="n-toggle n-toggle:sm" />
 </label>
 <label>
-    Medium
-    <input type="checkbox" class="n-toggle n-toggle:md"/>
+  Medium
+  <input type="checkbox" class="n-toggle n-toggle:md" />
 </label>
 <label>
-    Large
-    <input type="checkbox" class="n-toggle n-toggle:lg"/>
+  Large
+  <input type="checkbox" class="n-toggle n-toggle:lg" />
 </label>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`n-toggle n-toggle-size:1`|`n-toggle n-toggle:1`||
-|`n-toggle n-toggle-size:2`|`n-toggle n-toggle:2`|default|
-|`n-toggle n-toggle-size:3`|`n-toggle n-toggle:3`|| 
-|`n-toggle n-toggle-size:sm`|`n-toggle n-toggle:sm`||
-|`n-toggle n-toggle-size:md`|`n-toggle n-toggle:md`|default|
-|`n-toggle n-toggle-size:lg`|`n-toggle n-toggle:lg`||
+| 클래스                      | 약어클래스             |         |
+| --------------------------- | ---------------------- | ------- |
+| `n-toggle n-toggle-size:1`  | `n-toggle n-toggle:1`  |         |
+| `n-toggle n-toggle-size:2`  | `n-toggle n-toggle:2`  | default |
+| `n-toggle n-toggle-size:3`  | `n-toggle n-toggle:3`  |         |
+| `n-toggle n-toggle-size:sm` | `n-toggle n-toggle:sm` |         |
+| `n-toggle n-toggle-size:md` | `n-toggle n-toggle:md` | default |
+| `n-toggle n-toggle-size:lg` | `n-toggle n-toggle:lg` |         |
 
 ### 체크
 
@@ -203,27 +204,27 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <label>
-    Small
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle:sm"/>
+  Small
+  <input type="checkbox" class="n-toggle n-toggle:check n-toggle:sm" />
 </label>
 <label>
-    Medium
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle:md"/>
+  Medium
+  <input type="checkbox" class="n-toggle n-toggle:check n-toggle:md" />
 </label>
 <label>
-    Large
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle:lg"/>
+  Large
+  <input type="checkbox" class="n-toggle n-toggle:check n-toggle:lg" />
 </label>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`n-toggle n-toggle:check n-toggle-size:1`|`n-toggle n-toggle:check n-toggle:1`||
-|`n-toggle n-toggle:check n-toggle-size:2`|`n-toggle n-toggle:check n-toggle:2`|default|
-|`n-toggle n-toggle:check n-toggle-size:3`|`n-toggle n-toggle:check n-toggle:3`|| 
-|`n-toggle n-toggle:check n-toggle-size:sm`|`n-toggle n-toggle:check n-toggle:sm`||
-|`n-toggle n-toggle:check n-toggle-size:md`|`n-toggle n-toggle:check n-toggle:md`|default|
-|`n-toggle n-toggle:check n-toggle-size:lg`|`n-toggle n-toggle:check n-toggle:lg`||
+| 클래스                                     | 약어클래스                            |         |
+| ------------------------------------------ | ------------------------------------- | ------- |
+| `n-toggle n-toggle:check n-toggle-size:1`  | `n-toggle n-toggle:check n-toggle:1`  |         |
+| `n-toggle n-toggle:check n-toggle-size:2`  | `n-toggle n-toggle:check n-toggle:2`  | default |
+| `n-toggle n-toggle:check n-toggle-size:3`  | `n-toggle n-toggle:check n-toggle:3`  |         |
+| `n-toggle n-toggle:check n-toggle-size:sm` | `n-toggle n-toggle:check n-toggle:sm` |         |
+| `n-toggle n-toggle:check n-toggle-size:md` | `n-toggle n-toggle:check n-toggle:md` | default |
+| `n-toggle n-toggle:check n-toggle-size:lg` | `n-toggle n-toggle:check n-toggle:lg` |         |
 
 ### 도트
 
@@ -253,29 +254,29 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <label>
-    Small
-    <input type="radio" class="n-toggle n-toggle:dot n-toggle:sm"/>
+  Small
+  <input type="radio" class="n-toggle n-toggle:dot n-toggle:sm" />
 </label>
 <label>
-    Medium
-    <input type="radio" class="n-toggle n-toggle:dot n-toggle:md"/>
+  Medium
+  <input type="radio" class="n-toggle n-toggle:dot n-toggle:md" />
 </label>
 <label>
-    Large
-    <input type="radio" class="n-toggle n-toggle:dot n-toggle:lg"/>
+  Large
+  <input type="radio" class="n-toggle n-toggle:dot n-toggle:lg" />
 </label>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`n-toggle n-toggle:dot n-toggle-size:1`|`n-toggle n-toggle:dot n-toggle:1`||
-|`n-toggle n-toggle:dot n-toggle-size:2`|`n-toggle n-toggle:dot n-toggle:2`|default|
-|`n-toggle n-toggle:dot n-toggle-size:3`|`n-toggle n-toggle:dot n-toggle:3`|| 
-|`n-toggle n-toggle:dot n-toggle-size:sm`|`n-toggle n-toggle:dot n-toggle:sm`||
-|`n-toggle n-toggle:dot n-toggle-size:md`|`n-toggle n-toggle:dot n-toggle:md`|default|
-|`n-toggle n-toggle:dot n-toggle-size:lg`|`n-toggle n-toggle:dot n-toggle:lg`||
+| 클래스                                   | 약어클래스                          |         |
+| ---------------------------------------- | ----------------------------------- | ------- |
+| `n-toggle n-toggle:dot n-toggle-size:1`  | `n-toggle n-toggle:dot n-toggle:1`  |         |
+| `n-toggle n-toggle:dot n-toggle-size:2`  | `n-toggle n-toggle:dot n-toggle:2`  | default |
+| `n-toggle n-toggle:dot n-toggle-size:3`  | `n-toggle n-toggle:dot n-toggle:3`  |         |
+| `n-toggle n-toggle:dot n-toggle-size:sm` | `n-toggle n-toggle:dot n-toggle:sm` |         |
+| `n-toggle n-toggle:dot n-toggle-size:md` | `n-toggle n-toggle:dot n-toggle:md` | default |
+| `n-toggle n-toggle:dot n-toggle-size:lg` | `n-toggle n-toggle:dot n-toggle:lg` |         |
 
-### 아웃라인 박스   
+### 아웃라인 박스
 
 ::: raw
 
@@ -303,27 +304,27 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <label class="n-toggle n-toggle:outline n-toggle:sm">
-    Small
-    <input type="checkbox" class="d:none"/>
+  Small
+  <input type="checkbox" class="d:none" />
 </label>
 <label class="n-toggle n-toggle:outline n-toggle:md">
-    Medium
-    <input type="checkbox" class="d:none"/>
+  Medium
+  <input type="checkbox" class="d:none" />
 </label>
 <label class="n-toggle n-toggle:outline n-toggle:lg">
-    Large
-    <input type="checkbox" class="d:none"/>
+  Large
+  <input type="checkbox" class="d:none" />
 </label>
 ```
 
-|클래스|약어클래스||
-|---|---|---|
-|`n-toggle n-toggle:outline n-toggle-size:1`|`n-toggle n-toggle:outline n-toggle:1`||
-|`n-toggle n-toggle:outline n-toggle-size:2`|`n-toggle n-toggle:outline n-toggle:2`|default|
-|`n-toggle n-toggle:outline n-toggle-size:3`|`n-toggle n-toggle:outline n-toggle:3`|| 
-|`n-toggle n-toggle:outline n-toggle-size:sm`|`n-toggle n-toggle:outline n-toggle:sm`||
-|`n-toggle n-toggle:outline n-toggle-size:md`|`n-toggle n-toggle:outline n-toggle:md`|default|
-|`n-toggle n-toggle:outline n-toggle-size:lg`|`n-toggle n-toggle:outline n-toggle:lg`||
+| 클래스                                       | 약어클래스                              |         |
+| -------------------------------------------- | --------------------------------------- | ------- |
+| `n-toggle n-toggle:outline n-toggle-size:1`  | `n-toggle n-toggle:outline n-toggle:1`  |         |
+| `n-toggle n-toggle:outline n-toggle-size:2`  | `n-toggle n-toggle:outline n-toggle:2`  | default |
+| `n-toggle n-toggle:outline n-toggle-size:3`  | `n-toggle n-toggle:outline n-toggle:3`  |         |
+| `n-toggle n-toggle:outline n-toggle-size:sm` | `n-toggle n-toggle:outline n-toggle:sm` |         |
+| `n-toggle n-toggle:outline n-toggle-size:md` | `n-toggle n-toggle:outline n-toggle:md` | default |
+| `n-toggle n-toggle:outline n-toggle-size:lg` | `n-toggle n-toggle:outline n-toggle:lg` |         |
 
 ## 비활성화
 
@@ -343,14 +344,13 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 :::
 
 ```html
-<input type="checkbox" class="n-toggle" disabled/>
+<input type="checkbox" class="n-toggle" disabled />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-status:disabled`|`n-toggle disabled`|
-|`n-toggle n-toggle-type:slide n-toggle-status:disabled`|`n-toggle n-toggle:slide disabled`||
-
+| 클래스                                                  | 약어클래스                         |
+| ------------------------------------------------------- | ---------------------------------- | --- |
+| `n-toggle n-toggle-status:disabled`                     | `n-toggle disabled`                |
+| `n-toggle n-toggle-type:slide n-toggle-status:disabled` | `n-toggle n-toggle:slide disabled` |     |
 
 ### 체크
 
@@ -366,12 +366,12 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 :::
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle:check" disabled/>
+<input type="checkbox" class="n-toggle n-toggle:check" disabled />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-type:check n-toggle-status:disabled`|`n-toggle n-toggle:check disabled`||
+| 클래스                                                  | 약어클래스                         |
+| ------------------------------------------------------- | ---------------------------------- | --- |
+| `n-toggle n-toggle-type:check n-toggle-status:disabled` | `n-toggle n-toggle:check disabled` |     |
 
 ### 도트
 
@@ -384,12 +384,12 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 </div>
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle:dot" disabled/>
+<input type="checkbox" class="n-toggle n-toggle:dot" disabled />
 ```
 
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-type:dot n-toggle-status:disabled`|`n-toggle n-toggle:dot disabled`||
+| 클래스                                                | 약어클래스                       |
+| ----------------------------------------------------- | -------------------------------- | --- |
+| `n-toggle n-toggle-type:dot n-toggle-status:disabled` | `n-toggle n-toggle:dot disabled` |     |
 
 ### 아웃라인 박스
 
@@ -409,15 +409,15 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label class="n-toggle n-toggle:outline">
-    Outline
-    <input type="radio" class="d:none" disabled/>
+  Outline
+  <input type="radio" class="d:none" disabled />
 </label>
 ```
-|클래스|약어클래스|
-|---|---|
-|`n-toggle n-toggle-type:outline-box n-toggle-status:disabled`|`n-toggle n-toggle:outline-box disabled`||
-|`n-toggle n-toggle-type:outline n-toggle-status:disabled`|`n-toggle n-toggle:outline disabled`||
 
+| 클래스                                                        | 약어클래스                               |
+| ------------------------------------------------------------- | ---------------------------------------- | --- |
+| `n-toggle n-toggle-type:outline-box n-toggle-status:disabled` | `n-toggle n-toggle:outline-box disabled` |     |
+| `n-toggle n-toggle-type:outline n-toggle-status:disabled`     | `n-toggle n-toggle:outline disabled`     |     |
 
 ## 라벨
 
@@ -446,19 +446,19 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label>
-    Top
-    <input type="checkbox" class="n-toggle n-toggle-label:top"/>
+  Top
+  <input type="checkbox" class="n-toggle n-toggle-label:top" />
 </label>
 <label>
-    Bottom
-    <input type="checkbox" class="n-toggle n-toggle-label:bottom"/>
+  Bottom
+  <input type="checkbox" class="n-toggle n-toggle-label:bottom" />
 </label>
 ```
 
-|클래스|위치|
-|---|---|
-|`n-toggle n-toggle-label:top`|top|
-|`n-toggle n-toggle-label:bottom`|bottom|
+| 클래스                           | 위치   |
+| -------------------------------- | ------ |
+| `n-toggle n-toggle-label:top`    | top    |
+| `n-toggle n-toggle-label:bottom` | bottom |
 
 ### 체크
 
@@ -482,19 +482,22 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label>
-    Top
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:top"/>
+  Top
+  <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:top" />
 </label>
-    <label>
-    Bottom
-    <input type="checkbox" class="n-toggle n-toggle:check n-toggle-label:bottom"/>
+<label>
+  Bottom
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle:check n-toggle-label:bottom"
+  />
 </label>
 ```
 
-|클래스|위치|
-|---|---|
-|`n-toggle n-toggle:check n-toggle-label:top`|top|
-|`n-toggle n-toggle:check n-toggle-label:bottom`|bottom|
+| 클래스                                          | 위치   |
+| ----------------------------------------------- | ------ |
+| `n-toggle n-toggle:check n-toggle-label:top`    | top    |
+| `n-toggle n-toggle:check n-toggle-label:bottom` | bottom |
 
 ### 도트
 
@@ -518,19 +521,19 @@ input 태그에 `disabled` 속성을 추가하거나 `.n-toggle-status:disabled`
 
 ```html
 <label>
-    Top
-    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:top"/>
+  Top
+  <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:top" />
 </label>
 <label>
-    Bottom
-    <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:bottom"/>
+  Bottom
+  <input type="checkbox" class="n-toggle n-toggle:dot n-toggle-label:bottom" />
 </label>
 ```
 
-|클래스|위치|
-|---|---|
-|`n-toggle n-toggle:dot n-toggle-label:top`|top|
-|`n-toggle n-toggle:dot n-toggle-label:bottom`|bottom|
+| 클래스                                        | 위치   |
+| --------------------------------------------- | ------ |
+| `n-toggle n-toggle:dot n-toggle-label:top`    | top    |
+| `n-toggle n-toggle:dot n-toggle-label:bottom` | bottom |
 
 ## 활용 예시
 

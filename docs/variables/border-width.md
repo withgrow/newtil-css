@@ -1,12 +1,12 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # border-width
 
 변수 `border-width`는 테두리의 너비를 정의하는 데 사용되며, 다음의 유틸리티에서 사용되고 있습니다.
 
--   [border-width](../utility/border/border-width.md)
+- [border-width](../utility/border/border-width.md)
 
 ## Default
 
@@ -34,9 +34,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --border-width-1: 1px;
-    --border-width-2: 2px;
-    --border-width-3: 3px;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 3px;
 }
 ```
 
@@ -71,9 +71,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    /* ... */
-    --border-width-4: 4px; /* [!code ++] */
-    --border-width-5: 5px; /* [!code ++] */
-    --border-width-6: 6px; /* [!code ++] */
+  /* ... */
+  --border-width-4: 4px; /* [!code ++] */
+  --border-width-5: 5px; /* [!code ++] */
+  --border-width-6: 6px; /* [!code ++] */
 }
 ```

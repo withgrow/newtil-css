@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # 유틸리티 시작하기
@@ -28,13 +28,13 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <div
-  class="width:100p padding:4 border border-radius:3 background-color:base-1 box-shadow:3">
+  class="width:100p padding:4 border border-radius:3 background-color:base-1 box-shadow:3"
+>
   👋 안녕하세요!
 </div>
 
 <!-- 위 코드는 아래와 같이 간결하게 표현할 수 있습니다. -->
-<div
-  class="w:100p p:4 border border-radius:3 bg-color:base-1 box-shadow:3">
+<div class="w:100p p:4 border border-radius:3 bg-color:base-1 box-shadow:3">
   👋 안녕하세요!
 </div>
 ```

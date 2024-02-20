@@ -1,16 +1,17 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue";
+import ExampleSection from "../components/demo/ExampleSection.vue";
 </script>
 
-
 # 버튼
-버튼 컴포넌트는 사용자와의 상호작용을 위한 컴포넌트입니다. 주로 사용자의 액션을 나타낼 때 사용됩니다.
 
+버튼 컴포넌트는 사용자와의 상호작용을 위한 컴포넌트입니다. 주로 사용자의 액션을 나타낼 때 사용됩니다.
 
 ## 모아보기
 
 ### 타입
+
 `filled`, `outline-box`, `void` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
+
 <div class="n-item d:flex jc:center gap:2 mt:4">
   <button class="n-btn">Button</button>
   <button class="n-btn n-btn:outline-box">Button</button>
@@ -18,7 +19,9 @@ import ExampleSection from "../components/ExampleSection.vue";
 </div>
 
 ### 사이즈
+
 `small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
+
 <div class="n-item d:flex jc:center gap:2 ai:end mt:4">
   <button type="button" class="n-btn n-btn-size:1">Button</button>
   <button type="button" class="n-btn n-btn-size:2">Button</button>
@@ -26,7 +29,9 @@ import ExampleSection from "../components/ExampleSection.vue";
 </div>
 
 ### 색상
+
 `main`, `sub`, `accent`, `base` 색상이 제공됩니다. 자세한 내용을 보려면 [여기](#color)를 클릭하세요.
+
 <div class="n-item d:flex jc:center gap:2 mt:4">
   <button type="button" class="n-btn n-btn-color:main">Button</button>
   <button type="button" class="n-btn n-btn-color:sub">Button</button>
@@ -35,12 +40,15 @@ import ExampleSection from "../components/ExampleSection.vue";
 </div>
 
 ### 상태
+
 `disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#disabled)를 클릭하세요.
+
 <div class="n-item d:flex jc:center gap:2 mt:4">
   <button type="button" class="n-btn" disabled>Button</button>
 </div>
 
 ## 사용법
+
 버튼 컴포넌트는 요소에 `n-btn` 클래스를 적용하여 사용할 수 있습니다.
 
 <ExampleSection>
@@ -52,6 +60,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 ```
 
 ::: details CSS details
+
 ```css
 .n-btn {
   /* ... */
@@ -67,9 +76,11 @@ import ExampleSection from "../components/ExampleSection.vue";
   /* ... */
 }
 ```
+
 :::
 
 ## 타입 {#type}
+
 `n-btn-type:타입` 또는 `n-btn:타입` 약어 클래스를 통해 다양한 버튼 타입을 적용할 수 있습니다.
 
 <ExampleSection>
@@ -82,10 +93,11 @@ import ExampleSection from "../components/ExampleSection.vue";
 </ExampleSection>
 
 ```html
-  <button type="button" class="n-btn n-btn-type:filled">filled</button>
-  <button type="button" class="n-btn n-btn-type:outline">outline</button>
-  <button type="button" class="n-btn n-btn-type:void">void</button>
+<button type="button" class="n-btn n-btn-type:filled">filled</button>
+<button type="button" class="n-btn n-btn-type:outline">outline</button>
+<button type="button" class="n-btn n-btn-type:void">void</button>
 ```
+
 <table>
   <thead>
     <tr>
@@ -147,6 +159,7 @@ import ExampleSection from "../components/ExampleSection.vue";
 </table>
 
 ## 사이즈 {#size}
+
 `n-btn-size:사이즈` 클래스를 통해 버튼 사이즈를 변경할 수 있습니다.
 
 <ExampleSection>
@@ -159,9 +172,9 @@ import ExampleSection from "../components/ExampleSection.vue";
 </ExampleSection>
 
 ```html
-  <button type="button" class="n-btn n-btn-size:1">Button</button>
-  <button type="button" class="n-btn n-btn-size:2">Button</button>
-  <button type="button" class="n-btn n-btn-size:3">Button</button>
+<button type="button" class="n-btn n-btn-size:1">Button</button>
+<button type="button" class="n-btn n-btn-size:2">Button</button>
+<button type="button" class="n-btn n-btn-size:3">Button</button>
 ```
 
 <table>
@@ -216,10 +229,12 @@ import ExampleSection from "../components/ExampleSection.vue";
 </table>
 
 ## 색상 {#color}
+
 `n-btn-color:색상` 클래스를 통해 버튼의 색을 변경할 수 있습니다.
 
 :::raw
 <ExampleSection>
+
   <ul class="d:flex gap:4">
     <li>
       <button type="button" class="n-btn n-btn-color:main" style="width: 70px;">
@@ -252,18 +267,20 @@ import ExampleSection from "../components/ExampleSection.vue";
 <button type="button" class="n-btn n-btn-color:base">base</button>
 ```
 
-|색상|클래스|
-|---|---|
-|main|`n-btn-color:main`|
-|sub|`n-btn-color:sub`|
-|accent|`n-btn-color:accent`|
-|base|`n-btn-color:base`|
+| 색상   | 클래스               |
+| ------ | -------------------- |
+| main   | `n-btn-color:main`   |
+| sub    | `n-btn-color:sub`    |
+| accent | `n-btn-color:accent` |
+| base   | `n-btn-color:base`   |
 
 ## 비활성화 {#disabled}
+
 `disabled` 속성을 추가하거나 클래스에 `disabled`를 추가하여 버튼 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
 
 :::raw
 <ExampleSection>
+
   <ul class="d:flex gap:4">
     <li>
       <button type="button" class="n-btn" disabled>filled</button>
@@ -279,39 +296,40 @@ import ExampleSection from "../components/ExampleSection.vue";
 :::
 
 ```html
-  <button type="button" class="n-btn" disabled>filled</button>
-  <button type="button" class="n-btn n-btn:outline disabled">outline</button>
-  <button type="button" class="n-btn n-btn:void" disabled>void</button>
+<button type="button" class="n-btn" disabled>filled</button>
+<button type="button" class="n-btn n-btn:outline disabled">outline</button>
+<button type="button" class="n-btn n-btn:void" disabled>void</button>
 ```
 
 ## 스타일 재정의 {#overriding}
+
 버튼 컴포넌트는 버튼의 크기 및 모서리의 둥글기 정도를 조절할 수 있는 변수를 제공합니다. 해당 변수를 오버라이딩하여 버튼의 크기와 모서리 둥글기를 자유롭게 재정의 할 수 있습니다.
 또한, 버튼 스타일 중 `filled`, `outline` 타입의 변수를 오버라이딩하여 스타일을 재정의 할 수 있습니다.
 
 ```css
 .n-btn {
-    /* btn-size:1 */
-    --btn-height-1: 28px;
-    --btn-padding-1: 4px 12px;
-    --btn-font-size-1: 14px;
+  /* btn-size:1 */
+  --btn-height-1: 28px;
+  --btn-padding-1: 4px 12px;
+  --btn-font-size-1: 14px;
 
-    /* btn-size:2 */
-    --btn-height-2: 36px;
-    --btn-padding-2: 4px 16px;
-    --btn-font-size-2: 14px;
+  /* btn-size:2 */
+  --btn-height-2: 36px;
+  --btn-padding-2: 4px 16px;
+  --btn-font-size-2: 14px;
 
-    /* btn-size:3 */
-    --btn-height-3: 44px;
-    --btn-padding-3: 4px 20px;
-    --btn-font-size-3: 16px;
-  
-    /* btn-type:filled */
-    --btn-filled-background-color: var(--color-main-2);
-    --btn-filled-color: var(--color-base-1);
+  /* btn-size:3 */
+  --btn-height-3: 44px;
+  --btn-padding-3: 4px 20px;
+  --btn-font-size-3: 16px;
 
-    /* btn-type:outline */
-    --btn-outline-border-color: var(--color-base-3);
-    --btn-outline-color: inherit;
+  /* btn-type:filled */
+  --btn-filled-background-color: var(--color-main-2);
+  --btn-filled-color: var(--color-base-1);
+
+  /* btn-type:outline */
+  --btn-outline-border-color: var(--color-base-3);
+  --btn-outline-color: inherit;
 }
 ```
 
@@ -333,33 +351,31 @@ import ExampleSection from "../components/ExampleSection.vue";
 
 ```css
 .n-btn {
+  /* btn-size:1 */
+  --btn-height-1: 24px;
+  --btn-padding-1: 0px 8px;
+  --btn-font-size-1: 12px;
 
-    /* btn-size:1 */
-    --btn-height-1: 24px;
-    --btn-padding-1: 0px 8px;
-    --btn-font-size-1: 12px;
+  /* btn-size:2 */
+  --btn-height-2: 32px;
+  --btn-padding-2: 0px 12px;
+  --btn-font-size-2: 14px;
 
-    /* btn-size:2 */
-    --btn-height-2: 32px;
-    --btn-padding-2: 0px 12px;
-    --btn-font-size-2: 14px;
+  /* btn-size:2 */
+  --btn-height-3: 40px;
+  --btn-padding-3: 0px 16px;
+  --btn-font-size-3: 16px;
 
-    /* btn-size:2 */
-    --btn-height-3: 40px;
-    --btn-padding-3: 0px 16px;
-    --btn-font-size-3: 16px;
+  /* btn-border-radius */
+  --btn-border-radius: 6px;
 
-    /* btn-border-radius */
-    --btn-border-radius: 6px;
+  /* btn-type:filled */
+  --btn-filled-background-color: #3182ce;
+  --btn-filled-color: #1e293b;
 
-    /* btn-type:filled */
-    --btn-filled-background-color: #3182ce;
-    --btn-filled-color: #1E293B;
-
-    /* btn-type:outline */
-    --btn-outline-border-color: #3182ce;
-    --btn-outline-color: #3182ce;
-  
+  /* btn-type:outline */
+  --btn-outline-border-color: #3182ce;
+  --btn-outline-color: #3182ce;
 }
 ```
 
@@ -377,12 +393,14 @@ import ExampleSection from "../components/ExampleSection.vue";
 </ExampleSection>
 
 ::: details codes
+
 ```html
 <div class="d:flex gap:2">
   <button type="button" class="n-btn n-btn:void">취소</button>
   <button type="button" class="n-btn">확인</button>
 </div>
 ```
+
 :::
 
 <ExampleSection class="mb:4">
@@ -393,12 +411,14 @@ import ExampleSection from "../components/ExampleSection.vue";
 </ExampleSection class="mb:4">
 
 ::: details codes
+
 ```html
 <div class="d:flex gap:2">
   <button type="button" class="n-btn n-btn:outline">닫기</button>
   <button type="button" class="n-btn n-btn-color:accent">삭제</button>
 </div>
 ```
+
 :::
 
 <ExampleSection class="mb:4">
@@ -408,11 +428,15 @@ import ExampleSection from "../components/ExampleSection.vue";
 </ExampleSection>
 
 ::: details codes
+
 ```html
 <button type="button" class="n-btn n-btn:outline px:2">
-  <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3">공유</span>
+  <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3"
+    >공유</span
+  >
 </button>
 ```
+
 :::
 
 <ExampleSection>
@@ -422,9 +446,14 @@ import ExampleSection from "../components/ExampleSection.vue";
 </ExampleSection>
 
 ::: details codes
+
 ```html
 <button type="button" class="n-btn n-btn:outline ">
-  <span class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7">삭제</span>
+  <span
+    class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7"
+    >삭제</span
+  >
 </button>
 ```
+
 :::

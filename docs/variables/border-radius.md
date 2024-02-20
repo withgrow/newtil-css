@@ -1,12 +1,12 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # border-radius
 
 변수 `border-radius`는 테두리의 둥글기를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [border-radius](../utility/border/border-radius.md)
+- [border-radius](../utility/border/border-radius.md)
 
 ## Default
 
@@ -37,12 +37,12 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --border-radius-0: 0;
-    --border-radius-1: 4px;
-    --border-radius-2: 8px;
-    --border-radius-3: 12px;
-    --border-radius-4: 16px;
-    --border-radius-full: 9999px;
+  --border-radius-0: 0;
+  --border-radius-1: 4px;
+  --border-radius-2: 8px;
+  --border-radius-3: 12px;
+  --border-radius-4: 16px;
+  --border-radius-full: 9999px;
 }
 ```
 
@@ -71,15 +71,15 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --border-radius-0: 0;
-    --border-radius-1: 4px; /* [!code --] */
-    --border-radius-2: 8px; /* [!code --] */
-    --border-radius-3: 12px; /* [!code --] */
-    --border-radius-4: 16px; /* [!code --] */
-    --border-radius-1: 2px; /* [!code ++] */
-    --border-radius-2: 4px; /* [!code ++] */
-    --border-radius-3: 6px; /* [!code ++] */
-    --border-radius-4: 8px; /* [!code ++] */
-    --border-radius-full: 9999px;
+  --border-radius-0: 0;
+  --border-radius-1: 4px; /* [!code --] */
+  --border-radius-2: 8px; /* [!code --] */
+  --border-radius-3: 12px; /* [!code --] */
+  --border-radius-4: 16px; /* [!code --] */
+  --border-radius-1: 2px; /* [!code ++] */
+  --border-radius-2: 4px; /* [!code ++] */
+  --border-radius-3: 6px; /* [!code ++] */
+  --border-radius-4: 8px; /* [!code ++] */
+  --border-radius-full: 9999px;
 }
 ```

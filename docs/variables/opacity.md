@@ -1,12 +1,12 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # opacity
 
 변수 `var(--opacity)`는 요소의 불투명도를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [opacity](../utility/opacity.md)
+- [opacity](../utility/opacity.md)
 
 ## Default
 
@@ -32,17 +32,17 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --opacity-0: 0;
-    --opacity-1: 0.1;
-    --opacity-2: 0.18;
-    --opacity-3: 0.3;
-    --opacity-4: 0.45;
-    --opacity-5: 0.5;
-    --opacity-6: 0.57;
-    --opacity-7: 0.7;
-    --opacity-8: 0.8;
-    --opacity-9: 0.9;
-    --opacity-10: 1;
+  --opacity-0: 0;
+  --opacity-1: 0.1;
+  --opacity-2: 0.18;
+  --opacity-3: 0.3;
+  --opacity-4: 0.45;
+  --opacity-5: 0.5;
+  --opacity-6: 0.57;
+  --opacity-7: 0.7;
+  --opacity-8: 0.8;
+  --opacity-9: 0.9;
+  --opacity-10: 1;
 }
 ```
 
@@ -70,16 +70,16 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --opacity-0: 0; /* [!code --] */
-    --opacity-1: 0.1; /* [!code --] */
-    --opacity-2: 0.18; /* [!code --] */
-    /* ... */ /* [!code --] */
-    --opacity-9: 0.9; /* [!code --] */
-    --opacity-0: 0.5; /* [!code ++] */
-    --opacity-1: 0.55; /* [!code ++] */
-    --opacity-2: 0.6; /* [!code ++] */
-    /* ... */ /* [!code ++] */
-    --opacity-9: 0.95; /* [!code ++] */
-    --opacity-10: 1;
+  --opacity-0: 0; /* [!code --] */
+  --opacity-1: 0.1; /* [!code --] */
+  --opacity-2: 0.18; /* [!code --] */
+  /* ... */ /* [!code --] */
+  --opacity-9: 0.9; /* [!code --] */
+  --opacity-0: 0.5; /* [!code ++] */
+  --opacity-1: 0.55; /* [!code ++] */
+  --opacity-2: 0.6; /* [!code ++] */
+  /* ... */ /* [!code ++] */
+  --opacity-9: 0.95; /* [!code ++] */
+  --opacity-10: 1;
 }
 ```

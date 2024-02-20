@@ -1,12 +1,12 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # z-index
 
 변수 `var(--z-index)`는 z축에서의 우선순위를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [z-index](../utility/z-index.md)
+- [z-index](../utility/z-index.md)
 
 ## Default
 
@@ -32,11 +32,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --z-index-1: 1;
-    --z-index-2: 200;
-    --z-index-3: 500;
-    --z-index-4: 1000;
-    --z-index-5: 2000;
+  --z-index-1: 1;
+  --z-index-2: 200;
+  --z-index-3: 500;
+  --z-index-4: 1000;
+  --z-index-5: 2000;
 }
 ```
 
@@ -66,15 +66,15 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --z-index-1: 1;
-    --z-index-2: 200;
-    --z-index-3: 500;
-    --z-index-4: 1000; /* [!code --] */
-    --z-index-5: 2000; /* [!code --] */
-    --z-index-4: 800; /* [!code ++] */
-    --z-index-5: 1000; /* [!code ++] */
-    --z-index-6: 1200; /* [!code ++] */
-    --z-index-7: 2000; /* [!code ++] */
+  --z-index-1: 1;
+  --z-index-2: 200;
+  --z-index-3: 500;
+  --z-index-4: 1000; /* [!code --] */
+  --z-index-5: 2000; /* [!code --] */
+  --z-index-4: 800; /* [!code ++] */
+  --z-index-5: 1000; /* [!code ++] */
+  --z-index-6: 1200; /* [!code ++] */
+  --z-index-7: 2000; /* [!code ++] */
 }
 ```
 

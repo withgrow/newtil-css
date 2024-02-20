@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 const fontSizes = [12, 14, 16, 18, 20, 22, 26, 32, 56]
 const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 </script>
@@ -8,15 +8,15 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 변수 `var(--gap)`은 간격 및 크기를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
-| gap-\*                                                                      | margin-\*                                                                            | padding-\*                                                                              | position-\*                                                              | text-\*                                                                        |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| gap-\*                                                                          | margin-\*                                                                                | padding-\*                                                                                  | position-\*                                                                  | text-\*                                                                            |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | <span class="white-space:nowrap">[gap](../utility/gap/gap)</span>               | <span class="white-space:nowrap">[margin](../utility/margin/margin)</span>               | <span class="white-space:nowrap">[padding](../utility/padding/padding)</span>               | <span class="white-space:nowrap">[top](../utility/position/top)</span>       | <span class="white-space:nowrap">[text-indent](../utility/text/text-indent)</span> |
-| <span class="white-space:nowrap">[column-gap](../utility/gap/column-gap)</span> | <span class="white-space:nowrap">[margin-top](../utility/margin/margin-top)</span>       | <span class="white-space:nowrap">[padding-top](../utility/padding/padding-top)</span>       | <span class="white-space:nowrap">[right](../utility/position/right)</span>   |                                                                                |
-| <span class="white-space:nowrap">[row-gap](../utility/gap/row-gap)</span>       | <span class="white-space:nowrap">[margin-right](../utility/margin/margin-right)</span>   | <span class="white-space:nowrap">[padding-right](../utility/padding/padding-right)</span>   | <span class="white-space:nowrap">[bottom](../utility/position/bottom)</span> |                                                                                |
-|                                                                             | <span class="white-space:nowrap">[margin-bottom](../utility/margin/margin-bottom)</span> | <span class="white-space:nowrap">[padding-bottom](../utility/padding/padding-bottom)</span> | <span class="white-space:nowrap">[left](../utility/position/left)</span>     |                                                                                |
-|                                                                             | <span class="white-space:nowrap">[margin-left](../utility/margin/margin-left)</span>     | <span class="white-space:nowrap">[padding-left](../utility/padding/padding-left)</span>     |                                                                          |                                                                                |
-|                                                                             | <span class="white-space:nowrap">[margin-x](../utility/margin/margin-x)</span>           | <span class="white-space:nowrap">[padding-x](../utility/padding/padding-x)</span>           |                                                                          |                                                                                |
-|                                                                             | <span class="white-space:nowrap">[margin-y](../utility/margin/margin-y)</span>           | <span class="white-space:nowrap">[padding-y](../utility/padding/padding-y)</span>           |                                                                          |                                                                                |
+| <span class="white-space:nowrap">[column-gap](../utility/gap/column-gap)</span> | <span class="white-space:nowrap">[margin-top](../utility/margin/margin-top)</span>       | <span class="white-space:nowrap">[padding-top](../utility/padding/padding-top)</span>       | <span class="white-space:nowrap">[right](../utility/position/right)</span>   |                                                                                    |
+| <span class="white-space:nowrap">[row-gap](../utility/gap/row-gap)</span>       | <span class="white-space:nowrap">[margin-right](../utility/margin/margin-right)</span>   | <span class="white-space:nowrap">[padding-right](../utility/padding/padding-right)</span>   | <span class="white-space:nowrap">[bottom](../utility/position/bottom)</span> |                                                                                    |
+|                                                                                 | <span class="white-space:nowrap">[margin-bottom](../utility/margin/margin-bottom)</span> | <span class="white-space:nowrap">[padding-bottom](../utility/padding/padding-bottom)</span> | <span class="white-space:nowrap">[left](../utility/position/left)</span>     |                                                                                    |
+|                                                                                 | <span class="white-space:nowrap">[margin-left](../utility/margin/margin-left)</span>     | <span class="white-space:nowrap">[padding-left](../utility/padding/padding-left)</span>     |                                                                              |                                                                                    |
+|                                                                                 | <span class="white-space:nowrap">[margin-x](../utility/margin/margin-x)</span>           | <span class="white-space:nowrap">[padding-x](../utility/padding/padding-x)</span>           |                                                                              |                                                                                    |
+|                                                                                 | <span class="white-space:nowrap">[margin-y](../utility/margin/margin-y)</span>           | <span class="white-space:nowrap">[padding-y](../utility/padding/padding-y)</span>           |                                                                              |                                                                                    |
 
 <span class="white-space:nowrap"></span>
 
@@ -58,18 +58,18 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```css
 :root {
-    --gap-0: 0px;
-    --gap-1: 4px;
-    --gap-2: 8px;
-    --gap-3: 12px;
-    --gap-4: 16px;
-    --gap-5: 20px;
-    --gap-6: 24px;
-    --gap-7: 28px;
-    --gap-8: 32px;
-    --gap-9: 36px;
-    --gap-10: 40px;
-    --gap-full: 9999px;
+  --gap-0: 0px;
+  --gap-1: 4px;
+  --gap-2: 8px;
+  --gap-3: 12px;
+  --gap-4: 16px;
+  --gap-5: 20px;
+  --gap-6: 24px;
+  --gap-7: 28px;
+  --gap-8: 32px;
+  --gap-9: 36px;
+  --gap-10: 40px;
+  --gap-full: 9999px;
 }
 ```
 
@@ -112,17 +112,17 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```css
 :root {
-    /* ... */
-    --gap-11: 44px; /* [!code ++] */
-    --gap-12: 48px; /* [!code ++] */
-    --gap-13: 52px; /* [!code ++] */
-    --gap-14: 56px; /* [!code ++] */
-    --gap-15: 60px; /* [!code ++] */
-    --gap-16: 64px; /* [!code ++] */
-    --gap-17: 68px; /* [!code ++] */
-    --gap-18: 72px; /* [!code ++] */
-    --gap-19: 76px; /* [!code ++] */
-    --gap-20: 80px; /* [!code ++] */
+  /* ... */
+  --gap-11: 44px; /* [!code ++] */
+  --gap-12: 48px; /* [!code ++] */
+  --gap-13: 52px; /* [!code ++] */
+  --gap-14: 56px; /* [!code ++] */
+  --gap-15: 60px; /* [!code ++] */
+  --gap-16: 64px; /* [!code ++] */
+  --gap-17: 68px; /* [!code ++] */
+  --gap-18: 72px; /* [!code ++] */
+  --gap-19: 76px; /* [!code ++] */
+  --gap-20: 80px; /* [!code ++] */
 }
 ```
 

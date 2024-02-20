@@ -1,12 +1,12 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # font-weight
 
 변수 `var(--font-weight)`는 폰트의 기본 두께를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
 
--   [font-weight](../utility/font/font-weight.md)
+- [font-weight](../utility/font/font-weight.md)
 
 ## Default
 
@@ -29,9 +29,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --font-weight-1: 400;
-    --font-weight-2: 500;
-    --font-weight-3: 700;
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+  --font-weight-3: 700;
 }
 ```
 
@@ -56,9 +56,9 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 :root {
-    --font-weight-1: 400; /* [!code --] */
-    --font-weight-1: 300; /* [!code ++] */
-    --font-weight-2: 500;
-    --font-weight-3: 700;
+  --font-weight-1: 400; /* [!code --] */
+  --font-weight-1: 300; /* [!code ++] */
+  --font-weight-2: 500;
+  --font-weight-3: 700;
 }
 ```

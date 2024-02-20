@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue";
+import ExampleSection from "../components/demo/ExampleSection.vue";
 import ModalDomExample from "../components/ModalDomExample.vue";
 </script>
 
@@ -12,6 +12,7 @@ import ModalDomExample from "../components/ModalDomExample.vue";
 모달 컴포넌트는 요소에 `n-modal` 클래스를 적용하여 사용할 수 있습니다.
 :::raw
 <ExampleSection>
+
 <section class="n-modal example" tabindex="-1">
   <h1 class="n-font:h3 font-weight:3">모달 예시</h1>
 
@@ -37,12 +38,15 @@ import ModalDomExample from "../components/ModalDomExample.vue";
   </div>
 </section>
 ```
+
 모달 컴포넌트에 사용되는 변수는 다음과 같습니다:
+
 ```css
 .n-modal {
   --modal-border-radius: 16px;
   --modal-border: none;
-  --modal-box-shadow: rgba(0, 0, 0, 0.08) 0 16px 20px -4px, rgba(0, 0, 0, 0.03) 0 8px 8px -4px;
+  --modal-box-shadow: rgba(0, 0, 0, 0.08) 0 16px 20px -4px, rgba(0, 0, 0, 0.03) 0
+      8px 8px -4px;
   --modal-z-index: 1200;
 }
 ```
@@ -149,6 +153,7 @@ window.addEventListener("load", function () {
 
 :::raw
 <ExampleSection>
+
 <section class="n-modal example" tabindex="-1">
   <h1 class="n-font:h3 font-weight:3">신청 안내</h1>
 
@@ -175,6 +180,7 @@ window.addEventListener("load", function () {
 :::
 
 ::: details codes
+
 ```html
 <section class="n-modal" tabindex="-1">
   <h1 class="n-font:h3 font-weight:3">신청 안내</h1>
@@ -198,6 +204,7 @@ window.addEventListener("load", function () {
   </form>
 </section>
 ```
+
 :::
 
 <style>

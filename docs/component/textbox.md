@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue"
+import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
 # 텍스트 박스
@@ -180,7 +180,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ```html
-<input type="text" class="n-textbox" placeholder="Basic Textbox"/>
+<input type="text" class="n-textbox" placeholder="Basic Textbox" />
 ```
 
 ### textarea
@@ -222,8 +222,16 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ```html
-<input type="text" class="n-textbox n-textbox-type:outline" placeholder="Outline Textbox"/>
-<input type="text" class="n-textbox n-textbox-type:underline" placeholder="Underline Textbox"/>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:outline"
+  placeholder="Outline Textbox"
+/>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:underline"
+  placeholder="Underline Textbox"
+/>
 ```
 
 <table>
@@ -278,7 +286,11 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ```html
-<textarea type="text" class="n-textbox n-textbox-type:outline" placeholder="Outline Textbox"></textarea>
+<textarea
+  type="text"
+  class="n-textbox n-textbox-type:outline"
+  placeholder="Outline Textbox"
+></textarea>
 ```
 
 <table>
@@ -302,10 +314,9 @@ import ExampleSection from "../components/ExampleSection.vue"
   </tbody>
 </table>
 
-
 ## 상태 {#status}
 
-입력된 텍스트의 유효성에 따라 `focus`, `success`, `warning`, `disabled` 상태를 적용할 수 있으며, `input 태그`와 `textarea 태그` 모두 동일하게 적용됩니다. 
+입력된 텍스트의 유효성에 따라 `focus`, `success`, `warning`, `disabled` 상태를 적용할 수 있으며, `input 태그`와 `textarea 태그` 모두 동일하게 적용됩니다.
 
 ### Focus
 
@@ -327,11 +338,25 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ::: details codes
+
 ```html
-<input type="text" class="n-textbox n-textbox-type:outline n-textbox-status:focus" placeholder="Outline Focus"/>
-<input type="text" class="n-textbox n-textbox-type:underline n-textbox-status:focus" placeholder="Underline Focus"/>
-<textarea type="text" class="n-textbox n-textbox-type:outline n-textbox-status:focus" placeholder="Outline Focus"></textarea>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:focus"
+  placeholder="Outline Focus"
+/>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:underline n-textbox-status:focus"
+  placeholder="Underline Focus"
+/>
+<textarea
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:focus"
+  placeholder="Outline Focus"
+></textarea>
 ```
+
 :::
 
 <table>
@@ -375,11 +400,25 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ::: details codes
+
 ```html
-<input type="text" class="n-textbox n-textbox-type:outline n-textbox-status:success" placeholder="Outline Success"/>
-<input type="text" class="n-textbox n-textbox-type:underline n-textbox-status:success" placeholder="Underline Success"/>
-<textarea type="text" class="n-textbox n-textbox-type:outline n-textbox-status:success" placeholder="Outline Success"></textarea>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:success"
+  placeholder="Outline Success"
+/>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:underline n-textbox-status:success"
+  placeholder="Underline Success"
+/>
+<textarea
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:success"
+  placeholder="Outline Success"
+></textarea>
 ```
+
 :::
 
 <table>
@@ -423,11 +462,25 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ::: details codes
+
 ```html
-<input type="text" class="n-textbox n-textbox-type:outline n-textbox-status:warning" placeholder="Outline Warning"/>
-<input type="text" class="n-textbox n-textbox-type:underline n-textbox-status:warning" placeholder="Underline Warning"/>
-<textarea type="text" class="n-textbox n-textbox-type:outline n-textbox-status:warning" placeholder="Outline Warning"></textarea>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:warning"
+  placeholder="Outline Warning"
+/>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:underline n-textbox-status:warning"
+  placeholder="Underline Warning"
+/>
+<textarea
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:warning"
+  placeholder="Outline Warning"
+></textarea>
 ```
+
 :::
 
 <table>
@@ -472,11 +525,25 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ::: details codes
+
 ```html
-<input type="text" class="n-textbox n-textbox-type:outline n-textbox-status:disabled" placeholder="Outline Disabled"/>
-<input type="text" class="n-textbox n-textbox-type:underline n-textbox-status:disabled" placeholder="Underline Disabled"/>
-<textarea type="text" class="n-textbox n-textbox-type:outline n-textbox-status:disabled" placeholder="Outline Disabled"></textarea>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:disabled"
+  placeholder="Outline Disabled"
+/>
+<input
+  type="text"
+  class="n-textbox n-textbox-type:underline n-textbox-status:disabled"
+  placeholder="Underline Disabled"
+/>
+<textarea
+  type="text"
+  class="n-textbox n-textbox-type:outline n-textbox-status:disabled"
+  placeholder="Outline Disabled"
+></textarea>
 ```
+
 :::
 
 <table>
@@ -496,7 +563,7 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ## 라벨 {#label}
 
-`n-textbox-label:값` 클래스를 적용하여 라벨을 텍스트 박스의 상단 또는 하단에 위치시킬 수 있습니다. 
+`n-textbox-label:값` 클래스를 적용하여 라벨을 텍스트 박스의 상단 또는 하단에 위치시킬 수 있습니다.
 
 ### Top
 
@@ -530,25 +597,38 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ::: details codes
+
 ```html
 <label>
-    label
-    <input type="text" class="n-textbox n-textbox-type:outline
-    n-textbox-label:top" placeholder="Placeholder"/>
+  label
+  <input
+    type="text"
+    class="n-textbox n-textbox-type:outline
+    n-textbox-label:top"
+    placeholder="Placeholder"
+  />
 </label>
 <label>
-    label
-    <input type="text" class="n-textbox n-textbox-type:underline
-    n-textbox-label:top" placeholder="Placeholder"/>
+  label
+  <input
+    type="text"
+    class="n-textbox n-textbox-type:underline
+    n-textbox-label:top"
+    placeholder="Placeholder"
+  />
 </label>
 <label>
-    label
-    <textarea type="text" class="n-textbox n-textbox-type:outline
-    n-textbox-label:top" placeholder="Placeholder"></textarea>
+  label
+  <textarea
+    type="text"
+    class="n-textbox n-textbox-type:outline
+    n-textbox-label:top"
+    placeholder="Placeholder"
+  ></textarea>
 </label>
 ```
-:::
 
+:::
 
 <table>
   <thead>
@@ -597,23 +677,37 @@ import ExampleSection from "../components/ExampleSection.vue"
 :::
 
 ::: details codes
+
 ```html
 <label>
-    label
-    <input type="text" class="n-textbox n-textbox-type:outline
-    n-textbox-label:bottom" placeholder="Placeholder"/>
+  label
+  <input
+    type="text"
+    class="n-textbox n-textbox-type:outline
+    n-textbox-label:bottom"
+    placeholder="Placeholder"
+  />
 </label>
 <label>
-    label
-    <input type="text" class="n-textbox n-textbox-type:underline
-    n-textbox-label:bottom" placeholder="Placeholder"/>
+  label
+  <input
+    type="text"
+    class="n-textbox n-textbox-type:underline
+    n-textbox-label:bottom"
+    placeholder="Placeholder"
+  />
 </label>
 <label>
-    label
-    <textarea type="text" class="n-textbox n-textbox-type:outline
-    n-textbox-label:bottom" placeholder="Placeholder"></textarea>
+  label
+  <textarea
+    type="text"
+    class="n-textbox n-textbox-type:outline
+    n-textbox-label:bottom"
+    placeholder="Placeholder"
+  ></textarea>
 </label>
 ```
+
 :::
 
 <table>
@@ -637,22 +731,22 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```css
 .n-textbox {
-    /* textbox-size */
-    --textbox-padding-x: 12px;
-    --textbox-input-height: 36px;
-    --textbox-textarea-min-height: 58px;
+  /* textbox-size */
+  --textbox-padding-x: 12px;
+  --textbox-input-height: 36px;
+  --textbox-textarea-min-height: 58px;
 
-    /* textbox-border-radius */
-    --textbox-border-radius: 6px;
+  /* textbox-border-radius */
+  --textbox-border-radius: 6px;
 
-    /* textbox-border-width */
-    --textbox-underline-border-width: 1.6px;
-  
-    /* textbox-status */
-    --textbox-focus-border-color: var(--color-sub-2);
-    --textbox-success-border-color: #37b24d;
-    --textbox-warning-color: var(--color-accent-1);
-    --textbox-warning-border-color: var(--color-accent-1);
+  /* textbox-border-width */
+  --textbox-underline-border-width: 1.6px;
+
+  /* textbox-status */
+  --textbox-focus-border-color: var(--color-sub-2);
+  --textbox-success-border-color: #37b24d;
+  --textbox-warning-color: var(--color-accent-1);
+  --textbox-warning-border-color: var(--color-accent-1);
 }
 ```
 
@@ -677,42 +771,53 @@ import ExampleSection from "../components/ExampleSection.vue"
 
 ```html
 <label>
-    Focus
-    <input type="text" class="n-textbox n-textbox-status:focus n-textbox-label:top" placeholder="Outline Textbox"/>
+  Focus
+  <input
+    type="text"
+    class="n-textbox n-textbox-status:focus n-textbox-label:top"
+    placeholder="Outline Textbox"
+  />
 </label>
 <label>
-    Success
-    <input type="text" class="n-textbox n-textbox:underline  n-textbox-status:success n-textbox-label:top" placeholder="Underline Textbox"/>
+  Success
+  <input
+    type="text"
+    class="n-textbox n-textbox:underline  n-textbox-status:success n-textbox-label:top"
+    placeholder="Underline Textbox"
+  />
 </label>
 <label>
-    Warning
-    <textarea type="text" class="n-textbox n-textbox-status:warning n-textbox-label:top" placeholder="Outline Textbox"></textarea>
+  Warning
+  <textarea
+    type="text"
+    class="n-textbox n-textbox-status:warning n-textbox-label:top"
+    placeholder="Outline Textbox"
+  ></textarea>
 </label>
 ```
 
 ```css
 .n-textbox {
-    /* textbox-size */
-    --textbox-padding-x: 14px;
-    --textbox-input-height: 40px;
-    --textbox-textarea-min-height: 80px;
+  /* textbox-size */
+  --textbox-padding-x: 14px;
+  --textbox-input-height: 40px;
+  --textbox-textarea-min-height: 80px;
 
-    /* textbox-border-radius */
-    --textbox-border-radius: 12px;
+  /* textbox-border-radius */
+  --textbox-border-radius: 12px;
 
-    /* textbox-border-width */
-    --textbox-underline-border-width: 1px;
-  
-    /* textbox-status:focus */
-    --textbox-focus-border-color: #3b82f680;
+  /* textbox-border-width */
+  --textbox-underline-border-width: 1px;
 
-    /* textbox-status:success */
-    --textbox-success-border-color: #06b6d4;
+  /* textbox-status:focus */
+  --textbox-focus-border-color: #3b82f680;
 
-    /* textbox-status:warning */
-    --textbox-warning-color: #f97316;
-    --textbox-warning-border-color: #f97316;
-  
+  /* textbox-status:success */
+  --textbox-success-border-color: #06b6d4;
+
+  /* textbox-status:warning */
+  --textbox-warning-color: #f97316;
+  --textbox-warning-border-color: #f97316;
 }
 ```
 
@@ -754,32 +859,45 @@ import ExampleSection from "../components/ExampleSection.vue"
 </div>
 
 ::: details codes
+
 ```html
 <header class="d:flex jc:center">
-    <h1 class="d:none">회원가입</h1>
-    <div>
-        <a href="/newtil-css" class="d:flex fl-dir:column ai:center">
-            <img src="/logo.png" width="50px" height="50px">
-            <span class="n-font:h3">Newtil CSS</span>
-        </a>
-    </div>
+  <h1 class="d:none">회원가입</h1>
+  <div>
+    <a href="/newtil-css" class="d:flex fl-dir:column ai:center">
+      <img src="/logo.png" width="50px" height="50px" />
+      <span class="n-font:h3">Newtil CSS</span>
+    </a>
+  </div>
 </header>
 <form class="w:100p d:flex fl-dir:column ai:center gap:4">
-    <label>
-        아이디
-        <input type="text" class="n-textbox n-textbox-label:top" placeholder="email@newtil.com"/>
-    </label>
-    <label>
-        비밀번호
-        <input type="password" class="n-textbox n-textbox-label:top" placeholder="비밀번호를 입력해주세요"/>
-    </label>
-    <label>
-        newtilCSS를 알게 된 경로를 자세히 작성해주세요!
-        <textarea class="n-textbox n-textbox-label:top" placeholder="newtilCSS를 알게 된 경로를 자세히 작성해주세요!"></textarea>
-    </label>
-    <span>
-        <button class="n-btn">제출하기</button>
-    </span>
+  <label>
+    아이디
+    <input
+      type="text"
+      class="n-textbox n-textbox-label:top"
+      placeholder="email@newtil.com"
+    />
+  </label>
+  <label>
+    비밀번호
+    <input
+      type="password"
+      class="n-textbox n-textbox-label:top"
+      placeholder="비밀번호를 입력해주세요"
+    />
+  </label>
+  <label>
+    newtilCSS를 알게 된 경로를 자세히 작성해주세요!
+    <textarea
+      class="n-textbox n-textbox-label:top"
+      placeholder="newtilCSS를 알게 된 경로를 자세히 작성해주세요!"
+    ></textarea>
+  </label>
+  <span>
+    <button class="n-btn">제출하기</button>
+  </span>
 </form>
 ```
+
 :::

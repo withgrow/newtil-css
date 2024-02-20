@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue";
+import ExampleSection from "../components/demo/ExampleSection.vue";
 </script>
 
 # 폰트
