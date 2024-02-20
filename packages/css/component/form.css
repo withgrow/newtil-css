@@ -132,15 +132,6 @@ how to use
   margin-top: 32px;
 }
 
-/* field (title + content) */
-.n-form > div,
-.n-form > div > label:has(span),
-.n-form > div > label:has(textarea) {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 /* title */
 .n-form > div > :first-child:is(label, div, span):not(label:has(input)),
 .n-form > div > label > span {
@@ -394,6 +385,20 @@ how to use
 }
 
 /* -------- var [ field label position ] -------------------------------- */
+.n-form > div,
+.n-form > div > label:has(span),
+.n-form > div > label:has(textarea),
+n-form.n-field-label-position\:top > div,
+n-form.n-field-label-position\:top > div > label:has(span),
+n-form.n-field-label-position\:top > div > label:has(textarea),
+n-form.n-field-label\:top > div,
+n-form.n-field-label\:top > div > label:has(span),
+n-form.n-field-label\:top > div > label:has(textarea) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
   /* gap between fields */
