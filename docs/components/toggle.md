@@ -657,6 +657,18 @@ Outline
     </ExampleSection>
 </div>
 
+::: details codes
+
+```html
+<label class="font-size:2 font-weight:1">
+    푸쉬알림
+    <input type="checkbox" class="n-toggle n-toggle-size:1"/>
+</label>
+```
+
+:::
+
+
 ### 체크
 
 <div class="vp-raw">
@@ -683,6 +695,33 @@ Outline
         </ul>
     </ExampleSection>
 </div>
+
+::: details codes
+
+```html
+<ul class="d:flex fl-dir:column gap:2">
+  <li>
+      <label>
+          <input type="checkbox" class="n-toggle n-toggle-type:check"/>
+          <span class="font-size:2 font-weight:2 d:flex gap:1">
+              <span>(필수)</span>
+              <span>서비스 이용약관에 동의합니다.</span>
+          </span>
+      </label>
+  </li>
+  <li>
+      <label>
+          <input type="checkbox" class="n-toggle n-toggle-type:check"/>
+          <span span class="font-size:2 font-weight:2 d:flex gap:1">
+              <span class="color:base-5">(선택)</span>
+              <span>마케팅 정보 수신에 동의합니다.</span>
+          </span>
+      </label>
+  </li>
+</ul>
+```
+
+:::
 
 ### 도트
 
@@ -711,6 +750,33 @@ Outline
         </ul>
     </ExampleSection>
 </div>
+
+::: details codes
+
+```html
+<p class="font-weight:2">가장 좋아하는 동물을 선택해주세요!</p>
+<ul class="w:full d:flex jc:center gap:4">
+    <li>
+        <label class="font-size:2 font-weight:1">
+            고양이 🐱
+            <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal"/>
+        </label>
+    </li>
+    <li>
+        <label class="font-size:2 font-weight:1">
+            강아지 🐶
+            <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal"/>
+        </label>
+    </li>
+    <li>
+        <label class="font-size:2 font-weight:1">
+            여우 🦊
+            <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal"/>
+        </label>
+    </li>
+</ul>
+```
+:::
 
 ### 아웃라인 박스
 
@@ -745,6 +811,39 @@ Outline
         </ul>
     </ExampleSection>
 </div>
+
+::: details codes
+
+```html
+<p class="n-font:h2">✨ 베스트 강의</p>
+<ul class="w:full d:flex jc:center gap:2">
+    <li>
+        <label class="n-toggle n-toggle-type:outline-box">
+            실시간
+            <input type="radio" class="d:none" name="category" checked/>
+        </label>
+    </li>
+    <li>
+        <label class="n-toggle n-toggle-type:outline-box">
+            일간
+            <input type="radio" class="d:none" name="category"/>
+        </label>
+    </li>
+    <li>
+        <label class="n-toggle n-toggle-type:outline-box">
+            월간
+            <input type="radio" class="d:none" name="category"/>
+        </label>
+    </li>
+    <li>
+        <label class="n-toggle n-toggle-type:outline-box">
+            주간
+            <input type="radio" class="d:none" name="category"/>
+        </label>
+    </li>
+</ul>
+```
+:::
 
 
 <style>
