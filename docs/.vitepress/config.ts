@@ -116,43 +116,67 @@ export default defineConfig({
 
       {
         text: "컴포넌트",
-        base: "/component",
+        base: "/components",
         items: [
           {
             text: "모아보기",
             link: "/overview",
           },
           {
-            text: "버튼",
+            text: "Button",
             link: "/button",
           },
           {
-            text: "토글",
-            link: "/toggle",
+            text: "Container",
+            link: "/container",
           },
           {
-            text: "컨테이너",
-            link: "/container"
+            text: "Dropdown",
+            link: "/dropdown",
           },
           {
-            text: "텍스트박스",
-            link: "/textbox",
-          },
-          {
-            text: "폰트",
+            text: "Font",
             link: "/font",
           },
           {
-            text: "모달",
+            text: "Form",
+            link: "/form",
+          },
+          {
+            text: "Item",
+            link: "/item",
+          },
+          {
+            text: "List",
+            link: "/list",
+          },
+          {
+            text: "Modal",
             link: "/modal",
           },
           {
-            text: "프로그레스",
+            text: "Pagination",
+            link: "/pagination",
+          },
+          {
+            text: "Panel",
+            link: "/panel",
+          },
+          {
+            text: "Progress",
             link: "/progress",
           },
           {
-            text: "패널",
-            link: "/panel",
+            text: "Table",
+            link: "/table",
+          },
+          {
+            text: "Textbox",
+            link: "/textbox",
+          },
+          {
+            text: "Toggle",
+            link: "/toggle",
           },
         ],
       },
