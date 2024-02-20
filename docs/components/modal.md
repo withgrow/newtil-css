@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/demo/ExampleSection.vue";
+import ExampleSection from "./demo/ExampleSection.vue";
 import ModalDomExample from "../components/ModalDomExample.vue";
 </script>
 

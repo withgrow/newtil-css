@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/demo/ExampleSection.vue"
+import ExampleSection from "./demo/ExampleSection.vue"
 </script>
 
 # 텍스트 박스
