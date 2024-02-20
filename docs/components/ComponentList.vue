@@ -1,192 +1,219 @@
 <script setup></script>
 
 <template>
-  <ul
-    class="component-list n-list n-card-list n-list-item-border-radius:4 jc:space-around"
-  >
-    <li>
+  <div class="component-list d:flex flex-wrap:wrap jc:space-around gap:4">
+    <section class="n-item">
       <a href="../component/font">
-        <section>
-          <h1>Font</h1>
-          <div class="d:flex jc:center">
-            <div class="fonts d:flex fl-dir:column">
-              <h1 class="n-font:title text-align:left">This is Title.</h1>
-              <h2 class="n-font:subtitle text-align:left">This is Subtitle.</h2>
-              <h1 class="n-font:h1 text-align:left">This is h1.</h1>
-              <h2 class="n-font:h2 text-align:left">This is h2.</h2>
-              <h3 class="n-font:h3 text-align:left">This is h3.</h3>
-            </div>
-          </div>
-        </section>
+        <h1>Font</h1>
+        <div class="fonts">
+          <h1 class="n-font:title text-align:left">This is Title.</h1>
+          <h2 class="n-font:subtitle text-align:left">This is Subtitle.</h2>
+          <h1 class="n-font:h1 text-align:left">This is h1.</h1>
+          <h2 class="n-font:h2 text-align:left">This is h2.</h2>
+          <h3 class="n-font:h3 text-align:left">This is h3.</h3>
+        </div>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/panel">
-        <section>
-          <h1>Panel</h1>
-          <div class="border h:100p d:flex fl-dir:column font-size:1">
-            <div class="top-panel text-align:center bg-color:base-4"></div>
-            <div class="fl-grow:1 d:flex">
-              <div class="side-panel bg-color:base-2"></div>
-              <div></div>
-            </div>
+        <h1>Panel</h1>
+        <div class="border d:flex fl-dir:column font-size:1">
+          <div class="top-panel text-align:center bg-color:base-4"></div>
+          <div class="fl-grow:1 d:flex">
+            <div class="side-panel bg-color:base-2"></div>
+            <div></div>
           </div>
-        </section>
+        </div>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/container">
-        <section>
-          <h1>Container</h1>
-          <div class="bg-color:base-2 border">
-            <div class="container bg-color:base-1 h:100p mx:auto"></div>
-          </div>
-        </section>
+        <h1>Container</h1>
+        <div class="bg-color:base-2 border">
+          <div class="container bg-color:base-1 h:100p mx:auto"></div>
+        </div>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/item">
-        <section>
-          <h1>Item</h1>
-          <div class="n-item"></div>
-        </section>
+        <h1>Item</h1>
+        <div class="n-item"></div>
       </a>
-    </li>
-    <li>
-      <a href="../component/button">
-        <section>
-          <h1>Button</h1>
-          <div class="d:flex ai:center jc:center">
-            <button class="n-btn n-btn-type:filled n-btn:3">label</button>
-          </div>
-        </section>
-      </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/list">
-        <section>
-          <h1>List</h1>
-          <ul
-            class="n-list n-list-item-border-radius:3 n-list-item-p:2 gap:2 my:auto"
-          >
-            <li class="text-align:center"></li>
-            <li class="text-align:center"></li>
-            <li class="text-align:center"></li>
-          </ul>
-        </section>
+        <h1>List</h1>
+        <ul class="n-list n-list-item-border-radius:3 n-list-item-p:2 gap:2">
+          <li class="text-align:center"></li>
+          <li class="text-align:center"></li>
+          <li class="text-align:center"></li>
+          <li class="text-align:center"></li>
+        </ul>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/table">
-        <section>
-          <h1>Table</h1>
-          <table class="n-table n-table-b n-cell-h:1 font-size:1">
-            <thead>
-              <tr>
-                <th scope="col">...</th>
-                <th scope="col">...</th>
-                <th scope="col">...</th>
-                <th scope="col">...</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="i in 4">
-                <th scope="row">...</th>
-                <td>...</td>
-                <td>...</td>
-                <td>...</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+        <h1>Table</h1>
+        <table class="n-table n-table-bd n-cell-h:1 font-size:1">
+          <thead>
+            <tr>
+              <th>...</th>
+              <th>...</th>
+              <th>...</th>
+              <th>...</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="i in 4">
+              <th>...</th>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/form">
-        <section>
-          <h1>Form</h1>
-          <form class="n-form">
-            <div class="fl-dir:column">
-              <label class="as:start">label</label>
-              <input type="text" class="w:full" autofocus="true" />
-            </div>
-            <div class="fl-dir:column mt:2">
-              <label class="as:start">label</label>
-              <input type="text" class="w:full" />
-            </div>
-          </form>
-        </section>
+        <h1>Form</h1>
+        <form class="n-form p:4">
+          <div class="fl-dir:column">
+            <label class="as:start">label</label>
+            <input type="text" class="w:full" autofocus="true" />
+          </div>
+          <div class="fl-dir:column mt:2">
+            <label class="as:start">label</label>
+            <input type="text" class="w:full" />
+          </div>
+        </form>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
       <a href="../component/modal">
-        <section>
-          <h1>Modal</h1>
-          <div
-            class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1"
-          >
-            <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
-            <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
-            <div class="mt:auto">
-              <button class="n-btn n-btn-size:1 w:100p">label</button>
-            </div>
-            <div class="pos:absolute" style="top: 4px; right: 8px">
-              <button type="button" class="btn p:0">
-                <span class="icon icon:x icon:2">Close</span>
-              </button>
-            </div>
+        <h1>Modal</h1>
+        <div
+          class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1"
+        >
+          <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
+          <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
+          <div class="mt:4">
+            <button class="n-btn n-btn-size:1 w:100p">close</button>
           </div>
-        </section>
+          <div class="pos:absolute" style="top: 4px; right: 8px">
+            <button type="button" class="btn p:0">
+              <span class="icon icon:x icon-size:2">Close</span>
+            </button>
+          </div>
+        </div>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
+      <a href="../component/button">
+        <h1>Button</h1>
+        <div class="d:flex ai:center jc:center">
+          <button class="n-btn n-btn-type:filled n-btn:3">Click</button>
+        </div>
+      </a>
+    </section>
+    <section class="n-item">
       <a href="../component/toggle">
-        <section>
-          <h1>Toggle</h1>
-          <div class="d:flex fl-dir:column ai:center jc:center">
-            <label class="">
-              <input class="n-toggle n-toggle-size:3" type="checkbox" />
-            </label>
-            <label class="">
-              <input
-                class="n-toggle n-toggle-size:3 mt:2"
-                type="checkbox"
-                checked
-              />
-            </label>
-          </div>
-        </section>
+        <h1>Toggle</h1>
+        <div class="d:flex fl-dir:column ai:center jc:center">
+          <label class="">
+            <input class="n-toggle n-toggle-size:3" type="checkbox" />
+          </label>
+          <label class="">
+            <input
+              class="n-toggle n-toggle-size:3 mt:2"
+              type="checkbox"
+              checked
+            />
+          </label>
+        </div>
       </a>
-    </li>
-    <li>
+    </section>
+    <section class="n-item">
+      <a href="../component/text-box">
+        <h1>Text Box</h1>
+        <div>
+          <label class="d:flex flex-direction:column ai:start">
+            input
+            <input type="text" class="n-textbox" />
+          </label>
+          <label
+            class="d:flex flex-direction:column ai:start mt:3"
+            style="gap: 6px"
+          >
+            textarea
+            <textarea class="n-textbox"></textarea>
+          </label>
+        </div>
+      </a>
+    </section>
+    <section class="n-item">
       <a href="../component/progress">
-        <section>
-          <h1>Progress</h1>
-          <div class="d:flex fl-dir:column ai:center jc:center">
-            <div class="n-progress" role="progressbar">
-              <div style="width: 25%"></div>
-            </div>
+        <h1>Progress</h1>
+        <div class="d:flex ai:center">
+          <div class="n-progress" role="progressbar">
+            <div style="width: 25%"></div>
           </div>
-        </section>
+        </div>
       </a>
-    </li>
-  </ul>
+    </section>
+    <section class="n-item">
+      <a href="../component/pagination">
+        <h1>Pagination</h1>
+        <ul class="n-pagination jc:center">
+          <li><span>1</span></li>
+          <li><span>2</span></li>
+          <li><span>3</span></li>
+        </ul>
+      </a>
+    </section>
+    <section class="n-item">
+      <a href="../component/dropdown">
+        <h1>Dropdown</h1>
+        <div class="n-dropdown d:flex ai:center">
+          <div class="n-dropdown-list active mt:0 w:100p">
+            <div class="n-dropdown-item">Lorem</div>
+            <div class="n-dropdown-item">Ipsum</div>
+            <div class="n-dropdown-item">Dolor</div>
+          </div>
+        </div>
+      </a>
+    </section>
+    <section class="n-item suggest-compononet">
+      <a
+        href="https://github.com/newlecture-corp/newtil-css/issues"
+        target="_blank"
+      >
+        <h1 class="font-size:2">컴포넌트 추가 제안하기</h1>
+        <div class="d:flex ai:center jc:center">
+          <div class="border border-radius:full w:fit-content p:5 plus">
+            <span class="icon icon:plus"></span>
+          </div>
+        </div>
+      </a>
+    </section>
+  </div>
 </template>
 
 <style scoped>
-.component-list > li {
+/* item */
+.component-list > .n-item {
   width: 218px;
   height: 250px;
-  cursor: pointer;
+
   transition: box-shadow 0.2s;
+  cursor: pointer;
 }
 
-.component-list > li:hover {
+.component-list > .n-item:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-/* section */
-.component-list section {
+.component-list > .n-item > a {
   width: 100%;
   height: 100%;
 
@@ -194,29 +221,41 @@
   flex-direction: column;
 }
 
-.component-list section > h1 {
+/* title */
+.component-list > .n-item > a > h1 {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
 }
 
-.component-list section > :nth-child(2) {
-  margin-top: 16px;
-}
+.component-list > .n-item > a > :nth-child(2) {
+  width: 100%;
+  height: 100%;
 
-.component-list section > :nth-child(2):is(div) {
-  flex-grow: 1;
+  margin-top: 16px;
 }
 
 /* font */
 .fonts {
+  white-space: nowrap;
   transform: scale(0.8);
-  /* transform-origin: left; */
+  transform-origin: top;
 }
 
 /* container */
 .container {
   width: 80%;
+}
+
+/* table */
+.n-table tr:last-child {
+  border-bottom-left-radius: 9999px;
+}
+.n-table tr:last-child > :first-child {
+  border-bottom-left-radius: 9999px;
+}
+.n-table tr:last-child > :last-child {
+  border-bottom-right-radius: 9999px;
 }
 
 /* modal */
@@ -235,5 +274,14 @@
 .side-panel {
   width: 25%;
   height: 100%;
+}
+
+.suggest-compononet {
+  background-color: rgba(var(--rgb-base-2), 0.15);
+}
+
+.suggest-compononet .plus {
+  background-color: #fff;
+  /* background-color: rgba(var(--rgb-base-2), 0.2); */
 }
 </style>
