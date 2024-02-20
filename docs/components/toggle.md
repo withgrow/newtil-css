@@ -600,10 +600,10 @@ Outline
 </ExampleSection>
 
 ```html
-<input type="checkbox" class="n-toggle example n-toggle-type:toggle"/>
-<input type="checkbox" class="n-toggle example n-toggle-type:check"/>
-<input type="radio" class="n-toggle example n-toggle-type:dot"/>
-<label class="n-toggle example n-toggle-type:outline-box">
+<input type="checkbox" class="n-toggle n-toggle-type:toggle"/>
+<input type="checkbox" class="n-toggle n-toggle-type:check"/>
+<input type="radio" class="n-toggle n-toggle-type:dot"/>
+<label class="n-toggle n-toggle-type:outline-box">
     Outline
     <input type="checkbox" class="d:none"/>
 </label>
