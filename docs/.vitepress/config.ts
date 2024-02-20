@@ -127,12 +127,16 @@ export default defineConfig({
             link: "/button",
           },
           {
-            text: "토글",
-            link: "/toggle",
+            text: "컨테이너",
+            link: "/container",
           },
           {
-            text: "컨테이너",
-            link: "/container"
+            text: "드롭다운",
+            link: "/dropdown",
+          },
+          {
+            text: "토글",
+            link: "/toggle",
           },
           {
             text: "텍스트박스",
