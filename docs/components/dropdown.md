@@ -1,6 +1,6 @@
 <script setup>
-import ExampleSection from "../components/ExampleSection.vue";
-import DropdownDomExample from "../components/DropdownDomExample.vue";
+import ExampleSection from "./demo/ExampleSection.vue";
+import DropdownDomExample from "./demo/DropdownDomExample.vue";
 </script>
 
 # 드롭다운
@@ -213,9 +213,7 @@ window.addEventListener("load", function () {
 <div class="n-dropdown">
   <ul class="active position:relative z-index:1">
     <li>
-      <span class="va:middle deco deco-size:2 icon:plus">
-        추가하기
-      </span>
+      <span class="va:middle deco deco-size:2 icon:plus"> 추가하기 </span>
     </li>
     <li>
       <span class="va:middle deco deco-size:2 icon:pencil_simple">

@@ -1,6 +1,6 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
-import ModalDomExample from "../components/ModalDomExample.vue";
+import ModalDomExample from "./demo/ModalDomExample.vue";
 </script>
 
 # 모달
