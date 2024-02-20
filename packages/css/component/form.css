@@ -105,16 +105,24 @@ how to use
   padding: var(--form-padding);
 
   /* textbox */
+  /* textbox-size */
   --textbox-padding-x: 12px;
-  --textbox-border-radius: 6px;
-
   --textbox-input-height: 36px;
   --textbox-textarea-min-height: 58px;
 
+  /* textbox-border-radius */
+  --textbox-border-radius: 6px;
+
+  /* textbox-border-width */
   --textbox-underline-border-width: 1.6px;
 
+  /* textbox-status:focus */
   --textbox-focus-border-color: var(--color-sub-2);
+
+  /* textbox-status:success */
   --textbox-success-border-color: #37b24d;
+
+  /* textbox-status:warning */
   --textbox-warning-color: var(--color-accent-1);
   --textbox-warning-border-color: var(--color-accent-1);
 }
@@ -238,7 +246,15 @@ how to use
 .n-form input[type="tel"]:focus,
 .n-form input[type="text"]:focus,
 .n-form input[type="url"]:focus,
-.n-form textarea:focus {
+.n-form textarea:focus,
+.n-form input[type="email"].n-field-textbox-status\:focus,
+.n-form input[type="number"].n-field-textbox-status\:focus,
+.n-form input[type="password"].n-field-textbox-status\:focus,
+.n-form input[type="search"].n-field-textbox-status\:focus,
+.n-form input[type="tel"].n-field-textbox-status\:focus,
+.n-form input[type="text"].n-field-textbox-status\:focus,
+.n-form input[type="url"].n-field-textbox-status\:focus,
+.n-form textarea.n-field-textbox-status\:focus {
   border-color: var(--textbox-focus-border-color);
 }
 
