@@ -25,6 +25,7 @@
 
   /* n-toggle:slide */
   --n-toggle-slide-border-color: transparent;
+  --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
   --n-toggle-slide-checked-background-color: var(--color-main-2);
   --n-toggle-slide-circle-color: var(--color-base-1);
   --n-toggle-slide-circle-checked-color: var(--color-base-1);
@@ -69,7 +70,7 @@
   width: 44px;
   height: 24px;
 
-  background-color: rgba(var(--rgb-base-10), 0.12);
+  background-color: var(--n-toggle-slide-background-color);
   border-radius: 9999px;
   position: relative;
 
