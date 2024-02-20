@@ -21,6 +21,34 @@
 
 /* ---- n-toggle ------------------------------------------------- */
 
+.n-toggle{
+
+  /* n-toggle:slide */
+  --n-toggle-slide-border-color: transparent;
+  --n-toggle-slide-checked-background-color: var(--color-main-2);
+  --n-toggle-slide-circle-color: var(--color-base-1);
+  --n-toggle-slide-circle-checked-color: var(--color-base-1);
+
+  /* n-toggle:check */
+  --n-toggle-check-border-color: #dee2e6;
+  --n-toggle-check-bagkground-color: var(--color-base-1);
+  --n-toggle-check-checked-background-color: var(--color-main-2);
+
+  /* n-toggle:dot */
+  --n-toggle-dot-border-color: #dee2e6;
+  --n-toggle-dot-background-color: var(--color-base-1);
+  --n-toggle-dot-checked-border-color: var(--color-main-2);
+  --n-toggle-dot-checked-background-color: var(--color-main-2);
+
+  /* n-toggle:outline-box */
+  --n-toggle-outline-color: rgba(var(--rgb-base-10), 0.85);
+  --n-toggle-outline-background-color: var(--color-base-1);
+  --n-toggle-outline-border-color: var(--color-base-3);
+  --n-toggle-outline-checked-color: var(--color-base-1);
+  --n-toggle-outline-checked-background-color: var(--color-main-2);
+  --n-toggle-outline-checked-border-color: transparent;
+}
+
 .n-toggle {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -34,26 +62,19 @@
   content: "";
 }
 
-.n-toggle:checked,
-.n-toggle.n-toggle-status\:checked {
-  background-color: var(--color-main-2);
-}
-
 /* n-toggle:slide */
 .n-toggle,
 .n-toggle-type\:slide,
 .n-toggle\:slide {
-  --n-toggle-bg-color: rgba(var(--rgb-base-10), 0.12);
-
   width: 44px;
   height: 24px;
 
-  background-color: var(--n-toggle-bg-color);
+  background-color: rgba(var(--rgb-base-10), 0.12);
   border-radius: 9999px;
   position: relative;
 
   transition: background-color ease 0.3s;
-  border: transparent;
+  border-color: var(--n-toggle-slide-border-color);
 }
 
 .n-toggle::before,
@@ -64,11 +85,18 @@
   left: 2px;
   width: 20px;
   height: 20px;
-  background-color: var(--color-base-1);
+  background-color: var(--n-toggle-slide-circle-color);
   border-radius: 9999px;
   box-shadow: 0px 0px 2px 0px rgba(var(--rgb-base-10), 0.12);
 
   transition: all cubic-bezier(0.3, 1.3, 0.7, 1) 0.3s;
+}
+
+.n-toggle:checked,
+.n-toggle-type\:slide:checked,
+.n-toggle\:slide:checked,
+.n-toggle.n-toggle-status\:checked {
+  background-color: var(--n-toggle-slide-checked-background-color);
 }
 
 .n-toggle:checked::before,
@@ -77,6 +105,7 @@
 .n-toggle-type\:slide.n-toggle-status\:checked::before,
 .n-toggle\:slide:checked::before,
 .n-toggle\:slide.n-toggle-status\:checked::before {
+  background-color: var(--n-toggle-slide-circle-checked-color);
   left: 22px;
   -webkit-mask-image: none;
   mask-image: none;
@@ -143,16 +172,13 @@
 
 .n-toggle-type\:check,
 .n-toggle\:check {
-  --n-check-border-color: #dee2e6;
-
   display: inline-block;
   width: 24px;
   min-width: 24px;
   height: 24px;
-  border: solid 1px var(--n-check-border-color);
+  border: solid 1px var(--n-toggle-check-border-color);
   border-radius: 4px;
-  background-color: var(--color-base-1);
-
+  background-color: var(--n-toggle-check-bagkground-color);
   transition: initial;
 }
 
@@ -170,7 +196,7 @@
 .n-toggle-type\:check.n-toggle-status\:checked,
 .n-toggle\:check:checked,
 .n-toggle\:check.n-toggle-status\:checked {
-  background-color: var(--color-main-2);
+  background-color: var(--n-toggle-check-checked-background-color);
   border: transparent;
 }
 
@@ -241,11 +267,8 @@
 .n-toggle\:check:disabled,
 .n-toggle\:check:checked:disabled,
 .n-toggle\:check.n-toggle-status\:disabled {
-  --n-check-disabled-bg-color: rgba(var(--rgb-base-10), 0.05);
-  --n-check-disabled-border-color: rgba(var(--rgb-base-10), 0.27);
-
-  background-color: var(--n-check-disabled-bg-color);
-  border: solid 1px var(--n-check-disabled-border-color);
+  background-color: rgba(var(--rgb-base-10), 0.05);
+  border: solid 1px rgba(var(--rgb-base-10), 0.27);
   cursor: not-allowed;
 }
 
@@ -257,9 +280,7 @@
 .n-toggle\:check:checked.n-toggle-status\:disabled::before,
 .n-toggle\:check.n-toggle-status\:checked:disabled::before,
 .n-toggle\:check.n-toggle-status\:checked.n-toggle-status\:disabled::before {
-  --n-check-disabled-bg-color-before: rgba(var(--rgb-base-10), 0.27);
-
-  background-color: var(--n-check-disabled-bg-color-before);
+  background-color: rgba(var(--rgb-base-10), 0.27);
   box-sizing: border-box;
   position: absolute;
   top: -1px;
@@ -269,16 +290,14 @@
 /* ---- n-toggle:dot ------------------------------------------------- */
 .n-toggle-type\:dot,
 .n-toggle\:dot {
-  --n-dot-border-color: #dee2e6;
-
   display: inline-flex;
   justify-content: center;
   align-items: center;
 
   width: 24px;
   height: 24px;
-  background-color: var(--color-base-1);
-  border: solid 0.7px var(--n-dot-border-color);
+  background-color: var(--n-toggle-dot-background-color);
+  border: solid 0.7px var(--n-toggle-dot-border-color);
   border-radius: 9999px;
   position: initial;
 
@@ -303,7 +322,7 @@
 .n-toggle\:dot:has(input:checked),
 .n-toggle\:dot.n-toggle-status\:checked {
   background-color: initial;
-  border-color: var(--color-main-2);
+  border-color: var(--n-toggle-dot-checked-border-color);
 }
 
 .n-toggle-type\:dot:checked::before,
@@ -316,7 +335,7 @@
   display: block;
   width: var(--n-dot-circle-size);
   height: var(--n-dot-circle-size);
-  background-color: var(--color-main-2);
+  background-color: var(--n-toggle-dot-checked-background-color);
   box-shadow: none;
   border-radius: 9999px;
 
@@ -394,8 +413,6 @@
 .n-toggle-type\:outline,
 .n-toggle\:outline-box,
 .n-toggle\:outline {
-  --n-outline-color: rgba(var(--rgb-base-10), 0.85);
-
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -404,11 +421,11 @@
   padding-right: 12px;
   width: fit-content;
   height: 32px;
-  background-color: var(--color-base-1);
-  border: 1px solid var(--color-base-3);
+  background-color: var(--n-toggle-outline-background-color);
+  border: 1px solid var(--n-toggle-outline-border-color);
   border-radius: 8px;
 
-  color: var(--n-outline-color);
+  color: var(--n-toggle-outline-color);
   font-size: 14px;
   font-weight: 500;
   font-family: inherit;
@@ -442,9 +459,9 @@
 .n-toggle\:outline:checked,
 .n-toggle\:outline:has(input:checked),
 .n-toggle\:outline.n-toggle-status\:checked {
-  background-color: var(--color-main-2);
-  border-color: transparent;
-  color: var(--color-base-1);
+  background-color: var(--n-toggle-outline-checked-background-color);
+  border-color: var(--n-toggle-outline-checked-border-color);
+  color: var(--n-toggle-outline-checked-color);
 }
 
 /* size */
