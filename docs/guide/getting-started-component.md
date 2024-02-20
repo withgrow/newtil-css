@@ -1,6 +1,6 @@
 <script setup>
 import ExampleSection from "../components/demo/ExampleSection.vue";
-import ComponentList from "../components/ComponentList.vue";
+import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 </script>
 
 # 컴포넌트 시작하기

@@ -1,5 +1,5 @@
 <script setup>
-import ComponentList from "../components/ComponentList.vue";
+import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 </script>
 
 # 컴포넌트 모아보기
