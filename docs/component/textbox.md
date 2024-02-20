@@ -727,7 +727,7 @@ import ExampleSection from "../components/ExampleSection.vue"
         <header class="d:flex jc:center">
             <h1 class="d:none">회원가입</h1>
             <div>
-                <a href="/" class="d:flex fl-dir:column ai:center">
+                <a href="/newtil-css" class="d:flex fl-dir:column ai:center">
                     <img src="/logo.png" width="50px" height="50px">
                     <span class="n-font:h3">Newtil CSS</span>
                 </a>
@@ -758,8 +758,8 @@ import ExampleSection from "../components/ExampleSection.vue"
 <header class="d:flex jc:center">
     <h1 class="d:none">회원가입</h1>
     <div>
-        <a href="/" class="d:flex fl-dir:column ai:center">
-            <img src="/newtil-css/logo.png" width="50px" height="50px">
+        <a href="/newtil-css" class="d:flex fl-dir:column ai:center">
+            <img src="/logo.png" width="50px" height="50px">
             <span class="n-font:h3">Newtil CSS</span>
         </a>
     </div>
