@@ -167,6 +167,7 @@ how to use
 .n-form-type\:underline,
 .n-form\:underline {
   border: none;
+  border-radius: 0;
   border-bottom: 1px solid var(--color-base-3);
 }
 
@@ -396,22 +397,12 @@ how to use
   }
 
   /* textbox field width */
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(input[type="email"]),
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(input[type="number"]),
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(input[type="password"]),
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(input[type="search"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="email"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="number"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="password"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="search"]),
   .n-form.md\:n-field-label-position\:left > div > label:has(input[type="tel"]),
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(input[type="text"]),
+  .n-form.md\:n-field-label-position\:left > div > label:has(input[type="text"]),
   .n-form.md\:n-field-label-position\:left > div > label:has(input[type="url"]),
   .n-form.md\:n-field-label\:left > div > label:has(input[type="email"]),
   .n-form.md\:n-field-label\:left > div > label:has(input[type="number"]),
@@ -424,47 +415,17 @@ how to use
   }
 
   /* textbox input width (label left)*/
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="email"],
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="number"],
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="password"],
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="search"],
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="tel"],
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="text"],
-  .n-form.md\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="url"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="email"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="number"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="password"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="search"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="tel"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="text"],
+  .n-form.md\:n-field-label-position\:left > div > label:has(span) > input[type="url"],
   .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="email"],
-  .n-form.md\:n-field-label\:left
-    > div
-    > label:has(span)
-    > input[type="number"],
-  .n-form.md\:n-field-label\:left
-    > div
-    > label:has(span)
-    > input[type="password"],
-  .n-form.md\:n-field-label\:left
-    > div
-    > label:has(span)
-    > input[type="search"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="number"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="password"],
+  .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="search"],
   .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="tel"],
   .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="text"],
   .n-form.md\:n-field-label\:left > div > label:has(span) > input[type="url"] {
@@ -491,22 +452,12 @@ how to use
   }
 
   /* textbox field width */
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(input[type="email"]),
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(input[type="number"]),
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(input[type="password"]),
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(input[type="search"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="email"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="number"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="password"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="search"]),
   .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="tel"]),
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(input[type="text"]),
+  .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="text"]),
   .n-form.lg\:n-field-label-position\:left > div > label:has(input[type="url"]),
   .n-form.lg\:n-field-label\:left > div > label:has(input[type="email"]),
   .n-form.lg\:n-field-label\:left > div > label:has(input[type="number"]),
@@ -519,47 +470,17 @@ how to use
   }
 
   /* textbox input width (label left)*/
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="email"],
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="number"],
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="password"],
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="search"],
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="tel"],
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="text"],
-  .n-form.lg\:n-field-label-position\:left
-    > div
-    > label:has(span)
-    > input[type="url"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="email"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="number"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="password"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="search"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="tel"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="text"],
+  .n-form.lg\:n-field-label-position\:left > div > label:has(span) > input[type="url"],
   .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="email"],
-  .n-form.lg\:n-field-label\:left
-    > div
-    > label:has(span)
-    > input[type="number"],
-  .n-form.lg\:n-field-label\:left
-    > div
-    > label:has(span)
-    > input[type="password"],
-  .n-form.lg\:n-field-label\:left
-    > div
-    > label:has(span)
-    > input[type="search"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="number"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="password"],
+  .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="search"],
   .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="tel"],
   .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="text"],
   .n-form.lg\:n-field-label\:left > div > label:has(span) > input[type="url"] {
