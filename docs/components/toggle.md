@@ -52,15 +52,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 <div class="n-item d:flex jc:center gap:4 ai:end mt:4">
     <label class="n-toggle n-toggle-type:outline-box n-toggle-size:1">
-        Outline
+        Small
         <input type="checkbox" class="d:none"/>
     </label>
     <label class="n-toggle n-toggle-type:outline-box n-toggle-size:2">
-        Outline
+        Medium
         <input type="checkbox" class="d:none"/>
     </label>
     <label class="n-toggle n-toggle-type:outline-box n-toggle-size:3">
-        Outline
+        Large
         <input type="checkbox" class="d:none"/>
     </label>
 </div>
