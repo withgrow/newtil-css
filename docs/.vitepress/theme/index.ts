@@ -4,8 +4,6 @@ import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "newtil-css";
 
-import NotFound from "../../components/NotFound.vue";
-
 import "./style.css";
 
 export default {
@@ -13,7 +11,6 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      "not-found": () => h(NotFound),
     });
   },
   enhanceApp({ app, router, siteData }) {
