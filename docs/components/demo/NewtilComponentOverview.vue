@@ -3,7 +3,7 @@
 <template>
   <div class="component-list d:flex flex-wrap:wrap jc:space-around gap:4">
     <section class="n-item">
-      <a href="../component/font">
+      <a href="../components/font">
         <h1>Font</h1>
         <div class="fonts">
           <h1 class="n-font:title text-align:left">This is Title.</h1>
@@ -15,7 +15,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/panel">
+      <a href="../components/panel">
         <h1>Panel</h1>
         <div class="border d:flex fl-dir:column font-size:1">
           <div class="top-panel text-align:center bg-color:base-4"></div>
@@ -27,7 +27,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/container">
+      <a href="../components/container">
         <h1>Container</h1>
         <div class="bg-color:base-2 border">
           <div class="container bg-color:base-1 h:100p mx:auto"></div>
@@ -35,13 +35,13 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/item">
+      <a href="../components/item">
         <h1>Item</h1>
         <div class="n-item"></div>
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/list">
+      <a href="../components/list">
         <h1>List</h1>
         <ul class="n-list n-list-item-border-radius:3 n-list-item-p:2 gap:2">
           <li class="text-align:center"></li>
@@ -52,7 +52,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/table">
+      <a href="../components/table">
         <h1>Table</h1>
         <table class="n-table n-table-bd n-cell-h:1 font-size:1">
           <thead>
@@ -75,7 +75,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/form">
+      <a href="../components/form">
         <h1>Form</h1>
         <form class="n-form p:4">
           <div class="fl-dir:column">
@@ -90,7 +90,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/modal">
+      <a href="../components/modal">
         <h1>Modal</h1>
         <div
           class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1"
@@ -109,7 +109,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/button">
+      <a href="../components/button">
         <h1>Button</h1>
         <div class="d:flex ai:center jc:center">
           <button class="n-btn n-btn-type:filled n-btn:3">Click</button>
@@ -117,7 +117,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/toggle">
+      <a href="../components/toggle">
         <h1>Toggle</h1>
         <div class="d:flex fl-dir:column ai:center jc:center">
           <label class="">
@@ -134,7 +134,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/text-box">
+      <a href="../components/text-box">
         <h1>Text Box</h1>
         <div>
           <label class="d:flex flex-direction:column ai:start">
@@ -152,7 +152,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/progress">
+      <a href="../components/progress">
         <h1>Progress</h1>
         <div class="d:flex ai:center">
           <div class="n-progress" role="progressbar">
@@ -162,7 +162,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/pagination">
+      <a href="../components/pagination">
         <h1>Pagination</h1>
         <ul class="n-pagination jc:center">
           <li><span>1</span></li>
@@ -172,7 +172,7 @@
       </a>
     </section>
     <section class="n-item">
-      <a href="../component/dropdown">
+      <a href="../components/dropdown">
         <h1>Dropdown</h1>
         <div class="n-dropdown d:flex ai:center">
           <div class="n-dropdown-list active mt:0 w:100p">
@@ -183,7 +183,7 @@
         </div>
       </a>
     </section>
-    <section class="n-item suggest-compononet">
+    <section class="n-item suggest-component">
       <a
         href="https://github.com/newlecture-corp/newtil-css/issues"
         target="_blank"
@@ -276,11 +276,11 @@
   height: 100%;
 }
 
-.suggest-compononet {
+.suggest-component {
   background-color: rgba(var(--rgb-base-2), 0.15);
 }
 
-.suggest-compononet .plus {
+.suggest-component .plus {
   background-color: #fff;
   /* background-color: rgba(var(--rgb-base-2), 0.2); */
 }
