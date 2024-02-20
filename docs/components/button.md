@@ -59,26 +59,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 <button type="button" class="n-btn">Button</button>
 ```
 
-::: details CSS details
-
-```css
-.n-btn {
-  /* ... */
-  color: var(--color-base-1);
-  border: 1px solid transparent;
-  background-color: var(--color-main-2);
-
-  height: 36px;
-  padding-top: 4px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 4px;
-  /* ... */
-}
-```
-
-:::
-
 ## 타입 {#type}
 
 `n-btn-type:타입` 또는 `n-btn:타입` 약어 클래스를 통해 다양한 버튼 타입을 적용할 수 있습니다.
@@ -431,9 +411,9 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 ```html
 <button type="button" class="n-btn n-btn:outline px:2">
-  <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3"
-    >공유</span
-  >
+  <span class="icon icon:share_fat_fill icon-color:base-7 icon-size:3">
+    공유
+  </span>
 </button>
 ```
 
@@ -451,8 +431,9 @@ import ExampleSection from "./demo/ExampleSection.vue";
 <button type="button" class="n-btn n-btn:outline ">
   <span
     class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7"
-    >삭제</span
   >
+    삭제
+  </span>
 </button>
 ```
 

@@ -19,7 +19,8 @@
   gap: 8px;
 }
 
-.n-pagination > li > * {
+.n-pagination > li > *,
+.n-pagination .n-page {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -40,18 +41,21 @@
     background-color 0.13s cubic-bezier(0.12, 0, 0.3, 0);
 }
 
-.n-pagination > li:not(.active) > *:hover {
+.n-pagination > li:not(.active) > *:hover,
+.n-pagination .n-page:hover {
   color: inherit;
   background-color: rgba(var(--rgb-base-10), 0.1);
 }
 
-.n-pagination .active > * {
+.n-pagination li.active > *,
+.n-pagination .n-page.active {
   border: 0 none transparent;
   color: var(--color-base-1);
   background-color: var(--color-main-2);
 }
 
-.n-pagination .disabled > * {
+.n-pagination li.disabled > *,
+.n-pagination .n-page.disabled {
   border: transparent;
   color: var(--color-base-5);
   background-color: rgba(var(--rgb-base-2), 0.6);
