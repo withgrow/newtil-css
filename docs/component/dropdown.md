@@ -178,3 +178,59 @@ window.addEventListener("load", function () {
 :::tip
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
+
+## 활용 예시
+
+:::raw
+<ExampleSection>
+<template #h>활용 예시</template>
+
+  <div class="n-dropdown">
+    <ul class="active position:relative z-index:1">
+      <li>
+        <span class="va:middle deco deco-size:2 icon:plus">
+          추가하기
+        </span>
+      </li>
+      <li>
+        <span class="va:middle deco deco-size:2 icon:pencil_simple">
+          수정하기
+        </span>
+      </li>
+      <li>
+        <span class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2">
+          삭제하기
+        </span>
+      </li>
+    </ul>
+  </div>
+</ExampleSection>
+:::
+
+:::details code
+
+```html
+<div class="n-dropdown">
+  <ul class="active position:relative z-index:1">
+    <li>
+      <span class="va:middle deco deco-size:2 icon:plus">
+        추가하기
+      </span>
+    </li>
+    <li>
+      <span class="va:middle deco deco-size:2 icon:pencil_simple">
+        수정하기
+      </span>
+    </li>
+    <li>
+      <span
+        class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2"
+      >
+        삭제하기
+      </span>
+    </li>
+  </ul>
+</div>
+```
+
+:::
