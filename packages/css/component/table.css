@@ -69,6 +69,7 @@
 /*              table              */
 /* ------------------------------- */
 .n-table {
+  --table-cell-height: 40px;
   --table-cell-height-1: 32px;
   --table-cell-height-2: 40px;
   --table-cell-height-3: 48px;
@@ -93,7 +94,7 @@
 
 /* cell style */
 .n-table > * > * > * {
-  height: var(--table-cell-height-2);
+  height: var(--table-cell-height);
 
   overflow: hidden;
   text-overflow: ellipsis;
@@ -161,18 +162,25 @@
 
 .n-table.n-table-border tr:last-child > :first-child,
 .n-table.n-table-bd tr:last-child > :first-child {
-  border-bottom-left-radius: 8px;
+  border-bottom-left-radius: var(--table-border-radius);
 }
 
 .n-table.n-table-border tr:last-child > :last-child,
 .n-table.n-table-bd tr:last-child > :last-child {
-  border-bottom-right-radius: 8px;
+  border-bottom-right-radius: var(--table-border-radius);
 }
 
 /* border-bottom */
 .n-table.n-table-border\:bottom > tbody > tr:last-child,
 .n-table.n-table-bd\:bottom > tbody > tr:last-child {
   border-bottom: 1px solid var(--color-base-2);
+}
+
+/* border-column */
+.n-table.n-table-border\:column > * > * > *:not(:last-child),
+.n-table.n-table-bd\:column > * > * > *:not(:last-child),
+.n-table.n-table-bd\:col > * > * > *:not(:last-child) {
+  border-right: 1px solid var(--color-base-2);
 }
 
 /* border-radius */
@@ -182,10 +190,30 @@
   border-radius: var(--table-border-radius-1);
 }
 
+.n-table.n-table-border-radius\:1 tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:1 tr:last-child > :first-child {
+  border-bottom-left-radius: var(--table-border-radius-1);
+}
+
+.n-table.n-table-border-radius\:1 tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:1 tr:last-child > :last-child {
+  border-bottom-right-radius: var(--table-border-radius-1);
+}
+
 /* 2 */
 .n-table.n-table-border-radius\:2,
 .n-table.n-table-bd-radius\:2 {
   border-radius: var(--table-border-radius-2);
+}
+
+.n-table.n-table-border-radius\:2 tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:2 tr:last-child > :first-child {
+  border-bottom-left-radius: var(--table-border-radius-2);
+}
+
+.n-table.n-table-border-radius\:2 tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:2 tr:last-child > :last-child {
+  border-bottom-right-radius: var(--table-border-radius-2);
 }
 
 /* 3 */
@@ -194,10 +222,30 @@
   border-radius: var(--table-border-radius-3);
 }
 
+.n-table.n-table-border-radius\:3 tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:3 tr:last-child > :first-child {
+  border-bottom-left-radius: var(--table-border-radius-3);
+}
+
+.n-table.n-table-border-radius\:3 tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:3 tr:last-child > :last-child {
+  border-bottom-right-radius: var(--table-border-radius-3);
+}
+
 /* 4 */
 .n-table.n-table-border-radius\:4,
 .n-table.n-table-bd-radius\:4 {
   border-radius: var(--table-border-radius-4);
+}
+
+.n-table.n-table-border-radius\:4 tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:4 tr:last-child > :first-child {
+  border-bottom-left-radius: var(--table-border-radius-4);
+}
+
+.n-table.n-table-border-radius\:4 tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:4 tr:last-child > :last-child {
+  border-bottom-right-radius: var(--table-border-radius-4);
 }
 
 /* 5 */
@@ -206,16 +254,19 @@
   border-radius: var(--table-border-radius-5);
 }
 
+.n-table.n-table-border-radius\:5 tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:5 tr:last-child > :first-child {
+  border-bottom-left-radius: var(--table-border-radius-5);
+}
+
+.n-table.n-table-border-radius\:5 tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:5 tr:last-child > :last-child {
+  border-bottom-right-radius: var(--table-border-radius-5);
+}
+
 /* ----------- var [ n-table-hover ] -----------  */
 .n-table.n-table-hover > tbody > tr:hover {
   background-color: rgba(var(--rgb-base-10), 0.05);
-}
-
-/* ----------- var [ column-border ] ----------- */
-.n-table.n-column-border > * > * > *:not(:last-child),
-.n-table.n-column-bd > * > * > *:not(:last-child),
-.n-table.n-col-bd > * > * > *:not(:last-child) {
-  border-right: 1px solid var(--color-base-2);
 }
 
 /* ------------------------------- */
