@@ -19,5 +19,5 @@ import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 
 자주 사용되는 컴포넌트를 중심으로 제공하고 있으며, 점차적으로 추가될 예정입니다.
 
-추가 아이디어가 있다면 [깃허브를 통해 이슈로 제출](https://github.com/newlecture-corp/newtil-css/issues)해 주시기 바랍니다.
+추가 아이디어가 있다면 [깃허브를 통해 이슈로 제출](https://github.com/newlecture-corp/newtil-css/issues/new?assignees=&labels=feature&projects=&template=%EA%B8%B0%EB%8A%A5-%EC%9A%94%EC%B2%AD.md&title=feature%3A+)해 주시기 바랍니다.
 :::
