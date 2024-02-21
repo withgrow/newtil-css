@@ -71,25 +71,10 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://cdn.jsdelivr.net/npm/nutil-css@latest/dist/style.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/nutil-css@latest/dist/style.css" />
     <link href="css/root.css" type="text/css" rel="stylesheet" />
   </head>
 </html>
 ```
 
 이제 `root.css` 파일에 원하는 스타일을 추가하여 `newtil-css` 라이브러리를 프로젝트에 맞게 맞춤 설정할 수 있습니다.
-
-아래의 각 항목을 참고하여 커스터마이징을 진행해보세요.
-
-- [Theme colors](../variables/theme-colors.md)
-- [border-color](../variables/border-color.md)
-- [border-width](../variables/border-width.md)
-- [border-radius](../variables/border-radius.md)
-- [box-shadow](../variables/box-shadow.md)
-- [font-size](../variables/font-size.md)
-- [font-weight](../variables/font-weight.md)
-- [gap](../variables/gap.md)
-- [opacity](../variables/opacity.md)
-- [order](../variables/order.md)
-- [z-index](../variables/z-index.md)

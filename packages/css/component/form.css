@@ -93,8 +93,7 @@ how to use
 */
 
 .n-form {
-  --border-focus-color: var(--color-sub-2);
-
+  /* form style */
   --form-border-radius: 16px;
   --form-padding: 24px;
 
@@ -104,17 +103,25 @@ how to use
 
   padding: var(--form-padding);
 
-  /* textbox */
+  /* textbox style */
+  /* textbox-size */
   --textbox-padding-x: 12px;
-  --textbox-border-radius: 6px;
-
   --textbox-input-height: 36px;
   --textbox-textarea-min-height: 58px;
 
+  /* textbox-border-radius */
+  --textbox-border-radius: 6px;
+
+  /* textbox-border-width */
   --textbox-underline-border-width: 1.6px;
 
+  /* textbox-status:focus */
   --textbox-focus-border-color: var(--color-sub-2);
+
+  /* textbox-status:success */
   --textbox-success-border-color: #37b24d;
+
+  /* textbox-status:warning */
   --textbox-warning-color: var(--color-accent-1);
   --textbox-warning-border-color: var(--color-accent-1);
 }
@@ -122,15 +129,6 @@ how to use
 /* gap between fields */
 .n-form > div:not(:first-child) {
   margin-top: 32px;
-}
-
-/* field (title + content) */
-.n-form > div,
-.n-form > div > label:has(span),
-.n-form > div > label:has(textarea) {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 
 /* title */
@@ -238,7 +236,15 @@ how to use
 .n-form input[type="tel"]:focus,
 .n-form input[type="text"]:focus,
 .n-form input[type="url"]:focus,
-.n-form textarea:focus {
+.n-form textarea:focus,
+.n-form input[type="email"].n-field-textbox-status\:focus,
+.n-form input[type="number"].n-field-textbox-status\:focus,
+.n-form input[type="password"].n-field-textbox-status\:focus,
+.n-form input[type="search"].n-field-textbox-status\:focus,
+.n-form input[type="tel"].n-field-textbox-status\:focus,
+.n-form input[type="text"].n-field-textbox-status\:focus,
+.n-form input[type="url"].n-field-textbox-status\:focus,
+.n-form textarea.n-field-textbox-status\:focus {
   border-color: var(--textbox-focus-border-color);
 }
 
@@ -378,6 +384,20 @@ how to use
 }
 
 /* -------- var [ field label position ] -------------------------------- */
+.n-form > div,
+.n-form > div > label:has(span),
+.n-form > div > label:has(textarea),
+n-form.n-field-label-position\:top > div,
+n-form.n-field-label-position\:top > div > label:has(span),
+n-form.n-field-label-position\:top > div > label:has(textarea),
+n-form.n-field-label\:top > div,
+n-form.n-field-label\:top > div > label:has(span),
+n-form.n-field-label\:top > div > label:has(textarea) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 /* ---- medium ------------------------------------------------- */
 @media (min-width: 768px) {
   /* gap between fields */

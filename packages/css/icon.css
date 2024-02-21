@@ -521,6 +521,30 @@
   mask-image: url("../icon/arrow_up.svg");
 }
 
+.icon\:arrow_up_right::before,
+.icon\:arrow_up_right::after {
+  -webkit-mask-image: url("../icon/arrow_up_right.svg");
+  mask-image: url("../icon/arrow_up_right.svg");
+}
+
+.icon\:arrow_up_left::before,
+.icon\:arrow_up_left::after {
+  -webkit-mask-image: url("../icon/arrow_up_left.svg");
+  mask-image: url("../icon/arrow_up_left.svg");
+}
+
+.icon\:arrow_down_right::before,
+.icon\:arrow_down_right::after {
+  -webkit-mask-image: url("../icon/arrow_down_right.svg");
+  mask-image: url("../icon/arrow_down_right.svg");
+}
+
+.icon\:arrow_down_left::before,
+.icon\:arrow_down_left::after {
+  -webkit-mask-image: url("../icon/arrow_down_left.svg");
+  mask-image: url("../icon/arrow_down_left.svg");
+}
+
 .icon\:arrows_clockwise_fill::before,
 .icon\:arrows_clockwise_fill::after {
   -webkit-mask-image: url("../icon/arrows_clockwise_fill.svg");
