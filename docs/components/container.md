@@ -10,8 +10,19 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 컨테이너 컴포넌트는 요소에 `n-container` 클래스를 적용하여 사용할 수 있습니다.
 
+<ExampleSection>
+<template #h>예시</template>
+<section class="n-container mx:auto" style="
+  border: 1px solid var(--color-base-3);
+  border-radius: 4px;
+  background: repeating-linear-gradient(135deg, var(--vp-c-gray-1) 0, var(--vp-c-gray-1) 10%, transparent 0, transparent 50%);
+  background-size: 7px 7px;">
+  <h1 class="n-font:title">안녕하세요!</h1>
+</section>
+</ExampleSection>
+
 ```html
-<section class="n-container">
+<section class="n-container mx:auto">
   <h1 class="n-font:title">안녕하세요!</h1>
 </section>
 ```
