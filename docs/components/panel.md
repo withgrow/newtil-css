@@ -10,9 +10,9 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 패널 컴포넌트를 사용하여 구성된 예시는 다음 링크를 통해 확인할 수 있습니다.
 
-<a href="/newtil-css/panel.html" target="_blank" class="n-btn color:base-1 txt-deco-ln:none w:100p">
+<a href="/newtil-css/components/demo/panel.html" class="n-btn color:base-1 txt-deco-ln:none w:100p">
   <span class="deco deco-pos:right deco-color:base-1  deco-size:2 icon:arrow_right">
-    패널 예시 페이지 열기
+    패널 예시 보기
   </span>
 </a>
 
@@ -20,7 +20,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 ```html
 <header class="n-panel n-top-panel">
-  <div class="n-container px:4 mx:auto">
+  <div class="n-container px:4 lg:px:10 mx:auto">
     <h1>Header</h1>
   </div>
 </header>

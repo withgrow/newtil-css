@@ -164,9 +164,9 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 ## 사용법
 
-텍스트 박스 컴포넌트는 `텍스트 입력이 가능한 input` 태그 또는 `textarea 태그`에 `n-textbox` 클래스를 적용하여 사용할 수 있습니다.
+텍스트 박스 컴포넌트는 `텍스트 입력이 가능한 input` 태그 또는 `textarea` 태그에 `n-textbox` 클래스를 적용하여 사용할 수 있습니다.
 
-### input
+### Input
 
 ::: raw
 
@@ -183,7 +183,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <input type="text" class="n-textbox" placeholder="Basic Textbox" />
 ```
 
-### textarea
+### Textarea
 
 ::: raw
 
@@ -205,7 +205,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 텍스트 박스 컴포넌트는 기본적으로 `outline` 스타일이 적용되며, `input` 태그에는 추가로 `underline` 스타일을 제공합니다.
 `input` 태그에 `n-textbox-type:타입명` 또는 `n-textbox:타입명`과 같은 약어 클래스를 사용하여 텍스트 박스에 원하는 스타일을 적용할 수 있습니다.
 
-### input
+### Input
 
 ::: raw
 
@@ -274,7 +274,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
   </tbody>
 </table>
 
-### textarea
+### Textarea
 
 ::: raw
 
