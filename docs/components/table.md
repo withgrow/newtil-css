@@ -205,7 +205,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-height:1 n-table-border my:4">
+<table class="n-table n-bbs-table n-cell-width:1 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -234,7 +234,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-height:2 n-table-border my:4">
+<table class="n-table n-bbs-table n-cell-width:2 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -263,7 +263,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-height:3 n-table-border my:4">
+<table class="n-table n-bbs-table n-cell-width:3 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
