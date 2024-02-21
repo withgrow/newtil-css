@@ -69,6 +69,12 @@ import ExampleSection from "./demo/ExampleSection.vue";
       <td>female</td>
       <td>2021-03-01</td>
     </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Jerry</td>
+      <td>male</td>
+      <td>2021-03-01</td>
+    </tr>
   </tbody>
 </table>
 
@@ -639,85 +645,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 테이블 컴포넌트는 기본 스타일을 포함한 `striped` 스타일을 추가로 제공합니다. `striped` 스타일은 `n-table-style:스타일` 또는 `n-table:스타일` 클래스를 통해 적용할 수 있습니다.
 
-#### Basic
-
-::: raw
-
-<table class="n-table mt:4 mb:8">
-  <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Name</th>
-      <th scope="col">Gender</th>
-      <th scope="col">Last Login</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Tom</td>
-      <td>male</td>
-      <td>2020-11-01</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Olivia</td>
-      <td>female</td>
-      <td>2021-03-01</td>
-    </tr>
-  </tbody>
-</table>
-
-:::
-
-::: details codes
-
-```html
-<table class="n-table">
-  <thead>
-    <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Name</th>
-      <th scope="col">Gender</th>
-      <th scope="col">Last Login</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Tom</td>
-      <td>male</td>
-      <td>2020-11-01</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Olivia</td>
-      <td>female</td>
-      <td>2021-03-01</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-:::
-
-<table>
-  <thead>
-    <tr>
-      <th scope="col">클래스</th>
-      <th scope="col">약어클래스</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>n-table</code></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
-#### Striped
-
 ::: raw
 
 <table class="n-table n-table-style:striped mt:4">
@@ -740,6 +667,12 @@ import ExampleSection from "./demo/ExampleSection.vue";
       <th scope="row">2</th>
       <td>Olivia</td>
       <td>female</td>
+      <td>2021-03-01</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Jerry</td>
+      <td>male</td>
       <td>2021-03-01</td>
     </tr>
   </tbody>
