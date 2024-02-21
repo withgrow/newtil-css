@@ -39,8 +39,9 @@ export default defineConfig({
     nav: [{ text: '홈', link: '/' }],
 
     sidebar: [
+      { text: 'Newtil CSS 소개', link: '/about' },
       {
-        text: '소개',
+        text: '가이드',
         base: '/guide',
         items: [
           { text: '시작하기', link: '/getting-started' },
@@ -53,64 +54,6 @@ export default defineConfig({
             link: '/getting-started-utility'
           },
           { text: '스타일 재정의하기', link: '/customizing' }
-        ]
-      },
-      {
-        text: '변수',
-        base: '/variables',
-        items: [
-          {
-            text: 'theme-colors',
-            link: '/theme-colors'
-          },
-          {
-            text: 'border-color',
-            link: '/border-color'
-          },
-          {
-            text: 'border-width',
-            link: '/border-width'
-          },
-          {
-            text: 'border-radius',
-            link: '/border-radius'
-          },
-          {
-            text: 'box-shadow',
-            link: '/box-shadow'
-          },
-          {
-            text: 'font-size',
-            link: '/font-size'
-          },
-          {
-            text: 'font-weight',
-            link: '/font-weight'
-          },
-          {
-            text: 'gap',
-            link: '/gap'
-          },
-          {
-            text: 'height',
-            link: '/height'
-          },
-          {
-            text: 'opacity',
-            link: '/opacity'
-          },
-          {
-            text: 'order',
-            link: '/order'
-          },
-          {
-            text: 'width',
-            link: '/width'
-          },
-          {
-            text: 'z-index',
-            link: '/z-index'
-          }
         ]
       },
 
@@ -674,6 +617,65 @@ export default defineConfig({
                 link: '/width/max-width'
               }
             ]
+          },
+          {
+            text: 'z-index',
+            link: '/z-index'
+          }
+        ]
+      },
+
+      {
+        text: '변수',
+        base: '/variables',
+        items: [
+          {
+            text: 'theme-colors',
+            link: '/theme-colors'
+          },
+          {
+            text: 'border-color',
+            link: '/border-color'
+          },
+          {
+            text: 'border-width',
+            link: '/border-width'
+          },
+          {
+            text: 'border-radius',
+            link: '/border-radius'
+          },
+          {
+            text: 'box-shadow',
+            link: '/box-shadow'
+          },
+          {
+            text: 'font-size',
+            link: '/font-size'
+          },
+          {
+            text: 'font-weight',
+            link: '/font-weight'
+          },
+          {
+            text: 'gap',
+            link: '/gap'
+          },
+          {
+            text: 'height',
+            link: '/height'
+          },
+          {
+            text: 'opacity',
+            link: '/opacity'
+          },
+          {
+            text: 'order',
+            link: '/order'
+          },
+          {
+            text: 'width',
+            link: '/width'
           },
           {
             text: 'z-index',
