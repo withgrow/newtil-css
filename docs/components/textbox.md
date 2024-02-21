@@ -1,10 +1,20 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue"
+import Link from "./demo/Link.vue"
 </script>
 
-# 텍스트 박스
+# 텍스트 박스 (Textbox)
 
 텍스트 박스 컴포넌트는 주로 사용자로부터 텍스트를 입력받기 위해 사용됩니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Textbox]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 모아보기
 
@@ -225,13 +235,11 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <input
   type="text"
   class="n-textbox n-textbox-type:outline"
-  placeholder="Outline Textbox"
-/>
+  placeholder="Outline Textbox" />
 <input
   type="text"
   class="n-textbox n-textbox-type:underline"
-  placeholder="Underline Textbox"
-/>
+  placeholder="Underline Textbox" />
 ```
 
 <table>
@@ -289,8 +297,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <textarea
   type="text"
   class="n-textbox n-textbox-type:outline"
-  placeholder="Outline Textbox"
-></textarea>
+  placeholder="Outline Textbox"></textarea>
 ```
 
 <table>
@@ -343,18 +350,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <input
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:focus"
-  placeholder="Outline Focus"
-/>
+  placeholder="Outline Focus" />
 <input
   type="text"
   class="n-textbox n-textbox-type:underline n-textbox-status:focus"
-  placeholder="Underline Focus"
-/>
+  placeholder="Underline Focus" />
 <textarea
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:focus"
-  placeholder="Outline Focus"
-></textarea>
+  placeholder="Outline Focus"></textarea>
 ```
 
 :::
@@ -405,18 +409,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <input
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:success"
-  placeholder="Outline Success"
-/>
+  placeholder="Outline Success" />
 <input
   type="text"
   class="n-textbox n-textbox-type:underline n-textbox-status:success"
-  placeholder="Underline Success"
-/>
+  placeholder="Underline Success" />
 <textarea
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:success"
-  placeholder="Outline Success"
-></textarea>
+  placeholder="Outline Success"></textarea>
 ```
 
 :::
@@ -467,18 +468,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <input
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:warning"
-  placeholder="Outline Warning"
-/>
+  placeholder="Outline Warning" />
 <input
   type="text"
   class="n-textbox n-textbox-type:underline n-textbox-status:warning"
-  placeholder="Underline Warning"
-/>
+  placeholder="Underline Warning" />
 <textarea
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:warning"
-  placeholder="Outline Warning"
-></textarea>
+  placeholder="Outline Warning"></textarea>
 ```
 
 :::
@@ -530,18 +528,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <input
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:disabled"
-  placeholder="Outline Disabled"
-/>
+  placeholder="Outline Disabled" />
 <input
   type="text"
   class="n-textbox n-textbox-type:underline n-textbox-status:disabled"
-  placeholder="Underline Disabled"
-/>
+  placeholder="Underline Disabled" />
 <textarea
   type="text"
   class="n-textbox n-textbox-type:outline n-textbox-status:disabled"
-  placeholder="Outline Disabled"
-></textarea>
+  placeholder="Outline Disabled"></textarea>
 ```
 
 :::
@@ -605,8 +600,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     type="text"
     class="n-textbox n-textbox-type:outline
     n-textbox-label:top"
-    placeholder="Placeholder"
-  />
+    placeholder="Placeholder" />
 </label>
 <label>
   label
@@ -614,8 +608,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     type="text"
     class="n-textbox n-textbox-type:underline
     n-textbox-label:top"
-    placeholder="Placeholder"
-  />
+    placeholder="Placeholder" />
 </label>
 <label>
   label
@@ -623,8 +616,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     type="text"
     class="n-textbox n-textbox-type:outline
     n-textbox-label:top"
-    placeholder="Placeholder"
-  ></textarea>
+    placeholder="Placeholder"></textarea>
 </label>
 ```
 
@@ -685,8 +677,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     type="text"
     class="n-textbox n-textbox-type:outline
     n-textbox-label:bottom"
-    placeholder="Placeholder"
-  />
+    placeholder="Placeholder" />
 </label>
 <label>
   label
@@ -694,8 +685,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     type="text"
     class="n-textbox n-textbox-type:underline
     n-textbox-label:bottom"
-    placeholder="Placeholder"
-  />
+    placeholder="Placeholder" />
 </label>
 <label>
   label
@@ -703,8 +693,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     type="text"
     class="n-textbox n-textbox-type:outline
     n-textbox-label:bottom"
-    placeholder="Placeholder"
-  ></textarea>
+    placeholder="Placeholder"></textarea>
 </label>
 ```
 
@@ -775,24 +764,21 @@ import ExampleSection from "./demo/ExampleSection.vue"
   <input
     type="text"
     class="n-textbox n-textbox-status:focus n-textbox-label:top"
-    placeholder="Outline Textbox"
-  />
+    placeholder="Outline Textbox" />
 </label>
 <label>
   Success
   <input
     type="text"
     class="n-textbox n-textbox:underline  n-textbox-status:success n-textbox-label:top"
-    placeholder="Underline Textbox"
-  />
+    placeholder="Underline Textbox" />
 </label>
 <label>
   Warning
   <textarea
     type="text"
     class="n-textbox n-textbox-status:warning n-textbox-label:top"
-    placeholder="Outline Textbox"
-  ></textarea>
+    placeholder="Outline Textbox"></textarea>
 </label>
 ```
 
@@ -876,28 +862,34 @@ import ExampleSection from "./demo/ExampleSection.vue"
     <input
       type="text"
       class="n-textbox n-textbox-label:top"
-      placeholder="email@newtil.com"
-    />
+      placeholder="email@newtil.com" />
   </label>
   <label>
     비밀번호
     <input
       type="password"
       class="n-textbox n-textbox-label:top"
-      placeholder="비밀번호를 입력해주세요"
-    />
+      placeholder="비밀번호를 입력해주세요" />
   </label>
   <label>
     newtilCSS를 알게 된 경로를 자세히 작성해주세요!
     <textarea
       class="n-textbox n-textbox-label:top"
-      placeholder="newtilCSS를 알게 된 경로를 자세히 작성해주세요!"
-    ></textarea>
+      placeholder="newtilCSS를 알게 된 경로를 자세히 작성해주세요!"></textarea>
   </label>
   <span>
     <button class="n-btn">제출하기</button>
   </span>
 </form>
 ```
+
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Textbox]%20'" :newtab="true"/></li>
+</ul>
 
 :::

@@ -1,10 +1,20 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
+import Link from "./demo/Link.vue"
 </script>
 
-# 컨테이너
+# 컨테이너 (Container)
 
 컨테이너 컴포넌트는 최대 넓이를 제한함으로써 컨텐츠가 퍼지지 않도록 방지하고 중앙 집중식의 레이아웃을 제공합니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Container]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 사용법
 
@@ -55,4 +65,13 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::tip
 컴포넌트 커스터마이징은 [컴포넌트 커스터마이징](/guide/getting-started-component.html#컴포넌트-커스터마이징하기)에서 확인하실 수 있습니다.
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Container]%20'" :newtab="true"/></li>
+</ul>
+
 :::

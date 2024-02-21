@@ -1,10 +1,21 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
+import Link from "./demo/Link.vue"
+
 </script>
 
-# 프로그레스
+# 프로그레스 (Progress)
 
 프로그레스 컴포넌트는 어느 작업의 완료 정도를 나타내는 컴포넌트입니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Progress]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 모아보기
 
@@ -139,4 +150,13 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::tip
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Progress]%20'" :newtab="true"/></li>
+</ul>
+
 :::

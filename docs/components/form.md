@@ -1,5 +1,6 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
+import Link from "./demo/Link.vue"
 
 const textboxStatus = [
   {
@@ -21,9 +22,18 @@ const textboxStatus = [
 ]
 </script>
 
-# Form
+# Form (Form)
 
 Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트입니다. [Textbox](./textbox), [Toggle](./toggle) 컴포넌트 등 다양한 입력 도구를 사용하여 폼을 구성할 수 있습니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Form]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 모아보기
 
@@ -864,5 +874,14 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
   </div>
 </form>
 ```
+
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Form]%20'" :newtab="true"/></li>
+</ul>
 
 :::

@@ -1,14 +1,25 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue"
+import Link from "./demo/Link.vue"
 </script>
 
-# 토글
+# 토글 (Toggle)
 
 토글 컴포넌트는 온/오프 상태를 가지는 작은 컴포넌트입니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Toggle]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 모아보기
 
 ### 타입
+
 `slide`, `check`, `dot`, `outline-box` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
 <div class="n-item d:flex jc:center ai:center gap:4 mt:4">
@@ -22,6 +33,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </div>
 
 ### 사이즈
+
 `small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
 
 #### 슬라이드
@@ -66,6 +78,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </div>
 
 ### 상태
+
 `disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#disabled)를 클릭하세요.
 
 <div class="n-item d:flex jc:center ai:center gap:4 mt:4">
@@ -132,7 +145,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 :::
 
 ```html
-<input type="checkbox" class="n-toggle"/>
+<input type="checkbox" class="n-toggle" />
 ```
 
 ## 타입 {#type}
@@ -157,12 +170,12 @@ import ExampleSection from "./demo/ExampleSection.vue"
 :::
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle-type:slide"/>
-<input type="checkbox" class="n-toggle n-toggle-type:check"/>
-<input type="checkbox" class="n-toggle n-toggle-type:dot"/>
+<input type="checkbox" class="n-toggle n-toggle-type:slide" />
+<input type="checkbox" class="n-toggle n-toggle-type:check" />
+<input type="checkbox" class="n-toggle n-toggle-type:dot" />
 <label class="n-toggle n-toggle-type:outline-box">
-    Outline
-    <input type="checkbox" class="d:none"/>
+  Outline
+  <input type="checkbox" class="d:none" />
 </label>
 ```
 
@@ -278,20 +291,28 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </div>
 
 ::: details codes
+
 ```html
 <label>
-    Small
-    <input type="checkbox" class="n-toggle n-toggle-type:toggle n-toggle-size:1"/>
+  Small
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:toggle n-toggle-size:1" />
 </label>
 <label>
-    Medium
-    <input type="checkbox" class="n-toggle n-toggle-type:toggle n-toggle-size:2"/>
+  Medium
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:toggle n-toggle-size:2" />
 </label>
 <label>
-    Large
-    <input type="checkbox" class="n-toggle n-toggle-type:toggle n-toggle-size:3"/>
+  Large
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:toggle n-toggle-size:3" />
 </label>
 ```
+
 :::
 
 ### 체크
@@ -312,20 +333,22 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </div>
 
 ::: details codes
+
 ```html
 <label>
-    Small
-    <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:1"/>
+  Small
+  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:1" />
 </label>
 <label>
-    Medium
-    <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:2"/>
+  Medium
+  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:2" />
 </label>
 <label>
-    Large
-    <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:3"/>
+  Large
+  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:3" />
 </label>
 ```
+
 :::
 
 ### 도트
@@ -346,20 +369,22 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </div>
 
 ::: details codes
+
 ```html
 <label>
-    Small
-    <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:1"/>
+  Small
+  <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:1" />
 </label>
 <label>
-    Medium
-    <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:2"/>
+  Medium
+  <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:2" />
 </label>
 <label>
-    Large
-    <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:3"/>
+  Large
+  <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:3" />
 </label>
 ```
+
 :::
 
 ### 아웃라인
@@ -380,20 +405,22 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </div>
 
 ::: details codes
+
 ```html
 <label class="n-toggle n-toggle-type:outline-box n-toggle-size:1">
-    Small
-    <input type="checkbox" class="d:none"/>
+  Small
+  <input type="checkbox" class="d:none" />
 </label>
 <label class="n-toggle n-toggle-type:outline-box n-toggle-size:2">
-    Medium
-    <input type="checkbox" class="d:none"/>
+  Medium
+  <input type="checkbox" class="d:none" />
 </label>
 <label class="n-toggle n-toggle-type:outline-box n-toggle-size:3">
-    Large
-    <input type="checkbox" class="d:none"/>
+  Large
+  <input type="checkbox" class="d:none" />
 </label>
 ```
+
 :::
 
 <table>
@@ -440,18 +467,18 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 </div>
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle-type:toggle" disabled/>
-<input type="checkbox" class="n-toggle n-toggle-type:check" disabled/>
-<input type="radio" class="n-toggle n-toggle-type:dot" disabled/>
+<input type="checkbox" class="n-toggle n-toggle-type:toggle" disabled />
+<input type="checkbox" class="n-toggle n-toggle-type:check" disabled />
+<input type="radio" class="n-toggle n-toggle-type:dot" disabled />
 <label class="n-toggle n-toggle-type:outline-box">
-Outline
-<input type="checkbox" class="d:none" disabled/>
+  Outline
+  <input type="checkbox" class="d:none" disabled />
 </label>
 ```
 
 ## 라벨 {#label}
 
-`n-toggle-label:값` 클래스를 적용하여 라벨을 토글의 상단 또는 하단에 위치시킬 수 있습니다. 
+`n-toggle-label:값` 클래스를 적용하여 라벨을 토글의 상단 또는 하단에 위치시킬 수 있습니다.
 
 ### Top
 
@@ -471,22 +498,27 @@ Outline
 </div>
 
 ::: details codes
+
 ```html
 <label>
-    Slide
-    <input type="checkbox" class="n-toggle n-toggle-type:toggle n-toggle-label:top"/>
+  Slide
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:toggle n-toggle-label:top" />
 </label>
 <label>
-    Check
-    <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-label:top"/>
+  Check
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:check n-toggle-label:top" />
 </label>
-    <label>
-    Dot
-    <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-label:top"/>
+<label>
+  Dot
+  <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-label:top" />
 </label>
 ```
-:::
 
+:::
 
 <table>
   <thead>
@@ -521,20 +553,28 @@ Outline
 </div>
 
 ::: details codes
+
 ```html
 <label>
-    Slide
-    <input type="checkbox" class="n-toggle n-toggle-type:toggle n-toggle-label:bottom"/>
+  Slide
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:toggle n-toggle-label:bottom" />
 </label>
 <label>
-    Check
-    <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-label:bottom"/>
+  Check
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:check n-toggle-label:bottom" />
 </label>
-    <label>
-    Dot
-    <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-label:bottom"/>
+<label>
+  Dot
+  <input
+    type="radio"
+    class="n-toggle n-toggle-type:dot n-toggle-label:bottom" />
 </label>
 ```
+
 :::
 
 <table>
@@ -558,30 +598,30 @@ Outline
 
 ```css
 .n-textbox {
-    /* n-toggle-type:slide */
-    --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
-    --n-toggle-slide-checked-background-color: var(--color-main-2);
-    --n-toggle-slide-circle-color: var(--color-base-1);
-    --n-toggle-slide-circle-checked-color: var(--color-base-1);
+  /* n-toggle-type:slide */
+  --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
+  --n-toggle-slide-checked-background-color: var(--color-main-2);
+  --n-toggle-slide-circle-color: var(--color-base-1);
+  --n-toggle-slide-circle-checked-color: var(--color-base-1);
 
-    /* n-toggle-type:check */
-    --n-toggle-check-border-color: #dee2e6;
-    --n-toggle-check-bagkground-color: var(--color-base-1);
-    --n-toggle-check-checked-background-color: var(--color-main-2);
+  /* n-toggle-type:check */
+  --n-toggle-check-border-color: #dee2e6;
+  --n-toggle-check-bagkground-color: var(--color-base-1);
+  --n-toggle-check-checked-background-color: var(--color-main-2);
 
-    /* n-toggle-type:dot */
-    --n-toggle-dot-border-color: #dee2e6;
-    --n-toggle-dot-background-color: var(--color-base-1);
-    --n-toggle-dot-checked-border-color: var(--color-main-2);
-    --n-toggle-dot-checked-background-color: var(--color-main-2);
+  /* n-toggle-type:dot */
+  --n-toggle-dot-border-color: #dee2e6;
+  --n-toggle-dot-background-color: var(--color-base-1);
+  --n-toggle-dot-checked-border-color: var(--color-main-2);
+  --n-toggle-dot-checked-background-color: var(--color-main-2);
 
-    /* n-toggle-type:outline-box */
-    --n-toggle-outline-color: rgba(var(--rgb-base-10), 0.85);
-    --n-toggle-outline-background-color: var(--color-base-1);
-    --n-toggle-outline-border-color: var(--color-base-3);
-    --n-toggle-outline-checked-color: var(--color-base-1);
-    --n-toggle-outline-checked-background-color: var(--color-main-2);
-    --n-toggle-outline-checked-border-color: transparent;
+  /* n-toggle-type:outline-box */
+  --n-toggle-outline-color: rgba(var(--rgb-base-10), 0.85);
+  --n-toggle-outline-background-color: var(--color-base-1);
+  --n-toggle-outline-border-color: var(--color-base-3);
+  --n-toggle-outline-checked-color: var(--color-base-1);
+  --n-toggle-outline-checked-background-color: var(--color-main-2);
+  --n-toggle-outline-checked-border-color: transparent;
 }
 ```
 
@@ -600,45 +640,43 @@ Outline
 </ExampleSection>
 
 ```html
-<input type="checkbox" class="n-toggle n-toggle-type:toggle"/>
-<input type="checkbox" class="n-toggle n-toggle-type:check"/>
-<input type="radio" class="n-toggle n-toggle-type:dot"/>
+<input type="checkbox" class="n-toggle n-toggle-type:toggle" />
+<input type="checkbox" class="n-toggle n-toggle-type:check" />
+<input type="radio" class="n-toggle n-toggle-type:dot" />
 <label class="n-toggle n-toggle-type:outline-box">
-    Outline
-    <input type="checkbox" class="d:none"/>
+  Outline
+  <input type="checkbox" class="d:none" />
 </label>
 ```
 
 ```css
 .n-toggle {
+  --main-color: #f4a423;
 
-    --main-color: #f4a423;
+  /* n-toggle-type:slide */
+  --n-toggle-slide-background-color: #cccccc;
+  --n-toggle-slide-checked-background-color: var(--main-color);
+  --n-toggle-slide-circle-color: #f0f0f0;
+  --n-toggle-slide-circle-checked-color: var(--color-base-1);
 
-    /* n-toggle-type:slide */
-    --n-toggle-slide-background-color: #CCCCCC;
-    --n-toggle-slide-checked-background-color: var(--main-color);
-    --n-toggle-slide-circle-color: #F0F0F0;
-    --n-toggle-slide-circle-checked-color: var(--color-base-1);
+  /* n-toggle-type:check */
+  --n-toggle-check-border-color: var(--main-color);
+  --n-toggle-check-bagkground-color: var(--color-base-1);
+  --n-toggle-check-checked-background-color: var(--color-main-2);
 
-    /* n-toggle-type:check */
-    --n-toggle-check-border-color: var(--main-color);
-    --n-toggle-check-bagkground-color: var(--color-base-1);
-    --n-toggle-check-checked-background-color: var(--color-main-2);
+  /* n-toggle-type:dot */
+  --n-toggle-dot-border-color: #cccccc;
+  --n-toggle-dot-background-color: var(--color-base-1);
+  --n-toggle-dot-checked-border-color: var(--main-color);
+  --n-toggle-dot-checked-background-color: var(--main-color);
 
-    /* n-toggle-type:dot */
-    --n-toggle-dot-border-color: #CCCCCC;
-    --n-toggle-dot-background-color: var(--color-base-1);
-    --n-toggle-dot-checked-border-color: var(--main-color);
-    --n-toggle-dot-checked-background-color: var(--main-color);
-
-    /* n-toggle-type:outline-box */
-    --n-toggle-outline-color: var(--main-color);
-    --n-toggle-outline-background-color: var(--color-base-1);
-    --n-toggle-outline-border-color: var(--main-color);
-    --n-toggle-outline-checked-color: var(--color-base-1);
-    --n-toggle-outline-checked-background-color: var(--main-color);
-    --n-toggle-outline-checked-border-color: transparent;
-  
+  /* n-toggle-type:outline-box */
+  --n-toggle-outline-color: var(--main-color);
+  --n-toggle-outline-background-color: var(--color-base-1);
+  --n-toggle-outline-border-color: var(--main-color);
+  --n-toggle-outline-checked-color: var(--color-base-1);
+  --n-toggle-outline-checked-background-color: var(--main-color);
+  --n-toggle-outline-checked-border-color: transparent;
 }
 ```
 
@@ -661,13 +699,12 @@ Outline
 
 ```html
 <label class="font-size:2 font-weight:1">
-    푸쉬알림
-    <input type="checkbox" class="n-toggle n-toggle-size:1"/>
+  푸쉬알림
+  <input type="checkbox" class="n-toggle n-toggle-size:1" />
 </label>
 ```
 
 :::
-
 
 ### 체크
 
@@ -701,22 +738,22 @@ Outline
 ```html
 <ul class="d:flex fl-dir:column gap:2">
   <li>
-      <label>
-          <input type="checkbox" class="n-toggle n-toggle-type:check"/>
-          <span class="font-size:2 font-weight:2 d:flex gap:1">
-              <span>(필수)</span>
-              <span>서비스 이용약관에 동의합니다.</span>
-          </span>
-      </label>
+    <label>
+      <input type="checkbox" class="n-toggle n-toggle-type:check" />
+      <span class="font-size:2 font-weight:2 d:flex gap:1">
+        <span>(필수)</span>
+        <span>서비스 이용약관에 동의합니다.</span>
+      </span>
+    </label>
   </li>
   <li>
-      <label>
-          <input type="checkbox" class="n-toggle n-toggle-type:check"/>
-          <span span class="font-size:2 font-weight:2 d:flex gap:1">
-              <span class="color:base-5">(선택)</span>
-              <span>마케팅 정보 수신에 동의합니다.</span>
-          </span>
-      </label>
+    <label>
+      <input type="checkbox" class="n-toggle n-toggle-type:check" />
+      <span span class="font-size:2 font-weight:2 d:flex gap:1">
+        <span class="color:base-5">(선택)</span>
+        <span>마케팅 정보 수신에 동의합니다.</span>
+      </span>
+    </label>
   </li>
 </ul>
 ```
@@ -756,26 +793,27 @@ Outline
 ```html
 <p class="font-weight:2">가장 좋아하는 동물을 선택해주세요!</p>
 <ul class="w:full d:flex jc:center gap:4">
-    <li>
-        <label class="font-size:2 font-weight:1">
-            고양이 🐱
-            <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal"/>
-        </label>
-    </li>
-    <li>
-        <label class="font-size:2 font-weight:1">
-            강아지 🐶
-            <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal"/>
-        </label>
-    </li>
-    <li>
-        <label class="font-size:2 font-weight:1">
-            여우 🦊
-            <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal"/>
-        </label>
-    </li>
+  <li>
+    <label class="font-size:2 font-weight:1">
+      고양이 🐱
+      <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal" />
+    </label>
+  </li>
+  <li>
+    <label class="font-size:2 font-weight:1">
+      강아지 🐶
+      <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal" />
+    </label>
+  </li>
+  <li>
+    <label class="font-size:2 font-weight:1">
+      여우 🦊
+      <input type="radio" class="n-toggle n-toggle-type:dot" name="amimal" />
+    </label>
+  </li>
 </ul>
 ```
+
 :::
 
 ### 아웃라인 박스
@@ -817,34 +855,43 @@ Outline
 ```html
 <p class="n-font:h2">✨ 베스트 강의</p>
 <ul class="w:full d:flex jc:center gap:2">
-    <li>
-        <label class="n-toggle n-toggle-type:outline-box">
-            실시간
-            <input type="radio" class="d:none" name="category" checked/>
-        </label>
-    </li>
-    <li>
-        <label class="n-toggle n-toggle-type:outline-box">
-            일간
-            <input type="radio" class="d:none" name="category"/>
-        </label>
-    </li>
-    <li>
-        <label class="n-toggle n-toggle-type:outline-box">
-            월간
-            <input type="radio" class="d:none" name="category"/>
-        </label>
-    </li>
-    <li>
-        <label class="n-toggle n-toggle-type:outline-box">
-            주간
-            <input type="radio" class="d:none" name="category"/>
-        </label>
-    </li>
+  <li>
+    <label class="n-toggle n-toggle-type:outline-box">
+      실시간
+      <input type="radio" class="d:none" name="category" checked />
+    </label>
+  </li>
+  <li>
+    <label class="n-toggle n-toggle-type:outline-box">
+      일간
+      <input type="radio" class="d:none" name="category" />
+    </label>
+  </li>
+  <li>
+    <label class="n-toggle n-toggle-type:outline-box">
+      월간
+      <input type="radio" class="d:none" name="category" />
+    </label>
+  </li>
+  <li>
+    <label class="n-toggle n-toggle-type:outline-box">
+      주간
+      <input type="radio" class="d:none" name="category" />
+    </label>
+  </li>
 </ul>
 ```
+
 :::
 
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Toggle]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 <style>
     .n-toggle-type\:check:checked::before{

@@ -1,11 +1,21 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
 import DropdownDomExample from "./demo/DropdownDomExample.vue";
+import Link from "./demo/Link.vue"
 </script>
 
-# 드롭다운
+# 드롭다운 (Dropdown)
 
 드롭다운 컴포넌트는 사용자에게 목록을 오버레이 해주는 컴포넌트입니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Dropdown]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 사용법
 
@@ -94,12 +104,12 @@ JavaScript DOM을 활용하여 인터랙티브한 드롭다운 컴포넌트를 �
 
 ```javascript
 // JavaScript
-window.addEventListener("load", function () {
-  const dropdownButton = document.getElementById("dropdown-btn");
-  const dropdownList = document.getElementById("dropdown-list");
+window.addEventListener('load', function () {
+  const dropdownButton = document.getElementById('dropdown-btn');
+  const dropdownList = document.getElementById('dropdown-list');
 
-  dropdownButton.addEventListener("click", function () {
-    dropdownList.classList.toggle("active");
+  dropdownButton.addEventListener('click', function () {
+    dropdownList.classList.toggle('active');
   });
 });
 ```
@@ -213,7 +223,7 @@ window.addEventListener("load", function () {
 <div class="n-dropdown">
   <ul class="active position:relative z-index:1">
     <li>
-      <span class="va:middle deco deco-size:2 icon:plus"> 추가하기 </span>
+      <span class="va:middle deco deco-size:2 icon:plus">추가하기</span>
     </li>
     <li>
       <span class="va:middle deco deco-size:2 icon:pencil_simple">
@@ -222,13 +232,21 @@ window.addEventListener("load", function () {
     </li>
     <li>
       <span
-        class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2"
-      >
+        class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2">
         삭제하기
       </span>
     </li>
   </ul>
 </div>
 ```
+
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Dropdown]%20'" :newtab="true"/></li>
+</ul>
 
 :::

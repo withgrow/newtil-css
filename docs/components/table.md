@@ -1,10 +1,20 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
+import Link from "./demo/Link.vue"
 </script>
 
-# 테이블
+# 테이블 (Table)
 
 테이블 컴포넌트는 데이터를 표 형식으로 구성된 행과 열에 표시하는 데 사용됩니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Table]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 모아보기
 
@@ -79,7 +89,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 </table>
 
 :::
-
 
 ### 레이아웃
 
@@ -430,7 +439,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 테이블 컴포넌트는 모서리 둥글기를 단계별로 제공합니다. 자세한 내용을 보려면 [여기](#border-radius)를 클릭하세요.
 
-
 ::: raw
 
 <table class="n-table n-table-border n-table-border-radius:1 my:4">
@@ -580,7 +588,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 테이블 컴포넌트는 요소에 `n-table` 클래스를 적용하여 사용할 수 있습니다.
 
-
 ::: raw
 
 <table class="n-table my:4">
@@ -726,7 +733,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
   </tbody>
 </table>
 
-
 ## 레이아웃 {#layout}
 
 테이블 컴포넌트는 `bbs-table` 레이아웃을 추가로 제공하며 요소에 `n-bbs-table` 클래스를 적용하여 사용할 수 있습니다.
@@ -841,7 +847,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::
 
-
 ::: details code
 
 ```html
@@ -901,7 +906,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 </table>
 
 :::
-
 
 ::: details code
 
@@ -1131,7 +1135,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::
 
-
 ::: details code
 
 ```html
@@ -1345,7 +1348,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 ## 테두리 {#border}
 
-`n-table-border`, `n-table-border:bottom`, `n-table-border:column` 클래스를 통해 테두리 스타일을 적용할 수 있습니다. 
+`n-table-border`, `n-table-border:bottom`, `n-table-border:column` 클래스를 통해 테두리 스타일을 적용할 수 있습니다.
 
 #### Basic
 
@@ -1856,7 +1859,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
     </tr>
   </tbody>
 </table>
-
 ```
 
 :::
@@ -2038,7 +2040,6 @@ import ExampleSection from "./demo/ExampleSection.vue";
   --table-border-radius-3: 12px;
   --table-border-radius-4: 16px;
   --table-border-radius-5: 20px;
-
 }
 
 .n-bbs-table {
@@ -2051,6 +2052,15 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::tip
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Table]%20'" :newtab="true"/></li>
+</ul>
+
 :::
 
 <style>

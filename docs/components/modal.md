@@ -1,11 +1,21 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
 import ModalDomExample from "./demo/ModalDomExample.vue";
+import Link from "./demo/Link.vue"
 </script>
 
-# 모달
+# 모달 (Modal)
 
 모달 컴포넌트는 사용자에게 중요한 정보를 표시하거나 사용자 입력을 요구할 때 사용하는 컴포넌트입니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Modal]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 사용법
 
@@ -78,25 +88,25 @@ JavaScript DOM과 CSS 애니메이션을 활용하여 인터랙티브한 모달 
 
 ```js
 // JavaScript
-window.addEventListener("load", function () {
-  const openButton = document.getElementById("modal-btn");
-  const closeButton = document.getElementById("close-btn");
-  const modal = document.getElementById("modal");
-  const modalBackdrop = document.getElementById("modal-backdrop");
+window.addEventListener('load', function () {
+  const openButton = document.getElementById('modal-btn');
+  const closeButton = document.getElementById('close-btn');
+  const modal = document.getElementById('modal');
+  const modalBackdrop = document.getElementById('modal-backdrop');
 
-  openButton.addEventListener("click", function () {
-    modal.classList.remove("d:none");
-    modalBackdrop.classList.remove("d:none");
-    modal.classList.add("modal-fade-in");
+  openButton.addEventListener('click', function () {
+    modal.classList.remove('d:none');
+    modalBackdrop.classList.remove('d:none');
+    modal.classList.add('modal-fade-in');
   });
 
-  closeButton.addEventListener("click", function () {
-    modal.classList.replace("modal-fade-in", "modal-fade-out");
+  closeButton.addEventListener('click', function () {
+    modal.classList.replace('modal-fade-in', 'modal-fade-out');
 
     setTimeout(() => {
-      modal.classList.add("d:none");
-      modalBackdrop.classList.add("d:none");
-      modal.classList.remove("modal-fade-out");
+      modal.classList.add('d:none');
+      modalBackdrop.classList.add('d:none');
+      modal.classList.remove('modal-fade-out');
     }, 130);
   });
 });
@@ -204,6 +214,15 @@ window.addEventListener("load", function () {
   </form>
 </section>
 ```
+
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Modal]%20'" :newtab="true"/></li>
+</ul>
 
 :::
 

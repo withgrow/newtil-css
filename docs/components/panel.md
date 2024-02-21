@@ -1,10 +1,20 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
+import Link from "./demo/Link.vue"
 </script>
 
-# 패널
+# 패널 (Panel)
 
 패널 컴포넌트는 구조를 정의하는데 사용되는 레이아웃 요소입니다. `top`, `side`, `main`, `menu`와 같은 패널을 포함합니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Panel]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 예시
 
@@ -31,15 +41,13 @@ import ExampleSection from "./demo/ExampleSection.vue";
     <ul class="of:hidden">
       <li class="bg-color:base-2 bd-radius:1">
         <button
-          class="deco deco-mr:3 deco-color:base-7 icon:squares_four_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap"
-        >
+          class="deco deco-mr:3 deco-color:base-7 icon:squares_four_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap">
           <span class="d:none lg:d:inline">Dashboard</span>
         </button>
       </li>
       <li>
         <button
-          class="deco deco-mr:3 deco-color:base-7 icon:house_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap"
-        >
+          class="deco deco-mr:3 deco-color:base-7 icon:house_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap">
           <span class="d:none lg:d:inline">Home</span>
         </button>
       </li>
@@ -105,4 +113,13 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::tip
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
+:::
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Panel]%20'" :newtab="true"/></li>
+</ul>
+
 :::

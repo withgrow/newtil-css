@@ -1,10 +1,20 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
+import Link from "./demo/Link.vue"
 </script>
 
-# 폰트
+# 폰트 (Font)
 
 폰트 컴포넌트는 제목을 나타낼 수 있는 컴포넌트입니다.
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:6">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Font]%20'" :newtab="true"/></li>
+</ul>
+
+:::
 
 ## 사용법
 
@@ -35,3 +45,12 @@ import ExampleSection from "./demo/ExampleSection.vue";
 | heading-1 | `n-font:heading-1` | `n-font:heading` `n-font:h1` |
 | heading-2 | `n-font:heading-2` | `n-font:h2`                  |
 | heading-3 | `n-font:heading-3` | `n-font:h3`                  |
+
+::: raw
+
+<ul class="d:flex ai:center gap:6 mt:10">
+  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
+  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Font]%20'" :newtab="true"/></li>
+</ul>
+
+:::
