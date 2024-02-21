@@ -4,7 +4,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 # 스타일 재정의하기
 
-`newtil-css`의 스타일을 여러분의 프로젝트에 맞게 스타일을 커스터마이징하는 알려드릴 차례입니다. 🚀
+`Newtil CSS`의 스타일을 여러분의 프로젝트에 맞게 스타일을 커스터마이징하는 알려드릴 차례입니다. 🚀
 
 ### 변수를 나만의 스타일로
 
@@ -27,7 +27,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 - 1단계 메인 배경 색 : `background-color:main-1`
 - 2단계 모서리 둥글기 : `border-radius:2`
 
-`newtil-css`는 이런 단계를 미리 정의하고 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)와 [계단식 및 상속](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)을 통해 간편하게 디자인을 조절할 수 있습니다.
+`Newtil CSS`는 이런 단계를 미리 정의하고 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)와 [계단식 및 상속](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)을 통해 간편하게 디자인을 조절할 수 있습니다.
 
 ```css
 :root {
@@ -77,4 +77,4 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 </html>
 ```
 
-이제 `root.css` 파일에 원하는 스타일을 추가하여 `newtil-css` 라이브러리를 프로젝트에 맞게 맞춤 설정할 수 있습니다.
+이제 `root.css` 파일에 원하는 스타일을 추가하여 `Newtil CSS` 라이브러리를 프로젝트에 맞게 맞춤 설정할 수 있습니다.

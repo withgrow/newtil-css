@@ -6,7 +6,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 ## 소개
 
-`newtil-css`는 아이콘과 데코레이션 유틸리티 클래스를 제공합니다.
+`Newtil CSS`는 아이콘과 데코레이션 유틸리티 클래스를 제공합니다.
 
 많은 서비스에서 사용되는 대표적인 아이콘을 제공하며 아이콘을 빠르고 간편하게 적용할 수 있습니다.
 
