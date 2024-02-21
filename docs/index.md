@@ -4,11 +4,11 @@ layout: home
 
 hero:
   name: "Newtil CSS"
-  tagline: 유틸리티 중심의 CSS 라이브러리
+  tagline: 순수한 CSS 라이브러리
   actions:
     - theme: brand
       text: 시작하기
-      link: /guide/getting-started
+      link: /about
     - theme: alt
       text: 깃허브
       link: https://github.com/newlecture-corp/newtil-css
