@@ -102,6 +102,8 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
+`--card-list-column-값` 변수를 재정의하여 반응형에 따라 컬럼 수를 재정의 할 수 있습니다.
+
 <table>
   <thead>
     <tr>
@@ -132,7 +134,7 @@ import Link from "./demo/Link.vue"
 
 ### n-tile-list
 
-타일 형태의 리스트로, `n-tile-list-column:레벨` 클래스를 사용하여 컬럼 수를 조정할 수 있습니다. 기본 컬럼 수는 4개입니다.
+타일 형태의 리스트 입니다.
 
 :::raw
 <ExampleSection class="flex-direction:column">
@@ -149,6 +151,31 @@ import Link from "./demo/Link.vue"
 
 ```html
 <ul class="n-list n-tile-list">
+  <li>content</li>
+  <li>content</li>
+  <li>content</li>
+</ul>
+```
+
+`n-tile-list-column:레벨` 클래스를 사용하여 컬럼 수를 조정할 수 있습니다. 기본 컬럼 수는 4개이며, 변수 `--tile-list-column-값`을 재정의하여 레벨별 개수를 재정의 할 수 있습니다.
+
+:::raw
+<ExampleSection class="flex-direction:column">
+<template #h>사용법</template>
+
+  <ul class="n-list n-tile-list n-tile-list-column:1">
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+  </ul>
+</ExampleSection>
+:::
+
+```html{2}
+<!-- n-tile-list-column:1을 통하여 컬럼 개수를 3개로 적용했습니다 -->
+<ul class="n-list n-tile-list n-tile-list-column:1">
+  <li>content</li>
   <li>content</li>
   <li>content</li>
   <li>content</li>
@@ -218,6 +245,63 @@ import Link from "./demo/Link.vue"
     <tr>
       <td>
         <code>n-list n-tag-list</code>
+      </td>
+      <td>
+        -
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+`-n-tag-size-값` 클래스로 태그의 사이즈를 변경할 수 있습니다.
+
+:::raw
+<ExampleSection>
+<template #h>사용법</template>
+
+  <ul class="n-list n-tag-list n-tag-size:1">
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+  </ul>
+</ExampleSection>
+:::
+
+```html
+<ul class="n-list n-tag-list n-tag-size:1">
+  <li>content</li>
+  <li>content</li>
+  <li>content</li>
+</ul>
+```
+
+<table>
+  <thead>
+    <tr>
+      <th scope="col">클래스</th>
+      <th scope="col">변수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <code>n-list n-tag-list n-tag-size:1</code>
+      </td>
+      <td>
+        -
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>n-list n-tag-list n-tag-size:2</code>
+      </td>
+      <td>
+        -
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>n-list n-tag-list n-tag-size:3</code>
       </td>
       <td>
         -

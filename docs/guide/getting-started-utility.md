@@ -6,7 +6,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 ## 소개
 
-`newtil-css`는 웹 문서의 스타일링을 손쉽게 하기 위해 `유틸리티 스타일 클래스`를 제공합니다.
+`Newtil CSS`는 웹 문서의 스타일링을 손쉽게 하기 위해 `유틸리티 스타일 클래스`를 제공합니다.
 
 이 클래스들을 사용하면 색상, 레이아웃, 간격, 사이즈 등 다양한 스타일 요소들을 빠르고 간편하게 적용하거나 [컴포넌트를 커스터마이징](./getting-started-component#컴포넌트-커스터마이징하기)할 수 있습니다.
 
@@ -17,7 +17,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 <div class="padding:10">👋 안녕하세요!</div>
 ```
 
-`newtil-css`의 유틸리티 스타일 클래스는 기존 CSS 속성 이름을 해치지 않으면서도 원하는 스타일을 적용할 수 있도록 설계되었습니다.
+`Newtil CSS`의 유틸리티 스타일 클래스는 기존 CSS 속성 이름을 해치지 않으면서도 원하는 스타일을 적용할 수 있도록 설계되었습니다.
 
 <ExampleSection>
   <template #h>유틸리티 스타일 예제</template>
@@ -51,7 +51,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 ## 반응형 적용하기
 
-`newtil-css`의 모든 유틸리티 스타일 클래스는 반응형 웹 디자인을 지원하기 위해 두 개의 주요 `breakpoint`에 대한 접두사를 제공합니다
+`Newtil CSS`의 모든 유틸리티 스타일 클래스는 반응형 웹 디자인을 지원하기 위해 두 개의 주요 `breakpoint`에 대한 접두사를 제공합니다
 
 | 접두사 | 최소 너비 | CSS                        |
 | ------ | --------- | -------------------------- |

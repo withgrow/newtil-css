@@ -408,7 +408,7 @@ import Link from "./demo/Link.vue"
 
 ::: raw
 
-<table class="n-table n-column-border my:4">
+<table class="n-table n-table-border:column my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1478,7 +1478,7 @@ import Link from "./demo/Link.vue"
 
 ::: raw
 
-<table class="n-table n-column-border my:4">
+<table class="n-table n-table-border:column my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>

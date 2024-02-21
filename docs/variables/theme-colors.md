@@ -4,7 +4,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 # 테마 색상
 
-`newtil-css`는 ─ `main`, `sub`, `accent`, `base` ─ 네 가지 테마 색상를 제공하며 다음의 유틸리티에서 활용되고 있습니다:
+`Newtil CSS`는 ─ `main`, `sub`, `accent`, `base` ─ 네 가지 테마 색상를 제공하며 다음의 유틸리티에서 활용되고 있습니다:
 
 - [background-color](../utility/background/background-color.md)
 - [border-color](../utility/border/border-color.md)
