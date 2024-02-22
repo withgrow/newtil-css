@@ -66,10 +66,6 @@ export default defineConfig({
         base: '/components',
         items: [
           {
-            text: '모아보기',
-            link: '/overview'
-          },
-          {
             text: 'Button',
             link: '/button'
           },
