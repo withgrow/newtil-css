@@ -593,35 +593,38 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 ## height
 
 변수 `height`, `height-percent`는 요소의 높이를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
+
 - [height](../utility/height/height)
 - [max-height](../utility/height/max-height)
 - [min-height](../utility/height/min-height)
 
 ### Default
+
 열 단계의 고정 크기와 퍼센트가 기본 제공됩니다.
+
 ```css
 :root {
-    --height-0: 0px;
-    --height-1: 50px;
-    --height-2: 100px;
-    --height-3: 150px;
-    --height-4: 200px;
-    --height-5: 250px;
-    --height-6: 300px;
-    --height-7: 350px;
-    --height-8: 400px;
-    --height-9: 450px;
-    --height-10: 500px;
-    --height-percent-1: 10%;
-    --height-percent-2: 20%;
-    --height-percent-3: 30%;
-    --height-percent-4: 40%;
-    --height-percent-5: 50%;
-    --height-percent-6: 60%;
-    --height-percent-7: 70%;
-    --height-percent-8: 80%;
-    --height-percent-9: 90%;
-    --height-percent-10: 100%;
+  --height-0: 0px;
+  --height-1: 50px;
+  --height-2: 100px;
+  --height-3: 150px;
+  --height-4: 200px;
+  --height-5: 250px;
+  --height-6: 300px;
+  --height-7: 350px;
+  --height-8: 400px;
+  --height-9: 450px;
+  --height-10: 500px;
+  --height-percent-1: 10%;
+  --height-percent-2: 20%;
+  --height-percent-3: 30%;
+  --height-percent-4: 40%;
+  --height-percent-5: 50%;
+  --height-percent-6: 60%;
+  --height-percent-7: 70%;
+  --height-percent-8: 80%;
+  --height-percent-9: 90%;
+  --height-percent-10: 100%;
 }
 ```
 
@@ -631,12 +634,12 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```css
 :root {
-    --height-0: 0px;   /* [!code --] */
-    --height-1: 50px;  /* [!code --] */
-    --height-2: 100px; /* [!code --] */
-    --height-0: 32px;   /* [!code ++] */
-    --height-1: 48x;  /* [!code ++] */
-    --height-2: 64px; /* [!code ++] */
+  --height-0: 0px; /* [!code --] */
+  --height-1: 50px; /* [!code --] */
+  --height-2: 100px; /* [!code --] */
+  --height-0: 32px; /* [!code ++] */
+  --height-1: 48x; /* [!code ++] */
+  --height-2: 64px; /* [!code ++] */
 }
 ```
 
@@ -991,38 +994,153 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 }
 ```
 
+## top, right, bottom, left
+
+변수 `top`, `top-percent`, `right`, `right-percent`, `bottom`, `bottom-percent`, `left`, `left-percent`는 요소의 위치를 지정하는데 사용하며, 다음의 유틸리티에서 활용되고 있습니다:
+
+- [top](../utility/position/top.md)
+- [right](../utility/position/right.md)
+- [bottom](../utility/position/bottom.md)
+- [left](../utility/position/left.md)
+
+::: details 모두보기
+
+```css
+:root {
+  --left-1: 0;
+  --left-2: 100px;
+  --left-3: 200px;
+  --left-4: 300px;
+  --left-5: 400px;
+  --left-6: 500px;
+  --left-7: 600px;
+  --left-8: 700px;
+  --left-9: 800px;
+  --left-10: 900px;
+  --left-percent-1: 10%;
+  --left-percent-2: 20%;
+  --left-percent-3: 30%;
+  --left-percent-4: 40%;
+  --left-percent-5: 50%;
+  --left-percent-6: 60%;
+  --left-percent-7: 70%;
+  --left-percent-8: 80%;
+  --left-percent-9: 90%;
+  --left-percent-10: 100%;
+
+  --top-1: 0;
+  --top-2: 100px;
+  --top-3: 200px;
+  --top-4: 300px;
+  --top-5: 400px;
+  --top-6: 500px;
+  --top-7: 600px;
+  --top-8: 700px;
+  --top-9: 800px;
+  --top-10: 900px;
+  --top-percent-1: 10%;
+  --top-percent-2: 20%;
+  --top-percent-3: 30%;
+  --top-percent-4: 40%;
+  --top-percent-5: 50%;
+  --top-percent-6: 60%;
+  --top-percent-7: 70%;
+  --top-percent-8: 80%;
+  --top-percent-9: 90%;
+  --top-percent-10: 100%;
+
+  --right-1: 0;
+  --right-2: 100px;
+  --right-3: 200px;
+  --right-4: 300px;
+  --right-5: 400px;
+  --right-6: 500px;
+  --right-7: 600px;
+  --right-8: 700px;
+  --right-9: 800px;
+  --right-10: 900px;
+  --right-percent-1: 10%;
+  --right-percent-2: 20%;
+  --right-percent-3: 30%;
+  --right-percent-4: 40%;
+  --right-percent-5: 50%;
+  --right-percent-6: 60%;
+  --right-percent-7: 70%;
+  --right-percent-8: 80%;
+  --right-percent-9: 90%;
+  --right-percent-10: 100%;
+
+  --bottom-1: 0;
+  --bottom-2: 100px;
+  --bottom-3: 200px;
+  --bottom-4: 300px;
+  --bottom-5: 400px;
+  --bottom-6: 500px;
+  --bottom-7: 600px;
+  --bottom-8: 700px;
+  --bottom-9: 800px;
+  --bottom-10: 900px;
+  --bottom-percent-1: 10%;
+  --bottom-percent-2: 20%;
+  --bottom-percent-3: 30%;
+  --bottom-percent-4: 40%;
+  --bottom-percent-5: 50%;
+  --bottom-percent-6: 60%;
+  --bottom-percent-7: 70%;
+  --bottom-percent-8: 80%;
+  --bottom-percent-9: 90%;
+  --bottom-percent-10: 100%;
+}
+```
+
+:::
+
+### Overriding
+
+다음과 같이 위치를 재정의할 수 있습니다.
+
+```css
+:root {
+  --top-1: 4px; /* [!code ++] */
+  --top-2: 8px; /* [!code ++] */
+}
+```
+
 ## width
 
 변수 `width`, `width-percent`는 요소의 너비를 정의하는 데 사용되며, 다음의 유틸리티에서 활용되고 있습니다:
+
 - [width](../utility/width/width)
 - [max-width](../utility/width/max-width)
 - [min-width](../utility/width/min-width)
 
 ### Default
+
 열 단계의 고정 크기와 퍼센트가 기본 제공됩니다.
+
 ```css
 :root {
-    --width-0: 0px;
-    --width-1: 50px;
-    --width-2: 100px;
-    --width-3: 150px;
-    --width-4: 200px;
-    --width-5: 250px;
-    --width-6: 300px;
-    --width-7: 350px;
-    --width-8: 400px;
-    --width-9: 450px;
-    --width-10: 500px;
-    --width-percent-1: 10%;
-    --width-percent-2: 20%;
-    --width-percent-3: 30%;
-    --width-percent-4: 40%;
-    --width-percent-5: 50%;
-    --width-percent-6: 60%;
-    --width-percent-7: 70%;
-    --width-percent-8: 80%;
-    --width-percent-9: 90%;
-    --width-percent-10: 100%;
+  --width-0: 0px;
+  --width-1: 50px;
+  --width-2: 100px;
+  --width-3: 150px;
+  --width-4: 200px;
+  --width-5: 250px;
+  --width-6: 300px;
+  --width-7: 350px;
+  --width-8: 400px;
+  --width-9: 450px;
+  --width-10: 500px;
+  --width-percent-1: 10%;
+  --width-percent-2: 20%;
+  --width-percent-3: 30%;
+  --width-percent-4: 40%;
+  --width-percent-5: 50%;
+  --width-percent-6: 60%;
+  --width-percent-7: 70%;
+  --width-percent-8: 80%;
+  --width-percent-9: 90%;
+  --width-percent-10: 100%;
 }
 ```
 
@@ -1032,12 +1150,12 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 ```css
 :root {
-    --width-0: 0px;   /* [!code --] */
-    --width-1: 50px;  /* [!code --] */
-    --width-2: 100px; /* [!code --] */
-    --width-0: 32px;   /* [!code ++] */
-    --width-1: 48x;  /* [!code ++] */
-    --width-2: 64px; /* [!code ++] */
+  --width-0: 0px; /* [!code --] */
+  --width-1: 50px; /* [!code --] */
+  --width-2: 100px; /* [!code --] */
+  --width-0: 32px; /* [!code ++] */
+  --width-1: 48x; /* [!code ++] */
+  --width-2: 64px; /* [!code ++] */
 }
 ```
 
@@ -1125,7 +1243,6 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
         margin-left: -8px;
     }
 </style>
-
 
 <style scoped>
     .bg {
