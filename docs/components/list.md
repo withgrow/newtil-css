@@ -215,7 +215,7 @@ import Link from "./demo/Link.vue"
 
 리스트 아이템에 반복적으로 스타일을 적용하는 것은 번거로울 수 있습니다. 이를 간소화하기 위해, 다양한 아이템 타입 클래스를 제공하여 쉽게 스타일을 변경할 수 있습니다.
 
-각 아이템별 스타일은 [아이템 타입](/components/item#타입)에서도 확인하실 수 있습니다.
+각 아이템별 스타일은 [아이템 타입](/components/item#type)에서도 확인하실 수 있습니다.
 
 :::raw
 <ExampleSection class="flex-direction:column md:flex-direction:row gap:8">
