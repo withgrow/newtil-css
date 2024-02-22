@@ -55,7 +55,7 @@ import Link from "./demo/Link.vue"
 #### 도트
 
 <div class="n-item d:flex jc:center gap:4 ai:end my:4">
-  <input type="check" class="n-toggle n-toggle-type:dot n-toggle-size:1"/>
+  <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:1"/>
   <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:2"/>
   <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:3"/>
 </div>
