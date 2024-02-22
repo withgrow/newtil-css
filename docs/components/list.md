@@ -51,14 +51,9 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
-## Layout {#layout}
+## Bar List
 
-리스트 컴포넌트는 여러 레이아웃 옵션을 제공합니다. `n-list` 클래스와 함께 `n-레이아웃-list` 클래스를 사용하여 다양한 레이아웃을 적용할 수 있습니다.
-
-### n-bar-list
-
-가로 방향으로 배열된 리스트입니다.
-
+가로 방향으로 배열된 리스트입니다. `n-list` 클래스와 함께 `n-bar-list` 클래스를 사용하여 레이아웃을 적용할 수 있습니다.
 :::raw
 <ExampleSection>
 <template #h>사용법</template>
@@ -79,11 +74,12 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
-### n-card-list
+## Card List
 
-카드 형태의 리스트로, 반응형 디자인에 따라 레이아웃이 조정됩니다.
+카드 레이아웃 리스트입니다. 반응형 디자인에 따라 레이아웃이 조정됩니다. `n-list` 클래스와 함께 `n-card-list` 클래스를 사용하여 레이아웃을 적용할 수 있습니다.
+
 :::raw
-<ExampleSection>
+<ExampleSection class="d:block">
 <template #h>사용법</template>
 
   <ul class="n-list n-card-list">
@@ -102,39 +98,21 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
-`--card-list-column-값` 변수를 재정의하여 반응형에 따라 컬럼 수를 재정의 할 수 있습니다.
+### 변수
 
-<table>
-  <thead>
-    <tr>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code>n-list n-card-list</code>
-      </td>
-      <td>
-        <span class="code">
-          .n-list { <br/>
-            --card-list-column-sm: 1; <span class="c:weak">/* 모바일에서 컬럼 수 */</span>
-            <br/>
-            --card-list-column-md: 2; <span class="c:weak">/* 태블릿에서 컬럼 수 */</span>
-            <br/>
-            --card-list-column-lg: 3; <span class="c:weak">/* PC에서 컬럼 수 */</span>
-            <br/>
-          }
-        </span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+반응형에 따라 개수를 조절할 수 있는 변수를 제공합니다.
 
-### n-tile-list
+```css
+.n-list {
+  --card-list-column-sm: 1; /* 모바일에서 컬럼 수 */
+  --card-list-column-md: 2; /* 태블릿에서 컬럼 수 */
+  --card-list-column-lg: 3; /* PC에서 컬럼 수 */
+}
+```
 
-타일 형태의 리스트 입니다.
+## Tile List
+
+타일 리스트 레이아웃입니다. `n-list` 클래스와 함께 `n-tile-list` 클래스를 사용하여 레이아웃을 적용할 수 있습니다.
 
 :::raw
 <ExampleSection class="flex-direction:column">
@@ -157,69 +135,16 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
-`n-tile-list-column:레벨` 클래스를 사용하여 컬럼 수를 조정할 수 있습니다. 기본 컬럼 수는 4개이며, 변수 `--tile-list-column-값`을 재정의하여 레벨별 개수를 재정의 할 수 있습니다.
+## Tag List
+
+태그 레이아웃의 리스트입니다. `n-list` 클래스와 함께 `n-tag-list` 클래스를 사용하여 레이아웃을 적용할 수 있습니다. `active` 클래스를 사용하여 활성화된 태그를 나타낼 수 있습니다.
 
 :::raw
-<ExampleSection class="flex-direction:column">
-<template #h>사용법</template>
-
-  <ul class="n-list n-tile-list n-tile-list-column:1">
-    <li>content</li>
-    <li>content</li>
-    <li>content</li>
-    <li>content</li>
-  </ul>
-</ExampleSection>
-:::
-
-```html{2}
-<!-- n-tile-list-column:1을 통하여 컬럼 개수를 3개로 적용했습니다 -->
-<ul class="n-list n-tile-list n-tile-list-column:1">
-  <li>content</li>
-  <li>content</li>
-  <li>content</li>
-  <li>content</li>
-</ul>
-```
-
-<table>
-  <thead>
-    <tr>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code>n-list n-tile-list</code>
-      </td>
-      <td>
-        <span class="code">
-          .n-list { <br/>
-            --tile-list-column-1: 3; <span class="c:weak">/* 컬럼 개수 */</span>
-            <br/>
-            --tile-list-column-2: 4; 
-            <br/>
-            --tile-list-column-3: 5; 
-            <br/>
-          }
-        </span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-### n-tag-list
-
-태그 형태의 리스트입니다.
-
-:::raw
-<ExampleSection>
-<template #h>사용법</template>
+<ExampleSection class="flex-direction:column gap:8">
+<template #h>Tag list</template>
 
   <ul class="n-list n-tag-list">
-    <li>content</li>
+    <li class="active">content</li>
     <li>content</li>
     <li>content</li>
   </ul>
@@ -228,87 +153,63 @@ import Link from "./demo/Link.vue"
 
 ```html
 <ul class="n-list n-tag-list">
-  <li>content</li>
+  <li class="active">content</li>
   <li>content</li>
   <li>content</li>
 </ul>
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code>n-list n-tag-list</code>
-      </td>
-      <td>
-        -
-      </td>
-    </tr>
-  </tbody>
-</table>
+### size
 
-`-n-tag-size-값` 클래스로 태그의 사이즈를 변경할 수 있습니다.
+`n-tag-size:레벨` 클래스를 함께 사용하여 각 요소의 크기를 변경할 수 있습니다.
 
 :::raw
-<ExampleSection>
-<template #h>사용법</template>
+<ExampleSection class="flex-direction:column gap:8">
+<template #h>Tag list size</template>
 
   <ul class="n-list n-tag-list n-tag-size:1">
+    <li class="active">content</li>
     <li>content</li>
+    <li>content</li>
+  </ul>
+
+  <ul class="n-list n-tag-list n-tag-size:2">
+    <li class="active">content</li>
+    <li>content</li>
+    <li>content</li>
+  </ul>
+
+  <ul class="n-list n-tag-list n-tag-size:3">
+    <li class="active">content</li>
     <li>content</li>
     <li>content</li>
   </ul>
 </ExampleSection>
 :::
 
+::: details code
+
 ```html
 <ul class="n-list n-tag-list n-tag-size:1">
+  <li class="active">content</li>
   <li>content</li>
+  <li>content</li>
+</ul>
+
+<ul class="n-list n-tag-list n-tag-size:2">
+  <li class="active">content</li>
+  <li>content</li>
+  <li>content</li>
+</ul>
+
+<ul class="n-list n-tag-list n-tag-size:3">
+  <li class="active">content</li>
   <li>content</li>
   <li>content</li>
 </ul>
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <code>n-list n-tag-list n-tag-size:1</code>
-      </td>
-      <td>
-        -
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <code>n-list n-tag-list n-tag-size:2</code>
-      </td>
-      <td>
-        -
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <code>n-list n-tag-list n-tag-size:3</code>
-      </td>
-      <td>
-        -
-      </td>
-    </tr>
-  </tbody>
-</table>
+:::
 
 ## Item Type {#item-type}
 
@@ -425,7 +326,7 @@ import Link from "./demo/Link.vue"
 
 ## Item Border Radius {#item-border-radius}
 
-`n-list-item-border-radius:값` 또는 `n-list-item-bd-radius:값` 약어 클래스를 사용하여, 모든 아이템의 모서리 둥글기를 조절할 수 있습니다. 이를 통해 디자인의 일관성을 유지하면서, 필요에 따라 개별 아이템의 외관을 조정할 수 있습니다.
+`n-list-item-border-radius:값` 또는 `n-list-item-bd-radius:값` 약어 클래스를 사용하여, 모든 아이템의 `border-radius`를 조절할 수 있습니다. 이를 통해 디자인의 일관성을 유지하면서, 필요에 따라 개별 아이템의 외관을 조정할 수 있습니다.
 
 :::raw
 <ExampleSection class="flex-direction:column md:flex-direction:row flex-wrap:wrap gap:8">
@@ -495,7 +396,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-다음 변수를 재정의하여 목록 아이템의 모서리 둥글기를 변경할 수 있습니다.
+다음 변수를 재정의하여 목록 아이템의 `border-radius`를 변경할 수 있습니다.
 
 ```css
 .n-list {
@@ -512,7 +413,7 @@ import Link from "./demo/Link.vue"
 
 ## Item Padding {#item-padding}
 
-`n-list-item-padding:값` 또는 `n-list-item-p:값` 약어 클래스를 통해, 모든 아이템의 내부 패딩을 조절할 수 있습니다.
+`n-list-item-padding:값` 또는 `n-list-item-p:값` 약어 클래스를 통해, 모든 아이템의 `padding`을 조절할 수 있습니다.
 
 :::raw
 <ExampleSection class="flex-direction:column md:flex-direction:row flex-wrap:wrap gap:8">
@@ -637,7 +538,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-다음 변수를 재정의하여 목록 아이템의 패딩을 변경할 수 있습니다.
+다음 변수를 재정의하여 목록 아이템의 `padding`을 변경할 수 있습니다.
 
 ```css
 .n-list {
