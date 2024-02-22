@@ -93,8 +93,7 @@
       <a href="../components/modal">
         <h1>Modal</h1>
         <div
-          class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1"
-        >
+          class="n-modal d:flex fl-dir:column border w:full h:fit-content pos:relative zi:1">
           <h1 class="text-align:center mt:2 font-weight:2">Title</h1>
           <p class="word-break:break-all mt:2">Lorem ipsum dolor sit amet.</p>
           <div class="mt:4">
@@ -174,7 +173,7 @@
 
     <!-- Textbox -->
     <section class="n-item">
-      <a href="../components/text-box">
+      <a href="../components/textbox">
         <h1>Text Box</h1>
         <div>
           <label class="d:flex flex-direction:column ai:start">
@@ -183,8 +182,7 @@
           </label>
           <label
             class="d:flex flex-direction:column ai:start mt:3"
-            style="gap: 6px"
-          >
+            style="gap: 6px">
             textarea
             <textarea class="n-textbox"></textarea>
           </label>
@@ -204,8 +202,7 @@
             <input
               class="n-toggle n-toggle-size:3 mt:2"
               type="checkbox"
-              checked
-            />
+              checked />
           </label>
         </div>
       </a>
@@ -214,8 +211,7 @@
     <section class="n-item suggest-component">
       <a
         href="https://github.com/newlecture-corp/newtil-css/issues/new?assignees=&labels=feature&projects=&template=%EA%B8%B0%EB%8A%A5-%EC%9A%94%EC%B2%AD.md&title=feature%3A+"
-        target="_blank"
-      >
+        target="_blank">
         <h1 class="font-size:2">컴포넌트 추가 제안하기</h1>
         <div class="d:flex ai:center jc:center">
           <div class="border border-radius:4 w:fit-content p:5 plus">
@@ -232,6 +228,8 @@
 .component-list > .n-item {
   width: 218px;
   height: 250px;
+
+  flex-shrink: 0;
 
   transition: box-shadow 0.2s;
   cursor: pointer;
