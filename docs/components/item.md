@@ -62,7 +62,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td class="white-space:nowrap">outline-box</td>
+      <th class="white-space:nowrap">outline-box</th>
       <td>
         <code>
           n-item-type:outline-box
@@ -83,7 +83,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>shadow</td>
+      <th>shadow</th>
       <td>
         <code>
           n-item-type:shadow
@@ -96,7 +96,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>underline</td>
+      <th>underline</th>
       <td>
         <code>
           n-item-type:underline
@@ -109,7 +109,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>none</td>
+      <th>none</th>
       <td>
         <code>
           n-item-type:none

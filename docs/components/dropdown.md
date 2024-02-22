@@ -77,7 +77,7 @@ import Link from "./demo/Link.vue"
 </div>
 ```
 
-## Interactive DropDown Example
+## Interactive Dropdown Example
 
 JavaScript DOM을 활용하여 인터랙티브한 드롭다운 컴포넌트를 만들 수 있습니다. 다음은 간단한 예시입니다:
 

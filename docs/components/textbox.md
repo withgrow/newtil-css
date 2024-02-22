@@ -253,7 +253,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>outline</td>
+      <th>outline</th>
       <td>
         <code>n-textbox-type:outline</code>
       </td>
@@ -264,7 +264,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>underline</td>
+      <th>underline</th>
       <td>
         <code>n-textbox-type:underline</code>
       </td>
@@ -310,7 +310,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>outline</td>
+      <th>outline</th>
       <td>
         <code>n-textbox-type:outline</code>
       </td>

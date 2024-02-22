@@ -99,7 +99,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>filled</td>
+      <th>filled</th>
       <td>
         <code>n-btn-type:filled</code>
       </td>
@@ -116,7 +116,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>outline-box</td>
+      <th>outline-box</th>
       <td>
         <code>n-btn-type:outline-box</code> <br/>
         <code>n-btn-type:outline</code>
@@ -135,7 +135,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>void</td>
+      <th>void</th>
       <td>
         <code>n-btn-type:void</code>
       </td>
@@ -177,7 +177,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <th>1</th>
       <td><code>n-btn-size:1</code></td>
       <td>
         <span class="code">
@@ -190,7 +190,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>2</td>
+      <th>2</th>
       <td><code>n-btn-size:2</code></td>
       <td>
         <span class="code">
@@ -203,7 +203,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>3</td>
+      <th>3</th>
       <td><code>n-btn-size:3</code></td>
       <td>
         <span class="code">
@@ -257,12 +257,32 @@ import Link from "./demo/Link.vue"
 <button type="button" class="n-btn n-btn-color:base">base</button>
 ```
 
-| 색상   | 클래스               |
-| ------ | -------------------- |
-| main   | `n-btn-color:main`   |
-| sub    | `n-btn-color:sub`    |
-| accent | `n-btn-color:accent` |
-| base   | `n-btn-color:base`   |
+<table>
+  <thead>
+    <tr>
+      <th scope="col">색상</th>
+      <th scope="col">클래스</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>main</th>
+      <td><code>n-btn-color:main</code></td>
+    </tr>
+    <tr>
+      <th>sub</th>
+      <td><code>n-btn-color:sub</code></td>
+    </tr>
+    <tr>
+      <th>accent</th>
+      <td><code>n-btn-color:accent</code></td>
+    </tr>
+    <tr>
+      <th>base</th>
+      <td><code>n-btn-color:base</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Disabled {#disabled}
 

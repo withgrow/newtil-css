@@ -190,7 +190,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>slide</td>
+      <th>slide</th>
       <td>
         <code>n-toggle-type:slide</code>
       </td>
@@ -209,7 +209,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>check</td>
+      <th>check</th>
       <td>
         <code>n-toggle-type:check</code>
       </td>
@@ -227,7 +227,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>dot</td>
+      <th>dot</th>
       <td>
         <code>n-toggle-type:dot</code>
       </td>
@@ -246,7 +246,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>outline-box</td>
+      <th>outline-box</th>
       <td>
         <code>n-toggle-type:outline-box</code>
       </td>
@@ -432,19 +432,19 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <th>1</th>
       <td>
         <code>n-toggle-size:1</code>
       </td>
     </tr>
     <tr>
-      <td>2</td>
+      <th>2</th>
       <td>
         <code>n-toggle-size:2</code>
       </td>
     </tr>
     <tr>
-      <td>3</td>
+      <th>3</th>
       <td>
         <code>n-toggle-size:3</code>
       </td>
