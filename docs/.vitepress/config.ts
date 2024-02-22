@@ -57,6 +57,7 @@ export default defineConfig({
             link: "/getting-started-utility",
           },
           { text: "스타일 재정의하기", link: "/customizing" },
+          { text: "CSS 변수 목록", link: "/css-variable-list" },
         ],
       },
 
@@ -620,65 +621,6 @@ export default defineConfig({
                 link: "/width/max-width",
               },
             ],
-          },
-          {
-            text: "z-index",
-            link: "/z-index",
-          },
-        ],
-      },
-
-      {
-        text: "변수",
-        base: "/variables",
-        items: [
-          {
-            text: "theme-colors",
-            link: "/theme-colors",
-          },
-          {
-            text: "border-color",
-            link: "/border-color",
-          },
-          {
-            text: "border-width",
-            link: "/border-width",
-          },
-          {
-            text: "border-radius",
-            link: "/border-radius",
-          },
-          {
-            text: "box-shadow",
-            link: "/box-shadow",
-          },
-          {
-            text: "font-size",
-            link: "/font-size",
-          },
-          {
-            text: "font-weight",
-            link: "/font-weight",
-          },
-          {
-            text: "gap",
-            link: "/gap",
-          },
-          {
-            text: "height",
-            link: "/height",
-          },
-          {
-            text: "opacity",
-            link: "/opacity",
-          },
-          {
-            text: "order",
-            link: "/order",
-          },
-          {
-            text: "width",
-            link: "/width",
           },
           {
             text: "z-index",
