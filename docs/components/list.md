@@ -135,6 +135,61 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
+### size
+
+`n-tile-size:레벨` 클래스를 함께 사용하여 각 요소의 크기를 변경할 수 있습니다.
+
+:::raw
+<ExampleSection class="flex-direction:column gap:8">
+<template #h>Tile list size</template>
+
+  <ul class="n-list n-tile-list n-tile-size:1">
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+  </ul>
+
+  <ul class="n-list n-tile-list n-tile-size:2">
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+  </ul>
+
+  <ul class="n-list n-tile-list n-tile-size:3">
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+    <li>content</li>
+  </ul>
+</ExampleSection>
+:::
+
+::: details code
+
+```html
+<ul class="n-list n-tile-list n-tile-size:1">
+  <li>content</li>
+  <li>content</li>
+  <li>content</li>
+</ul>
+
+<ul class="n-list n-tile-list n-tile-size:2">
+  <li>content</li>
+  <li>content</li>
+  <li>content</li>
+</ul>
+
+<ul class="n-list n-tile-list n-tile-size:3">
+  <li>content</li>
+  <li>content</li>
+  <li>content</li>
+</ul>
+```
+
+:::
+
 ## Tag List
 
 태그 레이아웃의 리스트입니다. `n-list` 클래스와 함께 `n-tag-list` 클래스를 사용하여 레이아웃을 적용할 수 있습니다. `active` 클래스를 사용하여 활성화된 태그를 나타낼 수 있습니다.
