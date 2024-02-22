@@ -56,7 +56,7 @@ export default defineConfig({
             text: "유틸리티 시작하기",
             link: "/getting-started-utility",
           },
-          { text: "스타일 재정의하기", link: "/customizing" },
+          { text: "테마 커스터마이징", link: "/customizing" },
           { text: "CSS 변수 목록", link: "/css-variable-list" },
         ],
       },
