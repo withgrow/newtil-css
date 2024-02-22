@@ -4,7 +4,12 @@
   <!-- https://vitepress.dev/reference/runtime-api#clientonly -->
   <ClientOnly>
     <section class="example-section n-item box-shadow:5">
-      <h1 class="n-font:title text-align:center">미리보기</h1>
+      <h1 class="n-font:title text-align:center font-weight:3">
+        순수 CSS로 만들어진 컴포넌트와 유틸리티 클래스
+      </h1>
+      <div class="text-align:center color:base-7 mt:1">
+        컴포넌트와 유틸리티 클래스로 테마를 더 쉽게 만들어보세요
+      </div>
       <div class="n-container mt:8">
         <div
           class="n-list n-card-list n-list-item:outline n-list-item-border-rd:4"
@@ -116,12 +121,16 @@
             </p>
             <div class="mt:3">
               <button class="n-btn n-btn:outline n-btn-size:1 px:2">
-                <span class="icon icon:bookmark_simple icon-size:3 icon-color:base-7">
+                <span
+                  class="icon icon:bookmark_simple icon-size:3 icon-color:base-7"
+                >
                   북마크
                 </span>
               </button>
               <button class="ml:2 n-btn n-btn:outline n-btn-size:1 px:2">
-                <span class="icon icon:trash icon-size:3 icon-color:base-7">삭제</span>
+                <span class="icon icon:trash icon-size:3 icon-color:base-7">
+                  삭제
+                </span>
               </button>
             </div>
           </section>
@@ -194,21 +203,21 @@
 <style scoped>
 .example-section {
   max-width: 1152px;
-  padding: 24px 48px;
+  padding: 48px 48px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 64px;
+  margin-top: 128px;
 }
 
 @media (min-width: 640px) {
   .example-section {
-    padding: 24px 64px;
+    padding: 48px 64px;
   }
 }
 
 @media (min-width: 960px) {
   .example-section {
-    padding: 24px 82px;
+    padding: 48px 82px;
   }
 }
 </style>
