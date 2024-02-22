@@ -1,7 +1,7 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
 import ListOverview from "./demo/ListOverview.vue";
-import Link from "./demo/Link.vue"
+
 </script>
 
 # 리스트 (List)
@@ -653,8 +653,7 @@ import Link from "./demo/Link.vue"
       <img
         alt="americano"
         src="/coffe_americano.png"
-        class="h:100p w:100p obj-fit:cover"
-      />
+        class="h:100p w:100p obj-fit:cover" />
     </div>
     <div class="ml:6">
       <div class="n-font:subtitle">americano</div>
@@ -666,8 +665,7 @@ import Link from "./demo/Link.vue"
       <img
         alt="americano"
         src="/coffe_cappuccino.png"
-        class="h:100p w:100p obj-fit:cover"
-      />
+        class="h:100p w:100p obj-fit:cover" />
     </div>
     <div class="ml:6">
       <div class="n-font:subtitle">cappuccino</div>
@@ -679,8 +677,7 @@ import Link from "./demo/Link.vue"
       <img
         alt="americano"
         src="/coffe_latte.png"
-        class="h:100p w:100p obj-fit:cover"
-      />
+        class="h:100p w:100p obj-fit:cover" />
     </div>
     <div class="ml:6">
       <div class="n-font:subtitle">latte</div>

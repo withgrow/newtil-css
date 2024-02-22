@@ -1,7 +1,7 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
 import DropdownDomExample from "./demo/DropdownDomExample.vue";
-import Link from "./demo/Link.vue"
+
 </script>
 
 # 드롭다운 (Dropdown)
@@ -121,7 +121,7 @@ window.addEventListener('load', function () {
 드롭다운 컴포넌트의 변수는 다음과 같습니다:
 
 ```css
-/* dropdown.css */ 
+/* dropdown.css */
 .n-dropdown {
   --dropdown-min-width: 160px;
   --dropdown-padding: 4px;
@@ -169,7 +169,7 @@ window.addEventListener('load', function () {
 ```
 
 ```css
-/* root.css */ 
+/* root.css */
 .n-dropdown {
   --dropdown-min-width: 240px;
   --dropdown-border-radius: 0;

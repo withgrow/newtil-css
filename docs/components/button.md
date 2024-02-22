@@ -1,6 +1,6 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
-import Link from "./demo/Link.vue"
+
 </script>
 
 # 버튼 (Button)
@@ -316,7 +316,7 @@ import Link from "./demo/Link.vue"
 버튼 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
-/* button.css */ 
+/* button.css */
 .n-btn {
   /* btn-size:1 */
   --btn-height-1: 28px;
@@ -360,7 +360,7 @@ import Link from "./demo/Link.vue"
 ```
 
 ```css
-/* root.css */ 
+/* root.css */
 .n-btn {
   /* btn-size:1 */
   --btn-height-1: 24px;

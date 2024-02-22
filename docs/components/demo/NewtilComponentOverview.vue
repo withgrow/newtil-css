@@ -41,11 +41,13 @@
       <a href="../components/font">
         <h1>Font</h1>
         <div class="fonts">
-          <h1 class="n-font:title text-align:left">This is Title.</h1>
-          <h2 class="n-font:subtitle text-align:left">This is Subtitle.</h2>
-          <h1 class="n-font:h1 text-align:left">This is h1.</h1>
-          <h2 class="n-font:h2 text-align:left">This is h2.</h2>
-          <h3 class="n-font:h3 text-align:left">This is h3.</h3>
+          <h1 class="n-font n-font:title text-align:left">This is Title.</h1>
+          <h2 class="n-font n-font:subtitle text-align:left">
+            This is Subtitle.
+          </h2>
+          <h1 class="n-font n-font:h1 text-align:left">This is h1.</h1>
+          <h2 class="n-font n-font:h2 text-align:left">This is h2.</h2>
+          <h3 class="n-font n-font:h3 text-align:left">This is h3.</h3>
         </div>
       </a>
     </section>
