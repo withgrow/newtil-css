@@ -174,7 +174,7 @@
 
     <!-- Textbox -->
     <section class="n-item">
-      <a href="../components/text-box">
+      <a href="../components/textbox">
         <h1>Text Box</h1>
         <div>
           <label class="d:flex flex-direction:column ai:start">
