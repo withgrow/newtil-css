@@ -38,13 +38,61 @@ import Link from "./demo/Link.vue"
   <div class="n-font:h3">Heading 3</div>
 </ExampleSection>
 
-| 타입      | 클래스             | 약어 클래스                  |
-| --------- | ------------------ | ---------------------------- |
-| title     | `n-font:title`     | -                            |
-| subtitle  | `n-font:subtitle`  | -                            |
-| heading-1 | `n-font:heading-1` | `n-font:heading` `n-font:h1` |
-| heading-2 | `n-font:heading-2` | `n-font:h2`                  |
-| heading-3 | `n-font:heading-3` | `n-font:h3`                  |
+<table>
+  <thead>
+    <tr>
+      <th scope="col">타입</th>
+      <th scope="col">클래스</th>
+      <th scope="col">약어 클래스</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">title</th>
+      <td>
+        <code>n-font:title</code>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row">subtitle</th>
+      <td>
+        <code>n-font:subtitle</code>
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th scope="row">heading-1</th>
+      <td>
+        <code>n-font:heading-1</code>
+      </td>
+      <td>
+        <code>n-font:heading</code>
+        <br />
+        <code>n-font:h1</code>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">heading-2</th>
+      <td>
+        <code>n-font:heading-2</code>
+      </td>
+      <td>
+        <code>n-font:h2</code>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">heading-3</th>
+      <td>
+        <code>n-font:heading-3</code>
+      </td>
+      <td>
+        <code>n-font:h3</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ::: raw
 
