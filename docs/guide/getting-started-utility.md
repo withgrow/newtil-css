@@ -63,7 +63,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 - `color:base-1`과 `font-weight:2`는 각각 텍스트 색상과 굵기를 조정합니다.
 
 :::tip
-각 레벨별 수치나 색의 테마 재정의는 [테마 커스터마이징]에서 확인하실 수 있습니다.
+각 레벨별 수치나 색의 테마 재정의는 [테마 커스터마이징](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
 ## 약어 클래스 사용하기
