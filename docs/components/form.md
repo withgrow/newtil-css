@@ -2,20 +2,43 @@
 import ExampleSection from "./demo/ExampleSection.vue";
 import Link from "./demo/Link.vue"
 
+const formTypes = [
+  {
+    text: 'Outline-box',
+    status: 'outline-box',
+  },
+  {
+    text: 'Shadow',
+    status: 'shadow',
+  },
+  {
+    text: 'Underline',
+    status: 'underline',
+  },
+  {
+    text: 'Outline-none',
+    status: 'outline-none',
+  },
+]
+
 const textboxStatus = [
   {
+    text: 'Focus',
     status: 'focus',
     value: '|',
   },
   {
+    text: 'Success',
     status: 'success',
     value: '홍길동',
   },
   {
+    text: 'Warning',
     status: 'warning',
     value: '홍&#*$',
   },
   {
+    text: 'Disabled',
     status: 'disabled',
     value: '',
   },
@@ -42,9 +65,9 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
 `outline-box`, `shadow`, `underline`, `outline-none` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
 <ExampleSection class="flex-wrap:wrap gap:4 jc:space-around">
-  <section v-for="typ of ['outline-box', 'shadow', 'underline', 'outline-none']">
-    <h4>{{ typ }}</h4>
-    <form class="n-form my:2" :class="`n-form-type:${typ}`">
+  <section v-for="typ of formTypes">
+    <h4>{{ typ.text }}</h4>
+    <form class="n-form my:2" :class="`n-form-type:${typ.status}`">
       <div>
         <label>
           <span>label</span>
@@ -109,7 +132,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
 
 <ExampleSection class="gap:4 jc:space-around">
   <section>
-    <h4>outline</h4>
+    <h4>Outline</h4>
     <form class="n-form my:2">
       <div>
         <label>
@@ -121,7 +144,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
   </section>
 
   <section>
-    <h4>underline</h4>
+    <h4>Underline</h4>
     <form class="n-form n-field-textbox:underline my:2">
       <div>
         <label>
@@ -139,7 +162,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
 
 <ExampleSection class="flex-wrap:wrap gap:4 jc:space-around">
   <section v-for="item of textboxStatus">
-    <h4>{{ item.status }}</h4>
+    <h4>{{ item.text }}</h4>
     <form class="n-form my:2">
       <div>
         <label>
@@ -400,7 +423,6 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
 :::
 
 <table>
-  <caption style="caption-side:bottom; margin-top:4px;"><span class="c:weak">*bp: breakpoint (md, lg)</span></caption>
   <thead>
     <tr>
       <th scope="col">위치</th>
@@ -421,7 +443,7 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
     <tr>
       <th>left</th>
       <td>
-        <code>*bp:n-field-label-position:left</code>
+        <code>bp:n-field-label-position:left</code>
       </td>
       <td>
         <code>bp:n-field-label:left</code>
@@ -735,11 +757,10 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
 :::
 
 ```css
+/* root.css */
 .n-form {
-  --form-border-radius: 16px; /* [!code --] */
-  --form-border-radius: 0px; /* [!code ++] */
-  --form-padding: 24px; /* [!code --] */
-  --form-padding: 40px; /* [!code ++] */
+  --form-border-radius: 0px;
+  --form-padding: 40px;
 
   /* ... */
 }
@@ -800,7 +821,7 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
           <span>4</span>
         </label>
         <label class="flex-direction:row ai:center gap:3">
-          <input type="radio" name="satisfaction" class="n-toggle n-toggle:dot"/>
+          <input type="radio" name="satisfaction" class="n-toggle n-toggle:dot" checked/>
           <span>5</span>
         </label>
       </div>
@@ -862,7 +883,11 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
         <span>4</span>
       </label>
       <label class="flex-direction:row ai:center gap:3">
-        <input type="radio" name="satisfaction" class="n-toggle n-toggle:dot" />
+        <input
+          type="radio"
+          name="satisfaction"
+          class="n-toggle n-toggle:dot"
+          checked />
         <span>5</span>
       </label>
     </fieldset>
