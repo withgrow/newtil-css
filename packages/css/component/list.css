@@ -44,6 +44,11 @@
   --tile-list-column-2: 4;
   --tile-list-column-3: 5;
 
+  --tile-size: 80px;
+  --tile-size-1: 80px;
+  --tile-size-2: 100px;
+  --tile-size-3: 120px;
+
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -138,6 +143,12 @@
 }
 
 /* ---- n-tile-list ------------------------------------------------- */
+.n-tile-list {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .n-tile-list.n-tile-list-column\:1,
 .n-tile-list.n-tile-list-col\:1 {
   display: grid;
@@ -155,6 +166,35 @@
 .n-tile-list.n-tile-list-col\:3 {
   display: grid;
   grid-template-columns: repeat(var(--tile-list-column-3), minmax(0, 1fr));
+}
+
+.n-tile-list > li {
+  overflow: hidden;
+  word-break: break-all;
+  
+  width: var(--tile-size);
+  height: var(--tile-size);
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* tile size */
+.n-tile-list.n-tile-size\:1 > li {
+  width: var(--tile-size-1);
+  height: var(--tile-size-1);
+}
+
+.n-tile-list.n-tile-size\:2 > li {
+  width: var(--tile-size-2);
+  height: var(--tile-size-2);
+}
+
+.n-tile-list.n-tile-size\:3 > li {
+  width: var(--tile-size-3);
+  height: var(--tile-size-3);
 }
 
 /* ---- n-list-item-type ------------------------------------------------- */
