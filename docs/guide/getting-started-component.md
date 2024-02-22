@@ -90,10 +90,8 @@ import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 컴포넌트를 커스터마이징하는 방법에는 두 가지가 있습니다.
 
 1. [유틸리티 클래스 사용하기](#customizing-width-utility-class)
-   <!-- 유틸리티 클래스를 사용하여 즉시, 간편하게 스타일을 적용할 수 있습니다. -->
 
 2. [변수 재정의하기](#customizing-width-variable-overriding)
-   <!-- 전역적으로 동일한 모든 컴포넌트에 혹은 2. 특정 영역 안에서 바꿀 수 있따 -->
 
 ### 1. 유틸리티 클래스 사용하기 {#customizing-width-utility-class}
 
@@ -138,11 +136,6 @@ import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 컴포넌트의 기본 스타일을 정의하고 있는 변수값을 조정하여 컴포넌트를 커스터마이징할 수 있습니다.
 
 컴포넌트의 스타일은 전역적으로 변경하거나 지역적으로 변경할 수 있습니다.
-
-<!-- 변수값을 조정하여 스타일을 재정의하는 방법에는 다음 두 가지가 있습니다.
-
-2-1. 컴포넌트 스타일을 전역적으로 바꾸기 <br>
-2-2. 특정 영역 내의 컴포넌트 스타일 바꾸기 -->
 
 **기본 스타일**
 
