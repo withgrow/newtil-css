@@ -1,7 +1,7 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
 import ModalDomExample from "./demo/ModalDomExample.vue";
-import Link from "./demo/Link.vue"
+
 </script>
 
 # 모달 (Modal)

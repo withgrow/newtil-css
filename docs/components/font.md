@@ -1,6 +1,6 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue";
-import Link from "./demo/Link.vue"
+
 </script>
 
 # 폰트 (Font)

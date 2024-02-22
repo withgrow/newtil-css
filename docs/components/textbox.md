@@ -1,6 +1,6 @@
 <script setup>
 import ExampleSection from "./demo/ExampleSection.vue"
-import Link from "./demo/Link.vue"
+
 </script>
 
 # 텍스트 박스 (Textbox)
@@ -719,7 +719,7 @@ import Link from "./demo/Link.vue"
 텍스트 박스 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
-/* textbox.css */ 
+/* textbox.css */
 .n-textbox {
   /* textbox-size */
   --textbox-padding-x: 12px;
@@ -784,7 +784,7 @@ import Link from "./demo/Link.vue"
 ```
 
 ```css
-/* root.css */ 
+/* root.css */
 .n-textbox {
   /* textbox-size */
   --textbox-padding-x: 14px;
