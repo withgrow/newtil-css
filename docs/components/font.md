@@ -16,7 +16,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 폰트 컴포넌트는 요소에 `n-font:타입` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -28,7 +28,7 @@ import Link from "./demo/Link.vue"
 <div class="n-font:title">Title</div>
 ```
 
-## 타입
+## Type
 
 <ExampleSection class="fl-dir:column">
   <div class="n-font:title">Title</div>

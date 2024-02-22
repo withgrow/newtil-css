@@ -17,7 +17,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 모아보기
+## Overview
 
 리스트 레이아웃과 리스트 아이템 스타일 조정, 모서리 둥글기, 패딩 조절 등 다양한 옵션을 지원합니다,
 
@@ -27,7 +27,7 @@ import Link from "./demo/Link.vue"
 </ClientOnly>
 :::
 
-## 사용법
+## Usage
 
 리스트 컴포넌트는 `ul` 요소에 `n-list` 클래스를 적용하고, 각 아이템은 `li` 요소로 표현합니다. 이 구조를 통해 리스트를 구현할 수 있습니다.
 
@@ -51,7 +51,7 @@ import Link from "./demo/Link.vue"
 </ul>
 ```
 
-## 레이아웃 {#layout}
+## Layout {#layout}
 
 리스트 컴포넌트는 여러 레이아웃 옵션을 제공합니다. `n-list` 클래스와 함께 `n-레이아웃-list` 클래스를 사용하여 다양한 레이아웃을 적용할 수 있습니다.
 
@@ -310,7 +310,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 아이템 타입 {#item-type}
+## Item Type {#item-type}
 
 리스트 아이템에 반복적으로 스타일을 적용하는 것은 번거로울 수 있습니다. 이를 간소화하기 위해, 다양한 아이템 타입 클래스를 제공하여 쉽게 스타일을 변경할 수 있습니다.
 
@@ -423,7 +423,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 아이템 모서리 둥글기 {#item-border-radius}
+## Item Border Radius {#item-border-radius}
 
 `n-list-item-border-radius:값` 또는 `n-list-item-bd-radius:값` 약어 클래스를 사용하여, 모든 아이템의 모서리 둥글기를 조절할 수 있습니다. 이를 통해 디자인의 일관성을 유지하면서, 필요에 따라 개별 아이템의 외관을 조정할 수 있습니다.
 
@@ -510,7 +510,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-## 아이템 패딩 {#item-padding}
+## Item Padding {#item-padding}
 
 `n-list-item-padding:값` 또는 `n-list-item-p:값` 약어 클래스를 통해, 모든 아이템의 내부 패딩을 조절할 수 있습니다.
 
@@ -650,13 +650,13 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-## 스타일 재정의
+## Overriding
 
 :::tip
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시
+## Eaxmple
 
 ::: raw
 

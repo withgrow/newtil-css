@@ -17,7 +17,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 드롭다운 버튼과 드롭다운 목록(`ul` + `li`)을 `n-dropdown` 클래스를 가진 다른 요소로 감싸서 사용합니다. `ul` 요소에 `acitve` 클래스를 추가하여 드롭다운 목록을 나타낼 수 있습니다.
 
@@ -77,7 +77,7 @@ import Link from "./demo/Link.vue"
 </div>
 ```
 
-## 인터랙티브 드롭다운 예시
+## Interactive DropDown Example
 
 JavaScript DOM을 활용하여 인터랙티브한 드롭다운 컴포넌트를 만들 수 있습니다. 다음은 간단한 예시입니다:
 
@@ -116,7 +116,7 @@ window.addEventListener('load', function () {
 
 :::
 
-## 스타일 재정의
+## Overriding
 
 드롭다운 컴포넌트의 변수는 다음과 같습니다:
 
@@ -135,7 +135,7 @@ window.addEventListener('load', function () {
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 :::raw
 <ExampleSection>
@@ -189,7 +189,7 @@ window.addEventListener('load', function () {
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시
+## Example
 
 :::raw
 <ExampleSection>

@@ -16,7 +16,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 아이템 컴포넌트는 요소에 `n-item` 클래스를 적용하여 사용할 수 있습니다.
 :::raw
@@ -31,7 +31,7 @@ import Link from "./demo/Link.vue"
 <div class="n-item">item</div>
 ```
 
-## 타입
+## Type
 
 `n-item-type:타입` 또는 `n-item:타입` 약어 클래스를 통해 다양한 아이템 타입을 적용할 수 있습니다.
 <ExampleSection>
@@ -124,7 +124,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 스타일 재정의
+## Overriding
 
 아이템 컴포넌트 변수는 다음과 같습니다:
 
@@ -135,7 +135,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 :::raw
 <ExampleSection>
@@ -163,7 +163,7 @@ import Link from "./demo/Link.vue"
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시
+## Example
 
 :::raw
 <ExampleSection>

@@ -16,9 +16,9 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 모아보기
+## Overview
 
-### 타입
+### Type {#overview-type}
 
 `outline`, `underline` 타입이 제공되며, `underline`의 경우 `텍스트 입력이 가능한 input` 태그에 한하여 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
@@ -44,7 +44,7 @@ import Link from "./demo/Link.vue"
     </label>
 </div>
 
-### 상태
+### Status {#overview-status}
 
 `focus`, `success`, `warning`, `disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#status)를 클릭하세요.
 
@@ -128,7 +128,7 @@ import Link from "./demo/Link.vue"
     </label>
 </div>
 
-### 라벨
+### Label {#overview-label}
 
 라벨을 텍스트박스의 상단 또는 하단에 위치시킬 수 있습니다. 자세한 내용을 보려면 [여기](#label)를 클릭하세요.
 
@@ -172,7 +172,7 @@ import Link from "./demo/Link.vue"
     </label>
 </div>
 
-## 사용법
+## Usage
 
 텍스트 박스 컴포넌트는 `텍스트 입력이 가능한 input` 태그 또는 `textarea` 태그에 `n-textbox` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -210,7 +210,7 @@ import Link from "./demo/Link.vue"
 <textarea type="text" class="n-textbox" placeholder="Basic Textbox"></textarea>
 ```
 
-## 타입 {#type}
+## Type
 
 텍스트 박스 컴포넌트는 기본적으로 `outline` 스타일이 적용되며, `input` 태그에는 추가로 `underline` 스타일을 제공합니다.
 `input` 태그에 `n-textbox-type:타입명` 또는 `n-textbox:타입명`과 같은 약어 클래스를 사용하여 텍스트 박스에 원하는 스타일을 적용할 수 있습니다.
@@ -321,7 +321,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 상태 {#status}
+## Status
 
 입력된 텍스트의 유효성에 따라 `focus`, `success`, `warning`, `disabled` 상태를 적용할 수 있으며, `input 태그`와 `textarea 태그` 모두 동일하게 적용됩니다.
 
@@ -556,7 +556,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 라벨 {#label}
+## Label
 
 `n-textbox-label:값` 클래스를 적용하여 라벨을 텍스트 박스의 상단 또는 하단에 위치시킬 수 있습니다.
 
@@ -714,7 +714,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 스타일 재정의 {#overriding}
+## Overriding
 
 텍스트 박스 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
@@ -739,7 +739,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 <ExampleSection class="my:4">
   <div class="d:flex ai:center fl-dir:column gap:4 w:100p">
@@ -811,7 +811,7 @@ import Link from "./demo/Link.vue"
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시 {#example}
+## Example
 
 <div class="vp-raw">
     <ExampleSection class="d:flex fl-dir:column gap:4 my:4">
