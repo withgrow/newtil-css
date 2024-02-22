@@ -1935,6 +1935,7 @@ import Link from "./demo/Link.vue"
 테이블 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
+/* table.css */ 
 .n-table {
   /* table-cell-size */
   --table-cell-padding-x: 16px;
@@ -2026,7 +2027,8 @@ import Link from "./demo/Link.vue"
 :::
 
 ```css
-.n-textbox {
+/* root.css */ 
+.n-table {
   /* table-cell-size */
   --table-cell-padding-x: 12px;
   --table-cell-height-1: 24px;

@@ -597,7 +597,8 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 토글 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
-.n-textbox {
+/* toggle.css */ 
+.n-toggle {
   /* n-toggle-type:slide */
   --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
   --n-toggle-slide-checked-background-color: var(--color-main-2);
@@ -650,6 +651,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 ```
 
 ```css
+/* root.css */ 
 .n-toggle {
   --main-color: #f4a423;
 

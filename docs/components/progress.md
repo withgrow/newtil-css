@@ -102,6 +102,7 @@ import Link from "./demo/Link.vue"
 프로그레스 컴포넌트의 변수는 다음과 같습니다:
 
 ```css
+/* progress.css */ 
 .n-progress {
   --progress-height: 6px;
   --progress-border-radius: 999px;
@@ -133,6 +134,7 @@ import Link from "./demo/Link.vue"
 ```
 
 ```css
+/* root.css */ 
 .n-item .n-progress {
   --progress-height: 10px;
   --progress-background-color: #f1f3f5;

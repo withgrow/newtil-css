@@ -293,10 +293,10 @@ import Link from "./demo/Link.vue"
 
 ## Overriding
 
-버튼 컴포넌트는 버튼의 크기 및 모서리의 둥글기 정도를 조절할 수 있는 변수를 제공합니다. 해당 변수를 오버라이딩하여 버튼의 크기와 모서리 둥글기를 자유롭게 재정의 할 수 있습니다.
-또한, 버튼 스타일 중 `filled`, `outline` 타입의 변수를 오버라이딩하여 스타일을 재정의 할 수 있습니다.
+버튼 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
+/* button.css */ 
 .n-btn {
   /* btn-size:1 */
   --btn-height-1: 28px;
@@ -340,6 +340,7 @@ import Link from "./demo/Link.vue"
 ```
 
 ```css
+/* root.css */ 
 .n-btn {
   /* btn-size:1 */
   --btn-height-1: 24px;

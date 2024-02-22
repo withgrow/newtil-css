@@ -129,6 +129,7 @@ import Link from "./demo/Link.vue"
 아이템 컴포넌트 변수는 다음과 같습니다:
 
 ```css
+/* item.css */ 
 .n-item {
   --item-padding: 24px;
   --item-border-radius: 16px;
@@ -148,6 +149,7 @@ import Link from "./demo/Link.vue"
 :::
 
 ```css
+/* root.css */ 
 .n-item {
   --item-border-radius: 0;
 }
