@@ -85,7 +85,7 @@ import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 </ExampleSection>
 :::
 
-## 컴포넌트 커스터마이징하기
+## 컴포넌트 커스터마이징하기 {#customize-components}
 
 컴포넌트를 커스터마이징하는 방법에는 두 가지가 있습니다.
 

@@ -61,6 +61,10 @@ import ModalDomExample from "./demo/ModalDomExample.vue";
 }
 ```
 
+:::tip
+컴포넌트 커스터마이징에 대한 자세한 내용은 [컴포넌트 커스터마이징하기](/guide/getting-started-component#customize-components)에서 확인하실 수 있습니다.
+:::
+
 ## Interactive Modal Example
 
 JavaScript DOM과 CSS 애니메이션을 활용하여 인터랙티브한 모달 컴포넌트를 만들 수 있습니다. 다음은 간단한 예시입니다:
