@@ -7,7 +7,7 @@ const newtab = props.newtab;
 <template>
   <a
     :href="`${link}`"
-    class="d:flex ai:center gap:1 text-decoration-line:none color:main-3 font-size:2"
+    class="w:fit-content d:flex ai:center gap:1 text-decoration-line:none color:main-3 font-size:2"
     :target="newtab ? '_blank' : ''">
     {{ text }}
     <span class="icon icon:arrow_up_right icon-size:2 icon-color:main-3"></span>

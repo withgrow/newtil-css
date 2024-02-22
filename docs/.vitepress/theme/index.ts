@@ -1,10 +1,11 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from "vue";
-import type { Theme } from "vitepress";
-import DefaultTheme from "vitepress/theme";
-import "newtil-css";
+import { h } from 'vue';
+import type { Theme } from 'vitepress';
+import DefaultTheme from 'vitepress/theme';
+import Link from '../../components/demo/Link.vue';
+import 'newtil-css';
 
-import "./style.css";
+import './style.css';
 
 export default {
   extends: DefaultTheme,
@@ -14,6 +15,7 @@ export default {
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
-  },
+    //vitepress.dev/guide/extending-default-theme#registering-global-components
+    https: app.component('Link', Link);
+  }
 } satisfies Theme;
