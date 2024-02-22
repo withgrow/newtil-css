@@ -152,20 +152,20 @@
 .n-tile-list.n-tile-list-column\:1,
 .n-tile-list.n-tile-list-col\:1 {
   display: grid;
-  grid-template-columns: repeat(var(--tile-list-column-1), minmax(0, 1fr));
+  grid-template-columns: repeat(var(--tile-list-column-1), 1fr);
 }
 
 .n-tile-list,
 .n-tile-list.n-tile-list-column\:2,
 .n-tile-list.n-tile-list-col\:2 {
   display: grid;
-  grid-template-columns: repeat(var(--tile-list-column-2), minmax(0, 1fr));
+  grid-template-columns: repeat(var(--tile-list-column-2), 1fr);
 }
 
 .n-tile-list.n-tile-list-column\:3,
 .n-tile-list.n-tile-list-col\:3 {
   display: grid;
-  grid-template-columns: repeat(var(--tile-list-column-3), minmax(0, 1fr));
+  grid-template-columns: repeat(var(--tile-list-column-3), 1fr);
 }
 
 .n-tile-list > li {
