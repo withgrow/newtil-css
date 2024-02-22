@@ -22,7 +22,7 @@ const textboxStatus = [
 ]
 </script>
 
-# Form (Form)
+# 폼 (Form)
 
 Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트입니다. [Textbox](./textbox), [Toggle](./toggle) 컴포넌트 등 다양한 입력 도구를 사용하여 폼을 구성할 수 있습니다.
 
@@ -35,9 +35,9 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
 
 :::
 
-## 모아보기
+## Overview
 
-### 타입
+### Type {#overview-type}
 
 `outline-box`, `shadow`, `underline`, `outline-none` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
@@ -61,7 +61,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
   </section>
 </ExampleSection>
 
-### 반응형 레이아웃
+### Responsive Layout {#overview-responseve-layout}
 
 화면 크기에 따라 `label`의 위치를 조정할 수 있습니다. 자세한 내용을 보려면 [여기](#responsive-layout)를 클릭하세요.
 
@@ -103,7 +103,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
   </section>
 </ExampleSection>
 
-### 필드 텍스트박스 타입
+### Field TextBox Type {#overview-field-text-type}
 
 `outline`, `underline` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#field-textbox-type)를 클릭하세요.
 
@@ -133,7 +133,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
   </section>
 </ExampleSection>
 
-### 필드 텍스트박스 상태
+### Field TextBox Status {#overview-field-textbox-status}
 
 `focus`, `success`, `warning`, `disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#field-textbox-status)를 클릭하세요.
 
@@ -152,7 +152,7 @@ Form 컴포넌트는 사용자의 데이터를 응답받기 위한 컴포넌트�
   </section>
 </ExampleSection>
 
-## 사용법
+## Usage
 
 Form 컴포넌트는 `form` 태그에 `n-form` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -187,7 +187,7 @@ Form 컴포넌트를 사용하기 위해서는 다음의 구조를 따라야 합
 
 :::
 
-## 타입 {#type}
+## Type
 
 Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
 
@@ -323,7 +323,7 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
   </tbody>
 </table>
 
-## 반응형 레이아웃 {#responsive-layout}
+## Responsive Layout
 
 기본적으로 필드의 제목이 상단, 컨텐츠가 하단에 위치하며, 화면의 크기에 따라 필드의 레이아웃을 달리할 수 있습니다.
 
@@ -430,7 +430,7 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
   </tbody>
 </table>
 
-## 필드 텍스트박스 타입 {#field-textbox-type}
+## Field TextBox Type
 
 필드의 텍스트박스 타입에는 기본적으로 `outline` 스타일이 적용됩니다.
 
@@ -523,7 +523,7 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
 더 높은 유연성을 가진 `Textbox` 컴포넌트를 사용할 수도 있습니다. 자세한 내용은 [여기](./textbox)를 참고해주세요.
 :::
 
-## 필드 텍스트박스 상태 {#field-textbox-status}
+## Field TextBox Status
 
 필드 텍스트박스의 상태로 `focus`, `success`, `warning`, `disabled`가 제공됩니다.
 
@@ -648,7 +648,7 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
 더 높은 유연성을 가진 `Textbox` 컴포넌트를 사용할 수도 있습니다. 자세한 내용은 [여기](./textbox)를 참고해주세요.
 :::
 
-## 스타일 재정의 {#overriding}
+## Overriding
 
 Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
@@ -682,7 +682,7 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 <ExampleSection class="my:4">
   <form class="n-form border-radius:0 p:10">
@@ -755,7 +755,7 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시 {#example}
+## Example
 
 ::: raw
 

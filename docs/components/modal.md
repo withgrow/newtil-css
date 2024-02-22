@@ -17,7 +17,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 모달 컴포넌트는 요소에 `n-modal` 클래스를 적용하여 사용할 수 있습니다.
 :::raw
@@ -61,7 +61,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-## 인터랙티브 모달 예시
+## Interactive Modal Example
 
 JavaScript DOM과 CSS 애니메이션을 활용하여 인터랙티브한 모달 컴포넌트를 만들 수 있습니다. 다음은 간단한 예시입니다:
 
@@ -157,7 +157,7 @@ window.addEventListener('load', function () {
 
 :::
 
-## 활용 예시
+## Example
 
 모달 컴포넌트를 활용한 다양한 예시입니다.
 

@@ -16,9 +16,9 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 모아보기
+## Overview
 
-### 타입
+### Type {#overview-type}
 
 `slide`, `check`, `dot`, `outline-box` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
@@ -32,7 +32,7 @@ import Link from "./demo/Link.vue"
   </label>
 </div>
 
-### 사이즈
+### Size {#overview-size}
 
 `small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
 
@@ -77,7 +77,7 @@ import Link from "./demo/Link.vue"
     </label>
 </div>
 
-### 상태
+### Status {#overview-status}
 
 `disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#disabled)를 클릭하세요.
 
@@ -91,7 +91,7 @@ import Link from "./demo/Link.vue"
   </label>
 </div>
 
-### 라벨
+### Label {#overview-label}
 
 라벨을 토글의 상단 또는 하단에 위치시킬 수 있습니다. 자세한 내용을 보려면 [여기](#label)를 클릭하세요.
 
@@ -129,7 +129,7 @@ import Link from "./demo/Link.vue"
     </label>
 </div>
 
-## 사용법
+## Usage
 
 토글 컴포넌트는 input 요소에 `n-toggle` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -148,7 +148,7 @@ import Link from "./demo/Link.vue"
 <input type="checkbox" class="n-toggle" />
 ```
 
-## 타입 {#type}
+## Type
 
 `n-toggle-type:타입명` 또는 `n-toggle:타입명` 약어 클래스를 사용하여 다양한 토글 스타일을 적용할 수 있습니다.
 
@@ -269,7 +269,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 사이즈 {#size}
+## Size
 
 `toggle-size:값` 클래스를 통해 토글 사이즈를 변경할 수 있습니다.
 
@@ -387,7 +387,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-### 아웃라인
+### 아웃라인 박스
 
 <div class="n-item d:flex jc:center gap:4 ai:end mt:4">
     <label class="n-toggle n-toggle-type:outline-box n-toggle-size:1">
@@ -452,7 +452,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 비활성화 {#disabled}
+## Disabled
 
 input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-status:disabled`를 추가하여 토글 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
 
@@ -476,7 +476,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 </label>
 ```
 
-## 라벨 {#label}
+## Label
 
 `n-toggle-label:값` 클래스를 적용하여 라벨을 토글의 상단 또는 하단에 위치시킬 수 있습니다.
 
@@ -592,7 +592,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   </tbody>
 </table>
 
-## 스타일 재정의
+## Overriding
 
 토글 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
@@ -625,7 +625,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 <ExampleSection class="my:4">
   <div class="d:flex ai:center gap:4">
@@ -684,7 +684,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시
+## Example
 
 토글 컴포넌트를 활용한 다양한 예시입니다.
 

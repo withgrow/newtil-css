@@ -16,9 +16,9 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 모아보기
+## Overview
 
-### 스타일
+### Style {#overview-style}
 
 테이블 컴포넌트는 기본 스타일과 `striped` 타입이 추가적으로 제공됩니다. 자세한 내용을 보려면 [여기](#style)를 클릭하세요.
 
@@ -90,7 +90,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-### 레이아웃
+### Layout {#overview-layout}
 
 테이블 컴포넌트는 `bbs-table` 레이아웃이 제공됩니다. 자세한 내용을 보려면 [여기](#layout)를 클릭하세요.
 
@@ -123,7 +123,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-### 사이즈
+### Size {#overview-size}
 
 테이블 컴포넌트는 셀의 높이와 너비를 단계별로 제공합니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
 
@@ -305,7 +305,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-### 호버
+### Hover {#overview-hover}
 
 사용자가 데이터를 쉽게 식별할 수 있도록, 특정 행 위로 마우스를 이동할 때 호버 효과를 줄 수 있습니다. 자세한 내용을 보려면 [여기](#hover)를 클릭하세요.
 
@@ -338,7 +338,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-### 테두리
+### Border {#overview-borders}
 
 테이블 컴포넌트에 테두리 스타일을 적용할 수 있습니다. 자세한 내용을 보려면 [여기](#border)를 클릭하세요.
 
@@ -435,7 +435,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-### 모서리 둥글기
+### Border Radius {#overview-border-radius}
 
 테이블 컴포넌트는 모서리 둥글기를 단계별로 제공합니다. 자세한 내용을 보려면 [여기](#border-radius)를 클릭하세요.
 
@@ -584,7 +584,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 테이블 컴포넌트는 요소에 `n-table` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -648,7 +648,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 스타일 {#style}
+## Style
 
 테이블 컴포넌트는 기본 스타일을 포함한 `striped` 스타일을 추가로 제공합니다. `striped` 스타일은 `n-table-style:스타일` 또는 `n-table:스타일` 클래스를 통해 적용할 수 있습니다.
 
@@ -733,7 +733,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 레이아웃 {#layout}
+## Layout
 
 테이블 컴포넌트는 `bbs-table` 레이아웃을 추가로 제공하며 요소에 `n-bbs-table` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -812,7 +812,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 사이즈 {#size}
+## Size
 
 ### Basic
 
@@ -1267,7 +1267,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 호버 {#hover}
+## Hover
 
 `n-table-hover` 클래스를 사용하여 테이블의 데이터를 가리킬 때 해당 행에 호버 효과를 줄 수 있습니다.
 
@@ -1346,7 +1346,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 테두리 {#border}
+## Border
 
 `n-table-border`, `n-table-border:bottom`, `n-table-border:column` 클래스를 통해 테두리 스타일을 적용할 수 있습니다.
 
@@ -1559,7 +1559,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 모서리 둥글기 {#border-radius}
+## Border Radius
 
 `n-table-border-radius:값` 클래스를 사용하여 단계별 모서리 둥글기를 사용할 수 있습니다.
 
@@ -1930,7 +1930,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 스타일 재정의
+## Overriding
 
 테이블 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
@@ -1959,7 +1959,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 <br/>
 

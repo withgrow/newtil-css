@@ -16,7 +16,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 페이지네이션 컴포넌트는 `ul` 요소에 `n-pagination` 클래스를 적용하고, 활성화된 페이지를 `li` 요소에 `active` 클래스를 추가하여 나타냅니다. 페이지 번호는 내부 `<button>` 또는 `<a> `요소로 나타낼 수 있습니다.
 
@@ -60,7 +60,7 @@ import Link from "./demo/Link.vue"
 </div>
 ```
 
-## 비활성화
+## Disabled
 
 `li` 요소 또는 `n-page` 클래스에 `disabled` 클래스를 추가하여 페이지네이션 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
 

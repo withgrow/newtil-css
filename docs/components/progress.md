@@ -17,9 +17,9 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 모아보기
+## Overview
 
-### 색상
+### Color {#overview-color}
 
 `main`, `sub`, `accent`, `base` 색상이 제공됩니다. 자세한 내용을 보려면 [여기](#color)를 클릭하세요.
 
@@ -38,7 +38,7 @@ import Link from "./demo/Link.vue"
   </div>
 </div>
 
-## 사용법
+## Usage
 
 프로그레스 컴포넌트는 요소에 `n-progress` 클래스를 적용하고, 내부에 `div` 요소를 추가하여 진행 상태를 나타내는 너비를 설정합니다.
 
@@ -56,7 +56,7 @@ import Link from "./demo/Link.vue"
 </div>
 ```
 
-## 색상{#color}
+## Color
 
 `n-progress-color:색상` 클래스를 통해 프로그레스의 색을 변경할 수 있습니다.
 
@@ -97,7 +97,7 @@ import Link from "./demo/Link.vue"
 | accent | `n-progress-color:accent` |
 | base   | `n-progress-color:base`   |
 
-## 스타일 재정의
+## Overriding
 
 프로그레스 컴포넌트의 변수는 다음과 같습니다:
 
@@ -114,7 +114,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 <ExampleSection>
 <div class="n-item example w:100p">

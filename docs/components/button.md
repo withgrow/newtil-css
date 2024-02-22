@@ -16,9 +16,9 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 모아보기
+## Overview
 
-### 타입
+### Type {#overview-type}
 
 `filled`, `outline-box`, `void` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
@@ -28,7 +28,7 @@ import Link from "./demo/Link.vue"
   <button class="n-btn n-btn:void">Button</button>
 </div>
 
-### 사이즈
+### Size {#overview-size}
 
 `small`, `medium`, `large` 사이즈가 제공됩니다. 자세한 내용을 보려면 [여기](#size)를 클릭하세요.
 
@@ -38,7 +38,7 @@ import Link from "./demo/Link.vue"
   <button type="button" class="n-btn n-btn-size:3">Button</button>
 </div>
 
-### 색상
+### Color {#overview-color}
 
 `main`, `sub`, `accent`, `base` 색상이 제공됩니다. 자세한 내용을 보려면 [여기](#color)를 클릭하세요.
 
@@ -49,7 +49,7 @@ import Link from "./demo/Link.vue"
   <button type="button" class="n-btn n-btn-color:base">Button</button>
 </div>
 
-### 상태
+### Status
 
 `disabled` 상태가 제공됩니다. 자세한 내용을 보려면 [여기](#disabled)를 클릭하세요.
 
@@ -57,7 +57,7 @@ import Link from "./demo/Link.vue"
   <button type="button" class="n-btn" disabled>Button</button>
 </div>
 
-## 사용법
+## Usage
 
 버튼 컴포넌트는 요소에 `n-btn` 클래스를 적용하여 사용할 수 있습니다.
 
@@ -69,7 +69,7 @@ import Link from "./demo/Link.vue"
 <button type="button" class="n-btn">Button</button>
 ```
 
-## 타입 {#type}
+## Type
 
 `n-btn-type:타입` 또는 `n-btn:타입` 약어 클래스를 통해 다양한 버튼 타입을 적용할 수 있습니다.
 
@@ -148,7 +148,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 사이즈 {#size}
+## Size
 
 `n-btn-size:사이즈` 클래스를 통해 버튼 사이즈를 변경할 수 있습니다.
 
@@ -218,7 +218,7 @@ import Link from "./demo/Link.vue"
   </tbody>
 </table>
 
-## 색상 {#color}
+## Color
 
 `n-btn-color:색상` 클래스를 통해 버튼의 색을 변경할 수 있습니다.
 
@@ -264,7 +264,7 @@ import Link from "./demo/Link.vue"
 | accent | `n-btn-color:accent` |
 | base   | `n-btn-color:base`   |
 
-## 비활성화 {#disabled}
+## Disabled {#disabled}
 
 `disabled` 속성을 추가하거나 클래스에 `disabled`를 추가하여 버튼 컴포넌트에 비활성화 스타일을 적용할 수 있습니다.
 
@@ -291,7 +291,7 @@ import Link from "./demo/Link.vue"
 <button type="button" class="n-btn n-btn:void" disabled>void</button>
 ```
 
-## 스타일 재정의 {#overriding}
+## Overriding
 
 버튼 컴포넌트는 버튼의 크기 및 모서리의 둥글기 정도를 조절할 수 있는 변수를 제공합니다. 해당 변수를 오버라이딩하여 버튼의 크기와 모서리 둥글기를 자유롭게 재정의 할 수 있습니다.
 또한, 버튼 스타일 중 `filled`, `outline` 타입의 변수를 오버라이딩하여 스타일을 재정의 할 수 있습니다.
@@ -323,7 +323,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 <ExampleSection class="my:4">
   <div class="d:flex ai:center gap:2">
@@ -373,7 +373,7 @@ import Link from "./demo/Link.vue"
 컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
 :::
 
-## 활용 예시 {#examples}
+## Example
 
 <ExampleSection class="mb:4">
   <div class="d:flex gap:2">

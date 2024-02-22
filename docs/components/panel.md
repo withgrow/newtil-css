@@ -16,7 +16,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 예시
+## Example
 
 패널 컴포넌트를 사용하여 구성된 예시는 다음 링크를 통해 확인할 수 있습니다.
 
@@ -64,7 +64,7 @@ import Link from "./demo/Link.vue"
 
 :::
 
-## 사용법
+## Usage
 
 패널 컴포넌트는 화면의 주요 영역을 구분하는데 사용됩니다. `n-panel` 클래스와 함께 특정 패널 타입을 지정하는 클래스(`n-top-panel`, `n-side-panel`, `n-menu-panel`, `n-main-panel`)를 사용하여 각 영역을 정의합니다.
 
@@ -88,7 +88,7 @@ import Link from "./demo/Link.vue"
 <main class="n-panel n-main-panel"></main>
 ```
 
-## 스타일 재정의
+## Overriding
 
 패널 컴포넌트는 `top-panel`과 `side-panel`에 대한 변수를 제공합니다.
 
@@ -102,7 +102,7 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-### 스타일 재정의 예시
+### Example
 
 ```css
 /* root.css */
