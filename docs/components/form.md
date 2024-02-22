@@ -675,6 +675,7 @@ Form 컴포넌트에는 기본적으로 `outlin` 스타일이 적용됩니다.
 Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
+/* form.css */
 .n-form {
   /* form style */
   --form-border-radius: 16px;

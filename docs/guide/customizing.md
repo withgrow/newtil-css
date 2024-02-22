@@ -2,47 +2,40 @@
 import ExampleSection from "../components/demo/ExampleSection.vue"
 </script>
 
-# 스타일 재정의하기
+# 테마 커스터마이징
+`Newtil CSS`는 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) 재정의를 통해 여러분의 프로젝트에 맞는 테마를 적용할 수 있습니다. <br/>
+이제 커스터마이징하는 방법을 알아봅시다. 🚀
 
-`Newtil CSS`의 스타일을 여러분의 프로젝트에 맞게 스타일을 커스터마이징하는 알려드릴 차례입니다. 🚀
+## 커스터마이징 방법
 
-### 변수를 나만의 스타일로
-
-아래 예시를 살펴보세요:
-
-```html{1}
-<div class="padding:5 background-color:main-1 border-radius:2 color:base-1">
-  Hello World
-</div>
-```
-
-<ExampleSection>
-  <template #h>스타일 재정의하기</template>
-  <div class="padding:5 bg-color:main-1 border-radius:2 color:base-1">Hello World</div>
-</ExampleSection>
-
-이 Hello World 예시에는 다음과 같은 스타일이 적용되어 있습니다.
-
-- 5단계 패딩 : `padding:5`
-- 1단계 메인 배경 색 : `background-color:main-1`
-- 2단계 모서리 둥글기 : `border-radius:2`
-
-`Newtil CSS`는 이런 단계를 미리 정의하고 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)와 [계단식 및 상속](https://developer.mozilla.org/ko/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)을 통해 간편하게 디자인을 조절할 수 있습니다.
+`Newtil CSS`에서는 기본적으로 아래와 같은 메인 테마 색상을 제공하며, 해당 변수를 사용하는 모든  컴포넌트와 유틸리티에 자동으로 적용됩니다.
 
 ```css
 :root {
-  /* 이런 변수들이 준비되어있습니다 */
   --color-main-1: #99c842;
   --color-main-2: #85b132;
   --color-main-3: #759d2a;
 }
 ```
 
-이제 여러분의 프로젝트에 어떻게 적용할 수 있는지 알아보겠습니다.
+<ExampleSection class="d:flex ai:center gap:4">
+  <button type="button" class="n-btn">Button</button>
+  <input type="checkbox" class="n-toggle" checked/>
+  <input type="radio" class="n-toggle n-toggle:dot" checked/>
+</ExampleSection>
 
-## CSS 사용자 정의하기
+그런데 만약 여러분의 프로젝트 메인 컬러가 파란색 계열이라면, 이를 오버라이딩할 필요가 있습니다.
 
-프로젝트에 맞게 스타일을 맞춤 설정하려면, 다음과 같이 `root.css` 파일을 생성하고 추가합니다.
+<ExampleSection class="d:flex ai:center gap:4">
+  <button type="button" class="n-btn example">Button</button>
+  <input type="checkbox" class="n-toggle example" checked/>
+  <input type="radio" class="n-toggle n-toggle:dot example" checked/>
+</ExampleSection>
+
+### CSS 사용자 정의하기 {#overriding}
+
+프로젝트에 맞게 스타일을 커스터마이징하려면, 다음과 같이 `root.css` 파일을 생성하고 추가합니다.
+
 :::warning TIP
 파일명은 사용자의 편의에 따라 자유롭게 변경할 수 있습니다.
 :::
@@ -78,3 +71,23 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 ```
 
 이제 `root.css` 파일에 원하는 스타일을 추가하여 `Newtil CSS` 라이브러리를 프로젝트에 맞게 맞춤 설정할 수 있습니다.
+
+
+<style>
+.n-btn.example{
+  background-color: #4263eb;
+}
+
+.n-toggle.example{
+  background-color: #4263eb;
+}
+
+.n-toggle.n-toggle\:dot.example{
+  background-color: #ffff;
+  border-color: #4263eb;
+}
+
+.n-toggle.n-toggle\:dot.example::before{
+  background-color: #4263eb;
+}
+</style>

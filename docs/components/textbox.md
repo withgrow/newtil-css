@@ -253,7 +253,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>outline</td>
+      <th>outline</th>
       <td>
         <code>n-textbox-type:outline</code>
       </td>
@@ -264,7 +264,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>underline</td>
+      <th>underline</th>
       <td>
         <code>n-textbox-type:underline</code>
       </td>
@@ -310,7 +310,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>outline</td>
+      <th>outline</th>
       <td>
         <code>n-textbox-type:outline</code>
       </td>
@@ -719,6 +719,7 @@ import Link from "./demo/Link.vue"
 텍스트 박스 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
+/* textbox.css */ 
 .n-textbox {
   /* textbox-size */
   --textbox-padding-x: 12px;
@@ -783,6 +784,7 @@ import Link from "./demo/Link.vue"
 ```
 
 ```css
+/* root.css */ 
 .n-textbox {
   /* textbox-size */
   --textbox-padding-x: 14px;

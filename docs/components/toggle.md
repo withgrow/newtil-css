@@ -55,7 +55,7 @@ import Link from "./demo/Link.vue"
 #### 도트
 
 <div class="n-item d:flex jc:center gap:4 ai:end my:4">
-  <input type="check" class="n-toggle n-toggle-type:dot n-toggle-size:1"/>
+  <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:1"/>
   <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:2"/>
   <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:3"/>
 </div>
@@ -190,7 +190,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>slide</td>
+      <th>slide</th>
       <td>
         <code>n-toggle-type:slide</code>
       </td>
@@ -209,7 +209,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>check</td>
+      <th>check</th>
       <td>
         <code>n-toggle-type:check</code>
       </td>
@@ -227,7 +227,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>dot</td>
+      <th>dot</th>
       <td>
         <code>n-toggle-type:dot</code>
       </td>
@@ -246,7 +246,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>outline-box</td>
+      <th>outline-box</th>
       <td>
         <code>n-toggle-type:outline-box</code>
       </td>
@@ -432,19 +432,19 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <th>1</th>
       <td>
         <code>n-toggle-size:1</code>
       </td>
     </tr>
     <tr>
-      <td>2</td>
+      <th>2</th>
       <td>
         <code>n-toggle-size:2</code>
       </td>
     </tr>
     <tr>
-      <td>3</td>
+      <th>3</th>
       <td>
         <code>n-toggle-size:3</code>
       </td>
@@ -597,7 +597,8 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 토글 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
-.n-textbox {
+/* toggle.css */ 
+.n-toggle {
   /* n-toggle-type:slide */
   --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
   --n-toggle-slide-checked-background-color: var(--color-main-2);
@@ -650,6 +651,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 ```
 
 ```css
+/* root.css */ 
 .n-toggle {
   --main-color: #f4a423;
 

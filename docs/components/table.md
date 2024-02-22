@@ -1001,12 +1001,14 @@ import Link from "./demo/Link.vue"
 <table>
   <thead>
     <tr>
+      <th scope="col">사이즈</th>
       <th scope="col">클래스</th>
       <th scope="col">변수</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <th>1</th>
       <td><code>n-cell-height:1</code></td>
       <td>
         <span class="code">
@@ -1018,6 +1020,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
+      <th>2</th>
       <td><code>n-cell-height:2</code></td>
       <td>
         <span class="code">
@@ -1029,6 +1032,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
+      <th>3</th>
       <td><code>n-cell-height:3</code></td>
       <td>
         <span class="code">
@@ -1229,12 +1233,14 @@ import Link from "./demo/Link.vue"
 <table>
   <thead>
     <tr>
+      <th scope="col">사이즈</th>
       <th scope="col">클래스</th>
       <th scope="col">변수</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <th>1</th>
       <td><code>n-cell-width:1</code></td>
       <td>
         <span class="code">
@@ -1245,6 +1251,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
+      <th>2</th>
       <td><code>n-cell-width:2</code></td>
       <td>
         <span class="code">
@@ -1255,6 +1262,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
+      <th>3</th>
       <td><code>n-cell-width:3</code></td>
       <td>
         <span class="code">
@@ -1873,7 +1881,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <th>1</th>
       <td><code>n-table-border-radius:1</code></td>
       <td>
         <span class="code">
@@ -1884,7 +1892,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>2</td>
+      <th>2</th>
       <td><code>n-table-border-radius:2</code></td>
       <td>
         <span class="code">
@@ -1895,7 +1903,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>3</td>
+      <th>3</th>
       <td><code>n-table-border-radius:3</code></td>
       <td>
         <span class="code">
@@ -1935,6 +1943,7 @@ import Link from "./demo/Link.vue"
 테이블 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
+/* table.css */ 
 .n-table {
   /* table-cell-size */
   --table-cell-padding-x: 16px;
@@ -2026,7 +2035,8 @@ import Link from "./demo/Link.vue"
 :::
 
 ```css
-.n-textbox {
+/* root.css */ 
+.n-table {
   /* table-cell-size */
   --table-cell-padding-x: 12px;
   --table-cell-height-1: 24px;

@@ -90,18 +90,47 @@ import Link from "./demo/Link.vue"
 </div>
 ```
 
-| 색상   | 클래스                    |
-| ------ | ------------------------- |
-| main   | `n-progress-color:main`   |
-| sub    | `n-progress-color:sub`    |
-| accent | `n-progress-color:accent` |
-| base   | `n-progress-color:base`   |
+<table>
+  <thead>
+    <tr>
+      <th scope="col">색상</th>
+      <th scope="col">클래스</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>main</th>
+      <td>
+        <code>n-progress-color:main</code>
+      </td>
+    </tr>
+    <tr>
+      <th>sub</th>
+      <td>
+        <code>n-progress-color:sub</code>
+      </td>
+    </tr>
+    <tr>
+      <th>accent</th>
+      <td>
+        <code>n-progress-color:accent</code>
+      </td>
+    </tr>
+    <tr>
+      <th>base</th>
+      <td>
+        <code>n-progress-color:base</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Overriding
 
 프로그레스 컴포넌트의 변수는 다음과 같습니다:
 
 ```css
+/* progress.css */ 
 .n-progress {
   --progress-height: 6px;
   --progress-border-radius: 999px;
@@ -133,6 +162,7 @@ import Link from "./demo/Link.vue"
 ```
 
 ```css
+/* root.css */ 
 .n-item .n-progress {
   --progress-height: 10px;
   --progress-background-color: #f1f3f5;

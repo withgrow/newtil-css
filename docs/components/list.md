@@ -606,13 +606,91 @@ import Link from "./demo/Link.vue"
 }
 ```
 
-## Overriding
+## Eaxmple
 
-:::tip
-컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
+:::raw
+<ExampleSection class="d:block">
+<template #h>예시</template>
+
+<ul class="n-list n-list-item:shadow">
+  <li class="d:flex">
+    <div class="h:2 w:2 bd-radius:3 of:hidden">
+      <img alt="americano" src="/coffe_americano.png" class="h:100p w:100p obj-fit:cover"/>
+    </div>
+    <div class="ml:6">
+      <div class="n-font:subtitle">americano</div>
+      <div class="color:base-7 font-weight:2">$4.00</div>
+    </div>
+  </li>
+  <li class="d:flex">
+    <div class="h:2 w:2 bd-radius:3 of:hidden">
+      <img alt="americano" src="/coffe_cappuccino.png" class="h:100p w:100p obj-fit:cover"/>
+    </div>
+    <div class="ml:6">
+      <div class="n-font:subtitle">cappuccino</div>
+      <div class="color:base-7 font-weight:2">$5.00</div>
+    </div>
+  </li>
+  <li class="d:flex">
+    <div class="h:2 w:2 bd-radius:3 of:hidden">
+      <img alt="americano" src="/coffe_latte.png" class="h:100p w:100p obj-fit:cover"/>
+    </div>
+    <div class="ml:6">
+      <div class="n-font:subtitle">latte</div>
+      <div class="color:base-7 font-weight:2">$5.00</div>
+    </div>
+  </li>
+</ul>
+</ExampleSection>
 :::
 
-## Eaxmple
+:::details code
+
+```html
+<ul class="n-list n-list-item:shadow">
+  <li class="d:flex">
+    <div class="h:2 w:2 bd-radius:3 of:hidden">
+      <img
+        alt="americano"
+        src="/coffe_americano.png"
+        class="h:100p w:100p obj-fit:cover"
+      />
+    </div>
+    <div class="ml:6">
+      <div class="n-font:subtitle">americano</div>
+      <div class="color:base-7 font-weight:2">$4.00</div>
+    </div>
+  </li>
+  <li class="d:flex">
+    <div class="h:2 w:2 bd-radius:3 of:hidden">
+      <img
+        alt="americano"
+        src="/coffe_cappuccino.png"
+        class="h:100p w:100p obj-fit:cover"
+      />
+    </div>
+    <div class="ml:6">
+      <div class="n-font:subtitle">cappuccino</div>
+      <div class="color:base-7 font-weight:2">$5.00</div>
+    </div>
+  </li>
+  <li class="d:flex">
+    <div class="h:2 w:2 bd-radius:3 of:hidden">
+      <img
+        alt="americano"
+        src="/coffe_latte.png"
+        class="h:100p w:100p obj-fit:cover"
+      />
+    </div>
+    <div class="ml:6">
+      <div class="n-font:subtitle">latte</div>
+      <div class="color:base-7 font-weight:2">$5.00</div>
+    </div>
+  </li>
+</ul>
+```
+
+:::
 
 ::: raw
 

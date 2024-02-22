@@ -93,6 +93,7 @@ import Link from "./demo/Link.vue"
 패널 컴포넌트는 `top-panel`과 `side-panel`에 대한 변수를 제공합니다.
 
 ```css
+/* panel.css */ 
 .n-panel {
   --top-panel-height: 64px; /* top-panel의 높이 */
   --top-panel-z-index: 1000; /* top-panel의 z-index */

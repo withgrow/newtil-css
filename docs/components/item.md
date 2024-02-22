@@ -62,7 +62,7 @@ import Link from "./demo/Link.vue"
   </thead>
   <tbody>
     <tr>
-      <td class="white-space:nowrap">outline-box</td>
+      <th class="white-space:nowrap">outline-box</th>
       <td>
         <code>
           n-item-type:outline-box
@@ -83,7 +83,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>shadow</td>
+      <th>shadow</th>
       <td>
         <code>
           n-item-type:shadow
@@ -96,7 +96,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>underline</td>
+      <th>underline</th>
       <td>
         <code>
           n-item-type:underline
@@ -109,7 +109,7 @@ import Link from "./demo/Link.vue"
       </td>
     </tr>
     <tr>
-      <td>none</td>
+      <th>none</th>
       <td>
         <code>
           n-item-type:none
@@ -129,6 +129,7 @@ import Link from "./demo/Link.vue"
 아이템 컴포넌트 변수는 다음과 같습니다:
 
 ```css
+/* item.css */ 
 .n-item {
   --item-padding: 24px;
   --item-border-radius: 16px;
@@ -148,6 +149,7 @@ import Link from "./demo/Link.vue"
 :::
 
 ```css
+/* root.css */ 
 .n-item {
   --item-border-radius: 0;
 }
