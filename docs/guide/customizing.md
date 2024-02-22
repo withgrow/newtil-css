@@ -6,12 +6,10 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 `Newtil CSS`는 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) 재정의를 통해 여러분의 프로젝트에 맞는 테마를 적용할 수 있습니다. <br/>
 이제 커스터마이징하는 방법을 알아봅시다. 🚀
 
-<!-- ## 변수를 나만의 스타일로 -->
 ## 커스터마이징 방법
 
 `Newtil CSS`에서는 기본적으로 아래와 같은 메인 테마 색상을 제공하며, 해당 변수를 사용하는 모든  컴포넌트와 유틸리티에 자동으로 적용됩니다.
 
-<!-- ####  -->
 ```css
 :root {
   --color-main-1: #99c842;
@@ -27,16 +25,6 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 </ExampleSection>
 
 그런데 만약 여러분의 프로젝트 메인 컬러가 파란색 계열이라면, 이를 오버라이딩할 필요가 있습니다.
- <!-- 예시와 같이 변수 값을 지정함으로써 해당 변수를 사용하는 모든 컴포넌트와 유틸리티에 자동으로 적용할 수 있습니다. 커스터마이징 적용 방법에 대한 자세한 내용은 [여기](#overriding)를 클릭하세요. -->
-
-<!-- ```css
-/* css/root.css */
-:root {
-  --color-main-1: #3b5bdb;
-  --color-main-2: #4263eb;
-  --color-main-3: #4c6ef5;
-}
-``` -->
 
 <ExampleSection class="d:flex ai:center gap:4">
   <button type="button" class="n-btn example">Button</button>
