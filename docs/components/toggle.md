@@ -653,31 +653,29 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 ```css
 /* root.css */
 .n-toggle {
-  --main-color: #f4a423;
-
-  /* toggle-type:slide */
-  --toggle-slide-background-color: #cccccc;
-  --toggle-slide-checked-background-color: var(--main-color);
-  --toggle-slide-circle-color: #f0f0f0;
+  /* toggle:slide */
+  --toggle-slide-background-color: #CCCCCC;
+  --toggle-slide-checked-background-color: #f4a423;
+  --toggle-slide-circle-color: #F0F0F0;
   --toggle-slide-circle-checked-color: var(--color-base-1);
 
-  /* toggle-type:check */
-  --toggle-check-border-color: var(--main-color);
+  /* toggle:check */
+  --toggle-check-border-color: #f4a423;
   --toggle-check-bagkground-color: var(--color-base-1);
-  --toggle-check-checked-background-color: var(--color-main-2);
+  --toggle-check-checked-background-color: #f4a423;
 
-  /* toggle-type:dot */
-  --toggle-dot-border-color: #cccccc;
+  /* n-toggle:dot */
+  --toggle-dot-border-color: #CCCCCC;
   --toggle-dot-background-color: var(--color-base-1);
-  --toggle-dot-checked-border-color: var(--main-color);
-  --toggle-dot-checked-background-color: var(--main-color);
+  --toggle-dot-checked-border-color: #f4a423;
+  --toggle-dot-checked-background-color: #f4a423;
 
-  /* toggle-type:outline-box */
-  --toggle-outline-color: var(--main-color);
+  /* toggle:outline-box */
+  --toggle-outline-color: #f4a423;
   --toggle-outline-background-color: var(--color-base-1);
-  --toggle-outline-border-color: var(--main-color);
+  --toggle-outline-border-color: #f4a423;
   --toggle-outline-checked-color: var(--color-base-1);
-  --toggle-outline-checked-background-color: var(--main-color);
+  --toggle-outline-checked-background-color: #f4a423;
   --toggle-outline-checked-border-color: transparent;
 }
 ```
@@ -900,17 +898,6 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 :::
 
 <style>
-    .n-toggle-type\:check:checked::before{
-        mask-image: none;
-        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 256 256"><rect width="100%" height="100%" fill="%2385b132"/><path fill="%23ffffff" d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51, 63.51a12,12,0,0,1,17,17Z"></path></svg>');
-        border-radius: 4px;
-        background-repeat: no-repeat;
-    }
-
-    .n-toggle-type\:check.example:checked::before{
-        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 256 256"><rect width="100%" height="100%" fill="%23f4a423"/><path fill="%23ffffff" d="M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z"></path></svg>');
-    }
-
     .n-toggle.example{
         /* toggle:slide */
         --toggle-slide-background-color: #CCCCCC;
@@ -921,7 +908,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
         /* toggle:check */
         --toggle-check-border-color: #f4a423;
         --toggle-check-bagkground-color: var(--color-base-1);
-        --toggle-check-checked-background-color: var(--color-main-2);
+        --toggle-check-checked-background-color: #f4a423;
 
         /* n-toggle:dot */
         --toggle-dot-border-color: #CCCCCC;
