@@ -190,6 +190,19 @@ import ListOverview from "./demo/ListOverview.vue";
 
 :::
 
+### 변수
+
+타일의 사이즈를 조절할 수 있는 변수를 제공합니다.
+
+```css
+.n-list {
+  --tile-size: 80px; /* 기본  */
+  --tile-size-1: 80px;
+  --tile-size-2: 100px;
+  --tile-size-3: 120px;
+}
+```
+
 ## Tag List
 
 태그 레이아웃의 리스트입니다. `n-list` 클래스와 함께 `n-tag-list` 클래스를 사용하여 레이아웃을 적용할 수 있습니다. `active` 클래스를 사용하여 활성화된 태그를 나타낼 수 있습니다.
@@ -265,6 +278,24 @@ import ListOverview from "./demo/ListOverview.vue";
 ```
 
 :::
+
+### 변수
+
+태그의 사이즈를 조절할 수 있는 변수를 제공합니다.
+
+```css
+.n-list {
+  --tag-height: 32px; /* 기본 높이 */
+  --tag-height-1: 24px;
+  --tag-height-2: 32px;
+  --tag-height-3: 40px;
+
+  --tag-padding: 12px; /* 기본 패딩 */
+  --tag-padding-1: 8px;
+  --tag-padding-2: 12px;
+  --tag-padding-3: 16px;
+}
+```
 
 ## Item Type {#item-type}
 
