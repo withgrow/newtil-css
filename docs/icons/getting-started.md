@@ -124,7 +124,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 }
 ```
 
-테마 색에 자세한 내용은 [여기](/variables/theme-colors)를 참고해주세요
+테마 색에 자세한 내용은 [여기](/guide/css-variable-list.html#theme-color)를 참고해주세요
 
 ## 데코레이션
 
@@ -247,7 +247,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 ## 데코레이션 간격
 
-컨텐츠와 데코레이션의 간격 설정이 필요할 때는 `deco-margin-방향:값` 또는 `deco-방향:값`으로 설정할 수 있습니다. 간격은 [`gap`](/variables/gap)과 일치합니다.
+컨텐츠와 데코레이션의 간격 설정이 필요할 때는 `deco-margin-방향:값` 또는 `deco-방향:값`으로 설정할 수 있습니다. 간격은 [`gap`](/guide/css-variable-list.html#theme-color)과 일치합니다.
 
 <ExampleSection>
 <template #h>데코레이션 간격 예시</template>

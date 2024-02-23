@@ -83,4 +83,4 @@
 
 </table>
 
-기본 들여쓰기 크기 `var(--gap)` 설정과 관련된 내용은 [여기](../../variables/gap.md)를 참고해주세요.
+기본 들여쓰기 크기 `var(--gap)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#gap)를 참고해주세요.

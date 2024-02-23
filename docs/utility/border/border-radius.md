@@ -59,4 +59,4 @@
 
 </table>
 
-기본 테두리 둥글기 `var(--border-radius)` 설정과 관련된 내용은 [여기](../../variables/border-radius.md)를 참고해주세요.
+기본 테두리 둥글기 `var(--border-radius)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#border-radius)를 참고해주세요.
