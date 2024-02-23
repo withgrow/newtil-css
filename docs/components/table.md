@@ -1914,7 +1914,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
       </td>
     </tr>
     <tr>
-      <td>4</td>
+      <th>4</th>
       <td><code>n-table-border-radius:4</code></td>
       <td>
         <span class="code">
@@ -1925,7 +1925,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
       </td>
     </tr>
     <tr>
-      <td>5</td>
+      <th>5</th>
       <td><code>n-table-border-radius:5</code></td>
       <td>
         <span class="code">
