@@ -48,3 +48,8 @@
 @import url("./component/table.css");
 @import url("./component/toggle.css");
 @import url("./component/textbox.css");
+
+html,
+body {
+  height: 100%;
+}
