@@ -112,6 +112,9 @@ how to use
   /* textbox-border-radius */
   --textbox-border-radius: 6px;
 
+  /* textbox-border-color */
+  --textbox-border-color: var(--color-base-3);
+
   /* textbox-border-width */
   --textbox-underline-border-width: 1.6px;
 
@@ -191,7 +194,7 @@ how to use
   line-height: 150%;
 
   background-color: var(--color-base-1);
-  border: 1px solid var(--color-base-3);
+  border: 1px solid var(--textbox-border-color);
   border-radius: var(--textbox-border-radius);
   box-shadow: 0px 1px 1.5px 0px rgba(0, 0, 0, 0.05);
 
