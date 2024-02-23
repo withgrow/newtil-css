@@ -683,7 +683,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 ```
 
 :::tip
-컴포넌트 스타일 재정의에 대한 자세한 내용은 [스타일 재정의하기](/guide/customizing)에서 확인하실 수 있습니다.
+컴포넌트 커스터마이징에 대한 자세한 내용은 [컴포넌트 커스터마이징하기](/guide/getting-started-component#customize-components)에서 확인하실 수 있습니다.
 :::
 
 ## Example
