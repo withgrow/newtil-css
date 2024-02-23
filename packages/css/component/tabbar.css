@@ -1,0 +1,99 @@
+.n-tabbar {
+  --tabbar-border-bottom: 1px solid var(--color-base-2);
+
+  --tab-active-color: var(--color-main-2);
+}
+
+.n-tabbar {
+  position: relative;
+  display: flex;
+
+  width: 100%;
+  border-bottom: var(--tabbar-border-bottom);
+
+  overflow: auto;
+}
+
+.n-tabbar > li,
+.n-tabbar .n-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(var(--rgb-base-10), 0.6);
+
+  cursor: pointer;
+}
+
+.n-tabbar > li > a,
+.n-tabbar > li > button {
+  padding: 8px 16px;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  cursor: inherit;
+  white-space: nowrap;
+  transition: border-color 0.13s, background-color 0.13s;
+}
+.n-tabbar .n-tab {
+  padding: 8px 16px;
+  white-space: nowrap;
+  transition: border-color 0.13s, background-color 0.13s;
+}
+
+.n-tabbar > li:not(.active, .disabled) > a:active,
+.n-tabbar > li:not(.active, .disabled) > button:active,
+.n-tabbar .n-tab:not(.active, .disabled):active {
+  color: rgba(var(--rgb-base-10), 0.87);
+  background-color: rgba(var(--rgb-base-10), 0.05);
+}
+
+/* active ---------------------------------------------------------------------------- */
+.n-tabbar .active {
+  color: var(--tab-active-color);
+  border-color: var(--tab-active-color);
+}
+
+/* disabled ---------------------------------------------------------------------------- */
+.n-tabbar .disabled {
+  color: rgba(var(--rgb-base-10), 0.27);
+  cursor: not-allowed;
+}
+
+/* n-tab-grow ---------------------------------------------------------------------------- */
+.n-tabbar.n-tab-grow > li,
+.n-tabbar.n-tab-grow > li > button,
+.n-tabbar.n-tab-grow > li > a,
+.n-tabbar.n-tab-grow .n-tab {
+  flex-grow: 1;
+}
+
+/* n-tab-position ---------------------------------------------------------------------------- */
+.n-tabbar.n-tab-position\:left,
+.n-tabbar.n-tab-pos\:left {
+  justify-content: flex-start;
+}
+
+.n-tabbar.n-tab-position\:center,
+.n-tabbar.n-tab-pos\:center {
+  justify-content: center;
+}
+
+.n-tabbar.n-tab-position\:right,
+.n-tabbar.n-tab-pos\:right {
+  justify-content: flex-end;
+}
+
+/* remove scroll ---------------------------------------------------------------------------- */
+.n-tabbar {
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.n-tabbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
