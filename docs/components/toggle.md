@@ -20,7 +20,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 ### Type {#overview-type}
 
-`slide`, `check`, `dot`, `outline-box` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
+`slide`, `check-box`, `dot`, `outline-box` 타입이 제공됩니다. 자세한 내용을 보려면 [여기](#type)를 클릭하세요.
 
 <div class="n-item d:flex jc:center ai:center gap:4 mt:4">
   <input type="checkbox" class="n-toggle n-toggle-type:toggle"/>
@@ -44,7 +44,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
   <input type="checkbox" class="n-toggle n-toggle-type:toggle n-toggle-size:3"/>
 </div>
 
-#### 체크
+#### 체크박스
 
 <div class="n-item d:flex jc:center gap:4 ai:end my:4">
   <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:1"/>
@@ -60,7 +60,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
   <input type="radio" class="n-toggle n-toggle-type:dot n-toggle-size:3"/>
 </div>
 
-#### 아웃라인 박스
+#### 아웃라인박스
 
 <div class="n-item d:flex jc:center gap:4 ai:end mt:4">
     <label class="n-toggle n-toggle-type:outline-box n-toggle-size:1">
@@ -209,7 +209,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
       </td>
     </tr>
     <tr>
-      <th>check</th>
+      <th>check-box</th>
       <td>
         <code>n-toggle-type:check-box</code> <br/>
         <code>n-toggle-type:check</code>
@@ -250,9 +250,11 @@ import ExampleSection from "./demo/ExampleSection.vue"
     <tr>
       <th>outline-box</th>
       <td>
-        <code>n-toggle-type:outline-box</code>
+        <code>n-toggle-type:outline-box</code><br/>
+        <code>n-toggle-type:outline</code>
       </td>
       <td>
+        <code>n-toggle:outline-box</code><br/>
         <code>n-toggle:outline</code>
       </td>
       <td>
@@ -389,7 +391,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 :::
 
-### 아웃라인 박스
+### 아웃라인박스
 
 <div class="n-item d:flex jc:center gap:4 ai:end mt:4">
     <label class="n-toggle n-toggle-type:outline-box n-toggle-size:1">
@@ -608,12 +610,12 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   --toggle-slide-circle-checked-color: var(--color-base-1);
 
   /* toggle-type:check */
-  --toggle-check-border-color: #dee2e6;
+  --toggle-check-border-color: var(--color-base-3);
   --toggle-check-bagkground-color: var(--color-base-1);
   --toggle-check-checked-background-color: var(--color-main-2);
 
   /* toggle-type:dot */
-  --toggle-dot-border-color: #dee2e6;
+  --toggle-dot-border-color: var(--color-base-3);
   --toggle-dot-background-color: var(--color-base-1);
   --toggle-dot-checked-border-color: var(--color-main-2);
   --toggle-dot-checked-background-color: var(--color-main-2);
