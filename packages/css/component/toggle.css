@@ -30,12 +30,12 @@
   --toggle-slide-circle-checked-color: var(--color-base-1);
 
   /* toggle:check */
-  --toggle-check-border-color: #dee2e6;
+  --toggle-check-border-color: var(--color-base-3);
   --toggle-check-bagkground-color: var(--color-base-1);
   --toggle-check-checked-background-color: var(--color-main-2);
 
   /* toggle:dot */
-  --toggle-dot-border-color: #dee2e6;
+  --toggle-dot-border-color: var(--color-base-3);
   --toggle-dot-background-color: var(--color-base-1);
   --toggle-dot-checked-border-color: var(--color-main-2);
   --toggle-dot-checked-background-color: var(--color-main-2);
