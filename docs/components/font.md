@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "./demo/ExampleSection.vue";
+
 
 </script>
 
@@ -99,7 +99,7 @@ import ExampleSection from "./demo/ExampleSection.vue";
 폰트 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 제공하고 있습니다.
 
 ```css
-/* font.css */ 
+/* font.css */
 .n-btn {
   /* title */
   --font-title-font-size: 32px;
@@ -107,25 +107,25 @@ import ExampleSection from "./demo/ExampleSection.vue";
   --font-title-line-height: 150%;
   --font-title-letter-spacing: -0.02em;
 
-/* subtitle */
+  /* subtitle */
   --font-subtitle-font-size: 20px;
   --font-subtitle-font-weight: 500;
   --font-subtitle-line-height: 150%;
   --font-subtitle-letter-spacing: -0.02em;
 
-/* heading-1 */
+  /* heading-1 */
   --font-heading-1-font-size: 26px;
   --font-heading-1-font-weight: 500;
   --font-heading-1-line-height: 150%;
   --font-heading-1-letter-spacing: -0.02em;
 
-/* heading-2 */
+  /* heading-2 */
   --font-heading-2-font-size: 22px;
   --font-heading-2-font-weight: 500;
   --font-heading-2-line-height: 150%;
   --font-heading-2-letter-spacing: -0.02em;
 
-/* heading-3 */
+  /* heading-3 */
   --font-heading-3-font-size: 18px;
   --font-heading-3-font-weight: 500;
   --font-heading-3-line-height: 150%;
@@ -144,25 +144,25 @@ import ExampleSection from "./demo/ExampleSection.vue";
 </ExampleSection>
 
 ```css
-/* font.css */ 
+/* font.css */
 .n-btn {
   /* title */
   --font-title-font-size: 36px;
   --font-title-font-weight: 800;
 
-/* subtitle */
+  /* subtitle */
   --font-subtitle-font-size: 24px;
   --font-subtitle-font-weight: 600;
 
-/* heading-1 */
+  /* heading-1 */
   --font-heading-1-font-size: 30px;
   --font-heading-1-font-weight: 600;
 
-/* heading-2 */
+  /* heading-2 */
   --font-heading-2-font-size: 26px;
   --font-heading-2-font-weight: 600;
 
-/* heading-3 */
+  /* heading-3 */
   --font-heading-3-font-size: 22px;
   --font-heading-3-font-weight: 600;
 }

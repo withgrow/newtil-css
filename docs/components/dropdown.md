@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "./demo/ExampleSection.vue";
+
 import DropdownDomExample from "./demo/DropdownDomExample.vue";
 
 </script>

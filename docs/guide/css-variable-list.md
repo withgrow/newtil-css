@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/demo/ExampleSection.vue"
+
 
 const fontSizes = [12, 14, 16, 18, 20, 22, 26, 32, 56]
 const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]

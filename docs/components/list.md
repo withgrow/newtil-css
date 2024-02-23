@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "./demo/ExampleSection.vue";
+
 import ListOverview from "./demo/ListOverview.vue";
 
 </script>

@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "./demo/ExampleSection.vue";
+
 </script>
 
 # 탭바 (Tabbar)

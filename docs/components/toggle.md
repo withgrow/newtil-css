@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "./demo/ExampleSection.vue"
+
 
 </script>
 
@@ -341,15 +341,21 @@ import ExampleSection from "./demo/ExampleSection.vue"
 ```html
 <label>
   Small
-  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:1" />
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:check-box n-toggle-size:1" />
 </label>
 <label>
   Medium
-  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:2" />
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:check-box n-toggle-size:2" />
 </label>
 <label>
   Large
-  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:3" />
+  <input
+    type="checkbox"
+    class="n-toggle n-toggle-type:check-box n-toggle-size:3" />
 </label>
 ```
 
@@ -658,9 +664,9 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 /* root.css */
 .n-toggle {
   /* toggle:slide */
-  --toggle-slide-background-color: #CCCCCC;
+  --toggle-slide-background-color: #cccccc;
   --toggle-slide-checked-background-color: #f4a423;
-  --toggle-slide-circle-color: #F0F0F0;
+  --toggle-slide-circle-color: #f0f0f0;
   --toggle-slide-circle-checked-color: var(--color-base-1);
 
   /* toggle:check */
@@ -669,7 +675,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   --toggle-check-checked-background-color: #f4a423;
 
   /* n-toggle:dot */
-  --toggle-dot-border-color: #CCCCCC;
+  --toggle-dot-border-color: #cccccc;
   --toggle-dot-background-color: var(--color-base-1);
   --toggle-dot-checked-border-color: #f4a423;
   --toggle-dot-checked-background-color: #f4a423;

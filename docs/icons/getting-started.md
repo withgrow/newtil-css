@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/demo/ExampleSection.vue"
+
 </script>
 
 # 아이콘 시작하기

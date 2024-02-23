@@ -1,5 +1,5 @@
 <script setup>
-import ExampleSection from "../components/demo/ExampleSection.vue"
+
 </script>
 
 # 유틸리티 시작하기
@@ -38,13 +38,11 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 ```html
 <div
-  class="width:5 background-color:base-1 padding:6 border border-radius:4 box-shadow:3"
->
+  class="width:5 background-color:base-1 padding:6 border border-radius:4 box-shadow:3">
   <div class="font-size:5">👋 안녕하세요!</div>
   <div class="margin-top:4 display:flex justify-content:end">
     <button
-      class="padding-x:5 padding-y:1 background-color:main-1 border-radius:2 color:base-1 font-weight:2"
-    >
+      class="padding-x:5 padding-y:1 background-color:main-1 border-radius:2 color:base-1 font-weight:2">
       확인
     </button>
   </div>
@@ -75,8 +73,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
   <div class="font-size:5">👋 안녕하세요!</div>
   <div class="mt:4 d:flex jc:end">
     <button
-      class="px:5 py:1 bg-color:main-1 bd-radius:2 color:base-1 font-weight:2"
-    >
+      class="px:5 py:1 bg-color:main-1 bd-radius:2 color:base-1 font-weight:2">
       확인
     </button>
   </div>

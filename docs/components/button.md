@@ -1,20 +1,11 @@
 <script setup>
-import ExampleSection from "./demo/ExampleSection.vue";
-
 </script>
 
 # 버튼 (Button)
 
 버튼 컴포넌트는 사용자와의 상호작용을 위한 컴포넌트입니다. 주로 사용자의 액션을 나타낼 때 사용됩니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Button]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Button'"/>
 
 ## Overview
 
@@ -472,11 +463,4 @@ import ExampleSection from "./demo/ExampleSection.vue";
 
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Button]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Button'"/>

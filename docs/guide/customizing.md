@@ -1,14 +1,15 @@
 <script setup>
-import ExampleSection from "../components/demo/ExampleSection.vue"
+
 </script>
 
 # 테마 커스터마이징
+
 `Newtil CSS`는 [CSS 변수](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) 재정의를 통해 여러분의 프로젝트에 맞는 테마를 적용할 수 있습니다. <br/>
 이제 커스터마이징하는 방법을 알아봅시다. 🚀
 
 ## 커스터마이징 방법
 
-`Newtil CSS`에서는 기본적으로 아래와 같은 메인 테마 색상을 제공하며, 해당 변수를 사용하는 모든  컴포넌트와 유틸리티에 자동으로 적용됩니다.
+`Newtil CSS`에서는 기본적으로 아래와 같은 메인 테마 색상을 제공하며, 해당 변수를 사용하는 모든 컴포넌트와 유틸리티에 자동으로 적용됩니다.
 
 ```css
 :root {
@@ -71,7 +72,6 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 ```
 
 이제 `root.css` 파일에 원하는 스타일을 추가하여 `Newtil CSS` 라이브러리를 프로젝트에 맞게 맞춤 설정할 수 있습니다.
-
 
 <style>
 .n-btn.example{
