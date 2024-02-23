@@ -1,21 +1,12 @@
 <script setup>
-
 import ListOverview from "./demo/ListOverview.vue";
-
 </script>
 
 # 리스트 (List)
 
 리스트 컴포넌트는 여러개의 아이템을 효율적으로 나타내주는 컴포넌트로, 사용자에게 목록 형태의 정보를 제공합니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[List]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'List'"/>
 
 ## Overview
 
@@ -724,11 +715,4 @@ import ListOverview from "./demo/ListOverview.vue";
 
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[List]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'List'"/>

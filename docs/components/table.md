@@ -1,20 +1,10 @@
-<script setup>
-
-
-</script>
+<script setup></script>
 
 # 테이블 (Table)
 
 테이블 컴포넌트는 데이터를 표 형식으로 구성된 행과 열에 표시하는 데 사용됩니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Table]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Table'"/>
 
 ## Overview
 
@@ -2064,14 +2054,7 @@
 컴포넌트 커스터마이징에 대한 자세한 내용은 [컴포넌트 커스터마이징하기](/guide/getting-started-component#customize-components)에서 확인하실 수 있습니다.
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Table]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Table'"/>
 
 <style>
 .n-table.example{

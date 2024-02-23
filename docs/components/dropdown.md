@@ -1,21 +1,12 @@
 <script setup>
-
 import DropdownDomExample from "./demo/DropdownDomExample.vue";
-
 </script>
 
 # 드롭다운 (Dropdown)
 
 드롭다운 컴포넌트는 사용자에게 목록을 오버레이 해주는 컴포넌트입니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Dropdown]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Dropdown'"/>
 
 ## Usage
 
@@ -244,11 +235,4 @@ window.addEventListener('load', function () {
 
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Dropdown]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Dropdown'"/>

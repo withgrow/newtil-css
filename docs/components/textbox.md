@@ -1,20 +1,10 @@
-<script setup>
-
-
-</script>
+<script setup></script>
 
 # 텍스트 박스 (Textbox)
 
 텍스트 박스 컴포넌트는 주로 사용자로부터 텍스트를 입력받기 위해 사용됩니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Textbox]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Textbox'"/>
 
 ## Overview
 
@@ -904,11 +894,4 @@
 
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Textbox]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Textbox'"/>

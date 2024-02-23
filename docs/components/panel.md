@@ -1,20 +1,10 @@
-<script setup>
-
-
-</script>
+<script setup></script>
 
 # 패널 (Panel)
 
 패널 컴포넌트는 구조를 정의하는데 사용되는 레이아웃 요소입니다. `top`, `side`, `main`, `menu`와 같은 패널을 포함합니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Panel]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Panel'"/>
 
 ## Example
 
@@ -116,11 +106,4 @@
 컴포넌트 커스터마이징에 대한 자세한 내용은 [컴포넌트 커스터마이징하기](/guide/getting-started-component#customize-components)에서 확인하실 수 있습니다.
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Panel]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Panel'"/>

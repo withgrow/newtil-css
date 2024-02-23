@@ -1,20 +1,10 @@
-<script setup>
-
-
-</script>
+<script setup></script>
 
 # 페이지네이션 (Pagination)
 
 페이지네이션 컴포넌트는 페이지 정보를 탐색하는데 사용되는 컴포넌트입니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Pagination]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Pagination'"/>
 
 ## Usage
 
@@ -113,11 +103,4 @@
 </div>
 ```
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Pagination]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Pagination'"/>

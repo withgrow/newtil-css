@@ -1,20 +1,10 @@
-<script setup>
-
-
-</script>
+<script setup></script>
 
 # 토글 (Toggle)
 
 토글 컴포넌트는 온/오프 상태를 가지는 작은 컴포넌트입니다.
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:6">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Toggle]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Toggle'"/>
 
 ## Overview
 
@@ -898,14 +888,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 
 :::
 
-::: raw
-
-<ul class="d:flex ai:center gap:6 mt:10">
-  <li><Link :text="'전체 컴포넌트'" :link="'../guide/getting-started-component'"/></li>
-  <li><Link :text="'이슈 제출하기'" :link="'https://github.com/newlecture-corp/newtil-css/issues/new?title=[Toggle]%20'" :newtab="true"/></li>
-</ul>
-
-:::
+<QuickLinks :componentName="'Toggle'"/>
 
 <style>
     .n-toggle.example{

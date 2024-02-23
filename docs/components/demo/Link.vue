@@ -13,4 +13,12 @@ const newtab = props.newtab;
     <span class="icon icon:arrow_up_right icon-size:2 icon-color:main-3"></span>
   </a>
 </template>
-<style scoped></style>
+<style scoped>
+span {
+  transition: transform 0.2s;
+}
+
+a:hover span {
+  transform: translate(2px, -2px);
+}
+</style>
