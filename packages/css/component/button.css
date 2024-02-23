@@ -22,7 +22,7 @@
   --btn-font-size-3: 16px;
 
   /* btn-border-radius */
-  --btn-border-radius: 8px;
+  --btn-border-radius: 6px;
 
   /* btn-type:filled */
   --btn-filled-background-color: var(--color-main-2);
