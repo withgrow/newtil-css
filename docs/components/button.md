@@ -333,6 +333,9 @@ import ExampleSection from "./demo/ExampleSection.vue";
   --btn-padding-3: 4px 20px;
   --btn-font-size-3: 16px;
 
+  /* btn-border-radius */
+  --btn-border-radius: 8px;
+
   /* btn-type:filled */
   --btn-filled-background-color: var(--color-main-2);
   --btn-filled-color: var(--color-base-1);
