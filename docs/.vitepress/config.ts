@@ -5,7 +5,7 @@ const BASE_PATH = '/newtil-css/';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
   base: BASE_PATH,
   title: 'Newtil CSS',
   description: 'Utility based CSS',
@@ -108,6 +108,10 @@ export default defineConfig({
           {
             text: 'Progress',
             link: '/progress'
+          },
+          {
+            text: 'Tabbar',
+            link: '/tabbar',
           },
           {
             text: 'Table',
