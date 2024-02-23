@@ -266,4 +266,4 @@
 
 </table>
 
-기본 테두리 너비 `var(--border-width)` 설정과 관련된 내용은 [여기](../../variables/border-width.md)를 참고해주세요.
+기본 테두리 너비 `var(--border-width)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#border-width)를 참고해주세요.

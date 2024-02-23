@@ -125,4 +125,4 @@ padding-y 속성에 대한 유틸리티입니다.
 
 </table>
 
-기본 패딩 크기 `var(--gap)` 설정과 관련된 내용은 [여기](../../variables/gap.md)를 참고해주세요.
+기본 패딩 크기 `var(--gap)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#gap)를 참고해주세요.

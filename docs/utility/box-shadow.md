@@ -65,4 +65,4 @@
 
 </table>
 
-기본 박스 그림자 스타일 `var(--border-radius)` 설정과 관련된 내용은 [여기](../variables/box-shadow.md)를 참고해주세요.
+기본 박스 그림자 스타일 `var(--box-shadow)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#box-shadow)를 참고해주세요.

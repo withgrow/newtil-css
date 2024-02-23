@@ -233,4 +233,4 @@
 
 </table>
 
-기본 높이값 `var(--height)` 설정과 관련된 내용은 [여기](../../variables/height.md)를 참고해주세요.
+기본 높이값 `var(--height)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#height)를 참고해주세요.

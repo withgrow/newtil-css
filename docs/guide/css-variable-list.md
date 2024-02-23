@@ -37,7 +37,7 @@ const overridedSizes = [12, 14, 16, 18, 20, 22, 24, 26, 28]
 }
 ```
 
-테마 색상 `var(--color-base-3)` 에 대한 내용은 [여기](./theme-colors.md)를 참고해주세요.
+테마 색상 `var(--color-base-3)` 에 대한 내용은 [여기](#theme-color)를 참고해주세요.
 
 ### Overriding
 

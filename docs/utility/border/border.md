@@ -71,4 +71,4 @@
 
 </table>
 
-기본 테두리 색상 `var(--border-color)` 설정과 관련된 내용은 [여기](../../variables/border-color.md)를 참고해주세요.
+기본 테두리 색상 `var(--border-color)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#border-color)를 참고해주세요.

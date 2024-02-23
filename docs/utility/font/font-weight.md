@@ -35,4 +35,4 @@
 
 </table>
 
-기본 폰트 두께 `var(--font-weight)` 설정과 관련된 내용은 [여기](../../variables/font-weight.md)를 참고해주세요.
+기본 폰트 두께 `var(--font-weight)` 설정과 관련된 내용은 [여기](/guide/css-variable-list.html#font-weight)를 참고해주세요.
