@@ -45,15 +45,18 @@
 
 /* main-panel ------------------------------------------------------------- */
 .n-main-panel {
-  padding-top: 2rem;
-  padding-bottom: 192px;
-  min-height: 100vh;
+  height: 100%;
 
   will-change: padding;
   transition: padding 0.3s;
 }
 
 /* main-panel + side-panel ------------------------------------------------------------- */
+.n-side-panel ~ .n-main-panel {
+  padding-top: 32px;
+  padding-bottom: 192px;
+}
+
 @media (min-width: 768px) {
   .n-side-panel ~ .n-main-panel {
     padding-left: var(--side-panel-width-md);
