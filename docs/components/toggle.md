@@ -24,7 +24,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 <div class="n-item d:flex jc:center ai:center gap:4 mt:4">
   <input type="checkbox" class="n-toggle n-toggle-type:toggle"/>
-  <input type="checkbox" class="n-toggle n-toggle-type:check"/>
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box"/>
   <input type="radio" class="n-toggle n-toggle-type:dot"/>
   <label class="n-toggle n-toggle-type:outline-box">
     Outline
@@ -47,9 +47,9 @@ import ExampleSection from "./demo/ExampleSection.vue"
 #### 체크
 
 <div class="n-item d:flex jc:center gap:4 ai:end my:4">
-  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:1"/>
-  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:2"/>
-  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:3"/>
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:1"/>
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:2"/>
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:3"/>
 </div>
 
 #### 도트
@@ -83,7 +83,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 <div class="n-item d:flex jc:center ai:center gap:4 mt:4">
   <input type="checkbox" class="n-toggle n-toggle-type:toggle" disabled/>
-  <input type="checkbox" class="n-toggle n-toggle-type:check" disabled/>
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box" disabled/>
   <input type="radio" class="n-toggle n-toggle-type:dot" disabled/>
   <label class="n-toggle n-toggle-type:outline-box">
     Outline
@@ -104,7 +104,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     </label>
     <label>
         Check
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-label:top"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-label:top"/>
     </label>
      <label>
         Dot
@@ -121,7 +121,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     </label>
     <label>
         Check
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-label:bottom"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-label:bottom"/>
     </label>
      <label>
         Dot
@@ -158,7 +158,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
     <ExampleSection class="mt:4">
         <div class="w:full d:flex jc:center ai:center gap:4">
             <input type="checkbox" class="n-toggle n-toggle-type:slide"/>
-            <input type="checkbox" class="n-toggle n-toggle-type:check"/>
+            <input type="checkbox" class="n-toggle n-toggle-type:check-box"/>
             <input type="checkbox" class="n-toggle n-toggle-type:dot"/>
             <label class="n-toggle n-toggle-type:outline-box">
                 Outline
@@ -171,7 +171,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
 
 ```html
 <input type="checkbox" class="n-toggle n-toggle-type:slide" />
-<input type="checkbox" class="n-toggle n-toggle-type:check" />
+<input type="checkbox" class="n-toggle n-toggle-type:check-box" />
 <input type="checkbox" class="n-toggle n-toggle-type:dot" />
 <label class="n-toggle n-toggle-type:outline-box">
   Outline
@@ -211,15 +211,17 @@ import ExampleSection from "./demo/ExampleSection.vue"
     <tr>
       <th>check</th>
       <td>
+        <code>n-toggle-type:check-box</code> <br/>
         <code>n-toggle-type:check</code>
       </td>
       <td>
-        <code>n-toggle:check</code>
+        <code>n-toggle:check-box</code> <br/>
+        <code>n-toggle:check</code>        
       </td>
       <td>
         <span class="code">
             .n-toggle { <br/> 
-                --n-toggle-check-border-color: #dee2e6; <br/>
+                --n-toggle-check-border-color: var(--color-base-3); <br/>
                 --n-toggle-check-bagkground-color: var(--color-base-1); <br/>
                 --n-toggle-check-checked-background-color: var (--color-main-2); <br/>
             }
@@ -237,7 +239,7 @@ import ExampleSection from "./demo/ExampleSection.vue"
       <td>
         <span class="code">
             .n-toggle { <br/> 
-                --n-toggle-dot-border-color: #dee2e6; <br/>
+                --n-toggle-dot-border-color: var(--color-base-3); <br/>
                 --n-toggle-dot-background-color: var(--color-base-1); <br/>
                 --n-toggle-dot-checked-border-color: var(--color-main-2); <br/>
                 --n-toggle-dot-checked-background-color: var(--color-main-2); <br/>
@@ -320,15 +322,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <div class="n-item d:flex jc:center gap:4 ai:end mt:4">
     <label class="font-size:1 ai:end">
         Small
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:1"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:1"/>
     </label>
     <label class="ai:end">
         Medium
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:2"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:2"/>
     </label>
     <label class="font-size:4 ai:end">
         Large
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:3"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:3"/>
     </label>
 </div>
 
@@ -337,15 +339,15 @@ import ExampleSection from "./demo/ExampleSection.vue"
 ```html
 <label>
   Small
-  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:1" />
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:1" />
 </label>
 <label>
   Medium
-  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:2" />
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:2" />
 </label>
 <label>
   Large
-  <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-size:3" />
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-size:3" />
 </label>
 ```
 
@@ -458,7 +460,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 
 <div class="n-item d:flex jc:center ai:center gap:4 mt:4">
   <input type="checkbox" class="n-toggle n-toggle-type:toggle" disabled/>
-  <input type="checkbox" class="n-toggle n-toggle-type:check" disabled/>
+  <input type="checkbox" class="n-toggle n-toggle-type:check-box" disabled/>
   <input type="radio" class="n-toggle n-toggle-type:dot" disabled/>
   <label class="n-toggle n-toggle-type:outline-box">
     Outline
@@ -468,7 +470,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 
 ```html
 <input type="checkbox" class="n-toggle n-toggle-type:toggle" disabled />
-<input type="checkbox" class="n-toggle n-toggle-type:check" disabled />
+<input type="checkbox" class="n-toggle n-toggle-type:check-box" disabled />
 <input type="radio" class="n-toggle n-toggle-type:dot" disabled />
 <label class="n-toggle n-toggle-type:outline-box">
   Outline
@@ -489,7 +491,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
     </label>
     <label>
         Check
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-label:top"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-label:top"/>
     </label>
      <label>
         Dot
@@ -510,7 +512,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   Check
   <input
     type="checkbox"
-    class="n-toggle n-toggle-type:check n-toggle-label:top" />
+    class="n-toggle n-toggle-type:check-box n-toggle-label:top" />
 </label>
 <label>
   Dot
@@ -544,7 +546,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
     </label>
     <label>
         Check
-        <input type="checkbox" class="n-toggle n-toggle-type:check n-toggle-label:bottom"/>
+        <input type="checkbox" class="n-toggle n-toggle-type:check-box n-toggle-label:bottom"/>
     </label>
      <label>
         Dot
@@ -565,7 +567,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   Check
   <input
     type="checkbox"
-    class="n-toggle n-toggle-type:check n-toggle-label:bottom" />
+    class="n-toggle n-toggle-type:check-box n-toggle-label:bottom" />
 </label>
 <label>
   Dot
@@ -631,7 +633,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 <ExampleSection class="my:4">
   <div class="d:flex ai:center gap:4">
     <input type="checkbox" class="n-toggle example n-toggle-type:toggle"/>
-    <input type="checkbox" class="n-toggle example n-toggle-type:check"/>
+    <input type="checkbox" class="n-toggle example n-toggle-type:check-box"/>
     <input type="radio" class="n-toggle example n-toggle-type:dot"/>
     <label class="n-toggle example n-toggle-type:outline-box">
         Outline
@@ -642,7 +644,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 
 ```html
 <input type="checkbox" class="n-toggle n-toggle-type:toggle" />
-<input type="checkbox" class="n-toggle n-toggle-type:check" />
+<input type="checkbox" class="n-toggle n-toggle-type:check-box" />
 <input type="radio" class="n-toggle n-toggle-type:dot" />
 <label class="n-toggle n-toggle-type:outline-box">
   Outline
@@ -717,7 +719,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
         <ul class="d:flex fl-dir:column gap:2">
             <li>
                 <label>
-                    <input type="checkbox" class="n-toggle n-toggle-type:check"/>
+                    <input type="checkbox" class="n-toggle n-toggle-type:check-box"/>
                     <span class="font-size:2 font-weight:2 d:flex gap:1">
                         <span>(필수)</span>
                         <span>서비스 이용약관에 동의합니다.</span>
@@ -726,7 +728,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
             </li>
             <li>
                 <label>
-                    <input type="checkbox" class="n-toggle n-toggle-type:check"/>
+                    <input type="checkbox" class="n-toggle n-toggle-type:check-box"/>
                     <span span class="font-size:2 font-weight:2 d:flex gap:1">
                         <span class="color:base-5">(선택)</span>
                         <span>마케팅 정보 수신에 동의합니다.</span>
@@ -743,7 +745,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 <ul class="d:flex fl-dir:column gap:2">
   <li>
     <label>
-      <input type="checkbox" class="n-toggle n-toggle-type:check" />
+      <input type="checkbox" class="n-toggle n-toggle-type:check-box" />
       <span class="font-size:2 font-weight:2 d:flex gap:1">
         <span>(필수)</span>
         <span>서비스 이용약관에 동의합니다.</span>
@@ -752,7 +754,7 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   </li>
   <li>
     <label>
-      <input type="checkbox" class="n-toggle n-toggle-type:check" />
+      <input type="checkbox" class="n-toggle n-toggle-type:check-box" />
       <span span class="font-size:2 font-weight:2 d:flex gap:1">
         <span class="color:base-5">(선택)</span>
         <span>마케팅 정보 수신에 동의합니다.</span>
