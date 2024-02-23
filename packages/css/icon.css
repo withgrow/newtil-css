@@ -1313,6 +1313,18 @@
   mask-image: url("../icon/text_underline.svg");
 }
 
+.icon\:thumbs_down::before,
+.icon\:thumbs_down::after {
+  -webkit-mask-image: url("../icon/thumbs_down.svg");
+  mask-image: url("../icon/thumbs_down.svg");
+}
+
+.icon\:thumbs_up::before,
+.icon\:thumbs_up::after {
+  -webkit-mask-image: url("../icon/thumbs_up.svg");
+  mask-image: url("../icon/thumbs_up.svg");
+}
+
 .icon\:trash::before,
 .icon\:trash::after {
   -webkit-mask-image: url("../icon/trash.svg");
@@ -1342,6 +1354,8 @@
   -webkit-mask-image: url("../icon/trophy.svg");
   mask-image: url("../icon/trophy.svg");
 }
+
+
 
 .icon\:upload_simple::before,
 .icon\:upload_simple::after {
