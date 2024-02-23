@@ -726,6 +726,9 @@ import ExampleSection from "./demo/ExampleSection.vue"
   --textbox-input-height: 36px;
   --textbox-textarea-min-height: 58px;
 
+  /* textbox-border-color */
+  --textbox-border-color: var(--color-base-3);
+
   /* textbox-border-radius */
   --textbox-border-radius: 6px;
 
@@ -745,6 +748,10 @@ import ExampleSection from "./demo/ExampleSection.vue"
 <ExampleSection class="my:4">
   <div class="d:flex ai:center fl-dir:column gap:4 w:100p">
     <label>
+      Default
+      <input type="text" class="n-textbox n-textbox-label:top" placeholder="Default Textbox" style="border-color: #000000;"/>
+    </label>
+    <label>
         Focus
         <input type="text" class="n-textbox n-textbox-label:top" placeholder="Outline Textbox" style="padding-left:14px; padding-right:14px; height:40px; border-radius:12px; border-color:#3b82f680;"/>
     </label>
@@ -760,6 +767,13 @@ import ExampleSection from "./demo/ExampleSection.vue"
 </ExampleSection>
 
 ```html
+<label>
+  Default
+  <input
+    type="text"
+    class="n-textbox n-textbox-label:top"
+    placeholder="Outline Textbox" />
+</label>
 <label>
   Focus
   <input
@@ -790,6 +804,9 @@ import ExampleSection from "./demo/ExampleSection.vue"
   --textbox-padding-x: 14px;
   --textbox-input-height: 40px;
   --textbox-textarea-min-height: 80px;
+
+  /* textbox-border-color */
+  --textbox-border-color: var(--color-base-10);
 
   /* textbox-border-radius */
   --textbox-border-radius: 12px;
