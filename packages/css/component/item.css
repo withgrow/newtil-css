@@ -1,6 +1,7 @@
 .n-item {
   --item-padding: 24px;
   --item-border-radius: 16px;
+  --item-border-color: var(--color-base-3);
 }
 
 .n-item {
@@ -16,7 +17,7 @@
 .n-item-type\:outline-box,
 .n-item-type\:outline,
 .n-item\:outline {
-  border: 1px solid var(--color-base-3);
+  border: 1px solid var(--item-border-color);
 }
 
 /* shadow */
