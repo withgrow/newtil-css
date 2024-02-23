@@ -599,30 +599,30 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 ```css
 /* toggle.css */
 .n-toggle {
-  /* n-toggle-type:slide */
-  --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
-  --n-toggle-slide-checked-background-color: var(--color-main-2);
-  --n-toggle-slide-circle-color: var(--color-base-1);
-  --n-toggle-slide-circle-checked-color: var(--color-base-1);
+  /* toggle-type:slide */
+  --toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12);
+  --toggle-slide-checked-background-color: var(--color-main-2);
+  --toggle-slide-circle-color: var(--color-base-1);
+  --toggle-slide-circle-checked-color: var(--color-base-1);
 
-  /* n-toggle-type:check */
-  --n-toggle-check-border-color: #dee2e6;
-  --n-toggle-check-bagkground-color: var(--color-base-1);
-  --n-toggle-check-checked-background-color: var(--color-main-2);
+  /* toggle-type:check */
+  --toggle-check-border-color: #dee2e6;
+  --toggle-check-bagkground-color: var(--color-base-1);
+  --toggle-check-checked-background-color: var(--color-main-2);
 
-  /* n-toggle-type:dot */
-  --n-toggle-dot-border-color: #dee2e6;
-  --n-toggle-dot-background-color: var(--color-base-1);
-  --n-toggle-dot-checked-border-color: var(--color-main-2);
-  --n-toggle-dot-checked-background-color: var(--color-main-2);
+  /* toggle-type:dot */
+  --toggle-dot-border-color: #dee2e6;
+  --toggle-dot-background-color: var(--color-base-1);
+  --toggle-dot-checked-border-color: var(--color-main-2);
+  --toggle-dot-checked-background-color: var(--color-main-2);
 
-  /* n-toggle-type:outline-box */
-  --n-toggle-outline-color: rgba(var(--rgb-base-10), 0.85);
-  --n-toggle-outline-background-color: var(--color-base-1);
-  --n-toggle-outline-border-color: var(--color-base-3);
-  --n-toggle-outline-checked-color: var(--color-base-1);
-  --n-toggle-outline-checked-background-color: var(--color-main-2);
-  --n-toggle-outline-checked-border-color: transparent;
+  /* toggle-type:outline-box */
+  --toggle-outline-color: rgba(var(--rgb-base-10), 0.85);
+  --toggle-outline-background-color: var(--color-base-1);
+  --toggle-outline-border-color: var(--color-base-3);
+  --toggle-outline-checked-color: var(--color-base-1);
+  --toggle-outline-checked-background-color: var(--color-main-2);
+  --toggle-outline-checked-border-color: transparent;
 }
 ```
 
@@ -655,30 +655,30 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
 .n-toggle {
   --main-color: #f4a423;
 
-  /* n-toggle-type:slide */
-  --n-toggle-slide-background-color: #cccccc;
-  --n-toggle-slide-checked-background-color: var(--main-color);
-  --n-toggle-slide-circle-color: #f0f0f0;
-  --n-toggle-slide-circle-checked-color: var(--color-base-1);
+  /* toggle-type:slide */
+  --toggle-slide-background-color: #cccccc;
+  --toggle-slide-checked-background-color: var(--main-color);
+  --toggle-slide-circle-color: #f0f0f0;
+  --toggle-slide-circle-checked-color: var(--color-base-1);
 
-  /* n-toggle-type:check */
-  --n-toggle-check-border-color: var(--main-color);
-  --n-toggle-check-bagkground-color: var(--color-base-1);
-  --n-toggle-check-checked-background-color: var(--color-main-2);
+  /* toggle-type:check */
+  --toggle-check-border-color: var(--main-color);
+  --toggle-check-bagkground-color: var(--color-base-1);
+  --toggle-check-checked-background-color: var(--color-main-2);
 
-  /* n-toggle-type:dot */
-  --n-toggle-dot-border-color: #cccccc;
-  --n-toggle-dot-background-color: var(--color-base-1);
-  --n-toggle-dot-checked-border-color: var(--main-color);
-  --n-toggle-dot-checked-background-color: var(--main-color);
+  /* toggle-type:dot */
+  --toggle-dot-border-color: #cccccc;
+  --toggle-dot-background-color: var(--color-base-1);
+  --toggle-dot-checked-border-color: var(--main-color);
+  --toggle-dot-checked-background-color: var(--main-color);
 
-  /* n-toggle-type:outline-box */
-  --n-toggle-outline-color: var(--main-color);
-  --n-toggle-outline-background-color: var(--color-base-1);
-  --n-toggle-outline-border-color: var(--main-color);
-  --n-toggle-outline-checked-color: var(--color-base-1);
-  --n-toggle-outline-checked-background-color: var(--main-color);
-  --n-toggle-outline-checked-border-color: transparent;
+  /* toggle-type:outline-box */
+  --toggle-outline-color: var(--main-color);
+  --toggle-outline-background-color: var(--color-base-1);
+  --toggle-outline-border-color: var(--main-color);
+  --toggle-outline-checked-color: var(--color-base-1);
+  --toggle-outline-checked-background-color: var(--main-color);
+  --toggle-outline-checked-border-color: transparent;
 }
 ```
 
@@ -912,29 +912,29 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
     }
 
     .n-toggle.example{
-        /* n-toggle:slide */
-        --n-toggle-slide-background-color: #CCCCCC;
-        --n-toggle-slide-checked-background-color: #f4a423;
-        --n-toggle-slide-circle-color: #F0F0F0;
-        --n-toggle-slide-circle-checked-color: var(--color-base-1);
+        /* toggle:slide */
+        --toggle-slide-background-color: #CCCCCC;
+        --toggle-slide-checked-background-color: #f4a423;
+        --toggle-slide-circle-color: #F0F0F0;
+        --toggle-slide-circle-checked-color: var(--color-base-1);
 
-        /* n-toggle:check */
-        --n-toggle-check-border-color: #f4a423;
-        --n-toggle-check-bagkground-color: var(--color-base-1);
-        --n-toggle-check-checked-background-color: var(--color-main-2);
+        /* toggle:check */
+        --toggle-check-border-color: #f4a423;
+        --toggle-check-bagkground-color: var(--color-base-1);
+        --toggle-check-checked-background-color: var(--color-main-2);
 
         /* n-toggle:dot */
-        --n-toggle-dot-border-color: #CCCCCC;
-        --n-toggle-dot-background-color: var(--color-base-1);
-        --n-toggle-dot-checked-border-color: #f4a423;
-        --n-toggle-dot-checked-background-color: #f4a423;
+        --toggle-dot-border-color: #CCCCCC;
+        --toggle-dot-background-color: var(--color-base-1);
+        --toggle-dot-checked-border-color: #f4a423;
+        --toggle-dot-checked-background-color: #f4a423;
 
-        /* n-toggle:outline-box */
-        --n-toggle-outline-color: #f4a423;
-        --n-toggle-outline-background-color: var(--color-base-1);
-        --n-toggle-outline-border-color: #f4a423;
-        --n-toggle-outline-checked-color: var(--color-base-1);
-        --n-toggle-outline-checked-background-color: #f4a423;
-        --n-toggle-outline-checked-border-color: transparent;
+        /* toggle:outline-box */
+        --toggle-outline-color: #f4a423;
+        --toggle-outline-background-color: var(--color-base-1);
+        --toggle-outline-border-color: #f4a423;
+        --toggle-outline-checked-color: var(--color-base-1);
+        --toggle-outline-checked-background-color: #f4a423;
+        --toggle-outline-checked-border-color: transparent;
     }
 </style>

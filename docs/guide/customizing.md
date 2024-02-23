@@ -28,7 +28,7 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
 
 <ExampleSection class="d:flex ai:center gap:4">
   <button type="button" class="n-btn example">Button</button>
-  <input type="checkbox" class="n-toggle example" checked/>
+  <input type="checkbox" class="n-toggle n-toggle:slide example" checked/>
   <input type="radio" class="n-toggle n-toggle:dot example" checked/>
 </ExampleSection>
 
@@ -78,16 +78,16 @@ import ExampleSection from "../components/demo/ExampleSection.vue"
   background-color: #4263eb;
 }
 
-.n-toggle.example{
+.n-toggle\:slide.example:checked{
   background-color: #4263eb;
 }
 
-.n-toggle.n-toggle\:dot.example{
+.n-toggle\:dot.example{
   background-color: #ffff;
   border-color: #4263eb;
 }
 
-.n-toggle.n-toggle\:dot.example::before{
+.n-toggle\:dot.example::before{
   background-color: #4263eb;
 }
 </style>
