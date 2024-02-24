@@ -95,7 +95,7 @@ import ComponentList from "../components/demo/NewtilComponentOverview.vue";
 
 ### 1. 유틸리티 클래스 사용하기 {#customizing-width-utility-class}
 
-`Newtil CSS`가 제공하는 유틸리티 클래스를 통해 손쉽고 빠르게 컴포넌트를 커스터마이징할 수 있습니다.
+`Newtil CSS`가 제공하는 유틸리티 클래스를 통해 쉽고 빠르게 컴포넌트를 커스터마이징할 수 있습니다.
 
 유틸리티 클래스를 활용하여 진행도를 표현하는 `Progress` 컴포넌트의 `background-color`, `border-radius`, `height` 속성값을 변경해보겠습니다.
 
