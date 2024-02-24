@@ -680,18 +680,21 @@ Form 컴포넌트는 스타일 재정의에 대한 변수를 아래와 같이 �
   /* textbox-border-radius */
   --textbox-border-radius: 6px;
 
+  /* textbox-border-color */
+  --textbox-border-color: var(--color-base-3);
+
   /* textbox-border-width */
   --textbox-underline-border-width: 1.6px;
 
   /* textbox-status:focus */
-  --textbox-focus-border-color: var(--color-sub-2);
+  --textbox-border-color-focus: var(--color-sub-2);
 
   /* textbox-status:success */
-  --textbox-success-border-color: #37b24d;
+  --textbox-border-color-success: #37b24d;
 
   /* textbox-status:warning */
-  --textbox-warning-color: var(--color-accent-1);
-  --textbox-warning-border-color: var(--color-accent-1);
+  --textbox-color-warning: var(--color-accent-1);
+  --textbox-border-color-warning: var(--color-accent-1);
 }
 ```
 
