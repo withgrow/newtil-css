@@ -100,7 +100,13 @@
       <td>
         <span class="code">
           .n-btn { <br/> 
-            --btn-filled-background-color: var(--color-main-2); <br/>
+            --btn-filled-background-color-default: var(--color-main-2); <br/>
+            --btn-filled-background-color-hover: var(--color-main-1);
+            <br/>
+            --btn-filled-background-color-active: var(--color-main-3);
+            <br/>
+            --btn-filled-border: 1px solid transparent;
+            <br/>
             --btn-filled-color: var(--color-base-1); <br/>
           }
         </span>
@@ -119,8 +125,16 @@
       <td>
         <span class="code">
           .n-btn { <br/> 
-            --btn-outline-border-color: var(--color-base-3); <br/>
-            --btn-outline-color: inherit; <br/>
+            --btn-outline-background-color-default: var(--color-base-1);
+            <br/>
+            --btn-outline-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+            <br/>
+            --btn-outline-background-color-active: rgba(var(--rgb-base-10), 0.07);
+            <br/>
+            --btn-outline-border: 1px solid var(--color-base-3);
+            <br/>
+            --btn-outline-color: inherit;
+            <br/>
           }
         </span>
       </td>
@@ -134,6 +148,18 @@
         <code>n-btn:void</code>
       </td>
       <td>
+        <span class="code">
+          .n-btn { <br/> 
+            --btn-void-background-color-default: transparent;
+            <br/>
+            --btn-void-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+            <br/>
+            --btn-void-background-color-active: rgba(var(--rgb-base-10), 0.07);
+            <br/>
+            --btn-void-border: 1px solid transparent;
+            <br/>
+          }
+        </span>
       </td>
     </tr>
   </tbody>
@@ -176,6 +202,7 @@
             --btn-height-1: 28px; <br/>
             --btn-padding-1: 4px 12px; <br/>
             --btn-font-size-1: 14px; <br/>
+            --btn-border-radius-1: 8px; <br/>
           }
         </span>
       </td>
@@ -189,6 +216,7 @@
             --btn-height-2: 36px; <br/>
             --btn-padding-2: 4px 16px; <br/>
             --btn-font-size-2: 14px; <br/>
+            --btn-border-radius-2: 8px; <br/>
           }
         </span>
       </td>
@@ -202,6 +230,7 @@
             --btn-height-3: 44px; <br/>
             --btn-padding-3: 4px 20px; <br/>
             --btn-font-size-3: 16px; <br/>
+            --btn-border-radius-3: 8px; <br/>
           }
         </span>
       </td>
@@ -253,24 +282,80 @@
     <tr>
       <th scope="col">색상</th>
       <th scope="col">클래스</th>
+      <th scope="col">변수</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>main</th>
       <td><code>n-btn-color:main</code></td>
+      <td>
+        <span class="blank">
+        </span>
+      </td>
     </tr>
     <tr>
       <th>sub</th>
       <td><code>n-btn-color:sub</code></td>
+      <td>
+        <span class="code">
+          .n-btn {
+              <br/>
+              --btn-background-color-sub-default: var(--color-sub-2);
+              <br/>
+              --btn-background-color-sub-hover: var(--color-sub-2);
+              <br/>
+              --btn-border-sub-default: 1px solid var(--color-sub-1);
+              <br/>
+              --btn-border-sub-hover: 1px solid var(--color-sub-1);
+              <br/>
+              --btn-color-sub: var(--color-base-1);
+              <br/>
+          }
+        </span>
+      </td>
     </tr>
     <tr>
       <th>accent</th>
       <td><code>n-btn-color:accent</code></td>
+      <td>
+        <span class="code">
+          .n-btn {
+              <br/>
+              --btn-background-color-accent-default: var(--color-accent-2);
+              <br/>
+              --btn-background-color-accent-hover: var(--color-accent-2);
+              <br/>
+              --btn-border-accent-default: 1px solid var(--color-accent-1);
+              <br/>
+              --btn-border-accent-hover: 1px solid var(--color-accent-1);
+              <br/>
+              --btn-color-accent: var(--color-base-1);
+              <br/>
+          }
+        </span>
+      </td>
     </tr>
     <tr>
       <th>base</th>
       <td><code>n-btn-color:base</code></td>
+      <td>
+        <span class="code">
+          .n-btn {
+              <br/>
+              --btn-background-color-base-default: var(--color-base-9);
+              <br/>
+              --btn-background-color-base-hover: var(--color-base-9);
+              <br/>
+              --btn-border-base-default: 1px solid var(--color-base-8);
+              <br/>
+              --btn-border-base-hover: 1px solid var(--color-base-8);
+              <br/>
+              --btn-color-base: var(--color-base-1);
+              <br/>
+          }
+        </span>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -313,27 +398,60 @@
   --btn-height-1: 28px;
   --btn-padding-1: 4px 12px;
   --btn-font-size-1: 14px;
+  --btn-border-radius-1: 8px;
 
   /* btn-size:2 */
   --btn-height-2: 36px;
   --btn-padding-2: 4px 16px;
   --btn-font-size-2: 14px;
+  --btn-border-radius-2: 8px;
 
   /* btn-size:3 */
   --btn-height-3: 44px;
   --btn-padding-3: 4px 20px;
   --btn-font-size-3: 16px;
-
-  /* btn-border-radius */
-  --btn-border-radius: 8px;
+  --btn-border-radius-3: 8px;
 
   /* btn-type:filled */
-  --btn-filled-background-color: var(--color-main-2);
+  --btn-filled-background-color-default: var(--color-main-2);
+  --btn-filled-background-color-hover: var(--color-main-1);
+  --btn-filled-background-color-active: var(--color-main-3);
+  --btn-filled-border: 1px solid transparent;
   --btn-filled-color: var(--color-base-1);
 
   /* btn-type:outline */
-  --btn-outline-border-color: var(--color-base-3);
+  --btn-outline-background-color-default: var(--color-base-1);
+  --btn-outline-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+  --btn-outline-background-color-active: rgba(var(--rgb-base-10), 0.07);
+  --btn-outline-border: 1px solid var(--color-base-3);
   --btn-outline-color: inherit;
+
+  /* btn-type:void */
+  --btn-void-background-color-default: transparent;
+  --btn-void-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+  --btn-void-background-color-active: rgba(var(--rgb-base-10), 0.07);
+  --btn-void-border: 1px solid transparent;
+
+  /* btn-color:base */
+  --btn-background-color-base-default: var(--color-base-9);
+  --btn-background-color-base-hover: var(--color-base-9);
+  --btn-border-base-default: 1px solid var(--color-base-8);
+  --btn-border-base-hover: 1px solid var(--color-base-8);
+  --btn-color-base: var(--color-base-1);
+
+  /* btn-color:sub */
+  --btn-background-color-sub-default: var(--color-sub-2);
+  --btn-background-color-sub-hover: var(--color-sub-2);
+  --btn-border-sub-default: 1px solid var(--color-sub-1);
+  --btn-border-sub-hover: 1px solid var(--color-sub-1);
+  --btn-color-sub: var(--color-base-1);
+
+  /* btn-color:accent */
+  --btn-background-color-accent-default: var(--color-accent-2);
+  --btn-background-color-accent-hover: var(--color-accent-2);
+  --btn-border-accent-default: 1px solid var(--color-accent-1);
+  --btn-border-accent-hover: 1px solid var(--color-accent-1);
+  --btn-color-accent: var(--color-base-1);
 }
 ```
 
@@ -372,14 +490,16 @@
   --btn-font-size-3: 16px;
 
   /* btn-border-radius */
-  --btn-border-radius: 6px;
+  --btn-border-radius-1: 6px;
+  --btn-border-radius-2: 6px;
+  --btn-border-radius-3: 6px;
 
   /* btn-type:filled */
-  --btn-filled-background-color: #3182ce;
+  --btn-filled-background-color-default: #3182ce;
   --btn-filled-color: #1e293b;
 
   /* btn-type:outline */
-  --btn-outline-border-color: #3182ce;
+  --btn-outline-border: 1px solid #3182ce;
   --btn-outline-color: #3182ce;
 }
 ```
@@ -455,7 +575,8 @@
 ```html
 <button type="button" class="n-btn n-btn:outline ">
   <span
-    class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7">
+    class="deco deco-position:right deco-size:3 icon:trash icon-color:base-7"
+  >
     삭제
   </span>
 </button>
