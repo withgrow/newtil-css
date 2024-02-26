@@ -537,6 +537,10 @@ export default defineConfig({
             ]
           },
           {
+            text: 'resize',
+            link: '/resize'
+          },
+          {
             text: 'scroll-*',
             collapsed: true,
             items: [
