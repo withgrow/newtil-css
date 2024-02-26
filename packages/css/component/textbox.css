@@ -28,14 +28,14 @@
   --textbox-underline-border-width: 1.6px;
 
   /* textbox-status:focus */
-  --textbox-focus-border-color: var(--color-sub-2);
+  --textbox-border-color-focus: var(--color-sub-2);
 
   /* textbox-status:success */
-  --textbox-success-border-color: #37b24d;
+  --textbox-border-color-success: #37b24d;
 
   /* textbox-status:warning */
-  --textbox-warning-color: var(--color-accent-1);
-  --textbox-warning-border-color: var(--color-accent-1);
+  --textbox-color-warning: var(--color-accent-1);
+  --textbox-border-color-warning: var(--color-accent-1);
 }
 
 .n-textbox,
@@ -138,7 +138,7 @@ input[type="text"].n-textbox.n-textbox-status\:focus,
 input[type="url"].n-textbox.n-textbox-status\:focus,
 textarea.n-textbox.n-textbox-status\:focus,
 .n-textbox.n-textbox-status\:focus {
-  border-color: var(--textbox-focus-border-color);
+  border-color: var(--textbox-border-color-focus);
 }
 
 
@@ -151,7 +151,7 @@ input[type="text"].n-textbox.n-textbox-status\:success,
 input[type="url"].n-textbox.n-textbox-status\:success,
 textarea.n-textbox.n-textbox-status\:success,
 .n-textbox.n-textbox-status\:success {
-  border-color: var(--textbox-success-border-color);
+  border-color: var(--textbox-border-color-success);
 }
 
 input[type="email"].n-textbox.n-textbox-status\:warning,
@@ -163,8 +163,8 @@ input[type="text"].n-textbox.n-textbox-status\:warning,
 input[type="url"].n-textbox.n-textbox-status\:warning,
 textarea.n-textbox.n-textbox-status\:warning,
 .n-textbox.n-textbox-status\:warning {
-  color: var(--textbox-warning-color);
-  border-color: var(--textbox-warning-border-color);
+  color: var(--textbox-color-warning);
+  border-color: var(--textbox-border-color-warning);
 }
 
 input[type="email"].n-textbox:disabled,

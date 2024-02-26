@@ -1,7 +1,7 @@
 .n-tabbar {
   --tabbar-border-bottom: 1px solid var(--color-base-2);
 
-  --tab-active-color: var(--color-main-2);
+  --tab-color-active: var(--color-main-2);
 }
 
 .n-tabbar {
@@ -55,8 +55,8 @@
 
 /* active ---------------------------------------------------------------------------- */
 .n-tabbar .active {
-  color: var(--tab-active-color);
-  border-color: var(--tab-active-color);
+  color: var(--tab-color-active);
+  border-color: var(--tab-color-active);
 }
 
 /* disabled ---------------------------------------------------------------------------- */
