@@ -91,7 +91,7 @@
 
 ```css
 /* font.css */
-.n-btn {
+.n-font {
   /* title */
   --font-title-font-size: 32px;
   --font-title-font-weight: 700;
@@ -135,8 +135,8 @@
 </ExampleSection>
 
 ```css
-/* font.css */
-.n-btn {
+/* root.css */
+.n-font {
   /* title */
   --font-title-font-size: 36px;
   --font-title-font-weight: 800;
