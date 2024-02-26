@@ -10,27 +10,60 @@
   --btn-height-1: 28px;
   --btn-padding-1: 4px 12px;
   --btn-font-size-1: 14px;
+  --btn-border-radius-1: 8px;
 
   /* btn-size:2 */
   --btn-height-2: 36px;
   --btn-padding-2: 4px 16px;
   --btn-font-size-2: 14px;
+  --btn-border-radius-2: 8px;
 
   /* btn-size:3 */
   --btn-height-3: 44px;
   --btn-padding-3: 4px 20px;
   --btn-font-size-3: 16px;
-
-  /* btn-border-radius */
-  --btn-border-radius: 8px;
+  --btn-border-radius-3: 8px;
 
   /* btn-type:filled */
-  --btn-filled-background-color: var(--color-main-2);
+  --btn-filled-background-color-default: var(--color-main-2);
+  --btn-filled-background-color-hover: var(--color-main-1);
+  --btn-filled-background-color-active: var(--color-main-3);
+  --btn-filled-border: 1;
   --btn-filled-color: var(--color-base-1);
 
   /* btn-type:outline */
-  --btn-outline-border-color: var(--color-base-3);
+  --btn-outline-background-color-default: var(--color-base-1);
+  --btn-outline-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+  --btn-outline-background-color-active: rgba(var(--rgb-base-10), 0.07);
+  --btn-outline-border: 1px solid var(--color-base-3);
   --btn-outline-color: inherit;
+
+  /* btn-type:void */
+  --btn-void-background-color-default: transparent;
+  --btn-void-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+  --btn-void-background-color-active: rgba(var(--rgb-base-10), 0.07);
+  --btn-void-border: 1px solid transparent;
+
+  /* btn-color:base */
+  --btn-background-color-base-default: var(--color-base-9);
+  --btn-background-color-base-hover: var(--color-base-9);
+  --btn-border-base-default: 1px solid var(--color-base-8);
+  --btn-border-base-hover: 1px solid var(--color-base-8);
+  --btn-color-base: var(--color-base-1);
+
+  /* btn-color:sub */
+  --btn-background-color-sub-default: var(--color-sub-2);
+  --btn-background-color-sub-hover: var(--color-sub-2);
+  --btn-border-sub-default: 1px solid var(--color-sub-1);
+  --btn-border-sub-hover: 1px solid var(--color-sub-1);
+  --btn-color-sub: var(--color-base-1);
+
+  /* btn-color:accent */
+  --btn-background-color-accent-default: var(--color-accent-2);
+  --btn-background-color-accent-hover: var(--color-accent-2);
+  --btn-border-accent-default: 1px solid var(--color-accent-1);
+  --btn-border-accent-hover: 1px solid var(--color-accent-1);
+  --btn-color-accent: var(--color-base-1);
 }
 
 .n-btn {
@@ -42,7 +75,7 @@
   padding: var(--btn-padding-2);
   height: var(--btn-height-2);
   border: 1px solid transparent;
-  border-radius: var(--btn-border-radius);
+  border-radius: var(--btn-border-radius-2);
   background-color: transparent;
 
   color: inherit;
@@ -66,6 +99,7 @@
 .n-btn-size\:1 {
   padding: var(--btn-padding-1);
   height: var(--btn-height-1);
+  border-radius: var(--btn-border-radius-1);
   font-size: var(--btn-font-size-1);
 }
 
@@ -73,6 +107,7 @@
 .n-btn-size\:2 {
   padding: var(--btn-padding-2);
   height: var(--btn-height-2);
+  border-radius: var(--btn-border-radius-2);
   font-size: var(--btn-font-size-2);
 }
 
@@ -80,6 +115,7 @@
 .n-btn-size\:3 {
   padding: var(--btn-padding-3);
   height: var(--btn-height-3);
+  border-radius: var(--btn-border-radius-3);
   font-size: var(--btn-font-size-3);
 }
 
@@ -89,14 +125,19 @@
 .n-btn,
 .n-btn-type\:filled,
 .n-btn\:filled {
-  background-color: var(--btn-filled-background-color);
+  background-color: var(--btn-filled-background-color-default);
 
   color: var(--btn-filled-color);
 }
 .n-btn:hover,
 .n-btn-type\:filled:hover,
 .n-btn\:filled:hover {
-  background-color: var(--color-main-1);
+  background-color: var(--btn-filled-background-color-hover);
+}
+.n-btn:active,
+.n-btn-type\:filled:active,
+.n-btn\:filled:active {
+  background-color: var(--btn-filled-background-color-active);
 }
 
 /* outline-box */
@@ -104,8 +145,8 @@
 .n-btn-type\:outline,
 .n-btn\:outline-box,
 .n-btn\:outline {
-  background-color: var(--color-base-1);
-  border-color: var(--btn-outline-border-color);
+  background-color: var(--btn-outline-background-color-default);
+  border: var(--btn-outline-border);
 
   color: var(--btn-outline-color);
 }
@@ -113,58 +154,68 @@
 .n-btn-type\:outline:hover,
 .n-btn\:outline-box:hover,
 .n-btn\:outline:hover {
-  background-color: rgba(var(--rgb-base-10), 0.05);
+  background-color: var(--btn-outline-background-color-hover);
+}
+.n-btn-type\:outline-box:active,
+.n-btn-type\:outline:active,
+.n-btn\:outline-box:active,
+.n-btn\:outline:active {
+  background-color: var(--btn-outline-background-color-active);
 }
 
 /* void */
 .n-btn-type\:void,
 .n-btn\:void {
-  background-color: transparent;
-  border-color: transparent;
+  background-color: var(--btn-void-background-color-default);
+  border: var(--btn-void-border);
 
   color: inherit;
 }
 .n-btn-type\:void:hover,
 .n-btn\:void:hover {
-  background-color: rgba(var(--rgb-base-10), 0.05);
+  background-color: var(--btn-void-background-color-hover);
+}
+.n-btn-type\:void:active,
+.n-btn\:void:active {
+  background-color: var(--btn-void-background-color-active);
 }
 
 /* n-btn-color ---------------------------------------------------------------------------- */
 
 /* base */
 .n-btn-color\:base {
-  background-color: var(--color-base-9);
-  border-color: var(--color-base-9);
+  background-color: var(--btn-background-color-base-default);
+  border: var(--btn-border-base-default);
 
-  color: var(--color-base-1);
+  color: var(--btn-color-base);
 }
 .n-btn-color\:base:hover {
-  background-color: var(--color-base-8);
-  border-color: var(--color-base-8);
+  background-color: var(--btn-background-color-base-hover);
+  border: var(--btn-border-base-hover);
 }
 
 /* sub */
 .n-btn-color\:sub {
-  background-color: var(--color-sub-2);
-  border-color: var(--color-sub-2);
+  background-color: var(--btn-background-color-sub-default);
+  border: var(--btn-border-sub-default);
 
-  color: var(--color-base-1);
+  color: var(--btn-color-sub);
 }
 .n-btn-color\:sub:hover {
-  background-color: var(--color-sub-1);
-  border-color: var(--color-sub-1);
+  background-color: var(--btn-background-color-sub-hover);
+  border: var(--btn-border-sub-hover);
 }
 
 /* accent */
 .n-btn-color\:accent {
-  background-color: var(--color-accent-2);
-  border-color: var(--color-accent-2);
+  background-color: var(--btn-background-color-accent-default);
+  border: var(--btn-border-accent-default);
 
-  color: var(--color-base-1);
+  color: var(--btn-color-accent);
 }
 .n-btn-color\:accent:hover {
-  background-color: var(--color-accent-1);
-  border-color: var(--color-accent-1);
+  background-color: var(--btn-background-color-accent-hover);
+  border: var(--btn-border-accent-hover);
 }
 
 /* disabled ---------------------------------------------------------------------------- */
