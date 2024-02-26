@@ -366,7 +366,7 @@
       <td>
         <span class="code">
           .n-textbox { <br/> 
-            --textbox-focus-border-color: var(--color-sub-2);<br/>
+            --textbox-border-color-focus: var(--color-sub-2);<br/>
           }
         </span>
       </td>
@@ -425,7 +425,7 @@
       <td>
         <span class="code">
           .n-textbox { <br/> 
-            --textbox-success-border-color: #37b24d; <br/>
+            --textbox-border-color-success: #37b24d; <br/>
           }
         </span>
       </td>
@@ -484,8 +484,8 @@
       <td>
         <span class="code">
           .n-textbox { <br/> 
-            --textbox-warning-color: var(--color-accent-1);<br/>
-            --textbox-warning-border-color: var(--color-accent-1);<br/>
+            --textbox-color-warning: var(--color-accent-1);<br/>
+            --textbox-border-color-warning: var(--color-accent-1);<br/>
           }
         </span>
       </td>
@@ -715,21 +715,25 @@
   --textbox-padding-x: 12px;
   --textbox-input-height: 36px;
   --textbox-textarea-min-height: 58px;
-
+  
   /* textbox-border-color */
   --textbox-border-color: var(--color-base-3);
-
+  
   /* textbox-border-radius */
   --textbox-border-radius: 6px;
 
   /* textbox-border-width */
   --textbox-underline-border-width: 1.6px;
 
-  /* textbox-status */
-  --textbox-focus-border-color: var(--color-sub-2);
-  --textbox-success-border-color: #37b24d;
-  --textbox-warning-color: var(--color-accent-1);
-  --textbox-warning-border-color: var(--color-accent-1);
+  /* textbox-status:focus */
+  --textbox-border-color-focus: var(--color-sub-2);
+
+  /* textbox-status:success */
+  --textbox-border-color-success: #37b24d;
+
+  /* textbox-status:warning */
+  --textbox-color-warning: var(--color-accent-1);
+  --textbox-border-color-warning: var(--color-accent-1);
 }
 ```
 
@@ -805,14 +809,14 @@
   --textbox-underline-border-width: 1px;
 
   /* textbox-status:focus */
-  --textbox-focus-border-color: #3b82f680;
+  --textbox-border-color-focus: #3b82f680;
 
   /* textbox-status:success */
-  --textbox-success-border-color: #06b6d4;
+  --textbox-border-color-success: #06b6d4;
 
   /* textbox-status:warning */
-  --textbox-warning-color: #f97316;
-  --textbox-warning-border-color: #f97316;
+  --textbox-color-warning: #f97316;
+  --textbox-border-color-warning: #f97316;
 }
 ```
 

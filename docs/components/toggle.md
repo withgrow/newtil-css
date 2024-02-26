@@ -190,10 +190,10 @@
       <td>
         <span class="code">
             .n-toggle { <br/> 
-                --n-toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12); <br/>
-                --n-toggle-slide-checked-background-color: var(--color-main-2); <br/>
-                --n-toggle-slide-circle-color: var(--color-base-1); <br/>
-                --n-toggle-slide-circle-checked-color: var(--color-base-1); <br/>
+                --toggle-slide-background-color: rgba(var(--rgb-base-10), 0.12); <br/>
+                --toggle-slide-background-color-checked: var(--color-main-2); <br/>
+                --toggle-slide-circle-color: var(--color-base-1); <br/>
+                --toggle-slide-circle-color-checked: var(--color-base-1); <br/>
             }
         </span>
       </td>
@@ -211,9 +211,9 @@
       <td>
         <span class="code">
             .n-toggle { <br/> 
-                --n-toggle-check-border-color: var(--color-base-3); <br/>
-                --n-toggle-check-bagkground-color: var(--color-base-1); <br/>
-                --n-toggle-check-checked-background-color: var (--color-main-2); <br/>
+                --toggle-check-border-color: var(--color-base-3); <br/>
+                --toggle-check-bagkground-color: var(--color-base-1); <br/>
+                --toggle-check-background-color-checked: var(--color-main-2); <br/>
             }
         </span>
       </td>
@@ -229,10 +229,10 @@
       <td>
         <span class="code">
             .n-toggle { <br/> 
-                --n-toggle-dot-border-color: var(--color-base-3); <br/>
-                --n-toggle-dot-background-color: var(--color-base-1); <br/>
-                --n-toggle-dot-checked-border-color: var(--color-main-2); <br/>
-                --n-toggle-dot-checked-background-color: var(--color-main-2); <br/>
+                --toggle-dot-border-color: var(--color-base-3); <br/>
+                --toggle-dot-background-color: var(--color-base-1); <br/>
+                --toggle-dot-border-color-checked: var(--color-main-2); <br/>
+                --toggle-dot-background-color-checked: var(--color-main-2); <br/>
             }
         </span>
       </td>
@@ -250,12 +250,12 @@
       <td>
         <span class="code">
           .n-textbox { <br/> 
-                --n-toggle-outline-color: rgba(var(--rgb-base-10), 0.85); <br/> 
-                --n-toggle-outline-background-color: var(--color-base-1); <br/> 
-                --n-toggle-outline-border-color: var(--color-base-3); <br/> 
-                --n-toggle-outline-checked-color: var(--color-base-1); <br/> 
-                --n-toggle-outline-checked-background-color: var(--color-main-2); <br/> 
-                --n-toggle-outline-checked-border-color: transparent; <br/> 
+                --toggle-outline-color: rgba(var(--rgb-base-10), 0.85); <br/> 
+                --toggle-outline-background-color: var(--color-base-1); <br/> 
+                --toggle-outline-border-color: var(--color-base-3); <br/> 
+                --toggle-outline-color-checked: var(--color-base-1); <br/> 
+                --toggle-outline-background-color-checked: var(--color-main-2); <br/> 
+                --toggle-outline-border-color-checked: transparent; <br/> 
           }
         </span>
       </td>
@@ -657,26 +657,26 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
   --toggle-slide-background-color: #cccccc;
   --toggle-slide-checked-background-color: #f4a423;
   --toggle-slide-circle-color: #f0f0f0;
-  --toggle-slide-circle-checked-color: var(--color-base-1);
+  --toggle-slide-circle-color-checked: var(--color-base-1);
 
   /* toggle:check */
   --toggle-check-border-color: #f4a423;
   --toggle-check-bagkground-color: var(--color-base-1);
-  --toggle-check-checked-background-color: #f4a423;
+  --toggle-check-background-color-checked: #f4a423;
 
   /* n-toggle:dot */
   --toggle-dot-border-color: #cccccc;
   --toggle-dot-background-color: var(--color-base-1);
-  --toggle-dot-checked-border-color: #f4a423;
-  --toggle-dot-checked-background-color: #f4a423;
+  --toggle-dot-border-color-checked: #f4a423;
+  --toggle-dot-background-color-checked: #f4a423;
 
   /* toggle:outline-box */
   --toggle-outline-color: #f4a423;
   --toggle-outline-background-color: var(--color-base-1);
   --toggle-outline-border-color: #f4a423;
-  --toggle-outline-checked-color: var(--color-base-1);
-  --toggle-outline-checked-background-color: #f4a423;
-  --toggle-outline-checked-border-color: transparent;
+  --toggle-outline-color-checked: var(--color-base-1);
+  --toggle-outline-background-color-checked: #f4a423;
+  --toggle-outline-border-color-checked: transparent;
 }
 ```
 
@@ -894,27 +894,27 @@ input 태그에 `disabled` 속성을 추가하거나 클래스에 `n-toggle-stat
     .n-toggle.example{
         /* toggle:slide */
         --toggle-slide-background-color: #CCCCCC;
-        --toggle-slide-checked-background-color: #f4a423;
+        --toggle-slide-background-color-checked: #f4a423;
         --toggle-slide-circle-color: #F0F0F0;
-        --toggle-slide-circle-checked-color: var(--color-base-1);
+        --toggle-slide-circle-color-checked: var(--color-base-1);
 
         /* toggle:check */
         --toggle-check-border-color: #f4a423;
         --toggle-check-bagkground-color: var(--color-base-1);
-        --toggle-check-checked-background-color: #f4a423;
+        --toggle-check-background-color-checked: #f4a423;
 
         /* n-toggle:dot */
         --toggle-dot-border-color: #CCCCCC;
         --toggle-dot-background-color: var(--color-base-1);
-        --toggle-dot-checked-border-color: #f4a423;
-        --toggle-dot-checked-background-color: #f4a423;
+        --toggle-dot-border-color-checked: #f4a423;
+        --toggle-dot-background-color-checked: #f4a423;
 
         /* toggle:outline-box */
         --toggle-outline-color: #f4a423;
         --toggle-outline-background-color: var(--color-base-1);
         --toggle-outline-border-color: #f4a423;
-        --toggle-outline-checked-color: var(--color-base-1);
-        --toggle-outline-checked-background-color: #f4a423;
-        --toggle-outline-checked-border-color: transparent;
+        --toggle-outline-color-checked: var(--color-base-1);
+        --toggle-outline-background-color-checked: #f4a423;
+        --toggle-outline-border-color-checked: transparent;
     }
 </style>

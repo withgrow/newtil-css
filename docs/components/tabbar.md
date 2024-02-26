@@ -189,7 +189,7 @@
 .n-tabbar {
   --tabbar-border-bottom: 1px solid var(--color-base-2);
 
-  --tab-active-color: var(--color-main-2);
+  --tab-color-active: var(--color-main-2);
 }
 ```
 
