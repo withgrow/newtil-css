@@ -28,7 +28,7 @@
   --btn-filled-background-color-default: var(--color-main-2);
   --btn-filled-background-color-hover: var(--color-main-1);
   --btn-filled-background-color-active: var(--color-main-3);
-  --btn-filled-border: 1;
+  --btn-filled-border: 1px solid transparent;
   --btn-filled-color: var(--color-base-1);
 
   /* btn-type:outline */
