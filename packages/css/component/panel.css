@@ -23,7 +23,7 @@
 
 .n-panel {
   --top-panel-height: 64px;
-  --top-panel-background-color: var(--color-base1);
+  --top-panel-background-color: var(--color-base-1);
   --top-panel-border-bottom: 1px solid var(--color-base-3);
   --top-panel-box-shadow: none;
   --top-panel-z-index: 1000;
