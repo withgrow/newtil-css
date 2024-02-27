@@ -2,7 +2,7 @@
 
 [resize](https://developer.mozilla.org/en-US/docs/Web/CSS/resize) 속성에 대한 유틸리티입니다.
 
-요소의 크기를 조정할 수 있는지에 대한 여부와 크기를 조정할 수 있는 경우 방향을 설정합니다.
+요소의 크기를 조정할 수 있는지 여부와 크기를 조정할 수 있는 경우 방향을 설정합니다.
 
 <table>
   <thead>
