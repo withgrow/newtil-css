@@ -309,6 +309,10 @@
 
 /* mobile */
 @media (max-width: 768px) {
+  .n-bbs-table {
+    table-layout: auto;
+  }
+  
   /* id, 제목, 메뉴 칼럼 제외하고 가리기 */
   .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
     display: none;
