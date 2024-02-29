@@ -34,6 +34,9 @@
   --side-panel-background-color: var(--color-base-1);
   --side-panel-box-shadow: none;
   --side-panel-border-right: 1px solid var(--color-base-3);
+
+  --main-panel-background-color: var(--color-base-1);
+  --main-panel-height: calc(100vh - var(--top-panel-height));
 }
 
 /* top-panel ------------------------------------------------------------- */
@@ -53,7 +56,8 @@
 
 /* main-panel ------------------------------------------------------------- */
 .n-main-panel {
-  height: 100%;
+  height: var(--main-panel-height);
+  background-color: var(--main-panel-background-color);
 
   will-change: padding;
   transition: padding 0.3s;
