@@ -99,6 +99,9 @@
   --side-panel-background-color: var(--color-base-1); /* side-panel background-color */
   --side-panel-box-shadow: none; /* side-panel의 box-shadow */
   --side-panel-border-right: 1px solid var(--color-base-3); /* side-panel의 border-right */
+
+  --main-panel-background-color: var(--color-base-1); /* main-panel의 background-color */
+  --main-panel-height: calc(100vh - var(--top-panel-height)); /* main-panel의 높이 */
 }
 ```
 
