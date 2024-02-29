@@ -207,3 +207,7 @@ code, td:last-child {
 .c\:weak {
   color: var(--color-base-5);
 }
+
+.shell{
+  z-index: var(--z-index-4);
+}

@@ -23,10 +23,17 @@
 
 .n-panel {
   --top-panel-height: 64px;
+  --top-panel-background-color: var(--color-base-1);
+  --top-panel-border-bottom: 1px solid var(--color-base-3);
+  --top-panel-box-shadow: none;
   --top-panel-z-index: 1000;
 
   --side-panel-width-md: 64px;
   --side-panel-width-lg: 260px;
+  --side-panel-height: calc(100vh - var(--top-panel-height));
+  --side-panel-background-color: var(--color-base-1);
+  --side-panel-box-shadow: none;
+  --side-panel-border-right: 1px solid var(--color-base-3);
 }
 
 /* top-panel ------------------------------------------------------------- */
@@ -37,8 +44,9 @@
   top: 0;
 
   min-height: var(--top-panel-height);
-  background-color: var(--color-base-1);
-  border-bottom: 1px solid var(--color-base-3);
+  background-color: var(--top-panel-background-color);
+  border-bottom: var(--top-panel-border-bottom);
+  box-shadow: var(--top-panel-box-shadow);
 
   z-index: var(--top-panel-z-index);
 }
@@ -75,9 +83,10 @@
   display: none;
 
   width: var(--side-panel-width-md);
-  height: calc(100vh - var(--top-panel-height));
-  background-color: var(--color-base-1);
-  border-right: 1px solid var(--color-base-3);
+  height: var(--side-panel-height);
+  background-color: var(--side-panel-background-color);
+  border-right: var(--side-panel-border-right);
+  box-shadow: var(--side-panel-box-shadow);
 }
 
 @media (min-width: 768px) {

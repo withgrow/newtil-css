@@ -31,13 +31,15 @@
     <ul class="of:hidden">
       <li class="bg-color:base-2 bd-radius:1">
         <button
-          class="deco deco-mr:3 deco-color:base-7 icon:squares_four_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap">
+          class="deco deco-mr:3 deco-color:base-7 icon:squares_four_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap"
+        >
           <span class="d:none lg:d:inline">Dashboard</span>
         </button>
       </li>
       <li>
         <button
-          class="deco deco-mr:3 deco-color:base-7 icon:house_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap">
+          class="deco deco-mr:3 deco-color:base-7 icon:house_fill d:flex ai:center p:2 pl:3 font-size:2 font-weight:2 cursor:pointer white-space:nowrap"
+        >
           <span class="d:none lg:d:inline">Home</span>
         </button>
       </li>
@@ -86,10 +88,17 @@
 /* panel.css */
 .n-panel {
   --top-panel-height: 64px; /* top-panel의 높이 */
+  --top-panel-background-color: var(--color-base1); /* top-panel의 background-color */
+  --top-panel-border-bottom: 1px solid var(--color-base-3); /* top-panel의 border-bottom */
+  --top-panel-box-shadow: none; /* top-panel의 box-shadow */
   --top-panel-z-index: 1000; /* top-panel의 z-index */
 
   --side-panel-width-md: 64px; /* 태블릿에서의 side-panel 너비 */
   --side-panel-width-lg: 260px; /* PC에서의 side-panel 너비 */
+  --side-panel-height: calc(100vh - var(--top-panel-height)); /* side-panel 높이 */
+  --side-panel-background-color: var(--color-base-1); /* side-panel background-color */
+  --side-panel-box-shadow: none; /* side-panel의 box-shadow */
+  --side-panel-border-right: 1px solid var(--color-base-3); /* side-panel의 border-right */
 }
 ```
 
