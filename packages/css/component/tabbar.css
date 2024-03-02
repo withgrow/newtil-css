@@ -58,12 +58,34 @@
   background-color: rgba(var(--rgb-base-10), 0.05);
 }
 
-/* tabbar-underline */
-/* active */
+/* n-tabbar-type ---------------------------------------------------------------------------- */
+/* underline (default) + active */
 .n-tabbar > li.active > a,
-.n-tabbar > li.active > button {
+.n-tabbar > li.active > button,
+.n-tabbar-type\:underline > li.active > a,
+.n-tabbar-type\:underline > li.active > button,
+.n-tabbar\:underline > li.active > a,
+.n-tabbar\:underline > li.active > button,
+.n-tabbar .n-tab.active {
   color: var(--tab-color-active);
   border-color: var(--tabbar-border-color-active);
+}
+
+/* outline */
+.n-tabbar-type\:outline > li.active > a,
+.n-tabbar-type\:outline > li.active > button,
+.n-tabbar-type\:outline .n-tab.active,
+.n-tabbar\:outline > li.active > a,
+.n-tabbar\:outline > li.active > button,
+.n-tabbar\:outline .n-tab.active {
+  color: rgba(0, 0, 0, 0.87);
+
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: var(--color-base-3);
+  border-bottom: 1px solid #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 /* disabled ---------------------------------------------------------------------------- */
