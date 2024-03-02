@@ -63,6 +63,41 @@
 </div>
 ```
 
+## Type
+
+`n-tabbar-type:타입` 또는 `n-tabbar:타입` 약어 클래스를 통해 다양한 탭바 타입을 적용할 수 있습니다.
+:::raw
+<ExampleSection class="flex-direction:column align-items:center gap:8 background-color:base-1">
+<template #h>예시</template>
+
+  <ul class="n-tabbar n-tabbar-type:underline">
+    <li class="active"><button>All</button></li>
+    <li><button>Chat</button></li>
+    <li><button>Users</button></li>
+  </ul>
+
+  <ul class="n-tabbar n-tabbar-type:outline">
+    <li class="active"><button>All</button></li>
+    <li><button>Chat</button></li>
+    <li><button>Users</button></li>
+  </ul>
+</ExampleSection>
+:::
+
+```html
+<ul class="n-tabbar n-tabbar-type:underline">
+  <li class="active"><button>All</button></li>
+  <li><button>Chat</button></li>
+  <li><button>Users</button></li>
+</ul>
+
+<ul class="n-tabbar n-tabbar-type:outline">
+  <li class="active"><button>All</button></li>
+  <li><button>Chat</button></li>
+  <li><button>Users</button></li>
+</ul>
+```
+
 ## Tab Position
 
 `n-tabbar` 클래스와 함께 `n-tab-poistion:값` 또는 `n-tab-pos:값` 약어 클래스를 통해 tab의 위치를 조정할 수 있습니다.
@@ -187,7 +222,10 @@
 
 ```css
 .n-tabbar {
-  --tabbar-border-bottom: 1px solid var(--color-base-2);
+  --tabbar-border-width: 0 0 1px 0;
+  --tabbar-border-style: solid;
+  --tabbar-border-color: var(--color-base-3);
+  --tabbar-border-color-active: var(--color-main-2);
 
   --tab-color-active: var(--color-main-2);
 }
