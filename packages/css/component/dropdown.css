@@ -31,7 +31,7 @@
   --dropdown-padding: 4px;
   --dropdown-border-radius: 8px;
   --dropdown-border: 1px solid var(--color-base-3);
-  --dropdown-z-index: 1000;
+  --dropdown-z-index: 900;
 
   --dropdown-offset: 6px; /* 드롭다운과 드롭다운 버튼(트리거)의 떨어진 정도 */
 
