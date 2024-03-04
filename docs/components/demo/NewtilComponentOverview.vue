@@ -110,12 +110,12 @@
       </a>
     </section>
 
-    <!-- Pagination -->
+    <!-- Pager -->
     <section class="n-item">
-      <a href="../components/pagination">
-        <h1>Pagination</h1>
-        <ul class="n-pagination jc:center">
-          <li><span>1</span></li>
+      <a href="../components/pager">
+        <h1>Pager</h1>
+        <ul class="n-pager jc:center">
+          <li class="active"><span>1</span></li>
           <li><span>2</span></li>
           <li><span>3</span></li>
         </ul>

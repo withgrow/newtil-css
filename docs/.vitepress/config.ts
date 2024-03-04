@@ -98,8 +98,8 @@ export default defineConfig({
             link: '/modal'
           },
           {
-            text: 'Pagination',
-            link: '/pagination'
+            text: 'Pager',
+            link: '/pager'
           },
           {
             text: 'Panel',

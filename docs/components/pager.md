@@ -1,19 +1,19 @@
 <script setup></script>
 
-# 페이지네이션 (Pagination)
+# 페이저 (Pager)
 
-페이지네이션 컴포넌트는 페이지 정보를 탐색하는데 사용되는 컴포넌트입니다.
+페이저 컴포넌트는 나누어진 콘텐츠를 찾아가기 위한 링크를 나타내는 컴포넌트입니다.
 
-<QuickLinks :componentName="'Pagination'"/>
+<QuickLinks :componentName="'pager'"/>
 
 ## Usage
 
-페이지네이션 컴포넌트는 `ul` 요소에 `n-pagination` 클래스를 적용하고, 활성화된 페이지를 `li` 요소에 `active` 클래스를 추가하여 나타냅니다. 페이지 번호는 내부 `<button>` 또는 `<a> `요소로 나타낼 수 있습니다.
+페이저 컴포넌트는 `ul` 요소에 `n-pager` 클래스를 적용하고, 활성화된 페이지를 `li` 요소에 `active` 클래스를 추가하여 나타냅니다. 페이지 번호는 내부 `<button>` 또는 `<a> `요소로 나타낼 수 있습니다.
 
 :::raw
 <ExampleSection>
 
-<ul class="n-pagination">
+<ul class="n-pager">
   <li class="active"><a>1</a></li>
   <li><a>2</a></li>
   <li><a>3</a></li>
@@ -22,19 +22,19 @@
 :::
 
 ```html
-<ul class="n-pagination">
+<ul class="n-pager">
   <li class="active"><a>1</a></li>
   <li><a>2</a></li>
   <li><a>3</a></li>
 </ul>
 ```
 
-`n-pagination`와 함께 `n-page` 클래스를 사용하여 페이지네이션을 `ul`, `li` 요소로 구성하지 않고 다른 요소를 사용하는 방법도 있습니다.
+`n-pager`와 함께 `n-page` 클래스를 사용하여 페이지네이션을 `ul`, `li` 요소로 구성하지 않고 다른 요소를 사용하는 방법도 있습니다.
 
 :::raw
 <ExampleSection>
 
-<div class="n-pagination">
+<div class="n-pager">
   <button class="n-page active">1</button>
   <button class="n-page">2</button>
   <button class="n-page">3</button>
@@ -43,7 +43,7 @@
 :::
 
 ```html
-<div class="n-pagination">
+<div class="n-pager">
   <button class="n-page active">1</button>
   <button class="n-page">2</button>
   <button class="n-page">3</button>
@@ -57,7 +57,7 @@
 :::raw
 <ExampleSection class="flex-direction:column align-items:center gap:4">
 
-<ul class="n-pagination">
+<ul class="n-pager">
   <li class="disabled">
     <a>1</a>
   </li>
@@ -69,7 +69,7 @@
   </li>
 </ul>
 
-<div class="n-pagination">
+<div class="n-pager">
   <button class="n-page disabled">
     1
   </button>
@@ -84,7 +84,7 @@
 :::
 
 ```html
-<ul class="n-pagination">
+<ul class="n-pager">
   <li class="disabled">
     <a>1</a>
   </li>
@@ -96,11 +96,11 @@
   </li>
 </ul>
 
-<div class="n-pagination">
+<div class="n-pager">
   <button class="n-page disabled">1</button>
   <button class="n-page">2</button>
   <button class="n-page">3</button>
 </div>
 ```
 
-<QuickLinks :componentName="'Pagination'"/>
+<QuickLinks :componentName="'Pager'"/>
