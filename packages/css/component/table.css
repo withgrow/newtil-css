@@ -77,6 +77,8 @@
   --table-border-radius-5: 16px;
   
   --table-background-color: var(--color-base-1);
+  --table-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+
   --table-thead-background-color: var(--color-base-1);
 
   --table-row-height: 40px;
@@ -335,7 +337,7 @@
 
 /* ----------- var [ n-table-hover ] -----------  */
 .n-table.n-table-hover > tbody > tr:hover {
-  background-color: rgba(var(--rgb-base-10), 0.05);
+  background-color: var(--table-background-color-hover);
 }
 
 /* ------------------------------- */
