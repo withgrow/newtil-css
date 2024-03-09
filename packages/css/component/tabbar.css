@@ -1,5 +1,9 @@
 .n-tabbar {
-  --tabbar-border-bottom: 1px solid var(--color-base-2);
+  --tabbar-border-width: 0 0 1px 0;
+  --tabbar-border-style: solid;
+  --tabbar-border-color: var(--color-base-3);
+
+  --tabbar-border-color-active: var(--color-main-2);
 
   --tab-color-active: var(--color-main-2);
 }
@@ -7,45 +11,46 @@
 .n-tabbar {
   position: relative;
   display: flex;
-
   width: 100%;
-  border-bottom: var(--tabbar-border-bottom);
-
-  overflow: auto;
+  overflow-x: auto;
 }
 
-.n-tabbar > li,
-.n-tabbar .n-tab {
+/* 하단 border */
+.n-tabbar::before {
+  content: "";
+  position: absolute;
+  border-width: var(--tabbar-border-width);
+  border-style: var(--tabbar-border-style);
+  border-color: var(--tabbar-border-color);
+  inset-inline: 0;
+  bottom: 0;
+}
+
+/* tab style */
+.n-tabbar .n-tab,
+.n-tabbar > li > a,
+.n-tabbar > li > button {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 
+  padding: 8px 16px;
   background-color: transparent;
-  border-bottom: 1px solid transparent;
+  border-width: var(--tabbar-border-width);
+  border-style: var(--tabbar-border-style);
+  border-color: transparent;
 
   font-size: 14px;
   font-weight: 500;
-  color: rgba(var(--rgb-base-10), 0.6);
 
   cursor: pointer;
-}
-
-.n-tabbar > li > a,
-.n-tabbar > li > button {
-  padding: 8px 16px;
-  background-color: inherit;
-  color: inherit;
-  font: inherit;
-  cursor: inherit;
   white-space: nowrap;
   transition: border-color 0.13s, background-color 0.13s;
-}
-.n-tabbar .n-tab {
-  padding: 8px 16px;
-  white-space: nowrap;
-  transition: border-color 0.13s, background-color 0.13s;
+  z-index: 0;
 }
 
+/* tab click */
 .n-tabbar > li:not(.active, .disabled) > a:active,
 .n-tabbar > li:not(.active, .disabled) > button:active,
 .n-tabbar .n-tab:not(.active, .disabled):active {
@@ -53,10 +58,34 @@
   background-color: rgba(var(--rgb-base-10), 0.05);
 }
 
-/* active ---------------------------------------------------------------------------- */
-.n-tabbar .active {
+/* n-tabbar-type ---------------------------------------------------------------------------- */
+/* underline (default) + active */
+.n-tabbar > li.active > a,
+.n-tabbar > li.active > button,
+.n-tabbar-type\:underline > li.active > a,
+.n-tabbar-type\:underline > li.active > button,
+.n-tabbar\:underline > li.active > a,
+.n-tabbar\:underline > li.active > button,
+.n-tabbar .n-tab.active {
   color: var(--tab-color-active);
-  border-color: var(--tab-color-active);
+  border-color: var(--tabbar-border-color-active);
+}
+
+/* outline */
+.n-tabbar-type\:outline > li.active > a,
+.n-tabbar-type\:outline > li.active > button,
+.n-tabbar-type\:outline .n-tab.active,
+.n-tabbar\:outline > li.active > a,
+.n-tabbar\:outline > li.active > button,
+.n-tabbar\:outline .n-tab.active {
+  color: rgba(0, 0, 0, 0.87);
+
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: var(--color-base-3);
+  border-bottom: 1px solid #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 /* disabled ---------------------------------------------------------------------------- */
@@ -66,6 +95,11 @@
 }
 
 /* n-tab-grow ---------------------------------------------------------------------------- */
+.n-tabbar.n-tab-grow > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .n-tabbar.n-tab-grow > li,
 .n-tabbar.n-tab-grow > li > button,
 .n-tabbar.n-tab-grow > li > a,

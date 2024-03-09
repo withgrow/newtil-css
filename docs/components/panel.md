@@ -95,10 +95,13 @@
 
   --side-panel-width-md: 64px; /* 태블릿에서의 side-panel 너비 */
   --side-panel-width-lg: 260px; /* PC에서의 side-panel 너비 */
-  --side-panel-height: calc(100vh - var(--top-panel-height)); /* side-panel 높이 */
   --side-panel-background-color: var(--color-base-1); /* side-panel background-color */
   --side-panel-box-shadow: none; /* side-panel의 box-shadow */
   --side-panel-border-right: 1px solid var(--color-base-3); /* side-panel의 border-right */
+
+  --main-panel-background-color: var(--color-base-1); /* main-panel의 background-color */
+  --main-panel-padding: var(--top-panel-height) 0; /* main-panel의 padding */
+  --main-panel-height: calc(100vh - var(--top-panel-height)); /* main-panel의 높이 */
 }
 ```
 

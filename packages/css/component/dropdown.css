@@ -3,9 +3,15 @@
 <div class="n-dropdown">
   <button aria-expanded="true">open</button>
   <ul class="active">
-    <li>item-1</li>
-    <li>item-2</li>
-    <li>item-3</li>
+    <li>
+      <button>item-1</button>
+    </li>
+    <li>
+      <button>item-2</button>
+    </li>
+    <li>
+      <button>item-3</button>
+    </li>
   </ul>
 </div>
 
@@ -31,7 +37,7 @@
   --dropdown-padding: 4px;
   --dropdown-border-radius: 8px;
   --dropdown-border: 1px solid var(--color-base-3);
-  --dropdown-z-index: 1000;
+  --dropdown-z-index: 900;
 
   --dropdown-offset: 6px; /* 드롭다운과 드롭다운 버튼(트리거)의 떨어진 정도 */
 
@@ -60,14 +66,17 @@
   z-index: var(--dropdown-z-index);
 }
 
-.n-dropdown > ul > li,
+.n-dropdown > ul > li > a,
+.n-dropdown > ul > li > button,
 .n-dropdown .n-dropdown-item {
+  display: block;
   width: 100%;
   padding: var(--dropdown-item-padding);
   border-radius: var(--dropdown-item-border-radius);
 
   font-size: 14px;
   font-weight: 500;
+  text-align: inherit; /* button 안의 컨텐츠 좌측정렬 */
 
   overflow: hidden;
   transition: background-color 0.13s;

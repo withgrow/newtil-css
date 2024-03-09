@@ -30,19 +30,23 @@
 
   --side-panel-width-md: 64px;
   --side-panel-width-lg: 260px;
-  --side-panel-height: calc(100vh - var(--top-panel-height));
   --side-panel-background-color: var(--color-base-1);
   --side-panel-box-shadow: none;
   --side-panel-border-right: 1px solid var(--color-base-3);
+
+  --main-panel-min-height: 100dvh;
+  --main-panel-padding: var(--top-panel-height) 0;
+  --main-panel-background-color: var(--color-base-1);
 }
 
 /* top-panel ------------------------------------------------------------- */
 .n-top-panel {
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
 
+  width: 100%;
   min-height: var(--top-panel-height);
   background-color: var(--top-panel-background-color);
   border-bottom: var(--top-panel-border-bottom);
@@ -53,15 +57,16 @@
 
 /* main-panel ------------------------------------------------------------- */
 .n-main-panel {
-  height: 100%;
+  min-height: var(--main-panel-min-height);
+  padding: var(--main-panel-padding) 0;
+  background-color: var(--main-panel-background-color);
 
   will-change: padding;
   transition: padding 0.3s;
 }
 
-/* main-panel + side-panel ------------------------------------------------------------- */
+/* main-panel + side-panel  */
 .n-side-panel ~ .n-main-panel {
-  padding-top: 32px;
   padding-bottom: 192px;
 }
 
@@ -83,7 +88,7 @@
   display: none;
 
   width: var(--side-panel-width-md);
-  height: var(--side-panel-height);
+  height: 100vh;
   background-color: var(--side-panel-background-color);
   border-right: var(--side-panel-border-right);
   box-shadow: var(--side-panel-box-shadow);
@@ -100,6 +105,12 @@
   .n-side-panel {
     width: var(--side-panel-width-lg);
   }
+}
+
+/* top-panel + side-panel */
+.n-top-panel ~ .n-side-panel {
+  top: calc(var(--top-panel-height));
+  height: calc(100vh - var(--top-panel-height));
 }
 
 /* menu-panel ------------------------------------------------------------- */

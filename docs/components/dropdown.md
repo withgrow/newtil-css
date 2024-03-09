@@ -21,9 +21,15 @@ import DropdownDomExample from "./demo/DropdownDomExample.vue";
     open
   </button>
   <ul class="active position:relative z-index:1">
-    <li>item-1</li>
-    <li>item-2</li>
-    <li>item-3</li>
+    <li>
+      <button>item-1</button>
+    </li>
+    <li>
+      <button>item-2</button>
+    </li>
+    <li>
+      <button>item-3</button>
+    </li>
   </ul>
 </div>
 </ExampleSection>
@@ -95,12 +101,12 @@ JavaScript DOM을 활용하여 인터랙티브한 드롭다운 컴포넌트를 �
 
 ```javascript
 // JavaScript
-window.addEventListener('load', function () {
-  const dropdownButton = document.getElementById('dropdown-btn');
-  const dropdownList = document.getElementById('dropdown-list');
+window.addEventListener("load", function () {
+  const dropdownButton = document.getElementById("dropdown-btn");
+  const dropdownList = document.getElementById("dropdown-list");
 
-  dropdownButton.addEventListener('click', function () {
-    dropdownList.classList.toggle('active');
+  dropdownButton.addEventListener("click", function () {
+    dropdownList.classList.toggle("active");
   });
 });
 ```
@@ -118,7 +124,7 @@ window.addEventListener('load', function () {
   --dropdown-padding: 4px;
   --dropdown-border-radius: 8px;
   --dropdown-border: 1px solid var(--color-base-3);
-  --dropdown-z-index: 1000;
+  --dropdown-z-index: 900;
 
   --dropdown-offset: 6px; /* 드롭다운과 드롭다운 버튼(트리거)의 떨어진 정도 */
 
@@ -138,9 +144,15 @@ window.addEventListener('load', function () {
       open
     </button>
     <ul class="active position:relative z-index:1">
-      <li>item-1</li>
-      <li>item-2</li>
-      <li>item-3</li>
+      <li>
+        <button>item-1</button>
+      </li>
+      <li>
+        <button>item-2</button>
+      </li>
+      <li>
+        <button>item-3</button>
+      </li>
     </ul>
   </div>
 </ExampleSection>
@@ -152,9 +164,15 @@ window.addEventListener('load', function () {
     open
   </button>
   <ul class="active">
-    <li>item-1</li>
-    <li>item-2</li>
-    <li>item-3</li>
+    <li>
+      <button>item-1</button>
+    </li>
+    <li>
+      <button>item-2</button>
+    </li>
+    <li>
+      <button>item-3</button>
+    </li>
   </ul>
 </div>
 ```
@@ -191,19 +209,31 @@ window.addEventListener('load', function () {
   <div class="n-dropdown">
     <ul class="active position:relative z-index:1">
       <li>
-        <span class="va:middle deco deco-size:2 icon:plus">
-          추가하기
-        </span>
+        <button>
+          <span
+            class="va:middle deco deco-size:2 icon:plus"
+          >
+            추가하기
+          </span>
+        </button>
       </li>
       <li>
-        <span class="va:middle deco deco-size:2 icon:pencil_simple">
-          수정하기
-        </span>
+        <button>
+          <span
+            class="va:middle deco deco-size:2 icon:pencil_simple"
+          >
+            수정하기
+          </span>
+        </button>
       </li>
       <li>
-        <span class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2">
-          삭제하기
-        </span>
+        <button>
+          <span
+            class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2"
+          >
+            삭제하기
+          </span>
+        </button>
       </li>
     </ul>
   </div>
@@ -216,18 +246,25 @@ window.addEventListener('load', function () {
 <div class="n-dropdown">
   <ul class="active position:relative z-index:1">
     <li>
-      <span class="va:middle deco deco-size:2 icon:plus">추가하기</span>
+      <button>
+        <span class="va:middle deco deco-size:2 icon:plus">추가하기</span>
+      </button>
     </li>
     <li>
-      <span class="va:middle deco deco-size:2 icon:pencil_simple">
-        수정하기
-      </span>
+      <button>
+        <span class="va:middle deco deco-size:2 icon:pencil_simple">
+          수정하기
+        </span>
+      </button>
     </li>
     <li>
-      <span
-        class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2">
-        삭제하기
-      </span>
+      <button>
+        <span
+          class="va:middle deco deco-size:2 deco-color:accent-2 icon:trash color:accent-2"
+        >
+          삭제하기
+        </span>
+      </button>
     </li>
   </ul>
 </div>
