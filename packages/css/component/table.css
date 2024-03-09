@@ -69,50 +69,43 @@
 /*              table              */
 /* ------------------------------- */
 .n-table {
-  --table-cell-height: 40px;
-  --table-cell-height-1: 32px;
-  --table-cell-height-2: 40px;
-  --table-cell-height-3: 48px;
-  --table-cell-padding-x: 16px;
-
   --table-border-radius: 16px;
   --table-border-radius-1: 0;
   --table-border-radius-2: 4px;
   --table-border-radius-3: 8px;
   --table-border-radius-4: 12px;
   --table-border-radius-5: 16px;
+  
+  --table-background-color: var(--color-base-1);
+  --table-thead-background-color: var(--color-base-1);
 
+  --table-row-height: 40px;
+  --table-row-height-1: 32px;
+  --table-row-height-2: 40px;
+  --table-row-height-3: 48px;
+  --table-cell-padding-x: 16px;
+  
   table-layout: fixed;
-
   border-collapse: collapse;
-  background-color: var(--color-base-1);
 
+  background-color: var(--table-background-color);
+  
   width: 100%;
 }
 
 /* -------- [ default style ] -------- */
+.n-table > thead {
+  background-color: var(--table-thead-background-color);
+}
 
-/* cell style */
-.n-table > * > * > * {
-  height: var(--table-cell-height);
-
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
-  padding-left: var(--table-cell-padding-x);
-  padding-right: var(--table-cell-padding-x);
+/* row style */
+.n-table > * > *  {
+  height: var(--table-row-height);
 }
 
 /* thead row style */
 .n-table > thead > * {
   border-bottom: 1px solid var(--color-base-4);
-}
-
-/* thead cell style */
-.n-table > thead > * > * {
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: 600;
 }
 
 /* tbody row style */
@@ -123,26 +116,40 @@
   border-bottom: 1px solid var(--color-base-2);
 }
 
+/* cell style */
+.n-table > * > * > * {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  padding-left: var(--table-cell-padding-x);
+  padding-right: var(--table-cell-padding-x);
+}
+
+/* thead cell style */
+.n-table > thead > * > * {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
 /* tbody cell style */
 .n-table > tbody > * > * {
   font-weight: 400;
 }
 
-/* -------- [ default style ] end-------- */
-
-/* ----------- var [ cell-height ] ----------- */
-.n-table.n-cell-height\:1 > * > * > *,
-.n-table.n-cell-h\:1 > * > * > * {
-  height: var(--table-cell-height-1);
+/* ----------- var [ row-height ] ----------- */
+.n-table.n-row-height\:1 > * > * ,
+.n-table.n-row-h\:1 > * > *  {
+  height: var(--table-row-height-1);
 }
 
-.n-table.n-cell-height\:2 > * > * > *,
-.n-table.n-cell-h\:2 > * > * > * {
-  height: var(--table-cell-height-2);
+.n-table.n-row-height\:2 > * > *,
+.n-table.n-row-h\:2 > * > * {
+  height: var(--table-row-height-2);
 }
-.n-table.n-cell-height\:3 > * > * > *,
-.n-table.n-cell-h\:3 > * > * > * {
-  height: var(--table-cell-height-3);
+.n-table.n-row-height\:3 > * > *,
+.n-table.n-row-h\:3 > * > * {
+  height: var(--table-row-height-3);
 }
 
 /* ----------- var [ table-style ] -----------  */
@@ -160,13 +167,25 @@
   box-shadow: 0 0 0 1px var(--color-base-2);
 }
 
-.n-table.n-table-border tr:last-child > :first-child,
-.n-table.n-table-bd tr:last-child > :first-child {
+/* for thead background-color */
+.n-table.n-table-border > thead th:first-child,
+.n-table.n-table-bd > thead th:first-child {
+  border-top-left-radius: var(--table-border-radius);
+}
+
+.n-table.n-table-border > thead th:last-child,
+.n-table.n-table-bd > thead th:last-child {
+  border-top-right-radius: var(--table-border-radius);
+}
+
+/* for hover */
+.n-table.n-table-border > tbody > tr:last-child > :first-child,
+.n-table.n-table-bd > tbody > tr:last-child > :first-child {
   border-bottom-left-radius: var(--table-border-radius);
 }
 
-.n-table.n-table-border tr:last-child > :last-child,
-.n-table.n-table-bd tr:last-child > :last-child {
+.n-table.n-table-border > tbody > tr:last-child > :last-child,
+.n-table.n-table-bd > tbody > tr:last-child > :last-child {
   border-bottom-right-radius: var(--table-border-radius);
 }
 
@@ -190,13 +209,23 @@
   border-radius: var(--table-border-radius-1);
 }
 
-.n-table.n-table-border-radius\:1 tr:last-child > :first-child,
-.n-table.n-table-bd-radius\:1 tr:last-child > :first-child {
+.n-table.n-table-border-radius\:1 > thead th:first-child,
+.n-table.n-table-bd-radius\:1 > thead th:first-child {
+  border-top-left-radius: var(--table-border-radius-1);
+}
+
+.n-table.n-table-border-radius\:1 > thead th:last-child,
+.n-table.n-table-bd-radius\:1 > thead th:last-child {
+  border-top-right-radius: var(--table-border-radius-1);
+}
+
+.n-table.n-table-border-radius\:1 > tbody > tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:1 > tbody > tr:last-child > :first-child {
   border-bottom-left-radius: var(--table-border-radius-1);
 }
 
-.n-table.n-table-border-radius\:1 tr:last-child > :last-child,
-.n-table.n-table-bd-radius\:1 tr:last-child > :last-child {
+.n-table.n-table-border-radius\:1 > tbody > tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:1 > tbody > tr:last-child > :last-child {
   border-bottom-right-radius: var(--table-border-radius-1);
 }
 
@@ -206,13 +235,23 @@
   border-radius: var(--table-border-radius-2);
 }
 
-.n-table.n-table-border-radius\:2 tr:last-child > :first-child,
-.n-table.n-table-bd-radius\:2 tr:last-child > :first-child {
+.n-table.n-table-border-radius\:2 > thead th:first-child,
+.n-table.n-table-bd-radius\:2 > thead th:first-child {
+  border-top-left-radius: var(--table-border-radius-2);
+}
+
+.n-table.n-table-border-radius\:2 > thead th:last-child,
+.n-table.n-table-bd-radius\:2 > thead th:last-child {
+  border-top-right-radius: var(--table-border-radius-2);
+}
+
+.n-table.n-table-border-radius\:2 > tbody > tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:2 > tbody > tr:last-child > :first-child {
   border-bottom-left-radius: var(--table-border-radius-2);
 }
 
-.n-table.n-table-border-radius\:2 tr:last-child > :last-child,
-.n-table.n-table-bd-radius\:2 tr:last-child > :last-child {
+.n-table.n-table-border-radius\:2 > tbody > tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:2 > tbody > tr:last-child > :last-child {
   border-bottom-right-radius: var(--table-border-radius-2);
 }
 
@@ -222,13 +261,23 @@
   border-radius: var(--table-border-radius-3);
 }
 
-.n-table.n-table-border-radius\:3 tr:last-child > :first-child,
-.n-table.n-table-bd-radius\:3 tr:last-child > :first-child {
+.n-table.n-table-border-radius\:3 > thead th:first-child,
+.n-table.n-table-bd-radius\:3 > thead th:first-child {
+  border-top-left-radius: var(--table-border-radius-3);
+}
+
+.n-table.n-table-border-radius\:3 > thead th:last-child,
+.n-table.n-table-bd-radius\:3 > thead th:last-child {
+  border-top-right-radius: var(--table-border-radius-3);
+}
+
+.n-table.n-table-border-radius\:3 > tbody > tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:3 > tbody > tr:last-child > :first-child {
   border-bottom-left-radius: var(--table-border-radius-3);
 }
 
-.n-table.n-table-border-radius\:3 tr:last-child > :last-child,
-.n-table.n-table-bd-radius\:3 tr:last-child > :last-child {
+.n-table.n-table-border-radius\:3 > tbody > tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:3 > tbody > tr:last-child > :last-child {
   border-bottom-right-radius: var(--table-border-radius-3);
 }
 
@@ -238,13 +287,23 @@
   border-radius: var(--table-border-radius-4);
 }
 
-.n-table.n-table-border-radius\:4 tr:last-child > :first-child,
-.n-table.n-table-bd-radius\:4 tr:last-child > :first-child {
+.n-table.n-table-border-radius\:4 > thead th:first-child,
+.n-table.n-table-bd-radius\:4 > thead th:first-child {
+  border-top-left-radius: var(--table-border-radius-4);
+}
+
+.n-table.n-table-border-radius\:4 > thead th:last-child,
+.n-table.n-table-bd-radius\:4 > thead th:last-child {
+  border-top-right-radius: var(--table-border-radius-4);
+}
+
+.n-table.n-table-border-radius\:4 > tbody > tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:4 > tbody > tr:last-child > :first-child {
   border-bottom-left-radius: var(--table-border-radius-4);
 }
 
-.n-table.n-table-border-radius\:4 tr:last-child > :last-child,
-.n-table.n-table-bd-radius\:4 tr:last-child > :last-child {
+.n-table.n-table-border-radius\:4 > tbody > tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:4 > tbody > tr:last-child > :last-child {
   border-bottom-right-radius: var(--table-border-radius-4);
 }
 
@@ -254,13 +313,23 @@
   border-radius: var(--table-border-radius-5);
 }
 
-.n-table.n-table-border-radius\:5 tr:last-child > :first-child,
-.n-table.n-table-bd-radius\:5 tr:last-child > :first-child {
+.n-table.n-table-border-radius\:5 > thead th:first-child,
+.n-table.n-table-bd-radius\:5 > thead th:first-child {
+  border-top-left-radius: var(--table-border-radius-5);
+}
+
+.n-table.n-table-border-radius\:5 > thead th:last-child,
+.n-table.n-table-bd-radius\:5 > thead th:last-child {
+  border-top-right-radius: var(--table-border-radius-5);
+}
+
+.n-table.n-table-border-radius\:5 > tbody > tr:last-child > :first-child,
+.n-table.n-table-bd-radius\:5 > tbody > tr:last-child > :first-child {
   border-bottom-left-radius: var(--table-border-radius-5);
 }
 
-.n-table.n-table-border-radius\:5 tr:last-child > :last-child,
-.n-table.n-table-bd-radius\:5 tr:last-child > :last-child {
+.n-table.n-table-border-radius\:5 > tbody > tr:last-child > :last-child,
+.n-table.n-table-bd-radius\:5 > tbody > tr:last-child > :last-child {
   border-bottom-right-radius: var(--table-border-radius-5);
 }
 
@@ -273,59 +342,57 @@
 /*             bbs-table           */
 /* ------------------------------- */
 
-.n-bbs-table {
-  --table-cell-width-1: 100px;
-  --table-cell-width-2: 120px;
-  --table-cell-width-3: 140px;
+.n-table {
+  --bbs-table-first-column-width: 50px;
+  --bbs-table-last-column-width: 100px;
+
+  --bbs-table-detail-column-width: 120px;
+  --bbs-table-detail-column-width-1: 100px;
+  --bbs-table-detail-column-width-2: 120px;
+  --bbs-table-detail-column-width-3: 140px;
 }
 
 /* -------- [ default style ] -------- */
-
-/* first-column */
+/* first column */
 .n-bbs-table > * > * > :first-child {
-  width: 50px;
+  width: var(--bbs-table-first-column-width);
 }
 
-/* third~ column */
-.n-bbs-table > * > * > :nth-child(n + 3) {
-  width: var(--table-cell-width-2);
+/* last column */
+.n-bbs-table > * > * > :last-child {
+  width: var(--bbs-table-last-column-width);
 }
 
-/* ------------ var [ cell-width ] ------------ */
-.n-bbs-table.n-cell-width\:1 > * > * > :nth-child(n + 3),
-.n-bbs-table.n-cell-w\:1 > * > * > :nth-child(n + 3) {
-  width: var(--table-cell-width-1);
-}
-
-.n-bbs-table.n-cell-width\:2 > * > * > :nth-child(n + 3),
-.n-bbs-table.n-cell-w\:2 > * > * > :nth-child(n + 3) {
-  width: var(--table-cell-width-2);
-}
-
-.n-bbs-table.n-cell-width\:3 > * > * > :nth-child(n + 3),
-.n-bbs-table.n-cell-w\:3 > * > * > :nth-child(n + 3) {
-  width: var(--table-cell-width-3);
+/* (3rd ~ last-1) column hidden */
+.n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+  display: none;
 }
 
 /* mobile */
-@media (max-width: 768px) {
-  .n-bbs-table {
-    table-layout: auto;
+@media (min-width: 768px) {
+  /* (3rd ~ last-1) column show */
+  .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+    display: table-cell;
   }
   
-  /* id, 제목, 메뉴 칼럼 제외하고 가리기 */
+  .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)),
   .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
-    display: none;
+    width: var(--bbs-table-detail-column-width);
   }
 
-  /* 메뉴 칼럼 너비 고정 */
-  .n-bbs-table > * > * > :last-child,
-  .n-bbs-table.n-cell-width\:1 > * > * > :last-child,
-  .n-bbs-table.n-cell-width\:2 > * > * > :last-child,
-  .n-bbs-table.n-cell-width\:3 > * > * > :last-child,
-  .n-bbs-table.n-cell-w\:1 > * > * > :last-child,
-  .n-bbs-table.n-cell-w\:2 > * > * > :last-child,
-  .n-bbs-table.n-cell-w\:3 > * > * > :last-child {
-    width: 50px;
-  }
+  /* ------------ var [ column-width ] ------------ */
+.n-bbs-table.n-column-width\:1 > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)),
+.n-bbs-table.n-column-w\:1 > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+  width: var(--bbs-table-detail-column-width-1);
+}
+
+.n-bbs-table.n-column-width\:2 > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)),
+.n-bbs-table.n-column-w\:2 > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+  width: var(--bbs-table-detail-column-width-2);
+}
+
+.n-bbs-table.n-column-width\:3 > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)),
+.n-bbs-table.n-column-w\:3 > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
+  width: var(--bbs-table-detail-column-width-3);
+}
 }
