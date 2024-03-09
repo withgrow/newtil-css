@@ -121,7 +121,7 @@
 
 ::: raw
 
-<table class="n-table n-cell-height:1 n-table-border my:4">
+<table class="n-table n-row-height:1 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -150,7 +150,7 @@
 
 ::: raw
 
-<table class="n-table n-cell-height:2 n-table-border my:4">
+<table class="n-table n-row-height:2 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -179,7 +179,7 @@
 
 ::: raw
 
-<table class="n-table n-cell-height:3 n-table-border my:4">
+<table class="n-table n-row-height:3 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -210,7 +210,7 @@
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-width:1 n-table-border my:4">
+<table class="n-table n-bbs-table n-column-width:1 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -239,7 +239,7 @@
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-width:2 n-table-border my:4">
+<table class="n-table n-bbs-table n-column-width:2 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -268,7 +268,7 @@
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-width:3 n-table-border my:4">
+<table class="n-table n-bbs-table n-column-width:3 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -610,7 +610,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-cell-height:1 n-table-border">
+<table class="n-table n-row-height:1 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -806,11 +806,11 @@
 
 ### Basic
 
-`n-table`은 `n-cell-height:값` 클래스를 통해 테이블의 셀 높이를 변경할 수 있습니다.
+`n-table`은 `n-row-height:값` 클래스를 통해 테이블의 셀 높이를 변경할 수 있습니다.
 
 ::: raw
 
-<table class="n-table n-cell-height:1 n-table-border my:4">
+<table class="n-table n-row-height:1 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -840,7 +840,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-cell-height:1 n-table-border">
+<table class="n-table n-row-height:1 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -870,7 +870,7 @@
 
 ::: raw
 
-<table class="n-table n-cell-height:2 n-table-border my:4">
+<table class="n-table n-row-height:2 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -900,7 +900,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-cell-height:2 n-table-border">
+<table class="n-table n-row-height:2 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -930,7 +930,7 @@
 
 ::: raw
 
-<table class="n-table n-cell-height:3 n-table-border my:4">
+<table class="n-table n-row-height:3 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -960,7 +960,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-cell-height:3 n-table-border">
+<table class="n-table n-row-height:3 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -999,11 +999,11 @@
   <tbody>
     <tr>
       <th>1</th>
-      <td><code>n-cell-height:1</code></td>
+      <td><code>n-row-height:1</code></td>
       <td>
         <span class="code">
           .n-table { <br/> 
-            --table-cell-height-1: 32px; <br/>
+            --table-row-height-1: 32px; <br/>
             --table-cell-padding-x: 16px; <br/>
           }
         </span>
@@ -1011,11 +1011,11 @@
     </tr>
     <tr>
       <th>2</th>
-      <td><code>n-cell-height:2</code></td>
+      <td><code>n-row-height:2</code></td>
       <td>
         <span class="code">
           .n-table { <br/> 
-            --table-cell-height-2: 40px; <br/>
+            --table-row-height-2: 40px; <br/>
             --table-cell-padding-x: 16px; <br/>
           }
         </span>
@@ -1023,11 +1023,11 @@
     </tr>
     <tr>
       <th>3</th>
-      <td><code>n-cell-height:3</code></td>
+      <td><code>n-row-height:3</code></td>
       <td>
         <span class="code">
           .n-table { <br/> 
-            --table-cell-height-3: 48px;<br/>
+            --table-row-height-3: 48px;<br/>
             --table-cell-padding-x: 16px; <br/>
           }
         </span>
@@ -1038,11 +1038,11 @@
 
 ### BBS
 
-`n-bbs-table`은 `n-cell-width:값` 클래스를 통해 테이블의 두 번째 컬럼 이후의 컬럼들에 대해 셀 너비를 변경할 수 있습니다.
+`n-bbs-table`은 `n-column-width:값` 클래스를 통해 테이블의 두 번째 컬럼 이후의 컬럼들에 대해 셀 너비를 변경할 수 있습니다.
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-width:1 n-table-border my:4">
+<table class="n-table n-bbs-table n-column-width:1 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1072,7 +1072,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-bbs-table n-cell-width:1 n-table-border">
+<table class="n-table n-bbs-table n-column-width:1 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1102,7 +1102,7 @@
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-width:2 n-table-border my:4">
+<table class="n-table n-bbs-table n-column-width:2 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1132,7 +1132,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-bbs-table n-cell-width:2 n-table-border">
+<table class="n-table n-bbs-table n-column-width:2 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1162,7 +1162,7 @@
 
 ::: raw
 
-<table class="n-table n-bbs-table n-cell-width:3 n-table-border my:4">
+<table class="n-table n-bbs-table n-column-width:3 n-table-border my:4">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1192,7 +1192,7 @@
 ::: details code
 
 ```html
-<table class="n-table n-bbs-table n-cell-width:3 n-table-border">
+<table class="n-table n-bbs-table n-column-width:3 n-table-border">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -1231,33 +1231,33 @@
   <tbody>
     <tr>
       <th>1</th>
-      <td><code>n-cell-width:1</code></td>
+      <td><code>n-column-width:1</code></td>
       <td>
         <span class="code">
-          .n-bbs-table { <br/> 
-            --table-cell-width-1: 32px; <br/>
+          .n-table { <br/> 
+            --bbs-table-detail-column-width-1: 100px; <br/>
           }
         </span>
       </td>
     </tr>
     <tr>
       <th>2</th>
-      <td><code>n-cell-width:2</code></td>
+      <td><code>n-column-width:2</code></td>
       <td>
         <span class="code">
-          .n-bbs-table { <br/> 
-            --table-cell-width-2: 40px; <br/>
+          .n-table { <br/> 
+            --bbs-table-detail-column-width-2: 120px; <br/>
           }
         </span>
       </td>
     </tr>
     <tr>
       <th>3</th>
-      <td><code>n-cell-width:3</code></td>
+      <td><code>n-column-width:3</code></td>
       <td>
         <span class="code">
-          .n-bbs-table { <br/> 
-            --table-cell-width-3: 48px;<br/>
+          .n-table { <br/> 
+            --bbs-table-detail-column-width-3: 140px;<br/>
           }
         </span>
       </td>
@@ -1339,7 +1339,12 @@
   <tbody>
     <tr>
       <td><code>n-table-hover</code></td>
-      <td></td>
+      <td>
+        <span class="code">
+          .n-table { <br/> 
+            --table-background-color-hover: rgba(var(--rgb-base-10), 0.05);<br/>
+          }
+        </span></td>
     </tr>
   </tbody>
 </table>
@@ -1533,29 +1538,6 @@
 ```
 
 :::
-
-<table>
-  <thead>
-    <tr>
-      <th scope="col">클래스</th>
-      <th scope="col">변수</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>n-table-border</code></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>n-table-border:bottom</code></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td><code>n-table-border:column</code></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
 
 ## Border Radius
 
@@ -1936,10 +1918,11 @@
 /* table.css */
 .n-table {
   /* table-cell-size */
+  --table-row-height: 40px;
+  --table-row-height-1: 32px;
+  --table-row-height-2: 40px;
+  --table-row-height-3: 48px;
   --table-cell-padding-x: 16px;
-  --table-cell-height-1: 32px;
-  --table-cell-height-2: 40px;
-  --table-cell-height-3: 48px;
 
   /* table-border-radius */
   --table-border-radius: 16px;
@@ -1948,13 +1931,24 @@
   --table-border-radius-3: 8px;
   --table-border-radius-4: 12px;
   --table-border-radius-5: 16px;
-}
 
-.n-bbs-table {
-  /* table-cell-size */
-  --table-cell-width-1: 100px;
-  --table-cell-width-2: 120px;
-  --table-cell-width-3: 140px;
+  /* table-background-color */
+  --table-background-color: var(--color-base-1);
+
+  /* table-background-color-hover */
+  --table-background-color-hover: rgba(var(--rgb-base-10), 0.05);
+
+  /* thead-background-color */
+  --table-thead-background-color: var(--color-base-1);
+
+  /* bbs-table-cell-size */
+  --bbs-table-first-column-width: 50px;
+  --bbs-table-last-column-width: 100px;
+
+  --bbs-table-detail-column-width: 120px;
+  --bbs-table-detail-column-width-1: 100px;
+  --bbs-table-detail-column-width-2: 120px;
+  --bbs-table-detail-column-width-3: 140px;
 }
 ```
 
@@ -2029,9 +2023,9 @@
 .n-table {
   /* table-cell-size */
   --table-cell-padding-x: 12px;
-  --table-cell-height-1: 24px;
-  --table-cell-height-2: 32px;
-  --table-cell-height-3: 40px;
+  --table-row-height-1: 24px;
+  --table-row-height-2: 32px;
+  --table-row-height-3: 40px;
 
   /* table-border-radius */
   --table-border-radius: 0px;
@@ -2042,11 +2036,9 @@
   --table-border-radius-5: 20px;
 }
 
-.n-bbs-table {
+.n-table {
   /* table-cell-size */
-  --table-cell-width-1: 100px;
-  --table-cell-width-2: 120px;
-  --table-cell-width-3: 140px;
+  --bbs-table-detail-column-width: 100px;
 }
 ```
 
@@ -2060,9 +2052,9 @@
 .n-table.example{
   /* table-cell-size */
   --table-cell-padding-x: 12px;
-  --table-cell-height-1: 24px;
-  --table-cell-height-2: 32px;
-  --table-cell-height-3: 40px;
+  --table-row-height-1: 24px;
+  --table-row-height-2: 32px;
+  --table-row-height-3: 40px;
 
   /* table-border-radius */
   --table-border-radius: 0px;
@@ -2073,11 +2065,9 @@
   --table-border-radius-5: 20px;
 }
 
-.n-bbs-table.example {
+.n-table.example {
   /* table-cell-size */
-  --table-cell-width-1: 100px;
-  --table-cell-width-2: 120px;
-  --table-cell-width-3: 140px;
+  --bbs-table-detail-column-width: 100px;
 }
 
 </style>
