@@ -46,7 +46,7 @@
 .height\:fit-content,     .h\:fit-content { height : fit-content !important; }
 .height\:auto,            .h\:auto { height : auto !important; }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .md\:height\:0,               .md\:h\:0 { height: var(--height-0) !important; }
     .md\:height\:1,               .md\:h\:1 { height: var(--height-1) !important; }
     .md\:height\:2,               .md\:h\:2 { height: var(--height-2) !important; }
@@ -89,7 +89,7 @@
     .md\:height\:auto,            .md\:h\:auto { height : auto !important; }
 }
 
-@media (min-height: 1200px) {
+@media (min-width: 1200px) {
     .lg\:height\:0,               .lg\:h\:0 { height: var(--height-0) !important; }
     .lg\:height\:1,               .lg\:h\:1 { height: var(--height-1) !important; }
     .lg\:height\:2,               .lg\:h\:2 { height: var(--height-2) !important; }
