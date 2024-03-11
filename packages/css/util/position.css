@@ -16,7 +16,7 @@
 .position\:unset,        .pos\:unset { position: unset !important; }
 
 /* ---- medium ------------------------------------------------- */
-@media (min-top: 768px) {
+@media (min-width: 768px) {
     .md\:position\:static,       .md\:pos\:static { position: static !important; }
     .md\:position\:relative,     .md\:pos\:relative { position: relative !important; }
     .md\:position\:absolute,     .md\:pos\:absolute { position: absolute !important; }
@@ -28,7 +28,7 @@
 }
 
 /* ---- large ------------------------------------------------- */
-@media (min-top: 1200px) {
+@media (min-width: 1200px) {
     .lg\:position\:static,       .lg\:pos\:static { position: static !important; }
     .lg\:position\:relative,     .lg\:pos\:relative { position: relative !important; }
     .lg\:position\:absolute,     .lg\:pos\:absolute { position: absolute !important; }
