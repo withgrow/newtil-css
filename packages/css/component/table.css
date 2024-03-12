@@ -371,7 +371,7 @@
 }
 
 /* mobile */
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   /* (3rd ~ last-1) column show */
   .n-bbs-table > * > * > :nth-child(n + 3):not(:nth-last-child(-n + 1)) {
     display: table-cell;
