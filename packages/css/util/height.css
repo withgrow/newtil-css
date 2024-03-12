@@ -46,7 +46,7 @@
 .height\:fit-content,     .h\:fit-content { height : fit-content !important; }
 .height\:auto,            .h\:auto { height : auto !important; }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .md\:height\:0,               .md\:h\:0 { height: var(--height-0) !important; }
     .md\:height\:1,               .md\:h\:1 { height: var(--height-1) !important; }
     .md\:height\:2,               .md\:h\:2 { height: var(--height-2) !important; }
@@ -89,7 +89,7 @@
     .md\:height\:auto,            .md\:h\:auto { height : auto !important; }
 }
 
-@media (min-height: 1200px) {
+@media (min-width: 1200px) {
     .lg\:height\:0,               .lg\:h\:0 { height: var(--height-0) !important; }
     .lg\:height\:1,               .lg\:h\:1 { height: var(--height-1) !important; }
     .lg\:height\:2,               .lg\:h\:2 { height: var(--height-2) !important; }
@@ -162,7 +162,7 @@
     min-height: fit-content !important;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .md\:min-height\:0,        .md\:min-h\:0 { min-height: var(--height-0) !important; }
     .md\:min-height\:1,        .md\:min-h\:1 { min-height: var(--height-1) !important; }
     .md\:min-height\:2,        .md\:min-h\:2 { min-height: var(--height-2) !important; }
@@ -193,7 +193,7 @@
     }
 }
 
-@media (min-height: 1200px) {
+@media (min-width: 1200px) {
     .lg\:min-height\:0,        .lg\:min-h\:0 { min-height: var(--height-0) !important; }
     .lg\:min-height\:1,        .lg\:min-h\:1 { min-height: var(--height-1) !important; }
     .lg\:min-height\:2,        .lg\:min-h\:2 { min-height: var(--height-2) !important; }
@@ -254,7 +254,7 @@
     max-height: fit-content !important;
 }
 
-@media (min-height: 768px) {
+@media (min-width: 768px) {
     .md\:max-height\:0,        .md\:max-h\:0 { max-height: var(--height-0) !important; }
     .md\:max-height\:1,        .md\:max-h\:1 { max-height: var(--height-1) !important; }
     .md\:max-height\:2,        .md\:max-h\:2 { max-height: var(--height-2) !important; }
@@ -285,7 +285,7 @@
     }
 }
 
-@media (min-height: 1200px) {
+@media (min-width: 1200px) {
     .lg\:max-height\:0,        .lg\:max-h\:0 { max-height: var(--height-0) !important; }
     .lg\:max-height\:1,        .lg\:max-h\:1 { max-height: var(--height-1) !important; }
     .lg\:max-height\:2,        .lg\:max-h\:2 { max-height: var(--height-2) !important; }
